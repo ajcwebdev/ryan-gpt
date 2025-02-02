@@ -1,15 +1,18 @@
 ## Done
 
 npm run as -- --video "https://www.youtube.com/watch?v=E5amN0_1XyE" --whisper turbo
+
+## Not Done
+
 npm run as -- --video "https://www.youtube.com/watch?v=kkUuaqDBSqA" --whisper turbo
 npm run as -- --video "https://www.youtube.com/watch?v=D1XN8j77Ntk" --whisper turbo
 npm run as -- --video "https://www.youtube.com/watch?v=zKXfcE7oTRY" --whisper turbo
 npm run as -- --video "https://www.youtube.com/watch?v=jfZdl3QckMM" --whisper turbo
-
-## Not Done
-
-npm run as -- --video "https://www.youtube.com/watch?v=ja4LIaxxUeA" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=0F9t_WeJ5p4" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=_EkUCF4HzWg" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=776vUMP16Fo" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=4TdOEe6liSE" --whisper turbo
-
+npm run as -- --video "https://www.youtube.com/watch?v=ja4LIaxxUeA" --whisper turbo
+npm run as -- --video "https://www.youtube.com/watch?v=0F9t_WeJ5p4" --whisper turbo
+npm run as -- --video "https://www.youtube.com/watch?v=_EkUCF4HzWg" --whisper turbo
+npm run as -- --video "https://www.youtube.com/watch?v=776vUMP16Fo" --whisper turbo
+npm run as -- --video "https://www.youtube.com/watch?v=4TdOEe6liSE" --whisper turbo
 npm run as -- --video "https://www.youtube.com/watch?v=oOhfZtUm-pE" --whisper turbo
 npm run as -- --video "https://www.youtube.com/watch?v=SkJiaRclTjM" --whisper turbo
 npm run as -- --video "https://www.youtube.com/watch?v=kz-p_017Usc" --whisper turbo
