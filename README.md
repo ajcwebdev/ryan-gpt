@@ -4,9 +4,6 @@
 npm run as -- --video "https://www.youtube.com/watch?v=E5amN0_1XyE" --whisper turbo
 # 2025-01-25 - Fine-Grained Rendering in Depth
 npm run as -- --video "https://www.youtube.com/watch?v=kkUuaqDBSqA" --whisper turbo
-
-## Running Now
-
 # 2025-01-11 - JavaScript Frameworks - Heading into 2025
 npm run as -- --video "https://www.youtube.com/watch?v=D1XN8j77Ntk" --whisper turbo
 # 2024-12-14 - Server Signals w/ Dev Agrawal
@@ -15,11 +12,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=zKXfcE7oTRY" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=jfZdl3QckMM" --whisper turbo
 # 2024-10-19 - Are There Actually That Many Different Ways to Build Web Apps?
 npm run as -- --video "https://www.youtube.com/watch?v=ja4LIaxxUeA" --whisper turbo
-
-## Not Done
-
 # 2024-10-12 - We Should Probably Talk about Web Components
 npm run as -- --video "https://www.youtube.com/watch?v=0F9t_WeJ5p4" --whisper turbo
+
+## Running Now
+
 # 2024-09-21 - What the head?
 npm run as -- --video "https://www.youtube.com/watch?v=_EkUCF4HzWg" --whisper turbo
 # 2024-09-07 - What's up with those Hydration IDs?
@@ -28,6 +25,9 @@ npm run as -- --video "https://www.youtube.com/watch?v=776vUMP16Fo" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=4TdOEe6liSE" --whisper turbo
 # 2024-08-10 - The Nature of Hydration
 npm run as -- --video "https://www.youtube.com/watch?v=oOhfZtUm-pE" --whisper turbo
+
+## Not Done
+
 # 2024-07-26 - Server Islands w/ Matthew Phillips
 npm run as -- --video "https://www.youtube.com/watch?v=SkJiaRclTjM" --whisper turbo
 # 2024-07-13 - Exploring Reactivity: Fine-Grained Derivation & Incremental Computation
