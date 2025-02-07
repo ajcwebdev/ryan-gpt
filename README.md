@@ -14,9 +14,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=jfZdl3QckMM" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=ja4LIaxxUeA" --whisper turbo
 # 2024-10-12 - We Should Probably Talk about Web Components
 npm run as -- --video "https://www.youtube.com/watch?v=0F9t_WeJ5p4" --whisper turbo
-
-## Running Now
-
 # 2024-09-21 - What the head?
 npm run as -- --video "https://www.youtube.com/watch?v=_EkUCF4HzWg" --whisper turbo
 # 2024-09-07 - What's up with those Hydration IDs?
@@ -25,9 +22,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=776vUMP16Fo" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=4TdOEe6liSE" --whisper turbo
 # 2024-08-10 - The Nature of Hydration
 npm run as -- --video "https://www.youtube.com/watch?v=oOhfZtUm-pE" --whisper turbo
-
-## Not Done
-
 # 2024-07-26 - Server Islands w/ Matthew Phillips
 npm run as -- --video "https://www.youtube.com/watch?v=SkJiaRclTjM" --whisper turbo
 # 2024-07-13 - Exploring Reactivity: Fine-Grained Derivation & Incremental Computation
@@ -36,6 +30,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=kz-p_017Usc" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=k3RU0ayAdW4" --whisper turbo
 # 2024-05-25 - We Are So Back
 npm run as -- --video "https://www.youtube.com/watch?v=VdDJbrh23zo" --whisper turbo
+
+## Running Now
+
+npm run as -- --video "https://www.youtube.com/watch?v=NDRV14_WDYA" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=qzOzyUA9kbg" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=sMbICJUGJj4" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=zaSvA6lorCA" --whisper turbo
+
 # 2024-04-20 - Ride the LightningJS w/ Chris Lorenzo
 npm run as -- --video "https://www.youtube.com/watch?v=NDRV14_WDYA" --whisper turbo
 # 2024-04-12 - Wiz: Behind the Curtain w/ Jatin Ramanathan
@@ -44,6 +43,9 @@ npm run as -- --video "https://www.youtube.com/watch?v=qzOzyUA9kbg" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=sMbICJUGJj4" --whisper turbo
 # 2024-03-16 - Dive Into AstroDB w/ Fred K Schott
 npm run as -- --video "https://www.youtube.com/watch?v=zaSvA6lorCA" --whisper turbo
+
+## Not Done
+
 # 2024-02-17 - Don't Go Chasing Waterfalls
 npm run as -- --video "https://www.youtube.com/watch?v=hiYQC4XaUu4" --whisper turbo
 # 2024-02-10 - What Comes After GraphQL?
