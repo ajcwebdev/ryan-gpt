@@ -50,15 +50,15 @@ npm run as -- --video "https://www.youtube.com/watch?v=N-QwFFqI8aQ" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=82dzMKZzHrY" --whisper turbo
 # 2024-01-09 - SolidJS 30k Stars
 npm run as -- --video "https://www.youtube.com/watch?v=ZdGPsEFT8AQ" --whisper turbo
-
-## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=kHsTiFWz3sY" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=RzL4N3ZavxU" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
-
 # 2023-12-20 - JavaScript vs JavaScript - CSR  & SSR
 npm run as -- --video "https://www.youtube.com/watch?v=kHsTiFWz3sY" --whisper turbo
 # 2023-12-16 - SolidStart: The Shape of Frameworks to Come
 npm run as -- --video "https://www.youtube.com/watch?v=RzL4N3ZavxU" --whisper turbo
+
+## Running Now
+
+npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
+
 # 2023-12-02 - Server Functions & Server Actions
 npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo
 # 2023-11-18 - The Future of Routing w/ Tanner Linsley
