@@ -30,11 +30,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=kz-p_017Usc" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=k3RU0ayAdW4" --whisper turbo
 # 2024-05-25 - We Are So Back
 npm run as -- --video "https://www.youtube.com/watch?v=VdDJbrh23zo" --whisper turbo
-
-## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=NDRV14_WDYA" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=qzOzyUA9kbg" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=sMbICJUGJj4" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=zaSvA6lorCA" --whisper turbo
-
 # 2024-04-20 - Ride the LightningJS w/ Chris Lorenzo
 npm run as -- --video "https://www.youtube.com/watch?v=NDRV14_WDYA" --whisper turbo
 # 2024-04-12 - Wiz: Behind the Curtain w/ Jatin Ramanathan
@@ -43,9 +38,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=qzOzyUA9kbg" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=sMbICJUGJj4" --whisper turbo
 # 2024-03-16 - Dive Into AstroDB w/ Fred K Schott
 npm run as -- --video "https://www.youtube.com/watch?v=zaSvA6lorCA" --whisper turbo
-
-## Not Done
-
 # 2024-02-17 - Don't Go Chasing Waterfalls
 npm run as -- --video "https://www.youtube.com/watch?v=hiYQC4XaUu4" --whisper turbo
 # 2024-02-10 - What Comes After GraphQL?
@@ -58,6 +50,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=N-QwFFqI8aQ" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=82dzMKZzHrY" --whisper turbo
 # 2024-01-09 - SolidJS 30k Stars
 npm run as -- --video "https://www.youtube.com/watch?v=ZdGPsEFT8AQ" --whisper turbo
+
+## Running Now
+
+npm run as -- --video "https://www.youtube.com/watch?v=kHsTiFWz3sY" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=RzL4N3ZavxU" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
+
 # 2023-12-20 - JavaScript vs JavaScript - CSR  & SSR
 npm run as -- --video "https://www.youtube.com/watch?v=kHsTiFWz3sY" --whisper turbo
 # 2023-12-16 - SolidStart: The Shape of Frameworks to Come
@@ -68,6 +65,9 @@ npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo
 # 2023-11-04 - Dive into NativeScript w/Nathan Walker & Ammar Ahmed
 npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
+
+## Not Done
+
 # 2023-10-28 - Dive into Solid + Tauri w/Atila Fassina
 npm run as -- --video "https://www.youtube.com/watch?v=yLjqh6dKdBc" --whisper turbo
 # 2023-10-21 - Exploring the World of Marko w/ Michael Rawlings
