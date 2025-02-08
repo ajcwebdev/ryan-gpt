@@ -54,15 +54,13 @@ npm run as -- --video "https://www.youtube.com/watch?v=ZdGPsEFT8AQ" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=kHsTiFWz3sY" --whisper turbo
 # 2023-12-16 - SolidStart: The Shape of Frameworks to Come
 npm run as -- --video "https://www.youtube.com/watch?v=RzL4N3ZavxU" --whisper turbo
-
-## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
-
 # 2023-12-02 - Server Functions & Server Actions
 npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo
 # 2023-11-18 - The Future of Routing w/ Tanner Linsley
 npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo
+
+## Running Now
+
 # 2023-11-04 - Dive into NativeScript w/Nathan Walker & Ammar Ahmed
 npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
 
