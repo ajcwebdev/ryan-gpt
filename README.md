@@ -58,18 +58,20 @@ npm run as -- --video "https://www.youtube.com/watch?v=RzL4N3ZavxU" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo
 # 2023-11-18 - The Future of Routing w/ Tanner Linsley
 npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo
+# 2023-11-04 - Dive into NativeScript w/Nathan Walker & Ammar Ahmed
+npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
+# 2023-10-28 - Dive into Solid + Tauri w/Atila Fassina
+npm run as -- --video "https://www.youtube.com/watch?v=yLjqh6dKdBc" --whisper turbo
 
 ## Running Now
 
-# 2023-11-04 - Dive into NativeScript w/Nathan Walker & Ammar Ahmed
-npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
+npm run as -- --video "https://www.youtube.com/watch?v=yLjqh6dKdBc" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=n3YtxzHRjI0" --whisper turbo
+
+# 2023-10-21 - Exploring the World of Marko w/ Michael Rawlings
+npm run as -- --video "https://www.youtube.com/watch?v=n3YtxzHRjI0" --whisper turbo
 
 ## Not Done
 
-# 2023-10-28 - Dive into Solid + Tauri w/Atila Fassina
-npm run as -- --video "https://www.youtube.com/watch?v=yLjqh6dKdBc" --whisper turbo
-# 2023-10-21 - Exploring the World of Marko w/ Michael Rawlings
-npm run as -- --video "https://www.youtube.com/watch?v=n3YtxzHRjI0" --whisper turbo
 # 2023-10-14 - Reactivity, Runes & Revolution w/ Dominic Gannaway
 npm run as -- --video "https://www.youtube.com/watch?v=N54FZtNvk_A" --whisper turbo
 # 2023-10-06 - Building SolidJS v1.8
