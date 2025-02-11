@@ -92,11 +92,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=KMGJk2VtQ3I" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=jwppKc4avIk" --whisper turbo
 # 2023-04-15 - Bringing the Bling w/ Tanner Linsley
 npm run as -- --video "https://www.youtube.com/watch?v=nY7k3ql5mss" --whisper turbo
-
-## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
-
 # 2023-04-01 - Strict Mode in SolidJS?!
 npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo
 # 2023-03-25 - Signals in TypeScript: The Road to Solid v1.7
@@ -104,7 +99,7 @@ npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper tu
 # 2023-03-18 - SolidJS - The Hard Parts w/ Dan Jutan
 npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
 
-## Not Done
+## Running Now
 
 # 2023-03-11 - Into the Depths with Server Components and Functions
 npm run as -- --video "https://www.youtube.com/watch?v=QS9yAsv1czg" --whisper turbo
@@ -112,6 +107,9 @@ npm run as -- --video "https://www.youtube.com/watch?v=QS9yAsv1czg" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=g584AIL1HtI" --whisper turbo
 # 2023-02-25 - Signals in Angular w/ Pawel and Alex
 npm run as -- --video "https://www.youtube.com/watch?v=HstDoVQeP9g" --whisper turbo
+
+## Not Done
+
 # 2023-02-18 - The Future of Fine-Grained Reactivity w/ Milo
 npm run as -- --video "https://www.youtube.com/watch?v=A2TiLvCDKSg" --whisper turbo
 # 2023-02-04 - First Look at Create T3 App w/ Christopher Ehrlich
