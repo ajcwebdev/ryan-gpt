@@ -1,0 +1,10 @@
+{
+  "name": "ryan-gpt",
+  "description": "Chat with a bot trained on every episode of Ryan Carniato's epic stream episodes.",
+  "author": "Anthony Campolo",
+  "keywords": [
+    "Ryan Carniato",
+    "ChatGPT"
+  ],
+  "license": "MIT"
+}
