@@ -70,11 +70,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=N54FZtNvk_A" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=87D15Gu1d6w" --whisper turbo
 # 2023-09-23 - Introducing Vinxi w/ Nikhil Saraf
 npm run as -- --video "https://www.youtube.com/watch?v=WBH7Ewa--Qg" --whisper turbo
-
-## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=8ObxzMSIqKA" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=seLSN1i8zRw" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2zhYwg_nBqQ" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=-8UeTHXoySc" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=iOqPj-CjoV0" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=7hpUcRGgxq8" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=JBRgUs9Kp64" --whisper turbo
-
 # 2023-09-16 - Evolving Isomorphic Data-Fetching
 npm run as -- --video "https://www.youtube.com/watch?v=8ObxzMSIqKA" --whisper turbo
 # 2023-09-09 - Piecing it Together w/ Pooya Parsa
@@ -89,11 +84,13 @@ npm run as -- --video "https://www.youtube.com/watch?v=iOqPj-CjoV0" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=7hpUcRGgxq8" --whisper turbo
 # 2023-07-15 - Exploring Million.js with Aiden Bai
 npm run as -- --video "https://www.youtube.com/watch?v=JBRgUs9Kp64" --whisper turbo
-
-## Not Done
-
 # 2023-07-07 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ ...Milk?
 npm run as -- --video "https://www.youtube.com/watch?v=ZI-BfelG6z4" --whisper turbo
+
+## Running Now
+
+npm run as -- --video "https://www.youtube.com/watch?v=KMGJk2VtQ3I" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=jwppKc4avIk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=nY7k3ql5mss" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
+
 # 2023-05-19 - This Week in JavaScript... Conferences
 npm run as -- --video "https://www.youtube.com/watch?v=KMGJk2VtQ3I" --whisper turbo
 # 2023-04-21 - Going \"Fully React\" w/ Nikhil Saraf
@@ -106,6 +103,9 @@ npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper turbo
 # 2023-03-18 - SolidJS - The Hard Parts w/ Dan Jutan
 npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
+
+## Not Done
+
 # 2023-03-11 - Into the Depths with Server Components and Functions
 npm run as -- --video "https://www.youtube.com/watch?v=QS9yAsv1czg" --whisper turbo
 # 2023-03-04 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ Signals
