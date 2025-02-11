@@ -86,17 +86,17 @@ npm run as -- --video "https://www.youtube.com/watch?v=7hpUcRGgxq8" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=JBRgUs9Kp64" --whisper turbo
 # 2023-07-07 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ ...Milk?
 npm run as -- --video "https://www.youtube.com/watch?v=ZI-BfelG6z4" --whisper turbo
-
-## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=KMGJk2VtQ3I" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=jwppKc4avIk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=nY7k3ql5mss" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
-
 # 2023-05-19 - This Week in JavaScript... Conferences
 npm run as -- --video "https://www.youtube.com/watch?v=KMGJk2VtQ3I" --whisper turbo
 # 2023-04-21 - Going \"Fully React\" w/ Nikhil Saraf
 npm run as -- --video "https://www.youtube.com/watch?v=jwppKc4avIk" --whisper turbo
 # 2023-04-15 - Bringing the Bling w/ Tanner Linsley
 npm run as -- --video "https://www.youtube.com/watch?v=nY7k3ql5mss" --whisper turbo
+
+## Running Now
+
+npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
+
 # 2023-04-01 - Strict Mode in SolidJS?!
 npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo
 # 2023-03-25 - Signals in TypeScript: The Road to Solid v1.7
