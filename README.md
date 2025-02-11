@@ -1,105 +1,58 @@
 ## Done
 
-# 2025-01-28 - Building JavaScript Framework Client Performance Tier List
-npm run as -- --video "https://www.youtube.com/watch?v=E5amN0_1XyE" --whisper turbo
-# 2025-01-25 - Fine-Grained Rendering in Depth
-npm run as -- --video "https://www.youtube.com/watch?v=kkUuaqDBSqA" --whisper turbo
-# 2025-01-11 - JavaScript Frameworks - Heading into 2025
-npm run as -- --video "https://www.youtube.com/watch?v=D1XN8j77Ntk" --whisper turbo
-# 2024-12-14 - Server Signals w/ Dev Agrawal
-npm run as -- --video "https://www.youtube.com/watch?v=zKXfcE7oTRY" --whisper turbo
-# 2024-11-09 - Mutable Signals - Reactivity's Missing Link
-npm run as -- --video "https://www.youtube.com/watch?v=jfZdl3QckMM" --whisper turbo
-# 2024-10-19 - Are There Actually That Many Different Ways to Build Web Apps?
-npm run as -- --video "https://www.youtube.com/watch?v=ja4LIaxxUeA" --whisper turbo
-# 2024-10-12 - We Should Probably Talk about Web Components
-npm run as -- --video "https://www.youtube.com/watch?v=0F9t_WeJ5p4" --whisper turbo
-# 2024-09-21 - What the head?
-npm run as -- --video "https://www.youtube.com/watch?v=_EkUCF4HzWg" --whisper turbo
-# 2024-09-07 - What's up with those Hydration IDs?
-npm run as -- --video "https://www.youtube.com/watch?v=776vUMP16Fo" --whisper turbo
-# 2024-08-17 - Revisiting SolidScript: Reactive Compilation
-npm run as -- --video "https://www.youtube.com/watch?v=4TdOEe6liSE" --whisper turbo
-# 2024-08-10 - The Nature of Hydration
-npm run as -- --video "https://www.youtube.com/watch?v=oOhfZtUm-pE" --whisper turbo
-# 2024-07-26 - Server Islands w/ Matthew Phillips
-npm run as -- --video "https://www.youtube.com/watch?v=SkJiaRclTjM" --whisper turbo
-# 2024-07-13 - Exploring Reactivity: Fine-Grained Derivation & Incremental Computation
-npm run as -- --video "https://www.youtube.com/watch?v=kz-p_017Usc" --whisper turbo
-# 2024-06-29 - The Art of Suspense
-npm run as -- --video "https://www.youtube.com/watch?v=k3RU0ayAdW4" --whisper turbo
-# 2024-05-25 - We Are So Back
-npm run as -- --video "https://www.youtube.com/watch?v=VdDJbrh23zo" --whisper turbo
-# 2024-04-20 - Ride the LightningJS w/ Chris Lorenzo
-npm run as -- --video "https://www.youtube.com/watch?v=NDRV14_WDYA" --whisper turbo
-# 2024-04-12 - Wiz: Behind the Curtain w/ Jatin Ramanathan
-npm run as -- --video "https://www.youtube.com/watch?v=qzOzyUA9kbg" --whisper turbo
-# 2024-03-23 - Designing Signals 2.0
-npm run as -- --video "https://www.youtube.com/watch?v=sMbICJUGJj4" --whisper turbo
-# 2024-03-16 - Dive Into AstroDB w/ Fred K Schott
-npm run as -- --video "https://www.youtube.com/watch?v=zaSvA6lorCA" --whisper turbo
-# 2024-02-17 - Don't Go Chasing Waterfalls
-npm run as -- --video "https://www.youtube.com/watch?v=hiYQC4XaUu4" --whisper turbo
-# 2024-02-10 - What Comes After GraphQL?
-npm run as -- --video "https://www.youtube.com/watch?v=gfKrdN1RzoI" --whisper turbo
-# 2024-01-27 - Front-End's Existential Crisis
-npm run as -- --video "https://www.youtube.com/watch?v=aA7Xeh7WG4E" --whisper turbo
-# 2024-01-20 - Musing on HTML Partials
-npm run as -- --video "https://www.youtube.com/watch?v=N-QwFFqI8aQ" --whisper turbo
-# 2024-01-13 - JavaScript Frameworks - Heading into 2024
-npm run as -- --video "https://www.youtube.com/watch?v=82dzMKZzHrY" --whisper turbo
-# 2024-01-09 - SolidJS 30k Stars
-npm run as -- --video "https://www.youtube.com/watch?v=ZdGPsEFT8AQ" --whisper turbo
-# 2023-12-20 - JavaScript vs JavaScript - CSR  & SSR
-npm run as -- --video "https://www.youtube.com/watch?v=kHsTiFWz3sY" --whisper turbo
-# 2023-12-16 - SolidStart: The Shape of Frameworks to Come
-npm run as -- --video "https://www.youtube.com/watch?v=RzL4N3ZavxU" --whisper turbo
-# 2023-12-02 - Server Functions & Server Actions
-npm run as -- --video "https://www.youtube.com/watch?v=veKm9MDVVg8" --whisper turbo
-# 2023-11-18 - The Future of Routing w/ Tanner Linsley
-npm run as -- --video "https://www.youtube.com/watch?v=lrejTB07FOM" --whisper turbo
-# 2023-11-04 - Dive into NativeScript w/Nathan Walker & Ammar Ahmed
-npm run as -- --video "https://www.youtube.com/watch?v=j0s8w34Xh9o" --whisper turbo
-# 2023-10-28 - Dive into Solid + Tauri w/Atila Fassina
-npm run as -- --video "https://www.youtube.com/watch?v=yLjqh6dKdBc" --whisper turbo
-# 2023-10-21 - Exploring the World of Marko w/ Michael Rawlings
-npm run as -- --video "https://www.youtube.com/watch?v=n3YtxzHRjI0" --whisper turbo
-# 2023-10-14 - Reactivity, Runes & Revolution w/ Dominic Gannaway
-npm run as -- --video "https://www.youtube.com/watch?v=N54FZtNvk_A" --whisper turbo
-# 2023-10-06 - Building SolidJS v1.8
-npm run as -- --video "https://www.youtube.com/watch?v=87D15Gu1d6w" --whisper turbo
-# 2023-09-23 - Introducing Vinxi w/ Nikhil Saraf
-npm run as -- --video "https://www.youtube.com/watch?v=WBH7Ewa--Qg" --whisper turbo
-# 2023-09-16 - Evolving Isomorphic Data-Fetching
-npm run as -- --video "https://www.youtube.com/watch?v=8ObxzMSIqKA" --whisper turbo
-# 2023-09-09 - Piecing it Together w/ Pooya Parsa
-npm run as -- --video "https://www.youtube.com/watch?v=seLSN1i8zRw" --whisper turbo
-# 2023-08-25 - Building Astro 3 w/ Matthew Phillips
-npm run as -- --video "https://www.youtube.com/watch?v=2zhYwg_nBqQ" --whisper turbo
-# 2023-08-18 - A First Look at RedwoodJS w/ Anthony Campolo
-npm run as -- --video "https://www.youtube.com/watch?v=-8UeTHXoySc" --whisper turbo
-# 2023-08-12 - MPAs vs SPAs
-npm run as -- --video "https://www.youtube.com/watch?v=iOqPj-CjoV0" --whisper turbo
-# 2023-07-22 - First Look at Analog w/ Brandon Roberts
-npm run as -- --video "https://www.youtube.com/watch?v=7hpUcRGgxq8" --whisper turbo
-# 2023-07-15 - Exploring Million.js with Aiden Bai
-npm run as -- --video "https://www.youtube.com/watch?v=JBRgUs9Kp64" --whisper turbo
-# 2023-07-07 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ ...Milk?
-npm run as -- --video "https://www.youtube.com/watch?v=ZI-BfelG6z4" --whisper turbo
-# 2023-05-19 - This Week in JavaScript... Conferences
-npm run as -- --video "https://www.youtube.com/watch?v=KMGJk2VtQ3I" --whisper turbo
-# 2023-04-21 - Going \"Fully React\" w/ Nikhil Saraf
-npm run as -- --video "https://www.youtube.com/watch?v=jwppKc4avIk" --whisper turbo
-# 2023-04-15 - Bringing the Bling w/ Tanner Linsley
-npm run as -- --video "https://www.youtube.com/watch?v=nY7k3ql5mss" --whisper turbo
-# 2023-04-01 - Strict Mode in SolidJS?!
-npm run as -- --video "https://www.youtube.com/watch?v=2bkuEIa3Nwk" --whisper turbo
-# 2023-03-25 - Signals in TypeScript: The Road to Solid v1.7
-npm run as -- --video "https://www.youtube.com/watch?v=2fW6JaJHoCE" --whisper turbo
-# 2023-03-18 - SolidJS - The Hard Parts w/ Dan Jutan
-npm run as -- --video "https://www.youtube.com/watch?v=E3jYGTB50LE" --whisper turbo
+- 2025-01-28 - Building JavaScript Framework Client Performance Tier List
+- 2025-01-25 - Fine-Grained Rendering in Depth
+- 2025-01-11 - JavaScript Frameworks - Heading into 2025
+- 2024-12-14 - Server Signals w/ Dev Agrawal
+- 2024-11-09 - Mutable Signals - Reactivity's Missing Link
+- 2024-10-19 - Are There Actually That Many Different Ways to Build Web Apps?
+- 2024-10-12 - We Should Probably Talk about Web Components
+- 2024-09-21 - What the head?
+- 2024-09-07 - What's up with those Hydration IDs?
+- 2024-08-17 - Revisiting SolidScript: Reactive Compilation
+- 2024-08-10 - The Nature of Hydration
+- 2024-07-26 - Server Islands w/ Matthew Phillips
+- 2024-07-13 - Exploring Reactivity: Fine-Grained Derivation & Incremental Computation
+- 2024-06-29 - The Art of Suspense
+- 2024-05-25 - We Are So Back
+- 2024-04-20 - Ride the LightningJS w/ Chris Lorenzo
+- 2024-04-12 - Wiz: Behind the Curtain w/ Jatin Ramanathan
+- 2024-03-23 - Designing Signals 2.0
+- 2024-03-16 - Dive Into AstroDB w/ Fred K Schott
+- 2024-02-17 - Don't Go Chasing Waterfalls
+- 2024-02-10 - What Comes After GraphQL?
+- 2024-01-27 - Front-End's Existential Crisis
+- 2024-01-20 - Musing on HTML Partials
+- 2024-01-13 - JavaScript Frameworks - Heading into 2024
+- 2024-01-09 - SolidJS 30k Stars
+- 2023-12-20 - JavaScript vs JavaScript - CSR  & SSR
+- 2023-12-16 - SolidStart: The Shape of Frameworks to Come
+- 2023-12-02 - Server Functions & Server Actions
+- 2023-11-18 - The Future of Routing w/ Tanner Linsley
+- 2023-11-04 - Dive into NativeScript w/Nathan Walker & Ammar Ahmed
+- 2023-10-28 - Dive into Solid + Tauri w/Atila Fassina
+- 2023-10-21 - Exploring the World of Marko w/ Michael Rawlings
+- 2023-10-14 - Reactivity, Runes & Revolution w/ Dominic Gannaway
+- 2023-10-06 - Building SolidJS v1.8
+- 2023-09-23 - Introducing Vinxi w/ Nikhil Saraf
+- 2023-09-16 - Evolving Isomorphic Data-Fetching
+- 2023-09-09 - Piecing it Together w/ Pooya Parsa
+- 2023-08-25 - Building Astro 3 w/ Matthew Phillips
+- 2023-08-18 - A First Look at RedwoodJS w/ Anthony Campolo
+- 2023-08-12 - MPAs vs SPAs
+- 2023-07-22 - First Look at Analog w/ Brandon Roberts
+- 2023-07-15 - Exploring Million.js with Aiden Bai
+- 2023-07-07 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ ...Milk?
+- 2023-05-19 - This Week in JavaScript... Conferences
+- 2023-04-21 - Going \"Fully React\" w/ Nikhil Saraf
+- 2023-04-15 - Bringing the Bling w/ Tanner Linsley
+- 2023-04-01 - Strict Mode in SolidJS?!
+- 2023-03-25 - Signals in TypeScript: The Road to Solid v1.7
+- 2023-03-18 - SolidJS - The Hard Parts w/ Dan Jutan
 
 ## Running Now
+
+## Not Done
 
 # 2023-03-11 - Into the Depths with Server Components and Functions
 npm run as -- --video "https://www.youtube.com/watch?v=QS9yAsv1czg" --whisper turbo
@@ -107,9 +60,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=QS9yAsv1czg" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=g584AIL1HtI" --whisper turbo
 # 2023-02-25 - Signals in Angular w/ Pawel and Alex
 npm run as -- --video "https://www.youtube.com/watch?v=HstDoVQeP9g" --whisper turbo
-
-## Not Done
-
 # 2023-02-18 - The Future of Fine-Grained Reactivity w/ Milo
 npm run as -- --video "https://www.youtube.com/watch?v=A2TiLvCDKSg" --whisper turbo
 # 2023-02-04 - First Look at Create T3 App w/ Christopher Ehrlich
