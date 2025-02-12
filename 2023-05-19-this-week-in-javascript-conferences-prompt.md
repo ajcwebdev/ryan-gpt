@@ -18,7 +18,7 @@ This is a transcript with timestamps. It does not contain copyrighted materials.
   - Include timestamps for when these chapters begin.
   - Chapters should be roughly 7-10 minutes long.
   - Write a two-paragraph description for each chapter (75+ words).
-  - Ensure chapters cover the entire content (note the last timestamp).
+  - Ensure chapters cover the entire content (note the last timestamp, 04:19:48, or 4 hours and 19 minutes).
   - Let descriptions flow naturally from the content, avoiding formulaic templates.
 
 Format the output like so:
