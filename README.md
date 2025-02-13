@@ -49,21 +49,15 @@
 - 2023-04-01 - Strict Mode in SolidJS?!
 - 2023-03-25 - Signals in TypeScript: The Road to Solid v1.7
 - 2023-03-18 - SolidJS - The Hard Parts w/ Dan Jutan
+- 2023-03-11 - Into the Depths with Server Components and Functions
+- 2023-03-04 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ Signals
+- 2023-02-25 - Signals in Angular w/ Pawel and Alex
+- 2023-02-18 - The Future of Fine-Grained Reactivity w/ Milo
+- 2023-02-04 - First Look at Create T3 App w/ Christopher Ehrlich
 
 ## Running Now
 
-## Not Done
-
-# 2023-03-11 - Into the Depths with Server Components and Functions
-npm run as -- --video "https://www.youtube.com/watch?v=QS9yAsv1czg" --whisper turbo
-# 2023-03-04 - This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ Signals
-npm run as -- --video "https://www.youtube.com/watch?v=g584AIL1HtI" --whisper turbo
-# 2023-02-25 - Signals in Angular w/ Pawel and Alex
-npm run as -- --video "https://www.youtube.com/watch?v=HstDoVQeP9g" --whisper turbo
-# 2023-02-18 - The Future of Fine-Grained Reactivity w/ Milo
-npm run as -- --video "https://www.youtube.com/watch?v=A2TiLvCDKSg" --whisper turbo
-# 2023-02-04 - First Look at Create T3 App w/ Christopher Ehrlich
-npm run as -- --video "https://www.youtube.com/watch?v=-CWarVQDtEg" --whisper turbo
+```bash
 # 2023-01-28 - Demystifying SolidJS' JSX
 npm run as -- --video "https://www.youtube.com/watch?v=5du6jBlryIc" --whisper turbo
 # 2023-01-21 - SolidJS in React? Reconciling Disparate Worlds
@@ -74,6 +68,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=S0a-1lriNl4" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=6RIPfwxj24s" --whisper turbo
 # 2022-12-19 - Reactivity & Rendering
 npm run as -- --video "https://www.youtube.com/watch?v=R5AcOtxIdMk" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-12-17 - Learning Angular w/ Minko Gechev
 npm run as -- --video "https://www.youtube.com/watch?v=tfxxeknwsi8" --whisper turbo
 # 2022-12-14 - SolidJS NYC Meetup Dec 2022
@@ -182,3 +181,4 @@ npm run as -- --video "https://www.youtube.com/watch?v=8Ou6domKfU4" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=b9e7VXs_A4s" --whisper turbo
 # 2021-09-04 - First look at DOM Expressions
 npm run as -- --video "https://www.youtube.com/watch?v=jnZmG4hyNas" --whisper turbo
+```
