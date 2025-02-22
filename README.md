@@ -54,50 +54,36 @@
 - 2023-02-25 - Signals in Angular w/ Pawel and Alex
 - 2023-02-18 - The Future of Fine-Grained Reactivity w/ Milo
 - 2023-02-04 - First Look at Create T3 App w/ Christopher Ehrlich
-
-# 2023-01-28 - Demystifying SolidJS' JSX
-npm run as -- --video "https://www.youtube.com/watch?v=5du6jBlryIc" --whisper turbo
-# 2023-01-21 - SolidJS in React? Reconciling Disparate Worlds
-npm run as -- --video "https://www.youtube.com/watch?v=p9pwHyM5Z98" --whisper turbo
-# 2023-01-14 - First Look at LiveViewJS w/ Donnie Flood
-npm run as -- --video "https://www.youtube.com/watch?v=S0a-1lriNl4" --whisper turbo
-# 2023-01-07 - JavaScript Frameworks in 2023
-npm run as -- --video "https://www.youtube.com/watch?v=6RIPfwxj24s" --whisper turbo
-# 2022-12-19 - Reactivity & Rendering
-npm run as -- --video "https://www.youtube.com/watch?v=R5AcOtxIdMk" --whisper turbo
+- 2023-01-28 - Demystifying SolidJS' JSX
+- 2023-01-21 - SolidJS in React? Reconciling Disparate Worlds
+- 2023-01-14 - First Look at LiveViewJS w/ Donnie Flood
+- 2023-01-07 - JavaScript Frameworks in 2023
+- 2022-12-19 - Reactivity & Rendering
+- 2022-12-17 - Learning Angular w/ Minko Gechev
+- 2022-12-14 - SolidJS NYC Meetup Dec 2022
+- 2022-12-10 - Exploring the App Directory in Next 13
+- 2022-12-03 - Building Web UI's in Rust w/ Greg Johnston
+- 2022-11-23 - This Month in JavaScript
+- 2022-10-29 - Creating a VDOM-less Renderer with Preact Signals
+- 2022-10-22 - Server Components? Building SolidJS v1.6
+- 2022-10-08 - AGGrid: High-Performance DOM Updates w/ Niall Crosby
+- 2022-09-30 - Corset: A Novel Approach to Declarative Data-Binding w/ Matthew Phillips
 
 ## Running Now
 
 ```bash
-# 2022-12-17 - Learning Angular w/ Minko Gechev
-npm run as -- --video "https://www.youtube.com/watch?v=tfxxeknwsi8" --whisper turbo
-# 2022-12-14 - SolidJS NYC Meetup Dec 2022
-npm run as -- --video "https://www.youtube.com/watch?v=yAUlw5GL7jw" --whisper turbo
-# 2022-12-10 - Exploring the App Directory in Next 13
-npm run as -- --video "https://www.youtube.com/watch?v=qyQNFstxlzY" --whisper turbo
-# 2022-12-03 - Building Web UI's in Rust w/ Greg Johnston
-npm run as -- --video "https://www.youtube.com/watch?v=zgY7ql1xwW4" --whisper turbo
-```
 
-## Not Done
-
-```bash
-# 2022-11-23 - This Month in JavaScript
-npm run as -- --video "https://www.youtube.com/watch?v=ijKULkvSaAU" --whisper turbo
-# 2022-10-29 - Creating a VDOM-less Renderer with Preact Signals
-npm run as -- --video "https://www.youtube.com/watch?v=Fp9duJd6Txc" --whisper turbo
-# 2022-10-22 - Server Components? Building SolidJS v1.6
-npm run as -- --video "https://www.youtube.com/watch?v=adXqweWZcNA" --whisper turbo
-# 2022-10-08 - AGGrid: High-Performance DOM Updates w/ Niall Crosby
-npm run as -- --video "https://www.youtube.com/watch?v=QRtrS_SvR4w" --whisper turbo
-# 2022-09-30 - Corset: A Novel Approach to Declarative Data-Binding w/ Matthew Phillips
-npm run as -- --video "https://www.youtube.com/watch?v=0cmj4S8K_6c" --whisper turbo
 # 2022-09-24 - Making the World's Fastest Website and Other Mistakes w/ Taylor Hunt
 npm run as -- --video "https://www.youtube.com/watch?v=Vcq2DvkMz3k" --whisper turbo
 # 2022-09-10 - Building a UI Language w/ Dylan Piercey
 npm run as -- --video "https://www.youtube.com/watch?v=W9wfkP21c80" --whisper turbo
 # 2022-09-08 - Components Are Pure Overhead
 npm run as -- --video "https://www.youtube.com/watch?v=I6L29qSTaFA" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-09-03 - React: The Most Prolific JavaScript Framework
 npm run as -- --video "https://www.youtube.com/watch?v=BBWA7PGJcts" --whisper turbo
 # 2022-08-26 - Building SolidJS 1.5
