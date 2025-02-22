@@ -55,9 +55,6 @@
 - 2023-02-18 - The Future of Fine-Grained Reactivity w/ Milo
 - 2023-02-04 - First Look at Create T3 App w/ Christopher Ehrlich
 
-## Running Now
-
-```bash
 # 2023-01-28 - Demystifying SolidJS' JSX
 npm run as -- --video "https://www.youtube.com/watch?v=5du6jBlryIc" --whisper turbo
 # 2023-01-21 - SolidJS in React? Reconciling Disparate Worlds
@@ -68,9 +65,8 @@ npm run as -- --video "https://www.youtube.com/watch?v=S0a-1lriNl4" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=6RIPfwxj24s" --whisper turbo
 # 2022-12-19 - Reactivity & Rendering
 npm run as -- --video "https://www.youtube.com/watch?v=R5AcOtxIdMk" --whisper turbo
-```
 
-## Not Done
+## Running Now
 
 ```bash
 # 2022-12-17 - Learning Angular w/ Minko Gechev
@@ -81,6 +77,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=yAUlw5GL7jw" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=qyQNFstxlzY" --whisper turbo
 # 2022-12-03 - Building Web UI's in Rust w/ Greg Johnston
 npm run as -- --video "https://www.youtube.com/watch?v=zgY7ql1xwW4" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-11-23 - This Month in JavaScript
 npm run as -- --video "https://www.youtube.com/watch?v=ijKULkvSaAU" --whisper turbo
 # 2022-10-29 - Creating a VDOM-less Renderer with Preact Signals
