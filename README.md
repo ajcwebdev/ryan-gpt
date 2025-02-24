@@ -68,30 +68,23 @@
 - 2022-10-22 - Server Components? Building SolidJS v1.6
 - 2022-10-08 - AGGrid: High-Performance DOM Updates w/ Niall Crosby
 - 2022-09-30 - Corset: A Novel Approach to Declarative Data-Binding w/ Matthew Phillips
+- 2022-09-24 - Making the World's Fastest Website and Other Mistakes w/ Taylor Hunt
+- 2022-09-10 - Building a UI Language w/ Dylan Piercey
+- 2022-09-08 - Components Are Pure Overhead
+- 2022-09-03 - React: The Most Prolific JavaScript Framework
+- 2022-08-26 - Building SolidJS 1.5
+- 2022-08-19 - Exploring 11ty with Zach Leatherman
 
 ## Running Now
 
 ```bash
-
-# 2022-09-24 - Making the World's Fastest Website and Other Mistakes w/ Taylor Hunt
-npm run as -- --video "https://www.youtube.com/watch?v=Vcq2DvkMz3k" --whisper turbo
-# 2022-09-10 - Building a UI Language w/ Dylan Piercey
-npm run as -- --video "https://www.youtube.com/watch?v=W9wfkP21c80" --whisper turbo
-# 2022-09-08 - Components Are Pure Overhead
-npm run as -- --video "https://www.youtube.com/watch?v=I6L29qSTaFA" --whisper turbo
+# 2022-08-05 - Introducing SolidStart w/ Nikhil Saraf
+npm run as -- --video "https://www.youtube.com/watch?v=eAwuPvRXNdY" --whisper turbo
 ```
 
 ## Not Done
 
 ```bash
-# 2022-09-03 - React: The Most Prolific JavaScript Framework
-npm run as -- --video "https://www.youtube.com/watch?v=BBWA7PGJcts" --whisper turbo
-# 2022-08-26 - Building SolidJS 1.5
-npm run as -- --video "https://www.youtube.com/watch?v=jHDzGYHY2ew" --whisper turbo
-# 2022-08-19 - Exploring 11ty with Zach Leatherman
-npm run as -- --video "https://www.youtube.com/watch?v=iuwqOkH6jKY" --whisper turbo
-# 2022-08-05 - Introducing SolidStart w/ Nikhil Saraf
-npm run as -- --video "https://www.youtube.com/watch?v=eAwuPvRXNdY" --whisper turbo
 # 2022-07-29 - Looking at Nuxt3
 npm run as -- --video "https://www.youtube.com/watch?v=s4Rd2snXSr0" --whisper turbo
 # 2022-07-22 - Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida
