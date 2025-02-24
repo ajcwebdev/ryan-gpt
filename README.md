@@ -74,19 +74,12 @@
 - 2022-09-03 - React: The Most Prolific JavaScript Framework
 - 2022-08-26 - Building SolidJS 1.5
 - 2022-08-19 - Exploring 11ty with Zach Leatherman
+- 2022-08-05 - Introducing SolidStart w/ Nikhil Saraf
+- 2022-07-29 - Looking at Nuxt3
 
 ## Running Now
 
 ```bash
-# 2022-08-05 - Introducing SolidStart w/ Nikhil Saraf
-npm run as -- --video "https://www.youtube.com/watch?v=eAwuPvRXNdY" --whisper turbo
-```
-
-## Not Done
-
-```bash
-# 2022-07-29 - Looking at Nuxt3
-npm run as -- --video "https://www.youtube.com/watch?v=s4Rd2snXSr0" --whisper turbo
 # 2022-07-22 - Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida
 npm run as -- --video "https://www.youtube.com/watch?v=XoeJisRJjlo" --whisper turbo
 # 2022-07-15 - Nested Routing, Parallelized Data Fetching, and SolidJS  w/ Ryan Turnquist
@@ -95,6 +88,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=-TeXU9UZ_4w" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=jfT7aEoeaGE" --whisper turbo
 # 2022-06-03 - SolidJS: Past, Present, Future
 npm run as -- --video "https://www.youtube.com/watch?v=dOgnQ9SuKYk" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-05-27 - Hydrogen & React Server Components w/ Bret Little
 npm run as -- --video "https://www.youtube.com/watch?v=bvWCyGsKOXY" --whisper turbo
 # 2022-05-07 - Building SolidJS 1.4
