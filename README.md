@@ -1,3 +1,11 @@
+```bash
+curl --json '{
+  "type": "video",
+  "url": "",
+  "whisperModel": "turbo"
+}' http://localhost:3000/api/process
+```
+
 ## Done
 
 - 2025-01-28 - Building JavaScript Framework Client Performance Tier List
