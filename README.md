@@ -84,21 +84,13 @@
 - 2022-05-07 - Building SolidJS 1.4
 - 2022-04-30 - Breaking Down Hydration w/Dan Jutan
 - 2022-04-23 - Breaking Down the Web /w Dan Jutan
+- 2022-04-16 - A First Look at Next.js
+- 2022-04-09 - Astro SSR w/ Fred K. Schott
+- 2022-04-02 - A First Look At SolidHack Submissions
 
 ## Running Now
 
-npm run as -- --video "https://www.youtube.com/watch?v=m-Gl_Cc8xOg" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2ZEMb_H-LYE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=Ywv8cGOVNMg" --whisper turbo
-
-```bash
-# 2022-04-16 - A First Look at Next.js
-npm run as -- --video "https://www.youtube.com/watch?v=m-Gl_Cc8xOg" --whisper turbo
-# 2022-04-09 - Astro SSR w/ Fred K. Schott
-npm run as -- --video "https://www.youtube.com/watch?v=2ZEMb_H-LYE" --whisper turbo
-# 2022-04-02 - A First Look At SolidHack Submissions
-npm run as -- --video "https://www.youtube.com/watch?v=Ywv8cGOVNMg" --whisper turbo
-```
-
-## Not Done
+npm run as -- --video "https://www.youtube.com/watch?v=BEWkLXU1Wlc" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=ZVKHxm1-g3E" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=DYwI1eWkMcI" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=Y22xf8EjioE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=lY6e7Hw4uVo" --whisper turbo
 
 ```bash
 # 2022-03-26 - Let's look at Web Components
@@ -111,6 +103,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=DYwI1eWkMcI" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=Y22xf8EjioE" --whisper turbo
 # 2022-02-19 - Building Qwik w/ Misko Hevery
 npm run as -- --video "https://www.youtube.com/watch?v=lY6e7Hw4uVo" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-02-12 - Exploring Qwik, the Resumable Framework
 npm run as -- --video "https://www.youtube.com/watch?v=gT5NWKZZPQM" --whisper turbo
 # 2022-02-05 - Let's do an AMA
