@@ -1,11 +1,3 @@
-```bash
-curl --json '{
-  "type": "video",
-  "url": "",
-  "whisperModel": "turbo"
-}' http://localhost:3000/api/process
-```
-
 ## Done
 
 - 2025-01-28 - Building JavaScript Framework Client Performance Tier List
@@ -84,23 +76,17 @@ curl --json '{
 - 2022-08-19 - Exploring 11ty with Zach Leatherman
 - 2022-08-05 - Introducing SolidStart w/ Nikhil Saraf
 - 2022-07-29 - Looking at Nuxt3
+- 2022-07-22 - Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida
+- 2022-07-15 - Nested Routing, Parallelized Data Fetching, and SolidJS  w/ Ryan Turnquist
+- 2022-07-08 - A First Look at Fresh
 
 ## Running Now
 
+npm run as -- --video "https://www.youtube.com/watch?v=dOgnQ9SuKYk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=bvWCyGsKOXY" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2UPX0HZxXEQ" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=iR5T2HefqKk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=REXtIuAJ3dE" --whisper turbo
+
 ```bash
-# 2022-07-22 - Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida
-npm run as -- --video "https://www.youtube.com/watch?v=XoeJisRJjlo" --whisper turbo
-# 2022-07-15 - Nested Routing, Parallelized Data Fetching, and SolidJS  w/ Ryan Turnquist
-npm run as -- --video "https://www.youtube.com/watch?v=-TeXU9UZ_4w" --whisper turbo
-# 2022-07-08 - A First Look at Fresh
-npm run as -- --video "https://www.youtube.com/watch?v=jfT7aEoeaGE" --whisper turbo
 # 2022-06-03 - SolidJS: Past, Present, Future
 npm run as -- --video "https://www.youtube.com/watch?v=dOgnQ9SuKYk" --whisper turbo
-```
-
-## Not Done
-
-```bash
 # 2022-05-27 - Hydrogen & React Server Components w/ Bret Little
 npm run as -- --video "https://www.youtube.com/watch?v=bvWCyGsKOXY" --whisper turbo
 # 2022-05-07 - Building SolidJS 1.4
@@ -109,6 +95,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=2UPX0HZxXEQ" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=iR5T2HefqKk" --whisper turbo
 # 2022-04-23 - Breaking Down the Web /w Dan Jutan
 npm run as -- --video "https://www.youtube.com/watch?v=REXtIuAJ3dE" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-04-16 - A First Look at Next.js
 npm run as -- --video "https://www.youtube.com/watch?v=m-Gl_Cc8xOg" --whisper turbo
 # 2022-04-09 - Astro SSR w/ Fred K. Schott
