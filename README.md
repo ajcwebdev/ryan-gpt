@@ -79,25 +79,15 @@
 - 2022-07-22 - Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida
 - 2022-07-15 - Nested Routing, Parallelized Data Fetching, and SolidJS  w/ Ryan Turnquist
 - 2022-07-08 - A First Look at Fresh
+- 2022-06-03 - SolidJS: Past, Present, Future
+- 2022-05-27 - Hydrogen & React Server Components w/ Bret Little
+- 2022-05-07 - Building SolidJS 1.4
+- 2022-04-30 - Breaking Down Hydration w/Dan Jutan
+- 2022-04-23 - Breaking Down the Web /w Dan Jutan
 
 ## Running Now
 
-npm run as -- --video "https://www.youtube.com/watch?v=dOgnQ9SuKYk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=bvWCyGsKOXY" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2UPX0HZxXEQ" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=iR5T2HefqKk" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=REXtIuAJ3dE" --whisper turbo
-
-```bash
-# 2022-06-03 - SolidJS: Past, Present, Future
-npm run as -- --video "https://www.youtube.com/watch?v=dOgnQ9SuKYk" --whisper turbo
-# 2022-05-27 - Hydrogen & React Server Components w/ Bret Little
-npm run as -- --video "https://www.youtube.com/watch?v=bvWCyGsKOXY" --whisper turbo
-# 2022-05-07 - Building SolidJS 1.4
-npm run as -- --video "https://www.youtube.com/watch?v=2UPX0HZxXEQ" --whisper turbo
-# 2022-04-30 - Breaking Down Hydration w/Dan Jutan
-npm run as -- --video "https://www.youtube.com/watch?v=iR5T2HefqKk" --whisper turbo
-# 2022-04-23 - Breaking Down the Web /w Dan Jutan
-npm run as -- --video "https://www.youtube.com/watch?v=REXtIuAJ3dE" --whisper turbo
-```
-
-## Not Done
+npm run as -- --video "https://www.youtube.com/watch?v=m-Gl_Cc8xOg" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=2ZEMb_H-LYE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=Ywv8cGOVNMg" --whisper turbo
 
 ```bash
 # 2022-04-16 - A First Look at Next.js
@@ -106,6 +96,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=m-Gl_Cc8xOg" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=2ZEMb_H-LYE" --whisper turbo
 # 2022-04-02 - A First Look At SolidHack Submissions
 npm run as -- --video "https://www.youtube.com/watch?v=Ywv8cGOVNMg" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-03-26 - Let's look at Web Components
 npm run as -- --video "https://www.youtube.com/watch?v=BEWkLXU1Wlc" --whisper turbo
 # 2022-03-19 - SolidScript?! Using Compilation for Syntax
