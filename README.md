@@ -92,19 +92,10 @@
 - 2022-03-12 - Looking at SvelteKit
 - 2022-03-05 - Building Marko 6 w/ Dylan Piercey, and Michael Rawlings
 - 2022-02-19 - Building Qwik w/ Misko Hevery
+- 2022-02-12 - Exploring Qwik, the Resumable Framework
+- 2022-02-05 - Let's do an AMA
 
 ## Running Now
-
-npm run as -- --video "https://www.youtube.com/watch?v=gT5NWKZZPQM" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=8_YiKUb6DW8" --whisper turbo
-
-```bash
-# 2022-02-12 - Exploring Qwik, the Resumable Framework
-npm run as -- --video "https://www.youtube.com/watch?v=gT5NWKZZPQM" --whisper turbo
-# 2022-02-05 - Let's do an AMA
-npm run as -- --video "https://www.youtube.com/watch?v=8_YiKUb6DW8" --whisper turbo
-```
-
-## Not Done
 
 ```bash
 # 2022-01-29 - Solid Three, Custom Renderers, and SolidStart w/  Nikhil Saraf
@@ -113,6 +104,11 @@ npm run as -- --video "https://www.youtube.com/watch?v=lsWXyyEsw7E" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=dnuh-jKuDpk" --whisper turbo
 # 2022-01-15 - Marko - The Most Underrated JS Framework?
 npm run as -- --video "https://www.youtube.com/watch?v=VanpBTKLFNM" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-01-08 - Petite Solid?! Let's build a Micro View Library
 npm run as -- --video "https://www.youtube.com/watch?v=tcwe85p7M9c" --whisper turbo
 # 2021-12-29 - JSConf India - The Future is Reactive
