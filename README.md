@@ -87,31 +87,26 @@
 - 2022-04-16 - A First Look at Next.js
 - 2022-04-09 - Astro SSR w/ Fred K. Schott
 - 2022-04-02 - A First Look At SolidHack Submissions
+- 2022-03-26 - Let's look at Web Components
+- 2022-03-19 - SolidScript?! Using Compilation for Syntax
+- 2022-03-12 - Looking at SvelteKit
+- 2022-03-05 - Building Marko 6 w/ Dylan Piercey, and Michael Rawlings
+- 2022-02-19 - Building Qwik w/ Misko Hevery
 
 ## Running Now
 
-npm run as -- --video "https://www.youtube.com/watch?v=BEWkLXU1Wlc" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=ZVKHxm1-g3E" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=DYwI1eWkMcI" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=Y22xf8EjioE" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=lY6e7Hw4uVo" --whisper turbo
-
-```bash
-# 2022-03-26 - Let's look at Web Components
-npm run as -- --video "https://www.youtube.com/watch?v=BEWkLXU1Wlc" --whisper turbo
-# 2022-03-19 - SolidScript?! Using Compilation for Syntax
-npm run as -- --video "https://www.youtube.com/watch?v=ZVKHxm1-g3E" --whisper turbo
-# 2022-03-12 - Looking at SvelteKit
-npm run as -- --video "https://www.youtube.com/watch?v=DYwI1eWkMcI" --whisper turbo
-# 2022-03-05 - Building Marko 6 w/ Dylan Piercey, and Michael Rawlings
-npm run as -- --video "https://www.youtube.com/watch?v=Y22xf8EjioE" --whisper turbo
-# 2022-02-19 - Building Qwik w/ Misko Hevery
-npm run as -- --video "https://www.youtube.com/watch?v=lY6e7Hw4uVo" --whisper turbo
-```
-
-## Not Done
+npm run as -- --video "https://www.youtube.com/watch?v=gT5NWKZZPQM" --whisper turbo && npm run as -- --video "https://www.youtube.com/watch?v=8_YiKUb6DW8" --whisper turbo
 
 ```bash
 # 2022-02-12 - Exploring Qwik, the Resumable Framework
 npm run as -- --video "https://www.youtube.com/watch?v=gT5NWKZZPQM" --whisper turbo
 # 2022-02-05 - Let's do an AMA
 npm run as -- --video "https://www.youtube.com/watch?v=8_YiKUb6DW8" --whisper turbo
+```
+
+## Not Done
+
+```bash
 # 2022-01-29 - Solid Three, Custom Renderers, and SolidStart w/  Nikhil Saraf
 npm run as -- --video "https://www.youtube.com/watch?v=lsWXyyEsw7E" --whisper turbo
 # 2022-01-22 - React SSR and React Server Components
