@@ -22,6 +22,7 @@ npm run as -- --queryEmbeddings "Why is Marko the most underrated frontend frame
 
 Top matches for: "Why is Marko the most underrated frontend framework ever?"
 
+```
 ┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────────────┐
 │ (index) │ filename                                                                                                                            │ distance           │
 ├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────────────┤
@@ -31,6 +32,7 @@ Top matches for: "Why is Marko the most underrated frontend framework ever?"
 │ 3       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-09-07-whats-up-with-those-hydration-ids-part-01.md'                          │ 0.6126400001430505 │
 │ 4       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-05-25-we-are-so-back-part-01.md'                                             │ 0.6145384584756963 │
 └─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+```
 
 ```json
 {
