@@ -1,3 +1,124 @@
+## Generate Your Own Embeddings
+
+```bash
+git clone https://github.com/ajcwebdev/autoshow.git
+cp -r done/2025 autoshow/content/
+cd autoshow
+npm run setup
+npm run as -- --createEmbeddings "content/done"
+```
+
+## Chat with Embeddings
+
+```bash
+git clone https://github.com/ajcwebdev/autoshow.git
+cp -r embeddings.json autoshow
+cd autoshow
+npm run setup
+npm run as -- --queryEmbeddings "Why is Marko the most underrated frontend framework ever?"
+```
+
+### Example Answer
+
+Top matches for: "Why is Marko the most underrated frontend framework ever?"
+
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────────────┐
+│ (index) │ filename                                                                                                                            │ distance           │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────────────┤
+│ 0       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2025/2025-01-28-building-javascript-framework-client-performance-tier-list-part-01.md' │ 0.5631148424549258 │
+│ 1       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2025/2025-01-28-building-javascript-framework-client-performance-tier-list-part-02.md' │ 0.5796715116109266 │
+│ 2       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-01-13-javascript-frameworks-heading-into-2024-part-01.md'                    │ 0.6062895186292552 │
+│ 3       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-09-07-whats-up-with-those-hydration-ids-part-01.md'                          │ 0.6126400001430505 │
+│ 4       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-05-25-we-are-so-back-part-01.md'                                             │ 0.6145384584756963 │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+
+```json
+{
+  "id": "chatcmpl-B6VeWigm52dCmrTPO3AGqJuo0pkWj",
+  "object": "chat.completion",
+  "created": 1740891340,
+  "model": "o1-preview-2024-09-12",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ANSWER HERE",
+        "refusal": null
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13277,
+    "completion_tokens": 2576,
+    "total_tokens": 15853,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1664,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_24f97db9f8"
+}
+```
+
+Marko is often considered the most underrated frontend framework because it offers a combination of innovative features, performance optimizations, and developer-friendly ergonomics that rival—and in some cases surpass—more popular frameworks like React, Vue, and Angular. Despite its capabilities, Marko hasn't gained the widespread recognition it deserves, which is why it's viewed as underrated in the developer community.
+
+**Reasons Why Marko is Underrated:**
+
+1. **Advanced Streaming and Rendering Techniques:**
+   - **Out-of-Order Streaming:** Marko pioneered out-of-order streaming, allowing components to render as soon as their data is available, rather than waiting for the entire page. This results in faster Time to First Byte (TTFB) and improves the overall user experience.
+   - **Progressive Hydration:** Marko can hydrate interactive components on the client only when necessary, reducing the amount of JavaScript that needs to be downloaded and executed. This leads to faster initial load times and better performance on slower devices.
+
+2. **Performance Optimization:**
+   - **Compile-Time Optimizations:** Marko's compiler performs advanced optimizations that minimize runtime overhead. It converts templates into highly efficient JavaScript code, reducing the need for a virtual DOM diffing process.
+   - **Minimal Overhead:** By eliminating unnecessary abstractions and runtime libraries, Marko delivers high performance both on the server and client sides.
+
+3. **Server and Client Rendering Harmony:**
+   - Marko seamlessly integrates server-side rendering (SSR) with client-side interactivity. This ensures that applications are SEO-friendly and provide a fast initial render while still offering dynamic client-side features.
+
+4. **Developer-Friendly Syntax:**
+   - **Familiar Templating Language:** Marko uses an HTML-like syntax that's easy to read and write, lowering the learning curve for developers familiar with standard web technologies.
+   - **Component-Based Architecture:** It embraces a component-driven approach, promoting code reuse and modularity.
+
+5. **Innovation Ahead of Its Time:**
+   - Many features that are now gaining popularity in other frameworks have been part of Marko for years. For instance, the focus on minimizing JavaScript payloads and optimizing rendering performance are foundational in Marko.
+
+6. **Production-Proven at Scale:**
+   - **Enterprise Usage:** Developed and maintained by eBay, Marko has been used in large-scale, high-traffic applications for years. This real-world usage demonstrates its reliability, scalability, and performance under heavy loads.
+
+7. **Lack of Hype and Marketing:**
+   - Unlike other frameworks that benefit from large communities and strong marketing efforts, Marko hasn't been as aggressively promoted. This has led to less community engagement, fewer tutorials, and less third-party tooling, contributing to its underrated status.
+
+8. **Unique Features Less Known:**
+   - **Isomorphic Components:** Marko allows the same components to run on both the server and client without additional configuration.
+   - **Stateful Hot Reloading:** Developers can make changes to components, and Marko will preserve the application state while updating the UI during development.
+
+**Why This Matters:**
+
+- **Performance-Critical Applications:** For applications where performance is paramount, especially on mobile devices and slow networks, Marko provides significant advantages.
+- **Developer Productivity:** Its ergonomic syntax and features can speed up development time and reduce bugs.
+- **Future-Proofing:** As the web moves toward performance-centric and less JavaScript-heavy applications, Marko's philosophies align well with emerging best practices.
+
+**Conclusion:**
+
+Marko is a powerful, mature framework that excels in areas increasingly important to modern web development: performance, efficient rendering, and developer experience. Its lack of widespread adoption isn't due to a lack of capability but rather a lack of visibility. As the community continues to prioritize fast, user-friendly web applications, Marko has the potential to gain recognition for the innovative solutions it has been providing all along.
+
+**Further Reading and Exploration:**
+
+- [Marko Official Website](https://markojs.com/)
+- [Marko GitHub Repository](https://github.com/marko-js/marko)
+- [Case Studies on Marko's Performance at eBay](https://www.ebayinc.com/stories/blogs/tech/marko-faster-lighter-simpler/)
+
+By exploring Marko and its features, developers can discover an efficient alternative to mainstream frameworks, potentially leading to better-performing applications and a more enjoyable development experience.
+
 ## Done
 
 - 2025-01-28 - Building JavaScript Framework Client Performance Tier List
@@ -104,11 +225,6 @@ npm run as -- --video "https://www.youtube.com/watch?v=lsWXyyEsw7E" --whisper tu
 npm run as -- --video "https://www.youtube.com/watch?v=dnuh-jKuDpk" --whisper turbo
 # 2022-01-15 - Marko - The Most Underrated JS Framework?
 npm run as -- --video "https://www.youtube.com/watch?v=VanpBTKLFNM" --whisper turbo
-```
-
-## Not Done
-
-```bash
 # 2022-01-08 - Petite Solid?! Let's build a Micro View Library
 npm run as -- --video "https://www.youtube.com/watch?v=tcwe85p7M9c" --whisper turbo
 # 2021-12-29 - JSConf India - The Future is Reactive
