@@ -1,3 +1,5 @@
+# RyanGPT
+
 ## Generate Your Own Embeddings
 
 ```bash
@@ -121,7 +123,7 @@ Marko is a powerful, mature framework that excels in areas increasingly importan
 
 By exploring Marko and its features, developers can discover an efficient alternative to mainstream frameworks, potentially leading to better-performing applications and a more enjoyable development experience.
 
-## Done
+## Episode List
 
 - 2025-01-28 - Building JavaScript Framework Client Performance Tier List
 - 2025-01-25 - Fine-Grained Rendering in Depth
@@ -217,38 +219,22 @@ By exploring Marko and its features, developers can discover an efficient altern
 - 2022-02-19 - Building Qwik w/ Misko Hevery
 - 2022-02-12 - Exploring Qwik, the Resumable Framework
 - 2022-02-05 - Let's do an AMA
-
-## Running Now
-
-```bash
-# 2022-01-29 - Solid Three, Custom Renderers, and SolidStart w/  Nikhil Saraf
-npm run as -- --video "https://www.youtube.com/watch?v=lsWXyyEsw7E" --whisper turbo
-# 2022-01-22 - React SSR and React Server Components
-npm run as -- --video "https://www.youtube.com/watch?v=dnuh-jKuDpk" --whisper turbo
-
-# - 2022-01-15 - Marko - The Most Underrated JS Framework?
-# - 2022-01-08 - Petite Solid?! Let's build a Micro View Library
-# - 2021-12-29 - JSConf India - The Future is Reactive
-# - 2021-12-18 - Streaming HTML, Solid 1.3, and More
-# - 2021-12-11 - Compilation in JavaScript Frameworks
-
-# 2021-12-04 - A First Look at Remix
-npm run as -- --video "https://www.youtube.com/watch?v=CQm52h3Ukng" --whisper turbo
-# 2021-11-20 - Streaming SolidJS: Concurrent Rendering without a Virtual DOM
-npm run as -- --video "https://www.youtube.com/watch?v=Hdc5QqPfFH8" --whisper turbo
-# 2021-11-13 - Netlify and Vercel and Cloudflare, Oh My!
-npm run as -- --video "https://www.youtube.com/watch?v=O2kFXlNSdn0" --whisper turbo
-# 2021-10-30 - 2-way Binding and REPL Diving
-npm run as -- --video "https://www.youtube.com/watch?v=C83XD19-1jg" --whisper turbo
-# 2021-10-23 - Streaming SolidJS - Benchmarking and Custom Renderers
-npm run as -- --video "https://www.youtube.com/watch?v=Yi_MJ8cVCCs" --whisper turbo
-# 2021-10-16 - Islands, Partial Hydration, & JavaScript Frameworks
-npm run as -- --video "https://www.youtube.com/watch?v=Q0mXYbA86Qo" --whisper turbo
-
-# - 2021-10-09 - Streaming SolidJS: Routing
-# - 2021-10-02 - Streaming SolidJS - First look at Astro
-# - 2021-09-25 - Streaming SolidJS - Server Rendering
-# - 2021-09-18 - Streaming SolidJS - Context, Async, & Suspense
-# - 2021-09-11 - Streaming SolidJS: Fine-Grained Reactivity
-# - 2021-09-04 - First look at DOM Expressions
-```
+- 2022-01-29 - Solid Three, Custom Renderers, and SolidStart w/  Nikhil Saraf
+- 2022-01-22 - React SSR and React Server Components
+- 2022-01-15 - Marko - The Most Underrated JS Framework?
+- 2022-01-08 - Petite Solid?! Let's build a Micro View Library
+- 2021-12-29 - JSConf India - The Future is Reactive
+- 2021-12-18 - Streaming HTML, Solid 1.3, and More
+- 2021-12-11 - Compilation in JavaScript Frameworks
+- 2021-12-04 - A First Look at Remix
+- 2021-11-20 - Streaming SolidJS: Concurrent Rendering without a Virtual DOM
+- 2021-11-13 - Netlify and Vercel and Cloudflare, Oh My!
+- 2021-10-30 - 2-way Binding and REPL Diving
+- 2021-10-23 - Streaming SolidJS - Benchmarking and Custom Renderers
+- 2021-10-16 - Islands, Partial Hydration, & JavaScript Frameworks
+- 2021-10-09 - Streaming SolidJS: Routing
+- 2021-10-02 - Streaming SolidJS - First look at Astro
+- 2021-09-25 - Streaming SolidJS - Server Rendering
+- 2021-09-18 - Streaming SolidJS - Context, Async, & Suspense
+- 2021-09-11 - Streaming SolidJS: Fine-Grained Reactivity
+- 2021-09-04 - First look at DOM Expressions
