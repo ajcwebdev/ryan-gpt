@@ -10,14 +10,26 @@
   "type": "module",
   "scripts": {
     "tsx:base": "tsx --env-file=.env --no-warnings",
-    "as": "npm run tsx:base -- cli.ts"
+    "as": "npm run tsx:base -- cli.ts",
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
   },
   "dependencies": {
-    "commander": "13.1.0"
+    "commander": "13.1.0",
+    "react": "^19.0.0",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.1.0",
+    "solid-js": "^1.9.5",
+    "vinxi": "^0.5.3"
   },
   "devDependencies": {
     "@types/node": "22.13.10",
     "tsx": "4.19.3",
     "typescript": "5.8.2"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
