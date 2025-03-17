@@ -20,9 +20,9 @@ This session begins by creating a basic client-side app, then naturally expands 
 
 ### 00:00:00 - 00:06:00 - Overview and Opening Remarks
 
-In the first paragraph of this segment, the speaker introduces the overall theme: showcasing SolidStart’s journey from a simple configuration to a sophisticated meta framework. They mention personal anecdotes about musical influences and highlight the significance of service-side rendering. This opening sets the stage for a technical deep-dive, establishing that the session will explore both fundamental coding practices and broader insights about the JavaScript ecosystem.  
+In this segment, the speaker introduces the overall theme: showcasing SolidStart’s journey from a simple configuration to a sophisticated meta framework. They mention personal anecdotes about musical influences and highlight the significance of service-side rendering. This opening sets the stage for a technical deep-dive, establishing that the session will explore both fundamental coding practices and broader insights about the JavaScript ecosystem.  
 
-The second paragraph emphasizes the extended timeframe in which SolidStart matured and how each iteration uncovered new patterns. By tracing back to earlier technologies and experiences, the speaker paints a clear picture of challenges that shaped today’s framework. Attendees learn that consistent rewrites and valuable community feedback gradually molded SolidStart’s evolving direction, setting the audience’s expectations for a thorough, multi-hour exploration.
+This section emphasizes the extended timeframe in which SolidStart matured and how each iteration uncovered new patterns. By tracing back to earlier technologies and experiences, the speaker paints a clear picture of challenges that shaped today’s framework. Attendees learn that consistent rewrites and valuable community feedback gradually molded SolidStart’s evolving direction, setting the audience’s expectations for a thorough, multi-hour exploration.
 
 ### 00:06:00 - 00:12:00 - Initial Beta Phases and Core Motivations
 
@@ -46,7 +46,7 @@ Further remarks highlight that, under the hood, everything runs on Vite, offerin
 
 During these minutes, the conversation pivots to routing. The speaker installs the original Solid Router, setting up two pages: “Home” and “To-Dos.” By demonstrating simple anchor-based navigation, they illustrate how pages change under a purely client-side approach. Listeners gain insight into code-splitting and lazy loading, confirming the framework’s capacity for incremental loading.  
 
-A second paragraph focuses on conceptual clarity. The speaker elaborates on how minimal boilerplate is needed to adopt new routes. They distinguish between classic single-page app navigation and the advanced options that will soon be enabled. By solidifying these first routing examples, they prepare the audience for more sophisticated features like file-based routing and parallel data loading.
+This section focuses on conceptual clarity. The speaker elaborates on how minimal boilerplate is needed to adopt new routes. They distinguish between classic single-page app navigation and the advanced options that will soon be enabled. By solidifying these first routing examples, they prepare the audience for more sophisticated features like file-based routing and parallel data loading.
 
 ### 00:30:00 - 00:36:00 - Evolving a Simple To-Do App
 
@@ -64,7 +64,7 @@ The speaker underscores how server functions bridge client and server seamlessly
 
 During this segment, the speaker removes the newly created API routes, opting to rely fully on Solid’s server functions for retrieving and adding items. By importing these functions on the client, the to-do component automatically synchronizes data without explicit fetch calls. This approach reveals how frictionless the developer experience can be when skipping classic AJAX patterns.  
 
-The second paragraph digs into security and best practices. The speaker acknowledges that while server functions simplify calls, developers still need to verify authentication or other checks. Observers learn that these boundary conditions resemble typical endpoint concerns but are more easily enforced. Overall, the to-do flow exemplifies how swiftly an app can scale from minimal pages to robust data handling.
+This section digs into security and best practices. The speaker acknowledges that while server functions simplify calls, developers still need to verify authentication or other checks. Observers learn that these boundary conditions resemble typical endpoint concerns but are more easily enforced. Overall, the to-do flow exemplifies how swiftly an app can scale from minimal pages to robust data handling.
 
 ### 00:48:00 - 00:54:00 - Form Submissions and Progressive Enhancement
 
@@ -106,7 +106,7 @@ This discussion underscores the framework’s attention to micro-optimizations. 
 
 The speaker now introduces a different router version, referencing how SolidStart’s design decouples the meta framework from the actual routing library. They demonstrate a setup with a new load function that parallels older data patterns but offers improved concurrency or code-sharing.  
 
-A second paragraph addresses the bigger philosophical choice: Solid doesn’t lock users into one router. If developers prefer another router library or even want to try a custom approach, the framework remains flexible. This stands in contrast to monolithic solutions that tightly couple routing to the entire application structure.
+This section addresses the bigger philosophical choice: Solid doesn’t lock users into one router. If developers prefer another router library or even want to try a custom approach, the framework remains flexible. This stands in contrast to monolithic solutions that tightly couple routing to the entire application structure.
 
 ### 01:30:00 - 01:36:00 - TanStack Query and Alternative Data Libraries
 
@@ -124,7 +124,7 @@ The speaker emphasizes that typical server-driven tasks—like verifying credent
 
 Here, the speaker delves into how middleware can intercept requests, applying checks or transformations. They explain that a single file can handle route protection across multiple endpoints or server functions. For instance, verifying user authentication can occur uniformly rather than duplicating code in each route.  
 
-A second paragraph details the nuances of returning early from middleware, or setting fields on `event.locals`. The speaker acknowledges potential complexities with multiple middlewares. Nevertheless, they affirm that a well-designed global interceptor strategy keeps large apps organized and consistent in applying security or logging rules.
+This section details the nuances of returning early from middleware, or setting fields on `event.locals`. The speaker acknowledges potential complexities with multiple middlewares. Nevertheless, they affirm that a well-designed global interceptor strategy keeps large apps organized and consistent in applying security or logging rules.
 
 ### 01:48:00 - 01:54:00 - Further Simplifications and Progressive Enhancement
 
@@ -136,4 +136,4 @@ They also touch on optimistic updates, describing how the new router or action s
 
 Here, the conversation circles back to the effortless toggle between client and server rendering. The speaker clarifies that many app owners start with CSR-only, then add SSR later for performance or SEO needs. This incremental approach suits both small prototypes and enterprise expansions, demonstrating SolidStart’s adaptability.  
 
-A second paragraph delves into how edge deployments factor in. While going “edge-first” might cut network latency, it introduces new trade-offs, particularly around data queries. By letting developers choose their sweet spot—local server, serverless, or edge—SolidStart remains flexible without prescribing a single “best” method.
+This section delves into how edge deployments factor in. While going “edge-first” might cut network latency, it introduces new trade-offs, particularly around data queries. By letting developers choose their sweet spot—local server, serverless, or edge—SolidStart remains flexible without prescribing a single “best” method.

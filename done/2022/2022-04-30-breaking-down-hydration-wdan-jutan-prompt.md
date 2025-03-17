@@ -148,7 +148,7 @@ The speakers mention that large companies often care deeply about these performa
 
 Here, the conversation shifts to actual code snippets illustrating how partial hydration compilers prune out non-interactive elements. They describe macros or special directives that mark which components are pure. The frameworks either omit these from the client bundle or ensure that only minimal scaffolding remains.
 
-They also detail how frameworks embed event handlers into the DOM, referencing Qwik’s “QRL” approach and how it can dispatch interactions with minimal overhead. The second paragraph emphasizes that these approaches often rely on developer discipline or advanced compiler logic, bridging the gap between ideal output and practical day-to-day coding.
+They also detail how frameworks embed event handlers into the DOM, referencing Qwik’s “QRL” approach and how it can dispatch interactions with minimal overhead. This section emphasizes that these approaches often rely on developer discipline or advanced compiler logic, bridging the gap between ideal output and practical day-to-day coding.
 
 ### 132:00 - 138:00 Divergence of SPA and MPA Mindsets
 
@@ -166,7 +166,7 @@ They also observe that Qwik can yield close to zero initial JavaScript, deferrin
 
 Here, they revisit the popular “islands architecture,” explaining that each island is an independently hydrated region. The conversation clarifies that while Astro popularized the term, the concept existed in earlier frameworks like Preact’s partial hydration demos. They detail how an island can carry its own state and events, isolated from the rest of the page, and how that isolation can reduce overhead.
 
-However, the speakers also point out that “islands everywhere” might split an application too heavily, causing excessive code-splitting or multiple fetch requests if not managed well. The second paragraph mentions that big apps need to find a balance between small islands for minimal load and well-grouped islands that streamline chunking. This architectural style remains in flux, with new compilers continually refining the practice.
+However, the speakers also point out that “islands everywhere” might split an application too heavily, causing excessive code-splitting or multiple fetch requests if not managed well. This section mentions that big apps need to find a balance between small islands for minimal load and well-grouped islands that streamline chunking. This architectural style remains in flux, with new compilers continually refining the practice.
 
 ### 150:00 - 156:00 Handling Edge Cases in Real Deployments
 
@@ -196,7 +196,7 @@ The panel also acknowledges skepticism from some who argue that these advanced a
 
 Here, they return to the notion that fine-grained reactive systems, like those in Solid or Vue’s Composition API, can significantly reduce hydration costs. Instead of re-checking entire subtrees, they track exactly which values changed and update only relevant parts. This concept dovetails with partial and resumable hydration by isolating each data source.
 
-They illustrate how a carefully composed architecture can drastically cut down on CPU usage, especially on underpowered devices. If changes remain local to specific signals, large sections of the page need no re-evaluation. The second paragraph underscores that while reactivity can be a learning curve, it is often key to achieving the minimal overhead that advanced hydration solutions promise.
+They illustrate how a carefully composed architecture can drastically cut down on CPU usage, especially on underpowered devices. If changes remain local to specific signals, large sections of the page need no re-evaluation. This section underscores that while reactivity can be a learning curve, it is often key to achieving the minimal overhead that advanced hydration solutions promise.
 
 ### 180:00 - 186:00 Balancing Developer Ergonomics with Performance
 

@@ -18,8 +18,6 @@ This transcript offers an extensive discussion about React from both historical 
 
 ## Chapters
 
-Below are 50 chapters, each spanning roughly six-minute intervals, with timestamps indicating when each segment begins. Every two-paragraph description flows from the ideas discussed, offering a cohesive sense of the speaker’s journey through React’s history, features, and surrounding community.
-
 ### 00:00:00 - Introduction and Initial Reflections
 
 The host greets the audience and outlines the day’s plan, emphasizing the scope of this deep conversation about React. They share personal background on past frameworks and technologies they’ve used, setting the stage for how React came to be so significant. Early remarks reveal a deep affection for reactivity and the motivations that drew them to explore different libraries.

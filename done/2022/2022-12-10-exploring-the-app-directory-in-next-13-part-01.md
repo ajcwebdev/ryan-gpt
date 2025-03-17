@@ -18,13 +18,11 @@ This session opens with an overview of website architectures, contrasting multi-
 
 ## Chapters
 
-Below, each chapter covers an approximately six-minute segment of the broadcast. Timestamps note when each segment begins and ends. Each chapter is described in two paragraphs of at least 75 words total.  
-
 ### 00:00:00 – 00:06:00: Initial Thoughts on Next 13 and Previous Attempts
 
-In the first paragraph of this section, the speaker greets the audience and sets the stage for a session focused on Next 13’s new features. They reference a prior stream where they tackled Next.js while relying on chat for guidance, reflecting on challenges around link tags and server-side props. This preview underscores the speaker’s hope that server components in Next 13 will prove more polished than earlier versions, easing adoption.
+In this section, the speaker greets the audience and sets the stage for a session focused on Next 13’s new features. They reference a prior stream where they tackled Next.js while relying on chat for guidance, reflecting on challenges around link tags and server-side props. This preview underscores the speaker’s hope that server components in Next 13 will prove more polished than earlier versions, easing adoption.
 
-In the second paragraph, the speaker also emphasizes the broader context of why Next 13 is crucial. They note that server components hold potential for creating hybrid multi-page and single-page experiences. The hope is that this technology will reduce overhead by limiting client-side JavaScript only to necessary sections. This opening chapter foreshadows a deep exploration of how Next 13 might reshape the way developers approach page routing, data loading, and rendering.
+In this section, the speaker also emphasizes the broader context of why Next 13 is crucial. They note that server components hold potential for creating hybrid multi-page and single-page experiences. The hope is that this technology will reduce overhead by limiting client-side JavaScript only to necessary sections. This opening chapter foreshadows a deep exploration of how Next 13 might reshape the way developers approach page routing, data loading, and rendering.
 
 ### 00:06:00 – 00:12:00: Revisiting Past Experiences with Next.js
 

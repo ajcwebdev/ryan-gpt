@@ -18,8 +18,6 @@ This transcript provides a wide-ranging examination of front-end technologies, f
 
 ## Chapters
 
-Below are chapters spanning the full length of the conversation, each covering approximately six minutes (except the final, shorter segment). Every chapter has two paragraphs of description, each paragraph running 75+ words.
-
 ### 00:00 – 06:00: Introduction and Initial Framework Overview
 
 In the opening moments, the speaker sets the stage by greeting viewers and explaining that the session will focus on performance in JavaScript frameworks. They mention an intention to create a tier list based on performance and rendering techniques. Early references include older systems like Knockout and Backbone, prompting reflection on the evolution of client-side libraries. The speaker clarifies that this exploration is meant to illustrate core differences in how each solution handles user interface updates and computational overhead.

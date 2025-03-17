@@ -18,8 +18,6 @@ This extensive conversation spans five full hours, delving into every major aspe
 
 ## Chapters
 
-Below are 50 chapters, each covering roughly six-minute intervals across the entire five-hour episode. Every chapter includes two paragraphs providing context and key themes without using the original transcript text.
-
 ### 00:00 – 06:00: Foundations of Modern Web Development  
 
 In the opening minutes, the speakers highlight how drastically web development has changed since the late 1990s. They discuss how early websites were manually crafted with basic editors and uploaded via dial-up connections, placing limitations on both performance and reach. This sets the stage for explaining why today’s tools, such as Next.js and Prisma, are so transformative, removing much of the guesswork and tedium from programming.  

@@ -18,8 +18,6 @@ This extended recording features an in-depth discussion about the creation and e
 
 ## Chapters
 
-Below are chapters in approximately six-minute increments, spanning the entire four-hour, thirty-minute conversation. Each chapter provides two paragraphs summarizing the topics discussed during that timeframe.  
-
 ### 00:00 - 00:06 – Introduction and Early Context
 
 In the initial minutes, the host greets viewers and confirms that the long-awaited conversation about SolidStart is underway. They provide background on how the project began, describing how early efforts focused on a Hacker News demo and basic SSR examples in Solid. The discussion then underscores the importance of having a robust meta framework around Solid.js, rather than expecting developers to piece together custom solutions. Listeners learn that significant efforts have gone into refining server-side rendering, routing, and data handling to create an integrated developer experience for Solid.

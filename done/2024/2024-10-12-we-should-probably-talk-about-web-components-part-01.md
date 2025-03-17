@@ -18,8 +18,6 @@ This extended conversation explores the intricate details of web components, fro
 
 ## Chapters
 
-Below are timestamped chapters at six-minute intervals (covering approximately 5 hours and 29 minutes of total runtime). Each chapter includes two paragraphs (each roughly 75+ words) offering a natural, flowing overview of the topics discussed within that segment.
-
 ### 00:00 - 06:00 — Opening Remarks and Context
 
 In this opening segment, the speaker greets the audience with a casual tone, setting the stage by joking about a beverage and how it connects to broader internet culture references. They share updates about personal circumstances, like sipping a new kind of drink or noticing how time passes in streaming sessions. This relaxed environment quickly shifts toward the main theme: a genuine interest in web components and a desire to address their role in front-end development. The speaker anticipates that this discussion might spark debate, and they invite listeners to keep an open mind.

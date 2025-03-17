@@ -18,8 +18,6 @@ This recording highlights a wide-ranging discussion that begins by touching on t
 
 ## Chapters
 
-Below are approximately six-minute intervals covering the entire runtime of five hours and forty-seven minutes (05:47:18). Each chapter description is presented in two paragraphs, and each paragraph contains at least 75 words. Timestamps are approximate and may vary slightly depending on minor playback differences.
-
 ### 00:00 - Intro and Initial Context
 
 In the opening moments, listeners are welcomed to the stream, setting the stage for a wide-ranging conversation about modern web development. The speaker establishes a relaxed atmosphere, explaining that this will be a lengthy session where they plan to tackle various topics spanning performance, architecture, and community. From the outset, there is an emphasis on tackling both technical depth and broader reflections on the state of the web, ensuring that the conversation will be equal parts insightful and exploratory.

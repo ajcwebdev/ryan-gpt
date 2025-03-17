@@ -18,8 +18,6 @@ This transcript offers a sweeping look into the world of JavaScript development,
 
 ## Chapters
 
-Because this is a long-form recording extending beyond five hours (00:00:00 – 05:32:24), each chapter below covers approximately six-minute intervals to ensure every portion of the content is represented. Each chapter contains two paragraphs of at least 75 words each.
-
 ### 00:00 – 06:00 Introduction and Stream Setup
 
 In the first six minutes, the host greets the audience, explains that there is no formal starting screen, and casually checks in with chat participants on both YouTube and Twitch. He mentions having a new monitor and notices how crisp the picture is now. Early on, he references a recent Syntax podcast episode, reflecting on whether what he said there was coherent and approachable. He is pleased with how well it turned out, noting a balance between technical depth and accessibility in that interview. The casual banter emphasizes the open, conversational vibe of the stream, with the host frequently checking for chat messages and welcoming viewers as they trickle in.

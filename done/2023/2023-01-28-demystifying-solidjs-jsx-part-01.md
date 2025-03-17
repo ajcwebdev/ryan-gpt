@@ -18,8 +18,6 @@ This extensive conversation covers how SolidJS blends JSX syntax with fine-grain
 
 ## Chapters
 
-Below, each chapter covers approximately six-minute intervals from the 5-hour, 30-minute runtime. Every chapter is summarized in two paragraphs of at least 75 words each, flowing naturally from the topics discussed.
-
 ### 00:00 – 00:06 - First Steps and Context Setting
 
 In the opening minutes, the host greets viewers, acknowledging scheduling challenges and welcoming first-time visitors. He explains that he was wrapping up a beta release for a SolidJS-based product, hinting at the real-world traction the library is gaining. Early chatter covers the difficulty of finding a perfect global streaming slot, with references to a previously late-night schedule that was problematic for many. The speaker mentions a Mac update and a last-minute scramble, injecting a lighthearted note about the realities of live streaming. He underscores the significance of multiple time zones and how each potential timeslot can be inconvenient for one region or another.

@@ -18,8 +18,6 @@ This comprehensive session opens by introducing the latest additions in SolidJS 
 
 ## Chapters
 
-Below are chapter segments of approximately six minutes each, ensuring the entire four-hour, fifty-four-minute transcript is covered in 49 chapters. Each chapter includes two paragraphs, each with at least 75 words.
-
 ### 00:00 - 06:00 | Initial Greetings and Setup
 
 In this segment, Ryan welcomes viewers and explains the slight delay in starting, mentioning that he had to borrow headphones. He interacts casually with the live chat, encouraging everyone to say hello and share how they are doing. Viewers get a sense of his spontaneous streaming style as he sorts out the last-minute details, like posting on social media. He double-checks audio and screen sharing to ensure everything functions smoothly before properly kicking off the day’s session.

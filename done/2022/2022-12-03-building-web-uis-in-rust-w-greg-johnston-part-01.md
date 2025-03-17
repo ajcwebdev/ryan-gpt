@@ -58,7 +58,7 @@ Yew is mentioned as one of the earliest Rust/WASM UI libraries, employing a virt
 
 ### 00:45 – 00:50 Building a Simple Counter in Vanilla Rust/WASM
 
-They walk through creating a bare-bones example: a paragraph showing a count and increment/decrement buttons. This code highlights the necessity of bridging JavaScript events with Rust references, plus the friction around Rust’s strict references in callbacks. Working with small demos clarifies the overhead of repeated `.clone()` calls for state. Despite feeling clumsy, it illuminates how memory safety yields predictable runtime performance. The example also illustrates that a straightforward pattern is sometimes more verbose in Rust.
+They walk through creating a bare-bones example: showing a count and increment/decrement buttons. This code highlights the necessity of bridging JavaScript events with Rust references, plus the friction around Rust’s strict references in callbacks. Working with small demos clarifies the overhead of repeated `.clone()` calls for state. Despite feeling clumsy, it illuminates how memory safety yields predictable runtime performance. The example also illustrates that a straightforward pattern is sometimes more verbose in Rust.
 
 ### 00:50 – 00:55 Rethinking State Sharing with Message Passing
 

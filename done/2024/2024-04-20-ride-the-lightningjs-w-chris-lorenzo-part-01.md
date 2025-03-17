@@ -18,8 +18,6 @@ This exchange dives into how LightningJS—a specialized WebGL-based renderer—
 
 ## Chapters
 
-Below are 30 chapters to cover roughly five hours of content, each chapter spanning about ten minutes. Chapter descriptions flow naturally, avoiding formulaic repetition and maintaining a two-paragraph format (75+ words each).
-
 ### 00:00 – 00:10 • Setting the Stage and Initial Context
 
 The episode opens with a warm welcome and introductory remarks about what listeners can expect. The host notes how this meeting came together and teases the major themes around TV-specific constraints. The conversation quickly touches on the unusual challenges that arise when coding for underpowered embedded devices rather than modern desktop or mobile hardware. There’s also a quick reference to performance limits that inevitably come up when working with televisions—especially older “smart” models.
