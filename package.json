@@ -6,5 +6,18 @@
     "Ryan Carniato",
     "ChatGPT"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "tsx:base": "tsx --env-file=.env --no-warnings",
+    "as": "npm run tsx:base -- cli.ts"
+  },
+  "dependencies": {
+    "commander": "13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "tsx": "4.19.3",
+    "typescript": "5.8.2"
+  }
 }
