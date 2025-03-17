@@ -3,4 +3,4 @@ node_modules
 dist
 .env
 .env.local
-new-llm.md
+new-llm*.md

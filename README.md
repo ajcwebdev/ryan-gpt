@@ -1,22 +1,23 @@
 # RyanGPT
 
+## Setup
+
+Install dependencies and set `OPENAI_API_KEY` in `.env`
+
+```bash
+npm i
+cp .env.examples .env
+```
+
 ## Generate Your Own Embeddings
 
 ```bash
-git clone https://github.com/ajcwebdev/autoshow.git
-cp -r done/2025 autoshow/content/
-cd autoshow
-npm run setup
-npm run as -- --createEmbeddings "content/done"
+npm run as -- --createEmbeddings
 ```
 
 ## Chat with Embeddings
 
 ```bash
-git clone https://github.com/ajcwebdev/autoshow.git
-cp -r embeddings.json autoshow
-cd autoshow
-npm run setup
 npm run as -- --queryEmbeddings "Why is Marko the most underrated frontend framework ever?"
 ```
 
@@ -25,44 +26,45 @@ npm run as -- --queryEmbeddings "Why is Marko the most underrated frontend frame
 Top matches for: "Why is Marko the most underrated frontend framework ever?"
 
 ```
-┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────────────┐
-│ (index) │ filename                                                                                                                            │ distance           │
-├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────────────┤
-│ 0       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2025/2025-01-28-building-javascript-framework-client-performance-tier-list-part-01.md' │ 0.5631148424549258 │
-│ 1       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2025/2025-01-28-building-javascript-framework-client-performance-tier-list-part-02.md' │ 0.5796715116109266 │
-│ 2       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-01-13-javascript-frameworks-heading-into-2024-part-01.md'                    │ 0.6062895186292552 │
-│ 3       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-09-07-whats-up-with-those-hydration-ids-part-01.md'                          │ 0.6126400001430505 │
-│ 4       │ '/Users/ajc/c/ryan-gpt/autoshow/content/done/2024/2024-05-25-we-are-so-back-part-01.md'                                             │ 0.6145384584756963 │
-└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ filename                                                                                │ similarity          │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'done/2022/2022-01-15-marko-the-most-underrated-js-framework-part-01.md'                │ 0.4920250963894983  │
+│ 1       │ 'done/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-01.md'    │ 0.4367972782950814  │
+│ 2       │ 'done/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings-part-01.md'       │ 0.43539383853815283 │
+│ 3       │ 'done/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-02.md'    │ 0.4196447101341584  │
+│ 4       │ 'done/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings-part-01.md' │ 0.40978166721589493 │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
 ```
 
 ```json
 {
-  "id": "chatcmpl-B6VeWigm52dCmrTPO3AGqJuo0pkWj",
+  "id": "chatcmpl-BBz2tC45Xi9ur2KLnIUADDoxJq9qc",
   "object": "chat.completion",
-  "created": 1740891340,
+  "created": 1742195967,
   "model": "o1-preview-2024-09-12",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "ANSWER HERE",
-        "refusal": null
+        "content": "Marko is considered the most underrated frontend framework ever because...",
+        "refusal": null,
+        "annotations": []
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 13277,
-    "completion_tokens": 2576,
-    "total_tokens": 15853,
+    "prompt_tokens": 19924,
+    "completion_tokens": 2260,
+    "total_tokens": 22184,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
     },
     "completion_tokens_details": {
-      "reasoning_tokens": 1664,
+      "reasoning_tokens": 1280,
       "audio_tokens": 0,
       "accepted_prediction_tokens": 0,
       "rejected_prediction_tokens": 0
@@ -73,55 +75,51 @@ Top matches for: "Why is Marko the most underrated frontend framework ever?"
 }
 ```
 
-Marko is often considered the most underrated frontend framework because it offers a combination of innovative features, performance optimizations, and developer-friendly ergonomics that rival—and in some cases surpass—more popular frameworks like React, Vue, and Angular. Despite its capabilities, Marko hasn't gained the widespread recognition it deserves, which is why it's viewed as underrated in the developer community.
+Marko is considered the most underrated frontend framework ever because it pioneered many advanced features and techniques well before they became mainstream in the JavaScript ecosystem, yet it hasn't received the widespread recognition that other frameworks have. Despite its innovative approach and proven performance benefits, Marko remains lesser-known compared to popular frameworks like React, Vue, and Angular.
 
-**Reasons Why Marko is Underrated:**
+Here are the key reasons why Marko deserves more recognition:
 
-1. **Advanced Streaming and Rendering Techniques:**
-   - **Out-of-Order Streaming:** Marko pioneered out-of-order streaming, allowing components to render as soon as their data is available, rather than waiting for the entire page. This results in faster Time to First Byte (TTFB) and improves the overall user experience.
-   - **Progressive Hydration:** Marko can hydrate interactive components on the client only when necessary, reducing the amount of JavaScript that needs to be downloaded and executed. This leads to faster initial load times and better performance on slower devices.
+**1. Early Adoption of Server-Side Rendering (SSR):**
 
-2. **Performance Optimization:**
-   - **Compile-Time Optimizations:** Marko's compiler performs advanced optimizations that minimize runtime overhead. It converts templates into highly efficient JavaScript code, reducing the need for a virtual DOM diffing process.
-   - **Minimal Overhead:** By eliminating unnecessary abstractions and runtime libraries, Marko delivers high performance both on the server and client sides.
+- **Server-Centric Focus:** At a time when the industry was gravitating towards client-heavy single-page applications (SPAs), Marko doubled down on server-side rendering. Originating at eBay, where performance across variable network speeds was crucial, Marko prioritized delivering fast-loading pages by rendering HTML on the server.
+- **Pioneering Streaming Techniques:** Marko implemented HTML streaming and out-of-order streaming long before these concepts gained traction elsewhere. This allowed for faster initial render times and improved perceived performance by sending parts of the page to the client as soon as they were ready.
 
-3. **Server and Client Rendering Harmony:**
-   - Marko seamlessly integrates server-side rendering (SSR) with client-side interactivity. This ensures that applications are SEO-friendly and provide a fast initial render while still offering dynamic client-side features.
+**2. Partial Hydration and Minimal JavaScript Payloads:**
 
-4. **Developer-Friendly Syntax:**
-   - **Familiar Templating Language:** Marko uses an HTML-like syntax that's easy to read and write, lowering the learning curve for developers familiar with standard web technologies.
-   - **Component-Based Architecture:** It embraces a component-driven approach, promoting code reuse and modularity.
+- **Selective Hydration:** Marko introduced the concept of partial hydration, where only the interactive parts of the page are hydrated on the client side. This significantly reduces the amount of JavaScript sent over the wire, leading to faster load times and less execution overhead on the client.
+- **Automatic Code Splitting:** The framework's compiler automatically analyzes which components need to be interactive and ships only the necessary code. Developers don't need to manually split code or manage hydration boundaries.
 
-5. **Innovation Ahead of Its Time:**
-   - Many features that are now gaining popularity in other frameworks have been part of Marko for years. For instance, the focus on minimizing JavaScript payloads and optimizing rendering performance are foundational in Marko.
+**3. Compiler-Based Optimizations:**
 
-6. **Production-Proven at Scale:**
-   - **Enterprise Usage:** Developed and maintained by eBay, Marko has been used in large-scale, high-traffic applications for years. This real-world usage demonstrates its reliability, scalability, and performance under heavy loads.
+- **Advanced Compilation Techniques:** Marko leverages a powerful compiler to perform fine-grained analysis of the code. This allows for aggressive tree shaking and optimization that reduces the client-side bundle size.
+- **Co-Located Logic and Markup:** Developers can write intuitive, declarative templates with logic embedded directly alongside markup. The compiler takes care of transforming this into highly optimized code.
 
-7. **Lack of Hype and Marketing:**
-   - Unlike other frameworks that benefit from large communities and strong marketing efforts, Marko hasn't been as aggressively promoted. This has led to less community engagement, fewer tutorials, and less third-party tooling, contributing to its underrated status.
+**4. Resumability without Hydration Overhead:**
 
-8. **Unique Features Less Known:**
-   - **Isomorphic Components:** Marko allows the same components to run on both the server and client without additional configuration.
-   - **Stateful Hot Reloading:** Developers can make changes to components, and Marko will preserve the application state while updating the UI during development.
+- **Skip Hydration Step:** Marko can resume from the server-rendered state on the client without requiring a full rehydration process. This means the client can start interacting with the page immediately, enhancing performance especially on slower devices.
+- **Efficient Data Serialization:** By knowing exactly what parts of the state are needed on the client, Marko avoids sending unnecessary data, reducing the payload size and improving security.
 
-**Why This Matters:**
+**5. Fine-Grained Reactivity and Performance:**
 
-- **Performance-Critical Applications:** For applications where performance is paramount, especially on mobile devices and slow networks, Marko provides significant advantages.
-- **Developer Productivity:** Its ergonomic syntax and features can speed up development time and reduce bugs.
-- **Future-Proofing:** As the web moves toward performance-centric and less JavaScript-heavy applications, Marko's philosophies align well with emerging best practices.
+- **Reactive Core:** Marko's reactive system updates only the parts of the UI that need to change, without re-rendering entire components. This fine-grained reactivity ensures high performance for dynamic applications.
+- **Competitive Benchmarks:** In performance benchmarks, Marko matches or exceeds the speed of many leading frameworks, both in server-side rendering and client-side interactivity.
 
-**Conclusion:**
+**6. Seamless Developer Experience:**
 
-Marko is a powerful, mature framework that excels in areas increasingly important to modern web development: performance, efficient rendering, and developer experience. Its lack of widespread adoption isn't due to a lack of capability but rather a lack of visibility. As the community continues to prioritize fast, user-friendly web applications, Marko has the potential to gain recognition for the innovative solutions it has been providing all along.
+- **Single-File Components:** Marko has supported single-file components for years, allowing developers to keep templates, styles, and logic in one place.
+- **Flexible Syntax:** With a tag-based syntax that resembles HTML, Marko is approachable for developers familiar with server-side templating languages.
 
-**Further Reading and Exploration:**
+**Despite these strengths, Marko remains underrated due to several factors:**
 
-- [Marko Official Website](https://markojs.com/)
-- [Marko GitHub Repository](https://github.com/marko-js/marko)
-- [Case Studies on Marko's Performance at eBay](https://www.ebayinc.com/stories/blogs/tech/marko-faster-lighter-simpler/)
+- **Limited Publicity and Marketing:** Being developed within eBay, Marko didn't benefit from the same level of community building and promotion as other frameworks. This resulted in less visibility in the broader developer ecosystem.
+- **Community and Ecosystem Size:** A smaller community means fewer third-party libraries, tutorials, and resources, which can make adoption less appealing compared to more popular frameworks.
+- **Industry Trends and Job Market Dynamics:** Developers often choose frameworks like React or Angular because of their popularity and the demand in the job market. This can overshadow technically superior but less-known frameworks like Marko.
+- **Perception of Innovation Timing:** Even though Marko introduced many concepts early on, other frameworks that adopted similar techniques later received more attention and credit for those innovations.
+- **Enterprise Association:** Marko's tight association with eBay may have led to the perception that it's tailored for specific enterprise needs rather than general-purpose use.
 
-By exploring Marko and its features, developers can discover an efficient alternative to mainstream frameworks, potentially leading to better-performing applications and a more enjoyable development experience.
+**In Conclusion:**
+
+Marko is the most underrated frontend framework because it was ahead of its time in embracing server-side rendering, partial hydration, and compiler-based optimizations. It delivers exceptional performance and a developer-friendly experience by automating complex tasks and minimizing client-side overhead. However, due to limited exposure, smaller community support, and market dynamics favoring more popular frameworks, Marko hasn't gained the widespread recognition it deserves. As the industry continues to prioritize performance and re-examines server-side rendering approaches, Marko's contributions and innovations may finally receive greater appreciation.
 
 ## Episode List
 
