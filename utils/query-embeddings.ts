@@ -72,7 +72,7 @@ async function embedText(text: string, apiKey: string): Promise<number[]> {
  */
 async function callChatCompletion(userQuestion: string, fileContent: string, apiKey: string): Promise<string> {
   const chatBody = {
-    model: 'o1-preview',
+    model: 'o3-mini',
     messages: [
       {
         role: 'user',
@@ -166,4 +166,69 @@ export async function queryEmbeddings(question: string, customDir?: string): Pro
 
   const answer = await callChatCompletion(question, combinedContent, OPENAI_API_KEY)
   console.log('Answer:\n', answer)
+  console.log('combinedContent:\n', combinedContent)
+}
+
+/**
+ * Queries the previously created embeddings stored in "embeddings.json" to find the top matches
+ * for a given question using a user-provided OpenAI API key. It returns the final answer as a string.
+ *
+ * @async
+ * @function queryEmbeddingsRuntime
+ * @param {string} question - The user's question to embed and query
+ * @param {string} userApiKey - The OpenAI API key
+ * @param {string} [customDir] - An optional directory path from which the relative paths were generated
+ * @throws {Error} If no question or API key is provided, or if "embeddings.json" is not found
+ */
+export async function queryEmbeddingsRuntime(question: string, userApiKey: string, customDir?: string) {
+  if (!question) {
+    throw new Error('No question provided.')
+  }
+  if (!userApiKey) {
+    throw new Error('No API key provided.')
+  }
+
+  const baseDir = customDir
+    ? (isAbsolute(customDir) ? customDir : resolve(process.cwd(), customDir))
+    : process.cwd()
+
+  let storedEmbeddings: Record<string, number[]>
+  try {
+    const content = readFileSync('embeddings.json', 'utf8')
+    storedEmbeddings = JSON.parse(content)
+  } catch (err) {
+    throw new Error(`Error reading "embeddings.json": ${err}`)
+  }
+
+  const queryEmbedding = await embedText(question, userApiKey)
+  const similarities: Array<{ filename: string, similarity: number }> = []
+
+  for (const [filename, embedding] of Object.entries(storedEmbeddings)) {
+    const sim = cosineSimilarity(queryEmbedding, embedding)
+    similarities.push({ filename, similarity: sim })
+  }
+
+  similarities.sort((a, b) => b.similarity - a.similarity)
+  const topMatches = similarities.slice(0, 5)
+
+  if (topMatches.length === 0) {
+    return 'No matches found in "embeddings.json".'
+  }
+
+  let combinedContent = ''
+  for (const match of topMatches) {
+    const filename = match.filename
+    const fileAbsolutePath = join(baseDir, filename)
+
+    let fileContent = ''
+    try {
+      fileContent = readFileSync(fileAbsolutePath, 'utf8')
+    } catch (err) {
+      console.error(`Error reading file for context: ${fileAbsolutePath}`, err)
+    }
+    combinedContent += `\n\n---\n**File: ${filename}**\n${fileContent}\n`
+  }
+
+  const answer = await callChatCompletion(question, combinedContent, userApiKey)
+  return { answer, combinedContent }
 }
