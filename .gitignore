@@ -4,3 +4,12 @@ dist
 .env
 .env.local
 new-llm*.md
+
+dist
+worker
+.solid
+.vercel
+.output
+.netlify
+.vinxi
+netlify
