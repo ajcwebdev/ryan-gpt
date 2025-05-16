@@ -13,19 +13,21 @@
     "as": "npm run tsx:base -- cli.ts",
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "repo": "bash repomix.sh"
   },
   "dependencies": {
-    "commander": "13.1.0",
-    "react": "^19.0.0",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.0",
     "@solidjs/start": "^1.1.0",
+    "commander": "13.1.0",
+    "react": "^19.0.0",
     "solid-js": "^1.9.5",
     "vinxi": "^0.5.3"
   },
   "devDependencies": {
     "@types/node": "22.13.10",
+    "repomix": "0.3.5",
     "tsx": "4.19.3",
     "typescript": "5.8.2"
   },
