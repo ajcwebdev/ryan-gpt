@@ -7,7 +7,11 @@ INCLUDE_PATHS=(
 )
 
 IGNORE_PATHS=(
+  "on-deck"
+  "done"
+  "questions-and-answers"
   ".gitignore"
+  "embeddings.json"
   "new-*.md"
   "repomix.sh"
   "TODO.md"

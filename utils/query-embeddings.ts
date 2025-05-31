@@ -166,7 +166,6 @@ export async function queryEmbeddings(question: string, customDir?: string): Pro
 
   const answer = await callChatCompletion(question, combinedContent, OPENAI_API_KEY)
   console.log('Answer:\n', answer)
-  console.log('combinedContent:\n', combinedContent)
 }
 
 /**
