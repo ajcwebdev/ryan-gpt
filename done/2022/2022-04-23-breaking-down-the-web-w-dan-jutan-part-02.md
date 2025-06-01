@@ -8,6 +8,16 @@ publishDate: "2022-04-23"
 coverImage: "https://i.ytimg.com/vi/REXtIuAJ3dE/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+An in-depth chat on modern web rendering strategies, performance insights, and emerging framework techniques with the Solid docs team.
+
+## Episode Summary
+
+In this extensive discussion, the speakers compare various approaches to fetching and rendering content on the web, highlighting trade-offs in performance, complexity, and developer experience. They begin by describing server-side rendering and client-side rendering, illustrating how factors like latency and bundling can affect time-to-first-byte or contentful paint. The conversation moves into advanced techniques, including streaming server-side rendering, which can show partial content sooner. They also address routing—from traditional multi-page approaches to more complex nested routing solutions—and underscore the power of frameworks that minimize or dynamically load JavaScript. Throughout, they emphasize how decisions about rendering and navigation shape user experience and maintainability, touching on experimental ideas like resumability and transitional routing. By comparing real-world examples and referencing well-known tools, they offer a clear view of the state of modern frontend engineering.
+
+## Chapters
+
 ### 01:18 - 01:24 | Minimal JavaScript Shipping and the Rise of Partial Hydration
 
 Discussion shifts to partial hydration, an increasingly relevant concept for apps that only need certain parts of the UI to remain interactive. The host cites Astro’s popular approach—serving mostly static HTML and hydrating only designated “islands” of interactivity—as a prime example. He ties this to ongoing work in both Marco and Solid, explaining that next-generation compilers aim to minimize the JavaScript needed by each interactive component, rather than shipping a monolithic bundle.

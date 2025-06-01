@@ -8,6 +8,15 @@ publishDate: "2023-12-20"
 coverImage: "https://i.ytimg.com/vi/kHsTiFWz3sY/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A lively four-hour conversation covering current JavaScript trends, comparing client-side and server-side rendering, and exploring new developments in the Solid.js ecosystem.
+
+## Episode Summary
+
+This transcript features an extensive exploration of JavaScript frameworks, the evolving perspectives on server-side vs. client-side rendering, and the architectural decisions involved in building modern web applications. It begins with discussions about recent updates to Solid Start, highlighting its new routing and server function capabilities. The conversation then shifts to broader topics such as React Server Components, resumability, and how large-scale platforms address performance challenges. Throughout, the speaker references real-world implementations, sharing insights gained from work at major companies and from hands-on open-source framework development. By examining different approaches—ranging from fully client-side to more complex server-rendered solutions—the conversation underscores the ongoing quest for optimal performance, maintainable code, and a smooth developer experience.
+
+## Chapters
 
 ### 02:00:00 - 02:05:59 – Granular Tuning with Fine-Grained Reactivity
 

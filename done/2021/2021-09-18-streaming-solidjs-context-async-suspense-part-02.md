@@ -8,6 +8,16 @@ publishDate: "2021-09-18"
 coverImage: "https://i.ytimg.com/vi/8Ou6domKfU4/sddefault.jpg?v=61453cfd"
 ---
 
+## Episode Description
+
+Ryan Carniato guides viewers through an extensive SolidJS livestream, detailing context APIs, fine-grained reactivity, async handling with createResource, Suspense, and concurrent transitions.
+
+## Episode Summary
+
+In this extensive livestream, Ryan Carniato begins by sharing recent JavaScript trends—such as multi-page app (MPA) modes in frameworks, Svelte versus React syntax debates, and Vue’s no-JS MPA approach—before shifting focus to SolidJS’s design philosophy. He examines context APIs in Solid, explaining how createContext and createRoot power a hierarchical, efficient context mechanism that avoids prop drilling and unnecessary re-renders common in virtual DOM frameworks. Carniato then introduces createResource for managing asynchronous data and demonstrates Suspense’s integration, showing how Solid pauses and resumes fine-grained updates without full tree reconciliation. He outlines transitions and createDeferred, contrasting them with React’s concurrent mode, and explains how Solid’s scheduler forks reactive graphs for smoother UI updates. Throughout, he addresses performance trade-offs, server-side rendering considerations, caching strategies, and influences from React Query and GraphQL. By the end, Carniato offers practical examples, Q\&A sessions, and insights into Solid’s future, making complex topics accessible to both newcomers and experienced developers.
+
+## Chapters
+
 ### 01:18:00 - Routing Example with Suspense
 
 Carniato pivots to a routing demonstration, showcasing how Solid’s fine-grained reactivity and Suspense integrate seamlessly with dynamic navigation. He constructs a minimalist route switch using Solid’s `<Routes>` and `<Route>` components, mapping paths like `/1`, `/2`, and `/3` to different page components. In each page component, he employs `createResource` to simulate fetching page-specific data (e.g., text content or delay time). He wraps the routed content in a `<Suspense>` boundary, specifying a loading indicator that displays whenever any page’s data requires asynchronous fetching. Carniato illustrates that as users click different route links, Solid updates only the relevant part of the DOM, leaving static navigation elements untouched.

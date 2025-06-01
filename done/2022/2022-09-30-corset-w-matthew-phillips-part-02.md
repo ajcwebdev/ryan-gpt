@@ -8,6 +8,16 @@ publishDate: "2022-09-30"
 coverImage: "https://i.ytimg.com/vi/0cmj4S8K_6c/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A far-ranging conversation featuring Matthew Phillips as he presents Corset’s unique CSS-based approach to interactive web development, along with wider discussions on frameworks, SSR, and reactivity.
+
+## Episode Summary
+
+This transcript opens by introducing the guest, Matthew Phillips, and framing the conversation around innovative front-end technologies. It sets the stage by highlighting key challenges in modern web development, such as balancing client and server responsibilities, maintaining performance, and choosing frameworks that align with developers’ needs. The speakers then explore how different architectures have evolved, from single-page applications to multi-page approaches, and discuss the trade-offs each method entails. They compare well-known libraries and frameworks, focusing on aspects like reactivity, hydration, and rendering models. As the discussion progresses, Matthew’s project, Corset, becomes a focal point, illustrating a novel data-binding approach inspired by CSS rules. The discussion concludes with broader reflections on where front-end development is heading, weighing the benefits of new techniques like resumability and partial hydration. It emphasizes the importance of constant experimentation, offering insights into both the constraints and possibilities of next-generation web tools.
+
+## Chapters
+
 ### 02:00:00 - Quick’s Transition to Signals and Fine-Grained Updates
 
 Ryan brings up Quick’s latest announcement of moving away from a strict virtual DOM approach toward signals, reminiscent of Solid’s fine-grained reactivity. He sees it as a validation of the reactivity movement, where frameworks discover that precise, per-node updates are more efficient than re-running entire subtrees. Matthew nods, recognizing that many popular libraries are converging on signals to cut runtime overhead and shipping cost. The conversation frames signals as the modern-day “virtual DOM,” signifying the next major wave in front-end solutions.

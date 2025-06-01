@@ -8,6 +8,16 @@ publishDate: "2023-03-11"
 coverImage: "https://i.ytimg.com/vi/QS9yAsv1czg/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A detailed exploration of server components, server functions, and evolving patterns for building modern web applications.
+
+## Episode Summary
+
+This conversation begins by highlighting the growing interest in moving server-side functionality closer to the frontend, emphasizing both performance and developer experience. It describes how server components fit into a larger historical context of multi-page apps, single-page apps, and the continuous search for better data-fetching and caching strategies. The discussion covers topics such as the architectural underpinnings of frameworks, the rise of RPC-style mutations, and how these innovations simplify or replace traditional client-side caching solutions. Key insights involve how nested routing, streaming, and fine-grained updates all contribute to responsive interfaces. The speaker illustrates the potential benefits of these new techniques, notably smaller JavaScript bundles and improved performance. Ultimately, the conversation points to a broader trend in web development, indicating that server-driven architectures, combined with carefully designed client-side interactivity, may present a more balanced approach to building robust, efficient applications.
+
+## Chapters
+
 ### 02:30:00 — Expanding the Future of Routing
 
 Here, the speaker returns to routing technology, imagining universal routers that manage both client-driven transitions and server logic. He speculates about partially offloading transitions to built-in browser APIs, like the new view transitions, further reducing JavaScript overhead. The conversation notes that extensive code splitting might coexist with streaming SSR to offer near-instant route changes.

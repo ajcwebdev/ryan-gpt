@@ -11,6 +11,7 @@ IGNORE_PATHS=(
   "done"
   "questions-and-answers"
   ".gitignore"
+  "chapters.md"
   "embeddings.json"
   "new-*.md"
   "repomix.sh"

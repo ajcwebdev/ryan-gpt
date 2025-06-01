@@ -8,6 +8,16 @@ publishDate: "2023-10-21"
 coverImage: "https://i.ytimg.com/vi/n3YtxzHRjI0/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A lively conversation about the Marko framework, its history, and advanced front-end topics, featuring Michael Rawlings and extensive discussions on architecture and performance.
+
+## Episode Summary
+
+This episode focuses on the evolution of Marko, a cutting-edge framework originally developed at eBay for server-side rendering and partial hydration. It begins by introducing Michael Rawlings, a key contributor to the project, who recounts how he joined the Marko team and helped shape various releases, including Versions 4 and 5. Throughout the discussion, participants highlight Marko’s compiler-based approach, streaming capabilities, and its relationship to other frameworks like React, Svelte, and Solid. The conversation touches on advanced topics such as resumability, serialization, and the importance of thorough planning for large-scale migrations. They also reflect on the complexities of TypeScript integration, balancing powerful optimizations with a smooth developer experience. By the end, listeners gain an appreciation for the innovations driving Marko’s next iteration and the broader implications for modern web development.
+
+## Chapters
+
 ### 3:24:00 — Fine-Grained Reactivity in Context
 
 They revisit the idea of signals and granular reactivity, detailing how frameworks like Solid or Svelte have adopted variations of this pattern. Marko’s push for advanced compiler analysis extends the same benefits, letting it skip unnecessary re-renders. This approach resonates with performance-conscious developers who demand immediate updates on changing state. The host notes that while adding signals to an existing framework can hamper raw benchmarks, it pays off in complex real-world scenarios by reducing wasteful component re-execution.

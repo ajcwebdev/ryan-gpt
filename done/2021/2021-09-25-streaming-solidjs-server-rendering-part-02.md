@@ -8,6 +8,16 @@ publishDate: "2021-09-25"
 coverImage: "https://i.ytimg.com/vi/0zadjVUV7zM/sddefault.jpg?v=614e0353"
 ---
 
+## Episode Description
+
+Ryan Carniato explores SolidJS’s server rendering, detailing its architectural evolution, performance benchmarks, SSR techniques (string rendering, streaming), and the Solid Start framework with demos.
+
+## Episode Summary
+
+Ryan Carniato’s stream dives into SolidJS’s approach to server-side rendering, beginning with his framework’s origins and performance focus. He contrasts client-side rendering against traditional SSR, revealing how Solid’s string-based rendering and removal of reactivity on the server deliver remarkable speed gains. Through detailed benchmarks comparing Solid against React, Preact, Svelte, Marko, and others, he underscores the efficiency of Solid’s SSR, async, SSG, and streaming modes under various network conditions. Carniato demonstrates live examples, showcasing simple SSR setups, static site generation, async rendering, and streaming implementations, each illustrating unique trade-offs. He explains hydration mechanics, minimal JavaScript delivery, and the concept of partial hydration. In the latter half, he introduces Solid Start, highlighting file-based routing, isomorphic actions for data fetching, and project scaffolding. Closing with community and roadmap discussions, the session offers an in-depth guide to building high-performance, isomorphic SolidJS applications.
+
+## Chapters
+
 ### 00:55:00 - Async SSR Demo: Blocking Rendering Until Data Completes
 
 Between fifty-five minutes and the one-hour mark, Carniato presents the asynchronous SSR (async SSR) mode, which blocks HTML rendering until all data dependencies resolve on the server. Using `renderToStringAsync` or a similar API, Solid waits for `createResource` to fetch both the main user and the secondary user info before generating HTML. As a result, the initial page load shows no content—no app shell, no placeholders—until both fetches complete. In the live demo, viewers see a blank page for approximately 800 milliseconds. Once the server sends the fully populated HTML, the time to first paint occurs, but this is often slower than client-side or streaming modes that show placeholders earlier.

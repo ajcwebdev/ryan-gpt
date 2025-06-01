@@ -8,6 +8,16 @@ publishDate: "2024-11-09"
 coverImage: "https://i.ytimg.com/vi/jfZdl3QckMM/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A wide-ranging conversation that examines how mutable and immutable signals shape modern reactive programming, touching on performance, data flow, async patterns, and real-world frameworks.
+
+## Episode Summary
+
+This discussion explores the foundations of reactivity, focusing on the relationship between mutable and immutable signals. It begins by introducing core concepts—like how signals, memos, and stores function—and clarifies the differences between immutable updates that replace entire data structures and mutable updates that alter data in place. The conversation emphasizes how granular reactivity allows for more efficient updates and discusses how developers can manage deeper nested data, list transformations, and derived structures without resorting to excessive computation. The talk also tackles async handling, suspense mechanisms, and the tricky balance between immediate versus lazy fetching. By illustrating real-world examples and dissecting trade-offs in various frameworks, the session highlights the importance of understanding both the underlying architecture of reactivity and the practical techniques that developers can use to build performant, maintainable applications.
+
+## Chapters
+
 ### 02:36:00 - Impact on Developer Ergonomics
 
 Ryan reflects on how these advanced data-handling techniques can intimidate newer developers. He mentions that many people come from React or simpler libraries that push immutability by default. While store-based reactivity can be more powerful and efficient, it demands a deeper understanding of references, merges, and partial updates. He advocates for good documentation and patterns that guide devs away from common pitfalls.

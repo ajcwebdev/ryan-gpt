@@ -8,6 +8,16 @@ publishDate: "2022-10-29"
 coverImage: "https://i.ytimg.com/vi/Fp9duJd6Txc/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A wide-ranging live session exploring reactivity fundamentals, custom libraries with Preact signals, and the evolving landscape of frameworks like Next.js in modern web development.
+
+## Episode Summary
+
+This thorough conversation begins with a look at travel challenges and streaming plans, setting a relaxed tone for a deep technical exploration. Early on, the speaker experiments with building a custom renderer using Preact’s signal system, touching on core ideas such as fine-grained reactivity, tree shaking, and code splitting. Discussions then expand to consider performance benchmarks, highlighting memory usage, update speed, and how to mix different reactive paradigms. Midway, the focus shifts toward broader ecosystem considerations, like the intricacies of open-source funding and the tensions between major frameworks and deployment platforms. The speaker closes by reflecting on Next.js announcements and server components, weighing the effects of corporate alignment on open-source collaboration. Across these many hours, listeners gain both hands-on coding insights and a nuanced perspective on the future of JavaScript frameworks.
+
+## Chapters
+
 ### 150:00 - 156:00 — Setting Up the Benchmark
 
 Listeners learn how each variant is installed and flagged in the benchmark suite: “preact,” “preact signals,” and the new library. The host merges or modifies existing branches to sidestep memory leaks or old performance bugs. They add a typical “build data,” “run lots,” and “swap rows” approach from the standard set of test actions.

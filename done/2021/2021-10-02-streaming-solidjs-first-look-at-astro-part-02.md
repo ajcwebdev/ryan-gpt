@@ -8,6 +8,16 @@ publishDate: "2021-10-02"
 coverImage: "https://i.ytimg.com/vi/UPhx3OxUH0w/hqdefault.jpg?v=615732c7"
 ---
 
+## Episode Description
+
+A deep, live exploration of integrating SolidJS with Astro, covering JavaScript news, Solid updates, server-side rendering, project setup, hydration mechanics, and dynamic data handling in a three-hour hands-on stream.
+
+## Episode Summary
+
+In this extensive three-hour livestream, Ryan Carniato introduces viewers to the emerging landscape of multi-page and single-page applications, citing recent JavaScript discussions and highlighting SolidJS’s rapid growth within the community. He then transitions to an in-depth look at Astro, a modern static site generator, demonstrating how to set up a Solid-integrated Astro project from scratch. Throughout the stream, Ryan navigates configuration nuances, sheds light on Solid’s export conditions, and delves into hydration strategies, showcasing progressive hydration with Solid’s event replay. He also tackles dynamic data fetching in Astro, wrestling with CSS scoping, layout slotting, and troubleshooting Node-fetch integration. The episode concludes by contrasting asynchronous and synchronous server-side rendering, emphasizing best practices for building performant, component-driven web apps, and offering practical Q\&A-driven insights drawn from live audience interaction.
+
+## Chapters
+
 ### 01:07:58 - Attempting Dynamic Data Loading in Astro: CSS & Layout Challenges
 
 Turning his attention to dynamic content, Ryan aims to build a small Hacker News–style feed in Astro using Solid’s asynchronous features. He begins by copying prebuilt static HTML and CSS from a previous project to quickly mock up a list layout. Placing the HTML in an `index.astro` file, he notices Astro’s global CSS is not applying as expected due to scoped styling conventions. He experiments with both inline `<style>` tags and importing a global CSS file from the `public` folder. Ryan emphasizes that mixing global styles with scoped component styles requires careful handling—Astro’s default behavior hashes class names to prevent conflicts, so proper configuration or prefixing may be necessary.

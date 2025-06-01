@@ -8,6 +8,16 @@ publishDate: "2022-09-10"
 coverImage: "https://i.ytimg.com/vi/W9wfkP21c80/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A far-ranging conversation exploring UI language creation, TypeScript integration, partial hydration, and framework performance, spread across more than five hours of technical discussion.
+
+## Episode Summary
+
+This episode begins with a warm welcome and an overview of the topics to come, establishing a friendly yet deeply technical tone. The conversation examines advanced concepts in JavaScript frameworks, focusing on building a language for UI development and exploring TypeScript integration. Along the way, the speakers discuss hydration, reactivity, and the historical context behind certain design decisions. They compare different frameworks’ approaches to server-side rendering, partial hydration, and performance optimization, sharing anecdotes from real-world production use. As the talk progresses, they highlight the synergy between templating languages, compilers, and bundlers, illustrating how these pieces fit together to create a seamless development experience. Throughout, there is a consistent emphasis on balancing user-friendly syntax, bundling efficiency, and runtime speed, weaving in stories of scaling at enterprise-level demands. By the conclusion, listeners gain a comprehensive understanding of both the why and how behind complex framework and language design decisions.
+
+## Chapters
+
 ### 02:30:00 - CST, AST, and the Marco Language Server  
 
 The discussion delves into how the parsing events become a CST (Concrete Syntax Tree) rather than an AST. This retention of whitespace, comments, and structure suits tooling that must faithfully rewrite code without losing essential formatting or metadata. They contrast this with an AST approach, where extraneous details get stripped away. For robust language tooling—especially code actions, refactoring, or formatting—a CST captures the full textual landscape.

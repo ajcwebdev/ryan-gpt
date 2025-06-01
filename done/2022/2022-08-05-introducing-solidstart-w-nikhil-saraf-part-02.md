@@ -8,6 +8,16 @@ publishDate: "2022-08-05"
 coverImage: "https://i.ytimg.com/vi/eAwuPvRXNdY/sddefault.jpg?v=62eaa4d2"
 ---
 
+## Episode Description
+
+A wide-ranging conversation about SolidStart’s server-side rendering, server functions, and progressive enhancement, highlighting new approaches to building modern web applications.
+
+## Episode Summary
+
+This extended recording features an in-depth discussion about the creation and evolution of SolidStart, a meta framework that expands Solid.js with server-side rendering, routing, and powerful data handling mechanisms. The participants share their experiences with building and refining these tools, emphasizing how server functions enable secure calls, how forms can deliver full progressive enhancement, and how optimistic UI transitions improve user interactions. They also address platform-specific deployments, showing examples of how adapters work for services like Cloudflare, Netlify, and others. Timestamps highlight short segments that each introduce a fresh aspect of the conversation: from understanding the project’s background, to exploring advanced state management and server-handling techniques, and even covering new experiments in partial hydration and islands architecture. The lively exchange concludes with broader reflections on the state of JavaScript frameworks, tooling complexities, and the future directions that SolidStart may take in web development.
+
+## Chapters
+
 ### 02:06:00 – Testing and Production Readiness
 
 After covering type safety, the group takes a moment to address testing strategies. They outline how server functions can be tested in isolation or with integration tests that spin up the actual environment. This means developers can confirm that routes, data fetching, and actions behave as expected. Because SolidStart uses standard Node or platform-based APIs, hooking up a test runner—like Vitest or Jest—requires minimal boilerplate. For end-to-end checks, something like Playwright or Cypress can drive the browser while hitting real SSR endpoints.

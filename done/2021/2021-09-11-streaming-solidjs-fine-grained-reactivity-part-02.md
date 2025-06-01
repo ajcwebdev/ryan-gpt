@@ -8,6 +8,16 @@ publishDate: "2021-09-11"
 coverImage: "https://i.ytimg.com/vi/b9e7VXs_A4s/hqdefault.jpg?v=613bfece"
 ---
 
+## Episode Description
+
+Deep exploration of fine-grained reactivity, demonstrating how signals, derivations, and computations underpin SolidJS’s runtime and rendering mechanics.
+
+## Episode Summary
+
+In this two-hour livestream, Ryan Carniato methodically unpacks the concepts and implementations of fine-grained reactivity, using SolidJS and foundational JavaScript as guiding examples. He begins by defining reactivity as declarative programming that allows systems to update automatically based on defined rules. The discussion then shifts to primitive reactive constructs—signals, derivations (memos), and reactions—showing how various frameworks like Knockout, Vue, Solid, MobX, and React expose a common “signal” interface under different names. Carniato walks through building a minimal reactive core from scratch, illustrating how subscriptions, context stacks, and cleanup work together to propagate updates efficiently without glitches. He further demonstrates dynamic dependencies with computed values, compares runtime and compile-time reactivity, and highlights performance trade-offs between functions and proxies. Midway, he covers advanced topics like untracking contexts, batching updates, and ensuring glitch-free execution via topological ordering. In the latter half, Carniato delves into SolidJS-specific mechanisms—disposal via createRoot and onCleanup, nested roots for mapping arrays, universal props handling, and the “insert” and “spread” utilities that form a lightweight, high-performance renderer. Throughout, practical code demos and detailed explanations show how Solid streamlines reactivity into a cohesive system, culminating in a full-fledged render pipeline built atop these core concepts.
+
+## Chapters
+
 ### 00:45:00 - Demonstration of Notification & Execution Order
 
 As the stream crosses the forty-five-minute mark, Ryan fires up the sandbox again and runs the glitch-free reactive example live. He modifies the source code to illustrate exactly how `setA(newA); setB(newB);` triggers notifications. First, both signals broadcast “stale” to their subscribers. Next, `C` sees `B` is stale and recomputes to the new value. Finally, the effect sees both `A` and `C` have settled and logs their sum once. Viewers watch the console output confirm this ordering: no intermediate or incorrect sums appear. Ryan then toggles the update order—setting `B` before `A`, or vice versa—and shows that the final output remains consistent, thanks to the system’s pre-notification strategy.

@@ -8,6 +8,16 @@ publishDate: "2022-03-26"
 coverImage: "https://i.ytimg.com/vi/BEWkLXU1Wlc/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A wide-ranging exploration of web components, their practical applications, and how they compare to modern JavaScript frameworks, spanning performance, tooling, and future possibilities.
+
+## Episode Summary
+
+This discussion begins by establishing the host’s personal background working with web technologies and early experiences with web components. From there, it examines the fundamental building blocks—HTML templates, custom elements, and the shadow DOM—highlighting how each piece fits into a developer’s toolkit. The conversation then turns toward various libraries and frameworks, referencing both historical and modern solutions like Polymer, Skate, and Lit, to show how the ecosystem has evolved. Throughout, the speaker weighs performance concerns, tooling complexities, and architectural trade-offs that influence decisions on whether to adopt web components or rely on established frameworks. Attention is also given to topics such as progressive enhancement, style scoping, partial hydration, and server-side rendering, all of which offer insight into how these technologies integrate into today’s web landscape. Ultimately, the host addresses the broader notion of “future proofing” in web development, recognizing that innovation inevitably outpaces standardization, while still affirming that web components hold strong value in specific contexts and use cases.
+
+## Chapters
+
 ### 01:24 - 01:30 • Scaling Components and the Overhead Dilemma
 
 Drawing on personal experience, the host addresses a long-standing belief that “using the platform” should inherently reduce complexity and improve performance. Through a series of benchmarks, he discovered that, as one scales up the number of components, certain JavaScript frameworks can outperform raw web component solutions. This is partly because frameworks can manage reconciling updates at a higher level, whereas each custom element can become an isolated island with overhead in creation and lifecycle handling.

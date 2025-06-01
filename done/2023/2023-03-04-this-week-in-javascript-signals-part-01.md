@@ -18,8 +18,6 @@ This extended conversation spans a broad range of topics related to reactive pro
 
 ## Chapters
 
-Below, each chapter begins at a specific timestamp and spans roughly 3–6 minutes of content. Since the total runtime exceeds five hours, these segments collectively cover the entire recording in smaller increments, each capturing a distinct point or theme in the discussion.  
-
 ### 00:00:00 - Intro and Stream Setup
 
 In this opening segment, the host greets viewers and briefly apologizes for a delayed and less-organized start to the stream. They talk about the week’s overall busyness, sharing the usual housekeeping tasks such as sending out social media notices and waiting for people to join. This is a relaxed period where the speaker sets the tone for a long-format talk, acknowledging the audience’s presence and letting everyone settle in. Background chatter also covers mild banter with the chat, discussing ongoing projects and small personal updates.

@@ -8,6 +8,16 @@ publishDate: "2023-10-21"
 coverImage: "https://i.ytimg.com/vi/n3YtxzHRjI0/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A lively conversation about the Marko framework, its history, and advanced front-end topics, featuring Michael Rawlings and extensive discussions on architecture and performance.
+
+## Episode Summary
+
+This episode focuses on the evolution of Marko, a cutting-edge framework originally developed at eBay for server-side rendering and partial hydration. It begins by introducing Michael Rawlings, a key contributor to the project, who recounts how he joined the Marko team and helped shape various releases, including Versions 4 and 5. Throughout the discussion, participants highlight Marko’s compiler-based approach, streaming capabilities, and its relationship to other frameworks like React, Svelte, and Solid. The conversation touches on advanced topics such as resumability, serialization, and the importance of thorough planning for large-scale migrations. They also reflect on the complexities of TypeScript integration, balancing powerful optimizations with a smooth developer experience. By the end, listeners gain an appreciation for the innovations driving Marko’s next iteration and the broader implications for modern web development.
+
+## Chapters
+
 ### 1:36:00 — Addressing Async Complexity
 
 They spotlight Marko 6’s remaining hurdles, especially around async management. Michael confesses he initially envisioned a concurrency model more refined than what React or Solid adopt, but practical challenges remain. Streaming from the server to the client while fine-grained signals update at the component level demands intricate solutions for boundary cases. They joke about the labyrinth of possible approaches, admitting that each attempt has exposed new edge cases or performance implications.

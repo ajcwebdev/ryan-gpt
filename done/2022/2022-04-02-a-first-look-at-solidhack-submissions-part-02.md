@@ -8,6 +8,16 @@ publishDate: "2022-04-02"
 coverImage: "https://i.ytimg.com/vi/Ywv8cGOVNMg/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A wide-ranging live stream explores new features in JavaScript frameworks, highlights community projects from a hackathon, and examines performance considerations in modern web development.
+
+## Episode Summary
+
+This transcript focuses on various advancements in JavaScript frameworks, touching on topics such as performance, rendering models, and innovative approaches to state management. It begins by introducing the SolidHack event, a community-driven hackathon aimed at expanding the SolidJS ecosystem with new libraries, apps, and creative experiments. As the conversation unfolds, the speaker offers insights into React 18’s release, discussing concurrency and data-fetching patterns while drawing parallels to other frameworks like Svelte, Vue, and Marco. Notably, the transcript addresses the benefits of partial hydration, server-rendered solutions, and the possibility of merging multi-page and single-page app methodologies. From detailing the significance of transitions and streaming to weighing the importance of user-friendly reactivity APIs, the discussion underscores a continual drive to improve developer experience and end-user performance. In addition, it features demonstrations of hackathon entries, from component libraries to practical applications, revealing a community energized by experimentation, collaboration, and the push toward ever more refined web engineering practices.
+
+## Chapters
+
 ### 1:30:00 - 1:36:00 Addressing Third-Party Scripts and Performance Bottlenecks
 
 At this juncture, the speaker highlights the often-overlooked reality of third-party scripts—analytics, ads, or widgets—that can overshadow any savings from framework optimizations. While partial hydration and streaming can drastically shrink bundle sizes for app code, these external scripts may still bloat overall load times. The speaker references tools like PartyTown from Builder.io, designed to offload third-party scripts into web workers, thus reducing main thread contention.

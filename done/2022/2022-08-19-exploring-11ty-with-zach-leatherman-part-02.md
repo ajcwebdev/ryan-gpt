@@ -8,6 +8,16 @@ publishDate: "2022-08-19"
 coverImage: "https://i.ytimg.com/vi/iuwqOkH6jKY/sddefault.jpg?v=62fd39f4"
 ---
 
+## Episode Description
+
+An insightful conversation about Eleventy, JavaScript-driven static site generation, and modern web development practices, highlighting core concepts, performance considerations, and community engagement.
+
+## Episode Summary
+
+This discussion begins by introducing Eleventy and establishing its place in the static site generation ecosystem, offering historical context on how it emerged from previous solutions like Jekyll. The conversation then moves into how Eleventy approaches templating, data handling, and folder structures, emphasizing the flexibility of JavaScript while highlighting trade-offs with bundlers and other tools. Throughout, performance is a recurring theme: participants compare build speeds, examine methods for optimizing code, and evaluate dynamic vs. static rendering trade-offs. They also reflect on the broader community, addressing topics such as open-source collaboration, project governance, and the evolving ecosystem of frameworks and runtimes. Interspersed are tangential explorations of streaming, edge computing, and pragmatic strategies for managing complex deployments. By the conclusion, listeners gain both a foundational understanding of Eleventy’s philosophy and valuable insights into the broader challenges of modern web development.
+
+## Chapters
+
 ### 2:12:00 - Overcoming Build Step Barriers  
 
 When asked about typical hurdles, Zach explains that novices sometimes balk at Eleventy’s build process, having never used a static generator. The idea of collecting data files, running a compile, and deploying the output can feel foreign compared to traditional server-rendered or single-page app models.  

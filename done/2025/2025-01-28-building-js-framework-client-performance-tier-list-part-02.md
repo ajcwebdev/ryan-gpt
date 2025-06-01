@@ -8,6 +8,16 @@ publishDate: "2025-01-28"
 coverImage: "https://i.ytimg.com/vi/E5amN0_1XyE/sddefault.jpg"
 ---
 
+## Episode Description
+
+A lively breakdown of JavaScript framework performance evolution, spanning from Knockout and Backbone to the latest signal-driven and compiled solutions.
+
+## Episode Summary
+
+In this discussion, the speaker explores how various JavaScript frameworks have approached rendering performance over time, focusing on how architectural decisions and optimizations affect speed in the browser. Beginning with early declarative libraries like Knockout and Backbone, the conversation moves through milestones such as React’s virtual DOM, Angular’s shift to a more modern structure, and Vue’s fine-grained reactivity under the hood. The speaker highlights the relevance of signals, dirty-checking systems, and compiler-driven methods, explaining why these techniques matter for granular updates and smoother user experiences. In addition to covering legacy and cutting-edge frameworks, the speaker also touches on Rust-based options like Leptos, demonstrating how language and compilation choices factor into performance gains. Each segment provides a snapshot of how the ecosystem has tackled the challenge of rendering complexity, revealing a broader story of incremental and sometimes surprising leaps toward more efficient client-side applications.
+
+## Chapters
+
 ### 17:00 - 24:00 • Inferno and the Quest for Pure Speed
 
 During this span, the conversation highlights Inferno, a library that seems to skip an entire performance tier by using high-level compiler optimizations. The speaker recalls how Inferno proved that the virtual DOM could be pushed far beyond React’s typical limitations, shocking many developers who believed they had reached the apex of speed. Details emerge about how Inferno’s creator leveraged static analysis on JSX to reduce overhead, eventually joining the React core team to work on specialized optimizations at Facebook.

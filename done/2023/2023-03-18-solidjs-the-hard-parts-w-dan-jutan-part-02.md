@@ -8,6 +8,16 @@ publishDate: "2023-03-18"
 coverImage: "https://i.ytimg.com/vi/E3jYGTB50LE/sddefault.jpg?v=6414ae11"
 ---
 
+## Episode Description
+
+A wide-ranging conversation exploring SolidJS concepts, React comparisons, and advanced front-end patterns, including reactivity, context, and server-side rendering techniques.
+
+## Episode Summary
+
+In this in-depth discussion, the speakers compare and contrast SolidJS with other popular libraries, illustrating how nuanced front-end concepts shape the developer experience. They begin by examining Solid’s core ideas—signals, memos, and effects—highlighting the importance of read-write segregation, contextual state, and how reactive data flows through applications. Along the way, they briefly reference React’s approach, touching on the use of hooks, effects, and concurrency. Topics such as code extraction, data fetching, and SSR also arise, with the conversation clarifying key points about resources and suspense boundaries. Further on, they explore transitions, routing, and the growing role of streaming or async SSR. The episode closes by addressing documentation challenges and the evolving mindset needed to master modern JavaScript frameworks, reinforcing how reactivity’s fine-grained control can both simplify and complicate design choices.  
+
+## Chapters
+
 ### 02:41:00 – The Philosophy Behind Internal vs. External APIs
 
 In this chapter, they discuss how Solid’s core tries to remain minimal, pushing advanced or niche functionalities into userland or libraries like solid-primitives. By partitioning stable primitives from experimental add-ons, the project sustains a lean, reliable foundation. The host draws parallels to other frameworks that might bloat the core with specialized features, leading to fragmentation. Dan asserts that letting the community explore patterns fosters healthy evolution; once stable, such patterns might become official.

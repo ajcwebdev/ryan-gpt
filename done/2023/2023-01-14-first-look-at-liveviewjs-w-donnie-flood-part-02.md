@@ -8,6 +8,16 @@ publishDate: "2023-01-14"
 coverImage: "https://i.ytimg.com/vi/S0a-1lriNl4/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A wide-ranging conversation highlighting modern JavaScript frameworks, server-side methodologies, and the evolving complexity of web development.
+
+## Episode Summary
+
+This recording begins by greeting the audience and setting the stage for a focused conversation about JavaScript frameworks, backend approaches, and the state of the web ecosystem. It highlights longstanding debates around complexity and performance, while also emphasizing the benefits of exploring fresh perspectives and solutions. Midway through, there is a detailed look at LiveViewJS with guest Donnie Flood, covering its motivation, core ideas, and relationship to Phoenix LiveView. The later portions broaden into discussions on how new technologies measure up, referencing personal experiences with React, Solid, Qwik, and more. These segments reflect the speaker’s desire for balanced progress, acknowledging both the potential of cutting-edge features and the real-world challenges of modern tooling. Altogether, the dialogue underscores a theme of discovery, showcasing how nuanced views and community collaboration can shape a more sustainable and inclusive web development landscape.
+
+## Chapters
+
 ### 102:00 - **Comparisons to Other Approaches**  
 
 Circling back, the host draws parallels to frameworks like Astro, Next.js, or Qwik, each tackling hydration differently. Donnie asserts that if developers appreciate a simplified mental model and a stable concurrency story, server-driven architecture can be compelling. Conversely, the host recognizes that microservices or edge-based paradigms might conflict with a stateful server approach.

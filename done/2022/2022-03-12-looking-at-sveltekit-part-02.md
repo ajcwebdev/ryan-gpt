@@ -8,6 +8,16 @@ publishDate: "2022-03-12"
 coverImage: "https://i.ytimg.com/vi/DYwI1eWkMcI/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A detailed exploration of SvelteKit, performance strategies, and modern JavaScript frameworks spanning four hours of in-depth conversation.
+
+## Episode Summary
+
+In this discussion, the speaker sets out to examine SvelteKit in the broader context of contemporary JavaScript development and performance optimization. Beginning with foundational updates on React 18 RC, TypeScript proposals, and no-build trends, the conversation soon branches into a comparison of reactivity styles across libraries like React, Svelte, and Solid. The speaker reflects on historical influences, such as Knockout, to explain how earlier patterns paved the way for these newer approaches. He then demonstrates SvelteKit in action by porting a Hacker News application, walking through data-fetching paradigms and troubleshooting configuration steps. Throughout, he continually relates these experiences to larger industry shifts, including partial hydration, edge deployment, and the potential for streaming server-side rendering. The result is a wide-ranging look at the evolution of JavaScript frameworks, the trade-offs they confront, and the future these tools are shaping.
+
+## Chapters
+
 ### 01:48 - 01:54 — Handling User Profiles and Comments
 
 Next, he replicates the same strategy for user pages and comment threads. Each route uses a `load` function that returns props, which the Svelte component renders. He points out that this structure is strikingly similar to the solutions in Remix or SolidStart, reinforcing that modern SSR frameworks share many underlying ideas.

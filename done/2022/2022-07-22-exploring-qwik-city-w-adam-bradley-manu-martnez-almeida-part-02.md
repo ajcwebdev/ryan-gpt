@@ -8,6 +8,16 @@ publishDate: "2022-07-22"
 coverImage: "https://i.ytimg.com/vi/XoeJisRJjlo/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A wide-ranging conversation with the Qwik core team explores their new Qwik City meta framework, covering routing, data fetching patterns, and the evolution of modern web development practices.
+
+## Episode Summary
+
+This transcript features an in-depth look at emerging front-end technologies, focusing on the Qwik framework and its meta layer Qwik City. It begins by outlining the motivations behind Qwik’s architectural choices, emphasizing performance, lazy-loading, and the minimal JavaScript needed on initial page load. The discussion moves into the practicalities of SSR, describing how Qwik City handles routing, data fetching, and layout composition without incurring a significant client-side payload. Comparisons to other approaches—such as islands, partial hydration, and progressive enhancement—highlight the different philosophies shaping modern web frameworks. As the conversation unfolds, the speakers share real-world examples, including a demonstration of building a Hacker News clone, to illustrate Qwik City’s strengths and trade-offs. Throughout, they address technical hurdles—like deploying to serverless platforms and ensuring robust streaming support—while also underscoring the importance of developer experience and the evolving ecosystem that surrounds performance-focused frameworks.
+
+## Chapters
+
 ### 02:05:00 - 02:11:05 – Debugging Netlify and Express
 
 During this portion, the host encounters friction deploying the Hacker News demo to Netlify, discovering that serverless workflows sometimes need specialized adapters. Manu suggests using Express as a simple fallback for local testing. They walk through the usage of “entry.express.tsx,” which orchestrates the SSR from an Express server, revealing how Qwik City systematically hands off requests to universal logic.

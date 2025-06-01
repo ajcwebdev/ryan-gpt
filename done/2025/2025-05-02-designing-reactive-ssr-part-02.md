@@ -8,6 +8,16 @@ publishDate: "2025-05-02"
 coverImage: "https://i.ytimg.com/vi/efx9ok0xHGs/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+Ryan Carniato kicks off his early morning stream with a deep, design-level exploration of reactive server-side rendering (SSR), sharing insights from a decade of framework engineering.
+
+## Episode Summary
+
+In this nearly four-and-a-half-hour stream, Ryan Carniato dives into the core of reactive SSR, contrasting traditional templating with modern compiler-driven approaches. He begins by explaining why he prioritizes design reasoning over live coding, then examines how frameworks—Solid, Svelte, React, and others—generate and hydrate HTML on both server and client. Key topics include the mechanics of streaming strings, managing asynchronous data with suspense boundaries, hierarchical hydration keys, and the trade-offs of pull-based versus push-based rendering. Ryan also teases Solid’s forthcoming “poll-based” SSR, shares experiments with proxy-based hydration, and surveys advances in React Labs’ view transitions and Svelte’s `<await>` blocks. Throughout, he emphasizes pragmatic ergonomics, reactive ownership graphs, and the balance between compiler magic and explicit developer control—offering a rare window into the evolution of modern web frameworks and the next frontier of performant, scalable SSR.
+
+## Chapters
+
 ### 01:55:30 – 02:00:45 · Async Iterators, Dust Templates, and Future Streaming APIs
 
 Ryan briefly compares modern streaming APIs—async generator-based rendering—with classic templating engines like Dust.js, which pioneered request-streamed HTML with markers. He notes that while generators elegantly map to Rust or Deno’s streaming, JavaScript’s lack of built-in hierarchical context makes pure generator SSR awkward.

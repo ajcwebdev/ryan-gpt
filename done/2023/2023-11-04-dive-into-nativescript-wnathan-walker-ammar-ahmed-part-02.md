@@ -8,6 +8,16 @@ publishDate: "2023-11-04"
 coverImage: "https://i.ytimg.com/vi/j0s8w34Xh9o/maxresdefault.jpg"
 ---
 
+## Episode Description
+
+A deep conversation about NativeScript, Solid’s rendering approaches, and practical tooling for cross-platform development, culminating in a lively Q&A on routing and future project plans.
+
+## Episode Summary
+
+This episode begins with an informal greeting and the host’s excitement about exploring various native solutions, quickly shifting focus to NativeScript and its unique approach. The conversation highlights how NativeScript unifies JavaScript and native APIs, eliminating complex “bridge” layers. Mid-episode discussions cover performance optimizations, multi-threading, and how these approaches compare to React Native. The guests bring insights into customizing native modules, bridging the gap between JS and low-level APIs, and how community-driven efforts strengthen the broader ecosystem. In the latter portion, the host transitions to “This Week in JavaScript,” reflecting on server actions, routing paradigms, and the crucial work behind upcoming Solid features. This provides a window into the complexities of open-source development, from conceptual design to time-intensive implementation. The show wraps with forward-looking perspectives on potential frameworks, refined router ideas, and a shared enthusiasm for pushing boundaries in cross-platform JavaScript applications.
+
+## Chapters
+
 ### 02:20:00 - 02:25:00: Reflecting on React and Remix
 
 The host touches on parallels with React’s server actions, noting remix influences and design trade-offs. They reference cordial interactions with the Remix team, remarking that acknowledging each other’s innovations fosters healthy cross-project relationships.

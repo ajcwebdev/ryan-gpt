@@ -8,6 +8,16 @@ publishDate: "2021-12-11"
 coverImage: "https://i.ytimg.com/vi/FB_kBYO_vIw/sddefault.jpg?v=61b38de9"
 ---
 
+## Episode Description
+
+A broad conversation on compilation, performance, reactivity, and design trade-offs in modern JavaScript frameworks, spanning more than three hours of detailed discussion.
+
+## Episode Summary
+
+In this extended session, the speaker addresses multiple aspects of modern JavaScript frameworks, focusing on how compilation and reactivity can optimize performance and improve developer experience. The talk begins with historical perspectives on tools and methodologies, touching on early templating approaches and state management in libraries like Knockout and AngularJS. Moving forward, it highlights how modern frameworks leverage compile-time transformations—examining Svelte, Solid, React, and others—to reduce code size and improve runtime efficiency. The speaker emphasizes the importance of analyzing static and dynamic parts of an application, along with strategies like partial hydration for enhanced loading speed. Throughout, real-world insights on trade-offs, from maintainability to composition, frame a nuanced overview of cutting-edge directions in JavaScript library design. This comprehensive discussion serves as both a survey of current solutions and a look at future possibilities in framework-driven compilation.
+
+## Chapters
+
 ### 01:42:00 – 01:48:00 Frameworks as Languages and Reactive Script Ideas
 
 Delving deeper, the speaker suggests that frameworks might be viewed as custom languages, weaving reactive primitives (state, derivations, effects) directly into code. Svelte’s simplicity exemplifies a “language-first” design where local assignments automatically trigger UI updates, though it imposes constraints on composition. Meanwhile, frameworks like React or Solid treat reactivity as a runtime feature, giving developers the freedom to compose logic across files. The debate over compile-time vs. runtime reactivity shapes how much the framework must behave like its own language.

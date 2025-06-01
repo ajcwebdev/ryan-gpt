@@ -8,6 +8,16 @@ publishDate: "2022-12-03"
 coverImage: "https://i.ytimg.com/vi/zgY7ql1xwW4/sddefault.jpg?v=6387ffbc"
 ---
 
+## Episode Description
+
+An in-depth conversation covering Rust for web UI, memory safety, reactivity, WASM, and the evolution of JavaScript frameworks for large-scale applications.
+
+## Episode Summary
+
+This wide-ranging discussion begins by introducing the guest speaker’s background and interest in Rust, exploring how its ownership model and memory safety features can offer advantages in certain scenarios. The conversation then shifts into practical examples of building user interfaces in Rust, highlighting the language’s synergy with WebAssembly to unlock high-performance possibilities directly in the browser. Various Rust frameworks and their relationship to existing JavaScript libraries are contrasted, demonstrating how differing reactivity approaches influence state handling and rendering. The participants discuss the broader trends shaping web development, focusing on reactivity, server-side rendering, and how large-scale adoption considerations drive different architectural choices. By weaving together experiences from JavaScript, Angular, React, and more, the talk underscores how Rust fits into the modern landscape while acknowledging its potential trade-offs in everyday application development. Overall, it paints a picture of a rapidly evolving ecosystem where performance, memory safety, and developer ergonomics all intersect to shape the future of building web interfaces.
+
+## Chapters
+
 ### 02:10 – 02:15 Code Splitting Challenges with WASM
 
 They examine how JavaScript frameworks have gotten adept at lazy-loading chunks. WASM code splitting is still early, with fewer robust solutions. This complicates large apps that want minimal initial payloads. Some advanced tooling splits a WASM binary, loading extra parts only when needed. But it’s not as polished as Webpack or Vite code-splitting. Panelists see promise but caution that it’s an area in progress for Rust-based UIs.
