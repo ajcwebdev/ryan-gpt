@@ -1,5 +1,6 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { join, relative, dirname } from 'node:path'
+import GithubSlugger from 'github-slugger'
 
 interface EpisodeData {
   filePath: string
@@ -50,6 +51,7 @@ function parseFrontmatter(content: string): Record<string, string> {
     }
   })
 
+  console.log(`Parsed frontmatter with ${Object.keys(frontmatter).length} fields`)
   return frontmatter
 }
 
@@ -103,6 +105,7 @@ async function parseEpisodeFile(filePath: string): Promise<EpisodeData | null> {
       return null
     }
 
+    console.log(`Successfully parsed episode: ${frontmatter.title}`)
     return {
       filePath,
       title: frontmatter.title,
@@ -126,17 +129,18 @@ function convertTimestampToSeconds(timestamp: string): number {
 
 function generateChapterLink(showLink: string, timestamp: string): string {
   const seconds = convertTimestampToSeconds(timestamp)
-  return showLink.includes('youtube.com') ? `${showLink}&t=${seconds}s` : showLink
+  const link = showLink.includes('youtube.com') ? `${showLink}&t=${seconds}s` : showLink
+  console.log(`Generated chapter link: ${link}`)
+  return link
 }
 
 function generateGitHubLink(filePath: string, chapterTitle: string): string {
+  const slugger = new GithubSlugger()
   const relativePath = relative(process.cwd(), filePath)
-  const anchorId = chapterTitle
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-  
-  return `https://github.com/ajcwebdev/ryan-gpt/blob/main/${relativePath}#${anchorId}`
+  const anchorId = slugger.slug(`${chapterTitle}`)
+  const link = `https://github.com/ajcwebdev/ryan-gpt/blob/main/${relativePath}#${anchorId}`
+  console.log(`Generated GitHub link with slug: ${anchorId}`)
+  return link
 }
 
 async function createChaptersMarkdown(): Promise<void> {
@@ -164,9 +168,11 @@ async function createChaptersMarkdown(): Promise<void> {
   }, {})
 
   const years = Object.keys(episodesByYear).sort((a, b) => b.localeCompare(a))
+  console.log(`Processing episodes for years: ${years.join(', ')}`)
 
   years.forEach(year => {
     markdown += `## ${year}\n\n`
+    console.log(`Processing year ${year} with ${episodesByYear[year].length} episodes`)
     
     episodesByYear[year].forEach(episode => {
       const relativePath = relative(process.cwd(), episode.filePath)
