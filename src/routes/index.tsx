@@ -1,30 +1,29 @@
-// src/routes/index.tsx
-// New frontend page with a form to capture an OpenAI API key and question,
-// displaying the returned answer on the screen.
-
 import { createSignal } from 'solid-js'
 
-/**
- * Provides a form for querying embeddings with a user-provided question and
- * OpenAI API key, then renders the response on the screen.
- *
- * @returns {JSX.Element} The main page component
- */
 export default function HomePage() {
   const [question, setQuestion] = createSignal('')
   const [apiKey, setApiKey] = createSignal('')
   const [answer, setAnswer] = createSignal('')
+  const [isLoading, setIsLoading] = createSignal(false)
+  const [error, setError] = createSignal('')
 
-  /**
-   * Handles the form submission by sending question and apiKey to our API route,
-   * then setting the resulting answer in local state.
-   *
-   * @async
-   * @function handleSubmit
-   * @param {Event} e - The form submission event
-   */
-  async function handleSubmit(e: Event) {
+  async function handleSubmit(e: Event): Promise<void> {
     e.preventDefault()
+    
+    const currentQuestion = question().trim()
+    const currentApiKey = apiKey().trim()
+    
+    if (!currentQuestion || !currentApiKey) {
+      setError('Please fill in all fields')
+      console.log('Form submission failed: Missing required fields')
+      return
+    }
+
+    setIsLoading(true)
+    setError('')
+    setAnswer('')
+    console.log('Starting API request for question:', currentQuestion)
+
     try {
       const resp = await fetch('/api/query', {
         method: 'POST',
@@ -32,42 +31,76 @@ export default function HomePage() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          question: question(),
-          apiKey: apiKey()
+          question: currentQuestion,
+          apiKey: currentApiKey
         })
       })
+
+      console.log('API response status:', resp.status)
+
       if (!resp.ok) {
-        throw new Error(`HTTP error! Status: ${resp.status}`)
+        const errorData = await resp.json().catch(() => ({}))
+        throw new Error(errorData.error || `HTTP error! Status: ${resp.status}`)
       }
+
       const data = await resp.json()
-      setAnswer(data.answer)
+      console.log('API response received successfully')
+      setAnswer(data.answer || 'No answer received')
     } catch (err) {
-      console.error(err)
-      setAnswer('An error occurred. Check console for details.')
+      console.error('API request failed:', err)
+      const errorMessage = err instanceof Error ? err.message : 'An unexpected error occurred'
+      setError(errorMessage)
+    } finally {
+      setIsLoading(false)
+      console.log('API request completed')
     }
   }
 
   return (
     <main>
-      <form onSubmit={handleSubmit}>
-        <label for="apiKey">OpenAI API Key:</label>
-        <input
-          id="apiKey"
-          type="text"
-          value={apiKey()}
-          onInput={(e) => setApiKey(e.currentTarget.value)}
-        />
-        <label for="question">Question:</label>
-        <input
-          id="question"
-          type="text"
-          value={question()}
-          onInput={(e) => setQuestion(e.currentTarget.value)}
-        />
-        <button type="submit">Submit</button>
-      </form>
-      <div>
-        {answer()}
+      <div class="container">
+        <h1>RyanGPT</h1>
+        
+        <form class="form" onSubmit={handleSubmit}>
+          <div class="form-group">
+            <label for="apiKey">OpenAI API Key</label>
+            <input
+              id="apiKey"
+              type="password"
+              placeholder="sk-..."
+              value={apiKey()}
+              onInput={(e) => setApiKey(e.currentTarget.value)}
+              disabled={isLoading()}
+            />
+          </div>
+          
+          <div class="form-group">
+            <label for="question">Question</label>
+            <input
+              id="question"
+              type="text"
+              placeholder="Ask me anything about Ryan's streams..."
+              value={question()}
+              onInput={(e) => setQuestion(e.currentTarget.value)}
+              disabled={isLoading()}
+            />
+          </div>
+          
+          <button 
+            type="submit" 
+            class="submit-button"
+            disabled={isLoading()}
+          >
+            <span class={`button-text ${isLoading() ? 'loading' : ''}`}>
+              {isLoading() ? 'Searching...' : 'Ask Question'}
+            </span>
+            <div class={`spinner ${isLoading() ? 'loading' : ''}`}></div>
+          </button>
+        </form>
+
+        <div class={`answer-container ${error() ? 'error' : ''}`}>
+          {error() || answer()}
+        </div>
       </div>
     </main>
   )
