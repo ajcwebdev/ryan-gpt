@@ -72,7 +72,7 @@ async function embedText(text: string, apiKey: string): Promise<number[]> {
  */
 async function callChatCompletion(userQuestion: string, fileContent: string, apiKey: string): Promise<string> {
   const chatBody = {
-    model: 'o3-mini',
+    model: 'gpt-5.2',
     messages: [
       {
         role: 'user',
