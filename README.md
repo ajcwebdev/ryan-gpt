@@ -12,13 +12,13 @@ cp .env.examples .env
 ## Generate Your Own Embeddings
 
 ```bash
-npm run as -- --createEmbeddings
+bun as -- --createEmbeddings
 ```
 
 ## Chat with Embeddings
 
 ```bash
-npm run as -- --queryEmbeddings "Why is Marko the most underrated frontend framework ever?"
+bun as -- --queryEmbeddings "Why is Marko the most underrated frontend framework ever?"
 ```
 
 ### Example Answer
