@@ -7,9 +7,10 @@ INCLUDE_PATHS=(
 )
 
 IGNORE_PATHS=(
-  "on-deck"
-  "done"
-  "questions-and-answers"
+  "content/on-deck"
+  "content/youtube"
+  "content/questions-and-answers"
+  "content/archive"
   ".gitignore"
   "chapters.md"
   "embeddings.json"

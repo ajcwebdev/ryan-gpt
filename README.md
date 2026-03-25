@@ -2,14 +2,35 @@
 
 ## Setup
 
-Install dependencies and set `OPENAI_API_KEY` in `.env`
+Install dependencies and copy the example environment file.
 
 ```bash
-npm i
-cp .env.examples .env
+bun install
+cp .env.example .env
+```
+
+Set `OPENAI_API_KEY` for the embeddings commands.
+
+Set `DEVTO_API_KEY` if you want authenticated DEV.to imports. The importer also works without it for public posts.
+
+## Import DEV.to Posts
+
+Fetch Ryan Carniato's public DEV.to posts into `content/blog/<year>/`.
+Each imported file gets YAML frontmatter with DEV.to metadata, followed by the article markdown body.
+
+```bash
+bun as -- --fetchDevtoPosts
+```
+
+To import a different DEV.to username:
+
+```bash
+bun as -- --fetchDevtoPosts ben
 ```
 
 ## Generate Your Own Embeddings
+
+`createEmbeddings` scans both `content/youtube/` and `content/blog/`, so import DEV.to posts first if you want them included in the embedding corpus.
 
 ```bash
 bun as -- --createEmbeddings
@@ -29,11 +50,11 @@ Top matches for: "Why is Marko the most underrated frontend framework ever?"
 ┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
 │ (index) │ filename                                                                                │ similarity          │
 ├─────────┼─────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'done/2022/2022-01-15-marko-the-most-underrated-js-framework-part-01.md'                │ 0.4920250963894983  │
-│ 1       │ 'done/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-01.md'    │ 0.4367972782950814  │
-│ 2       │ 'done/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings-part-01.md'       │ 0.43539383853815283 │
-│ 3       │ 'done/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-02.md'    │ 0.4196447101341584  │
-│ 4       │ 'done/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings-part-01.md' │ 0.40978166721589493 │
+│ 0       │ 'content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework-part-01.md'                │ 0.4920250963894983  │
+│ 1       │ 'content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-01.md'    │ 0.4367972782950814  │
+│ 2       │ 'content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings-part-01.md'       │ 0.43539383853815283 │
+│ 3       │ 'content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-02.md'    │ 0.4196447101341584  │
+│ 4       │ 'content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings-part-01.md' │ 0.40978166721589493 │
 └─────────┴─────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
 ```
 

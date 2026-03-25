@@ -13,5 +13,6 @@ worker
 .netlify
 .vinxi
 netlify
-on-deck
+content/on-deck
 speaker-labels.md
+TODO.md

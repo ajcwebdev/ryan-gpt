@@ -9,7 +9,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "as": "bun cli.ts",
+    "as": "bun cli/commander.ts",
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start",
