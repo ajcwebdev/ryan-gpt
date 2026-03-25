@@ -1,0 +1,59 @@
+{
+  "step1": {
+    "title": "SolidJS: Getting Started - Ryan Carniato (English)",
+    "duration": "40:40",
+    "author": "JavaScript Israel",
+    "url": "https://www.youtube.com/watch?v=U2QyQ2P913I",
+    "publishDate": "2022-08-04",
+    "thumbnail": "https://i.ytimg.com/vi/U2QyQ2P913I/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCyUEQd6gp05bO9FfMP4pz2g",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 251,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 251,
+        "endTime": 285,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 285,
+        "endTime": 367,
+        "title": "Why Would I Build another Javascript Framework"
+      },
+      {
+        "startTime": 367,
+        "endTime": 688,
+        "title": "React Hooks"
+      },
+      {
+        "startTime": 688,
+        "endTime": 1007,
+        "title": "Signals"
+      },
+      {
+        "startTime": 1007,
+        "endTime": 1503,
+        "title": "Computeds"
+      },
+      {
+        "startTime": 1503,
+        "endTime": 1735,
+        "title": "Jsx"
+      },
+      {
+        "startTime": 1735,
+        "endTime": 2004,
+        "title": "Header Component"
+      },
+      {
+        "startTime": 2004,
+        "endTime": 2440,
+        "title": "Starter Templates"
+      }
+    ],
+    "description": "On 15/02/2022, Ryan Carniato gave a lecture about SolidJS during a JavaScript Israel Meetup.\n\nAbstract:\nIn this session we will look at SolidJS, a declarative JavaScript framework, \nwith its creator Ryan Carniato. \nWe will explore its origin, its unique reactive model, and how you can get started using SolidJS.\n\nEvent Page: https://www.meetup.com/javascript-israel/events/283683585/\n\nThanks to our Gold sponsors : Trax\n\nJoin the group:\nhttp://www.meetup.com/JavaScript-Israel"
+  }
+}

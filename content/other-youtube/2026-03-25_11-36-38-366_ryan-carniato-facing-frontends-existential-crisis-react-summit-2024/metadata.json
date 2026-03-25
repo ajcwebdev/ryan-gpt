@@ -1,0 +1,149 @@
+{
+  "step1": {
+    "title": "Ryan Carniato - Facing Frontend's Existential Crisis, React Summit 2024",
+    "duration": "26:46",
+    "author": "React Conferences by GitNation",
+    "url": "https://www.youtube.com/watch?v=nzbV0YgSBuo",
+    "publishDate": "2024-06-25",
+    "thumbnail": "https://i.ytimg.com/vi/nzbV0YgSBuo/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 82,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 82,
+        "endTime": 116,
+        "title": "Single Page Apps"
+      },
+      {
+        "startTime": 116,
+        "endTime": 162,
+        "title": "Web Page Size"
+      },
+      {
+        "startTime": 162,
+        "endTime": 215,
+        "title": "Cost of JavaScript"
+      },
+      {
+        "startTime": 215,
+        "endTime": 253,
+        "title": "Client Rendering"
+      },
+      {
+        "startTime": 253,
+        "endTime": 285,
+        "title": "Uncanny Valley"
+      },
+      {
+        "startTime": 285,
+        "endTime": 313,
+        "title": "Nextjs"
+      },
+      {
+        "startTime": 313,
+        "endTime": 351,
+        "title": "Back to the drawing board"
+      },
+      {
+        "startTime": 351,
+        "endTime": 407,
+        "title": "What is a Spectrum"
+      },
+      {
+        "startTime": 407,
+        "endTime": 445,
+        "title": "Learning from the past"
+      },
+      {
+        "startTime": 445,
+        "endTime": 541,
+        "title": "Code execution cost"
+      },
+      {
+        "startTime": 541,
+        "endTime": 644,
+        "title": "Framework stress testing"
+      },
+      {
+        "startTime": 644,
+        "endTime": 696,
+        "title": "Baseline test"
+      },
+      {
+        "startTime": 696,
+        "endTime": 747,
+        "title": "Islands"
+      },
+      {
+        "startTime": 747,
+        "endTime": 818,
+        "title": "Islands Architecture"
+      },
+      {
+        "startTime": 818,
+        "endTime": 884,
+        "title": "React Syntax"
+      },
+      {
+        "startTime": 884,
+        "endTime": 919,
+        "title": "Code Execution"
+      },
+      {
+        "startTime": 919,
+        "endTime": 968,
+        "title": "MultiPage Apps"
+      },
+      {
+        "startTime": 968,
+        "endTime": 1025,
+        "title": "View Transition API"
+      },
+      {
+        "startTime": 1025,
+        "endTime": 1089,
+        "title": "State Problem"
+      },
+      {
+        "startTime": 1089,
+        "endTime": 1151,
+        "title": "Lazy Hydration"
+      },
+      {
+        "startTime": 1151,
+        "endTime": 1236,
+        "title": "React Solution"
+      },
+      {
+        "startTime": 1236,
+        "endTime": 1325,
+        "title": "Regressing"
+      },
+      {
+        "startTime": 1325,
+        "endTime": 1359,
+        "title": "Resumability"
+      },
+      {
+        "startTime": 1359,
+        "endTime": 1483,
+        "title": "Qui"
+      },
+      {
+        "startTime": 1483,
+        "endTime": 1509,
+        "title": "Innovation"
+      },
+      {
+        "startTime": 1509,
+        "endTime": 1606,
+        "title": "Conclusion"
+      }
+    ],
+    "description": "React Summit 2024  #ReactSummit #GitNation\nWebsite – https://reactsummit.com/ \n\nFollow the link to watch the full version of all the conference talks, QnA’s with speakers and hands-on workshop recordings → https://reactsummit.com/#tickets\n\nTalk: Facing Frontend's Existential Crisis\nThe state of frontend development last couple years is in an odd place for the uninitiated web developer and expert alike. Server Components? Resumability? Hydration? Waterfalls? Islands? Why so much focus on water? And why are we even talking about this? In this talk, SolidJS creator Ryan Carniato explores the landscape of modern web development to understand how we got here and what these solutions really solve.\n\nThis event would not take place without the support of sponsors:\n \n🏆 Platinum Sponsors\nAG Grid → https://ag-grid.com/\nMUI → https://mui.com/\nCodux → https://www.codux.com/\nChainlink → https://chain.link/\nOracle Database → https://www.oracle.com/database/\n \n🥇 Gold Sponsors\nFocus Reactive → https://focusreactive.com/\nStoryblock → https://app.storyblok.com/\nCKEditor → https://ckeditor.com/\nsisense → https://www.sisense.com/\nMongoDB → https://www.mongodb.com/\nDATASTAX → https://www.datastax.com/\nConvex → https://www.convex.dev/\nJetBrains → https://www.jetbrains.com/\n\n\n🥈 Silver Sponsors\npicnic → https://jobs.picnic.app/en\nchromatic → https://www.chromatic.com/"
+  }
+}

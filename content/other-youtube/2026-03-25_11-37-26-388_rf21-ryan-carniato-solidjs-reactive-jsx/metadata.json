@@ -1,0 +1,94 @@
+{
+  "step1": {
+    "title": "RF21 – Ryan Carniato – SolidJS - Reactive JSX",
+    "duration": "28:44",
+    "author": "React Finland",
+    "url": "https://www.youtube.com/watch?v=2iK9zzhSKo4",
+    "publishDate": "2021-08-31",
+    "thumbnail": "https://i.ytimg.com/vi/2iK9zzhSKo4/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-DoACuAiKAgwIABABGBsgPCh_MA8=&rs=AOn4CLDY2KMOAdNt2HRrOtCMs4jml88pHQ",
+    "channelUrl": "https://www.youtube.com/channel/UCYRsLerK8J8uGWXFaprYa2A",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 36,
+        "title": "Intro"
+      },
+      {
+        "startTime": 36,
+        "endTime": 170,
+        "title": "SolidJS"
+      },
+      {
+        "startTime": 170,
+        "endTime": 353,
+        "title": "Counter"
+      },
+      {
+        "startTime": 353,
+        "endTime": 513,
+        "title": "Solid vs Reactive"
+      },
+      {
+        "startTime": 513,
+        "endTime": 709,
+        "title": "Global Stack"
+      },
+      {
+        "startTime": 709,
+        "endTime": 897,
+        "title": "Nested Effects"
+      },
+      {
+        "startTime": 897,
+        "endTime": 1008,
+        "title": "What are we dealing with"
+      },
+      {
+        "startTime": 1008,
+        "endTime": 1129,
+        "title": "Lowlevel abstraction"
+      },
+      {
+        "startTime": 1129,
+        "endTime": 1189,
+        "title": "Porting to Solid"
+      },
+      {
+        "startTime": 1189,
+        "endTime": 1256,
+        "title": "Learning curve"
+      },
+      {
+        "startTime": 1256,
+        "endTime": 1328,
+        "title": "Performance"
+      },
+      {
+        "startTime": 1328,
+        "endTime": 1366,
+        "title": "React Beginner"
+      },
+      {
+        "startTime": 1366,
+        "endTime": 1454,
+        "title": "Concurrent Rendering"
+      },
+      {
+        "startTime": 1454,
+        "endTime": 1529,
+        "title": "Alternative Solution"
+      },
+      {
+        "startTime": 1529,
+        "endTime": 1568,
+        "title": "Other State Libraries"
+      },
+      {
+        "startTime": 1568,
+        "endTime": 1724,
+        "title": "UI Components"
+      }
+    ],
+    "description": "An introduction to SolidJS UI Library. Explore an example to show the similarity and differences between Hook + Virtual DOM versus Reactivity + DOM.\n\nIf you like what we do please consider subscribing → https://bit.ly/3lowyCt​​\n\n---\n\nThis event would not take place without the support of our sponsors:\n\n## Gold Sponsors\n\n* Gofore → https://gofore.com​​​​\n* Futurice → https://www.futurice.com​​​​\n* Smartly → https://www.smartly.io​​​​\n\n## Silver Sponsors\n\n* Elisa → https://elisa.fi​​​​\n* Alma → https://www.almamedia.fi​​​​\n* Columbia Road → https://www.columbiaroad.com​​​​\n* Digia → https://digia.com​​​​\n\n## Bronze Sponsors\n\n* Relex → https://www.relexsolutions.com/\n* Vincit → https://www.vincit.fi​​​​\n* Wunder → https://wunder.io​​​​\n* Cybercom → https://www.cybercom.com​​​​\n* Netum → https://www.netum.fi\n* Nitor → https://nitor.com/\n\n---\n\nFind more React & JavaScript talk recordings and hands-on workshops on https://portal.gitnation.org"
+  }
+}

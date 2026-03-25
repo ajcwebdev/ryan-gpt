@@ -1,0 +1,59 @@
+{
+  "step1": {
+    "title": "The Deep Dive Episode 4: Reactive frontend frameworks",
+    "duration": "1:19:03",
+    "author": "Lars Gyrup Brink Nielsen",
+    "url": "https://www.youtube.com/watch?v=iyY1lT8-ZDA",
+    "publishDate": "2021-03-17",
+    "thumbnail": "https://i.ytimg.com/vi/iyY1lT8-ZDA/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCsZWzmsdKz2VA49XXBK5TQA",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 62,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 62,
+        "endTime": 473,
+        "title": "Ryan Carniato"
+      },
+      {
+        "startTime": 473,
+        "endTime": 1669,
+        "title": "What Solid Js Is"
+      },
+      {
+        "startTime": 1669,
+        "endTime": 1919,
+        "title": "Js Framework Benchmark"
+      },
+      {
+        "startTime": 1919,
+        "endTime": 2362,
+        "title": "Who's Leading the Bank"
+      },
+      {
+        "startTime": 2362,
+        "endTime": 3439,
+        "title": "Inferno"
+      },
+      {
+        "startTime": 3439,
+        "endTime": 4105,
+        "title": "Automatic Dependency Tracking"
+      },
+      {
+        "startTime": 4105,
+        "endTime": 4488,
+        "title": "Marco Js"
+      },
+      {
+        "startTime": 4488,
+        "endTime": 4743,
+        "title": "Is It Open Source"
+      }
+    ],
+    "description": "Guests: Kos Palchyk and Ryan Carniato.\n\nHost: Lars Gyrup Brink Nielsen.\n\nPeople mentioned:\n- André Stalz\n- Brendan Eich\n- Dominic Gannaway\n- Evan You\n- Rich Harris\n\nResources mentioned:\n- Exploring the state of reactivity patterns in 2020\n- Finding Fine-Grained Reactivity Programming\n- Photo tweet about Recks' reactive UI\n- SolidJS: Reactivity to Rendering\n- ThinkRx\n\nTechnologies mentioned:\n- Angular\n- Cycle.js\n- Dust\n- Ember\n- Inferno\n- JS Framework Benchmark\n- Marko\n- MobX\n- Knockback\n- Knockout\n- Pug\n- React\n- react-rxjs-elements\n- Recks\n- RxJS\n- Solid\n- Vue\n\nOrganizations mentioned:\n- eBay\n- Facebook\n- OpenJS Foundation\n- Telegram\n\nMusic by Vitalii Bobrov. Sponsored by inDepth.dev."
+  }
+}

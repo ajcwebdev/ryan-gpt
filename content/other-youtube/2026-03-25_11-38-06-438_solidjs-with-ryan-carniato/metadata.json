@@ -1,0 +1,49 @@
+{
+  "step1": {
+    "title": "SolidJS with Ryan Carniato",
+    "duration": "54:18",
+    "author": "Anthony Campolo",
+    "url": "https://www.youtube.com/watch?v=KT-rfkQUPUQ",
+    "publishDate": "2022-08-30",
+    "thumbnail": "https://i.ytimg.com/vi/KT-rfkQUPUQ/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCpdzti0GURPfMjKzYK5FVSA",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 121,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 121,
+        "endTime": 1135,
+        "title": "Intro"
+      },
+      {
+        "startTime": 1135,
+        "endTime": 1434,
+        "title": "Nested Router"
+      },
+      {
+        "startTime": 1434,
+        "endTime": 1502,
+        "title": "Create Resource"
+      },
+      {
+        "startTime": 1502,
+        "endTime": 1645,
+        "title": "Error Handling"
+      },
+      {
+        "startTime": 1645,
+        "endTime": 2621,
+        "title": "Optional Chaining Operators"
+      },
+      {
+        "startTime": 2621,
+        "endTime": 3258,
+        "title": "New Builder Io Benchmarks"
+      }
+    ],
+    "description": "In this episode, Ryan Carniato teaches us about SolidJS. We migrate the legendary Hacker News clone from Rollup to Vite and deploy the project to Netlify."
+  }
+}

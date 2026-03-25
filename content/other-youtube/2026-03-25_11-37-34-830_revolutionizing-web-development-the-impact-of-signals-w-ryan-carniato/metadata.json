@@ -1,0 +1,49 @@
+{
+  "step1": {
+    "title": "Revolutionizing Web Development: The Impact of Signals (w/ Ryan Carniato)",
+    "duration": "1:35:24",
+    "author": "The Weekly Dev's Brew",
+    "url": "https://www.youtube.com/watch?v=WLvAJYHQ9m0",
+    "publishDate": "2025-06-23",
+    "thumbnail": "https://i.ytimg.com/vi/WLvAJYHQ9m0/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UC7aHZVHaVcHpu3m8vWstVxg",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 120,
+        "title": "Introduction to the Discussion"
+      },
+      {
+        "startTime": 120,
+        "endTime": 259,
+        "title": "The Impact of Signals and SolidJS"
+      },
+      {
+        "startTime": 259,
+        "endTime": 426,
+        "title": "Performance and React's Approach"
+      },
+      {
+        "startTime": 426,
+        "endTime": 1749,
+        "title": "The Shift in Frameworks and Performance"
+      },
+      {
+        "startTime": 1749,
+        "endTime": 2233,
+        "title": "The Role of Open Source in Development"
+      },
+      {
+        "startTime": 2233,
+        "endTime": 2773,
+        "title": "Balancing Work and Personal Life"
+      },
+      {
+        "startTime": 2773,
+        "endTime": 5724,
+        "title": "Future Developments in Signals"
+      }
+    ],
+    "description": "In this episode, join Jan-Niklas Wortmann and Ryan Carniato, creator of SolidJS and CEO of Signals, as they explore how signals are revolutionizing web development and reshaping JavaScript frameworks. Discover the ways SolidJS is competing with React through more than just superior performance, as well as the innovative features of Signals 2.0 and their potential impact on async JavaScript patterns and the broader framework landscape once again. Ryan shares insights from his career and open-source journey, discusses the evolution of async JavaScript patterns, and provides practical advice for developers navigating the fast-paced landscape of frontend technology. Whether you're a seasoned React developer expanding your toolkit or a tech enthusiast curious about the latest trends in web development, this conversation provides essential insights into the past, present, and future of JavaScript frameworks.\n\nOur Fantastic Guest\nRyan Carniato\nRyan Carniato is the \"CEO of Signals\", JavaScript performance enthusiast and fine-grained reactivity superfan. He is the creator of the JavaScript framework SolidJS, and a Staff Engineer at Sentry, where he works on multiple open source projects to develop a better web.\n\nx (formerly twitter): https://twitter.com/RyanCarniato\nBluesky: https://bsky.app/profile/ryansolid.bsky.social\nYouTube: https://www.youtube.com/@ryansolid\n\nChapters\n\n00:00 - Introduction to the Discussion\n02:00 - The Impact of Signals and SolidJS\n04:19 - Performance and React's Approach\n07:06 - The Shift in Frameworks and Performance\n29:09 - The Role of Open Source in Development\n37:13 - Balancing Work and Personal Life\n46:13 - Future Developments in Signals\n95:05 - Conclusion and Reflections\n\nLinks and Resources\nSignals 2.0 Stream: https://www.youtube.com/live/xnmvxWEK25I?si=16KEeiiyim_IrKfF\n\n\nThank you very much for watching!\nWe are also pretty much on all social media platforms, so make sure to like and subscribe!\n\nHomepage - https://www.weeklybrew.dev/\n\nBlueSky - https://bsky.app/profile/weeklybrew.dev\nInstagram - https://www.instagram.com/weeklydevsbrew/\nTikTok - https://www.tiktok.com/@weeklybrew.dev\nYouTube - https://www.youtube.com/@TheWeeklyDevsBrew\nLinkedIn - https://linkedin.com/company/the-weekly-dev-s-brew"
+  }
+}

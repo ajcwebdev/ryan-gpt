@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "Discussion on React server components with Ryan Carniato, Tanner Linsley, & Ben Holmes",
+    "duration": "51:10",
+    "author": "Real World React",
+    "url": "https://www.youtube.com/watch?v=QRVtu9_xi2k",
+    "publishDate": "2023-05-25",
+    "thumbnail": "https://i.ytimg.com/vi/QRVtu9_xi2k/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCgL3tdpvoARHuX-_3eLWEgg",
+    "description": "You've heard the case for React Server Components from the React Core Team, Vercel, and Next.js. But what is the reaction to these patterns and technologies from other members of the extended community? In this panel, we explore how 3 leaders in the community perceive RSCs both for the community at large and within their own niche. \n\nShruti Kapoor\nShruti is a Lead Engineer at Slack and is passionate about teaching and sharing knowledge on JavaScript, React, GraphQL and front-end technologies. She previously worked at Paypal as a Staff Engineer. She shares byte sized javascript tidbits through her newsletter - JSByte: http://tinyletter.com/shrutikapoor. She is also an ardent #DevJoke fan\n\nTanner Linsley\nTanner Linsley has been building software for 10+ years, mostly in the front-end space. He cofounded Nozzle, an SEO analytics SaaS platform, and also created TanStack, his open source umbrella company for web developer tools. He enjoys building open source software, traveling and spoiling his family.\n\nRyan Carniato\nAs a JavaScript performance enthusiast, and fine-grained reactivity super-fan, Ryan is obsessively passionate about the future of JavaScript frameworks. He is the creator of SolidJS, and a maintainer of Marko.\n\nBen Holmes \nBen is an open source maintainer, teacher, and whiteboardist making the web a little better. You'll find him hacking on Astro or sharing bite-sized learnings on http://wtw.dev.\n\nFilmed live in San Francisco at Reactathon 2023. Learn more at https://reactathon.com"
+  }
+}

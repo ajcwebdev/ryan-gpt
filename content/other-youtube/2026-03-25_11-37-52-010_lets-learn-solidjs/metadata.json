@@ -1,0 +1,79 @@
+{
+  "step1": {
+    "title": "Let's Learn SolidJS",
+    "duration": "1:29:39",
+    "author": "CodeTV",
+    "url": "https://www.youtube.com/watch?v=ZZ-a7B761Ds",
+    "publishDate": "2021-12-02",
+    "thumbnail": "https://i.ytimg.com/vi/ZZ-a7B761Ds/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 24,
+        "title": "Welcome"
+      },
+      {
+        "startTime": 24,
+        "endTime": 166,
+        "title": "Guest introduction"
+      },
+      {
+        "startTime": 166,
+        "endTime": 261,
+        "title": "Jason's initial thoughts on SolidJS"
+      },
+      {
+        "startTime": 261,
+        "endTime": 465,
+        "title": "What's different about SolidJS?"
+      },
+      {
+        "startTime": 465,
+        "endTime": 731,
+        "title": "What are the benefits of SolidJS?"
+      },
+      {
+        "startTime": 731,
+        "endTime": 1738,
+        "title": "What's the first step with SolidJS?"
+      },
+      {
+        "startTime": 1738,
+        "endTime": 2456,
+        "title": "Something different between Solid and other frameworks"
+      },
+      {
+        "startTime": 2456,
+        "endTime": 3090,
+        "title": "Sharing state is easy"
+      },
+      {
+        "startTime": 3090,
+        "endTime": 3413,
+        "title": "Why doesn't this get more attention?"
+      },
+      {
+        "startTime": 3413,
+        "endTime": 4498,
+        "title": "Pulling in data from an API"
+      },
+      {
+        "startTime": 4498,
+        "endTime": 4854,
+        "title": "What happens to a fetch on SSR?"
+      },
+      {
+        "startTime": 4854,
+        "endTime": 4948,
+        "title": "Resources for learning SolidJS"
+      },
+      {
+        "startTime": 4948,
+        "endTime": 5379,
+        "title": "What tradeoffs are there if you use SolidJS?"
+      }
+    ],
+    "description": "SolidJS is an exciting framework with a small (6.4kb) footprint, a reactive, component-based approach, and incredible performance. In this episode, Ryan Carniato will teach us how to get started with our first SolidJS app!\n\n00:00:00 Welcome\n00:00:24 Guest introduction\n00:02:46 Jason's initial thoughts on SolidJS\n00:04:21 What's different about SolidJS?\n00:07:45 What are the benefits of SolidJS?\n00:12:11 What's the first step with SolidJS?\n00:28:58 Something different between Solid and other frameworks\n00:40:56 Sharing state is easy\n00:51:30 Why doesn't this get more attention?\n00:56:53 Pulling in data from an API\n01:14:58 What happens to a fetch on SSR?\n01:20:54 Resources for learning SolidJS\n01:22:28 What tradeoffs are there if you use SolidJS?\n\n\n*   demo: https://lets-learn-solidjs.netlify.app/\n\n*   repo: https://github.com/learnwithjason/lets-learn-solidjs\n\nLinks:  \n\n- https://www.solidjs.com/\n\n- https://www.solidjs.com/tutorial/introduction_basics\n\n- https://www.learnwithjason.dev/lets-learn-esbuild\n\n- https://www.netlify.com/blog/2021/10/25/using-contentful-and-solidjs-to-build-a-modern-restaurant-website/\n\nThis episode was sponsored by:\n- Netlify (https://lwj.dev/netlify)\n- Fauna (https://lwj.dev/fauna)\n- Auth0 (https://lwj.dev/auth0)\n\nLive transcription by White Coat Captioning (https://whitecoatcaptioning.com/)\n\nCredits:\n\nLocal Elevator by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300012\nArtist: http://incompetech.com/\n\nBusybody by Audionautix is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nArtist: http://audionautix.com/\n\nAdditional sound effects obtained from https://www.zapsplat.com"
+  }
+}

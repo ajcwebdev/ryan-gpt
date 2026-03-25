@@ -1,0 +1,49 @@
+{
+  "step1": {
+    "title": "S3:E2 - Why Solidjs with Ryan Carniato",
+    "duration": "50:08",
+    "author": "Playful Programming Podcast",
+    "url": "https://www.youtube.com/watch?v=39NEsUlBsj0",
+    "publishDate": "2024-01-22",
+    "thumbnail": "https://i.ytimg.com/vi/39NEsUlBsj0/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCwLr8EHk7A-A89tRqoHSdZw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 200,
+        "title": "Chapter 1: Introduction.)"
+      },
+      {
+        "startTime": 200,
+        "endTime": 720,
+        "title": "Chapter 2: The History of SolidJS.)"
+      },
+      {
+        "startTime": 720,
+        "endTime": 1200,
+        "title": "Chapter 3: The Core Principles of SolidJS.)"
+      },
+      {
+        "startTime": 1200,
+        "endTime": 1800,
+        "title": "Chapter 4: Solid Start: A Meta Framework for SolidJS.)"
+      },
+      {
+        "startTime": 1800,
+        "endTime": 2400,
+        "title": "Chapter 5: The Future of SolidJS.)"
+      },
+      {
+        "startTime": 2400,
+        "endTime": 3000,
+        "title": "Chapter 6: Q&A.)"
+      },
+      {
+        "startTime": 3000,
+        "endTime": 3008,
+        "title": "Chapter 7: Outro.50:30)"
+      }
+    ],
+    "description": "In this episode, creator of solidjs Ryan Carniato walks us through what soldjs is? what team has been working on and what to expect in next major release\n\nhttps://twitter.com/solid_js\nhttps://twitter.com/RyanCarniato\nhttps://www.solidjs.com/\n\nChapter 1: Introduction (00:00 - 03:20)\n\nIntroduction to the show and the guests\nBrief overview of SolidJS\nChapter 2: The History of SolidJS (03:20 - 12:00)\n\nRyan's background and motivation for creating SolidJS\nThe challenges of promoting SolidJS in the early days\nThe influence of other JavaScript frameworks on SolidJS\nChapter 3: The Core Principles of SolidJS (12:00 - 20:00)\n\nThe concept of \"primitives\" in SolidJS\nThe benefits of using primitives in web development\nHow SolidJS's reactivity model differs from other frameworks\nChapter 4: Solid Start: A Meta Framework for SolidJS (20:00 - 30:00)\n\nThe purpose of Solid Start\nHow Solid Start simplifies the development process with SolidJS\nThe modular design of Solid Start\nChapter 5: The Future of SolidJS (30:00 - 40:00)\n\nRyan's vision for the future of SolidJS\nThe focus on primitives and interoperability\nThe goal of making SolidJS accessible to a wider audience\nChapter 6: Q&A (40:00 - 50:00)\n\nQuestions from the hosts and viewers\nDiscussion of Angular and NX integrations\nThe possibility of SQL Lite support on edge workers\nNetlify's focus on data pipelines\nChapter 7: Outro (50:00 - 50:30)\n\nClosing remarks and thanks to the guests"
+  }
+}

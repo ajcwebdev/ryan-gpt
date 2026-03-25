@@ -1,0 +1,1253 @@
+[
+  {
+    "number": 1,
+    "date": "2021-09-04",
+    "title": "First look at DOM Expressions",
+    "length": "32:08",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=jnZmG4hyNas"
+  },
+  {
+    "number": 2,
+    "date": "2021-09-11",
+    "title": "Streaming SolidJS: Fine-Grained Reactivity",
+    "length": "2:00:49",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=b9e7VXs_A4s"
+  },
+  {
+    "number": 3,
+    "date": "2021-09-18",
+    "title": "Streaming SolidJS - Context, Async, & Suspense",
+    "length": "2:55:27",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=8Ou6domKfU4"
+  },
+  {
+    "number": 4,
+    "date": "2021-09-25",
+    "title": "Streaming SolidJS - Server Rendering",
+    "length": "2:14:37",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=0zadjVUV7zM"
+  },
+  {
+    "number": 5,
+    "date": "2021-10-02",
+    "title": "Streaming SolidJS - First look at Astro",
+    "length": "3:00:25",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=UPhx3OxUH0w"
+  },
+  {
+    "number": 6,
+    "date": "2021-10-09",
+    "title": "Streaming SolidJS: Routing",
+    "length": "2:39:23",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=YxroH_MXuhw"
+  },
+  {
+    "number": 7,
+    "date": "2021-10-16",
+    "title": "Islands, Partial Hydration, & JavaScript Frameworks",
+    "length": "2:51:21",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=Q0mXYbA86Qo"
+  },
+  {
+    "number": 8,
+    "date": "2021-10-23",
+    "title": "Streaming SolidJS - Benchmarking and Custom Renderers",
+    "length": "2:57:19",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=Yi_MJ8cVCCs"
+  },
+  {
+    "number": 9,
+    "date": "2021-10-30",
+    "title": "2-way Binding and REPL Diving",
+    "length": "2:59:00",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=C83XD19-1jg"
+  },
+  {
+    "number": 10,
+    "date": "2021-11-13",
+    "title": "Netlify and Vercel and Cloudflare, Oh My!",
+    "length": "02:58:23",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=O2kFXlNSdn0"
+  },
+  {
+    "number": 11,
+    "date": "2021-11-20",
+    "title": "Streaming SolidJS: Concurrent Rendering without a Virtual DOM",
+    "length": "1:27:23",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=Hdc5QqPfFH8"
+  },
+  {
+    "number": 12,
+    "date": "2021-12-04",
+    "title": "A First Look at Remix",
+    "length": "3:00:01",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=CQm52h3Ukng"
+  },
+  {
+    "number": 13,
+    "date": "2021-12-11",
+    "title": "Compilation in JavaScript Frameworks",
+    "length": "3:41:54",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=FB_kBYO_vIw"
+  },
+  {
+    "number": 14,
+    "date": "2021-12-18",
+    "title": "Streaming HTML, Solid 1.3, and More",
+    "length": "2:28:59",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=8hlo9uPrpr4"
+  },
+  {
+    "number": 15,
+    "date": "2021-12-29",
+    "title": "JSConf India - The Future is Reactive",
+    "length": "39:34",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=vHy7GRpTpm8"
+  },
+  {
+    "number": 16,
+    "date": "2022-01-08",
+    "title": "Petite Solid?! Let's build a Micro View Library",
+    "length": "2:02:31",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=tcwe85p7M9c"
+  },
+  {
+    "number": 17,
+    "date": "2022-01-15",
+    "title": "Marko - The Most Underrated JS Framework?",
+    "length": "2:14:17",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=VanpBTKLFNM"
+  },
+  {
+    "number": 18,
+    "date": "2022-01-22",
+    "title": "React SSR and React Server Components",
+    "length": "3:01:12",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=dnuh-jKuDpk"
+  },
+  {
+    "number": 19,
+    "date": "2022-01-29",
+    "title": "Solid Three, Custom Renderers, and SolidStart w/ Nikhil Saraf",
+    "length": "4:29:13",
+    "type": "Guest",
+    "guests": [
+      "Nikhil Saraf"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=lsWXyyEsw7E"
+  },
+  {
+    "number": 20,
+    "date": "2022-02-05",
+    "title": "Let's do an AMA",
+    "length": "4:02:16",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=8_YiKUb6DW8"
+  },
+  {
+    "number": 21,
+    "date": "2022-02-12",
+    "title": "Exploring Qwik, the Resumable Framework",
+    "length": "02:14:12",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=gT5NWKZZPQM"
+  },
+  {
+    "number": 22,
+    "date": "2022-02-19",
+    "title": "Building Qwik w/ Misko Hevery",
+    "length": "2:32:48",
+    "type": "Guest",
+    "guests": [
+      "Misko Hevery"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=lY6e7Hw4uVo"
+  },
+  {
+    "number": 23,
+    "date": "2022-03-05",
+    "title": "Building Marko 6 w/ Dylan Piercey and Michael Rawlings",
+    "length": "3:31:52",
+    "type": "Guest",
+    "guests": [
+      "Dylan Piercey",
+      "Michael Rawlings"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=Y22xf8EjioE"
+  },
+  {
+    "number": 24,
+    "date": "2022-03-12",
+    "title": "Looking at SvelteKit",
+    "length": "04:04:58",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=DYwI1eWkMcI"
+  },
+  {
+    "number": 25,
+    "date": "2022-03-19",
+    "title": "SolidScript?! Using Compilation for Syntax",
+    "length": "3:26:30",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=ZVKHxm1-g3E"
+  },
+  {
+    "number": 26,
+    "date": "2022-03-26",
+    "title": "Let's look at Web Components",
+    "length": "03:03:45",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=BEWkLXU1Wlc"
+  },
+  {
+    "number": 27,
+    "date": "2022-04-02",
+    "title": "A First Look At SolidHack Submissions",
+    "length": "3:19:21",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=Ywv8cGOVNMg"
+  },
+  {
+    "number": 28,
+    "date": "2022-04-09",
+    "title": "Astro SSR w/ Fred K. Schott",
+    "length": "3:02:50",
+    "type": "Guest",
+    "guests": [
+      "Fred K. Schott"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=2ZEMb_H-LYE"
+  },
+  {
+    "number": 29,
+    "date": "2022-04-16",
+    "title": "A First Look at Next.js",
+    "length": "2:13:10",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=m-Gl_Cc8xOg"
+  },
+  {
+    "number": 30,
+    "date": "2022-04-23",
+    "title": "Breaking Down the Web w/ Dan Jutan",
+    "length": "02:56:24",
+    "type": "Guest",
+    "guests": [
+      "Dan Jutan"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=REXtIuAJ3dE"
+  },
+  {
+    "number": 31,
+    "date": "2022-04-30",
+    "title": "Breaking Down Hydration w/ Dan Jutan",
+    "length": "3:31:18",
+    "type": "Guest",
+    "guests": [
+      "Dan Jutan"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=iR5T2HefqKk"
+  },
+  {
+    "number": 32,
+    "date": "2022-05-07",
+    "title": "Building SolidJS 1.4",
+    "length": "3:12:16",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=2UPX0HZxXEQ"
+  },
+  {
+    "number": 33,
+    "date": "2022-05-27",
+    "title": "Hydrogen & React Server Components w/ Bret Little",
+    "length": "2:36:33",
+    "type": "Guest",
+    "guests": [
+      "Bret Little"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=bvWCyGsKOXY"
+  },
+  {
+    "number": 34,
+    "date": "2022-06-03",
+    "title": "SolidJS: Past, Present, Future",
+    "length": "2:52:23",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=dOgnQ9SuKYk"
+  },
+  {
+    "number": 35,
+    "date": "2022-07-08",
+    "title": "A First Look at Fresh",
+    "length": "3:57:41",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=jfT7aEoeaGE"
+  },
+  {
+    "number": 36,
+    "date": "2022-07-15",
+    "title": "Nested Routing, Parallelized Data Fetching, and SolidJS w/ Ryan Turnquist",
+    "length": "3:06:47",
+    "type": "Guest",
+    "guests": [
+      "Ryan Turnquist"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=-TeXU9UZ_4w"
+  },
+  {
+    "number": 37,
+    "date": "2022-07-22",
+    "title": "Exploring Qwik City w/ Adam Bradley & Manu Mart\u00ednez-Almeida",
+    "length": "04:25:13",
+    "type": "Guest",
+    "guests": [
+      "Adam Bradley",
+      "Manu Mart\u00ednez-Almeida"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=XoeJisRJjlo"
+  },
+  {
+    "number": 38,
+    "date": "2022-07-29",
+    "title": "Looking at Nuxt3",
+    "length": "3:53:29",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=s4Rd2snXSr0"
+  },
+  {
+    "number": 39,
+    "date": "2022-08-05",
+    "title": "Introducing SolidStart w/ Nikhil Saraf",
+    "length": "4:30:18",
+    "type": "Guest",
+    "guests": [
+      "Nikhil Saraf"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=eAwuPvRXNdY"
+  },
+  {
+    "number": 40,
+    "date": "2022-08-19",
+    "title": "Exploring 11ty with Zach Leatherman",
+    "length": "4:33:45",
+    "type": "Guest",
+    "guests": [
+      "Zach Leatherman"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=iuwqOkH6jKY"
+  },
+  {
+    "number": 41,
+    "date": "2022-08-26",
+    "title": "Building SolidJS 1.5",
+    "length": "3:57:33",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=jHDzGYHY2ew"
+  },
+  {
+    "number": 42,
+    "date": "2022-09-03",
+    "title": "React: The Most Prolific JavaScript Framework",
+    "length": "5:01:26",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=BBWA7PGJcts"
+  },
+  {
+    "number": 43,
+    "date": "2022-09-08",
+    "title": "Components Are Pure Overhead",
+    "length": "4:24:51",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=I6L29qSTaFA"
+  },
+  {
+    "number": 44,
+    "date": "2022-09-10",
+    "title": "Building a UI Language w/ Dylan Piercey",
+    "length": "5:18:55",
+    "type": "Guest",
+    "guests": [
+      "Dylan Piercey"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=W9wfkP21c80"
+  },
+  {
+    "number": 45,
+    "date": "2022-09-24",
+    "title": "Making the World's Fastest Website and Other Mistakes w/ Taylor Hunt",
+    "length": "5:47:29",
+    "type": "Guest",
+    "guests": [
+      "Taylor Hunt"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=Vcq2DvkMz3k"
+  },
+  {
+    "number": 46,
+    "date": "2022-09-30",
+    "title": "Corset: A Novel Approach to Declarative Data-Binding w/ Matthew Phillips",
+    "length": "4:13:58",
+    "type": "Guest",
+    "guests": [
+      "Matthew Phillips"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=0cmj4S8K_6c"
+  },
+  {
+    "number": 47,
+    "date": "2022-10-08",
+    "title": "AGGrid: High-Performance DOM Updates w/ Niall Crosby",
+    "length": "4:59:59",
+    "type": "Guest",
+    "guests": [
+      "Niall Crosby"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=QRtrS_SvR4w"
+  },
+  {
+    "number": 48,
+    "date": "2022-10-22",
+    "title": "Server Components? Building SolidJS v1.6",
+    "length": "4:54:27",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=adXqweWZcNA"
+  },
+  {
+    "number": 49,
+    "date": "2022-10-29",
+    "title": "Creating a VDOM-less Renderer with Preact Signals",
+    "length": "5:11:56",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=Fp9duJd6Txc"
+  },
+  {
+    "number": 50,
+    "date": "2022-11-23",
+    "title": "This Month in JavaScript",
+    "length": "3:54:34",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=ijKULkvSaAU"
+  },
+  {
+    "number": 51,
+    "date": "2022-12-03",
+    "title": "Building Web UI's in Rust w/ Greg Johnston",
+    "length": "5:03:22",
+    "type": "Guest",
+    "guests": [
+      "Greg Johnston"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=zgY7ql1xwW4"
+  },
+  {
+    "number": 52,
+    "date": "2022-12-10",
+    "title": "Exploring the App Directory in Next 13",
+    "length": "5:23:46",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=qyQNFstxlzY"
+  },
+  {
+    "number": 53,
+    "date": "2022-12-14",
+    "title": "SolidJS NYC Meetup Dec 2022",
+    "length": "2:30:50",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=yAUlw5GL7jw"
+  },
+  {
+    "number": 54,
+    "date": "2022-12-17",
+    "title": "Learning Angular w/ Minko Gechev",
+    "length": "4:43:08",
+    "type": "Guest",
+    "guests": [
+      "Minko Gechev"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=tfxxeknwsi8"
+  },
+  {
+    "number": 55,
+    "date": "2022-12-19",
+    "title": "Reactivity & Rendering",
+    "length": "2:46:12",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=R5AcOtxIdMk"
+  },
+  {
+    "number": 56,
+    "date": "2023-01-07",
+    "title": "JavaScript Frameworks in 2023",
+    "length": "5:28:37",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=6RIPfwxj24s"
+  },
+  {
+    "number": 57,
+    "date": "2023-01-14",
+    "title": "First Look at LiveViewJS w/ Donnie Flood",
+    "length": "5:37:56",
+    "type": "Guest",
+    "guests": [
+      "Donnie Flood"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=S0a-1lriNl4"
+  },
+  {
+    "number": 58,
+    "date": "2023-01-21",
+    "title": "SolidJS in React? Reconciling Disparate Worlds",
+    "length": "4:27:34",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=p9pwHyM5Z98"
+  },
+  {
+    "number": 59,
+    "date": "2023-01-28",
+    "title": "Demystifying SolidJS' JSX",
+    "length": "5:27:45",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=5du6jBlryIc"
+  },
+  {
+    "number": 60,
+    "date": "2023-02-04",
+    "title": "First Look at Create T3 App w/ Christopher Ehrlich",
+    "length": "4:52:49",
+    "type": "Guest",
+    "guests": [
+      "Christopher Ehrlich"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=-CWarVQDtEg"
+  },
+  {
+    "number": 61,
+    "date": "2023-02-18",
+    "title": "The Future of Fine-Grained Reactivity w/ Milo",
+    "length": "5:32:28",
+    "type": "Guest",
+    "guests": [
+      "Milo"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=A2TiLvCDKSg"
+  },
+  {
+    "number": 62,
+    "date": "2023-02-25",
+    "title": "Signals in Angular w/ Pawel and Alex",
+    "length": "5:23:37",
+    "type": "Guest",
+    "guests": [
+      "Pawel",
+      "Alex"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=HstDoVQeP9g"
+  },
+  {
+    "number": 63,
+    "date": "2023-03-04",
+    "title": "This Week in JavaScript Signals",
+    "length": "5:14:44",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=g584AIL1HtI"
+  },
+  {
+    "number": 64,
+    "date": "2023-03-11",
+    "title": "Into the Depths with Server Components and Functions",
+    "length": "5:17:03",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=QS9yAsv1czg"
+  },
+  {
+    "number": 65,
+    "date": "2023-03-18",
+    "title": "SolidJS - The Hard Parts w/ Dan Jutan",
+    "length": "5:42:05",
+    "type": "Guest",
+    "guests": [
+      "Dan Jutan"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=E3jYGTB50LE"
+  },
+  {
+    "number": 66,
+    "date": "2023-03-25",
+    "title": "Signals in TypeScript: The Road to Solid v1.7",
+    "length": "5:27:07",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=2fW6JaJHoCE"
+  },
+  {
+    "number": 67,
+    "date": "2023-04-01",
+    "title": "Strict Mode in SolidJS?!",
+    "length": "5:23:13",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=2bkuEIa3Nwk"
+  },
+  {
+    "number": 68,
+    "date": "2023-04-15",
+    "title": "Bringing the Bling w/ Tanner Linsley",
+    "length": "4:35:19",
+    "type": "Guest",
+    "guests": [
+      "Tanner Linsley"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=nY7k3ql5mss"
+  },
+  {
+    "number": 69,
+    "date": "2023-04-21",
+    "title": "Going 'Fully React' w/ Nikhil Saraf",
+    "length": "5:49:11",
+    "type": "Guest",
+    "guests": [
+      "Nikhil Saraf"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=jwppKc4avIk"
+  },
+  {
+    "number": 70,
+    "date": "2023-05-19",
+    "title": "This Week in JavaScript... Conferences",
+    "length": "4:19:59",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=KMGJk2VtQ3I"
+  },
+  {
+    "number": 71,
+    "date": "2023-07-07",
+    "title": "This Week in JavaScript ...Milk?",
+    "length": "2:37:28",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=ZI-BfelG6z4"
+  },
+  {
+    "number": 72,
+    "date": "2023-07-15",
+    "title": "Exploring Million.js with Aiden Bai",
+    "length": "4:58:30",
+    "type": "Guest",
+    "guests": [
+      "Aiden Bai"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=JBRgUs9Kp64"
+  },
+  {
+    "number": 73,
+    "date": "2023-07-22",
+    "title": "First Look at Analog w/ Brandon Roberts",
+    "length": "05:19:13",
+    "type": "Guest",
+    "guests": [
+      "Brandon Roberts"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=7hpUcRGgxq8"
+  },
+  {
+    "number": 74,
+    "date": "2023-08-12",
+    "title": "MPAs vs SPAs",
+    "length": "4:59:55",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=iOqPj-CjoV0"
+  },
+  {
+    "number": 75,
+    "date": "2023-08-18",
+    "title": "A First Look at RedwoodJS w/ Anthony Campolo",
+    "length": "4:19:38",
+    "type": "Guest",
+    "guests": [
+      "Anthony Campolo"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=-8UeTHXoySc"
+  },
+  {
+    "number": 76,
+    "date": "2023-08-25",
+    "title": "Building Astro 3 w/ Matthew Phillips",
+    "length": "4:36:11",
+    "type": "Guest",
+    "guests": [
+      "Matthew Phillips"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=2zhYwg_nBqQ"
+  },
+  {
+    "number": 77,
+    "date": "2023-09-09",
+    "title": "Piecing it Together w/ Pooya Parsa",
+    "length": "4:44:45",
+    "type": "Guest",
+    "guests": [
+      "Pooya Parsa"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=seLSN1i8zRw"
+  },
+  {
+    "number": 78,
+    "date": "2023-09-16",
+    "title": "Evolving Isomorphic Data-Fetching",
+    "length": "04:44:09",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=8ObxzMSIqKA"
+  },
+  {
+    "number": 79,
+    "date": "2023-09-23",
+    "title": "Introducing Vinxi w/ Nikhil Saraf",
+    "length": "5:50:48",
+    "type": "Guest",
+    "guests": [
+      "Nikhil Saraf"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=WBH7Ewa--Qg"
+  },
+  {
+    "number": 80,
+    "date": "2023-10-06",
+    "title": "Building SolidJS v1.8",
+    "length": "3:45:38",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=87D15Gu1d6w"
+  },
+  {
+    "number": 81,
+    "date": "2023-10-14",
+    "title": "Reactivity, Runes & Revolution w/ Dominic Gannaway",
+    "length": "5:20:46",
+    "type": "Guest",
+    "guests": [
+      "Dominic Gannaway"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=N54FZtNvk_A"
+  },
+  {
+    "number": 82,
+    "date": "2023-10-21",
+    "title": "Exploring the World of Marko w/ Michael Rawlings",
+    "length": "5:46:58",
+    "type": "Guest",
+    "guests": [
+      "Michael Rawlings"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=n3YtxzHRjI0"
+  },
+  {
+    "number": 83,
+    "date": "2023-10-28",
+    "title": "Dive into Solid + Tauri w/ Atila Fassina",
+    "length": "5:09:21",
+    "type": "Guest",
+    "guests": [
+      "Atila Fassina"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=yLjqh6dKdBc"
+  },
+  {
+    "number": 84,
+    "date": "2023-11-04",
+    "title": "Dive into NativeScript w/ Nathan Walker & Ammar Ahmed",
+    "length": "05:05:31",
+    "type": "Guest",
+    "guests": [
+      "Nathan Walker",
+      "Ammar Ahmed"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=j0s8w34Xh9o"
+  },
+  {
+    "number": 85,
+    "date": "2023-11-18",
+    "title": "The Future of Routing w/ Tanner Linsley",
+    "length": "4:34:24",
+    "type": "Guest",
+    "guests": [
+      "Tanner Linsley"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=lrejTB07FOM"
+  },
+  {
+    "number": 86,
+    "date": "2023-12-02",
+    "title": "Server Functions & Server Actions",
+    "length": "4:57:11",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=veKm9MDVVg8"
+  },
+  {
+    "number": 87,
+    "date": "2023-12-16",
+    "title": "SolidStart: The Shape of Frameworks to Come",
+    "length": "05:02:24",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=RzL4N3ZavxU"
+  },
+  {
+    "number": 88,
+    "date": "2023-12-20",
+    "title": "JavaScript vs JavaScript - CSR & SSR",
+    "length": "04:01:44",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=kHsTiFWz3sY"
+  },
+  {
+    "number": 89,
+    "date": "2024-01-09",
+    "title": "SolidJS 30k Stars",
+    "length": "3:17",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=ZdGPsEFT8AQ"
+  },
+  {
+    "number": 90,
+    "date": "2024-01-13",
+    "title": "JavaScript Frameworks - Heading into 2024",
+    "length": "5:05:14",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=82dzMKZzHrY"
+  },
+  {
+    "number": 91,
+    "date": "2024-01-20",
+    "title": "Musing on HTML Partials",
+    "length": "5:29:32",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=N-QwFFqI8aQ"
+  },
+  {
+    "number": 92,
+    "date": "2024-01-27",
+    "title": "Front-End's Existential Crisis",
+    "length": "5:16:58",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=aA7Xeh7WG4E"
+  },
+  {
+    "number": 93,
+    "date": "2024-02-10",
+    "title": "What Comes After GraphQL?",
+    "length": "4:13:51",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=gfKrdN1RzoI"
+  },
+  {
+    "number": 94,
+    "date": "2024-02-17",
+    "title": "Don't Go Chasing Waterfalls",
+    "length": "4:49:16",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=hiYQC4XaUu4"
+  },
+  {
+    "number": 95,
+    "date": "2024-03-16",
+    "title": "Dive Into AstroDB w/ Fred K Schott",
+    "length": "5:08:07",
+    "type": "Guest",
+    "guests": [
+      "Fred K. Schott"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=zaSvA6lorCA"
+  },
+  {
+    "number": 96,
+    "date": "2024-03-23",
+    "title": "Designing Signals 2.0",
+    "length": "05:09:51",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=sMbICJUGJj4"
+  },
+  {
+    "number": 97,
+    "date": "2024-04-12",
+    "title": "Wiz: Behind the Curtain w/ Jatin Ramanathan",
+    "length": "2:56:48",
+    "type": "Guest",
+    "guests": [
+      "Jatin Ramanathan"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=qzOzyUA9kbg"
+  },
+  {
+    "number": 98,
+    "date": "2024-04-20",
+    "title": "Ride the LightningJS w/ Chris Lorenzo",
+    "length": "5:03:12",
+    "type": "Guest",
+    "guests": [
+      "Chris Lorenzo"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=NDRV14_WDYA"
+  },
+  {
+    "number": 99,
+    "date": "2024-05-25",
+    "title": "We Are So Back",
+    "length": "4:53:13",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=VdDJbrh23zo"
+  },
+  {
+    "number": 100,
+    "date": "2024-06-29",
+    "title": "The Art of Suspense",
+    "length": "5:07:29",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=k3RU0ayAdW4"
+  },
+  {
+    "number": 101,
+    "date": "2024-07-13",
+    "title": "Exploring Reactivity: Fine-Grained Derivation & Incremental Computation",
+    "length": "5:02:18",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=kz-p_017Usc"
+  },
+  {
+    "number": 102,
+    "date": "2024-07-26",
+    "title": "Server Islands w/ Matthew Phillips",
+    "length": "4:24:09",
+    "type": "Guest",
+    "guests": [
+      "Matthew Phillips"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=SkJiaRclTjM"
+  },
+  {
+    "number": 103,
+    "date": "2024-08-10",
+    "title": "The Nature of Hydration",
+    "length": "5:04:18",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=oOhfZtUm-pE"
+  },
+  {
+    "number": 104,
+    "date": "2024-08-17",
+    "title": "Revisiting SolidScript: Reactive Compilation",
+    "length": "03:55:00",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=4TdOEe6liSE"
+  },
+  {
+    "number": 105,
+    "date": "2024-09-07",
+    "title": "What's up with those Hydration IDs?",
+    "length": "5:35:54",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=776vUMP16Fo"
+  },
+  {
+    "number": 106,
+    "date": "2024-09-21",
+    "title": "What the head?",
+    "length": "5:22:59",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=_EkUCF4HzWg"
+  },
+  {
+    "number": 107,
+    "date": "2024-10-12",
+    "title": "We Should Probably Talk about Web Components",
+    "length": "5:29:14",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=0F9t_WeJ5p4"
+  },
+  {
+    "number": 108,
+    "date": "2024-10-19",
+    "title": "Are There Actually That Many Different Ways to Build Web Apps?",
+    "length": "05:05:06",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=ja4LIaxxUeA"
+  },
+  {
+    "number": 109,
+    "date": "2024-11-09",
+    "title": "Mutable Signals - Reactivity's Missing Link",
+    "length": "5:53:49",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=jfZdl3QckMM"
+  },
+  {
+    "number": 110,
+    "date": "2024-12-14",
+    "title": "Server Signals w/ Dev Agrawal",
+    "length": "5:04:03",
+    "type": "Guest",
+    "guests": [
+      "Dev Agrawal"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=zKXfcE7oTRY"
+  },
+  {
+    "number": 111,
+    "date": "2025-01-11",
+    "title": "JavaScript Frameworks Heading into 2025",
+    "length": "5:25:34",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=D1XN8j77Ntk"
+  },
+  {
+    "number": 112,
+    "date": "2025-01-25",
+    "title": "Fine-Grained Rendering in Depth",
+    "length": "5:31:50",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=kkUuaqDBSqA"
+  },
+  {
+    "number": 113,
+    "date": "2025-01-28",
+    "title": "Building JavaScript Framework Client Performance Tier List",
+    "length": "1:02:26",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=E5amN0_1XyE"
+  },
+  {
+    "number": 114,
+    "date": "2025-02-15",
+    "title": "Signals 2.0: The Future of Signals",
+    "length": "5:47:49",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=xnmvxWEK25I"
+  },
+  {
+    "number": 115,
+    "date": "2025-02-22",
+    "title": "One Stack to Rule Them All w/ Tanner Linsley",
+    "length": "5:08:41",
+    "type": "Guest",
+    "guests": [
+      "Tanner Linsley"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=p16CQPTHS8g"
+  },
+  {
+    "number": 116,
+    "date": "2025-04-11",
+    "title": "A First Look at Alien Signals",
+    "length": "5:12:26",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=FSxvwln27_U"
+  },
+  {
+    "number": 117,
+    "date": "2025-05-02",
+    "title": "Designing Reactive SSR",
+    "length": "4:23:14",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=efx9ok0xHGs"
+  },
+  {
+    "number": 118,
+    "date": "2025-05-30",
+    "title": "So Long Silicon Valley!",
+    "length": "3:46:46",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=u2MCb7k3hoI"
+  },
+  {
+    "number": 119,
+    "date": "2025-07-11",
+    "title": "This week in JavaScript Portland",
+    "length": "6:08:19",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=MIWNTo8Xa9M"
+  },
+  {
+    "number": 120,
+    "date": "2025-07-18",
+    "title": "Mutable Signals Pt 2 - Solving Derivations",
+    "length": "5:11:38",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=J0O69dGljx8"
+  },
+  {
+    "number": 121,
+    "date": "2025-07-25",
+    "title": "Did AI Write This Summary? w/ Anthony Campolo",
+    "length": "4:27:39",
+    "type": "Guest",
+    "guests": [
+      "Anthony Campolo"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=n0Xo_UU_iDY"
+  },
+  {
+    "number": 122,
+    "date": "2025-08-26",
+    "title": "Designing Concurrent Transitions",
+    "length": "5:32:06",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=eZAcJc_eR1M"
+  },
+  {
+    "number": 123,
+    "date": "2025-09-05",
+    "title": "Marko 6: Fulfilling the Promise of Less JavaScript w/ Dylan Piercey",
+    "length": "5:38:23",
+    "type": "Guest",
+    "guests": [
+      "Dylan Piercey"
+    ],
+    "youtube": "https://www.youtube.com/watch?v=x-3RxGf4KA8"
+  },
+  {
+    "number": 124,
+    "date": "2025-10-10",
+    "title": "This Week in JavaScript Conferences",
+    "length": "5:50:11",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=8bpjU_NzbyI"
+  },
+  {
+    "number": 125,
+    "date": "2025-10-24",
+    "title": "Web Fragments: Micro-Frontends Done Right?",
+    "length": "5:59:57",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=sneufVyPfiY"
+  },
+  {
+    "number": 126,
+    "date": "2025-11-22",
+    "title": "Designing Async-First Signals",
+    "length": "6:30:27",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=ori9xZhvNlc"
+  },
+  {
+    "number": 127,
+    "date": "2025-12-19",
+    "title": "The Art of Time Slicing",
+    "length": "5:59:32",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=YNdrWgWuUOc"
+  },
+  {
+    "number": 128,
+    "date": "2026-01-10",
+    "title": "JavaScript Frameworks - Heading into 2026",
+    "length": "6:39:09",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=Z54keB0QKEU"
+  },
+  {
+    "number": 129,
+    "date": "2026-02-28",
+    "title": "Entering the Age of AI Coding",
+    "length": "6:44:00",
+    "type": "Solo",
+    "guests": null,
+    "youtube": "https://www.youtube.com/watch?v=W_z73G4F4EI"
+  }
+]

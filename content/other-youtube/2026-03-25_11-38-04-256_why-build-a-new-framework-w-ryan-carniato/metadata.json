@@ -1,0 +1,44 @@
+{
+  "step1": {
+    "title": "Why Build A New Framework? w/ Ryan Carniato",
+    "duration": "1:34:39",
+    "author": "Builder",
+    "url": "https://www.youtube.com/watch?v=NS0thFGqu0E",
+    "publishDate": "2022-07-22",
+    "thumbnail": "https://i.ytimg.com/vi/NS0thFGqu0E/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCAN7TYzCJm1yd-QXbwKfoOg",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 1691,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 1691,
+        "endTime": 1802,
+        "title": "Client-Side Routing"
+      },
+      {
+        "startTime": 1802,
+        "endTime": 2098,
+        "title": "Serialize and Resolve Promises"
+      },
+      {
+        "startTime": 2098,
+        "endTime": 5091,
+        "title": "The Service Serverless Architecture"
+      },
+      {
+        "startTime": 5091,
+        "endTime": 5140,
+        "title": "Why React Is Bad"
+      },
+      {
+        "startTime": 5140,
+        "endTime": 5679,
+        "title": "Progression of React"
+      }
+    ],
+    "description": "In this stream we'll be joined by Ryan Carniato, creator of SolidJS, to talk about backing new frameworks in a world dominated by React. Is it worth trying? What are the challenges? Come join the conversation on July 21st at 10:30 AM PT / 1:30 PM ET."
+  }
+}

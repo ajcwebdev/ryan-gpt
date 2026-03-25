@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "Ryan Carniato | SolidJS: Decomposing the Metaframework | ViteConf 2023",
+    "duration": "17:03",
+    "author": "ViteConf",
+    "url": "https://www.youtube.com/watch?v=XMybh3gCmQ0",
+    "publishDate": "2023-10-20",
+    "thumbnail": "https://i.ytimg.com/vi/XMybh3gCmQ0/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCXXpIonjN9ATkXjOJsOwvjg",
+    "description": "It is no secret frontend world has become more centered around metaframeworks in the past year. But that doesn't mean we have to give up control of how we architect applications. Ryan Carniato, SolidJS author, reflects on how a primitive-first approach can still be viable, as he details the lessons learned while building SolidStart.\n\nRyan Carniato is a JavaScript performance enthusiast and fine-grained reactivity superfan. Dubbed the CEO of Signals, he is the creator of the JavaScript framework SolidJS, and Principal Engineer on Netlify's OSS team, where he works with multiple open-source projects to develop a better web."
+  }
+}

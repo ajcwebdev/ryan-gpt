@@ -1,0 +1,64 @@
+{
+  "step1": {
+    "title": "Episode 53 - Solid with Ryan Carniato",
+    "duration": "49:58",
+    "author": "FSJam",
+    "url": "https://www.youtube.com/watch?v=dHDY6NXNAxk",
+    "publishDate": "2022-02-03",
+    "thumbnail": "https://i.ytimg.com/vi/dHDY6NXNAxk/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCePuDpGj6vK2IbNFl8V4BPw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 423,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 423,
+        "endTime": 1003,
+        "title": "Jsx"
+      },
+      {
+        "startTime": 1003,
+        "endTime": 1013,
+        "title": "Why Make It Re-Render Over and Over Again"
+      },
+      {
+        "startTime": 1013,
+        "endTime": 1211,
+        "title": "Virtual Dom"
+      },
+      {
+        "startTime": 1211,
+        "endTime": 1238,
+        "title": "Framework Benchmark"
+      },
+      {
+        "startTime": 1238,
+        "endTime": 1449,
+        "title": "Js Framework Benchmark"
+      },
+      {
+        "startTime": 1449,
+        "endTime": 2047,
+        "title": "Why Do They Matter"
+      },
+      {
+        "startTime": 2047,
+        "endTime": 2266,
+        "title": "What Is Marco"
+      },
+      {
+        "startTime": 2266,
+        "endTime": 2520,
+        "title": "Streaming Partials"
+      },
+      {
+        "startTime": 2520,
+        "endTime": 2998,
+        "title": "Biggest Prediction Where You Think Solids Is Going To Go in the Next Year"
+      }
+    ],
+    "description": "In this episode we discuss the definition of reactive programming, the benefits of building a new framework on JSX, the usefulness of benchmarks, and the reckoning of single-page apps versus multi-page apps."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "SolidJS: Reactivity Unchained – Ryan Carniato, JSNation 2022",
+    "duration": "19:22",
+    "author": "JavaScript Conferences by GitNation",
+    "url": "https://www.youtube.com/watch?v=UhGV8yYnvQE",
+    "publishDate": "2022-06-21",
+    "thumbnail": "https://i.ytimg.com/vi/UhGV8yYnvQE/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCQM428Hwrvxla8DCgjGONSQ",
+    "description": "JSNation Conference 2022 #JSNation #GitNation\nWebsite – https://jsnation.com/\n\nFollow the link to watch the full version of all the conference talks, QnA’s with speakers and hands-on workshop recordings → https://portal.gitnation.org/events/jsnation-2022\n\nTalk: SolidJS: Reactivity Unchained\nJoin Ryan Carniato, creator of SolidJS, as he shows off the fundamentals of this unique take on a JavaScript Framework. This session will reflect on the challenges of modern web development that motivated Solid's creation. By retracing his steps from simple beginnings to a full-fledged framework, Ryan will showcase how reactive primitives are the only building blocks you need.\n\nThis event would not take place without the support of sponsors:\n\n🏆 Platinum Sponsors\nAg Grid → https://www.ag-grid.com/\nCapgemini → https://careersatcapgemini.nl/\nAppwrite → https://appwrite.io/\n\n🥇 Gold Sponsors\nStackHawk → https://www.stackhawk.com/\nOLX → https://careers.olxgroup.com/\nDecentology → https://www.decentology.com/\nDocker → https://www.docker.com/\nModus Create → https://moduscreate.com/\nSnyk → https://snyk.io/\nContentful → https://www.contentful.com/\nBitvavo → https://bitvavo.com/en\nFocus Reactive → https://focusreactive.com/\n\n🥈 Silver Sponsors\nStream → https://getstream.io/\n3t Software → https://studio3t.com/\nYoast → https://yoast.com/\nTwilio → https://www.twilio.com/ahoy\nBCGDV → https://bcgdv.com/\nUtopia Music → https://utopiamusic.com/\nSISU → https://www.sisu.tools/"
+  }
+}

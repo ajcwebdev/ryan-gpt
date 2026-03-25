@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "Ryan Carniato | Crossing the Network Chasm | ViteConf 2024",
+    "duration": "20:41",
+    "author": "ViteConf",
+    "url": "https://www.youtube.com/watch?v=S0-fhGskPYA",
+    "publishDate": "2024-10-14",
+    "thumbnail": "https://i.ytimg.com/vi/S0-fhGskPYA/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCXXpIonjN9ATkXjOJsOwvjg",
+    "description": "Ryan Carniato shares what's next for SolidStart, and how leveraging Vite, Nitro, and Vinxi lets the Solid team focus on their journey to bringing the server and the client together. Lean more at https://start.solidjs.com\n\nhttps://ViteConf.org hosted by https://StackBlitz.com"
+  }
+}

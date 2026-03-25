@@ -1,0 +1,49 @@
+{
+  "step1": {
+    "title": "SolidJS: Reactivity Unchained • Ryan Carniato",
+    "duration": "1:09:59",
+    "author": "React HTX",
+    "url": "https://www.youtube.com/watch?v=whKwjZ6KA0Y",
+    "publishDate": "2022-08-05",
+    "thumbnail": "https://i.ytimg.com/vi/whKwjZ6KA0Y/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCwXb0VmOr_xShvsC2m2Ux1A",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 92,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 92,
+        "endTime": 1819,
+        "title": "What Is Solid Js"
+      },
+      {
+        "startTime": 1819,
+        "endTime": 2156,
+        "title": "Transforming the Jsx"
+      },
+      {
+        "startTime": 2156,
+        "endTime": 2672,
+        "title": "Reactive Advantage"
+      },
+      {
+        "startTime": 2672,
+        "endTime": 2703,
+        "title": "What Kind of Package Ecosystem Have You Seen Develop around Solid Js"
+      },
+      {
+        "startTime": 2703,
+        "endTime": 3597,
+        "title": "Library versus Framework"
+      },
+      {
+        "startTime": 3597,
+        "endTime": 4199,
+        "title": "Memory Leaks"
+      }
+    ],
+    "description": "Want to submit a talk? Visit https://forms.gle/fbKaDx4r6rW5jDmS7 to learn how!\n\nRyan Carniato - Principal Engineer, Open Source Software @ Netlify\n\nAbstract:\n\nJoin Ryan Carniato, creator of SolidJS, as he shows off the fundamentals of this unique take on a JavaScript Framework. This session will reflect on the challenges of modern web development that motivated Solid's creation. By retracing his steps from simple beginnings to a full-fledged framework, Ryan will showcase how reactive primitives are the only building blocks you need.\n\nTwitter: https://twitter.com/RyanCarniato\n\nGithub: https://github.com/ryansolid\n\nYoutube: https://www.youtube.com/ryancarniato9\n\nDev.to: https://dev.to/ryansolid\n\nSlides:\n\nhttps://docs.google.com/presentation/d/1POLlm4Hf_bGFaQ0oLUl4F2wg5qHQ23hZArH7uoWE1s0/edit?usp=sharing\n\nPresentation Link(s):\n\nhttps://www.solidjs.com/\n\n🚀🚀🚀🚀🚀🚀🚀\n\nHouston React Developers:\n\nALL SKILL LEVELS ARE WELCOME! If you have a love for anything ReactJS, then join the Houston React Developers group along with other like-minded individuals every month for some great presentations. We do our best at covering a variety of topics within the all-encompassing React JS environment.\n\nWHAT DO YOU WANT TO LEARN ABOUT? OR, DO YOU WANT TO PRESENT?\n\nFeel free to reach out and let us know if there are topics you would like the group to dive deeper into. Or, do you want to take a shot at presenting? Go for it - We’ve got your back!\n\n🚀🚀🚀🚀🚀🚀🚀\n\nFOLLOW US ON TWITTER - https://twitter.com/HoustonReactDev\n\nSUBSCRIBE TO OUR CHANNEL - https://www.youtube.com/channel/UCwXb0VmOr_xShvsC2m2Ux1A"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "Rethinking Isomorphic JavaScript with SolidStart by Ryan Carniato",
+    "duration": "43:37",
+    "author": "Certified Fresh Events",
+    "url": "https://www.youtube.com/watch?v=RP_tc61vPhg",
+    "publishDate": "2023-02-01",
+    "thumbnail": "https://i.ytimg.com/vi/RP_tc61vPhg/sddefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UC8mBtfX_7KNLP3LMQZJA8yg",
+    "description": "It is no secret at this point the focus of JavaScript Frameworks has returned to the server in the last couple of years. This is not because we are returning to our past. But we are at a crossroads with our widely held opinions of what the future of the web looks like.\n\nJoin SolidJS creator Ryan Carniato as he shows off how SolidStart, a recent entry to JavaScript Server Meta-Frameworks, has been re-examining the boundaries between server and browser.\n\nThis talk was presented as part of TheJam.dev 2023. For a full list of available session recordings go to https://thejam.dev"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "step1": {
+    "title": "SPAs, island architecture, and the future of development with Ryan Carniato and Dylan Piercey",
+    "duration": "51:01",
+    "author": "LogRocket",
+    "url": "https://www.youtube.com/watch?v=-G0kAay8j4g",
+    "publishDate": "2022-03-29",
+    "thumbnail": "https://i.ytimg.com/vi/-G0kAay8j4g/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCktI_HQAkbr-tJbdWnQ_osw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 62,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 62,
+        "endTime": 138,
+        "title": "Working on Marko at eBay"
+      },
+      {
+        "startTime": 138,
+        "endTime": 391,
+        "title": "The trend of moving applications back to the server"
+      },
+      {
+        "startTime": 391,
+        "endTime": 595,
+        "title": "Why would you move an application to the server?"
+      },
+      {
+        "startTime": 595,
+        "endTime": 706,
+        "title": "The effect of mobile apps on web development"
+      },
+      {
+        "startTime": 706,
+        "endTime": 800,
+        "title": "Optimizing the web to work like native apps"
+      },
+      {
+        "startTime": 800,
+        "endTime": 917,
+        "title": "Island architecture and partial hydration"
+      },
+      {
+        "startTime": 917,
+        "endTime": 1178,
+        "title": "Constraints using islands architecture"
+      },
+      {
+        "startTime": 1178,
+        "endTime": 1370,
+        "title": "Making islands architecture work"
+      },
+      {
+        "startTime": 1370,
+        "endTime": 1659,
+        "title": "New qualities in hydration like strategies"
+      },
+      {
+        "startTime": 1659,
+        "endTime": 1807,
+        "title": "The versatility of partial hydration"
+      },
+      {
+        "startTime": 1807,
+        "endTime": 2133,
+        "title": "Making routing happen on the server"
+      },
+      {
+        "startTime": 2133,
+        "endTime": 2349,
+        "title": "React Server Components"
+      },
+      {
+        "startTime": 2349,
+        "endTime": 3061,
+        "title": "Server-side routing"
+      }
+    ],
+    "description": "0:00 Introduction\n1:02 Working on Marko at eBay\n2:18 The trend of moving applications back to the server\n6:31 Why would you move an application to the server?\n9:55 The effect of mobile apps on web development\n11:46 Optimizing the web to work like native apps\n13:20 Island architecture and partial hydration\n15:17 Constraints using islands architecture\n19:38 Making islands architecture work\n22:50 New qualities in hydration like strategies\n27:39 The versatility of partial hydration \n30:07 Making routing happen on the server \n35:33 React Server Components\n39:09 Server-side routing\n\nAbout the episode\nRyan Carniato joined us back in September to talk about SolidJS, a declarative, efficient, and flexible JavaScript library for building user interfaces, and Dylan Piercey joined us in February to share about Marko, a declarative, HTML-based language that makes building web apps fun. Today, both Ryan and Dylan join us for a special episode where we cover trends in web development.\n\n\nNOTE: This is the video recording of the podcast. You can listen to the audio-only version of the episode at https://podrocket.logrocket.com or wherever you get your podcasts.\n\nLogRocket \nPodRocket was created by LogRocket. LogRocket is a frontend monitoring solution that combines session replay, performance monitoring, and product analytics to help software teams create an ideal product experience. Try LogRocket pro for free: https://logrocket.com/podrocket\n\nLinks\nhttps://markojs.com\nhttps://twitter.com/RyanCarniato\nhttps://twitter.com/dylan_piercey\nhttps://twitter.com/markodevteam\nhttps://github.com/marko-js/marko\nhttps://discord.com/invite/marko\nhttps://www.solidjs.com\nhttps://discord.com/invite/solidjs\nhttps://podrocket.logrocket.com/solidjs\nhttps://podrocket.logrocket.com/marko\nhttps://www.youtube.com/c/RyanCarniato9/featured"
+  }
+}

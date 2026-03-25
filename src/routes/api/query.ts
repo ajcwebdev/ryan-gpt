@@ -2,7 +2,7 @@
 
 import { json } from '@solidjs/router'
 import type { APIEvent } from '@solidjs/start/server'
-import { queryEmbeddingsRuntime } from '../../../utils/query-embeddings'
+import { queryEmbeddingsRuntime } from '../../../cli/query-embeddings'
 
 /**
  * Handles POST requests to query embeddings by question using a user-provided OpenAI API key.

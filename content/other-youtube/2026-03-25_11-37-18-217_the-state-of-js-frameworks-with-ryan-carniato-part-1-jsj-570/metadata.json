@@ -1,0 +1,79 @@
+{
+  "step1": {
+    "title": "The State of JS Frameworks with Ryan Carniato: Part 1 - JSJ 570",
+    "duration": "1:03:18",
+    "author": "Top End Devs",
+    "url": "https://www.youtube.com/watch?v=FN-7CoyniD4",
+    "publishDate": "2023-02-23",
+    "thumbnail": "https://i.ytimg.com/vi/FN-7CoyniD4/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCABJEQ57MIn6X3TIHIebJUw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 99,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 99,
+        "endTime": 430,
+        "title": "Why Ryan is here"
+      },
+      {
+        "startTime": 430,
+        "endTime": 754,
+        "title": "Frameworks on top of React"
+      },
+      {
+        "startTime": 754,
+        "endTime": 777,
+        "title": "Reacts approach"
+      },
+      {
+        "startTime": 777,
+        "endTime": 1032,
+        "title": "Cost of single page applications"
+      },
+      {
+        "startTime": 1032,
+        "endTime": 1364,
+        "title": "The size of React"
+      },
+      {
+        "startTime": 1364,
+        "endTime": 1724,
+        "title": "The rise of meta frameworks"
+      },
+      {
+        "startTime": 1724,
+        "endTime": 1992,
+        "title": "Using React today"
+      },
+      {
+        "startTime": 1992,
+        "endTime": 2211,
+        "title": "Simple vs Easy"
+      },
+      {
+        "startTime": 2211,
+        "endTime": 2330,
+        "title": "React is a framework"
+      },
+      {
+        "startTime": 2330,
+        "endTime": 2496,
+        "title": "JSX is a programming language"
+      },
+      {
+        "startTime": 2496,
+        "endTime": 2741,
+        "title": "State management"
+      },
+      {
+        "startTime": 2741,
+        "endTime": 3798,
+        "title": "React and Reason"
+      }
+    ],
+    "description": "Ryan Carniato is the Principal Engineer OSS at Netlify. He is the author of the SolidJS UI library. He joins the show to talk about where the JavaScript Frameworks are headed. They share their insights on the changes that occurred in React. Additionally, they talk about their perspective on React and other JavaScript frameworks.\n\nhttps://topenddevs.com/podcasts/javascript-jabber/episodes/the-state-of-js-frameworks-with-ryan-carniato-part-1-jsj-570"
+  }
+}

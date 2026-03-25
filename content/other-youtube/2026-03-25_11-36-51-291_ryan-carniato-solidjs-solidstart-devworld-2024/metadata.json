@@ -1,0 +1,79 @@
+{
+  "step1": {
+    "title": "Ryan Carniato - SolidJS - SolidStart - DevWorld 2024",
+    "duration": "28:28",
+    "author": "JSWORLD Conference",
+    "url": "https://www.youtube.com/watch?v=ZVjXtfdKQ3g",
+    "publishDate": "2024-05-15",
+    "thumbnail": "https://i.ytimg.com/vi/ZVjXtfdKQ3g/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UC1nBp6ouBB1o5P8YvPznPOw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 67,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 67,
+        "endTime": 175,
+        "title": "Introducing SolidStart"
+      },
+      {
+        "startTime": 175,
+        "endTime": 305,
+        "title": "Primitives"
+      },
+      {
+        "startTime": 305,
+        "endTime": 331,
+        "title": "Journey"
+      },
+      {
+        "startTime": 331,
+        "endTime": 470,
+        "title": "Basic App"
+      },
+      {
+        "startTime": 470,
+        "endTime": 569,
+        "title": "Router"
+      },
+      {
+        "startTime": 569,
+        "endTime": 819,
+        "title": "Persistence"
+      },
+      {
+        "startTime": 819,
+        "endTime": 1060,
+        "title": "New Post"
+      },
+      {
+        "startTime": 1060,
+        "endTime": 1445,
+        "title": "File System Routing"
+      },
+      {
+        "startTime": 1445,
+        "endTime": 1501,
+        "title": "New Blog"
+      },
+      {
+        "startTime": 1501,
+        "endTime": 1618,
+        "title": "Network Request"
+      },
+      {
+        "startTime": 1618,
+        "endTime": 1642,
+        "title": "Test"
+      },
+      {
+        "startTime": 1642,
+        "endTime": 1708,
+        "title": "Conclusion"
+      }
+    ],
+    "description": "SolidJS - SolidStart By Ryan Carniato\n\nRyan Shares his journey of developing the framework over three years, inspired by the need for a more flexible approach than traditional meta frameworks. \nSolid Start leverages existing ecosystem projects like Vinci and Nitro for bundling and server runtime. \nThey demonstrated how Solid Start streamlines development through file system routing and built-in features like lazy loading and caching\n\n📺 On-Demand Replay? Access to Slides? Q&A? Become part of our Devworld Community Platform for Free Full access: https://devworldconference.com/devwor...\n\n👉 JSworld Conference 👈\nJSworld Conference is Largest JavaScript Gathering on the Planet taking place annually in February and attracting 2,500 JavaScript Enthusiasts over 3 full days to meet with JavaScript Leaders and Connect with Industry Peers to build a valuable network for life. \n\nEngineers flying in from 52 countries to listen to more then 30 JavaScript Deep Dives and to join daily Networking activities.\n\nDon't miss your opportunity to meet with The World's Largest JavaScript Community!\n\nMore information and tickets via https://jsworldconference.com/\n\n#jsworld #jsworldconference #javascript #reactjs #angular #react #vuejs #vue #vue3 #typescript #graphql #jamstack #amsterdam #conference #svelte #sveltejs #next #nextjs #staticsite #css #html #tech #programming #react"
+  }
+}

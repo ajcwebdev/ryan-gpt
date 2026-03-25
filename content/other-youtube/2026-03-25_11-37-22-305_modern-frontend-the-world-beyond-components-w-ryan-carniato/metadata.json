@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "Modern Frontend: The World Beyond Components w/ Ryan Carniato",
+    "duration": "26:33",
+    "author": "SolidJS",
+    "url": "https://www.youtube.com/watch?v=nBSlEyEbV4k",
+    "publishDate": "2022-11-29",
+    "thumbnail": "https://i.ytimg.com/vi/nBSlEyEbV4k/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCXsRnrbzIX8KHdf86PE241Q",
+    "description": "Ryan Carniato walks us through Solid, SolidStart and the future of reactivity. Special thanks to the folks at Modern Frontend for the opportunity to record and post this event."
+  }
+}

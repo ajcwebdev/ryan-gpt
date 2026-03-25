@@ -1,0 +1,54 @@
+{
+  "step1": {
+    "title": "SolidJS with Ryan Carniato",
+    "duration": "37:42",
+    "author": "LogRocket",
+    "url": "https://www.youtube.com/watch?v=70w-UoEu3Ss",
+    "publishDate": "2021-09-03",
+    "thumbnail": "https://i.ytimg.com/vi/70w-UoEu3Ss/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCktI_HQAkbr-tJbdWnQ_osw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 49,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 49,
+        "endTime": 99,
+        "title": "What is SolidJS?"
+      },
+      {
+        "startTime": 99,
+        "endTime": 190,
+        "title": "Discussing early JavaScript Frameworks"
+      },
+      {
+        "startTime": 190,
+        "endTime": 693,
+        "title": "How is SolidJS built?"
+      },
+      {
+        "startTime": 693,
+        "endTime": 960,
+        "title": "Are React tools compatible with SolidJS?"
+      },
+      {
+        "startTime": 960,
+        "endTime": 1304,
+        "title": "How does SolidJS app performance compare to other React frameworks?"
+      },
+      {
+        "startTime": 1304,
+        "endTime": 1581,
+        "title": "The Future of SolidJS"
+      },
+      {
+        "startTime": 1581,
+        "endTime": 2262,
+        "title": "The exciting things with Marco at eBay"
+      }
+    ],
+    "description": "0:00 Introduction\n0:49 What is SolidJS?\n1:39 Discussing early JavaScript Frameworks\n3:10 How is SolidJS built?\n11:33 Are React tools compatible with SolidJS?\n16:00 How does SolidJS app performance compare to other React frameworks?\n21:44 The Future of SolidJS\n26:21 The exciting things with Marco at eBay\n\nAbout the episode \nRyan Carniato tells us all about SolidJS, a declarative, efficient, and flexible JavaScript library for building user interfaces. \n\nNOTE: This is the video recording of the podcast. You can listen to the audio-only version of the episode at https://podrocket.logrocket.com or wherever you get your podcasts.\n\nLogRocket \nPodRocket was created by LogRocket. LogRocket is a frontend monitoring solution that combines session replay, performance monitoring, and product analytics to help software teams create an ideal product experience. Try LogRocket pro for free: https://logrocket.com/podrocket\n\nLinks \nhttps://twitter.com/RyanCarniato\nhttps://discord.com/invite/solidjs\nhttps://twitter.com/solid_js\nhttps://www.solidjs.com\nhttps://markojs.com\nhttps://overreacted.io/before-you-memo"
+  }
+}

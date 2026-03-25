@@ -1,0 +1,84 @@
+{
+  "step1": {
+    "title": "Coding Design Systems | ep05 | SolidJS · Part 1 with Ryan Carniato",
+    "duration": "58:56",
+    "author": "Backlight",
+    "url": "https://www.youtube.com/watch?v=bl9P68VkCOA",
+    "publishDate": "2022-01-26",
+    "thumbnail": "https://i.ytimg.com/vi/bl9P68VkCOA/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCeBNmb3t0KEQpOYKy_TVAjA",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 112,
+        "title": "Intro"
+      },
+      {
+        "startTime": 112,
+        "endTime": 198,
+        "title": "Starting to code for the Web"
+      },
+      {
+        "startTime": 198,
+        "endTime": 372,
+        "title": "Ebay Marko JavaScript Framework and the Islands Pattern"
+      },
+      {
+        "startTime": 372,
+        "endTime": 635,
+        "title": "SolidJS birth and ecosystem"
+      },
+      {
+        "startTime": 635,
+        "endTime": 871,
+        "title": "From KnockoutJS to SolidJS: the Reactive Model"
+      },
+      {
+        "startTime": 871,
+        "endTime": 1045,
+        "title": "Reactive Primitives and Performances"
+      },
+      {
+        "startTime": 1045,
+        "endTime": 1124,
+        "title": "Backlight Design System Editor"
+      },
+      {
+        "startTime": 1124,
+        "endTime": 1308,
+        "title": "Storybook CSF for SolidJS"
+      },
+      {
+        "startTime": 1308,
+        "endTime": 2054,
+        "title": "Branching, JSX Fragments, and SolidJS Control Flow for components"
+      },
+      {
+        "startTime": 2054,
+        "endTime": 2410,
+        "title": "Styling in SolidJS"
+      },
+      {
+        "startTime": 2410,
+        "endTime": 2666,
+        "title": "From React to SolidJS"
+      },
+      {
+        "startTime": 2666,
+        "endTime": 3007,
+        "title": "Handling CSS variables in SolidJS States"
+      },
+      {
+        "startTime": 3007,
+        "endTime": 3334,
+        "title": "MDX within SolidJS for documentation"
+      },
+      {
+        "startTime": 3334,
+        "endTime": 3536,
+        "title": "Outro"
+      }
+    ],
+    "description": "Every Tuesday at 5:30PM UTC, join @Georges_Gomes,  @m4d_z, and their guests in a new live coding session about Design Systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n0:00 - Intro\n1:52 - Starting to code for the Web\n3:18 - Ebay Marko JavaScript Framework and the Islands Pattern\n6:12 - SolidJS birth and ecosystem\n10:35 - From KnockoutJS to SolidJS: the Reactive Model\n14:31 - Reactive Primitives and Performances\n17:25 - Backlight Design System Editor\n18:44 - Storybook CSF for SolidJS\n21:48 - Branching, JSX Fragments, and SolidJS Control Flow for components\n34:14 - Styling in SolidJS\n40:10 - From React to SolidJS\n44:26 - Handling CSS variables in SolidJS States\n50:07 - MDX within SolidJS for documentation\n55:34 - Outro 🎁\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nThis week we're pleased to welcome Ryan Carniato (@RyanCarniato) on the show! An occasion to talk about SolidJS Primitives and fundamentals, and creating a new Tech Sample Starter Kit for it in Backlight.\n\nWe discuss the reactivity mental model in SolidJS, the control flow, styling and handling CSS variables, supporting CSS Modules and MDX for documentation, and way more about the SolidJS ecosystem itself.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- SolidJS: https://www.solidjs.com/\n- SolidJS Starter Kit in Backlight: https://backlight.dev/doc/Wl0L6jPiDG6dsFnKufaV/?utm_campaign=sessions%3Acds\n- SolidJS Open Source Design System Starter Kit: https://github.com/divriots/starter-solidjs?utm_campaign=sessions%3Acds\n\n- Solid-marked, a MDX/Markdown compiler for SolidJS: https://github.com/LXSMNSYC/solid-marked\n- Using mdx in SolidJS: https://github.com/high1/solid-jsx\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 Ryan Carniato: https://twitter.com/RyanCarniato | https://dev.to/ryansolid\n- 🐥 Georges Gomes: https://twitter.com/georges_gomes\n- 🐥 m4dz: https://twitter.com/m4d_z"
+  }
+}

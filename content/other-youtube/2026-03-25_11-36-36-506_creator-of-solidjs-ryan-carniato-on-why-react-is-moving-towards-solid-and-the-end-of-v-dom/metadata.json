@@ -1,0 +1,109 @@
+{
+  "step1": {
+    "title": "Creator of SolidJS Ryan Carniato on Why React is Moving Towards Solid and the End of V-DOM",
+    "duration": "32:25",
+    "author": "JavaScript Conferences by GitNation",
+    "url": "https://www.youtube.com/watch?v=bJyREHmgo5E",
+    "publishDate": "2026-02-11",
+    "thumbnail": "https://i.ytimg.com/vi/bJyREHmgo5E/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCQM428Hwrvxla8DCgjGONSQ",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 84,
+        "title": "Intro"
+      },
+      {
+        "startTime": 84,
+        "endTime": 128,
+        "title": "Why My Team Hated JavaScript in 2009"
+      },
+      {
+        "startTime": 128,
+        "endTime": 150,
+        "title": "How I Discovered \"Signals\" 15 Years Ago"
+      },
+      {
+        "startTime": 150,
+        "endTime": 191,
+        "title": "The Paradox: Building Solid, Coding in React"
+      },
+      {
+        "startTime": 191,
+        "endTime": 256,
+        "title": "Did React Hooks Follow SolidJS?"
+      },
+      {
+        "startTime": 256,
+        "endTime": 351,
+        "title": "Why Front-end \"Camps\" Hated Solid Initially"
+      },
+      {
+        "startTime": 351,
+        "endTime": 427,
+        "title": "How a \"Nobody Guy\" Built a Global Community"
+      },
+      {
+        "startTime": 427,
+        "endTime": 486,
+        "title": "I Studied 90 Frameworks to Build One"
+      },
+      {
+        "startTime": 486,
+        "endTime": 579,
+        "title": "The Inversion: Why Solid is About \"Reads\", not \"Writes\""
+      },
+      {
+        "startTime": 579,
+        "endTime": 672,
+        "title": "Signals vs. Spreadsheets: Dealing with the Chaos"
+      },
+      {
+        "startTime": 672,
+        "endTime": 823,
+        "title": "The Truth: Why Signals Won't Make React Faster"
+      },
+      {
+        "startTime": 823,
+        "endTime": 934,
+        "title": "Why Solid Components Only Render Once"
+      },
+      {
+        "startTime": 934,
+        "endTime": 1130,
+        "title": "Future Tooling: Visualizing the Reactive Graph"
+      },
+      {
+        "startTime": 1130,
+        "endTime": 1206,
+        "title": "The TypeScript & JavaScript Mismatch"
+      },
+      {
+        "startTime": 1206,
+        "endTime": 1305,
+        "title": "React Compiler: Abstraction vs. Mechanical Truth"
+      },
+      {
+        "startTime": 1305,
+        "endTime": 1438,
+        "title": "Thoughts on Ripple and \"JavaScript Fatigue\""
+      },
+      {
+        "startTime": 1438,
+        "endTime": 1527,
+        "title": "Does Personal Brand Matter More Than Skill?"
+      },
+      {
+        "startTime": 1527,
+        "endTime": 1683,
+        "title": "Engineering Pragmatism: \"If it's not fast, it's not worth it\""
+      },
+      {
+        "startTime": 1683,
+        "endTime": 1945,
+        "title": "The \"Patronage\" Model: Sentry and Open Source Funding"
+      }
+    ],
+    "description": "What happens when you benchmark 90+ frameworks?  Why is the Virtual DOM officially losing the war to Signals? Why was SolidJS doing \"React Hooks\" before React even announced them?\n\nIn this Podcast with Ryan Carniato:\n🟡 Discover how to eliminate the \"butterfly effect\" and state chaos in large-scale applications\n🟡 Get the mechanical proof of why components should only run once for peak DOM performance\n🟡 Learn the mental shift from \"writes\" to \"reads\" that makes SolidJS inherently faster than React\n🟡 See how Ryan applies fine-grained reactivity to solve real-world bottlenecks in massive production apps\n🟡 Explore the roadmap for the next evolution of frameworks and what comes after the current reactivity hype\n\nLearn more about Ryan: https://dev.to/ryansolid\nLearn more about SolidJS: https://www.solidjs.com/\n\nTimestamps:\n00:00 - Intro\n01:24 - Why My Team Hated JavaScript in 2009\n02:08 - How I Discovered \"Signals\" 15 Years Ago\n02:30 - The Paradox: Building Solid, Coding in React\n03:11 - Did React Hooks Follow SolidJS?\n04:16 - Why Front-end \"Camps\" Hated Solid Initially\n05:51 - How a \"Nobody Guy\" Built a Global Community\n07:07 - I Studied 90 Frameworks to Build One\n08:06 - The Inversion: Why Solid is About \"Reads\", not \"Writes\"\n09:39 - Signals vs. Spreadsheets: Dealing with the Chaos\n11:12 - The Truth: Why Signals Won't Make React Faster\n13:43 - Why Solid Components Only Render Once\n15:34 - Future Tooling: Visualizing the Reactive Graph\n18:50 - The TypeScript & JavaScript Mismatch\n20:06 - React Compiler: Abstraction vs. Mechanical Truth\n21:45 - Thoughts on Ripple and \"JavaScript Fatigue\"\n23:58 - Does Personal Brand Matter More Than Skill?\n25:27 - Engineering Pragmatism: \"If it's not fast, it's not worth it\"\n28:03 - The \"Patronage\" Model: Sentry and Open Source Funding\n\n🎥 The podcast was recorded at JSNation 2025 US Edition, the biggest JavaScript conference worldwide. Watch the talk recordings: \n🔗 https://gitnation.com/events/jsnation-us-2025/?utm_source=youtube&utm_medium=RyanCarniato\n\n📌 We’ve hidden a secret code for 20% off your next event. Join us for JSNation 2026 in Amsterdam: \n🔗https://jsnation.com/?utm_source=youtube&utm_medium=RyanCarniato\n\n📌 Join our upcoming conferences:\n💫 AI Coding Summit, Feb 26 & 27, 2026 (Online)\nhttps://aicodingsummit.com/?utm_source=youtube&utm_medium=RyanCarniato\n\n💫 Node Congress, March 26 & 27, 2026 (Online)\nhttps://nodecongress.com/?utm_source=youtube&utm_medium=RyanCarniato\n\n💫 TechLeadConf, June 11, 2026 (Amsterdam)\nhttps://techleadconf.com/?utm_source=youtube&utm_medium=RyanCarniato\n\nand more!\n\n🚀 Check out all the upcoming events from GitNation: \n🔗 https://gitnation.com/events?utm_source=youtube&utm_medium=RyanCarniato\n\nDon't forget to use INSIDER20 promo code for 20% off on tickets.\n\n#GitNation #JSNation #NodeJS #GitNationHeroes #TechPodcast #GitNationInterviews #JSNation2025"
+  }
+}
