@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "This Month in JavaScript",
+      "slug": "2022-11-23-this-month-in-javascript",
+      "duration": "3:54:35",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=ijKULkvSaAU",
+      "publishDate": "2022-11-23",
+      "thumbnail": "https://i.ytimg.com/vi/ijKULkvSaAU/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "It's been a month since I streamed so thought I'd do an impromptu one to talk about news, updates, conferences, and whatever else we feel like talking about."
+    }
+  }
+}

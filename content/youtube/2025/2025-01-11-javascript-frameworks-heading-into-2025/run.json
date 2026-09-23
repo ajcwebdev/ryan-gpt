@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "JavaScript Frameworks - Heading into 2025",
+      "slug": "2025-01-11-javascript-frameworks-heading-into-2025",
+      "duration": "5:25:34",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=D1XN8j77Ntk",
+      "publishDate": "2025-01-11",
+      "thumbnail": "https://i.ytimg.com/vi/D1XN8j77Ntk/sddefault.jpg?v=67806e8f",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 495,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 495,
+          "endTime": 1185,
+          "title": "Ryan Is (Kinda) Sick of React"
+        },
+        {
+          "startTime": 1185,
+          "endTime": 1530,
+          "title": "Framework Popularity & Pace of Development Over Time"
+        },
+        {
+          "startTime": 1530,
+          "endTime": 1860,
+          "title": "Tools Are Complicated, But So Are The Problems"
+        },
+        {
+          "startTime": 1860,
+          "endTime": 2325,
+          "title": "The Tension Between The Two Extremes"
+        },
+        {
+          "startTime": 2325,
+          "endTime": 2910,
+          "title": "Meeting in the Middle"
+        },
+        {
+          "startTime": 2910,
+          "endTime": 3360,
+          "title": "The Role of E-Commerce"
+        },
+        {
+          "startTime": 3360,
+          "endTime": 4050,
+          "title": "The Future of Remix & TanStack Start"
+        },
+        {
+          "startTime": 4050,
+          "endTime": 5055,
+          "title": "RSC's, Qwik, and The Double Data Problem (The Gap Is Still There)"
+        },
+        {
+          "startTime": 5055,
+          "endTime": 5820,
+          "title": "Implementation Matters (Why No New Frameworks Look Like React)"
+        },
+        {
+          "startTime": 5820,
+          "endTime": 6165,
+          "title": "Marketing (PPR vs. Server Islands)"
+        },
+        {
+          "startTime": 6165,
+          "endTime": 6510,
+          "title": "Necessary Complexity & The Viability of No-Build Solutions"
+        },
+        {
+          "startTime": 6510,
+          "endTime": 7170,
+          "title": "The Benefits of Compiling JavaScript"
+        },
+        {
+          "startTime": 7170,
+          "endTime": 7575,
+          "title": "It's Just JavaScript!"
+        },
+        {
+          "startTime": 7575,
+          "endTime": 8235,
+          "title": "React vs. Signals"
+        },
+        {
+          "startTime": 8235,
+          "endTime": 8940,
+          "title": "AI, React, and Devin's Bloated CSR App"
+        },
+        {
+          "startTime": 8940,
+          "endTime": 9375,
+          "title": "Dev Tooling"
+        },
+        {
+          "startTime": 9375,
+          "endTime": 10080,
+          "title": "Looking Forward: Server Second, SPA Mode & Local-First"
+        },
+        {
+          "startTime": 10080,
+          "endTime": 10845,
+          "title": "The State of JS 2024"
+        },
+        {
+          "startTime": 10845,
+          "endTime": 11310,
+          "title": "Signals: The Gartner Hype Cycle & Appreciating React"
+        },
+        {
+          "startTime": 11310,
+          "endTime": 11625,
+          "title": "Signals: Performance, Composability, & alien-signals"
+        },
+        {
+          "startTime": 11625,
+          "endTime": 12345,
+          "title": "Signals: The TC-39 Spec, HTMX, jQuery, and Standards"
+        },
+        {
+          "startTime": 12345,
+          "endTime": 12645,
+          "title": "Conclusion: \"Simple\" Solutions & Innovation"
+        },
+        {
+          "startTime": 12645,
+          "endTime": 13680,
+          "title": "Conclusion: Theo Raid & Local-First"
+        },
+        {
+          "startTime": 13680,
+          "endTime": 14100,
+          "title": "Q&A: Solid Learning Resources? Why Make Solid?"
+        },
+        {
+          "startTime": 14100,
+          "endTime": 14730,
+          "title": "Q&A: Stream Resolution? How Signals Work? Split Effects?"
+        },
+        {
+          "startTime": 14730,
+          "endTime": 15390,
+          "title": "Q&A: Async-First Reactivity? Pull-Based Graph? Fallbacks?"
+        },
+        {
+          "startTime": 15390,
+          "endTime": 16365,
+          "title": "Q&A: Colored Functions? Effects? Derivation? Exceptions?"
+        },
+        {
+          "startTime": 16365,
+          "endTime": 17085,
+          "title": "Q&A: Preact Signals Performance Boost?"
+        },
+        {
+          "startTime": 17085,
+          "endTime": 17700,
+          "title": "This Week in JavaScript: Solid News (Solid 2.0, etc.)"
+        },
+        {
+          "startTime": 17700,
+          "endTime": 17970,
+          "title": "TWiJ: Ariakit Solid"
+        },
+        {
+          "startTime": 17970,
+          "endTime": 18630,
+          "title": "TWiJ: Signals & TypeScript"
+        },
+        {
+          "startTime": 18630,
+          "endTime": 18915,
+          "title": "TWiJ: React's ViewTransition Component & Context"
+        },
+        {
+          "startTime": 18915,
+          "endTime": 19534,
+          "title": "TWiJ: \"Backend Concepts\" & Google Translate"
+        }
+      ],
+      "description": "It's my first stream of the new year. Let's talk about JavaScript frameworks. Where things have been and where they are going.\n\n[0:00] Preamble\n[8:15] Ryan Is (Kinda) Sick of React\n[19:45] Framework Popularity & Pace of Development Over Time\n[25:30] Tools Are Complicated, But So Are The Problems\n[31:00] The Tension Between The Two Extremes\n[38:45] Meeting in the Middle\n[48:30] The Role of E-Commerce\n[56:00] The Future of Remix & TanStack Start\n[1:07:30] RSC's, Qwik, and The Double Data Problem (The Gap Is Still There)\n[1:24:15] Implementation Matters (Why No New Frameworks Look Like React)\n[1:37:00] Marketing (PPR vs. Server Islands)\n[1:42:45] Necessary Complexity & The Viability of No-Build Solutions\n[1:48:30] The Benefits of Compiling JavaScript\n[1:59:30] \"It's Just JavaScript!\"\n[2:06:15] React vs. Signals\n[2:17:15] AI, React, and Devin's Bloated CSR App\n[2:29:00] Dev Tooling\n[2:36:15] Looking Forward: Server Second, SPA Mode & Local-First\n[2:48:00] The State of JS 2024\n[3:00:45] Signals: The Gartner Hype Cycle & Appreciating React\n[3:08:30] Signals: Performance, Composability, & alien-signals\n[3:13:45] Signals: The TC-39 Spec, HTMX, jQuery, and Standards\n[3:25:45] Conclusion: \"Simple\" Solutions & Innovation\n[3:30:45] Conclusion: Theo Raid & Local-First\n[3:48:00] Q&A: Solid Learning Resources? Why Make Solid?\n[3:55:00] Q&A: Stream Resolution? How Signals Work? Split Effects?\n[4:05:30] Q&A: Async-First Reactivity? Pull-Based Graph? Fallbacks?\n[4:16:30] Q&A: Colored Functions? Effects? Derivation? Exceptions?\n[4:32:45] Q&A: Preact Signals Performance Boost?\n[4:44:45] This Week in JavaScript: Solid News (Solid 2.0, etc.)\n[4:55:00] TWiJ: Ariakit Solid\n[4:59:30] TWiJ: Signals & TypeScript\n[5:10:30] TWiJ: React's ViewTransition Component & Context\n[5:15:15] TWiJ: \"Backend Concepts\" & Google Translate\n\nThanks @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

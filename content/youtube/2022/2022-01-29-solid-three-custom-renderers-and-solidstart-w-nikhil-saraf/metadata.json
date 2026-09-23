@@ -1,0 +1,136 @@
+{
+  "title": "Solid Three, Custom Renderers, and SolidStart w/  Nikhil Saraf",
+  "duration": "4:29:13",
+  "channel": "Ryan Carniato",
+  "description": "Tonight I'm excited to be joined by the creator of a few really cool projects in the Solid ecosystem and one of main contributors to upcoming SolidStart Metaframework.\r\n\r\nWe are going to talk shop about his work with custom renderers for Solid and maybe even dip into what's coming up in the future.\n\n[0:00] Introduction\n[0:48] This Week in JavaScript\n[16:17] Introduce Nikhil\n[20:51] Why Custom Renderers?\n[29:00] 3D Chess Demo\n[37:45] Looking at 3D Chess code\n[1:10:03] Solid Three custom renderer\n[1:20:16] Creating Animations\n[1:32:46] Solid Ink\n[1:43:01] Solid Markdown\n[1:55:22] Isomorphic Fetching with SolidStart\n[2:45:40] Talking Community\n[2:50:54] The React Killer?\n[2:58:23] The React Mental Model\n[3:02:56] Comparing Frameworks on Philosophy\n[3:21:18] Performance budget\n[3:24:16] Impact vs Innovation\n[3:42:05] Aggressive Co-location\n[3:45:45] CoffeeScript\n[3:49:05] React's Future\n[3:51:36] Prior Art\n[4:05:36] Thoughts on Vue\n[4:15:48] Metagaming\n[4:24:16] Outro",
+  "url": "https://www.youtube.com/watch?v=lsWXyyEsw7E",
+  "publishDate": "2022-01-29",
+  "thumbnail": "https://i.ytimg.com/vi/lsWXyyEsw7E/hqdefault.jpg",
+  "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 48,
+      "title": "Introduction"
+    },
+    {
+      "startTime": 48,
+      "endTime": 977,
+      "title": "This Week in JavaScript"
+    },
+    {
+      "startTime": 977,
+      "endTime": 1251,
+      "title": "Introduce Nikhil"
+    },
+    {
+      "startTime": 1251,
+      "endTime": 1740,
+      "title": "Why Custom Renderers?"
+    },
+    {
+      "startTime": 1740,
+      "endTime": 2265,
+      "title": "3D Chess Demo"
+    },
+    {
+      "startTime": 2265,
+      "endTime": 4203,
+      "title": "Looking at 3D Chess code"
+    },
+    {
+      "startTime": 4203,
+      "endTime": 4816,
+      "title": "Solid Three custom renderer"
+    },
+    {
+      "startTime": 4816,
+      "endTime": 5566,
+      "title": "Creating Animations"
+    },
+    {
+      "startTime": 5566,
+      "endTime": 6181,
+      "title": "Solid Ink"
+    },
+    {
+      "startTime": 6181,
+      "endTime": 6922,
+      "title": "Solid Markdown"
+    },
+    {
+      "startTime": 6922,
+      "endTime": 9940,
+      "title": "Isomorphic Fetching with SolidStart"
+    },
+    {
+      "startTime": 9940,
+      "endTime": 10254,
+      "title": "Talking Community"
+    },
+    {
+      "startTime": 10254,
+      "endTime": 10703,
+      "title": "The React Killer?"
+    },
+    {
+      "startTime": 10703,
+      "endTime": 10976,
+      "title": "The React Mental Model"
+    },
+    {
+      "startTime": 10976,
+      "endTime": 12078,
+      "title": "Comparing Frameworks on Philosophy"
+    },
+    {
+      "startTime": 12078,
+      "endTime": 12256,
+      "title": "Performance budget"
+    },
+    {
+      "startTime": 12256,
+      "endTime": 13325,
+      "title": "Impact vs Innovation"
+    },
+    {
+      "startTime": 13325,
+      "endTime": 13545,
+      "title": "Aggressive Co-location"
+    },
+    {
+      "startTime": 13545,
+      "endTime": 13745,
+      "title": "CoffeeScript"
+    },
+    {
+      "startTime": 13745,
+      "endTime": 13896,
+      "title": "React's Future"
+    },
+    {
+      "startTime": 13896,
+      "endTime": 14736,
+      "title": "Prior Art"
+    },
+    {
+      "startTime": 14736,
+      "endTime": 15348,
+      "title": "Thoughts on Vue"
+    },
+    {
+      "startTime": 15348,
+      "endTime": 15856,
+      "title": "Metagaming"
+    },
+    {
+      "startTime": 15856,
+      "endTime": 16153,
+      "title": "Outro"
+    }
+  ],
+  "slug": "2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf",
+  "audioFileName": "2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf.m4a",
+  "audioFileSize": 202304921,
+  "durationSeconds": 16153
+}

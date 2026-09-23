@@ -1,7 +1,7 @@
 // cli/query-embeddings.ts
 
 import { env } from 'node:process'
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { join, isAbsolute, resolve } from 'node:path'
 
 /**
@@ -135,6 +135,7 @@ export async function queryEmbeddings(question: string, customDir?: string): Pro
   const similarities: Array<{ filename: string, similarity: number }> = []
 
   for (const [filename, embedding] of Object.entries(storedEmbeddings)) {
+    if (!existsSync(join(baseDir, filename))) continue
     const sim = cosineSimilarity(queryEmbedding, embedding)
     similarities.push({ filename, similarity: sim })
   }
@@ -203,6 +204,7 @@ export async function queryEmbeddingsRuntime(question: string, userApiKey: strin
   const similarities: Array<{ filename: string, similarity: number }> = []
 
   for (const [filename, embedding] of Object.entries(storedEmbeddings)) {
+    if (!existsSync(join(baseDir, filename))) continue
     const sim = cosineSimilarity(queryEmbedding, embedding)
     similarities.push({ filename, similarity: sim })
   }

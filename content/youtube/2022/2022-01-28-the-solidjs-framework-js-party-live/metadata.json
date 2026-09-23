@@ -1,0 +1,39 @@
+{
+  "step1": {
+    "title": "The SolidJS Framework (JS Party Live!)",
+    "duration": "1:11:25",
+    "author": "Changelog",
+    "url": "https://www.youtube.com/watch?v=q0R9o9izai8",
+    "publishDate": "2022-01-28",
+    "thumbnail": "https://i.ytimg.com/vi/q0R9o9izai8/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCZbtcRQHGpU_tt2yM4C7k0A",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 381,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 381,
+        "endTime": 1778,
+        "title": "Ryan Carniato"
+      },
+      {
+        "startTime": 1778,
+        "endTime": 2964,
+        "title": "Composable Primitives"
+      },
+      {
+        "startTime": 2964,
+        "endTime": 3514,
+        "title": "Contributors"
+      },
+      {
+        "startTime": 3514,
+        "endTime": 4285,
+        "title": "Adoption"
+      }
+    ],
+    "description": "SolidJS creator Ryan Carniato joins Jerod, Amelia, and Nick to discuss this very interesting framework for building performant frontend web applications.\n\nChat in the #jsparty channel 👉  https://jsparty.fm/community"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Sync to Async",
+      "slug": "2026-02-07-sync-to-async",
+      "duration": "6:18:49",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=drLX0yTKP04",
+      "publishDate": "2026-02-07",
+      "thumbnail": "https://i.ytimg.com/vi/drLX0yTKP04/sddefault.jpg?v=698525b8",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 546,
+          "title": "Introduction and Stream Setup"
+        },
+        {
+          "startTime": 546,
+          "endTime": 1454,
+          "title": "Framing the Three Generations of Async in Frameworks"
+        },
+        {
+          "startTime": 1454,
+          "endTime": 2622,
+          "title": "Building a Sync-to-Async React Example from Scratch"
+        },
+        {
+          "startTime": 2622,
+          "endTime": 3907,
+          "title": "Fixing Race Conditions, Cancellation, and Loading States"
+        },
+        {
+          "startTime": 3907,
+          "endTime": 5004,
+          "title": "Comparing the Async-First Model in Solid 2.0"
+        },
+        {
+          "startTime": 5004,
+          "endTime": 6003,
+          "title": "Async Divide Recap and the Cascading Select Demo"
+        },
+        {
+          "startTime": 6003,
+          "endTime": 7036,
+          "title": "Pending State, Composability, and the Sierpinski Triangle Demo"
+        },
+        {
+          "startTime": 7036,
+          "endTime": 8228,
+          "title": "Nested Fetching, Parallel Data Loading, and Client-Side Waterfalls"
+        },
+        {
+          "startTime": 8228,
+          "endTime": 9445,
+          "title": "Suspense Philosophy, Loading Boundaries, and Framework Design Influences"
+        },
+        {
+          "startTime": 9445,
+          "endTime": 10650,
+          "title": "Optimistic UI vs Optimistic Data in the Todo App"
+        },
+        {
+          "startTime": 10650,
+          "endTime": 11891,
+          "title": "Generators, Actions, and the Start Transition Problem"
+        },
+        {
+          "startTime": 11891,
+          "endTime": 13183,
+          "title": "Optimistic Data: Sync-to-Async Without Changing UI Code"
+        },
+        {
+          "startTime": 13183,
+          "endTime": 14138,
+          "title": "Race Conditions, Entanglement, and Edge Cases"
+        },
+        {
+          "startTime": 14138,
+          "endTime": 15787,
+          "title": "AI as a Development Tool: Ryan's Personal Experience"
+        },
+        {
+          "startTime": 15787,
+          "endTime": 17650,
+          "title": "AI for Framework Development: Cursor, Opus, and Workflow"
+        },
+        {
+          "startTime": 17650,
+          "endTime": 18433,
+          "title": "State of JS Survey, jQuery at 20, and the Astro-Cloudflare Acquisition"
+        },
+        {
+          "startTime": 18433,
+          "endTime": 19982,
+          "title": "State of JS Charts: Usage, Interest, Satisfaction, and the S-Tier Miss"
+        },
+        {
+          "startTime": 19982,
+          "endTime": 21964,
+          "title": "Do Signals Scale? Responding to the React-vs-Signals Debate"
+        },
+        {
+          "startTime": 21964,
+          "endTime": 22729,
+          "title": "Engineering Quality, Foot Guns, and Closing Thoughts"
+        }
+      ],
+      "description": "As I get closer to landing on my idealized Async Signals solution, I wanted to run through the exercise of taking synchronous demos and making them Async in various models to get a feel.\n\n00:00:00 - Introduction and Stream Setup\n00:09:06 - Framing the Three Generations of Async in Frameworks\n00:24:14 - Building a Sync-to-Async React Example from Scratch\n00:43:42 - Fixing Race Conditions, Cancellation, and Loading States\n01:05:07 - Comparing the Async-First Model in Solid 2.0\n01:23:24 - Async Divide Recap and the Cascading Select Demo\n01:40:03 - Pending State, Composability, and the Sierpinski Triangle Demo\n01:57:16 - Nested Fetching, Parallel Data Loading, and Client-Side Waterfalls\n02:17:08 - Suspense Philosophy, Loading Boundaries, and Framework Design Influences\n02:37:25 - Optimistic UI vs Optimistic Data in the Todo App\n02:57:30 - Generators, Actions, and the Start Transition Problem\n03:18:11 - Optimistic Data: Sync-to-Async Without Changing UI Code\n03:39:43 - Race Conditions, Entanglement, and Edge Cases\n03:55:38 - AI as a Development Tool: Ryan's Personal Experience\n04:23:07 - AI for Framework Development: Cursor, Opus, and Workflow\n04:54:10 - State of JS Survey, jQuery at 20, and the Astro-Cloudflare Acquisition\n05:07:13 - State of JS Charts: Usage, Interest, Satisfaction, and the S-Tier Miss\n05:33:02 - Do Signals Scale? Responding to the React-vs-Signals Debate\n06:06:04 - Engineering Quality, Foot Guns, and Closing Thoughts\n\nThanks to @ajcwebdev for the timestamps."
+    }
+  }
+}

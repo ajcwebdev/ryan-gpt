@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Bringing the Bling w/ Tanner Linsley",
+      "slug": "2023-04-15-bringing-the-bling-w-tanner-linsley",
+      "duration": "4:35:20",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=nY7k3ql5mss",
+      "publishDate": "2023-04-15",
+      "thumbnail": "https://i.ytimg.com/vi/nY7k3ql5mss/sddefault.jpg?v=64382ae2",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 285,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 285,
+          "endTime": 660,
+          "title": "Welcome Tanner Linsley / His Early Years"
+        },
+        {
+          "startTime": 660,
+          "endTime": 1200,
+          "title": "Tanner Finds React"
+        },
+        {
+          "startTime": 1200,
+          "endTime": 1755,
+          "title": "React Table & Class Components"
+        },
+        {
+          "startTime": 1755,
+          "endTime": 2490,
+          "title": "React Query, Redux, and SWR"
+        },
+        {
+          "startTime": 2490,
+          "endTime": 2940,
+          "title": "React Static & Performance"
+        },
+        {
+          "startTime": 2940,
+          "endTime": 3300,
+          "title": "tRPC, GraphQL, Apollo, and Popularity"
+        },
+        {
+          "startTime": 3300,
+          "endTime": 3810,
+          "title": "Cache Invalidation and Mutation Patterns"
+        },
+        {
+          "startTime": 3810,
+          "endTime": 4590,
+          "title": "Apps vs. Sites"
+        },
+        {
+          "startTime": 4590,
+          "endTime": 5535,
+          "title": "Why Build a Router?"
+        },
+        {
+          "startTime": 5535,
+          "endTime": 5940,
+          "title": "Client vs Server / Spectrum of Perception"
+        },
+        {
+          "startTime": 5940,
+          "endTime": 6600,
+          "title": "Bling"
+        },
+        {
+          "startTime": 6600,
+          "endTime": 7260,
+          "title": "What is a Meta-Framework?"
+        },
+        {
+          "startTime": 7260,
+          "endTime": 8175,
+          "title": "Finding the Power of Bling"
+        },
+        {
+          "startTime": 8175,
+          "endTime": 8925,
+          "title": "Commoditization of Innovation"
+        },
+        {
+          "startTime": 8925,
+          "endTime": 10020,
+          "title": "Astro and the Future of SolidStart"
+        },
+        {
+          "startTime": 10020,
+          "endTime": 10500,
+          "title": "Client-Side Routing in Astro"
+        },
+        {
+          "startTime": 10500,
+          "endTime": 11400,
+          "title": "Routing Server Components"
+        },
+        {
+          "startTime": 11400,
+          "endTime": 12300,
+          "title": "Q & A with Tanner"
+        },
+        {
+          "startTime": 12300,
+          "endTime": 12735,
+          "title": "Intermission"
+        },
+        {
+          "startTime": 12735,
+          "endTime": 13095,
+          "title": "This Week in JavaScript - Solid News and BTN"
+        },
+        {
+          "startTime": 13095,
+          "endTime": 13665,
+          "title": "TWiJ - AsyncLocalStorage/AsyncContext"
+        },
+        {
+          "startTime": 13665,
+          "endTime": 13905,
+          "title": "TWiJ - \"React was a mistake\""
+        },
+        {
+          "startTime": 13905,
+          "endTime": 14445,
+          "title": "TWiJ - Vercel Billing Drama"
+        },
+        {
+          "startTime": 14445,
+          "endTime": 14970,
+          "title": "TWiJ - \"Rewrite everything in Rust they said\""
+        },
+        {
+          "startTime": 14970,
+          "endTime": 15225,
+          "title": "TWiJ - Streaming on Lambda"
+        },
+        {
+          "startTime": 15225,
+          "endTime": 15450,
+          "title": "TWiJ - Dan Jutan's Article and Tanner's Podcast"
+        },
+        {
+          "startTime": 15450,
+          "endTime": 15795,
+          "title": "TWiJ - Dan Abramov's Qwik Tweet"
+        },
+        {
+          "startTime": 15795,
+          "endTime": 16110,
+          "title": "TWiJ - Ben Holmes, Astro, and Server Components"
+        },
+        {
+          "startTime": 16110,
+          "endTime": 16260,
+          "title": "TWiJ - Reactathon"
+        },
+        {
+          "startTime": 16260,
+          "endTime": 16519,
+          "title": "Outro"
+        }
+      ],
+      "description": "Tanner Linsley is the creator of a multitude of open source libraries for the React ecosystem. The past couple years he's brought those tools to every JavaScript framework. So I figured it'd be a good time to bring him on and talk about what he's been doing and where he sees the future of the web heading.\n\n[0:00] Preamble\n[4:45] Welcome Tanner Linsley / His Early Years\n[11:00] Tanner Finds React\n[20:00] React Table & Class Components\n[29:15] React Query, Redux, and SWR\n[41:30] React Static & Performance\n[49:00] tRPC, GraphQL, Apollo, and Popularity\n[55:00] Cache Invalidation and Mutation Patterns\n[1:03:30] Apps vs. Sites\n[1:16:30] Why Build a Router?\n[1:32:15] Client vs Server / Spectrum of Perception\n[1:39:00] Bling\n[1:50:00] What is a Meta-Framework?\n[2:01:00] Finding the Power of Bling\n[2:16:15] Commoditization of Innovation \n[2:28:45] Astro and the Future of SolidStart\n[2:47:00] Client-Side Routing in Astro\n[2:55:00] Routing Server Components\n[3:10:00] Q & A with Tanner\n[3:25:00] Intermission\n[3:32:15] This Week in JavaScript - Solid News and BTN\n[3:38:15] TWiJ - AsyncLocalStorage/AsyncContext\n[3:47:45] TWiJ - \"React was a mistake\"\n[3:51:45] TWiJ - Vercel Billing Drama \n[4:00:45] TWiJ - \"Rewrite everything in Rust they said\" \n[4:09:30] TWiJ - Streaming on Lambda \n[4:13:45] TWiJ - Dan Jutan's Article and Tanner's Podcast\n[4:17:30] TWiJ - Dan Abramov's Qwik Tweet\n[4:23:15] TWiJ - Ben Holmes, Astro, and Server Components\n[4:28:30] TWiJ - Reactathon\n[4:31:00] Outro\n\nThanks to @zombiefacesupreme for the timestamps.\n\nAnd @daviddibiase4391 for the amazing cover."
+    }
+  }
+}

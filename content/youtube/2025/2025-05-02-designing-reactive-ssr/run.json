@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Designing Reactive SSR",
+      "slug": "2025-05-02-designing-reactive-ssr",
+      "duration": "4:23:15",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=efx9ok0xHGs",
+      "publishDate": "2025-05-02",
+      "thumbnail": "https://i.ytimg.com/vi/efx9ok0xHGs/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "Now that I have a Solid foundation for client-side reactivity, I've been revisiting SSR for the past few weeks. In this stream, we will discuss designing SSR to work with Async and what a reactive approach to SSR + Hydration might look like.\n\n🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/4630380163629056"
+    }
+  }
+}

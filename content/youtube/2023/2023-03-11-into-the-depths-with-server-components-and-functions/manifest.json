@@ -1,0 +1,245 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T10:26:38.703Z",
+  "updatedAt": "2026-09-23T10:40:08.080Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "QS9yAsv1czg",
+          "duration": "5:17:02",
+          "channel": "Local",
+          "description": "",
+          "url": "file:///workspace/output/ryan-solo-host-audio/QS9yAsv1czg.m4a",
+          "slug": "QS9yAsv1czg",
+          "audioFileName": "qs9yasv1czg.mp3",
+          "audioFileSize": 228274408,
+          "durationSeconds": 19022
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "deepinfra",
+              "model": "openai/whisper-large-v3-turbo"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 6.3406666666666665,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 6.3406666666666665,
+                "costMultiplier": 1,
+                "durationSeconds": 19022
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 6.3406666666666665,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 6.3406666666666665,
+                "costMultiplier": 1,
+                "durationSeconds": 19022
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 6.3406666666666665,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 6.3406666666666665,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 19022
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3176674,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 3176674,
+                "inputMetric": "durationSeconds",
+                "inputValue": 19022,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 167,
+                "throughputValue": 5.988,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 3176674
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 758730,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 758730,
+                "timingBreakdown": {
+                  "transcribeMs": 758568,
+                  "remoteProcessingMs": 162
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 19022,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 39.887,
+                "throughputValue": 25.071,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "deepinfra",
+          "model": "openai/whisper-large-v3-turbo",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {},
+          "metadata": {
+            "transcriptionService": "deepinfra",
+            "transcriptionModel": "openai/whisper-large-v3-turbo",
+            "processingTime": 758730,
+            "tokenCount": 40842,
+            "timings": {
+              "transcribeMs": 758568,
+              "remoteProcessingMs": 162,
+              "requestCount": 11
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "deepinfra",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "deepinfra:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 7,
+                  "active": 0,
+                  "activePeak": 7,
+                  "queuedWork": 0,
+                  "queuedPeak": 6,
+                  "admitted": 12,
+                  "completed": 11,
+                  "failed": 1,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790159869572,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790159874582,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790159879584,
+                      "previousLimit": 3,
+                      "nextLimit": 4,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790159884595,
+                      "previousLimit": 4,
+                      "nextLimit": 5,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790159889601,
+                      "previousLimit": 5,
+                      "nextLimit": 6,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790159894614,
+                      "previousLimit": 6,
+                      "nextLimit": 7,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 1,
+                      "queued": 0
+                    },
+                    {
+                      "workClass": "stt-segment",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 7,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "deepinfra.stt.v1",
+            "request": {
+              "model": "openai/whisper-large-v3-turbo"
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

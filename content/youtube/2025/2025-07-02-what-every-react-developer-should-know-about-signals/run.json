@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "What Every React Developer Should Know About Signals",
+      "slug": "2025-07-02-what-every-react-developer-should-know-about-signals",
+      "duration": "10:46",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=VgGl9i-OBBI",
+      "publishDate": "2025-07-02",
+      "thumbnail": "https://i.ytimg.com/vi/VgGl9i-OBBI/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 16,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 16,
+          "endTime": 95,
+          "title": "History of Signals"
+        },
+        {
+          "startTime": 95,
+          "endTime": 157,
+          "title": "Signals are not the same as they were 15 years ago"
+        },
+        {
+          "startTime": 157,
+          "endTime": 216,
+          "title": "React is not the same as it was 10 years ago"
+        },
+        {
+          "startTime": 216,
+          "endTime": 307,
+          "title": "Advantages of Signals"
+        },
+        {
+          "startTime": 307,
+          "endTime": 318,
+          "title": "Myths"
+        },
+        {
+          "startTime": 318,
+          "endTime": 367,
+          "title": "Myth #1: Signals are Magic"
+        },
+        {
+          "startTime": 367,
+          "endTime": 460,
+          "title": "Myth #2: Signals don't Scale"
+        },
+        {
+          "startTime": 460,
+          "endTime": 507,
+          "title": "Myth #3: Signals Make Existing Frameworks Faster"
+        },
+        {
+          "startTime": 507,
+          "endTime": 553,
+          "title": "Myth #4: React Compiler is Equivalent to Signals"
+        },
+        {
+          "startTime": 553,
+          "endTime": 625,
+          "title": "Myth #5: The VDOM is More Capable than Signals"
+        },
+        {
+          "startTime": 625,
+          "endTime": 645,
+          "title": "Outro"
+        }
+      ],
+      "description": "React is by far the most popular JavaScript library to build web UIs. But Signals and React haven't always been on the best terms. As they say \"History is written by the Victors\". Today we set the record straight.\n\n[0:00] Introduction\n[0:16] History of Signals\n[1:35] Signals are not the same as they were 15 years ago\n[2:37] React is not the same as it was 10 years ago\n[3:36] Advantages of Signals\n[5:07] Myths\n[5:18] Myth #1: Signals are Magic\n[6:07] Myth #2: Signals don't Scale\n[7:40] Myth #3: Signals Make Existing Frameworks Faster\n[8:27] Myth #4: React Compiler is Equivalent to Signals\n[9:13] Myth #5: The VDOM is More Capable than Signals\n[10:25] Outro\n\nThanks to all the sources for the graphs in the video most notably:\n\"WTF is Reactivity\" by Damien Chazoule\nhttps://dev.to/dmnchzl/wtf-is-reactivity--4c1h\n\n\"React’s Upcoming Compiler Only Solves Part Of The Problem\" by Misko Hevery\nhttps://www.builder.io/blog/react-compiler-will-not-solve-prop-drilling"
+    }
+  }
+}

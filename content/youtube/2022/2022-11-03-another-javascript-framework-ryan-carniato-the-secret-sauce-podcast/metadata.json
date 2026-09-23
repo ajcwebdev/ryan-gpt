@@ -1,0 +1,84 @@
+{
+  "step1": {
+    "title": "Another JavaScript Framework | Ryan Carniato | The Secret Sauce Podcast",
+    "duration": "41:15",
+    "author": "The Secret Sauce",
+    "url": "https://www.youtube.com/watch?v=Om3QAZitHvw",
+    "publishDate": "2022-11-03",
+    "thumbnail": "https://i.ytimg.com/vi/Om3QAZitHvw/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCklWxKrTti61ZCROE1e5-MQ",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 78,
+        "title": "Intro"
+      },
+      {
+        "startTime": 78,
+        "endTime": 199,
+        "title": "Where Did You Learn How to Code?"
+      },
+      {
+        "startTime": 199,
+        "endTime": 433,
+        "title": "Ryan's Band"
+      },
+      {
+        "startTime": 433,
+        "endTime": 507,
+        "title": "Schooling For CS"
+      },
+      {
+        "startTime": 507,
+        "endTime": 757,
+        "title": "Engineering Ring"
+      },
+      {
+        "startTime": 757,
+        "endTime": 1002,
+        "title": "TRPC"
+      },
+      {
+        "startTime": 1002,
+        "endTime": 1132,
+        "title": "Ryan's 1st PR a Disaster"
+      },
+      {
+        "startTime": 1132,
+        "endTime": 1183,
+        "title": "Knockout"
+      },
+      {
+        "startTime": 1183,
+        "endTime": 1275,
+        "title": "React"
+      },
+      {
+        "startTime": 1275,
+        "endTime": 1685,
+        "title": "SolidJS"
+      },
+      {
+        "startTime": 1685,
+        "endTime": 1946,
+        "title": "Ebay and MarkoJS"
+      },
+      {
+        "startTime": 1946,
+        "endTime": 2056,
+        "title": "Netlify"
+      },
+      {
+        "startTime": 2056,
+        "endTime": 2207,
+        "title": "Do Big Companies Help Open Source?"
+      },
+      {
+        "startTime": 2207,
+        "endTime": 2475,
+        "title": "Making the Web Better"
+      }
+    ],
+    "description": "Ryan Carniato is a frontend performance enthusiast and Fine-Grained Reactivity super fan. Author of the SolidJS UI library and MarkoJS Core Team Member, join us on today's The Secret Sauce as he takes us on a journey from playing in a band to becoming who he is today.\n\nGuest: Ryan Carniato 🐦  https://twitter.com/RyanCarniato\nHost: Bdougie 🐦 https://twitter.com/bdougieYO\nOpenSauced: 🐦  https://twitter.com/saucedopen\n\n#opensource #solidjs #netlify  #podcast \n\n🗺 Ryan's Journey\n\n0:00 - Intro\n01:18 - Where Did You Learn How to Code?\n03:19 - Ryan's Band\n07:13 - Schooling For CS\n08:27 - Engineering Ring\n12:37 - TRPC\n16:42 - Ryan's 1st PR a Disaster\n18:52 - Knockout\n19:43 - React\n21:15 - SolidJS\n28:05 - Ebay and MarkoJS\n32:26 - Netlify\n34:16 - Do Big Companies Help Open Source?\n36:47 - Making the Web Better\n\nSite 🍕 https://opensauced.pizza\nCourse 📓 https://www.leveluptutorials.com/tutorials/code-automation-with-github\nTwitch 🎬  https://twitch.tv/bdougieYO\nGitHub 💻 https://github.com/open-sauced\nCommunity 👾  https://discord.com/invite/U2peSNf23P\nPodcast 🎙 https://thesecretsauce.transistor.fm/"
+  }
+}

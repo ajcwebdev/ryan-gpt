@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "So Long Silicon Valley!",
+      "slug": "2025-05-30-so-long-silicon-valley",
+      "duration": "3:46:46",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=u2MCb7k3hoI",
+      "publishDate": "2025-05-30",
+      "thumbnail": "https://i.ytimg.com/vi/u2MCb7k3hoI/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "It's been 5 years now, but I'm moving to Portland, Oregon. So this will be my last stream from San Jose. We'll catch up on my latest reactivity work, the latest JavaScript news, and whatever else people feel like talking about."
+    }
+  }
+}

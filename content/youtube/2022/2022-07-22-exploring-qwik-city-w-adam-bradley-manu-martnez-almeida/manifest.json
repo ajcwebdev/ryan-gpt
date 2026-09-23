@@ -1,0 +1,304 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:03:40.442Z",
+  "updatedAt": "2026-09-23T08:05:16.404Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida",
+          "duration": "4:25:22",
+          "channel": "Ryan Carniato",
+          "description": "Qwik City is the new meta-framework from Builder.io, built on top of their framework Qwik. Qwik already takes a very unique approach to web applications and with the help of Adam and Manu we are going to understand what building full-stack apps looks like.\n\n[0:00] Introduction\n[4:52] Welcome Adam & Manu\n[11:06] What is Qwik City?\n[29:45] Getting Started with Qwik City\n[1:16:13] Migrating the Hackernews Demo\n[1:52:13] Making Fetch Happen\n[2:28:41] Making Prefetch Happen\n[2:46:08] This Week in JavaScript\n\nBanner credits: ©️ Original concept artwork (https://www.artstation.com/artwork/nqrYo) by Alex Feliksovich based on Ghost in the Shell.",
+          "url": "https://www.youtube.com/watch?v=XoeJisRJjlo",
+          "publishDate": "2022-07-22",
+          "thumbnail": "https://i.ytimg.com/vi/XoeJisRJjlo/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 292,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 292,
+              "endTime": 666,
+              "title": "Welcome Adam & Manu"
+            },
+            {
+              "startTime": 666,
+              "endTime": 1785,
+              "title": "What is Qwik City?"
+            },
+            {
+              "startTime": 1785,
+              "endTime": 4573,
+              "title": "Getting Started with Qwik City"
+            },
+            {
+              "startTime": 4573,
+              "endTime": 6733,
+              "title": "Migrating the Hackernews Demo"
+            },
+            {
+              "startTime": 6733,
+              "endTime": 8921,
+              "title": "Making Fetch Happen"
+            },
+            {
+              "startTime": 8921,
+              "endTime": 9968,
+              "title": "Making Prefetch Happen"
+            },
+            {
+              "startTime": 9968,
+              "endTime": 15922,
+              "title": "This Week in JavaScript"
+            }
+          ],
+          "slug": "2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida",
+          "audioFileName": "2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida.m4a",
+          "audioFileSize": 198959321,
+          "durationSeconds": 15922
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 101.7238888888889,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 101.7238888888889,
+                "costMultiplier": 1,
+                "durationSeconds": 15922
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 101.7238888888889,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 101.7238888888889,
+                "costMultiplier": 1,
+                "durationSeconds": 15922
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 101.7238888888889,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 101.7238888888889,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 15922
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2993336,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2993336,
+                "inputMetric": "durationSeconds",
+                "inputValue": 15922,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2993336
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 95677,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 95677,
+                "timingBreakdown": {
+                  "uploadMs": 4511,
+                  "createMs": 107,
+                  "pollMs": 5926,
+                  "pollSleepMs": 85048,
+                  "remoteProcessingMs": 85133
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 15922,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 6.009,
+                "throughputValue": 166.414,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 95674,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4511,
+                  "createMs": 107,
+                  "createCount": 1,
+                  "pollMs": 5926,
+                  "requestCount": 13
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "ef6fb954-9c45-4a57-8ad2-f23720b46c74",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/a9042a3402339a9d7ba524629c9315461616aa94de36c871f0d39fd27b83ba0b/a9139f77-d732-436c-a243-48567e9f0ce4",
+                  "createCompletedAt": "2026-09-23T08:03:45.064Z",
+                  "lastPollAt": "2026-09-23T08:05:16.119Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 95677,
+            "tokenCount": 42883,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "ef6fb954-9c45-4a57-8ad2-f23720b46c74",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/a9042a3402339a9d7ba524629c9315461616aa94de36c871f0d39fd27b83ba0b/a9139f77-d732-436c-a243-48567e9f0ce4",
+              "createCompletedAt": "2026-09-23T08:03:45.064Z",
+              "lastPollAt": "2026-09-23T08:05:16.119Z",
+              "completedAt": "2026-09-23T08:05:16.121Z"
+            },
+            "timings": {
+              "uploadMs": 4511,
+              "createMs": 107,
+              "createCount": 1,
+              "pollMs": 5926,
+              "pollSleepMs": 85048,
+              "pollCount": 11,
+              "remoteProcessingMs": 85133,
+              "requestCount": 13
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 2,
+                  "completed": 1,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790150652199,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "assemblyai.stt.v1",
+            "request": {
+              "model": "universal-3-5-pro",
+              "diarization": {
+                "enabled": true
+              }
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Astro SSR w/ Fred K. Schott",
+  "duration": "3:02:50",
+  "channel": "Ryan Carniato",
+  "description": "In this return to Astro we will get to building some stuff on the new Astro 1.0 beta with none other than Fred K. Schott. Maybe we can build the idealized Hackernews demo, and give the latest SolidJS integration a spin.\n\nHackernews Repo: https://github.com/ryansolid/astro-solid-hackernews\nHackernew Demo: https://astro-solid-hn.netlify.app/\n\n[0:00] Introduction\n[5:41] This Week in JavaScript\n[13:38] Meta-framework or Platform?\n[20:48] Framework Agnostic Routing?\n[26:05] Changing role of Client Components\n[40:13] Death of Next.js?\n[48:00] Astro Syntax\n[54:08] Starting a new Astro SSR Project\n[1:04:04] Building Hackernews main page\n[1:26:48] Nested Recursive Partial Hydration\n[1:56:34] Deploying to Netlify\n[2:06:07] Performance Comparison\n[2:41:18] Q & A",
+  "url": "https://www.youtube.com/watch?v=2ZEMb_H-LYE",
+  "publishDate": "2022-04-09",
+  "thumbnail": "https://i.ytimg.com/vi/2ZEMb_H-LYE/maxresdefault.jpg",
+  "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 341,
+      "title": "Introduction"
+    },
+    {
+      "startTime": 341,
+      "endTime": 818,
+      "title": "This Week in JavaScript"
+    },
+    {
+      "startTime": 818,
+      "endTime": 1248,
+      "title": "Meta-framework or Platform?"
+    },
+    {
+      "startTime": 1248,
+      "endTime": 1565,
+      "title": "Framework Agnostic Routing?"
+    },
+    {
+      "startTime": 1565,
+      "endTime": 2413,
+      "title": "Changing role of Client Components"
+    },
+    {
+      "startTime": 2413,
+      "endTime": 2880,
+      "title": "Death of Next.js?"
+    },
+    {
+      "startTime": 2880,
+      "endTime": 3248,
+      "title": "Astro Syntax"
+    },
+    {
+      "startTime": 3248,
+      "endTime": 3844,
+      "title": "Starting a new Astro SSR Project"
+    },
+    {
+      "startTime": 3844,
+      "endTime": 5208,
+      "title": "Building Hackernews main page"
+    },
+    {
+      "startTime": 5208,
+      "endTime": 6994,
+      "title": "Nested Recursive Partial Hydration"
+    },
+    {
+      "startTime": 6994,
+      "endTime": 7567,
+      "title": "Deploying to Netlify"
+    },
+    {
+      "startTime": 7567,
+      "endTime": 9678,
+      "title": "Performance Comparison"
+    },
+    {
+      "startTime": 9678,
+      "endTime": 10970,
+      "title": "Q & A"
+    }
+  ],
+  "slug": "2022-04-09-astro-ssr-w-fred-k-schott",
+  "audioFileName": "2022-04-09-astro-ssr-w-fred-k-schott.m4a",
+  "audioFileSize": 137305048,
+  "durationSeconds": 10970
+}

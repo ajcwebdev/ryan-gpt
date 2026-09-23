@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Hydrogen & React Server Components w/ Bret Little",
+      "slug": "2022-05-27-hydrogen-react-server-components-w-bret-little",
+      "duration": "2:36:44",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=bvWCyGsKOXY",
+      "publishDate": "2022-05-27",
+      "thumbnail": "https://i.ytimg.com/vi/bvWCyGsKOXY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 131,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 131,
+          "endTime": 2484,
+          "title": "This Month in JavaScript"
+        },
+        {
+          "startTime": 2484,
+          "endTime": 3385,
+          "title": "Welcome Bret"
+        },
+        {
+          "startTime": 3385,
+          "endTime": 6139,
+          "title": "Introduction to Hydrogen"
+        },
+        {
+          "startTime": 6139,
+          "endTime": 6636,
+          "title": "Hydrogen Hackernews"
+        },
+        {
+          "startTime": 6636,
+          "endTime": 6922,
+          "title": "Streaming SSR"
+        },
+        {
+          "startTime": 6922,
+          "endTime": 8151,
+          "title": "Recursive Client Wrapped Server Components"
+        },
+        {
+          "startTime": 8151,
+          "endTime": 8504,
+          "title": "Performance"
+        },
+        {
+          "startTime": 8504,
+          "endTime": 8835,
+          "title": "RSC Portability"
+        },
+        {
+          "startTime": 8835,
+          "endTime": 9403,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "Bret Little joins me on stream to talk and look at building apps with Shopify's Hydrogen and React Server Components.\n\n[0:00] Introduction\n[2:11] This Month in JavaScript\n[41:24] Welcome Bret\n[56:25] Introduction to Hydrogen\n[1:42:19] Hydrogen Hackernews \n[1:50:36] Streaming SSR\n[1:55:22] Recursive Client Wrapped Server Components\n[2:15:51] Performance\n[2:21:44] RSC Portability\n[2:27:15] Conclusion"
+    }
+  }
+}

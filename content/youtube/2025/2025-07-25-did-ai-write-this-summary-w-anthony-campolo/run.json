@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "kind": "extract",
+  "metadata": {
+    "step1": {
+      "title": "Did AI Write This Summary? w/ Anthony Campolo",
+      "slug": "2025-07-25-did-ai-write-this-summary-w-anthony-campolo",
+      "duration": "4:27:39",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=n0Xo_UU_iDY",
+      "publishDate": "2025-07-25",
+      "thumbnail": "https://i.ytimg.com/vi/n0Xo_UU_iDY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "Today I'm going to step back and talk about a bit about what goes into creating these livestreams and educational content in general. Anthony Campolo joins us again, this time to talk about his work on AI summaries, RyanGPT, a chat bot that contains my expertise, and more.",
+      "audioFileName": "2025-07-25-did-ai-write-this-summary-w-anthony-campolo.m4a",
+      "audioFileSize": 202458706,
+      "durationSeconds": 16059
+    },
+    "step2": {
+      "transcriptionService": "soniox",
+      "transcriptionModel": "stt-async-v4",
+      "processingTime": 1035039,
+      "tokenCount": 44863,
+      "runtime": {
+        "mode": "fresh",
+        "stage": "cleanup-complete",
+        "remoteJobId": "9f384591-4645-4134-8963-ba2d9ba05e6c",
+        "remoteAssetId": "b322ed78-0cfd-417c-aa9a-ebaac33fe297",
+        "createCompletedAt": "2026-07-21T07:59:27.272Z",
+        "lastPollAt": "2026-07-21T08:16:27.806Z",
+        "completedAt": "2026-07-21T08:16:33.225Z",
+        "cleanupCompletedAt": "2026-07-21T08:16:33.416Z",
+        "cleanup": {
+          "remoteJobDeleted": true,
+          "remoteAssetDeleted": true
+        }
+      },
+      "timings": {
+        "uploadMs": 9037,
+        "createMs": 49,
+        "createCount": 1,
+        "pollMs": 5001,
+        "pollSleepMs": 1015374,
+        "pollCount": 104,
+        "transcriptMs": 5373,
+        "remoteProcessingMs": 1015393,
+        "requestCount": 107,
+        "cleanupMs": 186
+      }
+    },
+    "resolvedStep2": {
+      "route": "stt",
+      "sourceKind": "media",
+      "providers": [
+        {
+          "service": "soniox",
+          "model": "stt-async-v4",
+          "origin": "explicit"
+        }
+      ]
+    },
+    "completionStatus": "full",
+    "requestedProviders": [
+      {
+        "service": "soniox",
+        "model": "stt-async-v4",
+        "local": false,
+        "diarizationOptions": {
+          "enabled": true
+        }
+      }
+    ],
+    "providerStates": [
+      {
+        "service": "soniox",
+        "model": "stt-async-v4",
+        "local": false,
+        "artifactDir": ".",
+        "status": "succeeded",
+        "attempts": 1
+      }
+    ],
+    "missingProviders": [],
+    "cost": {
+      "estimated": {
+        "totalCost": 44.608333333333334,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 44.608333333333334,
+            "costMultiplier": 1,
+            "durationSeconds": 16059
+          }
+        ]
+      },
+      "observedEstimate": {
+        "totalCost": 44.608333333333334,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 44.608333333333334,
+            "costMultiplier": 1,
+            "durationSeconds": 16059
+          }
+        ]
+      },
+      "actual": {
+        "totalCost": 44.608333333333334,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 44.608333333333334,
+            "costSource": "computed_usage",
+            "inputMetric": "durationSeconds",
+            "inputValue": 16059
+          }
+        ]
+      }
+    },
+    "timing": {
+      "estimated": {
+        "totalProcessingTimeMs": 2232201,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 2232201,
+            "inputMetric": "durationSeconds",
+            "inputValue": 16059,
+            "rateBasis": "durationSecond",
+            "msPerUnit": 139,
+            "throughputValue": 7.194,
+            "throughputUnit": "x",
+            "timingScope": "estimated"
+          }
+        ],
+        "estimateConfidence": "registry",
+        "likelyGatingTargets": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 2232201
+          }
+        ]
+      },
+      "actual": {
+        "totalProcessingTimeMs": 1035039,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 1035039,
+            "timingBreakdown": {
+              "uploadMs": 9037,
+              "createMs": 49,
+              "pollMs": 5001,
+              "pollSleepMs": 1015374,
+              "transcriptMs": 5373,
+              "remoteProcessingMs": 1015393,
+              "cleanupMs": 186
+            },
+            "inputMetric": "durationSeconds",
+            "inputValue": 16059,
+            "rateBasis": "durationSecond",
+            "msPerUnit": 64.452,
+            "throughputValue": 15.515,
+            "throughputUnit": "x",
+            "timingScope": "wall"
+          }
+        ]
+      }
+    },
+    "extractRoute": "media"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=Y22xf8EjioE",
+    "videoTitle": "Building Marko 6 w/ Dylan Piercey, and Michael Rawlings",
+    "videoPublishDate": "2022-03-05",
+    "videoThumbnail": "https://i.ytimg.com/vi/Y22xf8EjioE/maxresdefault.jpg",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "3:31:53",
+    "audioFileName": "Building_Marko_6_w_Dylan_Piercey_and_Michael_Rawlings.wav",
+    "audioFileSize": 406811454
+  },
+  "step2": {
+    "transcriptionService": "lemonfox",
+    "transcriptionModel": "default",
+    "processingTime": 252010,
+    "tokenCount": 37305
+  }
+}

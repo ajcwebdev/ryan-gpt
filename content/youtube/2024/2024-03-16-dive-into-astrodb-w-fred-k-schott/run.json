@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Dive Into AstroDB w/ Fred K Schott",
+      "slug": "2024-03-16-dive-into-astrodb-w-fred-k-schott",
+      "duration": "5:08:08",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=zaSvA6lorCA",
+      "publishDate": "2024-03-16",
+      "thumbnail": "https://i.ytimg.com/vi/zaSvA6lorCA/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 453,
+          "title": "Intro"
+        },
+        {
+          "startTime": 453,
+          "endTime": 982,
+          "title": "Questions with chat (part1 )"
+        },
+        {
+          "startTime": 982,
+          "endTime": 1384,
+          "title": "Welcome Fred"
+        },
+        {
+          "startTime": 1384,
+          "endTime": 1845,
+          "title": "History of Astro"
+        },
+        {
+          "startTime": 1845,
+          "endTime": 2100,
+          "title": "Astro 4.5"
+        },
+        {
+          "startTime": 2100,
+          "endTime": 2215,
+          "title": "Astro Dev Portal"
+        },
+        {
+          "startTime": 2215,
+          "endTime": 2350,
+          "title": "Astro DB"
+        },
+        {
+          "startTime": 2350,
+          "endTime": 2520,
+          "title": "What is AstroDB?"
+        },
+        {
+          "startTime": 2520,
+          "endTime": 3012,
+          "title": "Why make AstroDB"
+        },
+        {
+          "startTime": 3012,
+          "endTime": 3272,
+          "title": "AstroDB Pricing"
+        },
+        {
+          "startTime": 3272,
+          "endTime": 4483,
+          "title": "AstroDB deep dive"
+        },
+        {
+          "startTime": 4483,
+          "endTime": 7910,
+          "title": "Coding time"
+        },
+        {
+          "startTime": 7910,
+          "endTime": 8415,
+          "title": "Q&A with Fred"
+        },
+        {
+          "startTime": 8415,
+          "endTime": 9335,
+          "title": "Questions with chat (part 2)"
+        },
+        {
+          "startTime": 9335,
+          "endTime": 9397,
+          "title": "Tanner Linsley guest appearance"
+        },
+        {
+          "startTime": 9397,
+          "endTime": 10233,
+          "title": "Tanner talks Tanstack Router and Tanstack Start"
+        },
+        {
+          "startTime": 10233,
+          "endTime": 10412,
+          "title": "RSC's use streaming"
+        },
+        {
+          "startTime": 10412,
+          "endTime": 10470,
+          "title": "Solid Start Beta (Single flight mutations)"
+        },
+        {
+          "startTime": 10470,
+          "endTime": 10936,
+          "title": "Solid news"
+        },
+        {
+          "startTime": 10936,
+          "endTime": 11232,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 11232,
+          "endTime": 11646,
+          "title": "TWIJS: \"React's only secret\""
+        },
+        {
+          "startTime": 11646,
+          "endTime": 12226,
+          "title": "TWIJS: \"React is a marketing phenomenon\""
+        },
+        {
+          "startTime": 12226,
+          "endTime": 12334,
+          "title": "TWIJS: JS Frameworks throne"
+        },
+        {
+          "startTime": 12334,
+          "endTime": 12828,
+          "title": "TWIJS: Trellix demo"
+        },
+        {
+          "startTime": 12828,
+          "endTime": 12860,
+          "title": "Ryan Remix"
+        },
+        {
+          "startTime": 12860,
+          "endTime": 12987,
+          "title": "JS benchmark is flawed"
+        },
+        {
+          "startTime": 12987,
+          "endTime": 14843,
+          "title": "Discussion: Framework analysis"
+        },
+        {
+          "startTime": 14843,
+          "endTime": 15300,
+          "title": "INP is here"
+        },
+        {
+          "startTime": 15300,
+          "endTime": 17280,
+          "title": "Devin makes todo MVC"
+        },
+        {
+          "startTime": 17280,
+          "endTime": 18487,
+          "title": "Closing remarks"
+        }
+      ],
+      "description": "[]Astro is putting out new features at a staggering state. Amazing for a project that turns 3 years old this month. Let's catch up with Fred on what they've been working on, and where Astro is going into the future.\n\n[0:00] Intro\n[7:33] Questions with chat (part1 )\n\n[16:22] Welcome Fred\n[23:04] History of Astro\n[30:45] Astro 4.5\n[35:00] Astro Dev Portal\n[36:55] Astro DB\n[39:10] What is AstroDB?\n[42:00] Why make AstroDB\n[50:12] AstroDB Pricing\n[54:32] AstroDB deep dive\n[1:14:43] Coding time\n[2:11:50] Q&A with Fred\n\n[2:20:15] Questions with chat (part 2)\n[2:35:35] Tanner Linsley guest appearance\n[2:36:37] Tanner talks Tanstack Router and Tanstack Start\n[2:50:33] \"RSC's use streaming\"\n[2:53:32] Solid Start Beta (Single flight mutations)\n[2:54:30] Solid news\n\n[3:02:16] This Week in JavaScript\n[3:07:12] TWIJS: \"React's only secret\"\n[3:14:06] TWIJS: \"React is a marketing phenomenon\"\n\n[3:23:46] TWIJS: JS Frameworks throne\n[3:25:34] TWIJS: Trellix demo\n\n[3:33:48] Ryan Remix\n[3:34:20] JS benchmark is flawed\n[3:36:27] Discussion: Framework analysis\n[4:07:23] INP is here\n[4:15:00] Devin makes todo MVC\n[4:48:00] Closing remarks\n\nThanks to @boomshakalaka656 for the timestamps!"
+    }
+  }
+}

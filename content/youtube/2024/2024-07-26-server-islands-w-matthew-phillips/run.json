@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 2,
+  "kind": "extract",
+  "metadata": {
+    "step1": {
+      "title": "Server Islands w/ Matthew Phillips",
+      "slug": "2024-07-26-server-islands-w-matthew-phillips",
+      "duration": "4:24:09",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=SkJiaRclTjM",
+      "publishDate": "2024-07-26",
+      "thumbnail": "https://i.ytimg.com/vi/SkJiaRclTjM/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 495,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 495,
+          "endTime": 1110,
+          "title": "Welcome Matthew Phillips & Component Architecture"
+        },
+        {
+          "startTime": 1110,
+          "endTime": 1740,
+          "title": "Compilers & The Perception of Complexity"
+        },
+        {
+          "startTime": 1740,
+          "endTime": 2190,
+          "title": "Suspense, Reactivity, and Framework Ecosystems"
+        },
+        {
+          "startTime": 2190,
+          "endTime": 2490,
+          "title": "Server Islands: Introduction & Demo"
+        },
+        {
+          "startTime": 2490,
+          "endTime": 3210,
+          "title": "SI: App vs. Site or Static vs. Dynamic"
+        },
+        {
+          "startTime": 3210,
+          "endTime": 3510,
+          "title": "SI: Clarifying How It Works & Limitations"
+        },
+        {
+          "startTime": 3510,
+          "endTime": 3870,
+          "title": "SI: Excalidraw! - Server Islands in Astro"
+        },
+        {
+          "startTime": 3870,
+          "endTime": 4200,
+          "title": "SI: Excalidraw! - PPR in Next"
+        },
+        {
+          "startTime": 4200,
+          "endTime": 4560,
+          "title": "SI: Excalidraw! - Out of Order Streaming"
+        },
+        {
+          "startTime": 4560,
+          "endTime": 4995,
+          "title": "SI: Inspiration & Background"
+        },
+        {
+          "startTime": 4995,
+          "endTime": 5295,
+          "title": "SI: HTTP Considerations"
+        },
+        {
+          "startTime": 5295,
+          "endTime": 5535,
+          "title": "SI: The Spectrum of Solutions"
+        },
+        {
+          "startTime": 5535,
+          "endTime": 5880,
+          "title": "SI: Live Performance Demos are Impossible"
+        },
+        {
+          "startTime": 5880,
+          "endTime": 6585,
+          "title": "SI: Inspecting Network Timelines"
+        },
+        {
+          "startTime": 6585,
+          "endTime": 7065,
+          "title": "SI: PageSpeed Insights"
+        },
+        {
+          "startTime": 7065,
+          "endTime": 7515,
+          "title": "SI: The New JAMStack (Does PPR Matter?)"
+        },
+        {
+          "startTime": 7515,
+          "endTime": 7890,
+          "title": "SI: Q&A - Signals in Astro? Speculation Rules?"
+        },
+        {
+          "startTime": 7890,
+          "endTime": 8070,
+          "title": "SI: Q&A - Streaming JSON? PPR in Astro?"
+        },
+        {
+          "startTime": 8070,
+          "endTime": 8370,
+          "title": "SI: Conclusion & Matthew's Parting Words"
+        },
+        {
+          "startTime": 8370,
+          "endTime": 9105,
+          "title": "Intermission: A Unified Story"
+        },
+        {
+          "startTime": 9105,
+          "endTime": 9690,
+          "title": "Intermission: How The Giants Fall"
+        },
+        {
+          "startTime": 9690,
+          "endTime": 10050,
+          "title": "Intermission: There's Something Here"
+        },
+        {
+          "startTime": 10050,
+          "endTime": 11340,
+          "title": "Solid HackerNews - /hydrate Script Experiment"
+        },
+        {
+          "startTime": 11340,
+          "endTime": 12045,
+          "title": "Run Once Suspense (Version 2)"
+        },
+        {
+          "startTime": 12045,
+          "endTime": 12285,
+          "title": "Derivations as First Principles: Introduction"
+        },
+        {
+          "startTime": 12285,
+          "endTime": 12480,
+          "title": "DaFP: createMemo & createProjection"
+        },
+        {
+          "startTime": 12480,
+          "endTime": 12720,
+          "title": "DaFP: Writable Variants"
+        },
+        {
+          "startTime": 12720,
+          "endTime": 13020,
+          "title": "DaFP: Diffing Revisited"
+        },
+        {
+          "startTime": 13020,
+          "endTime": 13635,
+          "title": "DaFP: Trello Example"
+        },
+        {
+          "startTime": 13635,
+          "endTime": 14130,
+          "title": "DaFP: Why Derive? & Colorless Async"
+        },
+        {
+          "startTime": 14130,
+          "endTime": 14490,
+          "title": "DaFP: Deriving Signals from props"
+        },
+        {
+          "startTime": 14490,
+          "endTime": 14955,
+          "title": "DaFP: Conclusion"
+        },
+        {
+          "startTime": 14955,
+          "endTime": 15105,
+          "title": "This Week in JavaScript: Astro & Remix"
+        },
+        {
+          "startTime": 15105,
+          "endTime": 15435,
+          "title": "TWiJ: Stack Overflow Survey"
+        },
+        {
+          "startTime": 15435,
+          "endTime": 15585,
+          "title": "TWiJ: Atila Fassina's Content"
+        },
+        {
+          "startTime": 15585,
+          "endTime": 15720,
+          "title": "TWiJ: Astro & Netlify"
+        },
+        {
+          "startTime": 15720,
+          "endTime": 15849,
+          "title": "Conclusion & Small Gift"
+        }
+      ],
+      "description": "Astro has a pretty cool new feature that blends the best of static pre-rendering and dynamic server rendering. Matthew Phillips returns to show off Server Islands and explain how they work.\n\n[0:00] Preamble\n[8:15] Welcome Matthew Phillips & Component Architecture\n[18:30] Compilers & The Perception of Complexity\n[29:00] Suspense, Reactivity, and Framework Ecosystems\n[36:30] Server Islands: Introduction & Demo\n[41:30] SI: App vs. Site or Static vs. Dynamic\n[53:30] SI: Clarifying How It Works & Limitations\n[58:30] SI: Excalidraw! - Server Islands in Astro \n[1:04:30] SI: Excalidraw! - PPR in Next\n[1:10:00] SI: Excalidraw! - Out of Order Streaming\n[1:16:00] SI: Inspiration & Background\n[1:23:15] SI: HTTP Considerations\n[1:28:15] SI: The Spectrum of Solutions\n[1:32:15] SI: Live Performance Demos are Impossible\n[1:38:00] SI: Inspecting Network Timelines\n[1:49:45] SI: PageSpeed Insights\n[1:57:45] SI: The New JAMStack (Does PPR Matter?)\n[2:05:15] SI: Q&A - Signals in Astro? Speculation Rules? \n[2:11:30] SI: Q&A -  Streaming JSON? PPR in Astro?\n[2:14:30] SI: Conclusion & Matthew's Parting Words\n[2:19:30] Intermission: A Unified Story\n[2:31:45] Intermission: How The Giants Fall\n[2:41:30] Intermission: There's Something Here\n[2:47:30] Solid HackerNews - /hydrate Script Experiment\n[3:09:00] Run Once Suspense (Version 2)\n[3:20:45] Derivations as First Principles: Introduction\n[3:24:45] DaFP: createMemo & createProjection \n[3:28:00] DaFP: Writable Variants\n[3:32:00] DaFP: Diffing Revisited \n[3:37:00] DaFP: Trello Example\n[3:47:15] DaFP: Why Derive? & Colorless Async\n[3:55:30] DaFP: Deriving Signals from props\n[4:01:30] DaFP: Conclusion\n[4:09:15] This Week in JavaScript: Astro & Remix\n[4:11:45] TWiJ: Stack Overflow Survey\n[4:17:15] TWiJ: Atila Fassina's Content \n[4:19:45] TWiJ: Astro & Netlify\n\nThanks @zombiefacesupreme for the timestamps!!\n[4:22:00] Conclusion & Small Gift",
+      "audioFileName": "2024-07-26-server-islands-w-matthew-phillips.m4a",
+      "audioFileSize": 194512770,
+      "durationSeconds": 15849
+    },
+    "step2": {
+      "transcriptionService": "soniox",
+      "transcriptionModel": "stt-async-v4",
+      "processingTime": 902324,
+      "tokenCount": 40065,
+      "runtime": {
+        "mode": "fresh",
+        "stage": "cleanup-complete",
+        "remoteJobId": "29277d76-04fd-47f3-86f3-81013921a263",
+        "remoteAssetId": "bf8e795e-2599-4c86-86d2-c2595b61735f",
+        "createCompletedAt": "2026-07-21T07:55:33.016Z",
+        "lastPollAt": "2026-07-21T08:10:22.686Z",
+        "completedAt": "2026-07-21T08:10:28.069Z",
+        "cleanupCompletedAt": "2026-07-21T08:10:28.286Z",
+        "cleanup": {
+          "remoteJobDeleted": true,
+          "remoteAssetDeleted": true
+        }
+      },
+      "timings": {
+        "uploadMs": 7213,
+        "createMs": 57,
+        "createCount": 1,
+        "pollMs": 4295,
+        "pollSleepMs": 885249,
+        "pollCount": 91,
+        "transcriptMs": 5328,
+        "remoteProcessingMs": 885215,
+        "requestCount": 94,
+        "cleanupMs": 216
+      }
+    },
+    "resolvedStep2": {
+      "route": "stt",
+      "sourceKind": "media",
+      "providers": [
+        {
+          "service": "soniox",
+          "model": "stt-async-v4",
+          "origin": "explicit"
+        }
+      ]
+    },
+    "completionStatus": "full",
+    "requestedProviders": [
+      {
+        "service": "soniox",
+        "model": "stt-async-v4",
+        "local": false,
+        "diarizationOptions": {
+          "enabled": true
+        }
+      }
+    ],
+    "providerStates": [
+      {
+        "service": "soniox",
+        "model": "stt-async-v4",
+        "local": false,
+        "artifactDir": ".",
+        "status": "succeeded",
+        "attempts": 1
+      }
+    ],
+    "missingProviders": [],
+    "cost": {
+      "estimated": {
+        "totalCost": 44.025,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 44.025,
+            "costMultiplier": 1,
+            "durationSeconds": 15849
+          }
+        ]
+      },
+      "observedEstimate": {
+        "totalCost": 44.025,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 44.025,
+            "costMultiplier": 1,
+            "durationSeconds": 15849
+          }
+        ]
+      },
+      "actual": {
+        "totalCost": 44.025,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 44.025,
+            "costSource": "computed_usage",
+            "inputMetric": "durationSeconds",
+            "inputValue": 15849
+          }
+        ]
+      }
+    },
+    "timing": {
+      "estimated": {
+        "totalProcessingTimeMs": 2203011,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 2203011,
+            "inputMetric": "durationSeconds",
+            "inputValue": 15849,
+            "rateBasis": "durationSecond",
+            "msPerUnit": 139,
+            "throughputValue": 7.194,
+            "throughputUnit": "x",
+            "timingScope": "estimated"
+          }
+        ],
+        "estimateConfidence": "registry",
+        "likelyGatingTargets": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 2203011
+          }
+        ]
+      },
+      "actual": {
+        "totalProcessingTimeMs": 902324,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 902324,
+            "timingBreakdown": {
+              "uploadMs": 7213,
+              "createMs": 57,
+              "pollMs": 4295,
+              "pollSleepMs": 885249,
+              "transcriptMs": 5328,
+              "remoteProcessingMs": 885215,
+              "cleanupMs": 216
+            },
+            "inputMetric": "durationSeconds",
+            "inputValue": 15849,
+            "rateBasis": "durationSecond",
+            "msPerUnit": 56.933,
+            "throughputValue": 17.565,
+            "throughputUnit": "x",
+            "timingScope": "wall"
+          }
+        ]
+      }
+    },
+    "extractRoute": "media"
+  }
+}

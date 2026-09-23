@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidJS rewritten in Rust?",
+      "slug": "solidjs-rewritten-in-rust",
+      "duration": "Unknown",
+      "channel": "Unknown",
+      "url": "https://www.youtube.com/watch?v=a7EidoSQlGM"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "A First Look At SolidHack Submissions",
+      "slug": "2022-04-02-a-first-look-at-solidhack-submissions",
+      "duration": "3:19:25",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Ywv8cGOVNMg",
+      "publishDate": "2022-04-02",
+      "thumbnail": "https://i.ytimg.com/vi/Ywv8cGOVNMg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 206,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 206,
+          "endTime": 6362,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 6362,
+          "endTime": 6471,
+          "title": "SolidHack Submissions"
+        },
+        {
+          "startTime": 6471,
+          "endTime": 6862,
+          "title": "Solid Command Palette"
+        },
+        {
+          "startTime": 6862,
+          "endTime": 7070,
+          "title": "Solid Services"
+        },
+        {
+          "startTime": 7070,
+          "endTime": 7353,
+          "title": "Solid Proxies"
+        },
+        {
+          "startTime": 7353,
+          "endTime": 7635,
+          "title": "Studyur"
+        },
+        {
+          "startTime": 7635,
+          "endTime": 7944,
+          "title": "Sudoku Solver"
+        },
+        {
+          "startTime": 7944,
+          "endTime": 8278,
+          "title": "Solid MapGL"
+        },
+        {
+          "startTime": 8278,
+          "endTime": 8480,
+          "title": "rehash.one"
+        },
+        {
+          "startTime": 8480,
+          "endTime": 8760,
+          "title": "HopeUI"
+        },
+        {
+          "startTime": 8760,
+          "endTime": 8943,
+          "title": "RevKit UI"
+        },
+        {
+          "startTime": 8943,
+          "endTime": 9131,
+          "title": "Solid Cached Resources"
+        },
+        {
+          "startTime": 9131,
+          "endTime": 9330,
+          "title": "Hydrogen"
+        },
+        {
+          "startTime": 9330,
+          "endTime": 9520,
+          "title": "CodeImage"
+        },
+        {
+          "startTime": 9520,
+          "endTime": 9868,
+          "title": "lasosido.org"
+        },
+        {
+          "startTime": 9868,
+          "endTime": 10262,
+          "title": "Solid gstatem"
+        },
+        {
+          "startTime": 10262,
+          "endTime": 10630,
+          "title": "Material UI"
+        },
+        {
+          "startTime": 10630,
+          "endTime": 11493,
+          "title": "Solid Melon"
+        },
+        {
+          "startTime": 11493,
+          "endTime": 11965,
+          "title": "Outro"
+        }
+      ],
+      "description": "Last week for SolidHack starts now. I thought I'd take a look at what is submitted so far. I am not part of the judging committee so I figure this is my chance to spend some time checking out the cool things people have been doing.\n\n[0:00] Introduction\n[3:26] This Week in JavaScript\n[1:46:02] SolidHack Submissions\n[1:47:51] Solid Command Palette\n[1:54:22] Solid Services\n[1:57:50] Solid Proxies\n[2:02:33] Studyur\n[2:07:15] Sudoku Solver\n[2:12:24] Solid MapGL\n[2:17:58] rehash.one\n[2:21:20] HopeUI\n[2:26:00] RevKit UI\n[2:29:03] Solid Cached Resources\n[2:32:11] Hydrogen\n[2:35:30] CodeImage\n[2:38:40] lasosido.org\n[2:44:28] Solid gstatem\n[2:51:02] Material UI\n[2:57:10] Solid Melon\n[3:11:33] Outro"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "What's All the Hype Around Signals? ft. Ben Lesh & Ryan Carniato | Modern Web Podcast",
+    "duration": "52:54",
+    "author": "This Dot Media",
+    "url": "https://www.youtube.com/watch?v=cPVbfiAEbac",
+    "publishDate": "2023-06-22",
+    "thumbnail": "https://i.ytimg.com/vi/cPVbfiAEbac/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCHkqtrnQO2HMyW50ixOtJGw",
+    "description": "In this episode, Rob Ocel is joined by Ben Lesh (RxJS Core Team Lead) and Ryan Carniato (Principal Engineer at Netlify, Creator of SolidJS) to discuss Signals. They talk about what Signal are, why they're suddenly so popular, how Signals differ from Observables, and whether Signals (or Observables) should be integrated into the web platform. They also cover how engineers should think about the \"Signals hype\", and how Signals are implemented differently from framework to framework.\n\nGuests\nRyan Carniato - Principal Engineer @Netlify, Creator of @solid_js, and the CEO of Signals - @RyanCarniato\nBen Lesh - RxJS Core Team Lead, and the CEO of Observables? - @BenLesh\n\nHost\nRob Ocel - Architect and Engineering Lead @ThisDotLabs - @robocell"
+  }
+}

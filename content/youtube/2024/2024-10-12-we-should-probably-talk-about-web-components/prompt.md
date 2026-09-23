@@ -1,0 +1,3943 @@
+---
+title: "0F9t_WeJ5p4"
+slug: "0F9t_WeJ5p4"
+duration: "5:29:20"
+channel: "Local"
+url: "file:///workspace/output/ryan-solo-host-audio/0F9t_WeJ5p4.m4a"
+---
+
+This is a transcript with timestamps. Do not include advertisements in the summaries or descriptions. Do not actually write the transcript.
+
+- Write a one-sentence description of the transcript.
+  - The one-sentence description shouldn't exceed 180 characters (roughly 30 words).
+
+- Write a one-paragraph summary.
+  - The one-paragraph summary should be approximately 600-1200 characters (roughly 100-200 words).
+
+- Create chapter titles and descriptions based on the topics discussed throughout.
+  - Include only starting timestamps in exact HH:MM:SS format, always using two digits each for hours, minutes, and seconds.
+  - Chapters should each cover approximately 3-6 minutes of content.
+  - Write a two-paragraph description (75+ words) for each chapter.
+  - Ensure chapters cover the entire content, clearly noting the last timestamp (HH:MM:SS), indicating total duration.
+  - Descriptions should flow naturally from the content, avoiding formulaic language.
+
+Example JSON output:
+
+{
+  "shortSummary": {
+    "episodeDescription": "A concise one-sentence description of the transcript in 180 characters or fewer."
+  },
+  "longSummary": {
+    "episodeSummary": "A single-paragraph summary of the transcript that explains the central topic, the main arguments or developments, the evidence or examples used to support them, and the broader takeaway for the audience. It should read as one cohesive paragraph rather than a list, staying informative without becoming exhaustive. The summary should mention the most important themes, clarify what changed or was learned over the course of the discussion, and note any conclusions, recommendations, or implications that would help someone understand the full conversation without reading the entire transcript. It should also preserve the flow of the discussion so the reader can follow how the ideas developed from beginning to end."
+  },
+  "longChapters": {
+    "chapters": [
+      {
+        "timestamp": "00:00:00",
+        "title": "Introduction and Overview",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      },
+      {
+        "timestamp": "00:04:30",
+        "title": "Core Ideas and Implications",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      }
+    ]
+  }
+}
+
+Transcript:
+[00:00:16] *thinks*
+[00:00:26] Yeah, that's good lemonade.
+[00:00:31] Hey everyone, how are you doing today?
+[00:00:34] Um...
+[00:00:36] Yeah, yeah, I probably should update that at some point.
+[00:00:40] I just realized as I was sitting here drinking my lemonade that it was kind of like that it's fine meme.
+[00:00:46] Um,
+[00:00:47] Uh...
+[00:00:50] So.
+[00:00:52] Hmm.
+[00:00:53] Thank you.
+[00:00:54] It's not quite lemonade. It's actually the Suja organic
+[00:00:59] stuff. Ginger love, purified water, lemon, ginger, and pineapple.
+[00:01:05] So, yeah.
+[00:01:06] In any case, uh...
+[00:01:09] Let's change the background back.  I'm sure-- I want to talk seriously about web components  today.
+[00:01:17] I...
+[00:01:17] Uh-uh.
+[00:01:18] did make this so that I could do the stream cover, but I am not here to simply piss people off. So,  let's get this started.
+[00:01:28] All right.
+[00:01:32] Where's the reddish coconut water? Well, they didn't have it at Costco this week and I got to
+[00:01:38] I'm going to save what we have left right now for the smoothies.
+[00:01:42] Thank you.
+[00:01:44] No, it's great to see everyone coming here and joining in.
+[00:01:51] Well,
+[00:01:52] Honestly,
+[00:01:53] I mean, I knew that this article would get under
+[00:01:58] some people's nerves.  It would spark some discussion,  but I wasn't expecting the,
+[00:02:04] like,
+[00:02:05] the type of discussion that ended up happening and to like the extent of it. Um,
+[00:02:09] Because I feel like I wrote the same article like four years ago.
+[00:02:12] I was a little bit stronger in the language, but I was kind of trying to get at the...
+[00:02:17] the same sort of things and so you know it's it's one of those examples where like
+[00:02:24] I'm working on some...
+[00:02:27] some stuff, actually a lot of stuff related to a solid 1.9 release.
+[00:02:33] And
+[00:02:34] New fellowship.
+[00:02:37] Um...
+[00:02:38] I don't know, say his name is a Tito, working a lot on DOM expressions.  And a lot of that work is involved actually improving
+[00:02:47] our web component support.  Most of the features that drove the 1.9 release were in some way related to our handling web components,  like whether it was like, you know, a Boolean attribute indicator or like,
+[00:03:00] you know, some of the small little changes, some event delegation updates and stuff like that.
+[00:03:05] And,
+[00:03:07] It's one of those funny things because...
+[00:03:10] As soon as you do some work, you go, oh, now there's a whole bunch of new issues you discover, right?  It's just like peeling back the layers and...
+[00:03:17] Got in this kind of discussion with some of the more...
+[00:03:21] Pro web component folks in the solid discord people in the ecosystem team and, and, you know, involved, I'd say like in the, you know, core, you know, 30 to 40 set of maintainers that are, you know, building a lot of the libraries of a lot of the important.
+[00:03:36] pieces of Solid's ecosystem.  You know, there's a certain contingent, let's say,  of Web Component forward people there.  And they were talking about some stuff and about like,
+[00:03:51] It was pushing a little bit hard in one direction.  I was like...  And I kind of like...  Which is like...  No, no.  Just...
+[00:03:57] stop, you know, that like, it's not,
+[00:04:00] that cut and dry
+[00:04:02] And that's,
+[00:04:04] debate honestly is what sparked me writing the article. It was primarily around this kind of like
+[00:04:13] utopian future they were painting. I mean, I pulled all the rest of the stuff in as I was writing, but it like I think what I struggle with most with web components before even get like deep into the discussion is that the fundamental promise of web components
+[00:04:27] doesn't seem like one that
+[00:04:29] Thank you.
+[00:04:30] I don't even know if it's a real promise.  This is where it's dangerous to say things.  Because people are like, we're not claiming to be able to do that.  But then the same--
+[00:04:38] paragraph, like two sentences later, they will. So watch for it throughout the stream. As we talk about this topic, you'll see what I'm talking about. There's this sort of weird
+[00:04:48] holier than thou...
+[00:04:50] but then like backtrack on it, like, and it happens over and over and over again.  And I was just like,
+[00:04:56] Let's talk about the reality of what it is.
+[00:05:00] for future proofing or maintaining software projects? What does this actually look like?
+[00:05:06] do web components actually have any impact on that at all?
+[00:05:10] And so I wrote an article, you know, kind of tying in
+[00:05:15] what I'd experienced working on
+[00:05:17] Solid 1.9.
+[00:05:19] And like this discussion, and I literally wrote it in a morning.  I was like, it's like I got, you know, dropped my daughter off at school, came home, started thinking about it a bit, like reading a bit of the discussion from the previous day, catching up on it because it kept on going overnight after I'd gone to bed.  And I was like, okay, I'm just going to write this down.  Like I've already wasted enough stuff in this chat.
+[00:05:42] And then I kind of finished the article, posted a draft around 11 in the morning in the Discord, in the ecosystem channel.  And like, look, guys, what do you think? Right. And then I published it. It was very just off the top of my head.
+[00:05:55] kind of thing because like if I want to sit there and pick apart web components we could write like 10 articles way longer that's not really what I was trying to do there from like a technical aspect there's there's.
+[00:06:05] Devil in the details. We'll talk about some of it today.
+[00:06:09] But...
+[00:06:09] What I want to do is like
+[00:06:11] Step back high level.
+[00:06:13] to kind of
+[00:06:14] Look at, you know...
+[00:06:17] what the overall impact is and how it influences what the web looks like.  I often talk about, you know, when I'm doing like reactivity, I'm often talking about like,
+[00:06:27] doing this demo, doing this thing, completely changed the shape of how I think about reactivity.
+[00:06:33] Like...
+[00:06:35] Mutable reactivity. It's not a thing that we talk about much, right? It's not a place that people have explored at all. But after doing that Trello demo, I started thinking about that more and realized that there is a whole different avenue. And then my whole...
+[00:06:49] Rest of my world shifted around that.  Once I understood that the thing that I took to be fundamental was not...
+[00:06:55] as fundamental as I thought it was.
+[00:06:57] And I feel like the web component conversation has a lot of elements of that, which is hard to
+[00:07:03] put in the form of a tweet. It's hard to even write it effectively in a single article. But I'm hoping
+[00:07:09] that
+[00:07:11] through discourse, we can find ways to communicate these things in such a way that it makes sense
+[00:07:17] to people i think i think okay how are you doing chat sorry that was like my long-winded intro
+[00:07:23] Um,
+[00:07:24] Hello, hello, a lot of hellos.
+[00:07:28] When do you see the green screen? Yeah.
+[00:07:33] Awesome. Great to see you.
+[00:07:37] Howdy, David.
+[00:07:40] Everyone knows 1.9. Yeah, thank you. Yeah, there's still a ways to go.
+[00:07:45] I'm waiting for Mr. D to disagree. I hope he does. I mean, I, I saw the Theo stream. We'll talk about a couple of things from that today.
+[00:07:53] Don't get me wrong, the biggest thing that we need here is education.
+[00:07:58] Um,
+[00:07:59] I feel like
+[00:08:00] on both sides of the argument, a lot of untrue facts are made, which really muddies it, which makes it really...
+[00:08:09] Difficult.
+[00:08:10] I...
+[00:08:11] you
+[00:08:12] I'm hoping...
+[00:08:14] that
+[00:08:16] people, you know, on maybe more on the web component side of things actually understand that
+[00:08:21] Um,
+[00:08:23] Well,
+[00:08:25] say framework authors aren't always like the most up-to-date
+[00:08:29] always on, you know, where it, you know, web component specific spec is like to be fair. Um,
+[00:08:35] know more than we are of other frameworks, you know, like how aware of
+[00:08:40] you know,
+[00:08:42] how SolidWorks is, I don't know,
+[00:08:47] Just...
+[00:08:48] Andrew Clark. I don't know. He's vaguely aware, but like you don't know that. But you kind of you have a certain positional understanding.
+[00:09:00] But it's not because
+[00:09:03] Very clear. I think it'll be clear through the course of stream. It's not because there's like lack of understanding of the platform. I had some really funny replies where people told me the Google mutation observer and like Google this and I'm like,
+[00:09:16] this kind of attitude isn't really working, right? It's,
+[00:09:21] you know what
+[00:09:22] Why do I know about mutation observers and that they queue on a micro task? Well, because I had to build a polyfill for promises back for IE11 back in, you know, 2000.
+[00:09:34] 12 or 13. I mean this micro task queue library, it's still an npm you can go check it out.
+[00:09:39] we know what we're talking about.
+[00:09:43] So...
+[00:09:45] This isn't like...
+[00:09:48] I think it's really easy to divert the conversation, and that's what we're going to be careful about today.  I think I'm actually going to keep like a HackMD or maybe like an Excalibur draw where we can collect notes, make sure we don't like overly circle back on topics.  Because these topics tend to get really circular. They tend to go round and round and you'd be like,
+[00:10:05] Part of it is definitions and people talking past each other.  But the problem with only putting it there is the same problem you have with like, oh, right tool for the right job.
+[00:10:15] Sure.
+[00:10:17] But...
+[00:10:18] you can also kind of
+[00:10:20] do anything with anything. So like sometimes the effective end result is actually what matters. So just like sectioning it off that way isn't really
+[00:10:29] interesting or true.  So just...
+[00:10:33] there will be comparisons between frameworks and what a difference of the definition of a framework versus a library or a framework versus a framework or a component versus a component. This is all part of the conversation.
+[00:10:44] Just saying it's different, like A to B, it's insufficient.
+[00:10:47] in having this conversation because there is overlap.  You can't just say, oh, you're comparing two on comparable things.  That's that's not true.
+[00:10:54] They are very comparable.  You have to consider...
+[00:10:57] it holistically, um,
+[00:10:59] Thank you.
+[00:11:00] you know, both from...
+[00:11:03] you know, inputs and outputs.
+[00:11:05] Sorry, anyway.
+[00:11:08] Awesome. Great to see you, Nate.
+[00:11:14] Yeah, when Theo was covering adding the context that people were trying to convince you of the utopia in the discord,
+[00:11:20] Yeah, yeah, exactly.
+[00:11:27] Thank you.
+[00:11:30] The truth, there's gaps on the story so I don't actually know this. I know that there was a strong contingent at Google who really wanted to push it and they found, not just Google, they found agreement.
+[00:11:42] in other major companies. Apple, I mean, to be fair, the first version might have been pushed by Google and then like almost had the backtrack. You got to think a bit about Google.
+[00:11:54] Because there's a V0 versus V1.  Apple, for example, didn't
+[00:11:57] wanted things to be a little more locked up, so to speak. But this is
+[00:12:02] Web components as they are today, regardless of the history of them,
+[00:12:06] are the union of several major companies  to come up with a standard that appeals,  that works for them all.  So this is a monumental effort,  and it involves a lot of important players  that are somehow...
+[00:12:21] finding consensus between each other.
+[00:12:24] Right. Each with their own use cases, their own incentives, their own like motivations. So we do have to, even if early days, there's some kind of salacious story here, I'm going to.
+[00:12:36] try and focus on what web components are today because I feel like
+[00:12:40] If we put all the history in it, I mean, we will talk a bit about history.
+[00:12:44] We're not going to get a
+[00:12:45] completely accurate take.
+[00:12:53] Is this going to be a spicy stream? Probably.
+[00:13:05] Yeah, I mean, there's probably a bit of this. It's hard because it's a very
+[00:13:11] diverse of
+[00:13:13] topic and you kind of have to
+[00:13:15] Um,
+[00:13:16] think for a bit why it would be so diversive because you're like,
+[00:13:19] Who should care and I think I'm hoping we actually get to the bottom of that because it's kind of like I
+[00:13:27] It's odd, isn't it? Like, why should it be such a diversive topic?
+[00:13:33] Um,
+[00:13:35] You know, it's a platform we always
+[00:13:38] We always, you know,
+[00:13:39] we all use.
+[00:13:41] you know,
+[00:13:42] But there's a lot of details here.
+[00:13:48] Thank you.
+[00:13:51] Thank you.
+[00:13:52] Thank you.
+[00:13:53] Thank you.
+[00:13:55] Yeah, we'll talk a bit about the Nicole Sullivan quote, too, when it comes in relevant. I,
+[00:14:02] I think there's truth to it, but it also kind of miscues something, which is that
+[00:14:08] Web components are actually in use by a lot of large companies,  not just hobby.js developers, but they use them for
+[00:14:17] reasons that I think are actually legitimate, but aren't
+[00:14:20] are sometimes different than the use cases that
+[00:14:24] that other...
+[00:14:25] like people think of web components.
+[00:14:28] It's the same reason you have micro-friend-ends.  That's why I keep on going back to micro-friend-ends.  There is a big...
+[00:14:34] isolation organizational problem you have when you have large companies and large teams and large everything.  And web components actually fit in there perfectly.
+[00:14:42] quite well.
+[00:14:44] if you've already given up that you're
+[00:14:46] that you can make the best possible thing.
+[00:14:49] So, like...
+[00:14:50] Thank you.
+[00:14:51] And
+[00:14:52] When you're looking at it from like, I'm just a Joe Smith developer trying to pick up a thing, I think Nicole's completely right.
+[00:14:59] But when you're actually...
+[00:15:02] bigger picture,
+[00:15:04] And this is something like web components are here.
+[00:15:07] This is probably why some people think the title of my article is a little bit inflammatory, was because
+[00:15:14] Um,
+[00:15:15] You know, I said they're not the future. Well, and and the thing is, like, no, web components are here today.  Like when I say they're not the future, I don't mean like like they're like what people used to be like, oh, you know, next year is the year of Linux.  You know, I've cracked that joke about web components myself, you know. No, they're very much here.
+[00:15:34] which is actually why
+[00:15:37] You know, maybe some of us were hoping that they wouldn't get here.
+[00:15:42] You know, you can't ignore the problem and it kind of goes away.
+[00:15:46] But they are very much here.  I think not acknowledging that isn't
+[00:15:52] Fair or not very productive either.
+[00:15:57] Thank you.
+[00:15:59] Thank you.
+[00:16:01] Divisive, yeah, okay, thank you.
+[00:16:06] It's like the word diverse and diverse opinions device.
+[00:16:17] I thought no one considered building something with web components. No, see that's the thing. People are actually considering it. They are real. It's not some imagined thing. I mean, it's fine. You can ignore them. You don't need them if you're an everyday thing to a certain degree.
+[00:16:30] But.
+[00:16:32] This is part of what I was trying to get at.
+[00:16:34] Who do you think would know?
+[00:16:38] that web components are an uptick.
+[00:16:40] Like,
+[00:16:40] You got to look at people like Nicole Sullivan has said are all using frameworks and
+[00:16:47] then
+[00:16:48] The framework authors and the GitHub issues are the ones that are going to notice the uptick in web components.
+[00:16:54] I'm just putting it out there.  When people ask about, like you say, oh, blah, blah,  you don't get it, the platform, blah, blah, blah, blah.
+[00:17:01] who do you think it's all the freaking github issues i mean obviously people  building you know the actual spec and stuff but also like
+[00:17:10] people who have to support them.
+[00:17:17] Thank you.
+[00:17:19] Thank you.
+[00:17:23] I also find that people who know web components well are also deeply using them, which usually means criticism is harder to take because it's interpreted as you're doing it wrong. Exactly. Like, skill issue. I got a few of those, and it's like...
+[00:17:32] Yeah, okay.
+[00:17:34] Like, it's tricky.
+[00:17:38] So why call the article, why put it not the feature?
+[00:17:42] Because regardless of whether they're here to stay doesn't mean they're a good thing.
+[00:17:46] Like...
+[00:17:47] Like, I don't take back my position. I'm just saying that
+[00:17:52] like,
+[00:17:53] It's unfortunate that we're here. Some people, you know, try to push against it.
+[00:17:59] I think the best thing we can do now is hold the line and make sure that like,
+[00:18:04] the spec doesn't get
+[00:18:07] like
+[00:18:08] stuff doesn't get over bloated in this. It's not the web components itself or any individual spec. It's the direction of the web heading this way we have to, we need, we need to be careful about and like,
+[00:18:18] it continuing on this path.
+[00:18:22] I think that's the problem.  It's perfectly fine for something to exist,  and then no one use it.  There's a difference between being the future and existing.
+[00:18:34] Like, I don't actually, I'm not stepping back from my position.  I just mean that, like...
+[00:18:39] It's...
+[00:18:41] It's not quite like most, it's why when I read most responses, I mentioned I went on vacation and I came back to it. I actually saw a bit of Theo's video like the day before I came back and I was just like, oh no, I'm going to have to.
+[00:18:52] Yeah.
+[00:18:54] it's one of those things where, that's why most responses sound really...
+[00:19:02] I understand off it. Ridiculous to me. Like, it was just like, like,
+[00:19:06] like, you know, I'd be like, sure, that's great. But like, what are you talking about?  It's part of that talking past each other. And that's why it's really important to kind of
+[00:19:15] come back to it.
+[00:19:17] Thank you.
+[00:19:18] Thank you.
+[00:19:22] Thank you.
+[00:19:25] Right. There's people got burned to changing frameworks and all that. And I want to talk about that today too, right? Because I think the whole idea that web promotes protection from this is probably one of the biggest myths we have to like...
+[00:19:36] Bust, so to speak.
+[00:19:38] Right?
+[00:19:39] Like this is kind of like the fundamental problem  why we kind of talk past each other.
+[00:19:44] When I said I started this because Solid 1.9, Solid had one of the best web components support already.  So why are we doing all this more stuff in 1.9?  It's because we've understood...
+[00:19:53] best practices about how to use them, author them, this has all changed. And it continues to change in the last 10 years. I had good ideas of how I thought we should do blank and then we're like, okay, actually, you don't need to do that much at this level, we should do it at this level. So we moved it. Polymer used to use, you know, template elements for control flows, you know, perfect example, right? Like,
+[00:20:10] You know, people don't really do that anymore, you know, right?  Different type, like all the technology around web components changes
+[00:20:19] you know, it's still all backwards compatible because the old one works the same way that, you know,
+[00:20:24] my React 13 component or whatever still works today, whatever. But like,
+[00:20:30] It's all like...
+[00:20:33] When we talk about frameworks and we talk about opinions, these things exist beyond the code, in front of the code.  And that's why the terms and technologies talk about when people talk about future proofing, we've got to be like,
+[00:20:45] Be ready to call bullshit on it. You know, like this is this is this is the fundamental problem. If you sell people on this idea that this somehow solves this basically impossible, very difficult problem to solve.
+[00:21:01] then
+[00:21:02] people buy in and they buy in super hard and then it's too late when they realize it's not the case, right? I mean, every
+[00:21:08] every trend, everything does that. There's always this like hype cycle that kind of
+[00:21:12] And it does it, you know, like people feel that way about React.  The difference is React isn't in the browser.  Can you picture if React had gotten into the browser?  Like this is...
+[00:21:22] This is where the concern comes from, you know?
+[00:21:30] Thank you.
+[00:21:32] Can we acknowledge that old school vanilla is just as viable as you can actually your blog?  Seems like a lot of people care.  Yeah, of course.
+[00:21:38] Sure.
+[00:21:40] Yeah, I mean there's this interesting tension
+[00:21:44] There between like using state of art tools to kind of a universal solution that can serve everything and having one way of doing things.
+[00:21:50] It's funny because frameworks have a lot of that same tension. Like, why do people want to use Next?
+[00:21:55] Because they know they can build their sites and their apps and everything with the same tool and they learn one thing and they get really proficient at it and it feels really good.
+[00:22:01] It's the same reason why people want that kind of thing built into the web platform.
+[00:22:06] But like on the other hand,
+[00:22:09] Like, I'm glad I can do something that's not next.  You know what I mean?
+[00:22:15] Thank you.
+[00:22:18] Thank you.
+[00:22:19] So do you think there's a web component spec in the primitives? Hard to say. Maybe we'll explore that today. Generally, I think the concept's flawed, but I think we can explore that.
+[00:22:38] I mean, there's a lot of great comments in the chat.  I want to try to create a random framework on web columns, create the component, then  it can be normally two elements, blah, blah, blah.
+[00:22:46] Yeah, I mean, chat, you guys will be able to drive me for ages here, and we'll get into that later.
+[00:22:52] To you know where we can and
+[00:23:01] but like,  I think I probably need to move this forward a little bit.  I'm just sort of reading chat a little bit here.  What do you got to,
+[00:23:11] Web components use monoblator, talk about not having to build a bundle.  Yeah, see, this is the thing.  We get into these discussions that are like so peripheral that they all kind of tie in, like, build or not build and all this kind of stuff.  And it's like.
+[00:23:21] You choose to do builds
+[00:23:24] because you want
+[00:23:26] the benefit of it. Like, well, why do you use TypeScript, right? Like,
+[00:23:30] You can obviously not, but it's like,
+[00:23:33] If you can do something without a build, and do something with a build,
+[00:23:37] you it's pretty obvious that the thing with the build ultimately has the potential
+[00:23:42] to produce better results. It's right. Cause you can always do the non-build thing.
+[00:23:47] with the build.
+[00:23:48] So if you're using the build, you're doing it to make it better.
+[00:23:50] in some kind of thing. There might be a trade-off in terms of like user flow or whatever, but ultimately the output of a build thing is gonna be better than output of a thing. It's just, it's, it's,
+[00:23:58] It's there's probably some kind of like
+[00:24:01] logical law rule about that, but like you can see where I'm going, but, um,
+[00:24:08] These things all get...
+[00:24:10] Um...
+[00:24:11] tied together because they align on like a certain perspective on where the web should head. And I get it like,
+[00:24:19] Single page apps have been detrimental. They've been harsh and people like we've gone too far and all this stuff.
+[00:24:25] But on the other hand,
+[00:24:28] They solved a problem in a certain way. Maybe that way can be solved better.
+[00:24:32] That...
+[00:24:33] you don't get to solve otherwise. You can be like, "Okay, I'm pretending this does not exist."
+[00:24:40] And if you think about it, web components being primarily a client-based thing for JavaScript branding are...
+[00:24:46] also trying to like
+[00:24:47] be in that space, so to speak. So yeah, I mean, it's interesting.
+[00:24:54] Thank you.
+[00:25:06] So I want to start somewhere. Let me share my screen for a sec here. Let's present.
+[00:25:13] Share screen.
+[00:25:15] Tar screen.
+[00:25:16] This screen. All right, here we go.
+[00:25:19] Hope you can see this.
+[00:25:20] I'm going to read an article here.  Some of you might have read it before, but this is where I wanted to start today.  Let me see if I can...
+[00:25:28] blow this up a little bit.
+[00:25:31] Thank you.
+[00:25:34] I've been tinkering around with related technologies for a few years now and I tried to reverse  engineer many of the popular libraries but it wasn't until earlier this year that I decided
+[00:25:42] to really pull this together into something.  Things that sort of aligned.  Modern browsers are pretty much here.  Web components are actually finally arriving.  Edge is the last and it's in-depth,  but most importantly, there's a clear gap now  between people using this new technology.  Sorry, let me switch the view around a bit better  so that you can see it better.  Where is it?
+[00:26:01] There we are.
+[00:26:04] Um...
+[00:26:07] using this new technology and apply it to how they know how to do things, letting the technology define what they can do, right?
+[00:26:14] I didn't set out
+[00:26:16] to write a framework. In fact, I don't think my work here is a framework in a classic sense.  The JS framework of 2018 is a new type of framework that isn't necessarily new at all.
+[00:26:26] Thank you.
+[00:26:27] If you've worked in JavaScript in the past decade,  you've definitely seen the rate at which things have progressed.  Outpace software's project's ability to stay current  from Angular's transformation to Angular 2  to React community, figure out monthly  what the best way to do dependency injection is, right?  Do you guys remember that when there's like...
+[00:26:43] like not an official context API.  And there was like ways of like
+[00:26:47] kind of backdooring into React. For a couple years there, we couldn't even agree on a good  way to store our application state. And don't get me started on which Redux middleware is the  least compromising, you know, Saga or Thunk or whatever. Some people call that fatigue inducing.  I call it a sign of a healthy community built on innovative ideas, but it hasn't been without cost.  Every time React deprecates lifecycle functions or...
+[00:27:11] People have PTSD flashbacks.  When Dan Abramoff writes a blog on a new React feature,  he has to caution people not to get too excited.  It's hard to be a large framework and keep things simple while being cutting edge.  It's not a problem that just goes away.
+[00:27:24] The best you can do is not force everyone down a painful upgrade.
+[00:27:29] All things being fair, React has done a pretty amazing job of not forcing people that way.  And while there are reasons for their success, one simple thing sticks out. React is a library that mostly does one thing and does the one thing well.
+[00:27:41] This article was written in 2018, so you can see that maybe times have changed.
+[00:27:45] It's the ecosystem around it that makes it a full fledged framework.  This frees the developers to focus on what's important and allows the community to do its experiments.  As much as it may be impossible to be cutting edge all the time, you never need to do Angular 2 level migration.  It happens one day and React
+[00:28:00] and React as it has been incorporating more of these communities' efforts internally risk this more and more. Yeah, so this is
+[00:28:06] I guess...
+[00:28:08] when around the time React started pulling stuff in the state,  React wasn't the first just render library.
+[00:28:15] I attribute that honor to a much older library, Knockout.js.
+[00:28:19] Okay, I mean, it's given away who the author of this article is, I think, at this point.
+[00:28:24] I wrote this article
+[00:28:26] back in 2018. It was my first article I ever published.
+[00:28:30] Um...
+[00:28:32] But it's important here.  I knew the second that if you guys didn't
+[00:28:38] if you guys didn't clue into it the second I mentioned knockout that you guys know it was me.
+[00:28:44] It didn't come...
+[00:28:45] with the same rhetoric and backing as React, but it wears the mantle much better. Knockout didn't have a component
+[00:28:50] but identified an application was built from three parts: model, view model, and view.
+[00:28:54] and truly only cared about how you organized the ladder.
+[00:28:57] The view model was a revolutionary concept for client at the time as most libraries were MVC where the controllers are generally singletons and capable of representing state cleanly. View models are instances much like components which set Knockout apart that view models could be anything you wanted, an object, a function, a class, a
+[00:29:12] Not in 2010 unless you were using CoffeeScript.
+[00:29:15] CoffeeScript mentioned. There are no lifecycle functions. You could bring your own models, organize your application to fit, and you had to do with declare your data and bind it. Without best practices, it would just be a complete mess, but it was truly just a render library.
+[00:29:28] Thank you.
+[00:29:30] Thank you.
+[00:29:31] The COO for the company I worked at back in 2013 was very tech-minded and facilitated moving our knock-up single
+[00:29:38] page app into web components. It was a natural fit as Knockout didn't care about the containerism. And a few custom wrappers were able to come up with a pretty powerful system. In 2014, we migrated our backbone data models to Flux stores.
+[00:29:51] In fact, we successfully made several migrations as trends updated on a system that was developed, mostly in 2011.  In fact, it's still in production today.  The key to this was understanding the natural migrations.
+[00:30:00] The most expensive part of refactoring something is that you have to change where one part ends and the next begins.  Our CRO was either a genius or pretty lucky.
+[00:30:07] What I've learned from this experience between the boundaries haven't changed really over a decade.  There have been one constant.
+[00:30:12] As controllers,
+[00:30:13] transform to routers and models to stores and view models to views we and got wrapped together as  components the anatomy of a component is still three main parts in container
+[00:30:23] a change or local state manager, and a renderer.
+[00:30:25] Even a smaller library like React is responsible for all three. But this natural separation is fine-grained enough not to tie you to any specific solution or opinion.  More so by mixing and matching these along with external storage routing, you can have exactly the framework you're looking for without necessarily having to write it yourself.
+[00:30:44] That is as long as the container, which serves as the interop point, is something you can bank on.  Web components are a good candidate for those containers as they're standardized and available.  The past few years has seen the rise of micro libraries for renderings.  Stefan Krause's JS Framework benchmark is like a smorgasbord of possibility.  Libraries vary from full-fledged, like Angular, to super-light DOM wrappers that handle little more than...
+[00:31:05] array reconciliation methods. It's run
+[00:31:08] on an example that is like an overworked to-do MPC that gives just enough DX ergonomics that you can make a surface judgment. Like all benchmarks, it's not completely real world, but in terms of benchmarks, this is one of the best to understand performance characteristics of technology design sources. With that in mind, I had a baseline for my journey. In my next post, I'll take you through what it means to bring your own framework and
+[00:31:27] or build your own framework and
+[00:31:30] further dig into the decisions and libraries I've written to realize this goal.
+[00:31:35] So on.
+[00:31:37] I wanted to share that with you all.
+[00:31:40] Today, because...
+[00:31:44] Yeah.
+[00:31:44] You can see...
+[00:31:46] How, um...
+[00:31:51] sorry it's bring your own framework not build your own framework how my perspective has changed  a lot in the last six years um
+[00:31:59] So I wanted to preface with this because I think it's...
+[00:32:02] or preface, whatever. My English sucks sometimes.
+[00:32:08] Thank you.
+[00:32:09] You have to understand that my perspective did not come from because I don't know what the hell I'm talking about.
+[00:32:16] It came from
+[00:32:20] understanding
+[00:32:22] Exactly.
+[00:32:24] what tools had available,
+[00:32:26] work.
+[00:32:28] at how to leverage them to the best of our ability,
+[00:32:32] and then realizing
+[00:32:34] where things
+[00:32:36] worked and where things didn't work.
+[00:32:43] *sad music*
+[00:32:48] Thank you.
+[00:32:50] Yeah.
+[00:32:57] Thank you.
+[00:33:00] Thank you.
+[00:33:01] Right?
+[00:33:06] -
+[00:33:07] Thank you.
+[00:33:09] Thank you.
+[00:33:11] Thank you.
+[00:33:15] Yeah, I mean, we can get there.  I just...  This is...
+[00:33:25] This is my starting point. Should we do a HackMD?
+[00:33:30] I'm trying to think here. Oh, come on.
+[00:33:35] uh
+[00:33:36] Okay.
+[00:33:39] Get home.
+[00:33:40] Boo.
+[00:33:43] Okay, maybe this will actually work.
+[00:33:48] Thank you.
+[00:33:49] Because I was going to use like Scaldraw, but I feel like Scaldraw sucks for typing stuff.
+[00:33:56] Right.  Um,  so maybe we should just like jot things out here.  Um,
+[00:34:02] web component. Because I actually
+[00:34:07] Thank you.
+[00:34:07] I actually tried writing a follow-up article, and then I decided it was a waste of time. Instead, I just joined the Web Component Discord and just went in and talked with people there. It just saved me a lot of time because I couldn't figure out how to frame it. But maybe we can get there.
+[00:34:29] Yeah, I mean, I don't see where WebCons are. Yeah, we have to
+[00:34:34] We have to get...
+[00:34:36] We have to get there. This is this is I just wanted to show that, you know,
+[00:34:43] where this started and where it ended up, right?
+[00:34:50] Honestly, let's go back into dev and let's look at
+[00:34:56] this one I wanted to see.
+[00:35:00] I
+[00:35:01] Yeah, actually, I can get to it through here. This one, this one.
+[00:35:08] Thank you.
+[00:35:11] Did I not even link it?
+[00:35:16] Didn't even link it.
+[00:35:18] Thank you.
+[00:35:22] Thank you.
+[00:35:25] Thank you.
+[00:35:26] Thank you.
+[00:35:44] Yeah, that was the Discord.
+[00:35:48] Because, yeah, I mean, there's a lot of...
+[00:35:50] tax on how we can approach this whole thing. And there's a lot of articles and things going back and forth. So like, I think,
+[00:36:00] The reason I wanted to point out my original article series was because I was intending to build a framework around web components so that I wouldn't have to have component model.  I could just like basically just have very simple renderer and some reactivity system call it a day.  And it's funny because you'll see this kind of.
+[00:36:20] mindset and mentality, uh,
+[00:36:23] today still, like it's live and lit to a degree or, you know, a lot of other frameworks, you know, came out. I mean,
+[00:36:33] It's funny how much little this stuff changes over time.  Like if I look at my web components containers,
+[00:36:38] article, which is a follow up here.
+[00:36:41] I basically identified that there's web components to modularize framework X, right? So basically having like output modes, web components as the framework, I use polymer and stencils as an example, but these are basically made for authoring, I guess lit would fall into this category.
+[00:36:55] And then web components as a container, which-- do you guys remember SkateJS?
+[00:37:02] It's just not around anymore. We could probably Google it.
+[00:37:07] um skate js um the idea was that you could basically bring whatever renderer you wanted
+[00:37:16] whether it was lit,
+[00:37:19] or whether it was pre actors solid or whatever, and it would output a web component for you. Right.
+[00:37:29] I
+[00:37:32] I basically created my own library.
+[00:37:37] component register back in 2014, which was
+[00:37:41] uh,
+[00:37:43] Which was...
+[00:37:45] Kind of like...
+[00:37:47] skate except instead of forcing people to author stuff with in a in a way that would be in web  component land because some people don't like authoring the web component classes way it's  ironic that this actually has a react class in it my my the way that my library worked was you would  write the native code in your framework and then it would just be like a hawk wrapper so if your  component's a class in react then it's just a hawk wrapper and solid we just pass functions in so it's
+[00:38:17] of the web component abstraction  and you just get web components back.  You might have to like define the types of the props  so that, you know, the right observed attributes  would happen and whatnot, but you get the idea.  The idea was that you, and then when you basically had  a regular framework component with the exception  that the first argument was a props object.  And then the second object was like  some kind of web component context.
+[00:38:41] object.
+[00:38:42] And I built the library back in 2014.
+[00:38:46] Because, you know, this is where I want things to go, so to speak.  And the funniest thing is, I'm just going to show this really quickly here.  Let me see if I can pull this up.  But...
+[00:39:00] If I go back to...
+[00:39:02] My GitHub profile.
+[00:39:06] I think it's here, and if I search for...
+[00:39:10] Let's go repository.
+[00:39:15] Hacker news.
+[00:39:18] Good news.
+[00:39:28] Solid Hacker News app.
+[00:39:32] This was the first app demo for Solid.js, I think.
+[00:39:38] five years ago,
+[00:39:39] And what you're going to see
+[00:39:42] is
+[00:39:43] the
+[00:39:44] entry of the app.
+[00:39:46] Sorry, some service worker garbage.
+[00:39:48] Um...
+[00:39:52] Basically, these folders of...
+[00:39:56] I guess this is the app folder index.js
+[00:40:00] Um,
+[00:40:01] There we go. So...
+[00:40:02] Hacker News component.
+[00:40:04] makes a new router.  So this had a programmatic router.  But basically it's JSX
+[00:40:09] Um,
+[00:40:10] with slots.
+[00:40:12] And then I'd export a custom element that just wrapped my solid component.  This is essentially a solid component.  And then.
+[00:40:20] The router was this router that I wrote ages ago, Web Component Router, still up on
+[00:40:24] And it's a nested router with parallelization and async and handling and all this stuff. And so if we went to the stories page, we build a lot of Hacker News demos on here.
+[00:40:39] You should kind of get the idea. There's some store that we're using and we're using a computer to get the stories and setting state. This is like the use effect. This is really, really old. There's a four, but this is a solid component that just happens to...
+[00:40:54] have a little wrapper on the export and
+[00:40:57] uh anchor is yeah native extensions and then story item  all the child components are actually web components
+[00:41:05] This is like...
+[00:41:07] This is like solid 2018.
+[00:41:17] Thank you.
+[00:41:17] Thank you.
+[00:41:18] Thank you.
+[00:41:32] Yeah, I mean, solid element is this. That is what this was.
+[00:41:38] But it's important for me to at least get this perspective out there because
+[00:41:43] Like,
+[00:41:45] I was...
+[00:41:46] completely on board until I wasn't, so to speak.
+[00:41:52] Um...
+[00:41:56] Okay.
+[00:41:57] We'll get to that.  I know there's a comment about not bringing up  let's not keep up Rich's article.  Yeah, there is a  lot of
+[00:42:07] Like when I read this article...
+[00:42:10] I remember thinking about half of the stuff and being like, yeah, I don't know about that.  Yeah, I don't know about that.
+[00:42:17] Um...
+[00:42:20] But I mean
+[00:42:21] Thank you.
+[00:42:22] His point on composition...
+[00:42:26] And
+[00:42:27] a bit of this.
+[00:42:29] Like not his example necessarily, but there's still some merits of it because categorically we're still coming into stuff.  There is a lot in this article that is either outdated or like.
+[00:42:41] I think this is one of the biggest challenges, right?  Because we have a bunch of...
+[00:42:45] touching things and they all kind of get conflated.
+[00:42:47] together because like they're adjacent to each other.  Like I saw a post about being able to call the connected callback yourself,  you know,  and people like,  well,  it's a class without a private member.  Of course you can do that.  And it's like,  it's weird,  but it's also like it's JavaScript.  So like,
+[00:43:02] Who cares?
+[00:43:04] I don't...  This is what makes it hard to get lost  in the mud a little bit  when we get too much on the details here.  I will say that...
+[00:43:13] This was one of the earliest examples that I remember where it actually
+[00:43:18] talked about a few of the important
+[00:43:21] you know,
+[00:43:23] pieces, so to speak, I I I really doubled up on that whole.
+[00:43:30] you know, basically it's the same thing, right? Dom life cycles, um,
+[00:43:36] composition,
+[00:43:39] And the thing is, we've had long discussions about this,  about what's solvable or not.  I think, yeah, how do we want to frame this conversation?  This is why I brought this up here,  because I think there's three primary use cases we talk about.  We talk about consuming...
+[00:43:54] Web components.
+[00:43:56] We call about, we talk about authoring,
+[00:43:59] Web components.
+[00:44:01] We talk about, what else do we talk about? We talk about like,
+[00:44:05] Um...
+[00:44:08] Um...
+[00:44:11] Web Components
+[00:44:15] as framework.
+[00:44:17] Components.
+[00:44:19] Um...
+[00:44:22] I feel like these are like the three headline things. I feel like if we're gonna have this conversation today, it'd be like,
+[00:44:29] Um,
+[00:44:31] Maybe we should also talk about like,
+[00:44:35] Let's just go author mode.
+[00:44:39] Thank you.
+[00:44:41] Thank you.
+[00:44:43] Thank you.
+[00:44:50] Traits, right. This is just me kind of roughly getting in the head of where a lot of the contention is because I started also realizing in myself that a lot of the difficulties with these arguments is that these things get conflated.
+[00:45:12] Thank you.
+[00:45:16] The return instance of check, I think, is a fair criticism. I understand why it's like that, but it is...
+[00:45:24] And not just in like a, that's just JavaScript as in like, that's, that's
+[00:45:28] like happens nowhere else and just here very strange but
+[00:45:35] Right, framework-supportive web components is
+[00:45:38] as I say a combination of this, right? Because if you
+[00:45:42] If you if I think the problem is,
+[00:45:45] almost every framework started here.  I think this is really not like React or Angular, the older ones,  but the generation of frameworks that came out after 2014, so Vue,
+[00:45:58] Svelte
+[00:45:59] Um...
+[00:46:01] You know, all the other SFC ones like Riot and like, you know,
+[00:46:07] Obviously stuff like lit, like...
+[00:46:12] I'm going to put solid in this list.
+[00:46:16] Thought.
+[00:46:18] that we could do this. This is where the disillusionment started.
+[00:46:21] And it's also the place where it's easy to write some rough notes and just be like, okay, what do we like? Sorry. Do I have the tool to like?
+[00:46:31] Adjust this sideways.
+[00:46:33] Am I going to have to manually update the numbers?
+[00:46:36] Can I get tab it over? But I still, okay. Lovely. Um,
+[00:46:41] I think it's worth pointing out composition here is one of those kind of contention topics, web components, frameworks, components, composition.
+[00:46:53] The...
+[00:46:58] Thank you.
+[00:46:59] Thank you.
+[00:47:00] Thank you.
+[00:47:02] Thank you.
+[00:47:03] Okay.
+[00:47:04] Well, custom elements are one of several specs, right?  The funniest thing is,
+[00:47:13] I'm
+[00:47:13] Yeah, I mean...
+[00:47:16] Before we talk about this,
+[00:47:18] What are web components?
+[00:47:23] Thank you.
+[00:47:24] And I guess the thing is, like,
+[00:47:27] Um...
+[00:47:29] Uh...
+[00:47:33] bunch of pecs, you know, I'm not gonna give a formal thing, but just for sake of the stream here a bunch of
+[00:47:40] standards
+[00:47:42] around
+[00:47:44] Being...
+[00:47:45] able to build modular
+[00:47:51] Dom.
+[00:47:54] element.
+[00:47:55] custom modular
+[00:47:58] custom whatever.
+[00:48:00] bunch of their DOM elements.
+[00:48:01] more or less...
+[00:48:04] Like loosely.  So yeah.
+[00:48:06] Thank you.
+[00:48:07] I can see where the naming thing comes out because those specs were like, what do we have?  HTML imports.
+[00:48:17] templates,
+[00:48:19] Custom elements.
+[00:48:22] and shadow dumb.
+[00:48:26] And HTML imports
+[00:48:28] Um...
+[00:48:30] Does this work?
+[00:48:36] Would you like this?
+[00:48:37] So I just, yeah.
+[00:48:39] No?
+[00:48:41] There we go.
+[00:48:43] We can strike through.  Because that ended up...
+[00:48:46] You know, at a certain point, he was like, why aren't you just using JS?  Can I kind of convolute it?
+[00:48:52] Funniest thing is,
+[00:48:53] Templates.
+[00:48:56] Until you start getting to the weirdness of like,
+[00:48:59] Yeah.
+[00:49:01] around like
+[00:49:02] what it means to be part of the document.
+[00:49:06] part of the document
+[00:49:08] or not
+[00:49:10] Um.
+[00:49:12] Everyone loves templates.
+[00:49:17] Pretty much, you know.
+[00:49:19] Like, everyone had a need for templates.  The interesting thing is...
+[00:49:26] there's no actual templating language.  So templates are,  don't have the ability to interpolation unless you're like processing the  attributes yourself,  which has some interesting implications,  but generally speaking,  um,
+[00:49:45] Quite often when people are talking about
+[00:49:48] Web Components.
+[00:49:50] even though templates are related for the most part,  they're talking about custom elements and shadow DOM.  Um,
+[00:49:58] Thank you.
+[00:50:03] Thank you.
+[00:50:06] My point of compatibility with university and presenting a really important... but use them. Yeah, yeah, right. It's consuming webcodes, point one, yeah. I think, I think, and we should talk about this because...
+[00:50:15] Um,
+[00:50:17] Yeah, no other component technology claimed this or even tries, of course, because like my response to this is like, yeah, so what?
+[00:50:23] Um, to be...
+[00:50:24] to be frank. But we will talk about consuming web components because it is.
+[00:50:33] It's catching up with...  Thing.
+[00:50:44] Okay, I'll bite. I think you're looking at webcodes for framework classes. That should  not be the prototype opinion.
+[00:50:53] What are framework glasses?
+[00:50:59] Thank you.
+[00:51:00] Thank you.
+[00:51:02] God.
+[00:51:02] This is why I started here, because...
+[00:51:07] Or is this...
+[00:51:09] you know, the article that I wrote, Framework Glasses.  It was literally, how do I not write a framework?
+[00:51:26] Thank you.
+[00:51:27] I see value in shipping universal UI components libraries. Yeah. I can see value in that as well. But I have a question. Just kind of how many new UI component kits come out for React every year?
+[00:51:42] like widely adopted ones.
+[00:51:50] Thank you.
+[00:51:52] The only reason I'm kind of putting this out there is because...
+[00:51:57] Yes.
+[00:51:59] Thank you.
+[00:52:00] How should I put it?
+[00:52:05] even within a single framework that's large enough, a single ecosystem, whatever,
+[00:52:10] It's not like now that I have a web component...
+[00:52:14] library, people won't  continually reinvent the wheel  and make more and more and more of these  UI libraries.  We've seen it within a single framework  itself. It's obviously very nice  if you could be like, oh, now I don't have to use  React, I can use blank. I get that argument,  but
+[00:52:30] it doesn't fundamentally change the fact that we're going to keep on rewriting crap over and  over and over and over and over again. That's, that's a,
+[00:52:36] That is a given.
+[00:52:38] Like...
+[00:52:39] Bye.
+[00:52:40] Like, it's just gonna get written over and over and over again. There's no end to that. Don't fool yourself to think,
+[00:52:46] otherwise.
+[00:52:48] So like...
+[00:52:50] We'll talk about the implications of what it means to be a universal UI component library too as we continue, but yeah.
+[00:53:00] Thank you.
+[00:53:02] I mean, the webcads are simply custom elements with ICS-1000 and JS logic. But what does that mean?
+[00:53:08] Right.
+[00:53:09] Actually, maybe I have the benefit of understanding what that means, because I think I recognize your name.  You responded...
+[00:53:17] to my article.
+[00:53:21] Thank you.
+[00:53:24] Thank you.
+[00:53:26] Thank you.
+[00:53:28] Hmm, I'm not convinced. I think you're trying to make web components more than what they are. Okay. Custom elements with sandbox styles and some JS logic. Okay, so yeah, this is this is exactly what you're saying. Gotcha. I for one,
+[00:53:40] Think frameworks might not be the future.
+[00:53:43] Oh, okay. The statement I get more and more is that frontend is a complete mess because frameworks are overwhelming abstractions.
+[00:53:49] Okay. Keeping us away from web standards.
+[00:53:52] Okay, web standards are closing the gap and offer native solutions to challenge which frameworks came to solve.
+[00:53:57] What?
+[00:53:58] I thought you just said that they're not
+[00:54:00] I think you're trying to make webcoms more than what they are.
+[00:54:03] What is the closing of off the transit series itself?
+[00:54:08] I told you guys...
+[00:54:12] about this at the beginning, right? This is very common kind of rhetoric.
+[00:54:17] And if you are a web component,
+[00:54:19] supporter, be very careful.
+[00:54:21] not to do what I call the two sentence later thing. You guys do it like
+[00:54:25] freaking clockwork.  It's like...
+[00:54:29] The E.
+[00:54:30] Pick one or the other.  You don't get to pick both.  This is a contradiction.  It's...
+[00:54:38] *laughs*
+[00:54:38] I can say it's time to consider going back to square one.
+[00:54:46] This was square one.
+[00:54:48] Do you see how this just doesn't compute?
+[00:54:56] you
+[00:55:03] Thank you.
+[00:55:05] Thank you.
+[00:55:14] I mean, this is how it starts.
+[00:55:19] Everybody needs a framework
+[00:55:21] But no one needs a general purpose framework, right? Like that's, that's, it's like the, I forget who said that first, but it's like, it's like the thing people like, if you don't make a framework, if you like, don't go pick a framework, you'll end up making a framework at your company indirectly. It's the construct of the pieces coming together. It's just the natural thing. No matter how many standards you put into the browser, you will, someone will make a framework on top of it. If it's just the team.
+[00:55:50] The company...
+[00:55:51] someone thinking it's generalizable to pull it into open source.  There's always layers of abstraction.  You don't want too many because things get distracted from it.  So you want to raise the floor.  You want to keep low to the ground.  All this understandable.
+[00:56:05] But like...
+[00:56:06] at a certain point
+[00:56:10] right it's like what i talk about when i say that these things are discovered not invented often is  that you start seeing the commonalities and these are the this this is the basis i think we're uh  where things like standards can come from when you start hopefully seeing the flow of stuff come  together and be like okay
+[00:56:28] There is something abstractable here that's
+[00:56:32] I have to say solid enough, but  that you can  say like, okay,  we can make a decision here, but like
+[00:56:41] I am incredibly skeptical of that. I mean, incredibly skeptical of that within our own stuff, you know.
+[00:56:48] uh,
+[00:56:49] Yeah.
+[00:56:54] Thank you.
+[00:57:00] Thank you.
+[00:57:02] Thank you.
+[00:57:10] They could. Won't Webinar less than the rewrite? They could. Or they could not, right? It depends on what you consider the evolution of things. Like, sometimes there's new ideas, like the way signals completely caused us to have to rewrite stuff. Like, why? You wouldn't even want the components to work the way React does in a signals. It just doesn't make sense.
+[00:57:28] Right. Like, so maybe that's, that was an unavoidable one, but honestly, I can't tell you the difference between the different React UI libraries, but they've, they've gone headless. They've gone like someone knows better than me. Like I don't know the difference between Radix and React.
+[00:57:45] Mantine and what's what I'm just throwing names out here.  Arc and.
+[00:57:52] Chassien and...
+[00:57:56] Things you copy, tailwind components or like tailwind UI, like things you copy and paste, like...
+[00:58:05] My gut is...
+[00:58:07] Actually, no.
+[00:58:09] Maybe a little bit, but I mean, I don't know.
+[00:58:18] Thank you.
+[00:58:21] Thank you.
+[00:58:22] Thank you.
+[00:58:23] Thank you.
+[00:58:30] Right. But yeah, that's not where we were in common as a single firm, right? The issues of any companies that have had written on its front and it's about multiple apps and either share. Yes, completely. And.
+[00:58:38] And the thing is, like,
+[00:58:41] every these companies also have all their own design systems they don't get to go um build
+[00:58:47] they don't get to go pick up material UI off the shelf and use that. They, they, they, I remember working at the demo on the indirectly, like I was adjacent to the, the UI team and the like,
+[00:58:58] design teams at eBay.
+[00:59:02] You've got to remember, the eBay team was like, God, just picture that web components made sense for us, right?  It's why when the declarative shouted on, we had the meeting and we had the chat with the fine folks from kind of the...
+[00:59:18] I guess then Google kind of web component teams met with, you know, Justin and Gray and so on. And like,
+[00:59:24] there are
+[00:59:27] use cases here. This is like one of the most compelling ones because once you get to this point where
+[00:59:31] Everyone wants to use different technologies and you have all these things and you have a single design system.  They want to keep sync across mobile, across different web platforms.  Like you've got, you know...
+[00:59:42] say like the page view thing on eBay that hasn't updated in like a decade.  And then you have like the new motors section launches and you're like,  okay, but we need to keep the design, the system. And then you're like,  oh, but mobile apps on different platforms and uniquely,
+[00:59:55] there,  I mean,  the mobile thing actually makes things a little bit trickier.  Um,  but there,
+[01:00:00] There is definitely a desire here.
+[01:00:02] when you get to a certain skill, same desire you have for having like micro front ends, right?
+[01:00:08] The challenge here is actually keeping accountable for the impact of this.  This is actually one of the problems I had with like module federation.  I mean, it becomes kind of like a necessarily a necessary, um,
+[01:00:20] Um...
+[01:00:21] piece you need to organize the teams, but then you're like, versioning and management of versioning becomes complicated. So you're like, let's bring in a tool to do it. But then you start going like,
+[01:00:31] What is the ideal world here? Because once you have multiple versions of the same thing, you're duplicating code. Once you have to upgrade them in lockstep, you potentially break stuff.
+[01:00:45] It's a good start.
+[01:00:47] And I think the initial venture into the zone will keep things standardized and let you move these things at a very slow rate.
+[01:00:53] But then you get into this zone where it's like,
+[01:00:57] It's like you...
+[01:00:58] It's much harder to upgrade. Now, the idea, I think the way I would approach this is write new components to replace the old ones over time.
+[01:01:08] and phase them out.
+[01:01:10] But again, it's tricky because...
+[01:01:13] In the meantime, like if half the teams get to V2 of components and half them V1 and then V3 comes out, are we talking about bringing like three different versions of the underlining tooling and frameworks and stuff that you needed to build it onto into your browser page?
+[01:01:27] like in libraries,  like,
+[01:01:30] To be fair, this might not be a winnable problem.
+[01:01:34] Right? Like you just know that that jQuery is never leaving your page.
+[01:01:38] But...
+[01:01:39] Like...
+[01:01:41] It's very hard to be in that position at the beginning and be like, let's do this, guys.  Yeah.
+[01:01:46] Like...
+[01:01:48] Like...
+[01:01:50] it's almost like you're forced to the knife point  and then you're like, okay, this is where we need to go.
+[01:01:57] And you really need to at that point
+[01:02:00] consider
+[01:02:03] like the implications of this decision, not just for now,
+[01:02:07] but for the next decade or so, you know, while you phase and go through, you know, these migrations. This is not a quick...
+[01:02:14] thing this is something that you're going to live with forever and if you view it in that time scale  i think you need to start going okay
+[01:02:21] How many rewrites or how many resectionings I'm going to do in that decade? Like you have to make you should make the decision with the full knowledge of this is not just like, okay, now I don't have to worry about this because it's not the case. The future proofing comes to your decision points that you make at that point in time, 10 years ahead of time.
+[01:02:40] not down to the technology choice.
+[01:02:46] Thank you.
+[01:02:47] Thank you.
+[01:02:53] Thank you.
+[01:03:22] *sniff*
+[01:03:24] Thank you.
+[01:03:39] Yeah, and this is something that's important. I didn't mention this earlier.  The amount of people who came out after my article and told me about success
+[01:03:46] Cases?
+[01:03:49] Um...
+[01:03:50] was a lot, right?  And yeah, you can definitely scale it at Microsoft.  And you can definitely, like, I think a lot of times this is the...
+[01:03:58] only like this is kind of like the rock in the hard place like this is doing stuff with micro front like
+[01:04:04] front ends or with these kind of things.  It's like the only piece that actually...
+[01:04:09] Um,
+[01:04:11] It's like it might be the best way out.
+[01:04:15] for like
+[01:04:18] a period of time.
+[01:04:19] And maybe that's all you need because if you if let's pretend you can buy five, six, seven years with this move.
+[01:04:27] That might be enough that you can like...
+[01:04:29] Uh...
+[01:04:31] you know, get to the next thing.
+[01:04:33] I think that over a matter of time,
+[01:04:38] Thank you.
+[01:04:40] it's like that tax that keeps on growing, right? Like, as I said, versioning is still like, when you have module federation, versioning is still a concern, it doesn't go away.
+[01:04:49] When you have web components
+[01:04:52] You know, maybe it doesn't matter.
+[01:04:56] Thank you.
+[01:04:56] I mean, this is like, pretend you have, you know, three versions of your JavaScript framework, you know, on the page or three JavaScript frameworks, you know, like, what are we talking there? Like, not React, not something giant. Picture something a little smaller, maybe like 20k. So like, what's 60 kilobytes?
+[01:05:16] You know?
+[01:05:17] It could have been 20 kilobytes. What's 60 kilobytes?  The component code on your page is probably...
+[01:05:24] five, six, seven times that amount, right?
+[01:05:28] So who cares?
+[01:05:30] at your scale and what you're doing
+[01:05:33] I mean, this is maybe arguably where the whole thing comes in.  Because you're like, on the small scale, you don't care because...
+[01:05:40] it's nothing important on the large scale scale.
+[01:05:43] you don't care because you can't really do any better anyway.
+[01:05:48] But...
+[01:05:49] What's irksome to me is it's never the best choice.
+[01:05:53] Do you know what I mean? Like from a technical standpoint, it's never the best choice.
+[01:05:56] Like if you could just not have the web components
+[01:06:00] Your site will be smaller, it will be faster.
+[01:06:02] Thank you.
+[01:06:03] So like if we just accept, it's fine to recognize that you have a need, but it shouldn't be something that we're excited about.
+[01:06:12] Right. It's not like I'm going to start my new app and I'm going to build it with micro frontends.
+[01:06:17] And you're like,
+[01:06:19] Do you need, like, the first question should be, do you need micro printends?
+[01:06:23] And I feel like web components should be in that same category.  You're like, I'm going to build my new app and I'm going to use a web components.  Like, do you need web components?
+[01:06:30] Like, it should be in the same...
+[01:06:33] the same kind of category. You could say, "Oh, do you need a framework?"
+[01:06:36] But I think I've already established that you're going to build a framework anyways.  So that one at least is probably a resounding yes.
+[01:06:44] These other ones? I'm not sure.
+[01:06:47] Maybe not.
+[01:06:57] Thank you.
+[01:07:25] It depends. Do you agree that a well-crafted web component library would reduce the need for companies to rewrite their component lib?
+[01:07:35] For at least for a time period.
+[01:07:38] because...
+[01:07:41] I would argue that generationally, you probably don't need a rewrite. I think...
+[01:07:46] that
+[01:07:49] Within a... within...
+[01:07:52] like a generation in JavaScript land or thing,  it doesn't...
+[01:07:57] It means that like today
+[01:08:00] for the next three to five years.
+[01:08:03] you could probably share it effectively across
+[01:08:07] Um...
+[01:08:08] all your stuff written in different frameworks.  Why that stuff is all written in different frameworks...
+[01:08:16] I understand it. Probably was because someone wanted to do something new.
+[01:08:21] and then someone new and then it you know we get to a point where we get to like you know
+[01:08:25] the ninth new language, you know, I, I, I, as much as we discredit, you know,
+[01:08:31] Ah.
+[01:08:32] I mean, no, I shouldn't use that as an example, because I know how much internal splitting there is there.  No, never mind. Yeah. I mean,
+[01:08:40] I think...
+[01:08:41] in terms of an immediate need to support
+[01:08:45] it's easier to do that.  Like, see, the unfortunate thing is like,  if you had, let's pretend you were using solid in React.
+[01:08:51] If you came up, like if anyone's ever seen, I made a solid React kind of bridge that just has the frameworks talking together.  That's going to be way more efficient than a web component layer is ever going to be.  Because by removing the web components...
+[01:09:04] you know, they can talk to each other directly through JavaScript without, you know, playing the song and dance.
+[01:09:11] But am I going to write that for view and stealth and every different one?
+[01:09:15] Maybe if I was working at a company where I took this seriously enough, maybe I would.
+[01:09:22] Right?
+[01:09:24] Like...
+[01:09:27] I worry that
+[01:09:30] in a sense that maybe making it like boil down to the lowest common denominator  actually just makes it too convenient to do less than great things.
+[01:09:42] Thank you.
+[01:09:43] Thank you.
+[01:09:54] All right, all right, all right. Sorry, it's really hard to keep up with chat with this.
+[01:10:03] Thank you.
+[01:10:04] Thank you.
+[01:10:06] Thank you.
+[01:10:08] Thank you.
+[01:10:20] Yeah, people are talking about React, not being me.
+[01:10:28] Thank you.
+[01:10:29] Yeah. Again, a lot of specific things.  We always have to be careful, too.  I actually have to warn people about this when they choose solid,  which is, like, the fallacy of the rewrite, so to speak.  Like, every time you rewrite something, generally you get better results.  So, like, when people show me, like...
+[01:10:48] oh check this out we rewrote this is solid and show these better metrics and i'm like
+[01:10:53] I'm glad, you know, that makes me happy to see it doing what it intended to do. But I'm also say like,
+[01:11:01] I, it would be really interesting to see how good it would have been if you rewrote it in React.  Because my suspicion is like, there are cases, especially performance sensitive ones, where it can make a difference.  But a lot of times our biggest wins are from when we realize how to do things better because we're writing it the next time or the second time.
+[01:11:18] Um,
+[01:11:22] Thank you.
+[01:11:33] Yeah, okay. Let's continue going because I'm never going to stop with the chat here.
+[01:11:38] Thank you.
+[01:11:39] No, I mean, it's interesting. The bridges...
+[01:11:44] are
+[01:11:47] Thank you.
+[01:11:48] What?
+[01:11:49] They're actually kind of similar in complexity.  I mean, some ways they require, they're more complex because you need to know more about the specific frameworks to work, but they're way more efficient, right?
+[01:11:58] And because they're denoted as specialized, there's like limits to like...
+[01:12:05] So
+[01:12:07] I think this does get into like what I was talking about on the list, right?  Because if you I realized the other day that if I treated web components as non-native,
+[01:12:14] I think frameworks would have a lot easier way of handling them if they treated them almost like a custom renderer. Like if they were like, okay, we have DOM and like DOM APIs, we have like SSR and then we have like
+[01:12:25] WebGL.
+[01:12:27] If you treat web components like they're not native, like they're web DL or whatever, like in that kind of category and kept the isolation, then the.
+[01:12:35] the cost that I talk about wouldn't be as felt because by default you'd be like, I handle normal stuff. And then web components are like this exception case that don't work like the rest of the platform. And you need a custom renderer for it or something. There's reasons why that doesn't quite work. But conceptually, I think that gets us closer to where it needs to be. Because even though...
+[01:12:55] Working through the bridge, say React, it's difficult because React doesn't know what a DOM node is and Solid doesn't know what a virtual DOM node is.  So there's a funny thing when you're passing children through.
+[01:13:04] Um,
+[01:13:05] Trying to make...
+[01:13:07] either play nicely...
+[01:13:09] in the way that I'd want to have them play nicely with web components isn't really much different, especially when you consider stuff like SSR and stuff. Most of the challenge comes around build time considerations.
+[01:13:22] Yeah, I think that was actually one of the challenges or concerns I had when I was talking about this just now about between those custom thing is.
+[01:13:31] this kind of,
+[01:13:32] I think the best solution here might involve more build tooling.  And I think that's a lot of people I know,  at least in the solid community around web components,  aren't really happy about having more build tooling.  They're trying to use less build tooling.  It's kind of ironic that like the compensate...
+[01:13:46] for the extension and trying to keep things clean  and efficient.
+[01:13:51] like the best way to maybe handle it
+[01:13:55] is kind of at odds with like what the community wants to get out of it.  It's it's it's very troublesome to say the least.
+[01:14:05] Thank you.
+[01:14:08] Yeah. Purpose is not the only consideration. Team structure and size come to play. Yeah. Using technology to solve organizational issues. As I said, this is why this is very much a micro front ends kind of thing, right? It's not about what I'm a technologist. What's the best way this can, like, what's the best possible user experience I can give the person? What's the best possible performance? What's the best possible, like everything? It's about like, how can I make my developers more efficient and able to continually deliver?
+[01:14:38] customers the best thing that we can reasonably do.  It might not be the best conceptual project product that we can make, but it's.
+[01:14:45] the best way to speed up releases, speed up--
+[01:14:49] I can get that.  It's just, you know me, I'm never going to get excited about something that isn't the best because it's the best, but it's the best because it's the best compromise we have.  It's a lot harder to get excited about that.
+[01:15:05] Thank you.
+[01:15:07] Thank you.
+[01:15:08] Thank you.
+[01:15:34] It's not... I saw this mentioned a couple of times.  I am not saying there's a problem with...
+[01:15:43] Mike
+[01:15:44] people authoring web components
+[01:15:48] Well, there are some problems from a framework standpoint.  You're right.  I don't need the right code to actually show what I'm talking about, though,  because it's not like...
+[01:15:58] Maybe I can find some examples.
+[01:16:03] Thank you.
+[01:16:04] Thank you.
+[01:16:04] Okay, yeah, sorry. I'm gonna get completely submerged by chat if I keep on going there.
+[01:16:10] I know I got here because I was talking about
+[01:16:15] what's a framework's perspective? And largely,
+[01:16:21] I wanted to challenge that kind of
+[01:16:24] thinking because like I mean okay let's go there next I I actually think this is fair um
+[01:16:31] Uh,
+[01:16:32] What's it?
+[01:16:33] Web Components...
+[01:16:36] are not the future
+[01:16:40] I want to see if they can find the...  They're the presents.  Yeah, no, I don't want to do that one, though.  I want to...  I want to find...
+[01:16:48] this article on dev because it is on dev.
+[01:16:55] Corey wrote this article.
+[01:17:05] Thank you.
+[01:17:08] Yeah, no, I completely follow with that. Maybe that is the framework mentality. Maybe we've defined the framework mentality. The framework mentality is...
+[01:17:20] is
+[01:17:21] that
+[01:17:22] *sniff*
+[01:17:23] Like...
+[01:17:28] we look at the platform as a tool and then we go,  okay,
+[01:17:32] What is the...
+[01:17:35] I mean, everyone does this, though.  What is the best possible way to leverage this?
+[01:17:39] you know,
+[01:17:40] I mean, there's different targets.  Yeah, I don't know.  Like, obviously...
+[01:17:47] Like, there are good fits.  It's just like...
+[01:17:52] You know, maybe this we need to add to the list, right?
+[01:17:57] Where are web?
+[01:17:59] Please.
+[01:18:00] Really good.
+[01:18:02] So
+[01:18:04] Let's talk about that. This is like a
+[01:18:06] Micro
+[01:18:08] front-ends...
+[01:18:10] large
+[01:18:12] large companies, right?
+[01:18:16] companies
+[01:18:18] And then we also said
+[01:18:21] and
+[01:18:22] environments,
+[01:18:24] Where
+[01:18:25] multiple
+[01:18:27] frameworks
+[01:18:30] Um...
+[01:18:31] short-term
+[01:18:36] sharing of design system.
+[01:18:38] I think we got that.
+[01:18:49] you
+[01:18:52] Yeah, I like that. OK, so a couple we talked about both of those today, so that's good that we kind of get this down, right?
+[01:18:59] So
+[01:19:01] Yeah, micro-pens-ish...
+[01:19:05] ish environments, multiple frameworks.  Like so if you again, these are kind of the same
+[01:19:10] place, to be fair.  The places where
+[01:19:13] You have
+[01:19:16] Usually a fairly...
+[01:19:19] You have a people problem, right?
+[01:19:24] It's not a problem, but you know what I mean?  You're kind of coordinating at this sort of scale.  The thing is, you could argue that if everyone was on the same framework, then you wouldn't have that.
+[01:19:34] problem, but
+[01:19:36] frameworks will...
+[01:19:37] change over time
+[01:19:40] UI, I mean,
+[01:19:41] This will change over time. The only thing micro front ends
+[01:19:45] you can at least swap them out.  And I think this is the key to this.  This part of the debate of where they're really good is,  I'm much stronger on this micro frontend-ish mentality,  because the challenge with like,  is micro frontends usually have specific touch points.  You go, okay, there's this app,  and then you can replace this app.  If your web components are everywhere,
+[01:20:07] Like, I think the problem is why what I'm saying isn't as obvious enough is because I don't think we've gotten to the point.
+[01:20:15] where
+[01:20:17] You get to that first time where you're like, okay, crap.
+[01:20:19] we need to replace all the web components across the site.
+[01:20:23] It will happen.
+[01:20:25] I am confident it will happen.
+[01:20:27] And
+[01:20:28] When we get to that point, I think...
+[01:20:32] I think this is where that kind of comes up.
+[01:20:35] Um,
+[01:20:36] But
+[01:20:38] Until we get to that point, we do have the second case.  See, what's beautiful about the microfriend-ish case is there's less touch points.  There's less boundaries.  You can go like, okay, this page has...
+[01:20:49] Eight micro front ends on it.
+[01:20:51] Like, not happy about it, but it has eight.  And when this part gets, you know, out of date, we just swap it in.
+[01:20:57] If
+[01:21:00] If you're an example, if it was like a different, like a complete opposite extreme where you're like, okay,
+[01:21:04] We don't have the micro front ends and...
+[01:21:07] you know, we have,
+[01:21:09] Yeah, I guess even in the case of the shared components,  you probably have micro frontends as well.  It's like micro frontends plus web components.  Because if you had everything in the same framework zone,
+[01:21:21] like are the same page without the micro front ends, then you probably wouldn't
+[01:21:26] have the web components or you'd be using the web components as micro front end. So, yeah, I guess this is really
+[01:21:34] Like you're already in a zone where you're, it's not just being micro frontends-ish, you actually have micro frontends or some kind of similar consideration already in play. That's where web components are really good.
+[01:21:56] .
+[01:22:05] Well, I'm just saying that with like, there's two different forms of this.  Either you need to...
+[01:22:12] update
+[01:22:15] say underlying libraries you use to author said web components.  There's you need to add new components that
+[01:22:24] or like update components to add new features, maybe some design changes, and you want to use the latest features of the libraries that are using to author it. I mean, it might simply be a situation where
+[01:22:38] the
+[01:22:40] UX consideration.  I was talking about why we changed the stuff  being installed at 1.9 change.  We used to do stuff this way, kind of like a material thing,  but now we're much more into  a RADX style or something.  And you're like,  the teams want to use...
+[01:22:55] the V2 versions of the components that are done in like a different kind of approach.
+[01:23:02] Um,
+[01:23:03] You know, like, what are sources of this sort of changes? Obviously, there's different pages and different teams that update the new design system earlier later. But they could stay beyond the same versions of underlying libraries, right? Like, you always have to consider the underlying library thing. Like, obviously, if you can write pure vanilla, that's fine. But then there's also a lot of duplication.
+[01:23:33] consider that
+[01:23:35] Um,
+[01:23:38] You only want a few versions, you know what I mean? You don't want to be like, "Guess what?
+[01:23:45] Every component is its own island.
+[01:23:47] Go, right? Picture you got, like,  50 components on the page and 50  copies of the framework. Like,
+[01:23:54] you're going to be sharing code
+[01:23:56] you know, under the hood, I'm hoping. Not every, like, even our, you know, 15 kilobyte framework or 20 kilobyte, whatever, like,
+[01:24:07] I forget what lit was last I checked.  I think it's around 16 or 17 kilobytes to do.
+[01:24:12] do like a to-do so it's probably like 4 kilobytes  but maybe 12, 13 kilobytes  whatever, let's say 15 just for the sake of the thing  you don't want to go 15 times 40  and go like go  no one's going to do that  right?  you're not going to add half a megabyte of  javascript to your page just to  load the framework over again  that's an extreme
+[01:24:33] the more likely thing is you're going to share
+[01:24:35] code between them. Because as I said, you could do that naively. This is, in a sense, one of the problems with earlier Svelte, it wasn't that extreme, but they had a lot of duplicate code per component, which has actually made Svelte scale way worse than other JavaScript frameworks because they were repeating so much of itself. This is a concern. You use libraries often.
+[01:24:56] even though they have initial larger upfront costs, to reduce the amount of duplicate code. Right? Obviously the platform having features also reduce the amount of duplicate code, but you still have to be concerned with versioning here.
+[01:25:10] Thank you.
+[01:25:11] I'm talking MinZip  and also Nex is
+[01:25:17] initial page size like 90 kilobytes
+[01:25:21] I'm not...
+[01:25:23] We're not even talking SSR. If you want to add SSR  on it, yeah. Like, don't...
+[01:25:29] Thank you.
+[01:25:31] Thank you.
+[01:25:37] Thank you.
+[01:25:50] Thank you.
+[01:25:51] Would headless web components make them less likely to change?
+[01:25:55] Probably. I don't know.  Again, this aspect is not my thing.  How many... Did headless...
+[01:26:01] UI libraries in React make it less likely for people to make new
+[01:26:05] Um...
+[01:26:07] React UI libraries.
+[01:26:09] *lots of water*
+[01:26:12] Maybe. I don't know. I can't comment on that.
+[01:26:20] What about build size?  Realistic WebComp would want to use a UI for...  Yeah, I mean, this is what I'm...
+[01:26:26] getting at you and you want to share those things, right?
+[01:26:29] Like,
+[01:26:30] or not share them, but then like it starts adding up.  Like, I'm just saying like you have to, you can't, you,
+[01:26:37] I think everyone knows that in reality you have to be aware of these things no matter what tool you have, right?
+[01:26:42] Like...
+[01:26:45] Thank you.
+[01:26:45] Like the most isolated reusable you can make it is,  is take the full cost in,  in every web component,  right?  Be like,
+[01:26:53] But...
+[01:26:55] Like that's not...
+[01:26:58] That has a trade-off, right? You don't want like the bundle your lit with each component separately  You're gonna share the diversion of lit between a few of them. I presume right like so like if
+[01:27:09] so
+[01:27:10] Thank you.
+[01:27:11] The math hasn't really changed here.
+[01:27:16] Thank you.
+[01:27:26] Thank you.
+[01:27:27] you
+[01:27:30] I mean, we could try and compare that,  but I haven't even got to comparing that right now.  I'm literally talking about like,
+[01:27:37] uh, um...
+[01:27:39] you
+[01:27:39] company dash button.
+[01:27:46] I don't even know if they are failing what they came to solve.  Like, I think they might.
+[01:27:55] have initially we might have thought they came to solve something more than they did and they didn't. So I'm this isn't about the failed promise. That was a great article back in like 2018 of web components. It's not about that.
+[01:28:07] I haven't even really got to what I'm about yet, which is unfortunate.
+[01:28:12] Because, you know, we're still going, but...
+[01:28:14] It's...
+[01:28:15] It's the idea here is that there is inherent cost to these things.
+[01:28:22] decisions. So, um,
+[01:28:25] Yeah, I mean, maybe this is a...
+[01:28:27] Um...
+[01:28:29] Maybe this is something I can put in here.
+[01:28:32] Why...
+[01:28:34] not the future.
+[01:28:39] inherent cost to
+[01:28:46] Implementations.
+[01:28:49] inherent
+[01:28:51] cost to
+[01:28:54] or maybe opportunity cost.
+[01:28:57] to future
+[01:28:59] Design space.
+[01:29:07] Yeah, sorry, you're right. You're absolutely right. We are getting into Q&A again.
+[01:29:14] *sniff*
+[01:29:15] Okay.
+[01:29:16] Thank you.
+[01:29:17] Um...
+[01:29:20] Where was I going here? God, I got so sidetracked.
+[01:29:24] Yeah.
+[01:29:26] Yeah, I was reading this one, right?
+[01:29:30] It's the pointing that most of our framework maintainers.
+[01:29:33] Okay, why is it disappointing? Let's find out. These individuals are, after all, in some of the best positions to provide valuable feedback.
+[01:29:40] Hmm.
+[01:29:42] I wonder if we've ever done that.
+[01:29:44] They have lots of great ideas.  Appreciate it.
+[01:29:47] Plus, there's little incentive for them because standards evolve independently and don't align with framework opinions.
+[01:29:53] Probably true, but I think we should ask why they don't.
+[01:29:57] How could they? Opinions are the one thing that makes frame
+[01:30:00] She's unique.
+[01:30:02] With each other. Okay, I buy it. And therein lies the problem. If you're convinced that your way is the best and the only way, it's natural to feel disenchanted when a decision is made that you don't fully agree with.
+[01:30:14] Yes, yes, I agree. If there's a decision that's made that seems, especially like a
+[01:30:20] like at the baseline that you're building on that doesn't align like
+[01:30:24] I gave a bunch of those examples. Like, God, like if JSX had been mated into the browser, or if people try to make signals APIs like directly wire into the DOM, like, I would be very upset.
+[01:30:39] about that.
+[01:30:41] Um...
+[01:30:42] so like
+[01:30:43] Yes.
+[01:30:45] Yes.
+[01:30:48] The word component is loaded, I agree.
+[01:30:51] I don't think many will agree with that. If I write a component in framework A, I would like to be able to use M B and C and D without rewriting and including the other framework.
+[01:30:58] I don't think we'd agree with that objective.
+[01:31:01] I don't know.
+[01:31:02] I actually
+[01:31:03] I don't actually know...
+[01:31:06] if I agree with that. I mean, I could see it on one level, but if the question is,
+[01:31:11] Is a framework a single component or is it the interaction of components?
+[01:31:16] React has a rerender cycle of solids fine-grained rendering. They work completely different.
+[01:31:23] And
+[01:31:24] Like...
+[01:31:25] I guess from a functional part, like, I can see that if I had an element on my page that was functional,
+[01:31:30] and I want to be able to kind of put in a different framework.  But then again, I'm not sure because there's,
+[01:31:38] There's features that the frameworks offer that can only be accessed
+[01:31:44] If
+[01:31:45] you're kind of all in because the,  the orchestration like async management,  like with suspense,
+[01:31:52] Right? Like...
+[01:31:53] Resumability. Like, there's actually quite a large list of things that
+[01:31:58] I want
+[01:32:00] as a feature, and I can't look at...
+[01:32:04] the component in isolation.
+[01:32:06] Like, what if...
+[01:32:10] because a framework has resumability,
+[01:32:13] I could basically load no JavaScript for it and only have the smallest partial thing and it's super efficient.
+[01:32:20] Would I want to grab
+[01:32:21] this component from React and pull it over?
+[01:32:25] and not have that property? No, I don't think I actually would.
+[01:32:29] I think the framework gives me a lot more. So, okay.
+[01:32:33] So,
+[01:32:37] If I write a quantum parameter, I would like to be using BCD.  Yeah.
+[01:32:40] I think right in the conclusion of the referrer. Yeah, I actually
+[01:32:42] I don't know if that's a given.  I think that that is...
+[01:32:49] could be true of certain things, but I can't say that generally.
+[01:32:58] Thank you.
+[01:33:00] Nope. Sorry.  I started very specifically here.
+[01:33:06] I...
+[01:33:07] 100% disagree with this take.
+[01:33:09] It's not based on opinions from six years ago.
+[01:33:12] Always looking into it. DSD.
+[01:33:16] As I told you when we were at Marco at eBay talking all about DSD, this is, yeah, let's, let's, let's remove this from the conversation.  It's not because stuck in the past. Assume that we know as much as you and we've also gone a different direction. Just,
+[01:33:33] It works way easier that way. Let's not go here.
+[01:33:39] Thank you.
+[01:33:43] Thank you.
+[01:33:43] Yeah, I mean, it is kind of crazy.  Like, I think, but this is important because it's kind of the fundamental thing because it's kind of like,
+[01:33:51] what is a component? And it's like,
+[01:33:56] Is it an isolated, it's a modular piece. It is a reusable modular piece.
+[01:34:01] replaceable, arguably.
+[01:34:04] Good.
+[01:34:05] But is it meant to act on its own?
+[01:34:09] I don't know. I don't think so.
+[01:34:13] Not necessarily.
+[01:34:28] Thank you.
+[01:34:29] Confirmers do not have to decide the meaning or purpose of a component. No. Everybody.
+[01:34:35] decides the meaning or purpose of a component.
+[01:34:38] I mean, one of my favorite things, you guys,  if you want to work against arguments with the whole framework standard thing,  like if you want to do one thing that's fun to do is take...
+[01:34:50] a statement made like this that says frameworks blank when it's in this web component thing and then replace it with
+[01:34:56] standards or web components and say the same sentence back. Sometimes the results are
+[01:35:02] are
+[01:35:04] Oh, great. Standards do not decide the meaning or purpose of a component.
+[01:35:08] Wow.
+[01:35:09] Right?
+[01:35:12] I think I saw one today.
+[01:35:17] Uh,
+[01:35:19] There's another similar one I saw. Let me view post engagement.
+[01:35:25] Was it this one?
+[01:35:26] Mm-hmm.
+[01:35:27] Frameworks is all we need. Just one more and it will all be solved, I promise.
+[01:35:32] Let's try this again. Standards are all we need. Just one more and it will all be solved, I promise.
+[01:35:37] It's remarkable how well that works.
+[01:35:44] Okay.
+[01:35:46] Thank you.
+[01:35:48] Thank you.
+[01:35:51] Isn't it?
+[01:35:56] No, I don't. I don't. Not necessarily.
+[01:36:01] I could say maybe...
+[01:36:05] that a good
+[01:36:06] completely isolated
+[01:36:08] element,
+[01:36:09] is oblivious to the framework using it, but component being aware of the framework using it is how you optimize the crap out of things. Yeah, I...
+[01:36:17] I...
+[01:36:18] Like, like,
+[01:36:19] Just because it's a component doesn't mean it lives in complete isolation.
+[01:36:24] Maybe this is the difference between components.  Maybe the definition of components from the web components standpoint is it's something that can live in isolation.
+[01:36:38] Thank you.
+[01:36:41] Thank you.
+[01:36:46] Thank you.
+[01:36:48] The only reason that I'm mentioning this swap the word thing is because...
+[01:36:54] A lot of times...
+[01:36:56] Thank you.
+[01:36:57] Even though the scope is different, standards and web components stuff is much broader scope.
+[01:37:03] They're kind of in their own realm trying to
+[01:37:08] facilitate users in the same sort of way. So like maybe the, the
+[01:37:12] piece of the pie that frameworks are working on is smaller.  Like it's like a, it's not like as wide of a scope in terms of thinking, let's argue.
+[01:37:21] It is still fairly wide when you're trying to build a general purpose framework.  So a lot of times the things that you could say
+[01:37:27] that would be of this nature, like holistically, could equally apply because they, like, if you step back, they kind of look the same from a shape perspective.  Like if you were to give everything kind of a shape.
+[01:37:41] Um,
+[01:37:43] Yeah, it was just something that I can...
+[01:37:51] A good component is oblivious to other components, not the platform it's running on. Yeah, I like that. Yeah.
+[01:37:56] Right?
+[01:37:57] You want the isolation between components in that they have independent, dependent function
+[01:38:06] Um,
+[01:38:07] in terms of dependencies, in terms of
+[01:38:10] you don't,
+[01:38:11] Well, it's hard to say. What you don't have to worry about happening on the inside or outside could also be defined like reactivity or something could be defined
+[01:38:19] from outside your scope. It's literally just about being able to be able to compartmentalize your thinking
+[01:38:26] At authoring time, I would argue,
+[01:38:29] that makes components valuable. Because if you can step into an area of code,
+[01:38:34] and be able to
+[01:38:36] understand enough of what's going on
+[01:38:38] in just a small scope.
+[01:38:40] That is sort of the benefit of
+[01:38:43] of components.
+[01:38:45] Because...
+[01:38:46] Ultimately, it's going to run in conjunction with a whole bunch of other components, going to be part of a wider system that all interact with each other.
+[01:38:55] It's kind of like...
+[01:38:58] And assembly, like when you boil assembly code down, it's the most imperative instructional based, you know, all these things, everything's, you know, like the final instructions, that's a big mess of stuff that you probably can't make any sense of.  But you write stuff in like C or whatever and break into functions and break into all these structures so that you can make sense of it.
+[01:39:18] until you can actually like
+[01:39:20] put it as part of the bigger system.  So in a sense, components...
+[01:39:25] are kind of like that, right?
+[01:39:27] a concept like it's funny like frameworks are kind of a concept all these concepts are actually
+[01:39:34] more mental, like they're more for you for authoring. They exist so that you can
+[01:39:41] Organize your code, organize your thoughts.
+[01:39:44] Rich Harris had a great thing about disappearing frameworks.  And I guess I followed it up with saying disappearing components.  It's actually this incredible parallel here when you think about it from that perspective.
+[01:39:56] because
+[01:39:57] They're there...
+[01:39:59] for you not for the computer.
+[01:40:04] Thank you.
+[01:40:05] Right? Like, why do we need boundaries?
+[01:40:08] Like the ideal state of the world of things would be if the computer could have everything it needs to optimize in the most efficient possible way.
+[01:40:16] But humans are not computers.
+[01:40:18] So,
+[01:40:19] we need abstraction.
+[01:40:22] But we shouldn't think because of our need for abstraction that should actually dictate the shape
+[01:40:27] of what the computer needs.
+[01:40:30] I mean, there's always going to be layers and layers of abstraction, but like...
+[01:40:34] I think this is kind of like maybe kind of critical.
+[01:40:41] Thank you.
+[01:40:46] .
+[01:40:50] Thank you.
+[01:40:51] Standards are not opinionated.
+[01:40:56] Amen.
+[01:40:57] Mmm.
+[01:41:04] God, I wish I... How do we do polls on Twitch? I should do a poll.
+[01:41:11] Thank you.
+[01:41:14] Thank you.
+[01:41:20] Thank you.
+[01:41:22] Thank you.
+[01:41:25] Of course. OK, the way opinions work, at least from my perspective, is
+[01:41:32] When you have some kind of defined... I mean, it's hard when you're dealing with standards or a base platform because...
+[01:41:38] opinions are baked in.  The most basic, basic thing  is going to basically...
+[01:41:45] like assembly, you know what I mean? It can move some stuff around a register. Once you start abstracting out concepts like
+[01:41:53] you know, classes that have a heritage stuff, you start having opinions of stuff, but at a certain  point, like that becomes your new baseline, that abstraction becomes a baseline. And you can say  like, this is a set opinion and that, but so the challenge is the farther you get away from the  baseline, the more opinions you have, it's just natural. So the more ambitious, the standard,  the more opinions it has. Now you could argue that once it gets brought into the body, it's not  opinionated because it is the baseline, but by it's like it, it, you can't say that the decision
+[01:42:24] standards are not opinionated so you cannot switch a term lightly. No, that's the thing. They are opinionated, which is why you can switch the term so lightly.
+[01:42:32] That's exactly it, right?
+[01:42:37] Thank you.
+[01:42:49] Thank you.
+[01:42:53] Yeah, this is why we do this, because there's a lot of rhetoric here that I...
+[01:42:58] I do feel
+[01:43:01] is kind of like, man, what are people talking about?  And don't get me wrong, I've been hard on this side.  There's also stuff on the other side.  I told you, I was like,
+[01:43:10] I was actually like panicking during Theo's stream a little bit. He kept on being like, "Oh, go on vacation." I'm like, "No, man, you're spouting some stuff that I'm gonna have to explain later isn't true about slot composition and stuff. You can do composition, basic composition. That's not the concern."
+[01:43:26] Um, so I'm sorry this is kind of hard. It's just like Q and A is kind of,
+[01:43:30] Directed us this way because you know
+[01:43:34] Thank you.
+[01:43:36] - Yeah.
+[01:43:36] Opinions you can't disagree with.
+[01:43:41] Thank you.
+[01:43:43] Thank you.
+[01:43:57] But these opinions are not biased by business direction or different vendors.  Oh really? They're not?
+[01:44:03] Should we talk about...
+[01:44:06] Apple's role in web components.
+[01:44:09] And about closed and open Shadow DOM.
+[01:44:16] I mean, you gotta give me some... This is sort of my problem with the rhetoric. Like, I was like, is there a single... Like, it's very hard to weed through it and find anything at even, like...
+[01:44:29] even like fact checkers, right? We need fact checkers.
+[01:44:36] Like...
+[01:44:38] Yeah, we need fact checkers.
+[01:44:44] Anyways, okay.
+[01:44:46] Ryan states, "The sheer number of JavaScript frameworks is any indicator. We are nowhere near the consensus on how one should author components on the web. And even if we were a bit close today, we are nowhere near there a decade ago."
+[01:44:56] Thing is, we don't need to agree on how to write components.  We just need to agree on the underlying implementation.
+[01:45:02] Then you can use class-- I don't think it means underlying implementation. I think it means on the API surface.
+[01:45:10] Turns out we have a few very well-known, ubiquitous technologies that we chose to do this with. HTML. Okay.
+[01:45:15] Good call.
+[01:45:19] This is something we hear about, I mean I could talk about this, negative factor right, premature. If the external premier is standardization, well it's a bit late for that.
+[01:45:26] True. So let's figure out how to get from where we are. Fair enough. Okay.
+[01:45:33] Thank you.
+[01:45:36] Yeah, they're not a one-for-one replacement or frame components, they're a gentle related thing. And I think all our confusion is done to us. We should really fix the definition component.
+[01:45:44] Right.  And then you quote some articles.  So funnily, the problem with web components is that they are built in custom elements, blah, blah, blah.  More specific elements, components, blah, blah, blah.  Okay.  To be fair, I never liked the term web component.  Every web component person says that.  And I'm glad that because that was part of the initial thing.  We moved past that.  I say web component because it covers the whole set of specs.  But yeah, we could just start saying custom element.
+[01:46:06] Right.
+[01:46:08] Because it competes the concept of framework mode. But what's, and that's what caught on, but most people are familiar with, right?
+[01:46:14] Sure, button type field can be components, but there are other types for
+[01:46:18] For example, many frameworks support concepts of renderless components.
+[01:46:21] components that exist in your code exactly, not in the final HTML. Yes, I agree.
+[01:46:25] So there's differences as to why components don't do all the things framework components do. That's because they're low level implementation. So basically this is arguing that they are just elements. Okay.
+[01:46:34] The frameworks should be able to consume them like any other element.
+[01:46:39] Frameworks are shiny. Yeah.
+[01:46:42] Right, CSCompF are supplied by SAS, head templators are supplied by JSX. Soon we're getting signals from Preact.
+[01:46:49] Yeah, that's funny.
+[01:46:55] Do you think the author was just being inflammatory or do you think...
+[01:47:00] Or do you think the...
+[01:47:02] Do you think he actually thinks this?
+[01:47:06] *sniff*
+[01:47:09] Oh man.
+[01:47:13] Thank you.
+[01:47:16] Oh, man.  I mean, this does kind of show where different circles live.
+[01:47:35] Thank you.
+[01:47:39] Oh yeah, so far you guys are talking about the Eiz? Yeah, so they simply got rid of a bit of Web Components.
+[01:47:46] Thank you.
+[01:47:46] Thank you.
+[01:47:48] Sorry, you guys know why I'm laughing at this. I mean, I'm not even going to give necessarily solid, complete credit here, but like...
+[01:47:58] we were pushing...
+[01:48:00] signals
+[01:48:01] as far back as
+[01:48:02] this article. In fact, Solid was released for five years before Preact or anyone else added.  You could say Vue maybe, that would be fair. Vue had something like signals,
+[01:48:12] Um,
+[01:48:14] But...
+[01:48:15] Yeah, anyways, let's continue.
+[01:48:18] Um...
+[01:48:19] from all the
+[01:48:26] No, no
+[01:48:30] No, I understand that is the thing I I'm not having a problem with how it ended up there  it just there was the claim that I
+[01:48:38] Um,
+[01:48:40] that standards don't have opinions and aren't driven by use cases from companies and all that kind of stuff. I just wanted to clarify that
+[01:48:48] You know, it's like a fact check kind of thing.
+[01:48:57] Thank you.
+[01:49:02] Okay, so you're saying the opposite. You're saying your concern is that a single company...
+[01:49:06] is driving frameworks.
+[01:49:11] or a given framework, right?  So basically, like, the success of Purcell relies on Next.  So...
+[01:49:18] or meta on React.
+[01:49:22] or whatever, and then essentially it means that their standard thing that they put out, their framework, is tailored to one specific need.
+[01:49:35] I
+[01:49:38] Thank you.
+[01:49:42] Right, yeah, as far as I know, yeah, yeah, exactly. Okay, that's better. I mean, there are a lot of frameworks like that. There are frameworks that aren't like that.
+[01:49:52] view
+[01:49:53] svelte, solid, or all not like that.
+[01:50:00] Um...
+[01:50:04] But okay, test_id is okay, especially when we need to stop being salty our way isn't the way that makes it into the browser.
+[01:50:11] Okay.
+[01:50:12] There will always be a better way to do something.
+[01:50:14] but none of us have the foresight to know what the perfect solution looks like right now?
+[01:50:18] Good.
+[01:50:20] Okay, that's fine.
+[01:50:22] But we can have the foresight to go...
+[01:50:26] Hey.
+[01:50:27] This is probably an area that we don't know enough about. We should slow it down.
+[01:50:34] I think we can identify, we don't know the future, but we can identify places that are like,
+[01:50:40] Yeah, probably shouldn't.
+[01:50:42] Touch that with a 10 foot pole.
+[01:50:46] Thank you.
+[01:50:48] Thank you.
+[01:50:50] Oh, but he's saying, okay, I'm sure Ford could have made the Model T way better if they had spent another decade working on it.  But do you know what made the next version even better?  10 more years?  The feedback they got from actual users who bought them and sat on the road.  Yeah, right, right, right.
+[01:51:01] But...
+[01:51:02] The difference is a Model T is a product.
+[01:51:05] Right. Like you could argue that those frameworks that are driven by a specific company are a product that you can use as feedback using the platform this way is.
+[01:51:17] I don't think you get, like, you can do it a little bit, but like,
+[01:51:21] you, it takes, it needs to really work lockstep.  You know, I think one of the weirdest things about the web component stuff, Wiz, is
+[01:51:29] I don't know that any framework was really involved in,
+[01:51:34] Like,
+[01:51:35] what
+[01:51:36] Other than like, maybe like,
+[01:51:37] something made from Google, like a polymer or a lid or something like, like, we're like, Hey,  like we're like with signal spec.
+[01:51:43] They were like, hey, you guys are using something like signals or reactivity.  How do you guys think it should work?  Let's test it. Let's do that.  I don't think that ever happened with web components.  To be fair, maybe the frameworks weren't
+[01:51:55] weren't the target, but I like...
+[01:51:59] How do you not...
+[01:52:01] have that conversation with the set of
+[01:52:05] Um,
+[01:52:08] users
+[01:52:09] Yeah, I don't know.
+[01:52:16] Thank you.
+[01:52:19] Thank you.
+[01:52:22] Thank you.
+[01:52:27] Do I take feedback? I mean, I've seen the GitHub things.
+[01:52:33] I always appreciate the enthusiasm of when I talk with people who are into standards, they share my actual enthusiasm, which is amazing. Like they, they, they are, they are amazing.
+[01:52:43] always trying to find a solution to a problem. They are always open to talk about it. They're always open to be like,
+[01:52:51] Like, what can we do better? Like, there is this dedication there.
+[01:52:55] and real desire to see the web get to a better place.
+[01:52:59] So,
+[01:53:01] Um,
+[01:53:08] Yeah.
+[01:53:12] Web standards offer a promise of stability.  Okay. And we need to move forward to improve them together.  Yeah. Using one's influence to rally use against the very platform you built your success on is damaging the multi-platform community.
+[01:53:21] Well,
+[01:53:22] Is it... Was the purpose to be damaging?
+[01:53:26] or was the purpose to be bringing awareness, educate?
+[01:53:31] Okay, let's be more collaborative. Well, okay.
+[01:53:35] Sure, that's convenient to say now, but okay, let's be more collaborative.
+[01:53:40] Imagine if we applied the same arguments against HTML early on. What if we never standardized it at all?
+[01:53:46] Do I be a better place? No? Okay.
+[01:53:48] to
+[01:53:48] "Groffin blah blah blah."
+[01:53:51] Would it be better if every site was Flash or Java?  That's kind of interesting, though.  I like that Flash is brought up because sometimes I wonder
+[01:53:58] if if if like
+[01:54:03] If we built a framework into the browser, if it wouldn't be just like Flash again,
+[01:54:07] Like we get to a point where we're just like, you know what I mean?
+[01:54:16] Yeah, the Polymer team, which became the Lit Teams, was founded specifically to work with the Chrome browsers on the spec.  Right, exactly.  But I think it...
+[01:54:23] What I'm trying to get at is like...
+[01:54:27] It's probably funny because if they came to web components and then the I'm like picturing react team 2013 or 14 time period there probably wouldn't been like
+[01:54:34] yeah, we're not interested in that.  And that's probably the kind of thing.  And then like,
+[01:54:39] Yeah, maybe that's kind of the thing.  The...
+[01:54:43] Web Components
+[01:54:44] really kind of started, you know, getting through spec around 2000, like getting around 2011, 2012 time period. And to be fair, modern frameworks
+[01:54:53] weren't really there yet. The ones that were like, like Angular and that were probably like,
+[01:54:59] It wasn't something of interest.  To be fair, I imagine...
+[01:55:04] that
+[01:55:05] Um.
+[01:55:06] this, like, it's almost like
+[01:55:10] there was no interest there so like they're like some party wanted to see this move forward so  they're like okay let's move on because the like frameworks clearly don't care about this  like if they just waited on that they would have never the web codes never would have gone here
+[01:55:23] Interestingly though, if things had waited only a couple of years,
+[01:55:29] we would have had a very different perspective on things.  It just, it's one of those things that's hard to,
+[01:55:34] Tell.
+[01:55:35] Um,
+[01:55:37] So yeah, I don't know. It's interesting.
+[01:55:43] Thank you.
+[01:55:45] Thank you.
+[01:55:50] .
+[01:55:59] Okay, but what components in place an incompatible distance inference and there lies the existential problem?
+[01:56:09] It's incompatible. I mean...
+[01:56:16] Maybe not completely, but I feel like other than React and Angular, which predate React,
+[01:56:25] There's...
+[01:56:26] There's a lot of this.
+[01:56:28] Why does Vue...
+[01:56:30] And and
+[01:56:34] Sorry, Svelte have slots. Yeah, sorry. Where is the composition? I'm speaking specifically about slots.
+[01:56:40] Slots.
+[01:56:41] Right.
+[01:56:43] Thank you.
+[01:56:44] They pictured a future where they were all in the line with web components. If you're interested, why slots?
+[01:56:55] kind of fell apart, like this, my point here.  It was most, it's actually Igor versus...
+[01:57:00] versus lazy.
+[01:57:02] Um,
+[01:57:03] um
+[01:57:04] uh
+[01:57:05] Web components.
+[01:57:09] Why I don't
+[01:57:13] use web components. I'm going to bring up Rich Harris's
+[01:57:16] thing, because this is actually one of the
+[01:57:17] This example is still relevant.
+[01:57:21] Toggles, what he pointed out here was that
+[01:57:24] Even if...
+[01:57:25] This was not...
+[01:57:28] Like, pretend this is a show component.
+[01:57:31] Actually, you know what?  I might actually...
+[01:57:34] I might have actually written this one somewhere. Let me see. Webcoins are not the future part two.
+[01:57:37] I wrote a really long article, then I decided not to publish it. Let me see if I can find...
+[01:57:44] the section on composition.
+[01:57:47] Thank you.
+[01:57:48] Yeah, yeah, here we go. Picture we had a component like this: "toggle x when false, slot fallback hidden, my cool content, content toggle x."
+[01:57:57] I'm showing this in JSX, but it doesn't really matter the template link. My point is when this is false,
+[01:58:06] this still gets rendered.
+[01:58:08] To be fair,
+[01:58:09] In React, the...
+[01:58:12] VDOM nodes for these are still created.
+[01:58:16] Um, but they don't go in and render this because, um...
+[01:58:22] Well, I guess React...  Like...
+[01:58:26] I guess it's an interesting one, their example, because then they become props.children and then if they never get inserted. But my whole point is, it's like, essentially...
+[01:58:36] Using...
+[01:58:37] layouts like this, like components as control flow from a composition standpoint,
+[01:58:41] It does not...
+[01:58:42] When I say competition, I mean projection.  I don't mean you can put...
+[01:58:46] web components and web components and web components.  But using it as like a layout control flow mechanism  doesn't really work.
+[01:58:56] Thank you.
+[01:59:01] Well, too early for eager versus lazy.  Okay, fair enough.
+[01:59:08] Right. I just, I just, this seemed like such a small side point. Um,
+[01:59:14] That it was just interesting.  It was just like...
+[01:59:16] it's very common when you  abstract stuff away to like, you know,  the collapsible card and all this kind of
+[01:59:23] kind of thing to have a situation like this where you don't actually want to render the  content inside here but composition doesn't work so it's funny view
+[01:59:32] And Svelte, especially Svelte, I think originally, actually followed Web Component Spec and eagerly rendered the children. And then Svelte, they added a breaking change release. They were like, "Look, we finally fixed this because this
+[01:59:46] is really weird that you can, you know, basically pass children slots that are never rendered and have them render.  It just doesn't.
+[01:59:55] make sense. It doesn't
+[01:59:57] it doesn't work with our model.
+[02:00:01] Right. You can use a template today. Great. Right. Which I actually get to here in the next section. Right.
+[02:00:12] It wouldn't be rendered unless there's a slot name content. Well,
+[02:00:15] No, it would be, because it would be in the light DOM and it would get rendered.
+[02:00:19] even without the slot name content being present there.
+[02:00:23] Because...
+[02:00:24] When you pass this in, it doesn't care
+[02:00:29] Um...
+[02:00:30] if it's slotted or not
+[02:00:32] The light dom always exists.
+[02:00:34] Oh, you're supposed to use a template. Yeah. Okay. Let's, let's get the template. Okay. Why not? Um,
+[02:00:41] Yeah, I mean, because I was playing with this.  How do you do a map component?  That's a good one, right?  Because you have a render prop.
+[02:00:49] right where you could like do it like through there um and i i don't know maybe this is how  lit suggests it these days like you can do like a map function i'm not sure but the other way um  is a template element but how do you do interpolation like how do you get
+[02:01:06] This
+[02:01:07] item here into this item here.
+[02:01:15] It wouldn't be rendered if there's no slot. Daryl is correct.
+[02:01:22] Okay, I mean, this is fair.  Is this something that has changed?  Because it used to be...  The reason that I was aware of this is for the same reason...
+[02:01:33] So you're saying that, oh, I see.  You're saying that the connected callback...
+[02:01:37] Thank you.
+[02:01:38] it would never be considered connected. Can we actually verify that? Because
+[02:01:41] This this doesn't actually sound
+[02:01:44] You're saying that if it's connected callback wouldn't happen because it's in the light DOM, right?
+[02:01:50] Like...
+[02:01:52] Is this something that has changed is what I'm saying, because I have definitely agreed with it.
+[02:02:02] Okay.
+[02:02:07] Okay, well can we, can we do this? Let's do this.
+[02:02:12] I mean, I mean, we would have to, I'm trying to think of how to the easiest way.
+[02:02:18] to actually-- because then I have to write custom element code off my head.
+[02:02:26] Yeah, so when I say render, I don't mean visible.  I mean that, like, does the connected callback
+[02:02:33] The light DOM children of an element with a shadow DOM root are not rendered in the component tree unless the slots are visible.  But...
+[02:02:39] Are they...
+[02:02:40] Martin Luther King, list of slots for them.
+[02:02:43] to go into.
+[02:02:45] So,
+[02:02:49] Because I...
+[02:02:55] Okay, yeah, it will not be painted, sorry. I'm using React term. Like, what I mean is, I could go into the Chrome DevTools and see the light DOM children that were not in slots in the Chrome DevTools not inserted in. They would not visibly be there, but the actual element would exist.
+[02:03:11] And
+[02:03:13] And it would actually like
+[02:03:15] be an element, right?
+[02:03:19] Thank you.
+[02:03:23] I just want to double check this because I understand it's not painted, but like
+[02:03:28] Would...
+[02:03:29] Just to clarify here, would my cool content
+[02:03:33] constructor run.
+[02:03:35] if the slot for content wasn't inserted.
+[02:03:44] Okay, then that's exactly what I mean.
+[02:03:50] Yeah, it's...
+[02:03:55] Like,
+[02:03:55] Yeah, sorry, this is my fault. React has messed with what rendered means, and I even have to be careful on the solid side of not messing with that.
+[02:04:04] I don't mean physically painting it. I mean that like
+[02:04:07] the code runs to like
+[02:04:10] You like like react calls rendering when you execute your component.
+[02:04:21] Yes, yes. This is, yes sir. So we're in agreement. I am not misunderstanding it.
+[02:04:28] I don't mean paint.  I mean that it literally...
+[02:04:31] like runs the component. So yes, me and Rich are not mistaken here. Okay, good. Um,
+[02:04:40] Thank you.
+[02:04:44] Right, so, yeah.  Back to that sidetrack.  Effectively...
+[02:04:49] What they're saying is it doesn't get painted, but it does like...
+[02:04:53] It'd be like...
+[02:04:54] If I...
+[02:04:56] went like show...
+[02:04:58] When
+[02:05:01] false in solid for people who are familiar with solid syntax.
+[02:05:05] And
+[02:05:06] Thank you.
+[02:05:08] Thank you.
+[02:05:08] Yeah, let me show you. And then if I went in here and I went like,
+[02:05:13] My component.
+[02:05:16] And then I went over here.  I went somewhere else.  I was like function.
+[02:05:21] I just want people to really understand what I'm getting at.
+[02:05:24] Console log.
+[02:05:30] alive, this would console.log alive.
+[02:05:37] in the web component world, because even though this was not inserted in the view, like you would not see return h1
+[02:05:50] You know, you wouldn't see like
+[02:05:52] alive. You wouldn't see this DOM element.
+[02:05:55] this would get console logged.
+[02:05:59] You say it's drifting away, but I mean, this is an exact, you wanted a concrete example of,
+[02:06:05] of
+[02:06:06] of, for example, why
+[02:06:10] you know, as a component. I mean, it's a good example of why framework components and
+[02:06:13] UI components are different, right? Which is to the point.
+[02:06:18] I just wanted to kind of like, I can talk about it now, and now we don't have to come back to it again, essentially. Right? So how do you handle this? You can pass as a function and use JS, like as a prop kind of way of handling it. You can also pass in a template element, but if you pass in a template element, you have to figure out how to interpolate over the values.
+[02:06:43] Yes, because of eagerness, yes.
+[02:06:49] right um but yeah i i just i it is possible but i mean this suggests that maybe we need a different  standard to handle templating that is different that's or just don't use this pattern but you  understand what i'm getting at if you have a list of items and you have to render the item into this  item you need a way of expressing that and the template both needs javascript to like because
+[02:07:19] exactly, there's a slot, inserted slot, or some kind of API around slots. I built control  flow components in web components before, and you'd grab when the slot came in, you'd  look for it, and then I'd grab the template element, and then I would then, um, then,
+[02:07:33] uh,
+[02:07:34] Take the
+[02:07:36] inner HTML and then I would parse it and then I'd replace the interpolation with the key that was passed in from here from with my own data item.  And then I would,  um,
+[02:07:47] Have that
+[02:07:48] to update
+[02:07:51] the template and then insert that into the DOM.
+[02:07:55] Right, yeah.
+[02:08:01] So what does this mean?  The show example is odd because most would do the one, the B.
+[02:08:13] I don't understand what that means.  On the B.
+[02:08:18] But yeah, I just like there is there is template elements are good if you have a template
+[02:08:25] um,
+[02:08:26] Language.
+[02:08:28] Oh, back-end. Yeah, I mean, in a simple case.
+[02:08:31] But...
+[02:08:32] Uh...
+[02:08:34] Do I have Hacker News up?
+[02:08:40] All right.
+[02:08:41] Was it solid start hacking news? I don't I mean,
+[02:08:46] I don't know.
+[02:08:51] I mean...
+[02:08:57] Thank you.
+[02:08:59] No, I mean, what if the items update?
+[02:09:09] Thank you.
+[02:09:12] Yeah, I guess, like...  Yeah, I mean, maybe this...
+[02:09:25] Thank you.
+[02:09:28] Yeah, I'm just doing a server and then yeah, but if it needs to update
+[02:09:35] *sniff*
+[02:09:38] Thank you.
+[02:09:41] It doesn't change anything.
+[02:09:46] Okay, yeah, there's a native element for that, but I...
+[02:09:50] Yes, obviously the native element, but you understand why that's beside the point. I give a simple example, and then you can use your imagination to think about how it extends. This is...
+[02:10:00] very common, right?
+[02:10:02] Layout components, things that have conditional...
+[02:10:06] thing. To be fair, maybe this is in that zone of stuff that is framework component only.  But for this specific...
+[02:10:14] thing. I was actually saying Web Components for Framework Components.  This is just one of the places, for example, where
+[02:10:23] we realize that this is not a good fit, right? Just just put it out there, right?
+[02:10:30] Thank you.
+[02:10:38] Thank you.
+[02:10:39] Yeah, of course, right. But the whole point of making compositional API is so that you can make my dialog.
+[02:10:47] or my details.
+[02:10:49] Right? Like, I call this  the property of like, what is it  called? Like the adipotent
+[02:10:55] property, like it's the, it's the test I put through all my primitives when building stuff  like solid. You should be able to, if there's a signal, there should be my signal. You should  have a way that at least using the primitives, you can, if something's truly composable,  it should be able to.
+[02:11:10] be able to make the same version of itself as the native version using the same basic syntax, right?  Examples of things that aren't. If statements are for loops in JavaScript.
+[02:11:20] They are syntax specific or like the handlebars, helpers and Svelte.
+[02:11:24] But like solids for,
+[02:11:27] component.
+[02:11:29] can then become my four component and without changing the difference,  you know,  it could be paginated list.  The idea of composition is that third party and first party,
+[02:11:39] you know, like this property of composition, this first party and third party look identical.  So I don't think it's enough to be like, oh, but there's an element that does it.
+[02:11:47] But you should be able to make my details.  And that's the key part.
+[02:11:57] Thank you.
+[02:11:58] Yeah, okay. Right, exactly. So this is why I'm separating the stuff apart. WebComponents as framework components, this is a place where like
+[02:12:09] you know,
+[02:12:10] There might not be that many grievances there, you know.  Anyways, let's continue here.
+[02:12:15] Um...
+[02:12:17] Thank you.
+[02:12:18] Yeah, you can understand like
+[02:12:20] Yeah, anyways, let's let's continue on.  I don't go through.  OK, OK.
+[02:12:26] So from is it compatible with existing frameworks there as lies essential probably. I only really brought this example was because I was saying there's a point at which we were compatible and we actually diverged because.
+[02:12:36] It didn't make sense.  Okay.
+[02:12:38] Um,
+[02:12:40] Just putting there web components are a threat to the peaceful party way of life frameworks that have mass families use the majority of web dollars because opinions are very so widely new standards of merge frameworks can't often adapt to them without breaking changes.
+[02:12:49] OK, that's fair.
+[02:12:52] breaking changes can be detrimental to user base. Okay, like
+[02:12:55] To be fair,
+[02:12:57] It's less, I think a lot of the breaking changes aren't there.  It's just like we're slowly developing understanding more and more over time just where the gaps are.  A lot of these haven't actually changed.  They're just like interesting behaviors that we didn't recognize at first, like import versus clone node.
+[02:13:14] You probably have a web standard when you build a non-standard thing that will break if you align with emerging standards.  Yeah, I don't think that's, but that's not, I don't think that was, I don't think this isn't, as I said, it's not a fair incentive if you were trying to build on web components in the first place.  So yeah, don't do everything still.  They don't do everything a framework does.  How can a platform possibly add all the features?  Yeah, it's fair.  And no platform moves past your framework.  That's also fair.  As users, we need to go to this hurdle and start thinking about how frameworks can adapt to current standards and evolve the new ones.  Yeah.
+[02:13:44] circumspect and work together.  OK.  Banting the wheel isn't the answer.  Lock-in isn't the answer.  OK.  I don't know.  This is why I don't believe it will converge on custom modes  as a natural component model.  Enhance the mode of sprinkling.  OK.  Right.
+[02:13:56] Interestingly enough,
+[02:13:57] It's not the next generation, it's actually the last generation that tried to converge on them. Maybe it was too early, you could argue.
+[02:14:04] But I think the problem with this line of argument is it's assuming this hasn't actually already happened.
+[02:14:14] Thank you.
+[02:14:17] Thank you.
+[02:14:21] .
+[02:14:30] Thank you.
+[02:14:31] Ryan concludes, so in a sense, there's nothing wrong with web components as they are able to be what they are.  It's a promise that they are something that they aren't that's so dangerous.  The way their existence warps everything around them, it puts the whole web at risk.  It's a price that everyone has to pay.  Webments aren't the specific vision you had for the components.  Okay, that's fine.  That's how it is.  They're not solid components.  They're not React or Vue or whatever.  They're web components.  And they could work even better if all of the above were interested in advancing platforms instead of blocking users and everything.
+[02:14:53] not interested in locking in users. Can we talk about that for a second?
+[02:14:58] I think most framework authors
+[02:15:00] understand that their framework will not be the last framework.
+[02:15:06] Right. I was being a little bit with this, you know,
+[02:15:10] Let's hear it.
+[02:15:11] It won't ever be solved.  That's the point.  Yeah.  You know what I'm talking about here?  Frameworks need one more and it'll be solved.
+[02:15:17] We understand innately that...
+[02:15:21] this is a hard problem that shifts over time. So I don't think
+[02:15:25] There might be some that are incentivized, but that's...
+[02:15:29] Rather see a good solution come up and be better than solid succeed ultimately.
+[02:15:40] Um,
+[02:15:41] I think we've already had a positive impact.  I think we can continue to have a positive impact.  But ultimately, I'm here to make...
+[02:15:50] basically see how we can make building on the web better.
+[02:15:54] So we're not that different in goals. I, I,
+[02:15:57] I don't like this lock-in suggestion. I think it's easiest to take the position as lock-in because I want any solution on the web to be able to maximize its potential.
+[02:16:09] Right.
+[02:16:09] So like there is lock in if you want things to be better.
+[02:16:16] Thank you.
+[02:16:26] To be honest, since the beginning of last year,  it's only really possible to probably build things with webcombs.  Do you think so?  I don't think so.  I...
+[02:16:35] I mean, I built Shadow DOM polyfills, and they were a headache early days, and proponent  wrappers and did all this stuff, but...
+[02:16:43] When I built that site back in 2013-14, I actually...
+[02:16:48] got us to migrate from v0 to v1 through a distraction layer.  And I built the whole thing up. Web components were fine.  I mean,  we hit some performance issues at the extreme when we were using them kind of  like framework components to do like feed cards.  Like we got like to the point where we had hundreds of web components and  nested in other hundreds of web components doing like complicated kind of  calculations and like, like, you know, like,
+[02:17:10] And we hit like a little bit of overhead there, but I mean that some of that overhead was from using knockout itself, you know, um,
+[02:17:18] The development experience was fine.
+[02:17:21] I...
+[02:17:22] I don't
+[02:17:23] Think that.
+[02:17:26] Like, this is a new thing. I think people have been able to use web components for years, especially around 2018 when that kind of came around. You have to understand, in the early days when you couldn't use web components as much, polyfills and stuff missing in the browser, everyone was already used to having to deal with those gaps in the browser. Like, I told you, you know, patching promises in IE11. So, like, we...
+[02:17:48] we're used to a build process that involved a lot so you could argue that people who start with web  promotes today have a much easier job because they can be just like kind of come in and just  stick them in but if you were willing to exp
+[02:17:58] take the build tools on, take the runtime, kind of do the whole thing.  You've been able to build quite nicely with web components for about a decade.  Um,
+[02:18:07] you know, build good sites with them. It's definitely a choice or an option.
+[02:18:20] Yeah, yeah, yeah, yeah, yeah, yeah, oh, I know about that. But they added batching by 3.1, I think it was, which is like 2013. So like by the time I'm talking about batching, I'd already kind of got all the batching stuff taken up. Yeah, I mean, I'm a performance nut on these things.
+[02:18:40] um yeah knockout definitely had its things um
+[02:18:45] Thank you.
+[02:18:48] Yeah, Litz HTML can work on it, but I'm talking about composability as a component as a concept, right? Composability. You can handle it in the templating, that's fine. But conceptually, it's like, these are my components, and following that component.
+[02:19:05] What do you call it?
+[02:19:06] idpotent property that I talk about, it fails the test.
+[02:19:20] Yes, I think there's a truth there. Our concern with perfection: users somewhat less and more interested in stability because perfection in the domain and in the app they're building somewhat defensive stability.
+[02:19:33] Yeah, I think I can get behind this, right? We're always seeking to make things better. We are concerned with stability, though, because that's how we lose users. So you can argue that there is a bit of a locking factor, but the degree which frameworks are concerned with stability is...
+[02:19:51] probably might tell you
+[02:19:54] Thank you.
+[02:19:55] you know, the degree to which the walk-in theory is...
+[02:19:59] has any merit
+[02:20:01] .
+[02:20:07] Yeah, yeah, 3x, yeah, exactly, yeah.
+[02:20:11] I...
+[02:20:14] Yeah, I mean, I'm not saying that they... I'm not saying they can't involve, but you're usually stuck with the...
+[02:20:22] principle, like you kind of going like this is a space that we think, for example, the shadow dom. So we could improve how the shadow dom can interact with this thing. But once you've kind of decided that this is the realm of solution, you are a little bit stuck.
+[02:20:38] And on the flip side, if standards didn't evolve, then
+[02:20:43] like, then other stuff went to evolve along it.  Like, they, of course, evolve, which means that
+[02:20:48] libraries update, which means stuff updates, which means that like,
+[02:20:52] while it's always backwards compatible, it's not the way you would always want to run it.  This, as I said, sometimes these examples are the things that I think React developers can get instantly.  And I feel like I don't know why it's like missing sometimes when I talk to people on the Web Component side, because it's like,
+[02:21:05] Like,
+[02:21:06] You know, let's pretend React is completely backwards compatible, you know, back to 2013 or whatever. Right. You still wouldn't want to write an app today that way. And the same thing is going to happen with web components, even if the interfaces supports it of standard and stuff. People are going to be like, yeah, that's that's that's how I used to write web components back in 2018. You know, like.
+[02:21:27] This is human nature. This isn't something that you solve technically.
+[02:21:36] Thank you.
+[02:21:38] Well, I mean, the interesting thing about this is why people are fighting for putting templating language in. But I think at least everyone can understand what putting templating language in is a loaded, like one of those touchy places.
+[02:21:51] It's an example of one of the places that JavaScript frameworks can't agree on.  It's very opinionated. So this is very tricky.  And some of it are for aesthetic reasons. Other of it are mechanical reasons.
+[02:22:02] Um, God, I saw someone share something the other day. Sorry, I'm gonna, I'm gonna pull something up. It's just, I was in the web component discord and someone shared something and I almost threw I was like, Oh my god, not not again. Where is it? Where is it? Where is it? Where is it?
+[02:22:18] I'm not going to put the whole thing out here but
+[02:22:20] Um...
+[02:22:22] Where is it?
+[02:22:25] I was just like, oh,
+[02:22:27] This...
+[02:22:29] Yeah, I think I found it.
+[02:22:30] Here we go.  Just kind of an example.
+[02:22:33] Templates, a declarative JavaScript templating API by Justin, for those who aren't aware, you know, I think the author of Lit or whatnot.  I don't know if he's the original author, but he's like the Lit guy, okay?  Talking about template parts and all this stuff, right?
+[02:22:48] And basically what he suggested is that HTML element should have HTML. So let's build lit into the framework, basically, like into the browser. So now you have an HTML tag and you can do this interpolation. Obviously this doesn't help us with our template element.
+[02:23:02] problem I think right off the bat, unless the
+[02:23:05] Unless we could have the template element. Oh no, I guess the template elements would create template parts and then we could get there. So that's fair. But the idea is basically HTML dot HTML tag.
+[02:23:17] and then talks about different bindings of fast and sensible. Sounds great, right? Okay, let's keep on going.
+[02:23:22] how does this integrate with signals thank you eisenberg effect for for for getting in there and  asking about this um
+[02:23:29] fast work a bit differently even though the tag template little part looks the same. The fast state is backed by signals and bindings are live, so there's no re-render stuff.
+[02:23:36] That's what I like to hear.
+[02:23:38] Thank you.
+[02:23:38] Right, right, which is completely different, I think, than how Lit does it, which is more like Preact, where they can maybe sometimes optimize certain things, but conceptually, they do a re-render model.  I was just saying, I think it's a great place to start.  You still buying Netflix to be built without a full re-render.  Okay, that's cool.  But not every state in the page has ever been seen on this thing.  One of the concerns I have here is like, how do you recognize a signal as a signal?
+[02:24:00] I guess a compiler could get in there. I guess if you could just get the output. I mean, this is interesting. Things go on  Initial HPL, but I got here. I'm concerned, but I'm not sure where it belongs. Okay.  Null books involved a lot with a single spec also involved a
+[02:24:17] with Ember community.
+[02:24:20] Blah, blah, blah.
+[02:24:22] How does it react in the here? Which is great, but this isn't my concern as always. So you have a situation like this. So I mean the same rendering for the thing. We can't rely on consistently render reactive data unless we pass blah, blah, blah. Okay. So a lot of details here. I'm glad people are discussing about this. Computers are not necessarily necessary. I mean, I just probably memorize expensive calculations.
+[02:24:39] It would require major change of JavaScript via TC9.  Good.  OK.
+[02:24:44] Got a lot of details, detail on part, wrapping render, integration. Oh, yeah.
+[02:24:51] getting back what if we could introduce idea of lazy evaluation and detect  handful of variables i like that okay
+[02:25:00] Take advantage of if we change the blah blah blah. That's good.
+[02:25:06] All right.
+[02:25:08] Okay, well, I'm glad the conversation is going.  This is, like, the funny thing is,  if this conversation hadn't happened previously  in a different time period, I don't think...
+[02:25:20] I don't think we would have kind of got here. Okay.
+[02:25:22] Little Dan, Signals Champion: "Agree to others concerns that the signals template literals make a poor fit for current semantics because signals naturally want expressions to be evaluated separately and potentially multiple times."
+[02:25:34] Thank you.
+[02:25:35] I actually think that tag template literals are a great fit with signals because tag template literals are so cheap they re-evaluate.
+[02:25:42] Thank you.
+[02:25:43] That's not the response.
+[02:25:45] The handler of the template will can literate through the values and also keep the checkpoints changed.
+[02:25:49] No. No, no, no, no.
+[02:25:54] No.
+[02:25:57] *cough*
+[02:25:57] Thank you.
+[02:26:00] The answer is do it like lit.
+[02:26:04] Well, I mean...
+[02:26:06] fastest way to render the DOM.
+[02:26:09] Let's go here.
+[02:26:12] Where does doing it like lit get us?
+[02:26:15] I tested all the different rendering methods and compilers back in 2019. Fortunately, these things haven't changed very much.
+[02:26:21] Vanilla.js, solid signals, DOMC, which is like this dirty checking string diff approach, which is really fast. Solid with stores, which is proxies. Surplus, this is like solid, but instead uses create element instead of clone node.
+[02:26:36] SolidLit, this is solid using tag template literals with clone node and fine grained updates that doesn't render the template. Eevee, this is a fastest virtual DOM library. Inferno, a very close virtual DOM library. SolidHyperscript, which is like our, like use React style JSX.
+[02:26:53] And then lit.
+[02:26:57] Okay.
+[02:26:59] You can read the article if you care, but my point is...
+[02:27:04] Like...
+[02:27:06] Yeah.
+[02:27:09] We need to be careful.
+[02:27:11] Thank you.
+[02:27:14] Thank you.
+[02:27:17] Thank you.
+[02:27:20] Sounds like React 2015. Well, because it's the exact same mentality.
+[02:27:28] I'm sorry.
+[02:27:29] It's React in the browser. We're getting there. But...
+[02:27:35] Like,
+[02:27:36] This is, you asked me about stuff being dangerous.
+[02:27:40] Picture if we couldn't
+[02:27:42] We couldn't pull the stops on it.
+[02:27:44] Like,
+[02:27:45] *cough*
+[02:27:46] Okay. Okay.
+[02:27:54] Thank you.
+[02:27:55] Thank you.
+[02:27:56] Thank you.
+[02:27:58] Thank you.
+[02:28:00] I mean, I sometimes worry that there's like this hidden, maybe it's not hidden, but there's like this manifest destiny thing. And I don't want to get political here. But have you ever heard like from this from the like river to the sea or whatever? I don't know.
+[02:28:16] .
+[02:28:18] -
+[02:28:19] Thank you.
+[02:28:21] Thank you.
+[02:28:24] I sometimes worry because the team, you said Polymer and then later Lit, was basically built to work with Chrome spec teams to build web components. They basically built a framework.
+[02:28:36] and then are trying to get their framework in the browser.
+[02:28:39] to be the winning framework.  They talk about walking,  but like,  it feels like
+[02:28:46] Like,
+[02:28:47] Like there's this goal that like...
+[02:28:51] Yeah.
+[02:28:52] You know what I mean? Like, they don't care if it takes, you know, 10 years or 100 years.
+[02:28:59] Like the long-term goal here is that
+[02:29:03] the chosen one  you know what I mean
+[02:29:06] Like,
+[02:29:09] Okay.
+[02:29:11] Thank you.
+[02:29:12] Thank you.
+[02:29:16] Yeah, anyway.
+[02:29:25] Thank you.
+[02:29:25] Okay, sorry, I diverted way too far on this point. Let's...
+[02:29:30] Thank you.
+[02:29:36] Web standards don't give a f...  Oh, monetization. Okay.
+[02:29:42] If you build an empire on top of something, there's absolutely zero incentive to tear down the betterment of humanity. That's not how capitalism works.
+[02:29:50] This is so prime.  I'm reading this out of context, but it's like, it's so, it's so funny because like,
+[02:29:59] You paint it.
+[02:30:00] - Painting the frameworks as the big bad,
+[02:30:02] when like, at least myself or something,  or like a couple people doing open source...
+[02:30:09] And then when you think about...
+[02:30:12] the drivers behind web standards and like what I just, even what I just showed you in terms of like bringing our framework into the browser to lock it in.
+[02:30:21] Yeah, this is so funny out of context.  Anyway, sorry.
+[02:30:26] I'm sorry.
+[02:30:26] Talks the line here.  "Webcodes policy, proposal-based rates of future."  Of course, this is from the framework author.  Not that people usually shipping,  maintaining software built with these frameworks.  People actually shipping software are the majority,  but not really as high follower.  The people actually shipping software  are tired of framework turn.  They're tired of the shit they wrote last month  being outdated already.  Okay, they want stability.  They wanna know the stuff that they'll work tomorrow.
+[02:30:45] As I mentioned already,
+[02:30:47] They're tired of the shit they work last round being outdated already. That
+[02:30:50] is the universal human tech condition.  It has nothing to do with your choice of web components or not.
+[02:30:56] Has it proven no firmer can promise that? No.
+[02:30:59] Nothing can promise that. Anyways, you know what framework I want to use? I want to use a framework that aligns with the platform.
+[02:31:05] not one that replaces it.  I want a framework that values incremental innovation  over user lock-in.
+[02:31:10] I want a framework that's okay to break things if it means things web is a better place for everyone. Yes, that comes at cost, but almost every good investment. I would argue that the cost will be less expensive than learning new framework and reeling buttons umpteenth time.
+[02:31:22] Should I sh send Cory my article?
+[02:31:25] It sounds like it's the framework he's looking for.
+[02:31:29] Let's keep on going.
+[02:31:31] The web platform may not be perfect, but it continuously gets better. Good. I don't think frameworks are bad, but as a community, we need to recognize that the fundamental piece of the platform has changed and it's time to embrace the intrapable model the webcom webs have given us. And even if that means breaking things, the component war is over.
+[02:31:59] Yeah, I actually brought all this.
+[02:32:01] Thank you.
+[02:32:08] Thank you.
+[02:32:09] I'd say the churn got so extreme that severely affecting quality of end users.  But who's driving the churn?  Is the React team...
+[02:32:18] Like, don't get me wrong, stuff like RSCs,
+[02:32:21] are a big change, you know, but they're like a once in a decade kind of change.
+[02:32:25] All the React stuff up to this point
+[02:32:29] I mean, I guess hooks.  You could argue...
+[02:32:34] Yeah, I mean, five year cycles.
+[02:32:36] Sure. But like,
+[02:32:40] I don't think anyone forced the churn.  People have FOMO about stuff because the way we push stuff.  You could just stay on your old...
+[02:32:48] technology and be fine with it.
+[02:32:51] Like you don't need to invent a mechanism to let you stay on your old technology.
+[02:33:02] The compiler and albem- I mean...
+[02:33:07] I really...  We'll talk about this more, but I really...
+[02:33:11] don't want any assumed behavior from signals attaching to the DOM. In a sense,
+[02:33:18] They are effects.
+[02:33:19] and because of effects scheduling, and because of like async transactions, because of a whole bunch of technical details in terms of, and these are things that framework authors haven't decided on, we haven't consolidated on, still exploring.
+[02:33:31] I think it is incredibly dangerous if we assume any presumed behavior from signals directly tied into the DOM.  I think we should, in the same way we avoid fecs in the spec, we should avoid thinking about putting stuff into the DOM anytime soon.
+[02:33:49] Security updates are a thing, yes.
+[02:33:56] Thank you.
+[02:34:00] It's so funny about these.  This is the funniest thing.  I have to say funny.
+[02:34:06] Yeah.
+[02:34:07] I feel bad coming to these meetings because I usually just like
+[02:34:11] kick the stuff to crap and just be like like I don't have the solution yet and I don't think we  all have a solution but we're like way way way way way too early to try and like decide what  that solution is like not even remotely close we we're still discovering the parts of it like  slow down you guys are 10 years too soon and I know that's brutal because it doesn't get you to your goal but like
+[02:34:33] maybe not 10 years, maybe like 7-8 years. Signals
+[02:34:38] are the baseline of signals are finally getting to where, yeah, this is, this is, yes.
+[02:34:44] Yeah, just so I can provide feedback.
+[02:34:47] like
+[02:34:49] Yes, I... yeah.
+[02:34:53] This is what... it seems it's fun...
+[02:35:01] Thank you.
+[02:35:02] Stay on old tech and tell that to recruiters. Yeah, I mean, maybe the whole industry is pushing people this way.
+[02:35:07] Right.
+[02:35:09] But like...
+[02:35:12] And don't get me wrong, but like the reason there's a difference between React 20...
+[02:35:17] like the difference between React 2015 and 2018
+[02:35:21] I'm talking about like the area between when React went prime time and React right before hooks.
+[02:35:26] The difference during that time period was still extreme every single year, but it had nothing to do with what React was shipping.
+[02:35:34] Or very tangentially. It was just literally  driven by people and patterns and stuff.  So, like, I don't
+[02:35:40] E
+[02:35:41] This evolution is independent of setting the SPECRA framework. This will happen regardless of which way we go.
+[02:35:49] Right? Like...
+[02:35:57] Yes, he's saying exactly saying recruiters in the industry, the problem, not the framework. Yes, that's that's what he's saying.
+[02:36:05] Okay.
+[02:36:06] I
+[02:36:11] Sorry, that wasn't probably the best use of time.  I wanted to get a certain perspective.  I'm going to go back to my...
+[02:36:24] my original article here, because I think we need to fill in some of the blanks in our table, because
+[02:36:31] A bunch of people read this and they were all like...
+[02:36:34] You know, I'm hoping people
+[02:36:36] who watched the stream and read the article,  but a bunch of people read it and they were like,  right.  He's not saying very much.  And every section I say something very important,  but it's not like people were looking for something to,
+[02:36:46] to argue against some kind of
+[02:36:48] thing to pick at. And it was hard because every section would be like,
+[02:36:52] You know, okay, webcombs are the biggest risk of what I can see.  Conclusion, this one.
+[02:36:56] In a sense, portal interrupt the web, one mitigated future need, one sets. Future. Compelling, right? This is exactly the problems of webcones are so alluring and so dangerous. Okay, so didn't say very much in the intro.
+[02:37:06] But
+[02:37:08] A lot of these things, I just bring up some anecdotal story, just so people can get in the right mindset.  The only place that I actually talk about the actual technical costs in this article...
+[02:37:18] is
+[02:37:19] in here.
+[02:37:20] Thank you.
+[02:37:21] It's this one section, and I think there's like four points. Rich Harris
+[02:37:25] Thankfully went in great detail about them
+[02:37:29] Um,
+[02:37:30] on Twitter, which is cool.
+[02:37:32] I was away and it was very helpful for him to explain stuff because I said stuff like one liner like...
+[02:37:40] DOM elements can be cloned, but custom elements have different behaviors, which means they should be imported instead.
+[02:37:45] I didn't explain or show people code what I meant there. This is the whole clone node versus import node.
+[02:37:50] thing. Like I'm very brief in my technical explanation of the whole
+[02:37:55] realm of solutions and problems here.
+[02:37:59] So...
+[02:38:00] you
+[02:38:03] Thank you.
+[02:38:04] Yes, I am. Sorry, I am getting into that now.
+[02:38:20] .
+[02:38:24] Thank you.
+[02:38:26] Did you ever try to them? Yeah, I mean, we, we, we can't, I feel like this alone suggests why it's hard. If you're touching in this realm is really hard. If we can't do that, the platform is hopeless too.
+[02:38:40] I do appreciate people working on standards that they nudge us in the right way a little bit and they're like,
+[02:38:45] let me see, is there something here, there?  Is there something that we can agree on?  That's what they do best.  And sometimes they can find those pieces.  But a large part of my working and stuff
+[02:38:57] with solid,
+[02:38:58] And on the personal side, I was trying to get framework authors together.  I don't know if it worked, but a lot of the stuff I did, the stream, a lot of the stuff,  I noticed that the different camps weren't talking to each other and that they weren't sharing information.
+[02:39:11] And
+[02:39:12] Um...
+[02:39:13] there's a lot of misconceptions of like all the framers are kind of the same,  which is why it's always hard.  Like there are differences.
+[02:39:21] And like,
+[02:39:22] nuanced pieces, but like high level, you can say stuff's kind of all the same.
+[02:39:27] And
+[02:39:29] I think it needed...
+[02:39:30] I think we needed to kind of get to a place where we could have those kind of conversations.  So in a sense, I appreciate...
+[02:39:36] the work being done to a lot of people in standards because they do try and facilitate those kind of conversations.  Sometimes the conversations are too early and they keep on like pushing at it and you're just like,  just,
+[02:39:45] not the right time, but like,
+[02:39:48] I know the good intent is there.
+[02:39:57] Thank you.
+[02:40:03] Thank you.
+[02:40:05] "Is MostApp wanting one solution for all frameworks using a specific use case with Hebrim and expect to use the pick framework to depend on the use case?"
+[02:40:14] It's not quite like that.
+[02:40:15] most of these frameworks are actually general purpose they don't expect it for a specific use  case they might prioritize certain situations but they actually aim to be very wide almost  like the platform itself the difference comes in as i said
+[02:40:29] People have different opinions of what should be prioritized.  People have different visions of what it should look like.  It's not that...
+[02:40:35] In some cases, they're like, okay, we're slightly better at this and that.  But no one goes out to create a framework to not be good at everything.
+[02:40:44] I know that seems weird. I mean, Astro...
+[02:40:46] said, hey, we're focusing on one thing, and it was kind of refreshing. But most of the  render libraries are fairly general, and they do try and take on pretty much everything, which...
+[02:40:56] Um,
+[02:40:58] We can argue whether that's a good thing or not, but it's...
+[02:41:01] I don't think, I think they are actually trying to appeal to the one solution for all.  That is exactly what they're doing.  They know that they can't succeed.
+[02:41:11] But through their effort, they hope that they can move things forward.
+[02:41:19] Thank you.
+[02:41:21] Thank you.
+[02:41:26] Oh, I like this. It's not a webcom, it's just a DOM, there are four types of attributes.
+[02:41:30] IDL attributes, content attributes, Boolean attributes, and event handler attributes.
+[02:41:36] Nice.
+[02:41:41] Thank you.
+[02:41:47] There's nothing non-custom element firmware can do that a custom element cannot do.
+[02:41:54] Hmm, I don't know. I 100% agree.
+[02:41:58] It...
+[02:41:59] *sniff*
+[02:42:01] It's it's interesting. I could I could take this argument.
+[02:42:06] I could definitely take this argument, but the problem is,
+[02:42:10] Sometimes the fact that something's a DOM element...
+[02:42:14] gets in the way. Now you could argue with the custom element frame, you don't have to make that thing a DOM element. But sometimes
+[02:42:20] the boundary is not in the right place.
+[02:42:23] So, yes.
+[02:42:26] you could find solutions. It's just, we should get some examples and kind of think, look at this.
+[02:42:34] Thank you.
+[02:42:36] Thank you.
+[02:42:38] Thank you.
+[02:42:39] Thank you.
+[02:42:42] I wish everyone went all in and trying to fix React and make it amazing.  Oh, I love this argument.  No other web framework offers a good universal web...
+[02:42:49] app for web, mobile and other platforms with one code base.
+[02:42:54] I disagree with this, obviously.
+[02:42:59] I think that you can do this
+[02:43:02] in another framework.
+[02:43:06] This is not unique to React.
+[02:43:09] but React's the popular thing.
+[02:43:10] So,
+[02:43:11] Why don't we all just fix React?
+[02:43:15] Do you see the parallels here?  We should just fix React.  But React's saying here, I don't need to be fixed.  I'm exactly the way I want to be.
+[02:43:29] Sometimes
+[02:43:30] There's just different solutions.  You don't.
+[02:43:33] Bix it!
+[02:43:34] React.
+[02:43:35] innately believes in its like virtual dom re-render mentality, that is its philosophy. It's going to take it to the
+[02:43:41] Ends of the universe.
+[02:43:43] I might disagree. I might go out and try and prove where it falls apart, where there's better solutions for it.  But React is specifically React because of this.
+[02:43:57] Now let's do that same word swap. I wish everyone went all in trying to fix web components and make it amazing. I mean, like, okay, I can't do this all the thing. It's no other way, you know, but like,
+[02:44:08] it's not quite the same because web components are, you know, not great for, say, programming.
+[02:44:14] Well, actually, but you can see a thing because like there's a lot of web platforms out there.
+[02:44:18] No other web framework offers good universal for all the web platforms with one code base or something. My point is,
+[02:44:28] There
+[02:44:33] In the same way that with a straight face, I might be like...
+[02:44:37] hard for me where I'm sitting to recommend the React approach for everything.
+[02:44:43] How could I recommend web components under the same banner?  Do you know what I mean?  Like, I don't know.  I keep on seeing parallels here between this.  Thanks for writing this.  As I said, I don't agree with this at all,  but I think it's interesting to kind of like  just shift around the variables bin.
+[02:45:01] Thank you.
+[02:45:03] Thank you.
+[02:45:10] Thank you.
+[02:45:13] Well, I mean, which framework do you think can do that today? Sure, we have native script, but it's so far behind that there isn't any option. I mean,
+[02:45:22] What? Okay, so you're basically saying that the quality of the solutions React ecosystem is so far ahead of the others that we should just like forget that there could be better things. What I meant is yeah, sure. Yes, I've heard that React Native is much better than NativeScript or Tori Mobile or all this stuff. People tell me this.
+[02:45:42] The NativeScript people get really mad when I repeat that people tell me this.
+[02:45:47] But this, in my opinion, is not a fundamental nature of React kind of thing.  So that's all I'm meaning by that.
+[02:45:58] Yeah, Terso and Capacitor is another example.
+[02:46:02] Sure.
+[02:46:09] Alright, so...
+[02:46:13] Yeah, I started writing, where is it? Dev2.
+[02:46:17] Let's get into this.
+[02:46:21] To begin with, DOM elements have attributes and properties. This is so that they can be represented as HTML attributes except only strings while properties being a JS interface can handle any value. Native DOM elements have many rules around specific attributes and properties like how booleans exist and means they apply while others are pseudo boolean and so on. Like there's a lot of rules, don't worry. Goal of templating languages to solve this in a uniform way. We can make special rules around known elements and attributes, but with custom elements we don't know this because
+[02:46:44] They're the user defined. So this is why some templating lines have interesting prefixes like lit has like a
+[02:46:50] dot.
+[02:46:51] prop
+[02:46:52] @
+[02:46:53] event question mark boolean solid has atroprop bool prefixes for this reason and
+[02:46:59] And every runtime location and compiler hook needs to be worth this.
+[02:47:03] You might think we need better templating as a standard, but JSX, that thing I just showed you with Justin from Lit, there's implications of that decision. A few years ago, people probably agreed that the way Lit did templating was something that was a good approach. Other solutions could output it. However, in the interim, we realized that React rendering liquid solid does outperforms it. It does so by changing the semantics of templating. If we moved ahead, we'd have a standard that would not be the best way to do templating. Yeah, I think we actually just saw an example of that when I looked at that spec.
+[02:47:30] So let's look here to this.  And let's go back to our list for a second.  So what does this impact?  Consuming web components.  We need to think about...
+[02:47:46] That's so annoying how I have to like update the numbers when I add the sub points. We should talk about
+[02:47:56] So
+[02:47:57] Atreus...
+[02:47:59] versus props. Okay.
+[02:48:03] Right.
+[02:48:06] One one actual interesting thing. Sorry, not the tangent too far here, but let me see if I can find it. There was one other response to my article that I thought was really good. Yeah, here we go. This is actually my favorite response. This is this is the best, best response.
+[02:48:23] article to this
+[02:48:24] to this by far
+[02:48:26] Um, if you didn't read this,
+[02:48:29] this
+[02:48:30] This is...
+[02:48:37] Okay.
+[02:48:38] Thank you.
+[02:48:39] Yeah, this is just great.  And yes, I agree that Signals...
+[02:48:47] are orthogonal completely.  I'm just talking about the danger of...
+[02:48:51] templating languages built in.
+[02:48:54] not about...
+[02:48:56] The signal prop handling thing is an interesting problem.
+[02:49:01] Thank you.
+[02:49:02] - Thank you.
+[02:49:05] Um,
+[02:49:09] Yeah, Nolan's article is absolutely great.  Web developer, Seattle, working for Salesforce, you know, okay.
+[02:49:16] He's written tons of great articles about web components, actually. I saw a few of them in the past. This is not the first time I've read Nolan's articles before.
+[02:49:25] Um,
+[02:49:26] I'm not sure.
+[02:49:27] Right. The great divide web codes are not the future. Corey's response.
+[02:49:32] JS framework, blah, blah, blah.
+[02:49:35] just kind of setting himself up.
+[02:49:39] Yeah, performance. This is completely true. If your goal is to build the absolute fastest framework you can, then you want to minimize the DOM,
+[02:49:45] results. Testment, that's an alien
+[02:49:48] some of my friends in the web community by saying that performance isn't everything. Sure.  There are other trade-offs. Sure. Yeah, we talked about those.
+[02:49:55] maintainability, security, okay. And we talked about a lot of these, right?
+[02:50:01] To make silly example, I can make DOM faster by doing this.  Yeah, and this is the thing.  It's always easy to gain benchmarks specifically.  So we do have to take the greatest salt.  Four versus four each.  Yeah, okay.  Okay.
+[02:50:11] Speedrunners, he compares us to speedrunners shaving seconds off.
+[02:50:15] A five minute run, yeah.
+[02:50:20] The only thing that's funny about this comparison here is...
+[02:50:23] Thank you.
+[02:50:24] If your goal, by all means, jump backwards, log, jump across the entire stage instead of Mario Run Forward.  I will continue to press where you're doing that.  It's just not for me.  Yeah.  I'm a huge fan of speed running.  So this one talks to me completely.
+[02:50:38] The funny thing, though, I'm just going to put there from a framework standpoint, working with web components is the thing that has us doing the backward long jump.  Do you know what I mean?  Like.
+[02:50:46] We can...
+[02:50:48] We can build stuff to optimize for speed with a DOM. It's tricky. We have to be aware of the DOM properties and we have to do all this stuff. And then once we do that, what we can offer to the developer is something that, you know, they don't have to worry about the long jumping.
+[02:51:02] But...
+[02:51:03] As soon as Web Components come in, you start hitting all the exception cases, and you're going to be like, okay, what are we doing, right?
+[02:51:12] Amen.
+[02:51:13] least surprising.
+[02:51:14] Relation ever.
+[02:51:20] Okay, so...
+[02:51:26] Minimizing the user DOM is classic optimization, blah blah blah.
+[02:51:29] That's something you can do with simpler approaches.
+[02:51:32] Yeah, using CSS is linked here. Yeah, definitely.
+[02:51:35] Um, funny thing is,
+[02:51:38] Yeah, blah, blah, blah. Similar with the find and custom elements, use different frameworks. Sometimes you need a framework. Yeah, yeah. We talked about this. This is good. Okay, that's going. That's the matter. If you're dealing with resource constraint environment where every millisecond grow, ditch your web components. Oh, yeah. There's a reason Solid is used so much on mobile television. This is where we've gotten our in into larger companies.
+[02:51:58] I want to see more of it. These companies won't talk about it, but I talked to developers working on there. I did like, you know, companies like Netflix.
+[02:52:06] companies like Comcast,  we actually had this thing on.  I've recently heard some stuff happening on Apple.  Like, so, yeah, I mean...
+[02:52:14] All right.
+[02:52:15] There is truth to this, but I do want to point out that
+[02:52:20] If it was actually harder...
+[02:52:23] to make things faster. It's like it's like harder to use web components than it is to make things faster.
+[02:52:28] Like, it's a, which makes the speed running thing kind of not thing.  Okay.  And then cost stamps.  This is where I keep off the writing train.  As a framework author, I just don't find that much effort in support web  points. Detecting crops versus attributes is a simple prop and element check.
+[02:52:42] Outputting web components is indeed painful, but hey, nobody said you have to do it.
+[02:52:45] ViewTube, Stambly, Web Component, Wrapper, Remount, Exist, etc.  Okay, which is important.  He's highlighting what I talked about,  which I said separating the idea of consuming versus outputting, right?  Like the authoring versus consuming, right?  Okay.
+[02:52:57] You can freeze your code. Of course you can. But assuming I don't want to freeze your brain in Amber, then yes, you do need to account for new stuff like proxies. I love this argument because proxies are exactly like what web components. What proxies did to JavaScript are like what web components did to the DOM.
+[02:53:12] Right.
+[02:53:13] Like,
+[02:53:14] people got really spooked by the fact, I'm just going to open a terminal here, that with proxies, if you could go like object dot
+[02:53:22] value equals five, some crazy code somewhere else to go.  This was the obstacle for signals, right?  It wasn't proxies originally.  But think about it.  Solid exists because of proxies, in a sense, because...
+[02:53:35] surplus didn't handle proxies properly because it didn't know that they were reactive expressions only knew how to handle functions and it basically ignored
+[02:53:45] Property access.  So suddenly...
+[02:53:47] It went from just being functions being reactive to like any property access be reactive.
+[02:53:54] Right? Proxy can also mess up with instance of. Yeah, you could get in the way of it. Yeah, so I think this is fair.
+[02:54:04] Thank you.
+[02:54:06] Thank you.
+[02:54:07] Right.
+[02:54:08] So like...
+[02:54:11] I just wanted to kind of like...
+[02:54:14] I think proxies are a great example of this.  Here's another funny one, right?  What happens
+[02:54:21] When I go div.innerHTML equals some HTML string that now has
+[02:54:28] my...
+[02:54:29] L in it.
+[02:54:30] Right.
+[02:54:31] suddenly
+[02:54:35] Some arbitrary JavaScript's going to run synchronously at the time of the DOM parsing. This is different than a mutation observer, which fires on the next microtask queue. Remember that? We're full circling here.
+[02:54:47] Like,
+[02:54:48] Suddenly...
+[02:54:50] you're in this interesting zone where
+[02:54:53] where stuff actually runs
+[02:54:57] inadvertently because you did an inner HTML.
+[02:55:03] Right. Like, it's not just because I'm listening to, uh,
+[02:55:11] you know, a specific...
+[02:55:13] property or stuff like you get into a world where arbitrary Javscape friends I gotta I gotta I
+[02:55:19] Yeah, we'll, we'll, we'll, we'll, uh, let me continue. Um, I won't.
+[02:55:25] I'll get into this in a minute when we talk about apps and props, okay?
+[02:55:28] As a framework author, you want to freeze it.
+[02:55:31] If you want to freeze your thinking, you can do that.  Or you can.  I don't think anyone wants to freeze their thinking.  Most of these frameworks I'm talking about were developed after web components came out.  So let's go.  Okay.
+[02:55:40] kind of muscular but assume you don't want to freeze your brain yeah blah blah blah from there i get the person the wide swath of web component community does not care about web components that's probably true
+[02:55:49] That's an
+[02:55:50] I mean, he hasn't made an argument. He basically, his argument against my thing is that prop and element check. So that's the whole reason why he doesn't believe that it's hard to support. I have more examples. So let's get into that in a minute. Less standard is highly become the default mental like slots, native slots.
+[02:56:06] Authors, their selection work on native bots. Yeah.
+[02:56:09] Yeah, exactly. Rich Harris. True, but again, we could say that about new browsers to use intersections or is lazy. Yeah, that's fine.
+[02:56:16] Just because some website doesn't mean you use it, yeah, that's fine.
+[02:56:20] But...
+[02:56:21] The fact that inner HTML changes...
+[02:56:24] is...
+[02:56:25] profoundly different than whether I choose not to use slots or not. I feel like. I mean, there's some  fun with slots too I can talk about. "Senters nothing wrong with comments, they're only used,  the problems are dangerous." Here I totally agree. As I said before, webcones are bad at a lot of  things. Service side rendering accessibility interrupts. In some cases there are plenty of  good things. Emily, reasonable point here. Blame social media. I find these beats tiresome.  My own experience at Salesforce, we built stuff. Marketplace, strict background,  compatibility is here. We intended to support for years, not decades. Is that you? Maybe you
+[02:56:55] - I'm intrigued.
+[02:56:56] out of webcars, or maybe should, I can't say.
+[02:57:00] Okay.
+[02:57:01] I mean, I'm glad about this. Me and Nolan will check in hopefully with each other in about seven or eight years and see how well that held up. What I find exciting about is the sheer number of people doing amazing bizarre things, blah, blah, blah, blah, blah, blah. Okay, that's great. And it ends with a nice positive note.
+[02:57:19] Right.
+[02:57:20] Um...
+[02:57:23] Yeah.
+[02:57:24] One last one.  I don't want to get into this.  I think Theo might have talked about this one already, so I don't need to...
+[02:57:32] This is kind of like this premise that there's different types of components.
+[02:57:37] I'll bite there if you... I'll say that's okay. I'll say that...
+[02:57:42] Project specific, they're saying don't belong in it.  These ones general could.
+[02:57:46] We've kind of already talked about where this
+[02:57:48] But there's something that was said.  Framework...
+[02:57:53] There's something...
+[02:57:56] that was sitting in the conclusion that I want to say so.
+[02:58:05] Bye.
+[02:58:07] Uh, dammit, I can't, I'm not gonna find the quote here, but it was something that suggested that
+[02:58:13] that frameworks
+[02:58:15] that web components were doing us a favor.
+[02:58:20] Um...
+[02:58:22] I'm going to get tied up in all these responses if I follow through them all.
+[02:58:26] Um,
+[02:58:28] I think the idea here, though, is that, like...
+[02:58:30] and
+[02:58:31] Stuff that's, as I said, based on your...
+[02:58:35] application code, application logic doesn't necessarily need to be a web component. So
+[02:58:42] I mean, this is a fair take.
+[02:58:45] I'm not gonna find it right now unfortunately. Okay, sorry. I gotta keep on moving. I
+[02:58:50] Yeah, at the bottom.
+[02:58:52] uh,
+[02:58:55] Thank you.
+[02:59:08] Yeah, I'm... because I see this line, so how we concluded that frameworks are useful, webcones are also useful, stop fighting and make awesome shit, whatever tools, yeah, that's great.
+[02:59:15] Um,
+[02:59:18] But...
+[02:59:19] That's not...
+[02:59:21] What?
+[02:59:22] No, there is a line that's basically suggested that
+[02:59:25] that web components are helping frameworks.
+[02:59:34] Thank you.
+[02:59:36] I don't know where it was.
+[02:59:39] Anyways, it's fine.
+[02:59:47] Okay. It's, it, it, it doesn't matter. Um,
+[02:59:51] that much.
+[02:59:55] I unfortunately probably reopened stuff, so we have
+[03:00:00] This.
+[03:00:01] And then...
+[03:00:02] I closed Nolan's article because I was done with that.  OK, so let's let's go to here.
+[03:00:08] Thank you.
+[03:00:08] Yeah, maybe it was the tweet.
+[03:00:11] So I started writing an article.
+[03:00:13] And
+[03:00:14] I wanted to summarize my response to all the responses kind of generally.
+[03:00:18] Um,
+[03:00:19] And I hope this helps people understand my perspective.  Um,
+[03:00:24] So I think we had a...
+[03:00:27] point in our document here that was about
+[03:00:30] Why not the future?
+[03:00:32] Um...
+[03:00:33] This chunk of text I could probably just...
+[03:00:39] It's not even the future. This is just my response. It's fine. Let's just go here. So point number one, web components are not, aren't new. This isn't coming from a position of changes bad or being stuck in the past, but rather they're being there, done that. And we should really reconsider if a framework has slots that differ from the standards, it's because they started with the standards and realized it wasn't the right fit.
+[03:00:57] Web Components are not doing frameworks a favor.  Some of the greatest criticisms come from the framework.
+[03:01:02] that support web components the best. Ones that have smaller market share that could arguably benefit from using them for adoption. Ones that could
+[03:01:09] would care about using more of the platform to reduce their footprint, and yet the authors are aligned on this.
+[03:01:14] And then finding success with web components doesn't preclude them from scrutiny.  Every decision has opportunity costs.  My argument is that with overall cost of the platform,
+[03:01:21] is that with the overall cost of the platform, it is great when people find success with a solution.  As site application developers, our job is to create solutions, but platform and general tools like framers have to stand by a wider criteria for success.  Okay.
+[03:01:34] Okay, so...
+[03:01:36] Let's just...
+[03:01:37] jump right into attributes and properties. Okay?
+[03:01:41] I talked a bit in my previous article how potential custom attribute properties meant that the rules of how to best handle them suddenly opened up.  There have always been special cases.  See, you know, number six in Rich Harris's why I don't use web components, right?  Um...
+[03:01:56] This example
+[03:01:58] He's just showing that like
+[03:02:01] some attributes reflect weirdly,  like,
+[03:02:05] you know,
+[03:02:05] has attribute disabled, doesn't have it, set a prop to true, now it has it because it reflected, remove the attribute,
+[03:02:13] Um,
+[03:02:14] Okay, so that makes sense.  And then he goes...
+[03:02:18] type a button disabled Boolean, get attribute,
+[03:02:22] Object, button disable true.
+[03:02:25] He was just, I mean, he's just, this is kind of like what Rich has been doing recently.  As a framework author, you...
+[03:02:31] you hit
+[03:02:34] really interesting exception cases all the time because you try and set properties and set attributes and then you find these weird ones.
+[03:02:42] What's this one? Div set class is one,  class name is one, div class name two,  class two, that's six, and then we don't
+[03:02:49] He's basically just pointing out all these things. To be fair, none of these things actually
+[03:02:53] have much to do with web components themselves.
+[03:02:56] Um...
+[03:02:58] But it's just important to understand that before we even get into stuff, there's quirkiness in the DOM.
+[03:03:06] that we all deal with.
+[03:03:11] These are all exceptions for web components. Good.
+[03:03:13] but now we need to account for any special way of the customer  illness might have.  This I meant seems pretty minimal consideration,  but I want to show how much even the smallest things open up a giant  camera words.  Something's clear.  Attruth values can only be strings.  Attruth names are case insensitive.  Only HTML can be serialized for,  um,  SSR.
+[03:03:31] There are a few ways we can handle this from a component consumption standpoint.
+[03:03:35] Right? Runtime characteristics. As Nolan pointed on his article, "As a framework author, I don't find it's much effort to support web components. Detecting props versus attributes is a simple prop in check.
+[03:03:44] And yeah, that's a fairly common technique. One I believe is used by Svelte and in the future of React 19. The idea is that if templating name is exact match for the property, like case and everything, like so it looks on the DOM and sees if it's like on the element, it'll set it as that. Otherwise, it will set the attribute.
+[03:04:03] As a Web Component Author, you need to make sure that everything is able to be set as a JS property as well as an attribute.
+[03:04:09] I think is important.  I think you should be doing this anyways.  This works relatively fine,  assuming that elements is upgraded  before any attributes or properties is set.  We'll talk about this more later.  There is some fun.
+[03:04:21] It's not...
+[03:04:22] like depending on upgrading time as i said this clone node makes it obvious but there's  there's other times that i've hit this issue in the past where we'll actually like set a bunch  of attributes on an element and then before it's like upgraded so like before it's actually reactive  that it knows it changes so that's the basically like the code that we have to observe attribute  changes hasn't set so like in solid element for example our wrapper component register library
+[03:04:52] We actually like do this whole game of like also checking what's already there to make sure that we don't just assume that's, you know, like the default values.
+[03:05:01] Anyways, that's a minor detail. I do have a question though. As a consumer of web components during SSR,
+[03:05:08] I.e. not necessarily on a platform that supports expanding or rendering these components, but allows them in HTML output. Like pretend like I'm HTMX, for example.
+[03:05:17] I mean, maybe it doesn't make sense.  What HTML output would you expect for...
+[03:05:22] or for this.
+[03:05:25] I mean, this could even be solid. Forget HTML for a second. If I wrote this
+[03:05:29] some property.
+[03:05:30] you know, I'm React and I'm using CamelCase in this property.  Would you expect
+[03:05:36] My element, some property high, like, are you expecting it to reflect as an attribute?
+[03:05:41] or expecting it not to be there?  Or are you expecting it to get transformed into like the attribute kind of name?  Because, you know,
+[03:05:49] This is case insensitive, so generally attributes might use dash case or something. The only reason I'm asking this question
+[03:05:56] is because
+[03:05:57] They're heuristics at runtime, right? So
+[03:06:01] If there's no DOM element on the server to ask the question of if the property exists,  it's kind of undefined to decide what the behavior is.
+[03:06:11] Thank you.
+[03:06:14] Right, but I'm just assuming that you want us to, like, someone wants to support...
+[03:06:21] If you pass
+[03:06:22] I mean that that is an answer only pass strings to web components but if you want to have templating that can
+[03:06:29] past like a list like because you want to iterate over it or something more you know like you could always json stringify it and i've done that before but then the cost on update is extreme because you're creating new references like
+[03:06:40] good luck passing signals that way.  I mean, it's fine.  You don't pass the signals,  but like no stores,  no like...
+[03:06:46] You serialize it to a string. It's like  JSON string find JSON parsing  data every time you pass it through a component.  It's expensive. You don't want to do that.
+[03:07:03] Thank you.
+[03:07:10] Well, yeah, so basically the argument here is that if
+[03:07:14] you're going to assume that there's no properties, that you're only passing strings in.  I think that's fair, right?  Maybe this is part of the problem with the flexibility.  You might have a problem.
+[03:07:26] Thank you.
+[03:07:27] But the...
+[03:07:28] Like if you have a big set of data that you want to send into your component, you don't pass JSON to it that way.  You render the list in.
+[03:07:40] You know, like...
+[03:07:42] as HTML on the server and like
+[03:07:45] The wrapper can do some wrapping.  I mean, control flow is interesting, right?
+[03:07:50] Like,
+[03:07:51] You're putting these custom elements on the page in the first place. I'm assuming because you want client interactivity. Otherwise, you would just render the HTML. So,
+[03:08:00] If you want control over how the list renders with the custom element,
+[03:08:05] Um...
+[03:08:06] You do have to consider this question, right?
+[03:08:10] You can choose not to include in the output.
+[03:08:12] right? Null and log, because serialize string. But if you don't have a runtime that's able to render the web components on the server, you actually don't know. Compiler can help
+[03:08:19] automatically or without setting other conventions, you're probably better or can't help without  setting other bits. You're probably better to treat everything that can be
+[03:08:27] an attribute as an attribute and then hope that hydration the client sort of takes care of the rest. What I mean is
+[03:08:32] If you are in a situation where you're trying to
+[03:08:35] consume this in an environment that runs JavaScript on the outside of the web component?
+[03:08:39] like
+[03:08:41] You understand like if I just remove some property on here and then this web component renders onto my page
+[03:08:48] When it
+[03:08:50] it better not trigger...
+[03:08:52] the upgrade and render on the server on the client before it gets this prop. Otherwise,  it might not render the right thing. And then the prop comes in and you get like a double flicker  on on render, right? Like it renders my element without the app without the property. And then  then when the framework hydrates, it then renders it with the property, you get like a double render,  like a flash kind of situation. If you couldn't hold it, I don't know web components are working  on like a defer to hydration. I'm just so maybe this is a solvable problem. I just want to get
+[03:09:22] the thinking of this realm here  on, because, see people like, oh, we got  the declarative shadow DOM. Yeah, like, you can completely  render web components  on the server declared shadow DOM. That's,  but, like,
+[03:09:34] Before we even get into that, let's just put this element into
+[03:09:40] in our React component.
+[03:09:44] Okay.
+[03:09:45] Right?
+[03:09:49] By the way, the spectrum means landfrible. Yeah.
+[03:09:53] Okay.
+[03:09:58] Yeah, you use it through context, obviously, right? But I mean, then it's not isolated. I mean, I'm just trying to, okay, let's keep on going.
+[03:10:07] Oh, we got a raid? Sorry, I've been so into my stuff, I didn't even sign in to...
+[03:10:16] to Twitch today to actually see what's going on.
+[03:10:21] Yeah, thank you.
+[03:10:24] Do you wear my
+[03:10:27] Weird, my twitch is way behind. Oh, whatever.
+[03:10:32] Why am I not even seeing the raid?
+[03:10:36] *laughs*
+[03:10:38] Oh well.
+[03:10:42] Okay, anyways, let's continue on here. Okay, the other option is explicit convention. I actually went to the web component Discord and they actually said that they like the explicit convention because it gives them more control, right?
+[03:10:56] and
+[03:10:58] Another approach is what lit does, which is provide explicit templating prefixes to the developer to choose from.  Async connected call.  Interesting.  So you're suggesting like basically wait on something from the framework.  I mean, or from like something that would tell it to...
+[03:11:13] the hydration,
+[03:11:15] was good right
+[03:11:21] But there is a timing where you have to wait for the...
+[03:11:25] two micro task or set timeout might work,  but it's not guaranteed.  It's like,  it's like,
+[03:11:31] throwing a dart blindfolded. Like it'll, like,
+[03:11:35] I think this is smart.  If the web components you're using are aware,  it's a little bit awkward if they're meant to be universal,  like something like Shoelace.  No, I assume Shoelace only takes...
+[03:11:47] String attributes and not properties for stuff.  But I'm just, you kind of get where I'm just trying to think here from the space of things that consumed.  I'm not necessarily writing these components in solid.  So they're not aware of this or react.  I'm just trying to use them.
+[03:12:03] Right.
+[03:12:07] So yeah, lit does this, right?  Dot name, question for Booleans, all this kind of stuff.
+[03:12:11] It's interesting to me that Arby, the most prevalent web performance framer, chose this explicit style convention over any smart heuristic.  There's obviously interesting choices still to be made, like how do you handle static prop attributes and ones of value versus dynamic.  I'm actually going to put a thread here.  I think Joe's in chat, but he...
+[03:12:28] He actually...
+[03:12:30] made a really long thread on the solid Discord.  I'm going to drop this example here.  He wanted to show all the cool different syntax  that you can do in Lit.
+[03:12:38] and how they output see foo dot foo foo two dot foo two how do you like
+[03:12:44] This kind of stuff.  And then...
+[03:12:48] You can see some of the logs.
+[03:12:50] And then just just kind of get an idea of what's going on here.  Let's go element.
+[03:12:55] And actually, can I inspect this? This might be the best way to do it. Yeah, yeah, yeah. You can kind of get an idea of what you're dealing with with your div.
+[03:13:03] So we have foo hello.  So the string attribute goes straight through.  .foo howdy.
+[03:13:10] means that
+[03:13:13] It's should it was I thought it was high. Oh, no.
+[03:13:16] Sorry.
+[03:13:17] Ow.
+[03:13:18] Okay, so this is static.
+[03:13:21] Setting the property
+[03:13:23] got ignored. I guess it doesn't flip.
+[03:13:27] Because it's just a div, so it doesn't have a foo property.  Foo2 is set as a...
+[03:13:36] attribute
+[03:13:39] What?
+[03:13:40] But then...
+[03:13:42] Oh yeah, this is funny.
+[03:13:44] which I see down here, hey.  And then .foo, if it's static, not interpolated,  it actually becomes .foo in the DOM.  So yeah, this is interesting.  So question mark...
+[03:13:54] Bar.
+[03:13:56] Static doesn't show up.
+[03:13:58] Baz, true, lore and false, but if I do doe,
+[03:14:02] it shows up or doesn't show up.  So basically, syntax here actually only applies to interpolated values,  not to statically stringed values.  It's just interesting.  I didn't know how this worked.  In solid, our rules would always apply to either.  We'd like...
+[03:14:18] from the compiler standpoint, look at this and be like, oh, okay, this,  this is meant to be a Boolean. So yeah,
+[03:14:25] we can't treat it just like a static. But yeah, I think this is interesting. Anyways,
+[03:14:29] Um...
+[03:14:31] FUBARYO
+[03:14:36] Yeah, Fubar Yo is showing the casing.
+[03:14:39] Boobar sup and then again.
+[03:14:42] explicit and then
+[03:14:43] And I'm sure
+[03:14:45] If I went in here, we can see the console log similar anyways.
+[03:14:49] This is just showing that there's a...
+[03:14:51] wide range of control and flexibility here.
+[03:14:57] Thank you.
+[03:15:00] Amen.
+[03:15:02] Thank you.
+[03:15:10] Oh, the link I sent didn't work? Is it like too long?
+[03:15:15] I wonder if it got truncated.
+[03:15:22] I mean, I can try it one more time, but honestly, you guys, it's not that interesting.
+[03:15:31] I just, I, I, this was just an example there.
+[03:15:36] I'll get split into two messages.
+[03:15:40] Yeah, it's fine.  I just wanted to show the syntax.  The reason this came up was that...
+[03:15:47] Actually, do I link it here?  I've started referencing stuff in here because it was taking too long to...  No, wait.
+[03:15:55] Thank you.
+[03:15:59] Yeah. Uh...
+[03:16:04] There's a discussion going on in Solid Discord about, or sorry, in Solid GitHub about handling some of these conventions differently.  And whether it's better to default to properties in some cases because it's the happy path.  Because right now, Solid, when it sees a web component, always uses a property, except for when you override.  So we're like, what if we just made it attributes and then basically aligned with lit?  That's what we're thinking about right now.  Just an aside.  But generalist approach is powerful in that a compiler can know exactly how to optimize for each case.
+[03:16:34] is a responsibility on the consumer.  I need to know if the property  I wish to set it versus that true.  For SSR,  we can get smarter  in terms of what gets rendered  because it's clear that this is a prop.  It's not just like,  oh, this might be a prop,  but it doesn't change the fact  that render HTML  is potentially incomplete, right?  Yeah.
+[03:16:47] So, yeah, I mean...
+[03:16:49] I guess...
+[03:16:51] like,
+[03:16:52] This is a lot in my mind. Developers like usually don't have to think about this.
+[03:16:57] I don't think... I'm not sure that...
+[03:17:01] hiding it.
+[03:17:03] is as simple as
+[03:17:05] as just doing the in check.
+[03:17:09] The SSR consideration is a temporary when this component is rendered HTML and the client-side jav fills.  In this case, there isn't a full service side of rendering.  It is blank space waiting to be filled.  Timing is essential because you don't want the component to wake up and render itself before it receives the properties.  The difference between this and typical SR framework is that SSR with HTML reps is a whole possible output.  If no JavaScript is running the client, then you seize what you get,  whereas web components have the potential of being lossy in their encoding.  We're mixing inputs and outputs in our markup.  Now, we could blame this on not supporting web components in a non-DOM environment.  That's a bigger ask.
+[03:17:39] to check in the browser. Supporting them means we need to consider how they impact any environment  one might choose to use them. If you're using Web Components, the solution is building framework. You're going to
+[03:17:48] Considered a fundamental building block.  Now the output is most...
+[03:17:53] Yeah.  So basically you're going to render the declarative shadow dom essentially,  uh,
+[03:17:57] is how you're going to solve this. Because even if the properties are missing and your framework is made of all web components,
+[03:18:04] You have this benefit that connected callbacks
+[03:18:07] happen from root down to leaves. So you know that the parent will hydrate before the child and so on. It just will trigger all the way down. Whereas like,
+[03:18:18] you don't have the same guarantee when you're just consuming web components. So, um,
+[03:18:23] And if you use stuff like declarative shadow DOM, you don't have to worry about the lossy encoding.
+[03:18:28] because you will render the actual full realized stuff from the server in the first place.
+[03:18:36] So,
+[03:18:38] Yeah.
+[03:18:39] If I'm using lit...
+[03:18:41] The only actual problem, the SSR problem is not really a problem.
+[03:18:46] Um,
+[03:18:48] It's if I'm
+[03:18:49] like just trying to use it
+[03:18:51] outside of it, this prop versus attribute thing is interesting.  I don't have much new to add from what I said in the original
+[03:19:00] The fundamental mismatch here is that most frameworks view components as an input format and HTML DOM as possible output formats. Web components intertwine these in a way that is no longer separable. You need to buy in completely.
+[03:19:11] Yeah, so...
+[03:19:12] I mean,
+[03:19:15] Thank you.
+[03:19:18] This is not...
+[03:19:21] a deal breaker, adding this complexity
+[03:19:24] is weird from a templating standpoint, like it's an extra.
+[03:19:28] I...
+[03:19:30] If you if you don't want web components to be framework components, you should probably
+[03:19:36] Always.
+[03:19:37] use string attributes anyways.
+[03:19:39] So,
+[03:19:40] I feel like...
+[03:19:42] this concern
+[03:19:45] on the pure consumption side,
+[03:19:47] is probably...
+[03:19:51] workable. It adds complication to our templating and our JSX tools, but it's like
+[03:19:59] Like, how should I put it? This whole "at for a prop pool" thing, we wouldn't even care about.
+[03:20:06] if we didn't have
+[03:20:08] web components essentially. There would be no need to even look at this.
+[03:20:14] Right?
+[03:20:15] *sad*
+[03:20:16] But you get my point.  It's like if you build your whole site with web components all the way down...
+[03:20:25] then you can control this thing.  But if you don't,
+[03:20:28] and you have to JavaScript interface with the components,
+[03:20:32] and try and do it in a declarative way, there is a gap here.
+[03:20:35] So maybe this is an addressable gap, but what I'm demonstrating here for this particular topic is that
+[03:20:42] the consumer
+[03:20:45] of your framework now has to be very concerned with attributes versus props versus like the different types of prop things where they would have not worried about before.
+[03:20:54] The framework has to have logic to handle and process these separately.
+[03:20:59] And that...
+[03:21:02] As I said...
+[03:21:04] Timing mismatches need to be kind of worked out through.  And it's kind of fundamental because it's based on the fact that like...
+[03:21:12] We're encoding...
+[03:21:15] data into the HTML.
+[03:21:17] Like if you, as I said, isomorphic, like render framework, the HTML you get out is the final HTML.
+[03:21:23] And you could argue that with DSD, that what you get out is the final HTML.
+[03:21:27] But if you can't serialize some of the properties or attributes coming in,
+[03:21:33] you know,
+[03:21:35] What you get is not what you get until it hydrates and depending on hydration and
+[03:21:40] It's awkward, right?  Like, what if your framework doesn't want to hydrate web components or incompletion, right?  Like, this is a constraint, like, against...
+[03:21:48] say something like presumability.
+[03:21:50] um it's a it's a you could just say like once you hit a web component that's the end of the world
+[03:21:56] So,
+[03:21:58] That's a fair argument, but there is this question
+[03:22:02] of like,
+[03:22:03] Should the same framework be able to live inside and outside of the web component?  If you were starting from a perspective of
+[03:22:10] Uh...
+[03:22:11] of here, webcomers and frameworks, and you kind of walk back from it,  you kind of think that maybe you should be used for both consuming and authoring.
+[03:22:19] This disconnect
+[03:22:22] can be awkward. Anyway.
+[03:22:28] Thank you.
+[03:22:30] Thank you.
+[03:22:33] Thank you.
+[03:22:35] I mean, this is the first point. I'm hoping this makes sense in the context of both like
+[03:22:45] Okay. Okay, let's look at the next thing.
+[03:22:54] It is interesting though, right?  I do think that like the fact that framers view DOM as one possible output, whereas like...
+[03:23:02] Because like on the server, we just output strings.
+[03:23:06] Um...
+[03:23:07] Whereas, um...
+[03:23:09] like
+[03:23:13] like web components kind of like entwine both worlds it makes it kind of tricky
+[03:23:19] OK, let's go next life cycles. Dom notes can be created
+[03:23:22] multiple ways which makes this topic tougher.  They can be created on a per element basis  or through the DOM parser, say as part of .innerHTML.  And there's also a difference between creating elements  inside of a template.
+[03:23:36] And putting...
+[03:23:37] that dot html on a div per se. Template elements are inert. They don't even exist in the document  until they're inserted.
+[03:23:45] Right. Rich has been giving great examples of this like all day.
+[03:23:49] Like the last couple of days, who cares, right?
+[03:23:52] Well, it happens this is something you have to be aware of when consuming web components because it impacts when they upgrade. A web component that is not upgraded is seen as an unknown element and while its properties and attributes can be set, they are naked. No custom logic runs. No getter setter traps set up. No behavior based on observed attributes will execute.
+[03:24:11] Thank you.
+[03:24:11] It means as a webcomode author you need to be aware that you aren't always dealing with a clean slate coming in. Sometimes after some props have been set before you get to upgrade.
+[03:24:20] Why is this hard for frameworks? We have a lot of mechanisms built off synchronous guarantees. This is the foundation for our consistency model. Even if we schedule differently, it's central in all frameworks that the UI at any point in time is completely consistent based on the state input being fed in. So like UI equals function of state, like the old React thing. The whole idea is that at any given point of time, given the state, the DOM should reflect it.
+[03:24:47] Thank you.
+[03:24:52] Yeah, see, and to be fair, when I, like, SolidElement, when I was building those early demos, I didn't hit these problems because I was building all in web components.
+[03:25:00] I'm actually hitting more issues now  when people are generally not building  with web components  and then they just try and
+[03:25:07] Pull stuff in.
+[03:25:09] it's almost like the web components have been so focused on like
+[03:25:13] proving out like the all in on web components thing that they, you know what I mean?  I guess we're in like this weird third category because there's like people who just use HTML.
+[03:25:22] Um, and then they just put the web component on the page and they have no expectations. Then there's people, then there's like places where frameworks are, you know, built completely with web components. And that kind of, you know, as I said, there's overhead, but it works. Um, or you can come up with mechanisms to work. And then like, but like when you're just trying to like, just consume them, there's this like interesting tension anyways. Um,
+[03:25:43] Web components can upgrade asyncly which throws a few wrenches in. Okay. So yeah, we talked about clone node versus import node. The first one is that these similar methods have a huge difference. Import imports elements into the document, whereas clone node does not. This means that web components are not upgraded until connected to the document, which means that all the attribute property settings happen too early.
+[03:26:01] Again, not that hard to change if the method being used once discovered.  See, the reason we hit this in solid was because...
+[03:26:08] we use reactive properties,  um,  generally speaking.  So the,  the,
+[03:26:13] the like when we clone the node
+[03:26:16] and then we set the values reactively,  the...
+[03:26:23] The underlining getters or setters, sword setters, weren't there yet.  So people who had custom elements also built with reactivity, depending on solids tracking, would actually just...
+[03:26:35] not track because they weren't there. So the signal would go, "Hey, I'm reading the value."  And then the web component would be like, "Yeah, who cares?"
+[03:26:43] And then any future updates...
+[03:26:45] wouldn't happen because the signal triggering wouldn't be tracked. Do you know what I mean? Like, like,
+[03:26:50] It causes weird disconnects.
+[03:26:53] Um...
+[03:26:55] So,
+[03:26:56] Uh,
+[03:26:57] People in the community noticed and then they figured out that this was the reason this was happening.
+[03:27:03] One of the problems obviously that we've talked about is that clone node versus import node has a performance overhead.
+[03:27:09] Um,
+[03:27:10] Some people, at least in Chrome, some people claim that this is not a real thing.  Just look at any benchmark.
+[03:27:16] I...
+[03:27:17] In...  If...  Yeah.  It's fine.  I mean...
+[03:27:23] It was enough of a performance difference for us that we detect in solid. We look through your JSX and go, oh, there's a web component there. Let's use the other method.
+[03:27:36] We've been doing that since 2019. Svelte, I think, is adding this in Svelte 5 as well. It's just like...
+[03:27:44] It is a thing.  And obviously, if the platform updates it, that's fine.  But we actually had another fun thing here.  We actually, not just clone nodes, we have to...
+[03:27:57] We have to worry about our reactivity. Let me see if I can get here.
+[03:28:00] um is that coming up yeah reactivity's next okay i won't get there yet
+[03:28:05] Again, it's not hard to change the method once discovered, even if it's measured really slower, that it impacts everyone, not just web component users, right?  So, by just mentioning, we fixed this by making the compiler aware of this. Does that end there? Assume top-level document, apparently isn't always safe. Check this out.  This was an issue that was opened up on GitHub a little while ago. People were like, "I currently work on an application based on micro frontends, blah, blah, blah."  I have, Sol basically assume that windows.document was the document that we were inserting.
+[03:28:33] But that is wrong here because
+[03:28:37] You know, again, the custom elements need to work off a different document.  And suddenly we get in this weird thing where...
+[03:28:45] Like we're talking about figuring out how to make solids render function
+[03:28:51] aware of what documents are done.  This is like an API...
+[03:28:55] that is designed to be cross-platform, not DOM
+[03:28:59] based, like not the render function, but the root function, like the reactive root.  Basically, we need a way to eject DOM API into a non-platform specific reactive core  to get this to work.  I think...
+[03:29:12] we can solve it
+[03:29:14] probably, but like I haven't managed to merge this yet.  I have to think about this.  The core reactive library is a platform agnostic isn't aware of the dumps.  So patching owner doesn't feel right, but I'm sure how else to get it.  Right. Like,
+[03:29:25] This whole document,
+[03:29:27] ownership problem and upgrade problem
+[03:29:30] has actually
+[03:29:32] manifested into like, oh, we can't just do something reasonable. We have to actually like expose this out
+[03:29:37] you know,
+[03:29:38] Sorry, it's...
+[03:29:44] Thank you.
+[03:29:46] Yeah, I mean, that's fair. No one did. I mean, a lot of the times, it makes sense to a certain perspective why you think the performance would be worse. It's doing more work. Like, do I write a performance bug because inner HTML is...
+[03:30:00] slower than text content.
+[03:30:05] I mean...
+[03:30:08] Generally what frameworks do is they find the fastest way to do things and they do it the fastest possible way.
+[03:30:18] Right? Like,
+[03:30:21] If something is...
+[03:30:24] slower, we don't use it.
+[03:30:26] it's,
+[03:30:28] Why not? Well, because...
+[03:30:31] Are you suggesting that we literally open like...
+[03:30:37] The DOM is slow.
+[03:30:39] But like...
+[03:30:40] Like...
+[03:30:46] Everything's slow.
+[03:30:49] Thank you.
+[03:30:49] Thank you.
+[03:30:50] I guess the thing is, like,
+[03:30:55] Until we were being forced into it, we wouldn't have cared, right?
+[03:31:02] Yeah, I mean, I guess...
+[03:31:05] I guess that's fair. It's like, hey, you guys want us to use this API slower than the other one.
+[03:31:10] Can we do something about it?
+[03:31:15] Yeah, yeah, no, that's fair. I generally
+[03:31:18] Generally speaking, when I see something do more work than something else, I have traditionally given on performance, I've traditionally given the benefit of the doubt that it's because it's doing more work.  So, you know.
+[03:31:33] That's the collab you're trying to get, okay.
+[03:31:35] Sure.
+[03:31:37] Right. I mean,
+[03:31:39] it's one of those ones that's kind of like a little bit weird because it's  like,
+[03:31:42] Do you know why node.data
+[03:31:46] is faster
+[03:31:48] than setting text content.  Like there's certain properties that write faster on
+[03:31:54] text nodes for us. We have this long list of stuff that's all discovered through trial and error,  that could conceivably change between versions.
+[03:32:04] Um...
+[03:32:06] And it's like,
+[03:32:08] you don't lament the slow stuff.  Usually you just,
+[03:32:11] to use the faster stuff.
+[03:32:17] Yeah, yeah, I mean, to be fair,
+[03:32:21] Um,
+[03:32:24] I was as...
+[03:32:28] It being slower...
+[03:32:30] was like,
+[03:32:32] Like, I guess I just accepted it.  I was just like, okay.
+[03:32:35] Right. Like,
+[03:32:37] I, the reason, like, when I wrote the article, I wanted to just collect a bunch of issues.
+[03:32:42] This stuff is just...
+[03:32:45] examples of a whole categorical
+[03:32:49] This is why I still stand by the original article, because what I'm getting at is like I can nitpick at these details.
+[03:32:54] but it doesn't change the overall perspective on it.  It just is like supporting of where things
+[03:33:04] The complexity is added
+[03:33:06] And someone is going to ask,
+[03:33:09] is it necessary?  Like, because the argument I've got  is like complexity is not added.  And like, no, complexity is added.
+[03:33:23] I mean, standards do change.  I mean, they evolve slowly.  My biggest concern is it's like,  what if I think you're fundamentally doing the wrong thing?  Like, it's not a fixable problem.  It's just like, just...
+[03:33:38] the
+[03:33:39] It's like the wrong abstraction, let's say.
+[03:33:45] And because of that abstraction, now
+[03:33:49] we all have to deal with it.  Like, I think that's...
+[03:33:55] Thank you.
+[03:33:56] Yes, that is fair. Well, I mean, some of the complexity. I would still have to worry about whatever this...
+[03:34:04] this problem is.
+[03:34:05] Like, obviously, I have to be realistic here.  I can't go back to a place where I could ignore this whole
+[03:34:11] document
+[03:34:12] upgrade timing thing.
+[03:34:15] But this is why I thought an issue like this was kind of interesting, because it never ends.
+[03:34:22] But I mean,
+[03:34:24] I get it. It's hard because
+[03:34:27] not everyone's going to be happy about paying the cost  and we all have to like
+[03:34:31] deal with it within reason.
+[03:34:33] Right.
+[03:34:35] Um...
+[03:34:39] Yeah, but that's not a helpful thing either.  We don't really have...
+[03:34:45] that choice realistically
+[03:34:48] This is just like...
+[03:34:50] Thank you.
+[03:34:51] Thank you.
+[03:34:52] Something is there.  People will use it.  Now we're stuck with it.
+[03:34:58] You know, that's been most of my point here, right?  Web components are here there, but like
+[03:35:07] You know.
+[03:35:08] I don't think we should go into like, oh, then Blank shouldn't support it or doesn't need to support it.  No, I mean...
+[03:35:14] we're, you know,
+[03:35:18] Thank you.
+[03:35:26] Interesting. Just a note, the webcommon author can now set clonable to true for the shadow root and both clone node and import node will work. Interesting.
+[03:35:42] That's interesting.  To be fair, web components aren't the only import node problem.
+[03:35:47] Lazy, image lazy also has this.
+[03:35:52] I think in general, this area is a little bit frustrating.
+[03:36:00] It's always tricky because you go to the browser and you report an issue.
+[03:36:06] And then the browser's like,
+[03:36:08] Every issue I've ever reported against Mozilla or Chrome,  they're just like...
+[03:36:12] they basically like
+[03:36:14] kind of go like,
+[03:36:15] it's not our problem. We're actually doing it right.  The other browsers are not doing it right.  And you're just like, it's very disheartening.  I don't even know, like, even...
+[03:36:24] Like, it's very rare that anything that actually, like, of this nature they put out there actually ever gets anywhere.
+[03:36:34] So it's like,
+[03:36:36] It's funny.  Do you go to the standards and see if those are wrong?  Do you go to the browsers when they have different implementations  and see if they are wrong?  There's a bit of a...
+[03:36:48] awkwardness here. So yeah, I mean, I think you're fair. It's like when people use our framework,  and they shortcut features, because they're like, this didn't work for us. And then they just like,  cut it. And then they get annoyed at you for, you know, having these features like I don't like
+[03:37:01] So,
+[03:37:03] I get what you're saying.
+[03:37:09] Thank you.
+[03:37:12] Thank you.
+[03:37:20] Yeah, it's one of those things where...
+[03:37:25] I don't have the time to,  and I think this is where you wanted to get on that conversation.  Like, I have found that...
+[03:37:32] Talking standards, people have no shortage
+[03:37:36] of
+[03:37:37] of like wanting to talk through the issue so i i'm not
+[03:37:40] I've mentioned multiple times on stream,
+[03:37:43] It's just like,
+[03:37:44] The problem is it's like
+[03:37:47] And we are stuck here.
+[03:37:49] because we let it pass. I think the best thing we can do really is get ahead of stuff in the future that would be terrible, like we find catastrophic and make sure it doesn't happen. And then focus
+[03:38:01] you know,
+[03:38:03] on
+[03:38:04] slowly...
+[03:38:06] managing expectations around this stuff.
+[03:38:15] Yeah, I mean, I've been involved with what was a community protocols thing.  Like, I have...  It's not like...
+[03:38:23] I haven't seen this stuff. It's just like...
+[03:38:30] There's a degree to like...  The fact that...
+[03:38:35] this web components existence is,
+[03:38:38] And I know this is kind of like, oh, you're just whining kind of perspective.  I get that.  It's the fact that web components' existence...
+[03:38:44] has
+[03:38:45] And the way these interact with each other, all these APIs, has just
+[03:38:49] opened up this can of worms that just didn't need to be opened up. From our perspective, I understand that you're like, well, we also have to accomplish this and this, where our scope is wider. I get that.
+[03:39:00] It's just like.
+[03:39:01] It isn't
+[03:39:02] It's it's really web calls, especially I think of in a frustration point on this stuff because
+[03:39:07] It's just like,
+[03:39:09] When we look at it, especially for framework authorization, it's like, whoever asked for this?  Like, it's just, it's so...
+[03:39:16] it feels so backwards and it's just like,
+[03:39:20] It's like,
+[03:39:21] It's just like,
+[03:39:22] it's just like now, now it's your problem, you know? And it's, you're like, well, you didn't,
+[03:39:28] help, you know, which is fine. We want this feedback. We want people to help. But it's like,
+[03:39:35] it's, we're already, you know, like, I get it.  You're like, we're already here.  Now we have to live with it.  And it's like,
+[03:39:45] It just...
+[03:39:48] This effort to figure out how to make things work when it just arguably shouldn't even be there in the first place. It's brutal.
+[03:40:01] You know what I mean? Like, it's just like, yeah, I get what you're saying. Like, if we felt strongly enough about it, why don't we just not support it? Then we don't have to worry about it. And then this goes away.
+[03:40:14] Right. If you're committing to supporting a feature, you know, and I think this is the problem, I think I think we're kind of getting to where it is.
+[03:40:21] it wasn't that the frameworks didn't want to support web components.  It's a lot of them actually tried to.  And then like,
+[03:40:27] we're just like
+[03:40:28] Like, it's this.  You know what I mean? It's like
+[03:40:33] *cough*
+[03:40:37] What?
+[03:40:38] Like, it's...
+[03:40:40] Now it's just like,
+[03:40:41] this thing that's just
+[03:40:44] from our perspective, offer almost zero value and just...
+[03:40:50] We have to spend time to make sure that they it doesn't sabotage us in the future any further and
+[03:40:57] Um...
+[03:40:59] Yeah, it's hard.
+[03:41:04] especially for frameworks with less resources,  frameworks that only have  a handful of full-time developers.  It's just like
+[03:41:13] there's whole committees and stuff who've worked on,  I know they're volunteers and they're open source,  but like who worked on,  on,  on these things compared to the,  you know,  the voice of,
+[03:41:23] you know,
+[03:41:24] Yeah, it's just it's it's disproportional, which makes it
+[03:41:28] Pretty, pretty, pretty tricky.
+[03:41:32] Thank you for coming in on this, Michael, because you're right.  This is like kind of the crux of the...
+[03:41:40] people part of the problem, right?
+[03:41:43] Um...
+[03:41:45] Because it's like,
+[03:41:46] Thank you.
+[03:41:48] Thank you.
+[03:41:49] It's a lot easier.  You find this with application development on a different scale.  When someone's using a framework and something doesn't work and they find a bug, they just work around the bug.  They might not even report the bug.  And you're like, man, if you report the bug, you could have helped all the other people who use the framework.
+[03:42:04] And...
+[03:42:05] And instead you just like
+[03:42:07] found a workaround and just continued on with your day.
+[03:42:10] Sometimes the JavaScript frameworks on top of the platform are a bit like that. They're just like, oh,
+[03:42:15] That's weird.
+[03:42:17] Okay, whatever. Do the next thing. But
+[03:42:21] As I said, I got to the article not because of any individual one of these things. It's because it was like
+[03:42:28] the, the, what I call like the lie, the myth about web components and future proofing and, you know, that, that I was just like, oh, just hold on a second.
+[03:42:38] Like,
+[03:42:40] They aren't
+[03:42:41] and
+[03:42:43] they have made things more complicated.
+[03:42:46] There is a tax.  So like...
+[03:42:48] It's not just like
+[03:42:49] I can ignore them.
+[03:42:51] But it's also not
+[03:42:53] like they're beneficial. So in like
+[03:42:55] A certain sense. I understand some people find them beneficial, but that's the kind of thing.
+[03:43:01] Right. People do continue. I witnessed that when I joined on the web, the...
+[03:43:11] the web component thing.  I was talking about something about resumability and serialization,  and someone basically...
+[03:43:17] drafted out an idea of like how this could work and I was like, okay, well, like
+[03:43:21] it's missing some details on what mechanically how this could work.  You know, like,
+[03:43:31] Yeah.
+[03:43:32] It's sometimes I wonder like the eagerness to like find these solutions.
+[03:43:36] gets like way ahead of where like
+[03:43:41] we reasonably should be.
+[03:43:43] Um,
+[03:43:44] I don't know.
+[03:43:45] that's just like the sense I get.  I was just like,  it's like so much context information being missing.  And then just like,
+[03:43:53] Yeah, but I mean, maybe that's just part of like the attitude. I don't know. It's just something that I've noticed.
+[03:43:57] Anyways, sorry, we've kind of gone very deep in this specific topic.
+[03:44:03] zone on on on this i probably should get back to my where i was going here um
+[03:44:09] Thank you.
+[03:44:11] What do we got? Reactivity. Signals have been becoming a new norm at frontend. Sure. Not only is frameworks but also candidate for standardization. This has been interesting interaction with life cycles because most cases top level I don't believe you want to auto track reactivity. But because these events can sometimes fire synchronously, you might find yourself tracking things you never intended. One side effect of realizing that import node was preferred was that suddenly all reactive reads and constructor and connected callbacks were triggering unexpected rerunders of the whole web component. So when we detect web components, we also want to track the whole template.
+[03:44:40] But that isn't always enough.
+[03:44:43] So,
+[03:44:44] This was a fun one. Got this issue.
+[03:44:50] Custom elements have numerous callbacks and these should untrack to avoid recursion. This is a bit tricky because a lot of the DOM methods for manipulation can cause callbacks to fire.
+[03:44:58] So,
+[03:44:59] It's just basically showing all the callbacks and saying that any of these could be reactive scoped. Again, this problem
+[03:45:07] I feel like, let's go back to our table and kind of organize stuff here again.  So when we're authoring,
+[03:45:15] I'm assuming
+[03:45:17] Yeah, I mean,
+[03:45:19] I don't know if there's a separate category for this,  but I think one of the problems that we have to consider here is that
+[03:45:25] If the same framework is on the outside and the inside,
+[03:45:29] are we like, what are we doing? Right? Like, are we in a good spot? Um,
+[03:45:35] Because attributes or props is mostly an external thing, like consuming. Upgrade,
+[03:45:44] lifecycle.
+[03:45:45] is mostly a consuming concern.
+[03:45:48] Um,
+[03:45:51] I guess this is an authoring problem. This is still a consuming concern. It's only like like
+[03:45:57] Thank you.
+[03:45:59] You know, this was one for me, but like reactivity...
+[03:46:05] Um,
+[03:46:06] when also
+[03:46:08] when theme--
+[03:46:11] Lib.
+[03:46:12] inside, outside, right?
+[03:46:15] All right.
+[03:46:16] Kind of interesting.
+[03:46:22] *sad music*
+[03:46:37] Thank you.
+[03:46:40] So yeah, let me see here. Back to our list here.
+[03:46:46] Um...
+[03:46:52] I mentioned it's similar to inner HTML, but yeah, I mean, or sorry, similar to proxies, but inner HTML is interesting because like you don't always see the result of that.
+[03:47:04] Okay, context APIs.
+[03:47:07] I put this under life cycle.  That's interesting.
+[03:47:09] It's funny because I don't think...
+[03:47:12] I have a few notes on this.
+[03:47:17] While a framework can take precautions, it can't protect against all uses.  We can't guarantee with certainty all cases won't come across completely.
+[03:47:25] a non-upgraded element. If you can't guarantee that your children won't be upgraded at the time the parent rendering, then it's pretty difficult to have a mechanism like context work. Yeah, because context works...
+[03:47:37] synchronously. In frameworks, this tends to be hierarchical mechanisms that live synchronously during the lifetime of rendering. The framework injects it wherever it needs to run stuff and goes...
+[03:47:46] So basically, while it's executing, React runs its VDOM, it has a context. When Solid runs a render effect, it has a context.  In Solid, we keep context in the React system. Whenever computation runs, we're able to look it through computation, React, it's basically VDOM.  That's what I just said. However, were an element to upgrade asynchronously, then the framework wouldn't be in control of the reentry point. There would be no context.  Where would you possibly do a lookup?
+[03:48:12] there is one thing you have, the parent DOM node. Presumably that was rendered by a parent component.  So the point of rendering, yeah. I feel like, I don't know
+[03:48:21] where this fits in my map but both
+[03:48:24] Both of these are the same thing where you have the same system on both sides.  Because I'm not suggesting...
+[03:48:30] that these are framework components
+[03:48:32] I'm this is like a category maybe we need here is like
+[03:48:37] Um,
+[03:48:39] framework.
+[03:48:41] on both sides.
+[03:48:43] concerns. And in this place, we have, what do we have? Reactivity concerns,
+[03:48:50] context concerns. They're very similar.
+[03:48:55] Thank you.
+[03:48:58] Thank you.
+[03:49:02] Thank you.
+[03:49:05] Right, so where are we?
+[03:49:11] Presumably this was rendered by a parent component. So the point of rendering you have a context. This is exactly what we do in Solid. When we detect a custom element we compile an extra line to add the owning context to it. So a trick that we did in Solid is basically like you'll see in our compiler we add a $owner prop and we get the context so that we can write on the element. So even if like
+[03:49:31] There's some scenario, like maybe you...
+[03:49:33] don't actually have the JavaScript loaded lazy loading of the element yet. So import node has  the document but it hasn't upgraded because you haven't lazy like haven't loaded the JavaScript  for that component yet. You have an owner on the DOM and that way even though it will
+[03:49:46] execute asynchronously,
+[03:49:48] you won't actually,  you can look up the DOM parent tree to find it instead of,  uh,
+[03:49:55] instead of having to rely on
+[03:49:58] a context in which can't be there. Of course, in Zoom, the web component would need to know how to restore it inside
+[03:50:03] like our solid element library, right?  So like this only works because we control both sides.  But if you have your own web component implementation,  you need to manage that yourself  if you want to tap into solid context.
+[03:50:13] Okay.
+[03:50:14] So web component frameworks have a solution.
+[03:50:17] So since it's given that no avoiding the promo is no order of dogme important, it's funny I stress that too much, but signals-based promo,
+[03:50:24] Reactivity is an interesting topic.
+[03:50:27] Context for web components can be solved.  Back in 2021, I was involved in a discussion  in a web component community group  around events for context.  I don't know if this approach has evolved,  but it's sufficiently to see  how one might approach web components  in a web component framework.  Just as what you do is you have...
+[03:50:43] Elements
+[03:50:44] fire events, and they bubble up the tree to the parent. And then those events have a function  on them that the parent basically calls the function with the arguments to get it back down.  That all happens synchronously. So you're able to basically use DOM events to manage context.  Quite smart approach, I will say.
+[03:51:05] Because it works even with asynchronous upgrades because at any point when the child
+[03:51:11] web component like wakes up.
+[03:51:13] Um,
+[03:51:14] then
+[03:51:15] it can, you know, fire its event and get the parent.
+[03:51:20] So it's kind of like a DOM lookup, but it's not manual.  It's using the event system.
+[03:51:24] But it is very tied to the DOM, right? So I'm very interested to see how an approach like this works with SSR. I wonder, like, the lit
+[03:51:34] I saw some... Lit.dev.  I saw some conversation on Twitter suggesting that if I go to the docs and I...
+[03:51:42] if I'm managing data, that context is actually right here.  So they will let context, context data needs assume blah, blah, blah.
+[03:51:50] My understanding is that this uses...
+[03:51:53] this approach. I'm interested in how they handle
+[03:51:57] SSR, right?
+[03:51:59] Because it would suggest, I think, that...
+[03:52:05] that
+[03:52:06] you don't only need to emulate rendering custom elements, but emulate the DOM event system
+[03:52:13] on the server in order to make this work. One of the...
+[03:52:17] Challenges with SSR has been...
+[03:52:20] that it's very performance sensitive.
+[03:52:22] Unlike a lot of the browser stuff where you're stuck with the overhead of the DOM,
+[03:52:26] We can make SSR significantly faster by just using string templates.  That's why when the Fastify benchmark came out a few weeks back,
+[03:52:35] the difference between frameworks was literally boiled down to like,
+[03:52:39] like like one extra attribute or whatever.  It's it's it's.
+[03:52:43] it's obviously very focused in on like
+[03:52:47] something that repeats 10,000 times or something. But my point is,
+[03:52:54] Performance on server rendering is like in a whole other way.
+[03:52:58] dimension in terms of like
+[03:53:00] Like...
+[03:53:01] Like it's a order magnitude difference in terms of sensitivity to overhead, which is why when I started with solid, of course, I used the DOM on my server rendering because I was like, I already have this.  I pulled out GS DOM and then I was like, okay, this too heavy. What was the other one I tried after? I can't remember. Early days, I was like,
+[03:53:18] I already have this. Why do I want to do stuff?  I realized that putting the DOM on the server was so, so expensive  that I basically
+[03:53:27] made a whole different compilation target and changed how our reactivity works completely to make the performance difference change. Right. So it's very difficult to
+[03:53:38] you know,
+[03:53:39] situation to be in when, you know,
+[03:53:43] Someone kind of comes in and is like, oh,
+[03:53:47] Now let's render web components on the server.  It's like...
+[03:53:53] All right.
+[03:53:54] I know there's solutions that you don't need to emulate the full DOM, but the degree of DOM APIs is something I feel like we'd be sensitive to.  Anyways, it's also a bigger aspect considering non-web custom renderers. This is what makes it hard to interface framework concept of context. It communicates along different channels. Context can exist outside of environments where you'd use web components or DOM elements at all. So using the DOM as a vehicle doesn't feel like a universal choice. Yeah. So yeah, I think there's a good solution for web components, but it's not a universal solution outside of web components, which makes it a little bit tricky.
+[03:54:24] Lifecycle takeaway, DOM before web comments  or something that we know
+[03:54:27] executed synchronously without hidden interceptable behavior. Now there's no such guarantees exist. There's solution with solvents specifically for web components, but when frameworks are considering more than just web platform relying on DOM mechanisms or things that come for free with frameworks on reactivity system, whether based on virtual DOM or signals is unnecessary. This makes web components no more compatible with frameworks than frameworks are with each other.
+[03:54:49] Yeah.
+[03:54:50] OK, cool.  So that's mostly what I was trying to get on there.
+[03:54:57] you
+[03:54:59] Yeah, so...
+[03:55:02] So far, we've been talking mostly on consumption, and then these ones kind of tie on both consumption and authoring, but they're problems that only happen when you're trying to straddle the line. It's not necessarily saying that web components should be framework components, which we talked about, which is a composition consideration. It's just saying that like,
+[03:55:19] If you play on both sides, this is where things get tricky.  Reactivity generally works with singletons, so versioning considerations also are some fun pieces.
+[03:55:34] Anyway.
+[03:55:35] Sorry about that.
+[03:55:39] Kind of got lost on my train of thought there.  Let's go into, I think, my last...
+[03:55:45] um, mechanical piece that I talked about here, right? What did I do here? It doesn't end here.  A DOM is Kim clone custom different behaviors. DOM based life cycles can trigger synchronous  asynchronously. This wreaks havoc with these like reactivity tracking context. How these details are  important to interface with native DOM behaviors and events. They are also all things that Jeff's  converted doesn't have to worry about. Okay. Yeah. So I was just expanding on this one. And then  the last one is there's other idiosyncrasies, like the way event targeting works in the shadow DOM.  Some events don't compose, don't bubble beyond the shadow DOM boundaries. Some events don't bubble
+[03:56:15] we should talk about these for days but I want to divert attention to you so this last uh concern  here um when I talk about overhead um and don't get me on this is not an exclusive list this is  what I came up with the in that morning based on like what I remember from the last you know
+[03:56:32] few weeks, um, was this one, which is, um,
+[03:56:37] and event and I, I, they understand why events are a tricky subject. You have to understand that.
+[03:56:44] event delegation
+[03:56:47] is
+[03:56:48] very, very, very important to JavaScript frameworks.
+[03:56:53] Okay.
+[03:56:54] Let me see here.
+[03:56:58] you
+[03:56:58] The reason for that is like, it's not just because we want the performance of being able to delegate events, but they're mechanically important for things like portals.
+[03:57:07] They are important for things like...
+[03:57:11] selective
+[03:57:12] or any kind of partial hydration.
+[03:57:15] Right.
+[03:57:17] Thank you.
+[03:57:17] basically, if you're familiar with...
+[03:57:22] partial hydrate or selective hydration react. They basically look at where you interact with the page. Like we actually load
+[03:57:29] Stuff.
+[03:57:30] like in the, like synchronous in line in the page,  when we render it before the framework loads,  to capture and replay events so that we can ensure  to prioritize parts of the page you interact with.  Or resumability, what parts of the code
+[03:57:47] even need to load in the first place.  Like if you have event delegation,  you don't need to load all the code on the page.  See like there's this conflict.  Like if you're building declarative UIs,  you generally have to control the whole zone.  If you want to like,
+[03:58:01] Um,
+[03:58:02] It would be declarative, right?  You're like, here's what I'm writing.  This is what I get.  It's like kind of like a WYSIWYG kind of thinking.  So it's awkward to,
+[03:58:11] It's hard to write something that's like that and then have it not run all the code. That's why a lot of hydration concerns are
+[03:58:19] are so tricky. This is why single page apps and optimizing for them, even with SSR, has not been an easy task. I talk about hydration being like the most difficult problem to solve in ages. But where the solutions come in are all based on event delegation.
+[03:58:37] Thank you.
+[03:58:39] Right. Um,
+[03:58:41] Yeah.
+[03:58:44] Initially, let's see here. Yeah, I was saying, yeah, initially a lot of event delegation was to handle inconsistencies between browser links, because they didn't all follow the specs the same, different events were different, we needed to kind of normalize.
+[03:58:58] But over time, these features need more benefit, propagating events through portals, mitigate cost of hydration, even capture and replay. It's gone to a point where event delegation non-negotiable feature for frameworks. Yeah. So it's interesting because as I told you, when I went in the Discord, people were like, oh, let's work on a spec for event delegation. And I'm like, okay.
+[03:59:14] Okay. Like...
+[03:59:16] Mm-mm.
+[03:59:17] Yeah, I mean, I get where the intention is coming from.  But this is where I was talking about before,  where I wonder sometimes, like,  whether, like, just one more framework will solve it, I'm sure.  You know, sometimes, you know, on the spec side...
+[03:59:32] I think we're starting to see this to be enough a trend that the conversation should probably start.  React has event replay delegation.  Solo does.  Quick does.  Um...
+[03:59:43] I don't think everyone else does yet, but this is one of those things that I think
+[03:59:47] Um...
+[03:59:48] is going to be incredibly common moving forward. And it, and what does this have to do with authoring? Well,
+[03:59:56] It's one of those things that
+[04:00:00] If event delegation breaks,
+[04:00:02] Stuff gets weird.  I wanna show you, not this one.
+[04:00:07] It's so funny. This is like my GitHub autocomplete issue.  It's like the most, like the one that they always associate with me on GitHub when I put it in hub.com.  And it's so funny because this is actually...
+[04:00:21] trying to figure out how to stream content to an HTML element, which is really important.
+[04:00:26] It's actually really appropriate for the stream because...
+[04:00:30] They like.
+[04:00:31] really, really wanted to have this feature in, but some, I forget, there's some reason in here why it doesn't really work.
+[04:00:37] And then it finally came back when they added streaming into the declarative shadow DOM.  Unfortunately, streaming into the declared shadow DOM,
+[04:00:48] you know,
+[04:00:50] you know, isn't a generic enough solution for a lot of the things we have to solve, mostly because  the slots have to be at the same height, no nesting. But it was just kind of funny that this
+[04:01:01] This issue, I...
+[04:01:03] I've been looking at this issue for a very very long time.
+[04:01:07] Anyway, sorry, that's not what I was here for. It's just a funny aside.
+[04:01:13] Thank you.
+[04:01:15] Thank you.
+[04:01:16] Well, maybe.  What I'm getting at is we didn't...  Maybe this is our fault for thinking they're a framework component, but why...
+[04:01:25] When shouldn't we author? Like, look at Lit.
+[04:01:27] Lit.
+[04:01:28] authors, components, and the in-components.  It works basically the same as any JavaScript framework, and you can put it on both sides.  I know a lot of people use Solit to author their JavaScript frameworks.
+[04:01:38] Right. Um,
+[04:01:41] It's interesting.
+[04:01:42] about how to, if you want to benefit from resumability,
+[04:01:49] you're going to need to potentially write that web component quick.  I don't know if actually web components will allow you to do that.  Maybe that's the problem.  Like maybe, maybe like...
+[04:01:58] Maybe we shouldn't expect to have resumable web components
+[04:02:02] you know, coordinated in the way.  Like I saw some, again, the spec was around HTML,  but like presumably is basically based off signals.  It's a signals API.  It's a very, very JavaScript based API.  Anyways, yeah.
+[04:02:14] Where was I going here?
+[04:02:17] Uh...
+[04:02:18] there was a
+[04:02:20] an issue, right? Sorry, I'm just getting myself sidetracked here a little bit. I want to talk about events. So I want to talk about what event am I thinking about focus in? Yes.
+[04:02:32] Focus in on it.
+[04:02:34] focus
+[04:02:36] In.
+[04:02:39] So...
+[04:02:42] Thank you.
+[04:02:46] This is a good one because it's like focus is not working in ShadowRoot. I have to use on focus which is our non delegated version. Okay, so
+[04:02:54] I was given this issue where it's fine.  I remade it in our playground so I could see it.
+[04:03:02] So the idea here is
+[04:03:06] When you click on a button to gain focus, right? So watch the console here. When you click first time, you see one. When I click the second time in the normal DOM, you see two.
+[04:03:13] First time, one, two, we switch back.
+[04:03:16] And we see it.  But in the shadow root, when I click the first time,
+[04:03:19] There's one, then I click the second time.
+[04:03:21] Doesn't work back to the first one still doesn't work doesn't work doesn't work and when I go
+[04:03:26] Back here, now it works.
+[04:03:28] And now it'll work again too. Okay, but then when I switch again, it still doesn't. So basically the focus is
+[04:03:35] Um...
+[04:03:37] isn't noticing the focus difference between these two buttons when I delegate. So you might be  thinking okay maybe you need to like retarget it but we actually already do retargeting so  what's going on here? Well it turned out what I found out what I didn't realize before
+[04:03:52] but it's part of the fun, is that
+[04:03:58] you
+[04:04:00] What if I...
+[04:04:04] What I decided to do is I put non delegated event like I manually put the event and
+[04:04:09] above.
+[04:04:10] both the shadow root wrapper, so there's no custom element involved, and above the normal DOM elements.
+[04:04:16] And I did this exercise again and again when I'm doing it.
+[04:04:20] One, two, this is still working.
+[04:04:23] This one...
+[04:04:24] Not working. Same thing, not working. So
+[04:04:27] I realized...
+[04:04:29] that it wasn't even something wrong with our targeting or expansion.  It was literally the fact that...
+[04:04:36] Because the target...
+[04:04:38] is the same from the outside.
+[04:04:40] because
+[04:04:41] What they do with...
+[04:04:44] with the Shadow DOM is that
+[04:04:48] If the event bubbles past
+[04:04:50] the Shadow DOM, it treats
+[04:04:53] like it's opaque, it treats the whole
+[04:04:56] thing as the same element. But it's not just enough that it impacts the retargeting.
+[04:05:02] It actually...
+[04:05:05] doesn't bubble past that point. This event will never fire because it's the same target.
+[04:05:13] So like...
+[04:05:15] Thank you.
+[04:05:17] It makes it pretty difficult. Like you understand why right picture if this was like a hover event and you didn't want to differentiate
+[04:05:25] between
+[04:05:27] between like, or like these things, or sorry, we're in the shadow DOM. Pretend this is a hover event.
+[04:05:32] You're hovering the whole web component conceptually.  You're not hovering the separate buttons.  So you wouldn't expect
+[04:05:37] you know, if I go here and then go here to fire off two different
+[04:05:41] two different things, I guess. Right.  Or focus or whatever, like two different things like.
+[04:05:46] you expect the event to only happen once because I'm only focusing on this one complete
+[04:05:51] Shadow DOM element, but
+[04:05:55] This is kind of broken for the perspective of, uh,
+[04:05:59] of like trying to use event delegation for stuff.  And I mean, this has been kind of part of the problem.  Let me show you something.
+[04:06:07] dumb expressions.
+[04:06:10] Let's go here.
+[04:06:11] Um...
+[04:06:13] packages
+[04:06:15] DOMExpressionsSource.
+[04:06:18] Client.js. Okay, let's go, let's go.
+[04:06:22] handle...
+[04:06:24] or event handler, event handler.
+[04:06:28] Here we go. This is what our logic looks like now.
+[04:06:34] For a...
+[04:06:35] for event delegation. It's so funny because it literally could be like a third of the size, but
+[04:06:43] First of all, we have to make sure that we are...
+[04:06:47] Bye.
+[04:06:48] we keep the original targets because we have them,  like basically we put,  we,  we do retargeting of the target,
+[04:06:54] And we have to do retargeting kind of like a proxy  over the current target.  So as we walk up, it references the current node  that we are walking up.
+[04:07:04] And then now,
+[04:07:06] because of the intricacies of walking up both web component trees and portal trees and stuff.
+[04:07:15] Yeah, I mean...
+[04:07:17] Mm-hmm.
+[04:07:18] it's fine.  Like this is internal framework code.  I'm just,  what I'm getting at is,
+[04:07:23] Almost all the work we do is to undo retargeting.  Like basically...
+[04:07:29] Like we target path zero,  like almost everything we do as a framework author is to undo things.
+[04:07:35] What the Shadow...
+[04:07:37] Dom does. And we can where we can. There's other places which we can't, like I showed you with focus in another example. This would be like,
+[04:07:45] Solid router. Let me see if there's there's let's go here.
+[04:07:51] Someone was trying to use server actions from inside web components.  Solar elements don't work with server actions. So, you know,
+[04:08:00] So again, I was like, what's the vanilla behavior?
+[04:08:04] Right?
+[04:08:05] I realized that if I made a web component,
+[04:08:09] The MIT events don't, um...
+[04:08:14] don't compose, it's called.  They don't leave...
+[04:08:20] they don't leave the web component that they're part of.  There's probably some security reason for this.  I don't know, whatever.  But they don't compose, which means that event delegated submit events...
+[04:08:32] uh, don't, don't work generally. So, um,
+[04:08:36] There is a solution to this, right?  But it's just like a perfect example of like where like
+[04:08:42] You're hoping you have reasonable behavior. The trick here of what I figured out was that if I just made a fake submit event basically and just like
+[04:08:51] you know,  compose true.
+[04:08:53] then we get past that boundary.  So you can always manually fire the event yourself  to make sure it goes up.  But this is all like considerations as a component author  you'd have to consider because...
+[04:09:04] It's funny, it's the consumer that actually wants to make the decision here.
+[04:09:08] in our case, but like basically
+[04:09:13] there's just a lot of innate behaviors, even on native stuff that already exists.
+[04:09:20] that now are impacted by this shadow boundary.  As I said, bubbles isn't the only thing you have to be concerned about.  You have to also be concerned with composed, if you haven't heard of it.
+[04:09:31] yeah yeah I know I'm just showing you the edge cases where this doesn't work  we're like we do do this compose path but there's like
+[04:09:39] There's a bunch of cases where following the composed path doesn't actually even work.
+[04:09:45] Right.
+[04:09:47] Thank you.
+[04:09:49] I mean, you're suggesting this is an intended behavior.
+[04:09:54] Whether a form submit event is composed, I'm pretty sure is intended behavior.
+[04:10:00] And as I showed you with the focus event, that seems very intentional.
+[04:10:05] It's not...
+[04:10:06] It's okay, you know?
+[04:10:07] But like...
+[04:10:09] It makes sense. Like if you're viewing this as a contained thing and it gets focus, why would you expect focusing somewhere else inside the same thing not to be the same focus, so to speak?
+[04:10:19] Right?
+[04:10:20] there's going to be, whether some of this is a bug or not, there is going to be a split simply  perhaps because of the difference of expectations here.
+[04:10:31] Right?
+[04:10:36] Like...
+[04:10:39] Like, how do you fix correct behavior?
+[04:10:47] Right. More APIs to express intent to say like, oh, actually, I want to because it's not on the fire side. I don't think it's on. I mean, it could be on the fire side. That's interesting. I'm not sure if it's on the fire side or on the consumer side.
+[04:11:04] Um...
+[04:11:06] Because if it's on the consumer side...
+[04:11:09] Um...
+[04:11:10] it kind of maybe is fighting the intent.  Like the same reason we have open and close exist on Shadow DOM, right?  They want to close it off and the consumer can't go like, no, I actually want it open.  But then on the, on the, on the, uh,
+[04:11:25] author side then they'd have to actually account for the possibility of someone doing this with their components and other people not wanting them to do it either because
+[04:11:33] Like,
+[04:11:33] whether I want to do it. So it's probably both sides, right? Because if it makes sense in that example I showed you for like this not to fire from like a base standpoint, because like I designed my element.
+[04:11:47] This is it has focus, but
+[04:11:50] like it's almost like we just want to kind of like
+[04:11:53] have like god mode and walk around it but i understand like you don't give your users god  mode right like there's there's like
+[04:12:02] I think this is a very interesting tension.
+[04:12:06] here, right? Between like intended behavior as a consumable thing that you're expected to use and then like
+[04:12:15] Exploring that extensibility. We're having this problem with the signals proposal a little bit too. I mean framework authors all finally agreed on stuff, but like if you think about it, the funniest thing about the signals proposal is
+[04:12:26] It's almost anonymous that no framework actually wants to expose the signals API to their end user.
+[04:12:32] Isn't that funny? We come up with a spec to standardize it and you're like, okay, good. Everyone can use singles. But one thing that all the first like they need the internals, they need the details, they need like, you know, be able to traverse the reactive tree, know about the shape, be able to serialize, do all this stuff. But they also don't want to give any of that to the end users.
+[04:12:51] Because it could mess with their ability.  Basically, they could do stuff with it that would actually break the framework.
+[04:12:59] So like...
+[04:13:00] There is this sort of tension here when you...
+[04:13:04] choose abstractions to
+[04:13:06] Um,
+[04:13:07] block certain things for the sake of, uh,
+[04:13:13] Thank you.
+[04:13:15] Like,
+[04:13:16] Making them not leak so to speak like I
+[04:13:20] It is an interesting tension for sure.
+[04:13:25] Thank you.
+[04:13:26] Thank you.
+[04:13:27] Because I often say the problem with useEffect, for example, in React is not...
+[04:13:32] that it's a terrible hook.  It's that that's when you see the leak in the abstraction.  That's like that's the escape hatch.
+[04:13:39] if sometimes it's better
+[04:13:42] Like, sometimes escape hatches tie your hands terribly, right?  Right.
+[04:13:49] sometimes things kind of work at cross purposes.  Like sometimes you give people escape hatch and they realize,  well, this means I'll never ever be able to do this optimization.
+[04:13:57] And I think sometimes it makes sense that when the browser implementers get into specs, that's what they are defending.  They're like, look, guys, if we do this...
+[04:14:07] we can never optimize this thing.
+[04:14:10] So I don't know in this particular case, I'm just kind of
+[04:14:14] Yeah.
+[04:14:15] Most of these examples are just kind of
+[04:14:19] they're not necessarily bugs.  They're
+[04:14:22] differences on perspective.
+[04:14:31] Right. It should be a concern for the framework authors, but I'm saying it's...
+[04:14:37] I think the...
+[04:14:39] the authors of the components might have a say in this.
+[04:14:49] Thank you.
+[04:14:53] Thank you.
+[04:14:59] Thank you.
+[04:15:01] Thank you.
+[04:15:02] Web components are fine, they just have an MCOPSLog model that breaks many frameworks that are interested in controlling the render cycle.
+[04:15:07] So like every framework.
+[04:15:14] Thank you.
+[04:15:16] But I'm just saying, like, if you look it up, I've looked at the stuff before I used to call it actually like when I created the list of events that I put on the that I delegate, I went against the compose list, I went through all the very familiar with going through MDN docs and stuff and trying to figure out, you know, browser behaviors and stuff.  So like.
+[04:15:38] The intention a lot of these things are like specced somewhere.
+[04:15:49] Thank you.
+[04:15:51] Yeah, yeah, yeah, okay, yeah.  I agree with that, yeah.  Webcoms and copyright farmers don't want that.  No, because we, our ability, like,  it's what I was saying in the article about, like,
+[04:16:02] we're going to a place where components are just in your head
+[04:16:06] Just like frameworks in your head.
+[04:16:07] Like it's a construct for your mind and we compile them away.  We get rid of them.
+[04:16:13] We don't want anything in our way because it means that we can optimize it.  Like I feel for quick.  Sometimes they probably are going to have the hardest time with web components.  And I think about future features.  I want to go in solid.  And every time I like think about,  I'm just like,  man,  this is just like,
+[04:16:29] Why are we fighting this thing that just doesn't?  And you could be like, okay, well, this is just in your narrow view of things, which is fine.  But it's...
+[04:16:38] It's tricky when you go like, it's not like we didn't consider web components.
+[04:16:43] So it's like, it's just like,
+[04:16:45] not something of particular value to us.
+[04:16:50] Yeah, I don't know.
+[04:16:52] Thank you.
+[04:16:54] Um...
+[04:16:56] And
+[04:16:56] Yeah, I think that's good for those examples.
+[04:17:00] Yeah, I mean, there, I got nitpicky on some of the stuff.  There's other...
+[04:17:06] you know, smaller things here and there.
+[04:17:10] You look at this list and you're like, look, that isn't actually that bad.  Maybe these things are solvable.  A lot of these things are like...
+[04:17:18] The reason I'm not convinced is because a lot of the times...
+[04:17:22] It's not about that I don't think people can fix problems.  I think we're going to, we're going to, we will hit a point where the problems don't  make sense to fix because the thinking or alignment around this goes so far that you're  like, well, that's how it should work.
+[04:17:36] And then it's like,
+[04:17:38] Okay, well...
+[04:17:40] What...
+[04:17:41] What can I do with that?
+[04:17:43] Right? Either like
+[04:17:45] step aside, don't try to, you know, like, it's either just like resolve this, okay.
+[04:17:51] It's almost easier, I think, at times for frameworks to, I think I said it earlier, pretend that web components are just non-native.
+[04:17:59] Right.  Um...
+[04:18:01] and then handle them like section off to a compiler custom render to handle it.
+[04:18:09] To be fair, the focus event, I don't know. I found out about that a couple
+[04:18:15] a week ago or two.
+[04:18:18] But,
+[04:18:18] To be fair...
+[04:18:21] it makes 100% for it to be spec'd out that way.
+[04:18:24] Thank you.
+[04:18:28] Thank you.
+[04:18:32] Thank you.
+[04:18:36] That's why Apple killed the is equals.
+[04:18:40] Thank you.
+[04:18:51] It's interesting to look at the issues on React 19. People are already like picking apart issues with the implementation. This is the problem. Once React said that like we're going there, now they're going to feel the full pain of it. This is just the start.
+[04:19:03] Like, it just...
+[04:19:04] it never ends and i know you like you could say that about the dom or any like plot like tool like  it's like you know like everyone the tool they use they're never content with right you know  like you talk to someone and like oh react i'm reactable but react sucks you know you're next  you're like they get excited and they get the point there that they you know they're like you  know it's true for framework authors the tool that we use is the platform it's so which is why the
+[04:19:34] know, maybe they need their own category, but there's like a web component frameworks author.
+[04:19:39] kind of group when they when like when people like make accuse accusation of frameworks like not  following the platform and all that it's just it's bs like you know what i mean like  this is the stuff we're dealing with every single day
+[04:19:52] like
+[04:19:53] That's why when, like as I said, someone in the responses I'm just like, "Man, what?"  Like I don't even know how to respond sometimes because it's like, "What are you smoking?"
+[04:20:03] Thank you.
+[04:20:05] Thank you.
+[04:20:06] Thank you.
+[04:20:10] Thank you.
+[04:20:31] A lot of people have broken into the optimal future. I'm glad we arrived there. It's too bad that that wasn't like the obvious thing in the beginning. Because like, I feel like when web components came out, people really wanted only two things. I wrote about this in my first article a few years ago. They wanted like a...
+[04:20:47] on connected or an on mount event for the dom and they wanted style isolation it was like you gave  people those two things and just like walked away and like saw what they did with it
+[04:20:58] We would have been in like a million times better state.  This is not a new thing.  I think I might have said this the first time 10 years ago.  Like, it's just so...
+[04:21:08] it's so dreadfully like the problem.  I mean,  it's the same thing.  It's when you're,  there's a desire that when you look,
+[04:21:15] I talk about the article when I talk about suspense and stuff.  When you see the pieces aligning, you're like, we need all these pieces to get where we need to get.  So offering them individually gives us like a second way to do it.  No, there should be a single way.  And suddenly everything gets conflated.  All the mechanisms become part of the singular solution.
+[04:21:32] Um...
+[04:21:33] So like I can get
+[04:21:36] how we can get there. It's just I don't think it's
+[04:21:38] I feel a lot better about standards these days, and I think that
+[04:21:43] Web components were like a learning...
+[04:21:45] experience for everyone.
+[04:21:48] of like what not to do
+[04:21:49] Um...
+[04:21:51] So, I mean, there is positive there.
+[04:21:56] Right. I'm not surprised by that. It's just it's very dangerous to be over ambitious on stuff.  And the problem is like we're not stuck with it, but we are kind of also stuck with it.
+[04:22:07] I don't know.
+[04:22:08] Is this a state of things that just continues on and on and on?
+[04:22:21] Like, hmm, sorry, I just read this comment.  I think a lot of frames have made sounds that are either subtly flawed or we fix a point in time where your platform changes.
+[04:22:30] - Yeah.
+[04:22:31] Yes, because they did what I did.  They went, oh...
+[04:22:36] clone nodes faster than import node.  And then they kind of just pursued on autofocus.
+[04:22:42] This is...
+[04:22:44] This is something I think React has learned.
+[04:22:46] When it comes to the small stuff, although I can't say this about back in time because I needed to universalize.
+[04:22:52] If you provide a new mechanism, don't name it the same thing. Whoa.
+[04:22:56] on change in React.
+[04:22:59] is not
+[04:23:00] the change event in the browser.
+[04:23:02] So like,
+[04:23:05] I get why we're there, but it's very, you've got to be careful not to just like substitute yourself in for the native behavior and call yourself as being different.  This is something that frameworks have learned.
+[04:23:13] over time, right? Because I think this is a problem we used to do before.  We used to be like, look, the browser does it this way. We'll like,
+[04:23:19] copy the same API of the browser and then make it like better to fit our needs.  No, we should call it out as being different.
+[04:23:27] um,
+[04:23:27] you know, where is possible, right? If we add extra functionality, we shouldn't use the same attribute name, you know, so to speak.
+[04:23:38] .
+[04:23:41] Thank you.
+[04:23:43] Thank you.
+[04:23:46] Thank you.
+[04:23:46] Thank you.
+[04:23:48] Thank you.
+[04:23:59] Attribute reflection is an example of a problem highlighted. Content attributes have some reflection rules, but there are exceptions. A lot of programmers try to map content attributes to properties.
+[04:24:07] But then these,  but yeah.  And the thing is,  because we spend all our time dealing with this,
+[04:24:12] we are aware of this and we have special case and we do all this stuff.  And it's kind of part, part of the game. And then, uh,
+[04:24:19] Sometimes our perspective on how to handle this stuff is wrong.  It gets outdated.  You're kind of like, oh, actually, now because of this, we don't need to handle stuff.  Acknowledge the change, but...
+[04:24:29] I think...
+[04:24:30] The challenge.
+[04:24:33] Also here is this like...
+[04:24:35] Yes, there's always going to be those small details.  In the same way that when people are like,  oh, web components don't do blank, they suck.  And then they're like, no, but it's coming,  or we can do it like this or that.  There's a lot of misunderstanding there.  And I think like,
+[04:24:46] No, that's not the case.  Let's not...
+[04:24:48] Let's, you know, let's not go there.  Um, but...
+[04:24:54] I do think some of it is actually still at a more fundamental level.  And I think maybe it's not the whole community.  It's just there's this feeling...
+[04:25:07] of
+[04:25:09] as I mentioned before, like this sort of
+[04:25:13] Ah.
+[04:25:15] the I I I'm sorry not to pick on Maddie here because it just I've seen this so many times of that like
+[04:25:24] like where you go, they're not the same thing, they don't do the same thing.
+[04:25:29] They do the same thing.
+[04:25:31] Like this sort of...
+[04:25:36] duality that makes it like, um,
+[04:25:40] like some of the rhetoric really
+[04:25:45] I guess it just like really has this conflict.  It's why the harmony doesn't exist.
+[04:25:55] Thank you.
+[04:25:56] Thank you.
+[04:25:56] Anyway, I think I'm just going to do, at this point, it's Twitter time, kind of go over some of the stuff that I bookmarked. Some of it is web component related, so we should probably go with that, but I'm pretty much...
+[04:26:13] done with my prepared content, I think, about this. I mean, we need to talk about this, don't we?
+[04:26:20] uh...
+[04:26:25] Maybe we just talk about this right away.
+[04:26:29] Yeah, let's talk about this right now  before I officially go this week in JavaScript.
+[04:26:37] Thank you.
+[04:26:43] Thank you.
+[04:26:44] Lit is not a framework, the browser is the framework.
+[04:26:50] Mm-hmm.
+[04:26:51] Thank you.
+[04:26:54] What does this even mean?
+[04:26:57] Thank you.
+[04:26:58] Well, let's listen first. Lit is not a framework built around web components, or a framework that uses web components.
+[04:27:05] Okay, later the library that helps you build web components.
+[04:27:09] Okay.
+[04:27:15] It's an implementation detail standard web components that happen to use it.  Okay.  So I guess what he's saying is the fact that,
+[04:27:21] Like, going back to our...
+[04:27:27] Thank you.
+[04:27:27] Thank you.
+[04:27:30] Thank you.
+[04:27:33] Yeah, I guess what he's saying, but that has nothing to do with being a framework, but I think I get what he's saying.
+[04:27:42] Thank you.
+[04:27:43] like he's saying that it's not,
+[04:27:49] It's kind of funny because like lit.html
+[04:27:51] is a renderer that can render web components.
+[04:27:55] Right.
+[04:27:56] It's lit HTML.
+[04:27:59] is, you know, on in here, it's on this like
+[04:28:03] it can consume web components.  It handles attributes, props, it understands the upgrade lifecycle, you know, so to speak.
+[04:28:11] Um...
+[04:28:12] probably doesn't do automatic event delegation. Um,
+[04:28:19] doesn't worry about reactivity on both sides. Although it seems to be considered context. Context actually seems
+[04:28:29] inconsistent with this positioning. Let's continue here.
+[04:28:34] Let's whole reason for existing is to make web component development easier. Okay, so it's authoring. We simply wouldn't have it if web components didn't exist.
+[04:28:41] We have no interest in building another non-interoperable framework.
+[04:28:49] Okay. I miss lit.html. I miss it, you too. Okay. I mean, lit.html is still used, right? It's just the underlying render that you tend to use with your lit elements.
+[04:28:59] Thank you.
+[04:29:00] Um...
+[04:29:04] Right, and if we get higher level APIs in the platform, it can shrink down to maybe to zero. Right.
+[04:29:09] Here we're getting the kind of more on the goal vibes.  In a sense...
+[04:29:17] I think this is good.
+[04:29:22] It does sound like that.
+[04:29:26] Nothing he said...
+[04:29:28] does not make lit a framework.
+[04:29:31] Right. Like,
+[04:29:33] But it isn't exactly...
+[04:29:36] what I thought he was saying originally.
+[04:29:42] Right.
+[04:29:47] We simply wouldn't have built it if webconc didn't exist.  We wouldn't have built it in a non-interruptible framework. Great.
+[04:29:53] I mean...
+[04:29:58] It's interesting.
+[04:30:01] *sniff*
+[04:30:08] I mean...
+[04:30:10] It is a framework, though.
+[04:30:13] Let me just look, let's look at the lit docs.
+[04:30:18] Okay, context, the way making data available in type of subconferent, like context,
+[04:30:22] Context involves a contact, a key, provider, consumer, blah, blah, blah.
+[04:30:30] Like, maybe, I mean, to be fair, this is an extra package, but to me, you don't have context unless you expect web components to be used in web components, right? Like,
+[04:30:42] This is...
+[04:30:44] This is because...
+[04:30:48] Lit is creating a whole
+[04:30:51] application, like if you weren't,
+[04:30:55] Thank you.
+[04:30:56] going to just
+[04:30:58] Um...
+[04:30:59] You know those guys who are the HTMX guys are like yeah all my attributes are strings. I do it on the server, you know
+[04:31:05] You guys, I get it.
+[04:31:07] But...
+[04:31:11] The way H&L controls the props versus the attributes...
+[04:31:16] context APIs.
+[04:31:18] Like, what else do we have here?  Composition.  Composition.
+[04:31:22] Component composition makes sense.
+[04:31:27] Thank you.
+[04:31:28] Actually, state's probably good, state management. So sync tasks.
+[04:31:34] Lit Tasks.
+[04:31:37] Thank you.
+[04:31:40] What do tasks do?
+[04:31:47] Thank you.
+[04:31:52] Thank you.
+[04:31:58] Thank you.
+[04:32:00] Oh, okay. So it's like it's reactive controller. Okay. The key part is that it kind of ties into their system.
+[04:32:09] Yeah, context is event-based, yeah.
+[04:32:12] Thank you.
+[04:32:14] I mean, I think that the React argument that it's not a framework is...
+[04:32:20] is
+[04:32:21] kind of silly, right?
+[04:32:23] same like solid is as much of a library as react is as lit is
+[04:32:29] I mean, I could argue that React maybe these days is less and less of a library, but we're about all the same level.  Yeah.
+[04:32:41] I mean...
+[04:32:42] at list task, at list context, at list like,
+[04:32:47] The...
+[04:32:49] Yeah, I mean...
+[04:32:51] Yeah, you're right. This is just the...
+[04:32:53] The reason, the reason, the part of the sentiment that always gets me about this is there's like this, my crap doesn't smell sort of vibe that I've been getting here. And I don't know if it's intentional in this one. This one is just like the inane, like library versus framework thing.
+[04:33:14] Right? Because...
+[04:33:17] I think the claim is that LID is not a framework that comes out as an extension over web components.  It doesn't control rendering beyond what's possible in web components.  There's no additional scheduler.  It doesn't attempt to cooperate with life cycles beyond what it doesn't seem.  Right.  But then you have context and tasks and signals and SSR and...
+[04:33:33] all of these things, right? Like I,
+[04:33:37] It's a modular...
+[04:33:39] framework. It's built on primitives. I respect that. I love primitives. But it is...
+[04:33:45] Right? Like,
+[04:33:47] Um...
+[04:33:48] Let's see, view post engagement. Was this the one?
+[04:33:53] Um...
+[04:33:58] I was getting like tons of responses in my...
+[04:34:03] Oh.
+[04:34:04] Thank you.
+[04:34:05] I just need this really long ongoing conversation in my in my
+[04:34:10] in my...
+[04:34:11] up.
+[04:34:12] Okay.
+[04:34:15] Okay, here it is.
+[04:34:17] This conversation just kept on...
+[04:34:20] Going, yeah.
+[04:34:22] So custom DSL, custom builds, hooks, directives, custom decorators, custom compilers on a framework.  Remember React calling itself a library too.
+[04:34:31] So there's this like, oh, decorator is a stretch.  OK, blah, blah, blah, blah, blah.
+[04:34:36] Whatever. Okay.
+[04:34:39] Thank you.
+[04:34:40] And Dimitri's like hooks are optional, but I mean forget React. React hooks are optionally imported. I get what he's saying blah blah blah.
+[04:34:49] Okay, so where we go? It would be bizarre and impractical to do... Okay, so... Okay, this... I like this part of the conversation.
+[04:34:58] There's not a single React dev who hasn't used higher order components either, so you're making my point for me. All these things are offered by Lit. Features in the core docs and people are using them. We keep pretending that Lit is just a small library or something. I bet many experienced React devs haven't used higher order components in years. I haven't for sure and I expect new devs don't even know what they are. I do expect...
+[04:35:18] Do you expect a separate set of docs? That would be bizarre and impractical.
+[04:35:22] If those are optional non-core things, what are they doing in the core docs often presented as a way of doing things?  If they are part of Lit's philosophy and way of doing things, Lit should own that.  And not pretend, oh, this is optional and this is a separate package.  That's why we're just a library, not a framework.  When in reality, you go looking at what people build with Lit, all these optional non-core things are everywhere.  It'd be bizarre and impractical to document them elsewhere.  Why would it be impractical if not part of the core?  They should be documented in whatever packages there are.  You can't pretend it's a separate package and have it permanently featured in your core docs as a default way of doing things.
+[04:35:52] Okay.
+[04:35:53] "Framework versus library thing is a mindset. It's about the breadth of opinions. I always thought it was suspect with React. Where the code resides doesn't matter. It's when you cross the line from 'here it is, take it or leave it' to 'this is how all the pieces go together."
+[04:36:09] What do they say here?
+[04:36:10] Once the tool has opinions, even if categorically about how to solve the problems adjacent to its purpose, it's extended its scope. SolidStart does not shift with Solid, a router, a metadata library. You could literally say it's just like a way of bundling used server over VT.
+[04:36:25] But that doesn't make it not a meta framework.
+[04:36:29] you
+[04:36:29] Right?
+[04:36:34] Thank you.
+[04:36:35] Thank you.
+[04:36:36] Bye.
+[04:36:42] Right, what is my definition?
+[04:36:53] framework first library is about the breadth of opinions right i think i said here take it or  leave it let's see if i define it better down here
+[04:37:04] Greg goes, this is nuance, but Justin's talking about something different and very specific. When he says that lit is not a framework, his point is that lit doesn't define interface between components. It relies entirely on standard interface. Okay.
+[04:37:14] Okay, to me that has nothing to do with the identity of a framework versus a library versus whatever. A framework is something to organize our code/thinking, not an output format. The ideological trade-off
+[04:37:24] opportunity costs. I like...
+[04:37:27] maintenance or opinions, you know, like sometimes people frameworks are more opinionated. So you're like, okay, I have to be stuck with that opinion, like lock in or like maintenance considerations, you know, when framework updates.
+[04:37:38] are
+[04:37:40] tied to the framework,
+[04:37:44] Thank you.
+[04:37:45] you know, so to speak, like these kind of thoughts, you know,  framework versus library, whatever, like they happen.
+[04:37:51] up to authoring time, they have nothing to do with the output.
+[04:37:57] Thank you.
+[04:37:58] Thank you.
+[04:38:03] Good. So exactly the same as solid in React.
+[04:38:09] Thank you.
+[04:38:11] That's, um...
+[04:38:12] Thank you.
+[04:38:14] Yeah.
+[04:38:15] Thank you.
+[04:38:16] Right? Like, my point isn't about the words. My point is,
+[04:38:22] He's intentionally...
+[04:38:29] Thank you.
+[04:38:31] He's intentionally...
+[04:38:34] trying to separate themselves
+[04:38:37] on a distinction that's
+[04:38:39] like basically superstitious. This is part of that like
+[04:38:43] Like...
+[04:38:44] Mm-hmm.
+[04:38:46] Thank you.
+[04:38:47] It's so funny because I think Theo actually did a video a while back  and he gave a pretty high tier rating to Lit.  And it's because...
+[04:38:54] People who like frameworks generally don't have a problem with lit because lit is just another framework.
+[04:38:59] Right. Like you understand that when you buy into a framework,
+[04:39:03] All the, you know,
+[04:39:04] cost of maintaining and future proofing all that
+[04:39:07] is because you chose a framework.
+[04:39:10] Like,
+[04:39:11] Look, if you built your web components completely vanilla, no external dependencies,
+[04:39:17] try to keep the code small, kept it clean.
+[04:39:20] up to the usefulness goes because you know patterns trends change
+[04:39:26] You know for sure.
+[04:39:28] that that component's never going to change.  As soon as you introduce the framework, lit, whatever,
+[04:39:33] It
+[04:39:34] can change trends patterns things change you might not update you know
+[04:39:38] Like,
+[04:39:39] you depend on something, right?
+[04:39:42] You can always freeze a dependency forever, but you can do that without web components, right?
+[04:39:47] we shouldn't...  The impact of the interface being...
+[04:39:53] standardize is important for interop
+[04:39:58] between the fact that I have
+[04:40:02] In theory, if everyone supported the standard, you know, I could put this component in 10 different libraries.
+[04:40:07] But it doesn't impact the
+[04:40:11] Um...
+[04:40:11] future-proofing of actually the solution itself or like,
+[04:40:17] the reality of
+[04:40:19] how things move forward, not just, you know, standards update.  People keep reminding me of the stream.  I obviously know standards update like it doesn't actually
+[04:40:28] you know, version locking, all the stuff that we talked about at the beginning of the stream.  And treating it like it's something different or special here is
+[04:40:38] What's the term they always use?  Disingenuous. Yes.  I think this is one of my biggest...
+[04:40:43] pet peeves on this.  It's not just specific, though, to something like Lit.  It's just--
+[04:40:50] It's like...
+[04:40:53] kind of like a problem in this whole
+[04:40:56] base where there's like a certain like idealism that overrides like the, the,
+[04:41:01] There's a certain...
+[04:41:02] reality of things.
+[04:41:05] Thank you.
+[04:41:07] Right. It's all semantics. I'm not trying to argue about what the meaning of the specific word is, just saying what things are in or not in the same category.
+[04:41:25] That's how I say it when he says...
+[04:41:29] So let's see, sorry, yep.  Different definition.
+[04:41:35] if it's the only one that's representation in the standards process.
+[04:41:41] I mean, for web components.
+[04:41:45] Thank you.
+[04:41:46] You can take that both ways, right?  Right.  Right.
+[04:41:50] Like they said they basically created lit
+[04:41:53] To like align with the standards process.  That was like the whole process.  Like they're literally, they're literally trying to just pull it into the browser.  You know, that's like the goal.  It seems like.
+[04:42:07] Thank you.
+[04:42:13] Thank you.
+[04:42:16] Why does lit have versions if web components mean you don't have to change?  You guys are just being misceased right now.
+[04:42:28] Thank you.
+[04:42:29] Thank you.
+[04:42:31] Thank you.
+[04:42:32] I mean, do you know what else is standard?  A script tag.  The funniest thing is like,  when I was talking about like the micro front end,
+[04:42:39] scenario. Like...
+[04:42:42] What did you do, like a widget, before you had a web component there? Don't get me wrong, I like how it's just...
+[04:42:49] a declarative thing, it's ergonomic, but like, you'd have a script tag that loaded the JavaScript code.
+[04:42:55] And then you'd have a script tag that's like,
+[04:42:58] window.com
+[04:43:00] Widget.
+[04:43:01] Call it with the arguments.
+[04:43:03] and pass it the ID of the DOM element that you wanted to use.
+[04:43:07] So like
+[04:43:08] From a very, like...
+[04:43:11] like base base level we've been doing what web components
+[04:43:15] do like on the surface for ages just with like a simple script tag.
+[04:43:20] Right. Obviously making it declarative has benefits for server rendering.  That's like DSD game changer, right?
+[04:43:26] um...
+[04:43:27] Okay.
+[04:43:28] But like from like a
+[04:43:31] skeptic kind of standpoint here.
+[04:43:34] That independent script tag...
+[04:43:37] is...
+[04:43:40] You know.
+[04:43:41] It's just as...
+[04:43:44] As you know...
+[04:43:46] isolated,
+[04:43:47] as your web component.
+[04:43:55] Thank you.
+[04:43:56] Right, right. It just doesn't matter. My point is that these things are more similar than they are different. But the fact that they will completely continue to try and remind you that it's different is interesting.
+[04:44:17] Yes, this is another one.
+[04:44:18] I mean, thank you.
+[04:44:24] Thank you.
+[04:44:26] Thank you.
+[04:44:28] Why does any library have version of a TARC? Right, because things change.
+[04:44:33] And no technology protects you from change.
+[04:44:36] Thank you.
+[04:44:39] Anyway.
+[04:44:43] Anything else interesting happened in JavaScript this week?  I don't know.
+[04:44:47] Um,
+[04:44:50] Let's get out of my notifications. Give me a second here. I'm going to switch.
+[04:44:53] views while I prep for this week in JavaScript. It's probably going to be more web component stuff.
+[04:44:58] But, uh...
+[04:45:02] But...
+[04:45:02] Yeah.
+[04:45:03] Give me a second.
+[04:45:06] Thank you.
+[04:45:08] Thank you.
+[04:45:10] Thank you.
+[04:45:11] Thank you.
+[04:45:12] I've got to just open up a few tabs.
+[04:45:18] Thank you.
+[04:45:19] I know this is kind of long meandering, but I hope  that some people found some value  in this. I feel like
+[04:45:26] when I watch some of the content,
+[04:45:29] It's like it's hard. I obviously got directly into
+[04:45:34] *sniff*
+[04:45:36] Which I put it?
+[04:45:36] I got directly into...
+[04:45:40] Thank you.
+[04:45:41] you know, a lot of the more aggressive attacking stuff, I didn't really get to
+[04:45:46] you know, and answer questions, but I didn't really get into what I, something that I actually think,
+[04:45:50] is pretty important here is that like web components can do a lot of things and they are very much under
+[04:46:00] Like,
+[04:46:01] Yes.
+[04:46:02] A lot of people assume that there's a lot of things that they don't do that they do do. So,
+[04:46:09] Yeah, I hope I've made it clear throughout this that that isn't my concern or that we can continue to find hacks and fixes to issues. It's just like, what, why? At some point, it's just like.
+[04:46:21] Why why am I why am I still doing this?
+[04:46:26] Thank you.
+[04:46:28] Thank you.
+[04:46:29] Thank you.
+[04:46:34] It's weak in web components, yeah.
+[04:46:37] Thank you.
+[04:46:42] .
+[04:46:44] *Sigh*
+[04:47:01] Yeah, no, sorry. I wasn't suggesting that it's hacking. It's just like the...
+[04:47:06] attacking, like the...
+[04:47:08] the more like
+[04:47:11] non-supportive of what web component
+[04:47:13] perspective per se is is is what i was trying to say like  i didn't get the focus as much on a lot of the stuff that i do find very positive um
+[04:47:23] Okay, let's see here. I...
+[04:47:27] What are we, October? When was my last stream?
+[04:47:31] Two weeks ago, 4th
+[04:47:33] 27th
+[04:47:39] Thank you.
+[04:47:41] Thank you.
+[04:47:42] Something like that.  I'm just...
+[04:47:46] Trying to get my bearings here.
+[04:47:50] profile there we go
+[04:47:53] Thank you.
+[04:47:55] Thank you.
+[04:47:58] Oh wow, it's been a while hasn't it?
+[04:48:06] Thank you.
+[04:48:06] Okay. Yeah, so I gotta go back to the...  to...
+[04:48:12] It's the 20th.
+[04:48:17] Okay, cool.
+[04:48:20] Okay, let's just fire these off then.
+[04:48:28] Okay, cool.
+[04:48:36] Thank you.
+[04:48:37] Thank you.
+[04:48:38] Thank you.
+[04:48:43] Okay, yeah. Okay, let's do this. Yeah, it's been like three weeks, which means I don't have time to do everything. We talked a lot about web components today. I'm going to just
+[04:48:54] We're just going to fire through stuff.  I'll get to Brizza in a minute.
+[04:49:03] Yeah, this was talking about is being killed.
+[04:49:06] And
+[04:49:08] Thank you.
+[04:49:10] Jenna made a good point that a lot of the criticisms around the shadow DOM, and I think  that's true, especially as an authoring perspective, but there's a new proposal, I guess, for custom attributes
+[04:49:22] Um...
+[04:49:24] Is it closed? I don't know.
+[04:49:27] It's interesting to see all the people discussing in these things.  A lot of people like...
+[04:49:31] like web reflection. He was a big proponent of the is attribute. Um,
+[04:49:38] I believe native
+[04:49:40] Extensions.
+[04:49:41] But yeah, I...
+[04:49:43] also the original creator of
+[04:49:46] The original...
+[04:49:48] thing that was like lit. I just can't remember the name of it right now.
+[04:49:52] the original tag template literal
+[04:49:55] thing. Well, yeah.
+[04:49:58] Anyway.
+[04:50:02] Not Polymer, um, Lighter HTML. Was that it? Yeah.
+[04:50:11] or something. I think there was one before that, wasn't there? Like it was the original, like it was even before LitHTML.
+[04:50:21] basically within a couple months of each other,  they'd come up with like the exact same solution.  Um,
+[04:50:27] Thank you.
+[04:50:29] Anyway, not much to talk about here.
+[04:50:34] Go...
+[04:50:36] Thank you.
+[04:50:37] Rich Harris did a great job of defending the position.
+[04:50:44] If I could build something for the time spent working around web systems, fella would be a rich man. That's funny.
+[04:50:49] Web components, tweets, breaches, containment, expected videos.
+[04:50:53] All right. I might need to cover this a different time. This is actually a great look at a presentation. It's talking about the tension in standards, helping developers be more productive, doing the right by users. We'll come back to that if we have time. Let's keep on going. Oh, yeah. Lit.
+[04:51:10] What we're talking about lit
+[04:51:12] LitLab Signals brings new TC930 proposal to...
+[04:51:17] to lit, which is cool. Check out our blog release. Okay.
+[04:51:22] signals with lit,
+[04:51:25] Yeah. What are signals? Yeah. Shared, it's real soon. Pinpoint updates, interrupts. Target to be renders potentially improving performance. What are you excited about? Lit Labs. Sample share counter.
+[04:51:36] Git, yeah, so then, yeah, I mean, in this mode, imagine the whole template re-renders because it's calling .git.
+[04:51:43] Pinpoint updates. Oh, okay. So add a syntax to say that, hey, I want to watch it. So this is kind of like the Preact solution.
+[04:51:50] Um...
+[04:51:53] future
+[04:51:55] work because the pre-act solution doesn't solve structural reactivity eventually.
+[04:52:05] Interesting.
+[04:52:06] Doesn't say much more than that, but I get the idea. So explicit syntax,  if you want to opt into,
+[04:52:12] fine grain. Like it's basically like
+[04:52:16] I wonder if it has to be a signal directly to do it
+[04:52:22] Yeah, this is one of the challenges I've been having a lot of these frameworks picking up  signals, especially ones with a re-render mentality around them.
+[04:52:29] is that like
+[04:52:31] like they make the passing of the signal mean something.  Watch might be better here  because you could, in theory,  make it an arbitrary expression,  not just a direct signal.  One of the biggest concerns I have,  obviously, is overwrapping,  which is like forcing things to be a signal  or computed property directly  instead of just being able to use function expressions  because over time...
+[04:52:51] you end up like just making extra ones of these,  like it's,
+[04:52:55] if you need to wrap every expression in a computed, well, then you have N expressions. You know what I mean? Like sometimes
+[04:53:01] You don't need that.
+[04:53:07] Yeah, I'm just talking about the render approach specifically.
+[04:53:12] I'm interested to see when people pick up fine-grained rendering.
+[04:53:15] Um,
+[04:53:19] right because if you've seen our tag template literals in solid um you you wrap
+[04:53:24] you pass in a function to the expression if you want it to be reactive.
+[04:53:28] Right?
+[04:53:30] Like you just put function and then call count.  In fact,  what it means if you just pass count,  strike directly in without watch,  it works for our,  for our HTML thing.  But we also don't have a re-render mechanism.  So it doesn't make sense for us to work any other way.  Whereas,  um,
+[04:53:46] These do, yeah. I mean, it's okay. This is brand new. It's in its infancy, but...
+[04:53:51] Um,
+[04:53:52] It's it's definitely interesting to see
+[04:53:54] See here, right? Oh, yeah, we previously released pre-act signals, but now they're trying to do a standard version. Yeah, so yeah, that's that's that's cool.
+[04:54:03] Oh, is this why the web component people think that Preact came up with signals because lit implemented
+[04:54:09] pre-act signals that's hilarious
+[04:54:12] I get it now.
+[04:54:14] So they didn't even hear about signals until like...
+[04:54:17] uh like 2023 when lit did that
+[04:54:23] Oh, that's cute.
+[04:54:25] That's fine. It makes sense though. That makes way more sense.
+[04:54:30] I understand.  Like...
+[04:54:32] This is, yeah.
+[04:54:37] Yeah, there you go. That's all that. There you go. Since MobX, that's old school.
+[04:54:42] -
+[04:54:43] Much respect.
+[04:54:47] Okay, well, that's cool.
+[04:54:52] I think reactivity like this built in at a low level is very attractive.  And I think that...
+[04:54:58] Lit combining it here is a good experiment for how, you know, to handle this stuff on a basic level. I think it's gonna be interesting as we watch over the next couple years reactivity.
+[04:55:09] change
+[04:55:10] and signals implementations evolve from where they are today.
+[04:55:16] Yeah, it's...
+[04:55:17] It's interesting to me, just understanding the goals of both
+[04:55:22] projects and how they diverge.
+[04:55:25] It will be interesting to see where this lands. Okay.
+[04:55:29] Alright, this is, if you didn't see this already, you probably have. This is, this is what Rich Harris was talking about in terms of upgrade timing, because if you put something in a template,
+[04:55:38] it doesn't upgrade. So ex-foo here...
+[04:55:41] He's showing that a span is a span, and exfoo
+[04:55:45] is not
+[04:55:46] XFu because it's just an unknown element at this point, but then once he appends it to the actual Dom it becomes one so under the hood the actual like a
+[04:55:56] prototype
+[04:55:57] like changes and
+[04:56:00] This is weird. It's understandable.
+[04:56:03] But
+[04:56:03] And it doesn't, I don't think this impacts frameworks all that much.
+[04:56:07] Probably.
+[04:56:09] But it's kind of...
+[04:56:13] representative, you know, of
+[04:56:16] like just the oddness that comes in because of the repercussions of these kind of decisions.
+[04:56:24] We talked about Leah's article.
+[04:56:28] Okay, yeah.
+[04:56:30] Okay.
+[04:56:31] All right.
+[04:56:35] God, I have so many good...
+[04:56:37] Good things.
+[04:56:39] here.
+[04:56:40] Yeah. Okay. That's fine. Let's I'm going to, I'm going to, I'm going to go through my feed first and then we'll, we'll get there. Um,
+[04:56:47] Yeah, Astro Store went live with Astro Plus Solid.
+[04:56:50] that
+[04:56:51] Solid 1.9 is out.
+[04:56:53] just in time for SolidHack.
+[04:56:55] Oh, sold hack.
+[04:56:57] Um...
+[04:56:58] has started for those who might not be aware.  We're offering $20,000 in prizes.  There's a whole bunch of categories,  there's a couple of categories,  but then we have these like short run like
+[04:57:12] bounties almost.  So like...
+[04:57:15] we're going to be releasing more bounties over the course.  So you should check on,  uh,  on Mondays.  And,  um,
+[04:57:21] Yeah, it's running. If you want an excuse to try solid, maybe win some prizes, this is a good chance.
+[04:57:28] What are we doing?
+[04:57:30] -
+[04:57:31] Uh, yeah. So yeah, Solid 1.9 came out.
+[04:57:35] This is the one I was talking about.
+[04:57:38] A lot of these things...
+[04:57:40] We finally added...
+[04:57:42] proper support for is attribute and web components even though it's basically been cancelled.
+[04:57:48] Um...
+[04:57:51] Thank you.
+[04:57:52] What do we have? Handle events syntax?
+[04:57:55] This is cool for non delegated events.  We can now
+[04:57:59] I don't know if you guys know, you can pass objects to add event listener.
+[04:58:02] And they call it Handle Event.
+[04:58:05] function, that's like, it's something that Dom does.  We decided to use that to piggyback options objects onto the event.
+[04:58:13] So it's kind of cool.  So you can set capture or passive or all the like bubble compose.  You can now...
+[04:58:21] put that, you know,
+[04:58:23] I guess it's not bubble composed because those are on the firing side.  Sorry, but you know what I mean?
+[04:58:29] you can basically put the event handling
+[04:58:33] like capture passive or whatever on on the actual object.
+[04:58:39] We added
+[04:58:41] Bull.
+[04:58:42] Boolean support, this is important for custom elements. As I said, a lot of little quality of life improvements to help people using custom elements and web components.
+[04:58:52] And one thing that will make people happy, hydration mismatch errors now show you the part of the template.
+[04:58:58] which error
+[04:59:01] Got that feedback.
+[04:59:02] from the last stream when I did the thing with hydration IDs.  So in 1.9 now, when we say, hey, can't find ID blank,  we'll actually show you the template that doesn't match.
+[04:59:14] So, yeah. Oh, yeah. You guys want... Sorry. Let's...
+[04:59:18] You wanted to see the hackathon.
+[04:59:21] I think we linked it down.
+[04:59:23] Now, did we like not actually link...
+[04:59:27] Okay.
+[04:59:29] Sorry, my bad.  That was the second tweet.  It's...
+[04:59:32] This one.  Hack.SolidJS.com.  Sorry.
+[04:59:36] Thank you.
+[04:59:36] Let's do this.
+[04:59:43] Thank you.
+[04:59:45] Thank you.
+[04:59:46] It's a long-running thing. You have 33 days till we close the mission, so you've got lots, you know,
+[04:59:52] Yeah.
+[04:59:55] All right.
+[04:59:57] *sniff*
+[04:59:58] Thank you.
+[05:00:02] I
+[05:00:04] Nice. Clerk plus solid.
+[05:00:07] Now in the docs.
+[05:00:08] Very happy with these little things like that.
+[05:00:11] happy people helping in docs in general.
+[05:00:13] We went from 70 to 43 issues this week in the Dockstreet Bowl thanks to fantastic people making contributions.
+[05:00:19] Big, big thanks, shout out, you know, from the Solid Docs team.  And obviously, personally, big shout out to Sarah and the incredible work she and, you know, people work on docs do.  So just really cool to see this kind of.
+[05:00:35] help from the community. Docs are incredibly important.
+[05:00:38] Let's keep on going.
+[05:00:41] Thank you.
+[05:00:43] Yeah, this month in solid. I'm just gonna do the solid stuff right now and get out of the way. Yeah.
+[05:00:48] Again, a lot of if you saw this release here,
+[05:00:52] Um.
+[05:00:54] A lot of contributors from our community here, but the the if you actually go to the actual release notes and commits, you'll see that almost all of the work, like 90% of the work of this release was done by Tito, our new fellow doing amazing work.
+[05:01:12] Big.
+[05:01:13] Web components are
+[05:01:15] Supporter. So very awesome. Officially has a fellowship position with us.  So we're putting our open source collection together.
+[05:01:24] funding towards him working, continuous development work on solid.
+[05:01:32] Thank you.
+[05:01:33] Thank you.
+[05:01:35] Thank you.
+[05:01:38] All right, let's get back here. What else we got? Vconf happened.
+[05:01:48] A lot of fun. You should check it out.
+[05:01:49] Oh yeah, Quantum, decent overhaul.  This is exciting because Tori 2...
+[05:01:54] Um,
+[05:01:55] I believe it's like full motion now.  So this,  this is using solid start to build,  uh,
+[05:02:01] with Rust to build non, like, what was the term, native apps, like things that are like non-web, so like mobile and like desktop and stuff. Very, very cool. Um,
+[05:02:14] full kind of framework for that.
+[05:02:16] You're talking about
+[05:02:17] potentially like React Native letting you, you know, having this place where you have that code base, you can use all this stuff together, React, React Native all together.
+[05:02:26] Maybe this is the future here for SolidStart Quantum, SolidStart.
+[05:02:31] hope maybe we have something comparable.  Uh,
+[05:02:35] demo for micro frontends. You guys all know how I feel about micro frontends, but
+[05:02:41] Still, incredible work from the community again. Giorgio, usually known for his work with Quick, he's a core team member, but he went through the effort of actually
+[05:02:50] making a solid start micro frontends demo. So
+[05:02:54] Big, big props here.  Very, very appreciated because it's an area that I don't usually get to looking at and
+[05:03:01] I think that's really cool.
+[05:03:03] Yeah.
+[05:03:04] Well, if we have Clerk, now we have an article on how to use it.  So thank you very much.  Okay, caught up on solid news.  Let's keep on going.
+[05:03:16] Thank you.
+[05:03:18] Oh, you're talking about the VTALK? Yeah, yeah. It's good, yeah. It talked about the effort we put for the Aurora project for funding from Chrome team and how we pushed serialization forward. It is an interesting topic for those who care about that, kind of bridging the balance between client and server.
+[05:03:38] All right. Okay, so done with that.
+[05:03:42] Let's keep on going.
+[05:03:44] that talked about that. Okay.
+[05:03:47] Vconf, Vconf. Sweet. Okay.
+[05:03:52] Let's now we're up to date. Let's talk about
+[05:03:55] other stuff on on this list okay
+[05:04:04] Okay. Okay. You probably noticed in the chat of, of, uh,
+[05:04:12] Even today, and if you've been around Twitter, you've been seeing these little things poking in.
+[05:04:16] about this framework. I've been hearing about it for months now.
+[05:04:22] It has been released.  New JavaScript framework.
+[05:04:27] Thank you.
+[05:04:31] So,
+[05:04:32] Uh,
+[05:04:33] Let's take a quick look. I don't will have time to go that deep here, but
+[05:04:38] You know, whenever someone announces a new JavaScript framework, I'm interested to see what their angle is.  Today I'm excited to use a full stack framework that allows you to mix server components, server actions with web components and signals.
+[05:04:48] So it is a server component.
+[05:04:50] Oh, set up. It looks like...
+[05:04:52] Thank you.
+[05:04:53] SSR page entries are rendered on server and streamed to the client, including SSR web components that can declare Shadow DOM under the hood.
+[05:04:59] Okay, including... sorry.
+[05:05:01] Okay.
+[05:05:02] Okay, so this is using web components fully as a protocol for the client components and then it uses, okay, interesting.  Static site generation, sure. Partial pre-rendering, sure makes sense. Reactivity.
+[05:05:14] Prop attributes, okay, so choosing web components with signals, okay?
+[05:05:22] The advantage is that props are optimized in build time,  so you can write them as frameworks like React do.  I guess...
+[05:05:28] I'm interested to see how it sets this up.  But my guess is because web components are components, that it can identify
+[05:05:37] that the props like that a component of the component, one of the challenges with like
+[05:05:42] solid or react and you even see this with HMR and stuff is we don't know what components and components. So if we wanted to like reverse destructuring or something,
+[05:05:50] We actually have to
+[05:05:52] Like,
+[05:05:53] know where to do it. And when you say, Hey, here's a component, you can do that.  Obviously, I think reversing stuff like destructuring has other negatives, but let's keep on going. TypeScript, CSS, API. Yeah.
+[05:06:06] A lot of good features. Tori
+[05:06:09] Unified tooling, bond managed tooling, HL streaming over the wire.  OK.
+[05:06:17] Yeah, okay.
+[05:06:23] Thank you.
+[05:06:26] Okay, sounds cool. The server action signals thing is interesting. Server action you can make web current react without needing to re-render in the server.
+[05:06:36] Okay.
+[05:06:39] Building little JavaScript. Okay. Component.
+[05:06:44] Looks like...
+[05:06:47] OK, looks like a typical GSX component.  And then it's compiled without minify.
+[05:06:54] Dun, dun, dun, count on click, blah, blah.
+[05:06:57] unclick
+[05:06:59] Okay, okay, okay.
+[05:07:01] Where is count?
+[05:07:05] plus plus is count red in this anywhere span name count value.  Where's the span?
+[05:07:12] Aha.
+[05:07:13] Count value. Okay, see this little function here. This tells me that this does fine-grained rendering more than likely.
+[05:07:20] which is good. So this is not this.
+[05:07:24] Okay, so it's using compiler heuristics similar to what we do in solid. He sees that it's a property access.
+[05:07:30] wraps it. Whereas name
+[05:07:32] I'm gathering is not wrapped
+[05:07:36] Or the...
+[05:07:37] Actually named op value. Interesting. How did it know that it was a signal?
+[05:07:41] Oh, I see.
+[05:07:43] The prop...
+[05:07:45] Oh, the reason they don't do destructuring is because they don't reverse destructuring.  Every prop...
+[05:07:50] is...
+[05:07:52] A signal, so to speak.  That's interesting.  I wonder how they do inchecks or handle...
+[05:07:59] Uh, yeah.
+[05:08:02] Okay, shape changing.
+[05:08:04] Okay.
+[05:08:06] Yeah, but I'm...
+[05:08:10] Yeah.
+[05:08:13] Control the signals clean, the web phone fits me, you also don't need extra client code to manage server actions, just a small 2KB RPC that is added when using signals.
+[05:08:21] Yeah, I mean, that makes sense.
+[05:08:24] The code for actually doing like use server or stuff doesn't take very much.  With international, now there's a two world server client, routing, translations.  Okay.  Sounds all like good stuff.
+[05:08:38] One thing that I'm interested in, although I wouldn't put it in a support blog, I'd be interested in the author about why they wanted to create another JavaScript framework.
+[05:08:46] Um,
+[05:08:47] I do see one interesting feature.
+[05:08:50] Here were the server actions potentially.
+[05:08:53] Our function arrow functions are extended in the server once the user interacts with the page so he can...
+[05:08:58] Okay, sorry.
+[05:09:00] Wow.
+[05:09:02] Oh, do you know what they're doing? Because everything is a server component,
+[05:09:07] any functions you pass to it, they automatically are just wrapping them.  That's why they don't have to use server because
+[05:09:12] Oh, that's clever.
+[05:09:15] Okay.
+[05:09:17] Thank you.
+[05:09:18] child component and then you're saying you can pass them through yeah okay that makes sense
+[05:09:23] Parent component.  Yeah.  So I think I get it.  The reason like because their whole world exists on the server, like,
+[05:09:30] They're assuming that the only touch point are those...
+[05:09:34] like I guess web components.
+[05:09:37] then...
+[05:09:39] essentially...
+[05:09:41] Oh, that's interesting.  It's not that, though, actually, because the touch...  This is all...
+[05:09:45] on the server. So basically,
+[05:09:47] I
+[05:09:48] Yeah, I mean, if you want to talk about event delegation, I'm gathering this has to be using some form of event delegation because like,
+[05:09:55] You're not going to go on and attach like submit events to things that you otherwise wouldn't hydrate.
+[05:10:03] Okay, that's interesting.
+[05:10:06] Anyways, um...
+[05:10:09] I'm probably not going to get into this too much right now.
+[05:10:14] But.
+[05:10:14] It.
+[05:10:15] We have another framework doing here.  I think the unique features we need to point out is that it's a server component first architecture that uses signals to do.
+[05:10:28] fine-grained updates.
+[05:10:30] Anyways, it's good on that.
+[05:10:33] Thank you.
+[05:10:34] Um...
+[05:10:38] I should tell him what I do say to every framework author, although I don't know if this will be challenging for him given the way it works.  He should enter Brisa in the JS framework benchmark.
+[05:10:49] Anyway.
+[05:10:52] Um...
+[05:10:53] To do to do to do.
+[05:10:57] Here's an interesting question. Okay. Another Justin tweet. Some people like to point out that TC39 pros of polyfill is slow, which I don't quite get. Polyfill may be slow right now, but polyfill isn't the proposal. We can have a different polyfill implementation with the same standard API. Yeah, no.
+[05:11:10] That makes a lot of sense.
+[05:11:12] I'm trying to remember why I...
+[05:11:14] bookmark this. Yeah, I agree.
+[05:11:16] Shouldn't the polyfill be at least as fast as other market alternatives?  Even if the signals are accepted at some point, people will need the polyfill for years.  Are IDM playing a better polyfill once it's accepted?
+[05:11:23] I mean, it's a work in progress.
+[05:11:26] I really know much about the polychor, it's currently slow. That is based on Angular's  signals library. All I know, I hope the fast libraries could be used instead.
+[05:11:33] It actually annoyed me that several folks have written new signals and inflation since this proposal purely for speed versus PR-ing some work to make the polyworld fast. To me, that says I don't care about OSS.
+[05:11:43] Yeah, this is a terrible take.
+[05:11:45] God, this is terrible.
+[05:11:47] So
+[05:11:49] If someone wants to build something
+[05:11:54] and they want to build it fast and they don't want to be involved
+[05:11:59] Like,
+[05:12:00] It's fine, right?
+[05:12:03] like how are we going to find out new ways to make signals faster?  What if the actual,  what,  what if there's a problem that,
+[05:12:10] with the...
+[05:12:12] design of the proposal right now.
+[05:12:17] Yeah, I don't know. I don't get why people have this opinion.
+[05:12:24] Thank you.
+[05:12:27] Thank you.
+[05:12:28] Evan, you tears him a new one.
+[05:12:34] Thank you.
+[05:12:35] Thank you.
+[05:12:38] Ironically, it's more impactful than you ever did. It's just an unfortunate choice of name.
+[05:12:43] It might have been nothing wrong when building the fast possible potential that fits one's case of hand.  Being free from polyfill constraints is what allows it to be faster than first.  Upstreaming is the only possible way of having played this version first, and you couldn't have played...  He's just even doing...
+[05:12:56] Thank you.
+[05:12:58] Thank you.
+[05:12:59] Thank you.
+[05:13:02] Okay. Yeah.
+[05:13:07] Block.
+[05:13:08] But we...
+[05:13:09] Oh, he's saying blocking Evan Yu.  I thought he was saying blocking himself.
+[05:13:17] Because his comment was so dumb.
+[05:13:20] Oh, I'm confused. Okay, I get it. So he said he said avenues response is block worthy. Okay.
+[05:13:27] Okay.
+[05:13:28] Anyway.
+[05:13:29] Thank you.
+[05:13:30] Thank you.
+[05:13:31] Thank you.
+[05:13:33] All right.
+[05:13:35] Thank you.
+[05:13:36] Thank you.
+[05:13:41] It's just sad that we don't try to collaborate. No, I mean...
+[05:13:45] Thank you.
+[05:13:46] you can collaborate, but then sometimes...
+[05:13:50] This...
+[05:13:52] Sometimes you just got to make the thing that's
+[05:13:54] faster. Usually what this process involves is you usually find something that exists and you try it and you're like, this isn't working for me. And then you try something else and you're like, this doesn't work for me. And then you're like, okay, can I do it better? Right? Usually that's the process. And I remember when I was working on solid originally, I was looking at surpluses. Like, can I make improvements to surplus? And you're like, okay, does this fit within the goals of the project? And then you kind of go, okay.
+[05:14:17] I think there's more considerations until I don't think everyone,  like,
+[05:14:20] just goes out to build something. But
+[05:14:23] Even if they did, even if they didn't check the state of the art, if the result of that, and we see here from this guy who does impactful OSS stuff, apparently, if the result of that is something performant and something better than what's out there.
+[05:14:36] How can that be anything but good?
+[05:14:38] That's that like collaboration is good.
+[05:14:41] But making something new that's better than
+[05:14:44] what's been seen before is even better.
+[05:14:47] Like, yeah.
+[05:14:48] Sure, we should all collaborate.  It's good that we can, you know...
+[05:14:53] improve things.
+[05:14:55] Being able to like
+[05:14:56] expand the space that we have available for us,  venture into new zones.  Like...
+[05:15:04] It's super important.
+[05:15:09] Thank you.
+[05:15:11] Thank you.
+[05:15:12] My process is fork and submit appearance.
+[05:15:18] - Right, but like,
+[05:15:21] I don't know.
+[05:15:26] I...
+[05:15:27] I guess maybe I'm like, like,
+[05:15:29] ultimately, I'm like a little bit more on like the ultimate Darwinism side, right? I'm just like,  like, it's okay if not every new library that someone whips up on a weekend survives, you know,  but it's, it's good that people,
+[05:15:41] continue to push the boundaries.
+[05:15:49] Thank you.
+[05:15:52] .
+[05:15:58] you
+[05:16:03] most of the time people are doing what they're doing intentionally.  So they're like, you're saying like, come and do this other way.  Like some, it's worth putting out there.  If the project you use the project you care about, but otherwise it's kind of like,
+[05:16:15] Thank you.
+[05:16:16] You know, they're doing what they're doing.
+[05:16:21] Yeah.
+[05:16:27] Yeah, there's nothing wrong with people working towards their goals. Those on their own signals life are likely happy to talk about it. Probably guidance for anyone trying to improve polyfill or even competing signals life. Yeah.
+[05:16:38] Thank you.
+[05:16:48] Like, I saw a platform that had X and I wanted to, X so I built Y because I wanted to own X.  I mean, sure, who cares?  They can do that and if they do better, then good on them.
+[05:17:00] Right? I don't know.
+[05:17:03] This is like the alternate extremism on this side of things.  You don't want to discourage innovation or trying new things for the sake of standardization.
+[05:17:18] Standardization is like eventually comes for us all, you know, kind of like that.
+[05:17:23] But like, um...
+[05:17:27] you know,
+[05:17:29] the opportunity to push boundaries, you know, we have to take it where we can.
+[05:17:38] Thank you.
+[05:17:42] I think this tweet was less contentious than Fred's quote tweet. I know, I know.
+[05:17:46] Yeah.
+[05:17:47] This is just showing that server
+[05:17:49] rendering is
+[05:17:51] Bye.
+[05:17:51] positively impacts Largest Contentful Paint. I mean, it doesn't take a brain surgeon to understand why this is the case.
+[05:18:01] Right.
+[05:18:02] I don't even know...
+[05:18:04] what client side Astro even is. So I don't completely understand what
+[05:18:11] what this graph is showing, but
+[05:18:14] this
+[05:18:16] This is pretty consistent with what we know, right?
+[05:18:20] even where these things go.  I know Fred made some comment about Noxt and all this stuff and saying like,  you know, at a certain point you see enough of these, you should own it.
+[05:18:28] That's probably fair.
+[05:18:30] to a certain degree, but on the other hand, like,
+[05:18:38] Yeah, I don't know. Astro is in a position where the LCP is what they sell, so they can push hard on LCP because they know they're the winner.
+[05:18:48] Right.
+[05:18:53] Right. I mean, it's fine.
+[05:18:57] Yeah, here he says, perhaps you're building local first. It's good to have flexibility to build spa, but you should be careful to choose the right tool for the job. Yeah. Yeah. So I said most things are general astro is a little bit more.
+[05:19:08] streamlined like on like VR server we don't try and take out on the other side. So that's why, you know, like sometimes you pick a tool and it has a clear win. In this case, SvelteKit does really well here and it usually does.
+[05:19:19] Solid start is usually
+[05:19:20] relatively close, we're not on this graph,
+[05:19:24] Quick is usually up here as well.  It's just...
+[05:19:28] Yeah, I mean, this is not particularly new. This looks like all the data that we see for this.
+[05:19:34] I thought this was cool. Migrate your Svelte 4 components of Svelte 5 syntax with a single command is now available as...
+[05:19:39] latest. Check this out.
+[05:19:42] Just a side note in terms of tools, this is Svelte today, right? Export let is your prop coming in, and then you're setting count to initial value. It's funny because this is almost like the create writable version, except it never syncs again. Anyways.
+[05:19:56] migrate components felt syntax.
+[05:19:58] Bam.
+[05:20:01] Interface props, pull it out, value state derived there. Look at that.
+[05:20:07] Isn't that nice?
+[05:20:11] I don't know. I thought that was pretty cool. Only a side point is it's almost like they did their own meme against themselves. Remember the old like let state meme?
+[05:20:19] And then it's like,
+[05:20:21] So I can understand why the Svelte community is kind of a bit torn here because...
+[05:20:26] I mean...
+[05:20:29] This looks a lot like...
+[05:20:32] other frameworks now, like Svelte before had a very distinctive look and now
+[05:20:37] um,
+[05:20:38] Now this is a little bit more interesting.
+[05:20:41] But...
+[05:20:42] The tool to make this possible seems really helpful.  That's cool.  I think that's all I really have for this week.  I mean, there's no way I have enough time to dive into this.  I do, man, I'm so torn on this because it's,
+[05:20:56] It...
+[05:20:56] It's...
+[05:20:58] It's so on topic for today's stream.
+[05:21:02] Thank you.
+[05:21:04] Thank you.
+[05:21:05] that's awesome yeah
+[05:21:12] Thank you.
+[05:21:18] Oh, nice. Yeah. Let me know if you have any issues. Just one of those.
+[05:21:21] Yeah, I know you've been putting stuff in the Discord, but yeah, we should talk about the specific stuff you've faced on there.
+[05:21:30] We've been fixing bugs, but I know that the Vinci move has introduced some challenges, and I really want to get to the bottom of them.
+[05:21:40] Yeah.
+[05:21:41] Yeah.
+[05:21:43] All right.
+[05:21:45] Language evolution problems. What do we care about? Like we talked this whole stream about
+[05:21:49] standards, right?
+[05:21:51] So is this the right one?
+[05:21:59] stakeholders. We have all things to help developers. We want developers to be more productive, better mastermental models, enabling blah blah blah, learning for Wasm.  So how do we help developers? By structuring away complexity, by introducing new abilities, explicit coordination points.
+[05:22:17] Starting with complexity removes it, not removes it.  This is a great point.  Complexity moved from tooling and developer  to language implementation.  Application level complexity, negative impacts, limited application
+[05:22:26] Limited to applications users, easier and faster approach. Implementation level complexity negative. Impacts are broad, impact all implementation. I/U browsers users, harder and slow to patch, yes.
+[05:22:37] What about the users?
+[05:22:39] I think this whole thing is about the tension that because if you look at this original slide this is
+[05:22:44] DX versus UX, right?
+[05:22:47] This is always the tension.  And it's interesting when talking about standards that...
+[05:22:52] I think a lot of stuff is what do you...
+[05:22:55] like security things kind of causes to come out.  What user impacted new language do you have?
+[05:22:59] Almost always negatively packed security, performance negatively or neutral.  Stability is sometimes negatively, app features positively.
+[05:23:07] Yeah, this is probably too detailed for me to get into right now.
+[05:23:12] It's just interesting because...
+[05:23:17] Aren't the negatives the user opposite the developer?
+[05:23:19] No.
+[05:23:23] This is the slow clap. I mean...
+[05:23:27] What's... weren't they...
+[05:23:29] I mean, it's...
+[05:23:32] Clearly, it's a polarity.  I'm not saying wins for users, but yeah.  I love the acknowledgement here of like...
+[05:23:40] of this because
+[05:23:42] Yeah, I mean,
+[05:23:49] I'm glad this is what the conversation is, right? The tension here?
+[05:23:57] Interesting. So their concern is that we've focused on DX too much.
+[05:24:03] I mean, I would say this is the case in frameworks, but for JS, how do we get there?
+[05:24:13] Interesting.
+[05:24:21] Thank you.
+[05:24:28] language.
+[05:24:30] I'm glad that this is the conversation that's being had here.
+[05:24:34] This is great.
+[05:24:40] It'd be interesting if frameworks could have this kind of
+[05:24:43] conversation because this is great. Rough guidance from the bar is new capability, simple understanding, high confidence to use cases.
+[05:24:51] I should just share this in chat.
+[05:24:53] Yeah, sorry guys. Let me just put it right in there.
+[05:24:58] Thank you.
+[05:25:00] Thank you.
+[05:25:04] Engines being conservative, stop evolving the language.
+[05:25:07] This is like all the same tensions we talked about on the website.
+[05:25:12] Thank you.
+[05:25:14] Thank you.
+[05:25:16] Thank you.
+[05:25:18] Yeah, intermediate tools.  Interesting.  Let's turn just as the ecosystem uses it.  I see that there's such...
+[05:25:26] JSO language is played by engines.  Yes.  Yes.
+[05:25:29] So they want to like,
+[05:25:30] have almost like a
+[05:25:32] library, like a framework interesting, like on top of JS so they could test proposals.
+[05:25:42] Okay. Calling for more tooling... Yeah, so they want to get more people involved.
+[05:25:48] I guess that's the common thing here.
+[05:25:54] There's this tension, right? If everything keeps on going to user space, like how do you promote standardization? So how do you encourage people to be more involved? Because that's what standards need. They need more people involved. In some ways, it is like the frameworks. You need more people involved to make sure the right things happen.
+[05:26:12] Okay.
+[05:26:16] I guess they're worried about standards not moving fast enough.
+[05:26:21] Huh.
+[05:26:25] This is an interesting proposal. I don't know how I feel about this yet. This is probably the biggest thing that
+[05:26:30] I know.
+[05:26:32] Honestly,
+[05:26:34] This is huge.
+[05:26:35] I...
+[05:26:37] Thank you.
+[05:26:40] Thank you.
+[05:26:41] I don't have...
+[05:26:45] There's too much for me to think about right now.  I honestly didn't read this too much in detail.  I just saw the DX UX.  I didn't see what the actual proposal was.
+[05:26:52] This
+[05:26:55] I don't know how I feel about this yet. I'm not going to lie. I have no hot take for anyone right now. This is
+[05:27:00] uh
+[05:27:01] This is something.
+[05:27:04] Thank you.
+[05:27:06] I'm glad this didn't slip under my radar. I think more people should look at this stuff.
+[05:27:14] Thank you.
+[05:27:15] Thank you.
+[05:27:17] Thank you.
+[05:27:20] It's great the deal is we stop adding sugar to JS and start adding only actual features that you can't get via tools.
+[05:27:27] Thank you.
+[05:27:32] Yeah, that's, it's interesting, yeah.
+[05:27:37] Thank you.
+[05:27:39] As does Theo. Yeah, I honestly haven't had a chance to look at this.
+[05:27:45] It's not what it like the the the arguments leading up to it.  You're all like, yeah, yeah, yeah, that makes sense.  And then you go, huh?
+[05:27:57] Thank you.
+[05:27:58] Thank you.
+[05:28:00] Okay, I'll see what I can do. It's going to be a week, so I might have to watch Theo's video before then.
+[05:28:06] But yeah, I'll definitely get my opinion on this.
+[05:28:10] Okay.
+[05:28:11] I bookmarked it because I could tell that it seemed impossible.
+[05:28:14] porting but
+[05:28:15] I did not look at this, so...
+[05:28:18] That's on me. Anyway, it's late.
+[05:28:20] It's been a good week.  I hope...
+[05:28:22] there was some value in this conversation that we had today.  Web components and standards are a tricky subject.
+[05:28:29] Um...
+[05:28:30] I hope you understand once we dug into the technical stuff why I didn't spend as much time there. It's nitpicky. It seems like they are all independently solvable problems.
+[05:28:40] And maybe they are, but like every solution involves like the next monkey patch, the next thing.
+[05:28:46] And, you know, I just...
+[05:28:49] It's...
+[05:28:52] It's like this isn't the starting line.  This is just like what we're left with, which is good.  Maybe the list whittles down.
+[05:28:58] But at a certain point,
+[05:28:59] When I look at our code, I look what we do.  I wish I could just like rip a whole bunch of it out.
+[05:29:04] Um...
+[05:29:07] But maybe that's just wishful thinking. Anyway, thank you, everyone.
+[05:29:13] Um...
+[05:29:15] Get you all next time.  All right.  Have a good weekend.
+[05:29:20] Thank you.

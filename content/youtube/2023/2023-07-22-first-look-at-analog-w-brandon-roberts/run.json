@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "First Look at Analog w/ Brandon Roberts",
+      "slug": "2023-07-22-first-look-at-analog-w-brandon-roberts",
+      "duration": "5:19:22",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=7hpUcRGgxq8",
+      "publishDate": "2023-07-22",
+      "thumbnail": "https://i.ytimg.com/vi/7hpUcRGgxq8/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 495,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 495,
+          "endTime": 1290,
+          "title": "Welcome Brandon Roberts"
+        },
+        {
+          "startTime": 1290,
+          "endTime": 2115,
+          "title": "Why Analog?"
+        },
+        {
+          "startTime": 2115,
+          "endTime": 2865,
+          "title": "Angular SSR & How Angular is Changing"
+        },
+        {
+          "startTime": 2865,
+          "endTime": 3075,
+          "title": "Why Not Astro?"
+        },
+        {
+          "startTime": 3075,
+          "endTime": 3675,
+          "title": "Introduction to Analog"
+        },
+        {
+          "startTime": 3675,
+          "endTime": 4635,
+          "title": "Analog Hacker News"
+        },
+        {
+          "startTime": 4635,
+          "endTime": 4995,
+          "title": "Comment Nodes, Deferred Loading, and Bundle Size"
+        },
+        {
+          "startTime": 4995,
+          "endTime": 5670,
+          "title": "Playing with PageSpeed Insights"
+        },
+        {
+          "startTime": 5670,
+          "endTime": 6390,
+          "title": "The Cost of Hydration and Serialization in SSR"
+        },
+        {
+          "startTime": 6390,
+          "endTime": 6945,
+          "title": "More Analog Features (API Routes, Meta Tags, etc.)"
+        },
+        {
+          "startTime": 6945,
+          "endTime": 7470,
+          "title": "Analog RPC Calls?"
+        },
+        {
+          "startTime": 7470,
+          "endTime": 8190,
+          "title": "How Nitro and Vite Work Together in Analog"
+        },
+        {
+          "startTime": 8190,
+          "endTime": 8550,
+          "title": "Q&A: Type-Safe Loaders? Split Up Files? AngularDart?"
+        },
+        {
+          "startTime": 8550,
+          "endTime": 8940,
+          "title": "Brandon's Parting Notes & Intermission"
+        },
+        {
+          "startTime": 8940,
+          "endTime": 9180,
+          "title": "Bun.app & Vinxi - The Quest for a Generic Config"
+        },
+        {
+          "startTime": 9180,
+          "endTime": 9630,
+          "title": "Quick SolidStart Benchmark Aside"
+        },
+        {
+          "startTime": 9630,
+          "endTime": 10050,
+          "title": "People Force Ryan to Talk About HTMX"
+        },
+        {
+          "startTime": 10050,
+          "endTime": 10560,
+          "title": "Resumability without Serialization: Introduction"
+        },
+        {
+          "startTime": 10560,
+          "endTime": 11100,
+          "title": "RwS: Contrasting Hydration in React, Qwik, and Solid"
+        },
+        {
+          "startTime": 11100,
+          "endTime": 11940,
+          "title": "RwS: Context, Hoisting, and Serialization"
+        },
+        {
+          "startTime": 11940,
+          "endTime": 13080,
+          "title": "RwS: Using the Reactive Graph for Hydration & Code Splitting"
+        },
+        {
+          "startTime": 13080,
+          "endTime": 13605,
+          "title": "RwS: How Does This Work With Islands Routing?"
+        },
+        {
+          "startTime": 13605,
+          "endTime": 14265,
+          "title": "RwS: Is This Truly Resumability?"
+        },
+        {
+          "startTime": 14265,
+          "endTime": 14805,
+          "title": "RwS: Is This Worth It? Is This the Future of Solid?"
+        },
+        {
+          "startTime": 14805,
+          "endTime": 15510,
+          "title": "RwS: Conclusion"
+        },
+        {
+          "startTime": 15510,
+          "endTime": 15885,
+          "title": "This Week in JavaScript: Solid News and Bun 0.7"
+        },
+        {
+          "startTime": 15885,
+          "endTime": 16230,
+          "title": "TWiJ: SolidJS Fellowships & JSNation Talk"
+        },
+        {
+          "startTime": 16230,
+          "endTime": 16380,
+          "title": "TWiJ: TanStack Router Now Has Suspense & Streaming"
+        },
+        {
+          "startTime": 16380,
+          "endTime": 16605,
+          "title": "TWiJ: Remix & RSC's"
+        },
+        {
+          "startTime": 16605,
+          "endTime": 16770,
+          "title": "TWiJ: Dylan Piercey Has Strong Casing Opinions"
+        },
+        {
+          "startTime": 16770,
+          "endTime": 17445,
+          "title": "TWiJ: Lydia Hallie's React Performance Article"
+        },
+        {
+          "startTime": 17445,
+          "endTime": 17760,
+          "title": "TWiJ: React Performance in the Benchmarks"
+        },
+        {
+          "startTime": 17760,
+          "endTime": 19161,
+          "title": "TWiJ: Dan Abramov is Leaving Meta."
+        }
+      ],
+      "description": "The past year has really been a resurgence for Angular, between modernizing APIs with Standalone Components, embracing a new reactive model with Signals, and pushing forward in working into SSR and Hydration. But amazing work has also been happening outside of Google, with Analog, a meta-framework built on Vite for Angular. Brandon Roberts author of Analog joins us to talk about what he's been building.\n\n[0:00] Preamble\n[8:15] Welcome Brandon Roberts\n[21:30] Why Analog?\n[35:15] Angular SSR & How Angular is Changing\n[47:45] Why Not Astro?\n[51:15] Introduction to Analog\n[1:01:15] Analog Hacker News\n[1:17:15] Comment Nodes, Deferred Loading, and Bundle Size\n[1:23:15] Playing with PageSpeed Insights\n[1:34:30] The Cost of Hydration and Serialization in SSR\n[1:46:30] More Analog Features (API Routes, Meta Tags, etc.)\n[1:55:45] Analog RPC Calls? \n[2:04:30] How Nitro and Vite Work Together in Analog\n[2:16:30] Q&A: Type-Safe Loaders? Split Up Files? AngularDart?\n[2:22:30] Brandon's Parting Notes & Intermission\n[2:29:00] Bun.app & Vinxi - The Quest for a Generic Config\n[2:33:00] Quick SolidStart Benchmark Aside\n[2:40:30] People Force Ryan to Talk About HTMX\n[2:47:30] Resumability without Serialization: Introduction\n[2:56:00] RwS: Contrasting Hydration in React, Qwik, and Solid\n[3:05:00] RwS: Context, Hoisting, and Serialization\n[3:19:00] RwS: Using the Reactive Graph for Hydration & Code Splitting\n[3:38:00] RwS: How Does This Work With Islands Routing?\n[3:46:45] RwS: Is This Truly Resumability?\n[3:57:45] RwS: Is This Worth It? Is This the Future of Solid?\n[4:06:45] RwS: Conclusion\n[4:18:30] This Week in JavaScript: Solid News and Bun 0.7\n[4:24:45] TWiJ: SolidJS Fellowships & JSNation Talk\n[4:30:30] TWiJ: TanStack Router Now Has Suspense & Streaming\n[4:33:00] TWiJ: Remix & RSC's\n[4:36:45] TWiJ: Dylan Piercey Has Strong Casing Opinions\n[4:39:30] TWiJ: Lydia Hallie's React Performance Article\n[4:50:45] TWiJ: React Performance in the Benchmarks\n[4:56:00] TWiJ: Dan Abramov is Leaving Meta.\n\nThank you @zombiefacesupreme for the timestamps."
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T03:12:02.492Z",
+  "updatedAt": "2026-09-12T03:14:55.049Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Innovating React w/ Ricky Hanlon",
+          "duration": "6:16:57",
+          "channel": "Ryan Carniato",
+          "description": "React has been around for over 10 years. That's forever in frontend terms. So is it just antiquated at this point?\n\nI'm very excited to welcome React Core Team member Ricky Hanlon on to talk all things React. We will dig into the innovations the team has been making in the space, especially around scheduling and concurrenccy, and talk about where things are going for React and frontend in general.\n\n[0:00] Stream Intro & Setup\n[9:14] Introducing Ricky from React Core Team\n[13:52] Ricky's Background & Joining React Team\n[22:31] React Team Structure & Remote Work\n[28:58] Building in Public vs Private Development\n[37:02] What is React? Describing React to Newcomers\n[42:45] Why Use a Framework vs Vanilla JS?\n[48:26] useEffect Discussion - Mistake or Overused?\n[1:00:24] Inside vs Outside the System - Effects & Events\n[1:21:00] Performance Demo Analysis - Million.js vs React\n[1:52:46] React Innovation Timeline & Future Vision\n[2:12:00] Building Async Todo App - React 16 Approach\n[2:44:00] React 19 Async Features Demo\n[3:19:00] React Transitions & Optimistic Updates\n[3:51:00] View Transitions & Animations\n[4:14:00] Performance Panel & React Dev Tools\n[4:42:00] This Week in JavaScript - Cloudflare Outage\n[4:53:00] Matthew Phillips on Perils of Reactivity\n[5:07:00] React vs React Query Discussion\n[5:22:00] Ripple.js & Special Data Types Discussion\n[5:41:00] Solid.js Updates & TanStack Integration\n[5:45:00] \"Starting to Hate React\" Article Discussion\n[6:08:00] H1B Visa & Immigration Discussion\n[6:15:55] Stream Wrap-up\n\nBig thanks to @mattcarroll2722 for the timestamps!",
+          "url": "https://www.youtube.com/watch?v=3vw6EAmruEU",
+          "publishDate": "2025-09-26",
+          "thumbnail": "https://i.ytimg.com/vi/3vw6EAmruEU/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 554,
+              "title": "Stream Intro & Setup"
+            },
+            {
+              "startTime": 554,
+              "endTime": 832,
+              "title": "Introducing Ricky from React Core Team"
+            },
+            {
+              "startTime": 832,
+              "endTime": 1351,
+              "title": "Ricky's Background & Joining React Team"
+            },
+            {
+              "startTime": 1351,
+              "endTime": 1738,
+              "title": "React Team Structure & Remote Work"
+            },
+            {
+              "startTime": 1738,
+              "endTime": 2222,
+              "title": "Building in Public vs Private Development"
+            },
+            {
+              "startTime": 2222,
+              "endTime": 2565,
+              "title": "What is React? Describing React to Newcomers"
+            },
+            {
+              "startTime": 2565,
+              "endTime": 2906,
+              "title": "Why Use a Framework vs Vanilla JS?"
+            },
+            {
+              "startTime": 2906,
+              "endTime": 3624,
+              "title": "useEffect Discussion - Mistake or Overused?"
+            },
+            {
+              "startTime": 3624,
+              "endTime": 4860,
+              "title": "Inside vs Outside the System - Effects & Events"
+            },
+            {
+              "startTime": 4860,
+              "endTime": 6766,
+              "title": "Performance Demo Analysis - Million.js vs React"
+            },
+            {
+              "startTime": 6766,
+              "endTime": 7920,
+              "title": "React Innovation Timeline & Future Vision"
+            },
+            {
+              "startTime": 7920,
+              "endTime": 9840,
+              "title": "Building Async Todo App - React 16 Approach"
+            },
+            {
+              "startTime": 9840,
+              "endTime": 11940,
+              "title": "React 19 Async Features Demo"
+            },
+            {
+              "startTime": 11940,
+              "endTime": 13860,
+              "title": "React Transitions & Optimistic Updates"
+            },
+            {
+              "startTime": 13860,
+              "endTime": 15240,
+              "title": "View Transitions & Animations"
+            },
+            {
+              "startTime": 15240,
+              "endTime": 16920,
+              "title": "Performance Panel & React Dev Tools"
+            },
+            {
+              "startTime": 16920,
+              "endTime": 17580,
+              "title": "This Week in JavaScript - Cloudflare Outage"
+            },
+            {
+              "startTime": 17580,
+              "endTime": 18420,
+              "title": "Matthew Phillips on Perils of Reactivity"
+            },
+            {
+              "startTime": 18420,
+              "endTime": 19320,
+              "title": "React vs React Query Discussion"
+            },
+            {
+              "startTime": 19320,
+              "endTime": 20460,
+              "title": "Ripple.js & Special Data Types Discussion"
+            },
+            {
+              "startTime": 20460,
+              "endTime": 20700,
+              "title": "Solid.js Updates & TanStack Integration"
+            },
+            {
+              "startTime": 20700,
+              "endTime": 22080,
+              "title": "\"Starting to Hate React\" Article Discussion"
+            },
+            {
+              "startTime": 22080,
+              "endTime": 22555,
+              "title": "H1B Visa & Immigration Discussion"
+            },
+            {
+              "startTime": 22555,
+              "endTime": 22617,
+              "title": "Stream Wrap-up"
+            }
+          ],
+          "slug": "2025-09-26-innovating-react-w-ricky-hanlon",
+          "audioFileName": "2025-09-26-innovating-react-w-ricky-hanlon.m4a",
+          "audioFileSize": 282425420,
+          "durationSeconds": 22617
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 144.4975,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 144.4975,
+                "costMultiplier": 1,
+                "durationSeconds": 22617
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 144.4975,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 144.4975,
+                "costMultiplier": 1,
+                "durationSeconds": 22617
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 144.4975,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 144.4975,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 22617
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 4251996,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 4251996,
+                "inputMetric": "durationSeconds",
+                "inputValue": 22617,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 4251996
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 172304,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 172304,
+                "timingBreakdown": {
+                  "uploadMs": 5787,
+                  "createMs": 278,
+                  "pollMs": 31203,
+                  "pollSleepMs": 135017,
+                  "transcriptMs": 1,
+                  "remoteProcessingMs": 135035
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 22617,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 7.618,
+                "throughputValue": 131.262,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 172302,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 5787,
+                  "createMs": 278,
+                  "createCount": 1,
+                  "pollMs": 31203,
+                  "requestCount": 18
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "d7cacf65-325a-47ce-80ee-a8f6b4631349",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/ad8af35c815ef3ad0c658c04c693528d81dc8d891ec3522fec32c1c4fa1f6096/ac5238a9-6dea-4bb7-add9-a1e3c6a79153",
+                  "createCompletedAt": "2026-09-12T03:12:08.558Z",
+                  "lastPollAt": "2026-09-12T03:14:54.795Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 172304,
+            "tokenCount": 59711,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "d7cacf65-325a-47ce-80ee-a8f6b4631349",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/ad8af35c815ef3ad0c658c04c693528d81dc8d891ec3522fec32c1c4fa1f6096/ac5238a9-6dea-4bb7-add9-a1e3c6a79153",
+              "createCompletedAt": "2026-09-12T03:12:08.558Z",
+              "lastPollAt": "2026-09-12T03:14:54.795Z",
+              "completedAt": "2026-09-12T03:14:54.796Z"
+            },
+            "timings": {
+              "uploadMs": 5787,
+              "createMs": 278,
+              "createCount": 1,
+              "pollMs": 31203,
+              "pollSleepMs": 135017,
+              "pollCount": 16,
+              "transcriptMs": 1,
+              "remoteProcessingMs": 135035,
+              "requestCount": 18
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 4,
+                  "active": 3,
+                  "activePeak": 4,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 9,
+                  "completed": 6,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789181661652,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789182740611,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789182863700,
+                      "previousLimit": 3,
+                      "nextLimit": 4,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 3,
+                      "activePeak": 4,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

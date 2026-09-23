@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "A First Look at RedwoodJS w/ Anthony Campolo",
+      "slug": "2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo",
+      "duration": "4:19:38",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=-8UeTHXoySc",
+      "publishDate": "2023-08-18",
+      "thumbnail": "https://i.ytimg.com/vi/-8UeTHXoySc/sddefault.jpg?v=64de7500",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 375,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 375,
+          "endTime": 1230,
+          "title": "Welcome Anthony Campolo"
+        },
+        {
+          "startTime": 1230,
+          "endTime": 1935,
+          "title": "RedwoodJS - Why Another React Framework?"
+        },
+        {
+          "startTime": 1935,
+          "endTime": 2805,
+          "title": "How to Teach RedwoodJS"
+        },
+        {
+          "startTime": 2805,
+          "endTime": 3465,
+          "title": "The Router"
+        },
+        {
+          "startTime": 3465,
+          "endTime": 4350,
+          "title": "Project Scaffolding / RedwoodJS conf"
+        },
+        {
+          "startTime": 4350,
+          "endTime": 4920,
+          "title": "Streaming GraphQL"
+        },
+        {
+          "startTime": 4920,
+          "endTime": 5640,
+          "title": "Rendering Modes"
+        },
+        {
+          "startTime": 5640,
+          "endTime": 6150,
+          "title": "HTML Shell and Isomorphic Rendering"
+        },
+        {
+          "startTime": 6150,
+          "endTime": 6825,
+          "title": "Recipes App"
+        },
+        {
+          "startTime": 6825,
+          "endTime": 7530,
+          "title": "What is a Cell?"
+        },
+        {
+          "startTime": 7530,
+          "endTime": 8550,
+          "title": "Where do RSC's fit in?"
+        },
+        {
+          "startTime": 8550,
+          "endTime": 9465,
+          "title": "The Double Data Problem"
+        },
+        {
+          "startTime": 9465,
+          "endTime": 9840,
+          "title": "Intermission"
+        },
+        {
+          "startTime": 9840,
+          "endTime": 10155,
+          "title": "This Week in JavaScript - Solid News"
+        },
+        {
+          "startTime": 10155,
+          "endTime": 10770,
+          "title": "TWiJ - Leptos Query"
+        },
+        {
+          "startTime": 10770,
+          "endTime": 11505,
+          "title": "TWiJ - Million.js"
+        },
+        {
+          "startTime": 11505,
+          "endTime": 12120,
+          "title": "TWiJ - Signals as a Standard"
+        },
+        {
+          "startTime": 12120,
+          "endTime": 12765,
+          "title": "TWiJ - Reactively"
+        },
+        {
+          "startTime": 12765,
+          "endTime": 13455,
+          "title": "TWiJ - Q & A"
+        },
+        {
+          "startTime": 13455,
+          "endTime": 13980,
+          "title": "TWiJ - Fresh 1.4"
+        },
+        {
+          "startTime": 13980,
+          "endTime": 14940,
+          "title": "TWiJ - Layouts"
+        },
+        {
+          "startTime": 14940,
+          "endTime": 15345,
+          "title": "TWiJ - Bun 1.0 is Coming"
+        },
+        {
+          "startTime": 15345,
+          "endTime": 15578,
+          "title": "Conclusion and Edg.io shoutout"
+        }
+      ],
+      "description": "Redwood just had a big release with Redwood 6, and contributor Anthony Compolo joins us to talk to us about the React Framework for Startups. Opinionated and pre-configured just how fast can this get you from Zero to Production.\n\n[0:00] Preamble\n[6:15] Welcome Anthony Campolo\n[20:30] RedwoodJS - Why Another React Framework?\n[32:15] How to Teach RedwoodJS\n[46:45] The Router\n[57:45] Project Scaffolding / RedwoodJS conf\n[1:12:30] Streaming GraphQL\n[1:22:00] Rendering Modes\n[1:34:00] HTML Shell and Isomorphic Rendering\n[1:42:30] Recipes App\n[1:53:45] What is a Cell?\n[2:05:30] Where do RSC's fit in?\n[2:22:30] The Double Data Problem\n[2:37:45] Intermission\n[2:44:00] This Week in JavaScript - Solid News\n[2:49:15] TWiJ - Leptos Query\n[2:59:30] TWiJ - Million.js\n[3:11:45] TWiJ - Signals as a Standard\n[3:22:00] TWiJ - Reactively\n[3:32:45] TWiJ - Q & A\n[3:44:15] TWiJ - Fresh 1.4\n[3:53:00] TWiJ - Layouts\n[4:09:00] TWiJ - Bun 1.0 is Coming\n[4:15:45] Conclusion and Edg.io shoutout\n\nThanks @zombiefacesupreme for the timestamps."
+    }
+  }
+}

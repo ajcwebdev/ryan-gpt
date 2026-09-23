@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "The Future of Fine-Grained Reactivity w/ Milo",
+      "slug": "2023-02-18-the-future-of-fine-grained-reactivity-w-milo",
+      "duration": "5:32:28",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=A2TiLvCDKSg",
+      "publishDate": "2023-02-18",
+      "thumbnail": "https://i.ytimg.com/vi/A2TiLvCDKSg/sddefault.jpg?v=63eef14c",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 435,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 435,
+          "endTime": 585,
+          "title": "Welcome Tanner Linsley"
+        },
+        {
+          "startTime": 585,
+          "endTime": 1065,
+          "title": "What you learn by working with multiple frameworks"
+        },
+        {
+          "startTime": 1065,
+          "endTime": 1470,
+          "title": "The roots of this partnership"
+        },
+        {
+          "startTime": 1470,
+          "endTime": 1965,
+          "title": "The intersection of routing, meta-Frameworks, and SPAs"
+        },
+        {
+          "startTime": 1965,
+          "endTime": 2340,
+          "title": "Ryan's thoughts when making SolidStart"
+        },
+        {
+          "startTime": 2340,
+          "endTime": 3090,
+          "title": "Using Astro as a basis for a Meta-Framework"
+        },
+        {
+          "startTime": 3090,
+          "endTime": 3540,
+          "title": "Codename Bling: Compile-based macros and isomorphic data loading"
+        },
+        {
+          "startTime": 3540,
+          "endTime": 4080,
+          "title": "The benefits of strong primitives"
+        },
+        {
+          "startTime": 4080,
+          "endTime": 4500,
+          "title": "Code demo"
+        },
+        {
+          "startTime": 4500,
+          "endTime": 4950,
+          "title": "Q & A"
+        },
+        {
+          "startTime": 4950,
+          "endTime": 5340,
+          "title": "Wrapping up"
+        },
+        {
+          "startTime": 5340,
+          "endTime": 5640,
+          "title": "Welcome Milo (@modderme123)"
+        },
+        {
+          "startTime": 5640,
+          "endTime": 5940,
+          "title": "Milo's deep dive into reactive implementations"
+        },
+        {
+          "startTime": 5940,
+          "endTime": 6200,
+          "title": "The Diamond Problem and lazy vs. eager propagation"
+        },
+        {
+          "startTime": 6200,
+          "endTime": 6600,
+          "title": "The Diamond Problem in SolidJS"
+        },
+        {
+          "startTime": 6600,
+          "endTime": 6765,
+          "title": "Excalidraw!"
+        },
+        {
+          "startTime": 6765,
+          "endTime": 7200,
+          "title": "Push vs. Pull"
+        },
+        {
+          "startTime": 7200,
+          "endTime": 7530,
+          "title": "Hybrid push/pull reactivity"
+        },
+        {
+          "startTime": 7530,
+          "endTime": 7755,
+          "title": "The Show Component in SolidJS"
+        },
+        {
+          "startTime": 7755,
+          "endTime": 7950,
+          "title": "Phase One - Push"
+        },
+        {
+          "startTime": 7950,
+          "endTime": 8250,
+          "title": "Phase Two - Pull"
+        },
+        {
+          "startTime": 8250,
+          "endTime": 8910,
+          "title": "The Three States"
+        },
+        {
+          "startTime": 8910,
+          "endTime": 9150,
+          "title": "Brief discussion of reactivity in MobX and Preact"
+        },
+        {
+          "startTime": 9150,
+          "endTime": 9420,
+          "title": "JavaScript benchmarks"
+        },
+        {
+          "startTime": 9420,
+          "endTime": 10020,
+          "title": "Reactivity graphs"
+        },
+        {
+          "startTime": 10020,
+          "endTime": 10395,
+          "title": "Milo's benchmark"
+        },
+        {
+          "startTime": 10395,
+          "endTime": 11085,
+          "title": "Milo's solution to compiling conditionals with static dependencies"
+        },
+        {
+          "startTime": 11085,
+          "endTime": 11655,
+          "title": "Why Milo's work excites Ryan"
+        },
+        {
+          "startTime": 11655,
+          "endTime": 12120,
+          "title": "Code explanation"
+        },
+        {
+          "startTime": 12120,
+          "endTime": 12900,
+          "title": "Brief Q & A and farewell"
+        },
+        {
+          "startTime": 12900,
+          "endTime": 13290,
+          "title": "SolidJS Wrap-Up (NativeScript, XState, Solid-Mason, Dan Jutan's Return, DevTools)"
+        },
+        {
+          "startTime": 13290,
+          "endTime": 13620,
+          "title": "The backlash to \"click-bait\" from web dev content creators."
+        },
+        {
+          "startTime": 13620,
+          "endTime": 14220,
+          "title": "Ryan's charts"
+        },
+        {
+          "startTime": 14220,
+          "endTime": 14550,
+          "title": "Angular gets signals"
+        },
+        {
+          "startTime": 14550,
+          "endTime": 15060,
+          "title": "Andrew Clark's tweet about signals in React"
+        },
+        {
+          "startTime": 15060,
+          "endTime": 15300,
+          "title": "Signals are everywhere!"
+        },
+        {
+          "startTime": 15300,
+          "endTime": 15900,
+          "title": "\"We compete to let an idea survive...\" - Dan Abramov"
+        },
+        {
+          "startTime": 15900,
+          "endTime": 16200,
+          "title": "\"Change doesn't come by committee...\" - Misko Hevery"
+        },
+        {
+          "startTime": 16200,
+          "endTime": 16440,
+          "title": "Andrew Clark joins Vercel"
+        },
+        {
+          "startTime": 16440,
+          "endTime": 16560,
+          "title": "\"The biggest competitor to React right now is React\" - Jordan Walke"
+        },
+        {
+          "startTime": 16560,
+          "endTime": 16950,
+          "title": "Server functions and server components -- language agnostic?"
+        },
+        {
+          "startTime": 16950,
+          "endTime": 17580,
+          "title": "\"use server\" -- server functions come to React"
+        },
+        {
+          "startTime": 17580,
+          "endTime": 18000,
+          "title": "Qwik Server Functions, ViteConf, Marko6, & Syntax."
+        },
+        {
+          "startTime": 18000,
+          "endTime": 18480,
+          "title": "Ryan ventures into the comment section of the new Academind video about Solid"
+        },
+        {
+          "startTime": 18480,
+          "endTime": 19410,
+          "title": "\"We need to talk about... pseudo-javascript\" - Matthew Phillips"
+        },
+        {
+          "startTime": 19410,
+          "endTime": 19680,
+          "title": "Important Pizza Conversation"
+        },
+        {
+          "startTime": 19680,
+          "endTime": 19948,
+          "title": "Remix HMR, React Suspense and Farewell"
+        }
+      ],
+      "description": "Signals have been a topic getting a lot more attention with the recent adoption by many JavaScript frameworks and libraries. This renewed interest has sparked new innovation in this space. Solid Core member Milo(@modderme123) joins me to talk about everything reactivity.\n\nPt.1 - The Bling Initiative with Tanner Linsley\n[0:00] Preamble\n[7:15] Welcome Tanner Linsley\n[9:45] What you learn by working with multiple frameworks\n[17:45] The roots of this partnership\n[24:30] The intersection of routing, meta-Frameworks, and SPAs\n[32:45] Ryan's thoughts when making SolidStart\n[39:00] Using Astro as a basis for a Meta-Framework\n[51:30] Codename Bling: Compile-based macros and isomorphic data loading\n[59:00] The benefits of strong primitives\n[1:08:00] Code demo\n[1:15:00] Q & A\n[1:22:30] Wrapping up\n\nPt.2 - The Future of Fine Grained Reactivity with Milo\n[1:29:00] Welcome Milo (@modderme123)\n[1:34:00] Milo's deep dive into reactive implementations\n[1:39:00] The Diamond Problem and lazy vs. eager propagation \n[1:43:20] The Diamond Problem in SolidJS\n[1:50:00] Excalidraw!\n[1:52:45] Push vs. Pull\n[2:00:00] Hybrid push/pull reactivity\n[2:05:30] The Show Component in SolidJS\n[2:09:15] Phase One - Push\n[2:12:30] Phase Two - Pull\n[2:17:30] The Three States\n[2:28:30] Brief discussion of reactivity in MobX and Preact\n[2:32:30] JavaScript benchmarks\n[2:37:00] Reactivity graphs\n[2:47:00] Milo's benchmark\n[2:53:15] Milo's solution to compiling conditionals with static dependencies\n[3:04:45] Why Milo's work excites Ryan\n[3:14:15] Code explanation\n[3:22:00] Brief Q & A and farewell\n\nPt.3 - This (Two) Week(s) in JavaScript!\n[3:35:00] SolidJS Wrap-Up (NativeScript, XState, Solid-Mason, Dan Jutan's Return, DevTools)\n[3:41:30] The backlash to \"click-bait\" from web dev content creators.\n[3:47:00] Ryan's charts\n[3:57:00] Angular gets signals\n[4:02:30] Andrew Clark's tweet about signals in React\n[4:11:00] Signals are everywhere!\n[4:15:00] \"We compete to let an idea survive...\" - Dan Abramov\n[4:25:00] \"Change doesn't come by committee...\" - Misko Hevery\n[4:30:00] Andrew Clark joins Vercel\n[4:34:00] \"The biggest competitor to React right now is React\" - Jordan Walke\n[4:36:00] Server functions and server components -- language agnostic?\n[4:42:30] \"use server\" -- server functions come to React\n[4:53:00] Qwik Server Functions, ViteConf, Marko6, & Syntax.\n[5:00:00] Ryan ventures into the comment section of the new Academind video about Solid\n[5:08:00] \"We need to talk about... pseudo-javascript\" - Matthew Phillips\n[5:23:30] Important Pizza Conversation\n[5:28:00] Remix HMR, React Suspense and Farewell\n\nThank you @zombiefacesupreme for the timestamps."
+    }
+  }
+}

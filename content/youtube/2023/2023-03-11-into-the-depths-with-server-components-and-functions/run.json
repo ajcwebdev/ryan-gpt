@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Into the Depths with Server Components and Functions",
+      "slug": "2023-03-11-into-the-depths-with-server-components-and-functions",
+      "duration": "5:17:03",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=QS9yAsv1czg",
+      "publishDate": "2023-03-11",
+      "thumbnail": "https://i.ytimg.com/vi/QS9yAsv1czg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 764,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 764,
+          "endTime": 971,
+          "title": "Server Components are an Islands Architecture"
+        },
+        {
+          "startTime": 971,
+          "endTime": 1358,
+          "title": "MPA UX"
+        },
+        {
+          "startTime": 1358,
+          "endTime": 2284,
+          "title": "Case for MPAs"
+        },
+        {
+          "startTime": 2284,
+          "endTime": 3944,
+          "title": "Evolution of client data fetching/mutation"
+        },
+        {
+          "startTime": 3944,
+          "endTime": 4088,
+          "title": "Myth of SSR"
+        },
+        {
+          "startTime": 4088,
+          "endTime": 5188,
+          "title": "Visualizing Partial Hydration"
+        },
+        {
+          "startTime": 5188,
+          "endTime": 7270,
+          "title": "Rules of Islands"
+        },
+        {
+          "startTime": 7270,
+          "endTime": 7617,
+          "title": "Layers"
+        },
+        {
+          "startTime": 7617,
+          "endTime": 8365,
+          "title": "Solving Hybrid Routing"
+        },
+        {
+          "startTime": 8365,
+          "endTime": 9179,
+          "title": "Nested Routing and Context"
+        },
+        {
+          "startTime": 9179,
+          "endTime": 9325,
+          "title": "Problems with Suspense across Boundaries"
+        },
+        {
+          "startTime": 9325,
+          "endTime": 10322,
+          "title": "Data Loading with Nested Routing"
+        },
+        {
+          "startTime": 10322,
+          "endTime": 10740,
+          "title": "Scaling with Interactivity"
+        },
+        {
+          "startTime": 10740,
+          "endTime": 12560,
+          "title": "Designing a Mutation API"
+        },
+        {
+          "startTime": 12560,
+          "endTime": 13387,
+          "title": "Server Components and Bundle Size"
+        },
+        {
+          "startTime": 13387,
+          "endTime": 15994,
+          "title": "Q & A"
+        },
+        {
+          "startTime": 15994,
+          "endTime": 19023,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "In this stream, we will look at the latest architectural trend. I will go in-depth on the mechanics in general way and hopefully bring some clarity on what they accomplish, what the alternatives are, and why people are excited about this.\n\n[0:00] Introduction\n[12:44] Server Components are an Islands Architecture\n[16:11] MPA UX\n[22:38] Case for MPAs\n[38:04] Evolution of client data fetching/mutation\n[1:05:44] Myth of SSR\n[1:08:08] Visualizing Partial Hydration\n[1:26:28] Rules of Islands\n[2:01:10] Layers\n[2:06:57] Solving Hybrid Routing\n[2:19:25] Nested Routing and Context\n[2:32:59] Problems with Suspense across Boundaries\n[2:35:25] Data Loading with Nested Routing\n[2:52:02] Scaling with Interactivity\n[2:59:00] Designing a Mutation API\n[3:29:20] Server Components and Bundle Size\n[3:43:07] Q & A\n[4:26:34] This Week in JavaScript"
+    }
+  }
+}

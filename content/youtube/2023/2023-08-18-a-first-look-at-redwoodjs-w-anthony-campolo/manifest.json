@@ -1,0 +1,368 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T03:22:22.056Z",
+  "updatedAt": "2026-09-12T03:24:16.323Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "A First Look at RedwoodJS w/ Anthony Campolo",
+          "duration": "4:19:38",
+          "channel": "Ryan Carniato",
+          "description": "Redwood just had a big release with Redwood 6, and contributor Anthony Compolo joins us to talk to us about the React Framework for Startups. Opinionated and pre-configured just how fast can this get you from Zero to Production.\n\n[0:00] Preamble\n[6:15] Welcome Anthony Campolo\n[20:30] RedwoodJS - Why Another React Framework?\n[32:15] How to Teach RedwoodJS\n[46:45] The Router\n[57:45] Project Scaffolding / RedwoodJS conf\n[1:12:30] Streaming GraphQL\n[1:22:00] Rendering Modes\n[1:34:00] HTML Shell and Isomorphic Rendering\n[1:42:30] Recipes App\n[1:53:45] What is a Cell?\n[2:05:30] Where do RSC's fit in?\n[2:22:30] The Double Data Problem\n[2:37:45] Intermission\n[2:44:00] This Week in JavaScript - Solid News\n[2:49:15] TWiJ - Leptos Query\n[2:59:30] TWiJ - Million.js\n[3:11:45] TWiJ - Signals as a Standard\n[3:22:00] TWiJ - Reactively\n[3:32:45] TWiJ - Q & A\n[3:44:15] TWiJ - Fresh 1.4\n[3:53:00] TWiJ - Layouts\n[4:09:00] TWiJ - Bun 1.0 is Coming\n[4:15:45] Conclusion and Edg.io shoutout\n\nThanks @zombiefacesupreme for the timestamps.",
+          "url": "https://www.youtube.com/watch?v=-8UeTHXoySc",
+          "publishDate": "2023-08-18",
+          "thumbnail": "https://i.ytimg.com/vi/-8UeTHXoySc/hqdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 375,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 375,
+              "endTime": 1230,
+              "title": "Welcome Anthony Campolo"
+            },
+            {
+              "startTime": 1230,
+              "endTime": 1935,
+              "title": "RedwoodJS - Why Another React Framework?"
+            },
+            {
+              "startTime": 1935,
+              "endTime": 2805,
+              "title": "How to Teach RedwoodJS"
+            },
+            {
+              "startTime": 2805,
+              "endTime": 3465,
+              "title": "The Router"
+            },
+            {
+              "startTime": 3465,
+              "endTime": 4350,
+              "title": "Project Scaffolding / RedwoodJS conf"
+            },
+            {
+              "startTime": 4350,
+              "endTime": 4920,
+              "title": "Streaming GraphQL"
+            },
+            {
+              "startTime": 4920,
+              "endTime": 5640,
+              "title": "Rendering Modes"
+            },
+            {
+              "startTime": 5640,
+              "endTime": 6150,
+              "title": "HTML Shell and Isomorphic Rendering"
+            },
+            {
+              "startTime": 6150,
+              "endTime": 6825,
+              "title": "Recipes App"
+            },
+            {
+              "startTime": 6825,
+              "endTime": 7530,
+              "title": "What is a Cell?"
+            },
+            {
+              "startTime": 7530,
+              "endTime": 8550,
+              "title": "Where do RSC's fit in?"
+            },
+            {
+              "startTime": 8550,
+              "endTime": 9465,
+              "title": "The Double Data Problem"
+            },
+            {
+              "startTime": 9465,
+              "endTime": 9840,
+              "title": "Intermission"
+            },
+            {
+              "startTime": 9840,
+              "endTime": 10155,
+              "title": "This Week in JavaScript - Solid News"
+            },
+            {
+              "startTime": 10155,
+              "endTime": 10770,
+              "title": "TWiJ - Leptos Query"
+            },
+            {
+              "startTime": 10770,
+              "endTime": 11505,
+              "title": "TWiJ - Million.js"
+            },
+            {
+              "startTime": 11505,
+              "endTime": 12120,
+              "title": "TWiJ - Signals as a Standard"
+            },
+            {
+              "startTime": 12120,
+              "endTime": 12765,
+              "title": "TWiJ - Reactively"
+            },
+            {
+              "startTime": 12765,
+              "endTime": 13455,
+              "title": "TWiJ - Q & A"
+            },
+            {
+              "startTime": 13455,
+              "endTime": 13980,
+              "title": "TWiJ - Fresh 1.4"
+            },
+            {
+              "startTime": 13980,
+              "endTime": 14940,
+              "title": "TWiJ - Layouts"
+            },
+            {
+              "startTime": 14940,
+              "endTime": 15345,
+              "title": "TWiJ - Bun 1.0 is Coming"
+            },
+            {
+              "startTime": 15345,
+              "endTime": 15578,
+              "title": "Conclusion and Edg.io shoutout"
+            }
+          ],
+          "slug": "2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo",
+          "audioFileName": "2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo.m4a",
+          "audioFileSize": 194846473,
+          "durationSeconds": 15578
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 99.5261111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 99.5261111111111,
+                "costMultiplier": 1,
+                "durationSeconds": 15578
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 99.5261111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 99.5261111111111,
+                "costMultiplier": 1,
+                "durationSeconds": 15578
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 99.5261111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 99.5261111111111,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 15578
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2928664,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2928664,
+                "inputMetric": "durationSeconds",
+                "inputValue": 15578,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2928664
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 114056,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 114056,
+                "timingBreakdown": {
+                  "uploadMs": 3630,
+                  "createMs": 156,
+                  "pollMs": 25233,
+                  "pollSleepMs": 85017,
+                  "remoteProcessingMs": 85037
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 15578,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 7.322,
+                "throughputValue": 136.582,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 114055,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3630,
+                  "createMs": 156,
+                  "createCount": 1,
+                  "pollMs": 25233,
+                  "requestCount": 13
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "5b39fb84-d89d-470a-9fc9-f58f332997b4",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/276778afbb06ead2ad59e2db6d8db7711bf35f6a130a22e7cbad3c7298b63c84/8b68f82d-2d8c-4437-9b8d-2e93bf59c64a",
+                  "createCompletedAt": "2026-09-12T03:22:25.842Z",
+                  "lastPollAt": "2026-09-12T03:24:16.111Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 114056,
+            "tokenCount": 44966,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "5b39fb84-d89d-470a-9fc9-f58f332997b4",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/276778afbb06ead2ad59e2db6d8db7711bf35f6a130a22e7cbad3c7298b63c84/8b68f82d-2d8c-4437-9b8d-2e93bf59c64a",
+              "createCompletedAt": "2026-09-12T03:22:25.842Z",
+              "lastPollAt": "2026-09-12T03:24:16.111Z",
+              "completedAt": "2026-09-12T03:24:16.112Z"
+            },
+            "timings": {
+              "uploadMs": 3630,
+              "createMs": 156,
+              "createCount": 1,
+              "pollMs": 25233,
+              "pollSleepMs": 85017,
+              "pollCount": 11,
+              "remoteProcessingMs": 85037,
+              "requestCount": 13
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 0,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 4,
+                  "completed": 4,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789183224837,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

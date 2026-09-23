@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS: Routing",
+      "slug": "2021-10-09-streaming-solidjs-routing",
+      "duration": "2:39:24",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=YxroH_MXuhw",
+      "publishDate": "2021-10-09",
+      "thumbnail": "https://i.ytimg.com/vi/YxroH_MXuhw/sddefault.jpg?v=6160aebc",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 1440,
+          "title": "Introduction/This Week in JavaScript"
+        },
+        {
+          "startTime": 1440,
+          "endTime": 3120,
+          "title": "Rendering lists in Solid"
+        },
+        {
+          "startTime": 3120,
+          "endTime": 3485,
+          "title": "Simple routing"
+        },
+        {
+          "startTime": 3485,
+          "endTime": 4387,
+          "title": "Solid App Router"
+        },
+        {
+          "startTime": 4387,
+          "endTime": 5840,
+          "title": "Navigation Aware Data Fetching"
+        },
+        {
+          "startTime": 5840,
+          "endTime": 7109,
+          "title": "Suspense vs Transitions"
+        },
+        {
+          "startTime": 7109,
+          "endTime": 7865,
+          "title": "Transitions vs SWR"
+        },
+        {
+          "startTime": 7865,
+          "endTime": 8098,
+          "title": "Server Side Rendering"
+        },
+        {
+          "startTime": 8098,
+          "endTime": 9330,
+          "title": "How Effects are Scheduled"
+        },
+        {
+          "startTime": 9330,
+          "endTime": 9563,
+          "title": "Outro"
+        }
+      ],
+      "description": "This stream is going to look at control flow and routing in Solid, and go over the approach we've taken with Solid App Router.\n\nThe next generation of Jamstack performance is… less JS! -  Yang Zhang https://youtu.be/U28rjWrGVxk?list=PL58Wk5g77lF-XaNacKxWk7yOKgeCMveAS\nHow SPAs Ruined the Web - Rich Harris https://www.youtube.com/watch?v=860d8usGC0o\nBefore You Memo - By Dan Abramov https://overreacted.io/before-you-memo/\n\n[0:00] Introduction/This Week in JavaScript\n[24:00] Rendering lists in Solid\n[52:00] Simple routing\n[58:05] Solid App Router\n[1:13:07] Navigation Aware Data Fetching\n[1:37:20] Suspense vs Transitions\n[1:58:29] Transitions vs SWR\n[2:11:05] Server Side Rendering\n[2:14:58] How Effects are Scheduled\n[2:35:30] Outro"
+    }
+  }
+}

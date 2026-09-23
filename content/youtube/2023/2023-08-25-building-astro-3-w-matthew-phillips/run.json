@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Building Astro 3 w/ Matthew Phillips",
+      "slug": "2023-08-25-building-astro-3-w-matthew-phillips",
+      "duration": "4:36:12",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=2zhYwg_nBqQ",
+      "publishDate": "2023-08-25",
+      "thumbnail": "https://i.ytimg.com/vi/2zhYwg_nBqQ/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 330,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 330,
+          "endTime": 780,
+          "title": "Astro: Welcome Matthew Phillips"
+        },
+        {
+          "startTime": 780,
+          "endTime": 1275,
+          "title": "Astro: Background on Matthew & VT API"
+        },
+        {
+          "startTime": 1275,
+          "endTime": 2655,
+          "title": "Astro: The View Transitions API & Astro"
+        },
+        {
+          "startTime": 2655,
+          "endTime": 3300,
+          "title": "Astro: Hackernews Demo & MPA Navigation"
+        },
+        {
+          "startTime": 3300,
+          "endTime": 3900,
+          "title": "Astro: Ryan's Soliloquy on Client-Side Routing"
+        },
+        {
+          "startTime": 3900,
+          "endTime": 4320,
+          "title": "Astro: transition:persist"
+        },
+        {
+          "startTime": 4320,
+          "endTime": 5400,
+          "title": "Astro: Global State between Client and Server"
+        },
+        {
+          "startTime": 5400,
+          "endTime": 6300,
+          "title": "Astro: Hydration Error Example"
+        },
+        {
+          "startTime": 6300,
+          "endTime": 7500,
+          "title": "Astro: Other New Astro Features"
+        },
+        {
+          "startTime": 7500,
+          "endTime": 9000,
+          "title": "Astro: View Transitions Q&A"
+        },
+        {
+          "startTime": 9000,
+          "endTime": 9885,
+          "title": "Server Components are Not Islands: Introduction"
+        },
+        {
+          "startTime": 9885,
+          "endTime": 10995,
+          "title": "SCaNI: Conditional Rendering & The Double Data Problem"
+        },
+        {
+          "startTime": 10995,
+          "endTime": 11400,
+          "title": "SCaNI: Why Double Serialize the Data?"
+        },
+        {
+          "startTime": 11400,
+          "endTime": 12465,
+          "title": "SCaNI: Pseudo-Code Demo"
+        },
+        {
+          "startTime": 12465,
+          "endTime": 13080,
+          "title": "SCaNI: Unserialized Child Islands & Deferred Client Render Props"
+        },
+        {
+          "startTime": 13080,
+          "endTime": 13995,
+          "title": "SCaNI: New Solid Notes Demo"
+        },
+        {
+          "startTime": 13995,
+          "endTime": 14610,
+          "title": "SCaNI: Conclusion"
+        },
+        {
+          "startTime": 14610,
+          "endTime": 14805,
+          "title": "This Week in JavaScript: Intro & Solid News"
+        },
+        {
+          "startTime": 14805,
+          "endTime": 14985,
+          "title": "TWiJ: Fred K. Schott's Gatsby Tweet"
+        },
+        {
+          "startTime": 14985,
+          "endTime": 15525,
+          "title": "TWiJ: Aiden Bai's Response to Last Week's Stream"
+        },
+        {
+          "startTime": 15525,
+          "endTime": 15990,
+          "title": "TWiJ: Front-end Framework Benchmarks"
+        },
+        {
+          "startTime": 15990,
+          "endTime": 16245,
+          "title": "TWiJ: Mark Grabanski's Vanilla JavaScript Reactivity Article"
+        },
+        {
+          "startTime": 16245,
+          "endTime": 16571,
+          "title": "Conclusion & Brief Discussion on a \"Solid Native\""
+        }
+      ],
+      "description": "Next week Astro releases its 3rd major version in 2 years. And this one like the last packs some killer features. Matthew joins us again this time to talk about what's been going on at Astro and to showcase his work on features like state persistence with the View Transition API.\n\n[0:00] Preamble\n[5:30] Astro: Welcome Matthew Phillips\n[13:00] Astro: Background on Matthew & VT API\n[21:15] Astro: The View Transitions API & Astro\n[44:15] Astro: Hackernews Demo & MPA Navigation\n[55:00] Astro: Ryan's Soliloquy on Client-Side Routing\n[1:05:00] Astro: transition:persist\n[1:12:00] Astro: Global State between Client and Server\n[1:30:00] Astro: Hydration Error Example\n[1:45:00] Astro: Other New Astro Features\n[2:05:00] Astro: View Transitions Q&A\n[2:30:00] Server Components are Not Islands: Introduction\n[2:44:45] SCaNI: Conditional Rendering & The Double Data Problem\n[3:03:15] SCaNI: Why Double Serialize the Data?\n[3:10:00] SCaNI: Pseudo-Code Demo\n[3:27:45] SCaNI: Unserialized Child Islands & Deferred Client Render Props\n[3:38:00] SCaNI: New Solid Notes Demo\n[3:53:15] SCaNI: Conclusion\n[4:03:30] This Week in JavaScript: Intro & Solid News\n[4:06:45] TWiJ: Fred K. Schott's Gatsby Tweet\n[4:09:45] TWiJ: Aiden Bai's Response to Last Week's Stream\n[4:18:45] TWiJ: Front-end Framework Benchmarks\n[4:26:30] TWiJ: Mark Grabanski's Vanilla JavaScript Reactivity Article\n[4:30:45] Conclusion & Brief Discussion on a \"Solid Native\"\n\nThanks to @zombiefacesupreme for the timestamps."
+    }
+  }
+}

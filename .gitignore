@@ -3,6 +3,7 @@ node_modules
 dist
 .env
 .env.local
+output/
 new-llm*.md
 
 dist

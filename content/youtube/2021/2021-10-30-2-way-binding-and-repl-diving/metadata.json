@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=C83XD19-1jg",
+    "videoTitle": "2-way Binding and REPL Diving",
+    "videoPublishDate": "2021-10-30",
+    "videoThumbnail": "https://i.ytimg.com/vi/C83XD19-1jg/maxresdefault.jpg",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "2:59:00",
+    "audioFileName": "2-way_Binding_and_REPL_Diving.wav",
+    "audioFileSize": 343676212
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo.bin | coreml:/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 548864,
+    "tokenCount": 24101
+  }
+}

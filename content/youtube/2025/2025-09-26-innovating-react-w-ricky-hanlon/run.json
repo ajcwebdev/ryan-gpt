@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Innovating React w/ Ricky Hanlon",
+      "slug": "2025-09-26-innovating-react-w-ricky-hanlon",
+      "duration": "6:16:58",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=3vw6EAmruEU",
+      "publishDate": "2025-09-26",
+      "thumbnail": "https://i.ytimg.com/vi/3vw6EAmruEU/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 554,
+          "title": "Stream Intro & Setup"
+        },
+        {
+          "startTime": 554,
+          "endTime": 832,
+          "title": "Introducing Ricky from React Core Team"
+        },
+        {
+          "startTime": 832,
+          "endTime": 1351,
+          "title": "Ricky's Background & Joining React Team"
+        },
+        {
+          "startTime": 1351,
+          "endTime": 1738,
+          "title": "React Team Structure & Remote Work"
+        },
+        {
+          "startTime": 1738,
+          "endTime": 2222,
+          "title": "Building in Public vs Private Development"
+        },
+        {
+          "startTime": 2222,
+          "endTime": 2565,
+          "title": "What is React? Describing React to Newcomers"
+        },
+        {
+          "startTime": 2565,
+          "endTime": 2906,
+          "title": "Why Use a Framework vs Vanilla JS?"
+        },
+        {
+          "startTime": 2906,
+          "endTime": 3624,
+          "title": "useEffect Discussion - Mistake or Overused?"
+        },
+        {
+          "startTime": 3624,
+          "endTime": 4860,
+          "title": "Inside vs Outside the System - Effects & Events"
+        },
+        {
+          "startTime": 4860,
+          "endTime": 6766,
+          "title": "Performance Demo Analysis - Million.js vs React"
+        },
+        {
+          "startTime": 6766,
+          "endTime": 7920,
+          "title": "React Innovation Timeline & Future Vision"
+        },
+        {
+          "startTime": 7920,
+          "endTime": 9840,
+          "title": "Building Async Todo App - React 16 Approach"
+        },
+        {
+          "startTime": 9840,
+          "endTime": 11940,
+          "title": "React 19 Async Features Demo"
+        },
+        {
+          "startTime": 11940,
+          "endTime": 13860,
+          "title": "React Transitions & Optimistic Updates"
+        },
+        {
+          "startTime": 13860,
+          "endTime": 15240,
+          "title": "View Transitions & Animations"
+        },
+        {
+          "startTime": 15240,
+          "endTime": 16920,
+          "title": "Performance Panel & React Dev Tools"
+        },
+        {
+          "startTime": 16920,
+          "endTime": 17580,
+          "title": "This Week in JavaScript - Cloudflare Outage"
+        },
+        {
+          "startTime": 17580,
+          "endTime": 18420,
+          "title": "Matthew Phillips on Perils of Reactivity"
+        },
+        {
+          "startTime": 18420,
+          "endTime": 19320,
+          "title": "React vs React Query Discussion"
+        },
+        {
+          "startTime": 19320,
+          "endTime": 20460,
+          "title": "Ripple.js & Special Data Types Discussion"
+        },
+        {
+          "startTime": 20460,
+          "endTime": 20700,
+          "title": "Solid.js Updates & TanStack Integration"
+        },
+        {
+          "startTime": 20700,
+          "endTime": 22080,
+          "title": "\"Starting to Hate React\" Article Discussion"
+        },
+        {
+          "startTime": 22080,
+          "endTime": 22555,
+          "title": "H1B Visa & Immigration Discussion"
+        },
+        {
+          "startTime": 22555,
+          "endTime": 22617,
+          "title": "Stream Wrap-up"
+        }
+      ],
+      "description": "React has been around for over 10 years. That's forever in frontend terms. So is it just antiquated at this point?\n\nI'm very excited to welcome React Core Team member Ricky Hanlon on to talk all things React. We will dig into the innovations the team has been making in the space, especially around scheduling and concurrenccy, and talk about where things are going for React and frontend in general.\n\n[0:00] Stream Intro & Setup\n[9:14] Introducing Ricky from React Core Team\n[13:52] Ricky's Background & Joining React Team\n[22:31] React Team Structure & Remote Work\n[28:58] Building in Public vs Private Development\n[37:02] What is React? Describing React to Newcomers\n[42:45] Why Use a Framework vs Vanilla JS?\n[48:26] useEffect Discussion - Mistake or Overused?\n[1:00:24] Inside vs Outside the System - Effects & Events\n[1:21:00] Performance Demo Analysis - Million.js vs React\n[1:52:46] React Innovation Timeline & Future Vision\n[2:12:00] Building Async Todo App - React 16 Approach\n[2:44:00] React 19 Async Features Demo\n[3:19:00] React Transitions & Optimistic Updates\n[3:51:00] View Transitions & Animations\n[4:14:00] Performance Panel & React Dev Tools\n[4:42:00] This Week in JavaScript - Cloudflare Outage\n[4:53:00] Matthew Phillips on Perils of Reactivity\n[5:07:00] React vs React Query Discussion\n[5:22:00] Ripple.js & Special Data Types Discussion\n[5:41:00] Solid.js Updates & TanStack Integration\n[5:45:00] \"Starting to Hate React\" Article Discussion\n[6:08:00] H1B Visa & Immigration Discussion\n[6:15:55] Stream Wrap-up\n\nBig thanks to @mattcarroll2722 for the timestamps!"
+    }
+  }
+}

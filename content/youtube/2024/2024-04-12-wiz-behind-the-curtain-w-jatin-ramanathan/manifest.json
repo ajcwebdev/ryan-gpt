@@ -1,0 +1,363 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T02:53:02.426Z",
+  "updatedAt": "2026-09-12T02:55:10.820Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Wiz: Behind the Curtain w/ Jatin Ramanathan",
+          "duration": "2:56:48",
+          "channel": "Ryan Carniato",
+          "description": "When Angular broke the news they were merging with another Google framework almost no one had heard of, it caught some people by surprise. Wiz, has been powering Google most used websites for a long time. Wiz core maintainer Jatin Ramanathan joins us to talk about this incredible tool, his journey, and what he's learned along the way.\n\n[0:00] Preamble\n[6:00] Welcome Jatin Ramanathan & What is Wiz?\n[14:45] Jatin's History with Google\n[22:30] The Beginnings of Wiz & How It Works\n[32:00] Is Wiz a Rendering Framework?\n[37:00] Incremental DOM vs. Imperative Updates\n[47:30] Google's Need for Multiple Frameworks\n[57:00] How Wiz Ended Up Using TSX\n[1:01:30] What is Resumability?\n[1:08:00] Serialization, Data Splitting, and Context\n[1:19:00] Will Lit Be Merged with Wiz & Angular?\n[1:23:15] Wiz's Road to Signals\n[1:35:15] Standardizing Signals as a Framework Primitive\n[1:43:00] Async Signals & Impact of The Proposal\n[1:52:45] How Resumability Fits into the Future\n[1:57:45] Q&A: useEffect? Lifecycle Events? OCaml?\n[2:02:15] Q&A: How Close is Solid to Resumability?\n[2:16:15] Q&A: Performance? Web Components?\n[2:24:00] Jatin's Parting Words & Clarifications\n[2:31:30] Creating Useful Benchmarks is Hard\n[2:38:30] CUBiH: Finding the Right Baseline \n[2:44:30] CUBiH: Sensationalism on Twitter\n[2:52:00] Conclusion\n\nThanks @zombiefacesupreme for the timestamps!",
+          "url": "https://www.youtube.com/watch?v=qzOzyUA9kbg",
+          "publishDate": "2024-04-12",
+          "thumbnail": "https://i.ytimg.com/vi/qzOzyUA9kbg/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 360,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 360,
+              "endTime": 885,
+              "title": "Welcome Jatin Ramanathan & What is Wiz?"
+            },
+            {
+              "startTime": 885,
+              "endTime": 1350,
+              "title": "Jatin's History with Google"
+            },
+            {
+              "startTime": 1350,
+              "endTime": 1920,
+              "title": "The Beginnings of Wiz & How It Works"
+            },
+            {
+              "startTime": 1920,
+              "endTime": 2220,
+              "title": "Is Wiz a Rendering Framework?"
+            },
+            {
+              "startTime": 2220,
+              "endTime": 2850,
+              "title": "Incremental DOM vs. Imperative Updates"
+            },
+            {
+              "startTime": 2850,
+              "endTime": 3420,
+              "title": "Google's Need for Multiple Frameworks"
+            },
+            {
+              "startTime": 3420,
+              "endTime": 3690,
+              "title": "How Wiz Ended Up Using TSX"
+            },
+            {
+              "startTime": 3690,
+              "endTime": 4080,
+              "title": "What is Resumability?"
+            },
+            {
+              "startTime": 4080,
+              "endTime": 4740,
+              "title": "Serialization, Data Splitting, and Context"
+            },
+            {
+              "startTime": 4740,
+              "endTime": 4995,
+              "title": "Will Lit Be Merged with Wiz & Angular?"
+            },
+            {
+              "startTime": 4995,
+              "endTime": 5715,
+              "title": "Wiz's Road to Signals"
+            },
+            {
+              "startTime": 5715,
+              "endTime": 6180,
+              "title": "Standardizing Signals as a Framework Primitive"
+            },
+            {
+              "startTime": 6180,
+              "endTime": 6765,
+              "title": "Async Signals & Impact of The Proposal"
+            },
+            {
+              "startTime": 6765,
+              "endTime": 7065,
+              "title": "How Resumability Fits into the Future"
+            },
+            {
+              "startTime": 7065,
+              "endTime": 7335,
+              "title": "Q&A: useEffect? Lifecycle Events? OCaml?"
+            },
+            {
+              "startTime": 7335,
+              "endTime": 8175,
+              "title": "Q&A: How Close is Solid to Resumability?"
+            },
+            {
+              "startTime": 8175,
+              "endTime": 8640,
+              "title": "Q&A: Performance? Web Components?"
+            },
+            {
+              "startTime": 8640,
+              "endTime": 9090,
+              "title": "Jatin's Parting Words & Clarifications"
+            },
+            {
+              "startTime": 9090,
+              "endTime": 9510,
+              "title": "Creating Useful Benchmarks is Hard"
+            },
+            {
+              "startTime": 9510,
+              "endTime": 9870,
+              "title": "CUBiH: Finding the Right Baseline"
+            },
+            {
+              "startTime": 9870,
+              "endTime": 10320,
+              "title": "CUBiH: Sensationalism on Twitter"
+            },
+            {
+              "startTime": 10320,
+              "endTime": 10608,
+              "title": "Conclusion"
+            }
+          ],
+          "slug": "2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan",
+          "audioFileName": "2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan.m4a",
+          "audioFileSize": 132695703,
+          "durationSeconds": 10608
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 67.77333333333334,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 67.77333333333334,
+                "costMultiplier": 1,
+                "durationSeconds": 10608
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 67.77333333333334,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 67.77333333333334,
+                "costMultiplier": 1,
+                "durationSeconds": 10608
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 67.77333333333334,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 67.77333333333334,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 10608
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 1994304,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 1994304,
+                "inputMetric": "durationSeconds",
+                "inputValue": 10608,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 1994304
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 128196,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 128196,
+                "timingBreakdown": {
+                  "uploadMs": 3177,
+                  "createMs": 106,
+                  "pollMs": 9869,
+                  "pollSleepMs": 115027,
+                  "remoteProcessingMs": 115044
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 10608,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 12.085,
+                "throughputValue": 82.748,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 128195,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3177,
+                  "createMs": 106,
+                  "createCount": 1,
+                  "pollMs": 9869,
+                  "requestCount": 16
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "20cf04a4-9582-40d4-9c1c-9c2c63de5255",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/476ca6596e68a01045fc52f04c9a9a80c387a13316f26cb31b3dc13905e59c16/a20a04c7-9bdc-4add-9e35-a0dd56d73fc8",
+                  "createCompletedAt": "2026-09-12T02:53:05.712Z",
+                  "lastPollAt": "2026-09-12T02:55:10.624Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 128196,
+            "tokenCount": 29372,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "20cf04a4-9582-40d4-9c1c-9c2c63de5255",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/476ca6596e68a01045fc52f04c9a9a80c387a13316f26cb31b3dc13905e59c16/a20a04c7-9bdc-4add-9e35-a0dd56d73fc8",
+              "createCompletedAt": "2026-09-12T02:53:05.712Z",
+              "lastPollAt": "2026-09-12T02:55:10.624Z",
+              "completedAt": "2026-09-12T02:55:10.625Z"
+            },
+            "timings": {
+              "uploadMs": 3177,
+              "createMs": 106,
+              "createCount": 1,
+              "pollMs": 9869,
+              "pollSleepMs": 115027,
+              "pollCount": 14,
+              "remoteProcessingMs": 115044,
+              "requestCount": 16
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 2,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 3,
+                  "completed": 1,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789181661652,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 2,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

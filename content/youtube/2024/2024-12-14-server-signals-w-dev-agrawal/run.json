@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Server Signals w/ Dev Agrawal",
+      "slug": "2024-12-14-server-signals-w-dev-agrawal",
+      "duration": "5:04:04",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=zKXfcE7oTRY",
+      "publishDate": "2024-12-14",
+      "thumbnail": "https://i.ytimg.com/vi/zKXfcE7oTRY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 345,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 345,
+          "endTime": 750,
+          "title": "Welcome Dev Agrawal & How Dev Became A Web Dev"
+        },
+        {
+          "startTime": 750,
+          "endTime": 1590,
+          "title": "Dev's Background: MeteorJS & Full-Stack JavaScript"
+        },
+        {
+          "startTime": 1590,
+          "endTime": 1815,
+          "title": "Dev's Background: Angular, NestJS, & React"
+        },
+        {
+          "startTime": 1815,
+          "endTime": 2250,
+          "title": "Dev's Background: LiveViewJS, SolidJS, & WebSockets"
+        },
+        {
+          "startTime": 2250,
+          "endTime": 2775,
+          "title": "solid-socket: Demo #1 - Counter"
+        },
+        {
+          "startTime": 2775,
+          "endTime": 3180,
+          "title": "solid-socket: Q&A - Scaling? Synchronization? Durable Objects?"
+        },
+        {
+          "startTime": 3180,
+          "endTime": 3735,
+          "title": "solid-socket: Demo #2 - TodoMVC"
+        },
+        {
+          "startTime": 3735,
+          "endTime": 4260,
+          "title": "solid-socket: Q&A - AWS? Repo? Hydration? Virtual DOM?"
+        },
+        {
+          "startTime": 4260,
+          "endTime": 4665,
+          "title": "solid-socket: Q&A - createSocketStore? Use Cases?"
+        },
+        {
+          "startTime": 4665,
+          "endTime": 5160,
+          "title": "solid-socket: Q&A - Reconnect? Ordering? Conflicts?"
+        },
+        {
+          "startTime": 5160,
+          "endTime": 5715,
+          "title": "solid-socket: createPersistedSignal & The Event Log"
+        },
+        {
+          "startTime": 5715,
+          "endTime": 6690,
+          "title": "solid-socket: Frameworks, Serverless, & Durable Objects"
+        },
+        {
+          "startTime": 6690,
+          "endTime": 7230,
+          "title": "solid-events: Introduction - Signals vs. Event Streams"
+        },
+        {
+          "startTime": 7230,
+          "endTime": 7740,
+          "title": "solid-events: createEvent"
+        },
+        {
+          "startTime": 7740,
+          "endTime": 8010,
+          "title": "solid-events: createSubject, createTopic, & createPartition"
+        },
+        {
+          "startTime": 8010,
+          "endTime": 8475,
+          "title": "solid-events: Use Cases"
+        },
+        {
+          "startTime": 8475,
+          "endTime": 9180,
+          "title": "solid-events: Diffs & Derived Stores"
+        },
+        {
+          "startTime": 9180,
+          "endTime": 9780,
+          "title": "solid-events: Conclusion"
+        },
+        {
+          "startTime": 9780,
+          "endTime": 10230,
+          "title": "Dev's Parting Words & Joining The SolidJS Core Team"
+        },
+        {
+          "startTime": 10230,
+          "endTime": 10395,
+          "title": "Intermission #1"
+        },
+        {
+          "startTime": 10395,
+          "endTime": 10635,
+          "title": "Reference Swapping Stores: Introduction"
+        },
+        {
+          "startTime": 10635,
+          "endTime": 11115,
+          "title": "RSS: Diffing in Immutable Systems (Excalidraw!)"
+        },
+        {
+          "startTime": 11115,
+          "endTime": 11355,
+          "title": "RSS: Qwik, Redux, & Reconciliation"
+        },
+        {
+          "startTime": 11355,
+          "endTime": 11625,
+          "title": "RSS: Stores in Solid"
+        },
+        {
+          "startTime": 11625,
+          "endTime": 11865,
+          "title": "RSS: Fixed References & Broken Arrows"
+        },
+        {
+          "startTime": 11865,
+          "endTime": 12225,
+          "title": "RSS: Keys, Time Travel, & Mutability"
+        },
+        {
+          "startTime": 12225,
+          "endTime": 12705,
+          "title": "RSS: uibench (UI Benchmark)"
+        },
+        {
+          "startTime": 12705,
+          "endTime": 13125,
+          "title": "RSS: Solving Stores - A Possible Solution"
+        },
+        {
+          "startTime": 13125,
+          "endTime": 13500,
+          "title": "RSS: Memory Cost & Checking Out The Code"
+        },
+        {
+          "startTime": 13500,
+          "endTime": 13935,
+          "title": "RSS: Problems With This Approach"
+        },
+        {
+          "startTime": 13935,
+          "endTime": 14550,
+          "title": "RSS: Takeaways & Redux Example"
+        },
+        {
+          "startTime": 14550,
+          "endTime": 14970,
+          "title": "Hierarchical Reactive Scheduling Boundaries: Introduction"
+        },
+        {
+          "startTime": 14970,
+          "endTime": 15285,
+          "title": "HRSB: Demo #1 - Counter"
+        },
+        {
+          "startTime": 15285,
+          "endTime": 15600,
+          "title": "HRSB: Demo #2 - Nested Example"
+        },
+        {
+          "startTime": 15600,
+          "endTime": 15855,
+          "title": "Intermission #2"
+        },
+        {
+          "startTime": 15855,
+          "endTime": 16215,
+          "title": "This Week in JavaScript: Syntax Is Overrated"
+        },
+        {
+          "startTime": 16215,
+          "endTime": 16380,
+          "title": "TWiJ: Twitter Exodus, State of JS, & Valibot"
+        },
+        {
+          "startTime": 16380,
+          "endTime": 17070,
+          "title": "TWiJ: react-scan & Creation vs. Update"
+        },
+        {
+          "startTime": 17070,
+          "endTime": 17400,
+          "title": "TWiJ: TanStack Start & Astro 5"
+        },
+        {
+          "startTime": 17400,
+          "endTime": 17715,
+          "title": "TWiJ: AI Content, const expressions, & React 19 rc1"
+        },
+        {
+          "startTime": 17715,
+          "endTime": 18150,
+          "title": "TWiJ: Solid News (Solid Hack!)"
+        },
+        {
+          "startTime": 18150,
+          "endTime": 18243,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "Where can we take Signals next? Well, Dev Agrawal has an answer for that. Long time community member and tinkerer, Dev will be showing us all the work he's been doing to bring the client and the server together in new and unexpected ways.\n\n[0:00:00] Preamble\n[0:05:45] Welcome Dev Agrawal & How Dev Became A Web Dev\n[0:12:30] Dev's Background: MeteorJS & Full-Stack JavaScript\n[0:26:30] Dev's Background: Angular, NestJS, & React\n[0:30:15] Dev's Background: LiveViewJS, SolidJS, & WebSockets\n[0:37:30] solid-socket: Demo #1 - Counter\n[0:46:15] solid-socket: Q&A - Scaling? Synchronization? Durable Objects?\n[0:53:00] solid-socket: Demo #2 - TodoMVC\n[1:02:15] solid-socket: Q&A - AWS? Repo? Hydration? Virtual DOM?\n[1:11:00] solid-socket: Q&A - createSocketStore? Use Cases?\n[1:17:45] solid-socket: Q&A - Reconnect? Ordering? Conflicts?\n[1:26:00] solid-socket: createPersistedSignal & The Event Log\n[1:35:15] solid-socket: Frameworks, Serverless, & Durable Objects\n[1:51:30] solid-events: Introduction - Signals vs. Event Streams\n[2:00:30] solid-events: createEvent\n[2:09:00] solid-events: createSubject, createTopic, & createPartition\n[2:13:30] solid-events: Use Cases\n[2:21:15] solid-events: Diffs & Derived Stores\n[2:33:00] solid-events: Conclusion\n[2:43:00] Dev's Parting Words & Joining The SolidJS Core Team\n[2:50:30] Intermission #1 \n[2:53:15] Reference Swapping Stores: Introduction\n[2:57:15] RSS: Diffing in Immutable Systems (Excalidraw!)\n[3:05:15] RSS: Qwik, Redux, & Reconciliation\n[3:09:15] RSS: Stores in Solid\n[3:13:45] RSS: Fixed References & Broken Arrows\n[3:17:45] RSS: Keys, Time Travel, & Mutability\n[3:23:45] RSS: uibench (UI Benchmark)\n[3:31:45] RSS: Solving Stores - A Possible Solution\n[3:38:45] RSS: Memory Cost & Checking Out The Code\n[3:45:00] RSS: Problems With This Approach\n[3:52:15] RSS: Takeaways & Redux Example\n[4:02:30] Hierarchical Reactive Scheduling Boundaries: Introduction\n[4:09:30] HRSB: Demo #1 - Counter\n[4:14:45] HRSB: Demo #2 - Nested Example\n[4:20:00] Intermission #2\n[4:24:15] This Week in JavaScript: Syntax Is Overrated\n[4:30:15] TWiJ: Twitter Exodus, State of JS, & Valibot\n[4:33:00] TWiJ: react-scan & Creation vs. Update\n[4:44:30] TWiJ: TanStack Start & Astro 5\n[4:50:00] TWiJ: AI Content, const expressions, & React 19 rc1\n[4:55:15] TWiJ: Solid News (Solid Hack!)\n[5:02:30] Conclusion\n\nThanks @zombiefacesupreme for the timestamp!!"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Solid 2.0 Beta Refined",
+      "slug": "2026-04-17-solid-20-beta-refined",
+      "duration": "6:13:39",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=RQd6FIV7JPM",
+      "publishDate": "2026-04-17",
+      "thumbnail": "https://i.ytimg.com/vi/RQd6FIV7JPM/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 1020,
+          "title": "Beta Status and AI Development Workflow"
+        },
+        {
+          "startTime": 1020,
+          "endTime": 2400,
+          "title": "SSR Example Setup and Minimal Router Design"
+        },
+        {
+          "startTime": 2400,
+          "endTime": 3840,
+          "title": "Profile Page Cascading Loaders and Transitions"
+        },
+        {
+          "startTime": 3840,
+          "endTime": 4380,
+          "title": "Loading Boundary Strategies and Render-to-String"
+        },
+        {
+          "startTime": 4380,
+          "endTime": 5340,
+          "title": "Async Iterators, Projections, and the Repeat Component"
+        },
+        {
+          "startTime": 5340,
+          "endTime": 6120,
+          "title": "Wire Format Inspection and Seroval Deduplication"
+        },
+        {
+          "startTime": 6120,
+          "endTime": 7440,
+          "title": "Error Boundaries and React's Async Physics"
+        },
+        {
+          "startTime": 7440,
+          "endTime": 9600,
+          "title": "Compiler Output, Ripple, and the TSRX Spinoff"
+        },
+        {
+          "startTime": 9600,
+          "endTime": 11280,
+          "title": "The Reveal Component and Suspense Lists"
+        },
+        {
+          "startTime": 11280,
+          "endTime": 12780,
+          "title": "Solid 2.0 Migration Guide Walkthrough"
+        },
+        {
+          "startTime": 12780,
+          "endTime": 13860,
+          "title": "Split Effects, Error Handling, and Stores"
+        },
+        {
+          "startTime": 13860,
+          "endTime": 15000,
+          "title": "Removing Create Mutable and State Library Philosophy"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 16320,
+          "title": "Dev Diagnostics System and R3 Reactivity"
+        },
+        {
+          "startTime": 16320,
+          "endTime": 17640,
+          "title": "Post-2.0 Roadmap and Remaining Work"
+        },
+        {
+          "startTime": 17640,
+          "endTime": 19620,
+          "title": "This Week in JavaScript and AI's Framework Impact"
+        },
+        {
+          "startTime": 19620,
+          "endTime": 21300,
+          "title": "Svelte Async Context and TanStack Server Components"
+        },
+        {
+          "startTime": 21300,
+          "endTime": 22418,
+          "title": "Server Component History and Sign-off"
+        }
+      ],
+      "description": "With Solid 2.0 Beta reaching feature complete we are going to talk about the latest updates, what's left to do, and go over what is in vs deferred to future releases.\n\n00:00:00 - Beta Status and AI Development Workflow\n00:17:00 - SSR Example Setup and Minimal Router Design\n00:40:00 - Profile Page Cascading Loaders and Transitions\n01:04:00 - Loading Boundary Strategies and Render-to-String\n01:13:00 - Async Iterators, Projections, and the Repeat Component\n01:29:00 - Wire Format Inspection and Seroval Deduplication\n01:42:00 - Error Boundaries and React's Async Physics\n02:04:00 - Compiler Output, Ripple, and the TSRX Spinoff\n02:40:00 - The Reveal Component and Suspense Lists\n03:08:00 - Solid 2.0 Migration Guide Walkthrough\n03:33:00 - Split Effects, Error Handling, and Stores\n03:51:00 - Removing Create Mutable and State Library Philosophy\n04:10:00 - Dev Diagnostics System and R3 Reactivity\n04:32:00 - Post-2.0 Roadmap and Remaining Work\n04:54:00 - This Week in JavaScript and AI's Framework Impact\n05:27:00 - Svelte Async Context and TanStack Server Components\n05:55:00 - Server Component History and Sign-off\n\nChapter titles generated with @ajcwebdev /autoshow-cli and Claude Opus 4.7"
+    }
+  }
+}

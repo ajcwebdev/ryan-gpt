@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "JSConf India - The Future is Reactive",
+      "slug": "2021-12-29-jsconf-india-the-future-is-reactive",
+      "duration": "39:35",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=vHy7GRpTpm8",
+      "publishDate": "2021-12-29",
+      "thumbnail": "https://i.ytimg.com/vi/vHy7GRpTpm8/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 49,
+          "title": "Intro"
+        },
+        {
+          "startTime": 49,
+          "endTime": 107,
+          "title": "So, what is Reactive Programming?"
+        },
+        {
+          "startTime": 107,
+          "endTime": 220,
+          "title": "Why Reactivity?"
+        },
+        {
+          "startTime": 220,
+          "endTime": 322,
+          "title": "Why Fine-Grained Reactivity?"
+        },
+        {
+          "startTime": 322,
+          "endTime": 426,
+          "title": "Reactivity in Frameworks"
+        },
+        {
+          "startTime": 426,
+          "endTime": 614,
+          "title": "Is React reactive?"
+        },
+        {
+          "startTime": 614,
+          "endTime": 952,
+          "title": "Creating Signals"
+        },
+        {
+          "startTime": 952,
+          "endTime": 1195,
+          "title": "Why Derivations?"
+        },
+        {
+          "startTime": 1195,
+          "endTime": 1254,
+          "title": "Naive Implementation"
+        },
+        {
+          "startTime": 1254,
+          "endTime": 1452,
+          "title": "Predictable Execution"
+        },
+        {
+          "startTime": 1452,
+          "endTime": 1518,
+          "title": "Fine-Grained Rendering"
+        },
+        {
+          "startTime": 1518,
+          "endTime": 1577,
+          "title": "What if used Effects to Render the DOM?"
+        },
+        {
+          "startTime": 1577,
+          "endTime": 1683,
+          "title": "What if all rendering was an Effect?"
+        },
+        {
+          "startTime": 1683,
+          "endTime": 2121,
+          "title": "Building a Counter"
+        },
+        {
+          "startTime": 2121,
+          "endTime": 2194,
+          "title": "The Reactive Advantage"
+        },
+        {
+          "startTime": 2194,
+          "endTime": 2251,
+          "title": "Reactivity: The Framework Rosetta Stone"
+        },
+        {
+          "startTime": 2251,
+          "endTime": 2374,
+          "title": "Reactivity: Compilation's Superfriend"
+        }
+      ],
+      "description": "Pre-recorded video for my talk at JSConf India 2021 - November 15, 2021."
+    }
+  }
+}

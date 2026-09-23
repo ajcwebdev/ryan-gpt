@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Marko - The Most Underrated JS Framework?",
+      "slug": "2022-01-15-marko-the-most-underrated-js-framework",
+      "duration": "2:14:17",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=VanpBTKLFNM",
+      "publishDate": "2022-01-15",
+      "thumbnail": "https://i.ytimg.com/vi/VanpBTKLFNM/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 167,
+          "title": "Intro"
+        },
+        {
+          "startTime": 167,
+          "endTime": 905,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 905,
+          "endTime": 1243,
+          "title": "The World in Which Marko was Born"
+        },
+        {
+          "startTime": 1243,
+          "endTime": 1780,
+          "title": "Why Marko?"
+        },
+        {
+          "startTime": 1780,
+          "endTime": 2083,
+          "title": "Node Server Templating"
+        },
+        {
+          "startTime": 2083,
+          "endTime": 2624,
+          "title": "First Look at Marko"
+        },
+        {
+          "startTime": 2624,
+          "endTime": 3339,
+          "title": "Hackernews Example"
+        },
+        {
+          "startTime": 3339,
+          "endTime": 4038,
+          "title": "Partial Hydration effect on Data Serialization"
+        },
+        {
+          "startTime": 4038,
+          "endTime": 4579,
+          "title": "Benchmarking"
+        },
+        {
+          "startTime": 4579,
+          "endTime": 4905,
+          "title": "MPAs vs SPAs"
+        },
+        {
+          "startTime": 4905,
+          "endTime": 5569,
+          "title": "Tags API"
+        },
+        {
+          "startTime": 5569,
+          "endTime": 6364,
+          "title": "Write Less Code Forever"
+        },
+        {
+          "startTime": 6364,
+          "endTime": 6665,
+          "title": "Subcomponent Hydration"
+        },
+        {
+          "startTime": 6665,
+          "endTime": 7070,
+          "title": "Resumable Hydration"
+        },
+        {
+          "startTime": 7070,
+          "endTime": 7178,
+          "title": "Fine-Grained Reactivity as a Language"
+        },
+        {
+          "startTime": 7178,
+          "endTime": 7947,
+          "title": "MPAs and Server Components"
+        },
+        {
+          "startTime": 7947,
+          "endTime": 8057,
+          "title": "Outro"
+        }
+      ],
+      "description": "When I first decided to look deeper into Marko two years ago I had no clue what I'd find. I had heard of it and knew it had some cute Pug-like syntax, but I never could have expected to find the hidden technology beneath. \"Any sufficiently advanced technology is indistinguishable from magic\" comes to mind. But it's more than that as it was so natural I didn't even realize there was any magic.\r\n\r\nNow I'm core maintainer and in a better position to bring some light to this largely unknown JS framework.\n\n[0:00] Intro\n[2:47] This Week in JavaScript\n[15:05] The World in Which Marko was Born\n[20:43] Why Marko?\n[29:40] Node Server Templating\n[34:43] First Look at Marko\n[43:44] Hackernews Example\n[55:39] Partial Hydration effect on Data Serialization\n[1:07:18] Benchmarking\n[1:16:19] MPAs vs SPAs\n[1:21:45] Tags API\n[1:32:49] Write Less Code Forever\n[1:46:04] Subcomponent Hydration\n[1:51:05] Resumable Hydration\n[1:57:50] Fine-Grained Reactivity as a Language\n[1:59:38] MPAs and Server Components\n[2:12:27] Outro"
+    }
+  }
+}

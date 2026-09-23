@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring the App Directory in Next 13",
+      "slug": "2022-12-10-exploring-the-app-directory-in-next-13",
+      "duration": "5:23:46",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=qyQNFstxlzY",
+      "publishDate": "2022-12-10",
+      "thumbnail": "https://i.ytimg.com/vi/qyQNFstxlzY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 390,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 390,
+          "endTime": 1880,
+          "title": "Where do Server Components Fit?"
+        },
+        {
+          "startTime": 1880,
+          "endTime": 3421,
+          "title": "SSR vs Server Components"
+        },
+        {
+          "startTime": 3421,
+          "endTime": 4590,
+          "title": "Reflections on Innovation"
+        },
+        {
+          "startTime": 4590,
+          "endTime": 7223,
+          "title": "Building a Next 13 Hackernews"
+        },
+        {
+          "startTime": 7223,
+          "endTime": 8584,
+          "title": "`use client`"
+        },
+        {
+          "startTime": 8584,
+          "endTime": 9518,
+          "title": "Comparing Hackernews Demos"
+        },
+        {
+          "startTime": 9518,
+          "endTime": 9746,
+          "title": "Break"
+        },
+        {
+          "startTime": 9746,
+          "endTime": 10001,
+          "title": "Impact on bundle size"
+        },
+        {
+          "startTime": 10001,
+          "endTime": 10688,
+          "title": "Pagespeed Insights not being helpful"
+        },
+        {
+          "startTime": 10688,
+          "endTime": 11439,
+          "title": "Chrome Timelines"
+        },
+        {
+          "startTime": 11439,
+          "endTime": 12666,
+          "title": "Server Components a Silver Bullet?"
+        },
+        {
+          "startTime": 12666,
+          "endTime": 13297,
+          "title": "2 Apps vs Isomorphic vs ??"
+        },
+        {
+          "startTime": 13297,
+          "endTime": 13527,
+          "title": "Random Chatter"
+        },
+        {
+          "startTime": 13527,
+          "endTime": 17055,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 17055,
+          "endTime": 18380,
+          "title": "Conversation with Chat"
+        },
+        {
+          "startTime": 18380,
+          "endTime": 19360,
+          "title": "Thoughts on Svelte"
+        },
+        {
+          "startTime": 19360,
+          "endTime": 19426,
+          "title": "Outro"
+        }
+      ],
+      "description": "I've looked at several versions of React Server Components over the years. We have explored the original demo. We've looked at Hydrogen in depth. So I've been excited to look at the latest from Next.\n\n[0:00] Introduction\n[6:30] Where do Server Components Fit?\n[31:20] SSR vs Server Components\n[57:01] Reflections on Innovation\n[1:16:30] Building a Next 13 Hackernews\n[2:00:23] `use client`\n[2:23:04] Comparing Hackernews Demos\n[2:38:38] Break\n[2:42:26] Impact on bundle size\n[2:46:41] Pagespeed Insights not being helpful\n[2:58:08] Chrome Timelines\n[3:10:39] Server Components a Silver Bullet?\n[3:31:06] 2 Apps vs Isomorphic vs ??\n[3:41:37] Random Chatter\n[3:45:27] This Week in JavaScript\n[4:44:15] Conversation with Chat\n[5:06:20] Thoughts on Svelte\n[5:22:40] Outro"
+    }
+  }
+}

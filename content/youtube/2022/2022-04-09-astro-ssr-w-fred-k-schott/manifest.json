@@ -1,0 +1,329 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:12:44.257Z",
+  "updatedAt": "2026-09-23T08:14:57.861Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Astro SSR w/ Fred K. Schott",
+          "duration": "3:02:50",
+          "channel": "Ryan Carniato",
+          "description": "In this return to Astro we will get to building some stuff on the new Astro 1.0 beta with none other than Fred K. Schott. Maybe we can build the idealized Hackernews demo, and give the latest SolidJS integration a spin.\n\nHackernews Repo: https://github.com/ryansolid/astro-solid-hackernews\nHackernew Demo: https://astro-solid-hn.netlify.app/\n\n[0:00] Introduction\n[5:41] This Week in JavaScript\n[13:38] Meta-framework or Platform?\n[20:48] Framework Agnostic Routing?\n[26:05] Changing role of Client Components\n[40:13] Death of Next.js?\n[48:00] Astro Syntax\n[54:08] Starting a new Astro SSR Project\n[1:04:04] Building Hackernews main page\n[1:26:48] Nested Recursive Partial Hydration\n[1:56:34] Deploying to Netlify\n[2:06:07] Performance Comparison\n[2:41:18] Q & A",
+          "url": "https://www.youtube.com/watch?v=2ZEMb_H-LYE",
+          "publishDate": "2022-04-09",
+          "thumbnail": "https://i.ytimg.com/vi/2ZEMb_H-LYE/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 341,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 341,
+              "endTime": 818,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 818,
+              "endTime": 1248,
+              "title": "Meta-framework or Platform?"
+            },
+            {
+              "startTime": 1248,
+              "endTime": 1565,
+              "title": "Framework Agnostic Routing?"
+            },
+            {
+              "startTime": 1565,
+              "endTime": 2413,
+              "title": "Changing role of Client Components"
+            },
+            {
+              "startTime": 2413,
+              "endTime": 2880,
+              "title": "Death of Next.js?"
+            },
+            {
+              "startTime": 2880,
+              "endTime": 3248,
+              "title": "Astro Syntax"
+            },
+            {
+              "startTime": 3248,
+              "endTime": 3844,
+              "title": "Starting a new Astro SSR Project"
+            },
+            {
+              "startTime": 3844,
+              "endTime": 5208,
+              "title": "Building Hackernews main page"
+            },
+            {
+              "startTime": 5208,
+              "endTime": 6994,
+              "title": "Nested Recursive Partial Hydration"
+            },
+            {
+              "startTime": 6994,
+              "endTime": 7567,
+              "title": "Deploying to Netlify"
+            },
+            {
+              "startTime": 7567,
+              "endTime": 9678,
+              "title": "Performance Comparison"
+            },
+            {
+              "startTime": 9678,
+              "endTime": 10970,
+              "title": "Q & A"
+            }
+          ],
+          "slug": "2022-04-09-astro-ssr-w-fred-k-schott",
+          "audioFileName": "2022-04-09-astro-ssr-w-fred-k-schott.m4a",
+          "audioFileSize": 137305048,
+          "durationSeconds": 10970
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 70.08611111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 70.08611111111111,
+                "costMultiplier": 1,
+                "durationSeconds": 10970
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 70.08611111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 70.08611111111111,
+                "costMultiplier": 1,
+                "durationSeconds": 10970
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 70.08611111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 70.08611111111111,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 10970
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2062360,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2062360,
+                "inputMetric": "durationSeconds",
+                "inputValue": 10970,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2062360
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 133356,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 133356,
+                "timingBreakdown": {
+                  "uploadMs": 2642,
+                  "createMs": 109,
+                  "pollMs": 5444,
+                  "pollSleepMs": 125078,
+                  "remoteProcessingMs": 125161
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 10970,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 12.156,
+                "throughputValue": 82.261,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 133354,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 2642,
+                  "createMs": 109,
+                  "createCount": 1,
+                  "pollMs": 5444,
+                  "requestCount": 17
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "2fc1af82-62a5-433c-b89d-c74fcca24cd1",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/dba25275617e32379aef8a0dc70e2509972728d1e680816533b20b59e22359d9/40436b09-2b12-4596-a30a-05b7e0c68072",
+                  "createCompletedAt": "2026-09-23T08:12:47.010Z",
+                  "lastPollAt": "2026-09-23T08:14:57.612Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 133356,
+            "tokenCount": 34870,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "2fc1af82-62a5-433c-b89d-c74fcca24cd1",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/dba25275617e32379aef8a0dc70e2509972728d1e680816533b20b59e22359d9/40436b09-2b12-4596-a30a-05b7e0c68072",
+              "createCompletedAt": "2026-09-23T08:12:47.010Z",
+              "lastPollAt": "2026-09-23T08:14:57.612Z",
+              "completedAt": "2026-09-23T08:14:57.614Z"
+            },
+            "timings": {
+              "uploadMs": 2642,
+              "createMs": 109,
+              "createCount": 1,
+              "pollMs": 5444,
+              "pollSleepMs": 125078,
+              "pollCount": 15,
+              "remoteProcessingMs": 125161,
+              "requestCount": 17
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 7,
+                  "completed": 6,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790150652199,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "assemblyai.stt.v1",
+            "request": {
+              "model": "universal-3-5-pro",
+              "diarization": {
+                "enabled": true
+              }
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

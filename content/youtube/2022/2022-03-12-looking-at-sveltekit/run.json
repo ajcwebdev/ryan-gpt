@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Looking at SvelteKit",
+      "slug": "2022-03-12-looking-at-sveltekit",
+      "duration": "4:05:13",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=DYwI1eWkMcI",
+      "publishDate": "2022-03-12",
+      "thumbnail": "https://i.ytimg.com/vi/DYwI1eWkMcI/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 295,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 295,
+          "endTime": 3260,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 3260,
+          "endTime": 4200,
+          "title": "Introducing SvelteKit"
+        },
+        {
+          "startTime": 4200,
+          "endTime": 7470,
+          "title": "Porting Hackernews"
+        },
+        {
+          "startTime": 7470,
+          "endTime": 8740,
+          "title": "Deploying to Cloudflare"
+        },
+        {
+          "startTime": 8740,
+          "endTime": 9869,
+          "title": "Looking at Performance"
+        },
+        {
+          "startTime": 9869,
+          "endTime": 11591,
+          "title": "Skipping Hydration"
+        },
+        {
+          "startTime": 11591,
+          "endTime": 14713,
+          "title": "Open Discussion"
+        }
+      ],
+      "description": "I've been streaming now for 9 months and have touched a lot on Solid, Marko, React and many of latest frameworks coming out, but I haven't dedicated a stream to Svelte. That changes tonight. Join me as we talk Svelte and look at how SvelteKit streamlines building applications through porting our favorite Hackernews Demo.\n\n[0:00] Introduction\n[4:55] This Week in JavaScript\n[54:20] Introducing SvelteKit\n[1:10:00] Porting Hackernews\n[2:04:30] Deploying to Cloudflare\n[2:25:40] Looking at Performance\n[2:44:29] Skipping Hydration\n[3:13:11] Open Discussion"
+    }
+  }
+}

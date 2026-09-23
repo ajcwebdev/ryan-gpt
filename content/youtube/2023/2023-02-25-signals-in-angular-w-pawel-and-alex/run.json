@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Signals in Angular w/ Pawel and Alex",
+      "slug": "2023-02-25-signals-in-angular-w-pawel-and-alex",
+      "duration": "5:23:37",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=HstDoVQeP9g",
+      "publishDate": "2023-02-25",
+      "thumbnail": "https://i.ytimg.com/vi/HstDoVQeP9g/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 450,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 450,
+          "endTime": 840,
+          "title": "Welcome Pawel Kozlowski and Alex Rickabaugh"
+        },
+        {
+          "startTime": 840,
+          "endTime": 1290,
+          "title": "The context surrounding Angular's emergence"
+        },
+        {
+          "startTime": 1290,
+          "endTime": 1530,
+          "title": "Introduction to \"Zones\" in Angular"
+        },
+        {
+          "startTime": 1530,
+          "endTime": 2160,
+          "title": "Excalidraw! The three types of rendering"
+        },
+        {
+          "startTime": 2160,
+          "endTime": 2460,
+          "title": "How does RxJS fit into this?"
+        },
+        {
+          "startTime": 2460,
+          "endTime": 2820,
+          "title": "onPush Vs. zone.js"
+        },
+        {
+          "startTime": 2820,
+          "endTime": 3030,
+          "title": "How Pawel learned about signals"
+        },
+        {
+          "startTime": 3030,
+          "endTime": 3390,
+          "title": "How signals fit into Angular"
+        },
+        {
+          "startTime": 3390,
+          "endTime": 3570,
+          "title": "The three reactive language primitives"
+        },
+        {
+          "startTime": 3570,
+          "endTime": 4200,
+          "title": "Reactivity in RxJS - Streams and Behavior Subjects"
+        },
+        {
+          "startTime": 4200,
+          "endTime": 4500,
+          "title": "Observables - Hot/Cold and Unicast/Multicast"
+        },
+        {
+          "startTime": 4500,
+          "endTime": 5070,
+          "title": "How RxJS and Signals work better together than zone.js/RxJS"
+        },
+        {
+          "startTime": 5070,
+          "endTime": 5250,
+          "title": "How the Angular team landed on signals"
+        },
+        {
+          "startTime": 5250,
+          "endTime": 5865,
+          "title": "Segregating read/write activity the right way"
+        },
+        {
+          "startTime": 5865,
+          "endTime": 6120,
+          "title": "Code - example of Angular's signals"
+        },
+        {
+          "startTime": 6120,
+          "endTime": 6510,
+          "title": "Code - The getter primitive"
+        },
+        {
+          "startTime": 6510,
+          "endTime": 6690,
+          "title": "Code - effect and computed"
+        },
+        {
+          "startTime": 6690,
+          "endTime": 6975,
+          "title": "Code - Putting this into context"
+        },
+        {
+          "startTime": 6975,
+          "endTime": 7455,
+          "title": "Excalidraw! Simple diamond problem w/ Angular signals"
+        },
+        {
+          "startTime": 7455,
+          "endTime": 7800,
+          "title": "More complex examples"
+        },
+        {
+          "startTime": 7800,
+          "endTime": 8295,
+          "title": "How it works"
+        },
+        {
+          "startTime": 8295,
+          "endTime": 8685,
+          "title": "How Angular signals compare to other solutions"
+        },
+        {
+          "startTime": 8685,
+          "endTime": 9315,
+          "title": "The gang waxes poetic about signals"
+        },
+        {
+          "startTime": 9315,
+          "endTime": 9375,
+          "title": "Q & A: What was Angular's history with two-way data binding?"
+        },
+        {
+          "startTime": 9375,
+          "endTime": 9540,
+          "title": "Q & A: Are there plans for nested reactivity?"
+        },
+        {
+          "startTime": 9540,
+          "endTime": 9720,
+          "title": "Q & A: What about Svelte stores in Angular?"
+        },
+        {
+          "startTime": 9720,
+          "endTime": 10230,
+          "title": "Q & A: Can I nest effects?"
+        },
+        {
+          "startTime": 10230,
+          "endTime": 11025,
+          "title": "Garbage collection with lazy reactivity"
+        },
+        {
+          "startTime": 11025,
+          "endTime": 11400,
+          "title": "What's next for Angular Signals?"
+        },
+        {
+          "startTime": 11400,
+          "endTime": 11745,
+          "title": "Using the Angular compiler"
+        },
+        {
+          "startTime": 11745,
+          "endTime": 12120,
+          "title": "Trends in the JS community"
+        },
+        {
+          "startTime": 12120,
+          "endTime": 12420,
+          "title": "Q & A: What will the roll-out for signals in Angular look like?"
+        },
+        {
+          "startTime": 12420,
+          "endTime": 12480,
+          "title": "Q & A: Other headline features?"
+        },
+        {
+          "startTime": 12480,
+          "endTime": 12690,
+          "title": "Q & A: How will circular dependencies be handled?"
+        },
+        {
+          "startTime": 12690,
+          "endTime": 12810,
+          "title": "Q & A: JSX in Angular when!?!?"
+        },
+        {
+          "startTime": 12810,
+          "endTime": 12945,
+          "title": "Q & A: Will we have full support of JS syntax in component metadata?"
+        },
+        {
+          "startTime": 12945,
+          "endTime": 13050,
+          "title": "Q & A: How do signals fit into the SSR story?"
+        },
+        {
+          "startTime": 13050,
+          "endTime": 13290,
+          "title": "Farewell to Alex and Pawel"
+        },
+        {
+          "startTime": 13290,
+          "endTime": 13350,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 13350,
+          "endTime": 13380,
+          "title": "Syntax Podcast"
+        },
+        {
+          "startTime": 13380,
+          "endTime": 13590,
+          "title": "Explaining the partnership with Astro and Tanner Linsley."
+        },
+        {
+          "startTime": 13590,
+          "endTime": 13620,
+          "title": "Yet Another Launcher"
+        },
+        {
+          "startTime": 13620,
+          "endTime": 13665,
+          "title": "Dan Jutan is back! (tutorial videos)"
+        },
+        {
+          "startTime": 13665,
+          "endTime": 13735,
+          "title": "Sarah Drasner's Angular Signals video"
+        },
+        {
+          "startTime": 13735,
+          "endTime": 13755,
+          "title": "JavaScript Jabber podcast"
+        },
+        {
+          "startTime": 13755,
+          "endTime": 13980,
+          "title": "Dominic Gannaway's new framework"
+        },
+        {
+          "startTime": 13980,
+          "endTime": 14160,
+          "title": "Qwik's server functions"
+        },
+        {
+          "startTime": 14160,
+          "endTime": 14235,
+          "title": "Milo's reactivity graphs"
+        },
+        {
+          "startTime": 14235,
+          "endTime": 14310,
+          "title": "JavaScript Twitter drama... but WAIT!"
+        },
+        {
+          "startTime": 14310,
+          "endTime": 14565,
+          "title": "MarkoJS TypeScript support!!"
+        },
+        {
+          "startTime": 14565,
+          "endTime": 14760,
+          "title": "Back to the Twitter drama"
+        },
+        {
+          "startTime": 14760,
+          "endTime": 14970,
+          "title": "Svelte streaming"
+        },
+        {
+          "startTime": 14970,
+          "endTime": 15135,
+          "title": "The deleted tweet and Remix backlash"
+        },
+        {
+          "startTime": 15135,
+          "endTime": 15705,
+          "title": "Ryan's response"
+        },
+        {
+          "startTime": 15705,
+          "endTime": 16320,
+          "title": "Ryan Florence deactivated his Twitter."
+        },
+        {
+          "startTime": 16320,
+          "endTime": 17220,
+          "title": "Andrew Clark's tweets"
+        },
+        {
+          "startTime": 17220,
+          "endTime": 18390,
+          "title": "Showing some differences in code"
+        },
+        {
+          "startTime": 18390,
+          "endTime": 18975,
+          "title": "The drawbacks of working with signals"
+        },
+        {
+          "startTime": 18975,
+          "endTime": 19417,
+          "title": "Wrapping up"
+        }
+      ],
+      "description": "Signals seem to be taking the web dev world by storm. But the truth is much longer in the making. Friday's stream I hang out with Angular core team members Pawel and Alex to talk about their journey into Fine-Grained Reactivity.\n\nSignals in Angular w/ Pawel Kozlowski and Alex Rickabaugh\n\n[0:00] Preamble\n[7:30] Welcome Pawel Kozlowski and Alex Rickabaugh\n[14:00] The context surrounding Angular's emergence\n[21:30] Introduction to \"Zones\" in Angular\n[25:30] Excalidraw! The three types of rendering\n[36:00] How does RxJS fit into this?\n[41:00] onPush Vs. zone.js\n[47:00] How Pawel learned about signals\n[50:30] How signals fit into Angular\n[56:30] The three reactive language primitives\n[59:30] Reactivity in RxJS - Streams and Behavior Subjects\n[1:10:00] Observables - Hot/Cold and Unicast/Multicast\n[1:15:00] How RxJS and Signals work better together than zone.js/RxJS\n[1:24:30] How the Angular team landed on signals\n[1:27:30] Segregating read/write activity the right way\n[1:37:45] Code - example of Angular's signals\n[1:42:00] Code - The getter primitive\n[1:48:30] Code - effect and computed\n[1:51:30] Code - Putting this into context\n[1:56:15] Excalidraw! Simple diamond problem w/ Angular signals\n[2:04:15] More complex examples\n[2:10:00] How it works\n[2:18:15] How Angular signals compare to other solutions\n[2:24:45] The gang waxes poetic about signals\n[2:35:15] Q & A: What was Angular's history with two-way data binding?\n[2:36:15] Q & A: Are there plans for nested reactivity?\n[2:39:00] Q & A: What about Svelte stores in Angular?\n[2:42:00] Q & A: Can I nest effects?\n[2:50:30] Garbage collection with lazy reactivity\n[3:03:45] What's next for Angular Signals?\n[3:10:00] Using the Angular compiler\n[3:15:45] Trends in the JS community\n[3:22:00] Q & A: What will the roll-out for signals in Angular look like?\n[3:27:00] Q & A: Other headline features?\n[3:28:00] Q & A: How will circular dependencies be handled?\n[3:31:30] Q & A: JSX in Angular when!?!?\n[3:33:30] Q & A: Will we have full support of JS syntax in component metadata?\n[3:35:45] Q & A: How do signals fit into the SSR story?\n[3:37:30] Farewell to Alex and Pawel\n\nThis Week in JavaScript\n\n[3:41:30] Introduction\n[3:42:30] Syntax Podcast\n[3:43:00] Explaining the partnership with Astro and Tanner Linsley.\n[3:46:30] Yet Another Launcher\n[3:47:00] Dan Jutan is back! (tutorial videos)\n[3:47:45] Sarah Drasner's Angular Signals video\n[3:48:55] JavaScript Jabber podcast\n[3:49:15] Dominic Gannaway's new framework\n[3:53:00] Qwik's server functions\n[3:56:00] Milo's reactivity graphs\n[3:57:15] JavaScript Twitter drama... but WAIT!\n[3:58:30] MarkoJS TypeScript support!!\n[4:02:45] Back to the Twitter drama\n[4:06:00] Svelte streaming\n[4:09:30] The deleted tweet and Remix backlash\n[4:12:15] Ryan's response\n[4:21:45] Ryan Florence deactivated his Twitter.\n[4:32:00] Andrew Clark's tweets\n[4:47:00] Showing some differences in code\n[5:06:30] The drawbacks of working with signals \n[5:16:15] Wrapping up\n\nThanks @zombiefacesupreme for the timestamps"
+    }
+  }
+}

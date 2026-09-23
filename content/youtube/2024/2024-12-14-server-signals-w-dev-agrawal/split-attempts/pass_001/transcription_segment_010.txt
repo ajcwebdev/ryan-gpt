@@ -1,0 +1,271 @@
+[04:30:00] [1] Vlog component. Like, we've had Script tag in Svelte for a long time, or View, or whatever.
+[04:30:05] [1] Like,
+[04:30:07] [1] I don't know, like the code already looked like this.
+[04:30:12] [1] Yeah, React.
+[04:30:16] [1] Yeah.
+[04:30:22] [1] Um,
+[04:30:27] [1] yeah. This is my other gripe: when I moved to BlueSky, all my articles are broken.
+[04:30:31] [1] I— did I talk about this last stream? I don't think I did, because I said here that I was— oh, the stream's back tomorrow, so maybe I did talk about this last stream.
+[04:30:41] [1] I can't remember if I ended up actually talking about this, but all my articles are kind of broken because I like quoting React core team members, like 7, Dan, a lot in them, and now they're like literally blank.
+[04:30:53] [1] Like, React versus Signals, 10 years later, one of my most read articles of all tim
+[04:31:02] [1] e.
+[04:31:04] [1] I think it has over 100,000 and some odd reads. This is what it looks like now.
+[04:31:11] [1] These are all
+[04:31:14] [1] missing Dan Abramoff quotes.
+[04:31:20] [1] Well, Andrew Clark's still there. The articles— I tried to find them, like Wayback Machine or something.
+[04:31:28] [1] The article's basically unreadable now. I don't know, I have a lot of articles like this.
+[04:31:35] [1] It's just really good.
+[04:31:38] [1] I mean, it's not completely
+[04:31:42] [1] out of— out, but like, these quotes are
+[04:31:48] [1] — are actually really important to the article. It's actually really frustrating.
+[04:31:52] [1] Anyway. Um,
+[04:31:55] [1] no disrespect to Dan, but I wish he hadn't newed to his account when he left Twitter: "The entire documentation for all modern undocumented React features were buried in massive treat threads that are now gone forever.
+[04:32:03] [1] "
+[04:32:05] [1] Yeah.
+[04:32:07] [1] Anyway.
+[04:32:09] [1] I posted this one on BlueSky, and someone was like, "Pull out some political thing," and I was like, I don't even— I don't even know.
+[04:32:16] [1] Oh, side note, I guess it's— is it still open? If you haven't done the state of JS survey
+[04:32:23] [1] ? Oh, it closed on the 10th. I didn't even get to do a live stream to put you guys all to vote for Solid on here.
+[04:32:32] [1] Whatever. It's all good.
+[04:32:36] [1] Um,
+[04:32:39] [1] God, Valibot's still just growing and growing.
+[04:32:48] [1] Mm-mm. He's— I haven't talked to him. I don't know if he found a job. Alright.
+[04:32:57] [1] Yeah. Voting opened. Our whole hackathon actually finished since the last time I streamed, which is crazy.
+[04:33:05] [1] Yeah, so let's talk about React scan for a bit. I know this is old news for everyone, but Aiden just started going around tearing at websites here.
+[04:33:18] [1] And, uh, it's kind of funny because seeing the React re-renders isn't the whole story.
+[04:33:26] [1] The performance might still be perfectly fine here, but, um,
+[04:33:33] [1] it definitely drew attention to something that's, like, doesn't happen in
+[04:33:41] [1] other frameworks. Like, Aiden had some side-by-sides, I think, at some point showing other stuff.
+[04:33:49] [1] I'm glad he's getting attention for this. This is— he's been trying to come up with all— it's— performance is a difficult thing because it's like trying to— I don't even know what it's— it's like trying to sell water to
+[04:34:04] [1] — it's like trying— it's like trying to sell meat to a vegetarian.
+[04:34:12] [1] Right? Like,
+[04:34:15] [1] I don't know how else to explain it. Like,
+[04:34:24] [1] like,
+[04:34:27] [1] people who use React, there's a billion other reasons you use React. Like, Million has a great approach to, you know, with BlockDOM of, like, improving, like, the core rendering aspect.
+[04:34:42] [1] The compiler
+[04:34:44] [1] can prevent the re-render stuff to a decent degree, although Aiden will tell you not in all cases.
+[04:34:51] [1] But it's like,
+[04:34:55] [1] people use the compiler because they're told they don't have to think about something, not because they actually care about performance.
+[04:35:01] [1] Which is what's probably made this really difficult. Because, I mean, this is a fun Twitter topic, because Aiden can just basically rip apart anything that's React, because almost every React site suffers from this.
+[04:35:11] [1] People get to a certain point where they're just like, I give up. It's good enough
+[04:35:17] [1] . But, like, it is interesting because I said this doesn't necessarily lead to actual bad performance.
+[04:35:24] [1] These are React component re-renders, not DOM re-renders, to my understanding. So, yeah.
+[04:35:33] [1] Discord is smart, yeah. Yeah, look at this. This is actually— yeah.
+[04:35:39] [1] I love, though, that this is at least getting attention.
+[04:35:45] [1] People are just aware of this, which I think is good. But the— like, it wasn't— the point— this is where the disconnect is, I think, for a lot of people.
+[04:35:55] [1] The point isn't about performance. I don't think it was ever about performance.
+[04:35:59] [1] The same reason when people are like, "Oh, Solid is just faster." If I was just selling you on faster than, like— like, you have the same problem again.
+[04:36:07] [1] It's because if the crap doesn't re-render, that's just something else you just don't have to think about or worry about.
+[04:36:15] [1] It's— if you truly didn't have to worry about re-renders at all
+[04:36:21] [1] , then,
+[04:36:24] [1] like, yes, no one would care.
+[04:36:30] [1] But the problem is, like, people clearly do care about re-renders, which means that this becomes actually a concern.
+[04:36:37] [1] There's a guy I was chatting with on Twitter who was, like, basically
+[04:36:46] [1] in one sentence was saying, like, "Oh yeah, I used React compiler, it made, you know, my app a lot faster in a lot of ways.
+[04:36:52] [1] " And then on the same side he was like, "You know,
+[04:36:57] [1] there's no point to Solid. These kind of optimizations aren't proven to actually make anything faster.
+[04:37:03] [1] " And I was like, "But you— if that's the case, why did React write the compiler?
+[04:37:11] [1] And you yourself said the React compiler had visible benefits." So, like, you can't have it both ways, right?
+[04:37:19] [1] Like, either reduced re-renders are an improvement
+[04:37:26] [1] , right? Like, there was a quote that I was trying to find.
+[04:37:32] [1] It took me— I was trying to find it and I couldn't find it. I think it was— I was, like, asking people.
+[04:37:38] [1] It might have started from Dan Abramoff or something at some point, but, like,
+[04:37:43] [1] um,
+[04:37:48] [1] where was it?
+[04:37:51] [1] Yeah, I'm not even seeing it anymore.
+[04:37:54] [1] It was just a weird one. It wasn't about syntax, yeah. I thought I posted it. It was basically— I was trying to remember.
+[04:38:05] [1] Someone basically said that user code was the whole cost on your— like, framework code doesn't matter for performance.
+[04:38:12] [1] User code does. And my argument was that, basically, if the framework helps your user code run less, then there's benefit to
+[04:38:23] [1] updating the framework code, right? That's why the React compiler exists.
+[04:38:30] [1] Right? I mean, there is
+[04:38:33] [1] this thread with Dan trying to look at performance. I would happily trade update costs for better init costs.
+[04:38:39] [1] I need to cut down on what each of these things do the first time. None of this Reactivity Signal stuff helps here.
+[04:38:43] [1] It's just about moving calculations to interaction time. And, um,
+[04:38:49] [1] he's
+[04:38:53] [1] — he's right and he's wrong. He's right that, purely speaking, Signals and Reactivity don't help initial render, where he's not quite right.
+[04:39:03] [1] And the reason that
+[04:39:05] [1] we've been smashing at benchmarks, even on creation, is that
+[04:39:11] [1] because we know that the update path is separated, isolated, then the creation path can be optimized in isolation.
+[04:39:19] [1] One of the challenges with React's like, um,
+[04:39:23] [1] like a game engine renderer where it just, like, re-renders the same graph every time.
+[04:39:29] [1] You get a change, re-render. And you know that you're going to get— if your game runs at 60 frames per second, your game will always run at 60 frames per second, more or less, because it'll be consistent.
+[04:39:39] [1] Like, you do equal amount of work every frame. It's fairly predictable. So, like,
+[04:39:48] [1] whether everything on the screen changes or one thing on the screen changes, you get the same FPS out and you're, like, consistently where you want to be.
+[04:39:57] [1] But if the differences on, like, a Signals-based system, obviously, is the updates scale.
+[04:40:04] [1] Like, one update can be way faster. You know, you could be, like, 10,000 FPS for that or whatever.
+[04:40:10] [1] Like, obviously, your VSync will get in the way of that. But what I'm getting at is, like, there's no
+[04:40:18] [1] — like, there's no ceiling on how fast the update can be.
+[04:40:25] [1] But, like, creation
+[04:40:29] [1] might be lower than that 60 FPS because you basically did make that trade. So, like, in a sense, Dan's correct.
+[04:40:37] [1] But because you've already extracted that update code, you can focus purely. And in the case of the DOM, that meant cloning nodes and removing all the iteration work.
+[04:40:48] [1] Like, if you've ever seen a hyper-script, like a VDOM renderer, you're always just iterating over properties.
+[04:40:56] [1] Everything's a spread. Even if it's not a spread, it's effectively a spread. There's— like, you have to, like, iterate through.
+[04:41:02] [1] Instead of compiling in direct, like, this updates this, this updates this, this updates this.
+[04:41:06] [1] Like, this kind of
+[04:41:09] [1] switch means that we can clone big chunks of the DOM at once instead of creating them one by one and actually optimize for creation.
+[04:41:17] [1] And this is why, I mean, onto BlockDOM, which also optimizes for creation the same way that Solid does.
+[04:41:23] [1] Solid's approach was beating both virtual DOM libraries on both creation and update because we were able to optimize both in a way that React could optimize neither.
+[04:41:35] [1] So, like,
+[04:41:38] [1] conceptually right, except for it assumes a lot, right?
+[04:41:46] [1] So, like,
+[04:41:48] [1] this is the classic trade-off between updating and init. Because, yes, Signals are more expensive than not Signals, but
+[04:41:57] [1] — so, conceptually, there is a VDOM solution out there that would be faster at creation than Solid, but React isn't it, right?
+[04:42:08] [1] That's basically it.
+[04:42:15] [1] Surprised if they have it over Signals, yeah. No, I—
+[04:42:25] [1] VDOM can actually do garbage cluster projects well. You can do component creation in React with a library without being over the same like BlockDOM, but the amount React relates per render is huge.
+[04:42:31] [1] Yeah, exactly. Yeah. Like, it was kind of funny. For a while there, Solid and this approach was, like, leading the way because it was ahead on both sides.
+[04:42:41] [1] Then BlockDOM came out, like, Million, which took the one creation side. So, technically, they're ahead in the benchmark slightly because they are faster on creation than we are because they don't have the Signals overhe
+[04:42:54] [1] ad. But, like, that's a whole different category of thing than what, like, React's doing.
+[04:43:01] [1] So, like, I guess there is a theoretical versus in-practice thing. But, again, maybe we'll find more, you know, optimizations in the future.
+[04:43:11] [1] Oh, yeah, here it is. Does anyone know the source of that nonsense about how framework doesn't matter because most code is user code?
+[04:43:16] [1] I don't see how one negates the other. Framework can optimize running of your user code.
+[04:43:19] [1] This is why Signals are great. Would React bother with a compiler otherwise? Yeah, that was the one I was trying to find.
+[04:43:27] [1] Right? Yeah, yeah. Right.
+[04:43:31] [1] Yeah, yeah.
+[04:43:36] [1] Yeah, because it's crazy. Sometimes you, like
+[04:43:40] [1] — I got suckered in for the first time in a long time getting in a Twitter argument over the sentiment, right?
+[04:43:46] [1] Because it was just— it was just, like,
+[04:43:49] [1] you know when you're arguing with someone who you can tell they know that they're wrong, but they're just trying to, like, egg you on and you just keep on, like, trying to explain it?
+[04:43:56] [1] And it's like, no, they understand. They're just a troll. I have a hard time with trolls because I always feel like it's a teaching moment.
+[04:44:05] [1] Anyway,
+[04:44:07] [1] let's continue.
+[04:44:13] [1] Yeah, sorry. It's just funny. There's a whole thread of
+[04:44:17] [1] , like, React stuff. TanStack start officially in beta. That's huge.
+[04:44:24] [1] No.
+[04:44:26] [1] There's a difference between people trolling and, like, stopping right there. I had, like, a discussion with someone over, like, several days it felt like.
+[04:44:33] [1] And you could tell, like, they basically contradicted their whole argument in the first post.
+[04:44:39] [1] That's the React compiler and about how it was on me to prove that those kind of optimizations were worthwhile, even though they just said they were worthwhile.
+[04:44:48] [1] Like,
+[04:44:51] [1] yeah. Anyway. But yes, sorry. TanStack started official beta, which is great. It's got a lot more eyes on Vinci.
+[04:44:59] [1] Vite6 also came out, which I haven't reposted, which is huge with the environment API.
+[04:45:04] [1] I've been very excited for this coming out. The biggest challenge, actually, right now is that we actually can't move fast enough.
+[04:45:12] [1] Like, we did update Solid plugin. Vite6 is supported. We did update to Vinci. There were some bugs.
+[04:45:17] [1] I had to roll it back. Another update to Vinci. Hopefully it fixes it, but I'm moving slower this time.
+[04:45:24] [1] But ultimately,
+[04:45:27] [1] during this update cycle is where the slowdown— like, luckily Nitro and Vite were very lockstep for this one.
+[04:45:35] [1] But, like, Vinci is a few steps behind. So it's like, it's taking a bit to kind of move the whole behemoth.
+[04:45:40] [1] But my hope is that this pile gets a lot simpler. We were forced this direction because the stuff didn't exist.
+[04:45:46] [1] With the environment API in Vite, it does exist now. The pieces that we needed to make Solid start that Nikhil had to hack together— like, he was the same guy who hacked together the first RC examples in Vite as well— now
+[04:46:01] [1] we can do it legitimately. So I'm actually very excited. Tanur is already exploring how he can cut down some of the stuff on the edges.
+[04:46:07] [1] I'm not working on Start these days, but the efforts are continuing and it's going to funnel back into Solid Start.
+[04:46:13] [1] So very excited
+[04:46:16] [1] about seeing— he's got, like, a team of a few people working on TanStack Start.
+[04:46:21] [1] So there's a lot of progress going there.
+[04:46:30] [1] Waiting for the Astro mention. I haven't played with Astro 5 yet, but you're right.
+[04:46:34] [1] Astro 5 was just released. Let's see. I did see. I just— you guys have got to a point.
+[04:46:41] [1] I think server islands were, like, the thing that really excited me. And I already did, like, a bunch of stuff.
+[04:46:45] [1] Simplified pre-rendering, better defaults, type-safe environment variables, Vite6, experimental features.
+[04:46:51] [1] What are experimental features? I like experiments to use. Responsive images, SVD, yeah.
+[04:46:56] [1] You guys have gone so far along that you have everything now that we're just getting to, like, the icing on the cake.
+[04:47:02] [1] Server islands were huge. I think that's very interesting. I love the fact that server islands for the static case are even easier or better than PPR or RCs or stuff.
+[04:47:17] [1] Like, it's just— it's perfect. There is a performance consideration when you're highly dynamic, which would make me go towards RCs.
+[04:47:24] [1] But what you've effectively done, which I like when I look at the spectrum, is
+[04:47:32] [1] RCs are now squished in the middle between server islands, which actually appeal to the vast majority of the people who would care for RCs, and then, like, the Start projects, which are very hydration-aware, server func
+[04:47:48] [1] tion, granular, you know, single-page apps with server rendering. Where there was a time period where kind of Astro was, like, islands were very far over.
+[04:47:58] [1] And
+[04:48:01] [1] , yeah, like, RCs and Next's zone of range of where I consider them optimal has just
+[04:48:09] [1] squished in, which really calls into question the value of server components, which I think is a very interesting conversation.
+[04:48:18] [1] And it makes Astro's story finally— as I said on the stream a few months back, like, Jamstack is back.
+[04:48:26] [1] Like, this is what people envisioned, like, the modern Jamstack would be. Like, this is it.
+[04:48:33] [1] I'm very excited. It's never been simpler to actually, like, live out that promise of this, like, partially dynamic static stuff.
+[04:48:45] [1] It just— it's
+[04:48:48] [1] — this, like, React had a much harder job coming over this way because they're starting way on the right-hand side.
+[04:48:55] [1] This just dominates the left to the point that it's just like, I don't even care anymore.
+[04:48:59] [1] It's like, I'm going to use Astro for, like, all the sites, all that stuff. And if I'm going to do dynamic, I'm going to do Solid Start.
+[04:49:08] [1] And I really have almost zero care for
+[04:49:12] [1] Next. Even TanStack Start, if I really cared to be in React. Like, those two options.
+[04:49:17] [1] The only place— yeah, I'm actually really having a hard time figuring where— yeah, no.
+[04:49:24] [1] It just— this is great.
+[04:49:29] [1] Yeah. As I said, I don't even know all these other features. I don't build
+[04:49:35] [1] fancy content sites. But mechanically, all the pieces are there, which is really exciting.
+[04:49:42] [1] All right.
+[04:49:47] [1] We're going to talk about that in a minute. Yeah, well, let's switch over to Solid and get caught up on that or bookmarks.
+[04:49:56] [1] Yeah, let's do bookmarks first. We talked about Vine.
+[04:50:03] [1] I was very annoyed today when Google searched and seen an AI summary claiming that 95% of Vue apps using Vue 2 when in reality Vue 3 usage is now over two-thirds of the total weekly downloads.
+[04:50:12] [1] Check the source. It's from a very poorly written
+[04:50:16] [1] — sorry, this is so funny. A very poorly written React versus Vue framework comparison content marketing article made by some random agency, no source for the data, and very well might have been AI generated itself.
+[04:50:28] [1] I almost retweeted this one because, like, the AI inception going on right now is just so crazy.
+[04:50:34] [1] Like, I know, like, five years back or so, there was a bunch of articles that you're like, were these created by AI?
+[04:50:41] [1] They're just written so poorly. Maybe not five years. Like, let's say 21, 20— yeah, around 21.
+[04:50:47] [1] So, like, three years ago. And now we're getting, like, better AI content. But it's funny that those garbage articles are fueling into that better AI content.
+[04:50:57] [1] Like, AI, in a sense, is it always out of date? Because it takes time for things to get popular.
+[04:51:06] [1] And then by the time those things get popular, like, they won't get popular if attention is diverted away from them.
+[04:51:14] [1] It's like this terrible self-fulfilling prophecy. You know, it, like, keeps the
+[04:51:21] [1] — yeah, it keeps the— yeah, I don't know. I don't know. This is— we'll see how this works, but I can understand Evan's frustration.
+[04:51:27] [1] This is kind of funny.
+[04:51:36] [1] It literally got so bad. It's just— like, isn't it— like, it's so hard when you're in the situation where you're like.
+[04:51:42] [1] Move forward. Like, think about it. This is like the do you take the jump question.
+[04:51:47] [1] If someone tells you that no one has moved to Vue 3, then you'll be less incentivized to move to Vue 3, right?
+[04:51:54] [1] Now, even if most people have moved to Vue 3, if you're getting told that, it might still delay it.
+[04:52:00] [1] Like, there's this cascading effect of the proper mentality. This is why I started getting really annoyed about the ecosystem argument with Solid.
+[04:52:07] [1] Like, yes, we obviously have less libraries, but I was getting to a point where, like, I was hearing that argument echo chambered every day.
+[04:52:13] [1] And it was just like, do I have to just, like, copy this list and paste it in all these threads so that people, like— because they'll just repeat it, like, oh, because they'll do the lament.
+[04:52:22] [1] Like, oh, I love Solid, but the ecosystem. You know? And it's like,
+[04:52:29] [1] you know what I mean? Like, yeah, it's a game. And I think AI is like the ultimate echo chamber.
+[04:52:36] [1] So it's kind of funny.
+[04:52:42] [1] Yeah, I know. It's— yeah, yeah. Yeah, what he's talking about is, like, Gemini now highlights.
+[04:52:48] [1] Like, when you do a Google search, you'll see the Gemini results.
+[04:52:53] [1] Anyway.
+[04:52:57] [1] What else is here? Oh, yeah.
+[04:53:02] [1] This is funny. I thought I had a good result. Thing. He was complaining that this was longer than th
+[04:53:11] [1] is. And if you've ever seen Solid JS code,
+[04:53:16] [1] I do a lot of
+[04:53:19] [1] this because I chain with a single constant. And actually, your minifier will chain off a multiple constant too automatically.
+[04:53:26] [1] So technically, if you have, like, five functions that go constVue equals constVue, it will actually slightly be shorter than five of these.
+[04:53:35] [1] So, I mean, I don't think anyone should be worrying about it, but it is kind of funny.
+[04:53:44] [1] But then when you get to— what do you call it? When you get to
+[04:53:48] [1] gzipping, I actually think that the function keyword repetition actually might swing it back the other way.
+[04:53:54] [1] But I
+[04:53:57] [1] don't know if this is worth talking about either way. I guess the question is, is it less or more typing?
+[04:54:06] [1] And I think mostly TypeScript is the reason people do this because they like being able to go, like, colon type rather than typing the props or— yeah, anyways.
+[04:54:19] [1] Yeah, I bookmarked this one. I know React 19 is out now, but the RC, they— for, like, we fixed the suspense gate, you know?
+[04:54:28] [1] So very, very cool work they did. It's always interesting when you hear more on the stories about this stuff because usually it involves, like, thinking outside the box.
+[04:54:40] [1] You know what I mean? Like, clever solutions, like, slightly change the expectation.
+[04:54:45] [1] Usually, there's constraints that don't let you just fix it. You try and fix it for everyone, but it's not always possible.
+[04:54:50] [1] So there's probably something interesting on how they came to that solution, but I'm not into the internal story.
+[04:54:58] [1] I don't know if the GitHub issue actually says anything.
+[04:55:01] [1] Pre-warming.
+[04:55:05] [1] Hmm. I mean, this is the same reason why we eagerly schedule CreateAsync calls.
+[04:55:08] [1] So yeah, I mean, it makes a lot of sense.
+[04:55:14] [1] Oh, React 19 is out, so that's good. Okay, done. Caught up on bookmarks.
+[04:55:21] [1] Let's talk about Hackathon then for a little bit here. We've had a lot of winners because we did a lot of
+[04:55:30] [1] these challenges that have been very exciting because
+[04:55:36] [1] it kept things going throughout the whole thing.
+[04:55:40] [1] We got a whole bunch of new components
+[04:55:44] [1] into— what do you call it?
+[04:55:48] [1] I think, yeah, this was the first one, right?
+[04:55:52] [1] Into Cobalt especially. What do we got here? And we got new user guides that are great, like ORJDEV, HSLM, color area, color slider, color channel, and color swatch for Cobalt.
+[04:56:06] [1] So they won, like, thousand-dollar prizes for these contributions. What was another one?
+[04:56:15] [1] Menglin for UI library trends. They contributed combo box to Cobalt.
+[04:56:21] [1] What else did we get? There's been a lot of these.
+[04:56:26] [1] Local first competition,
+[04:56:30] [1] which was— what did we get here? HSLM library challenge. Rating group got in there twice.
+[04:56:37] [1] Paul Roarke. Local first challenge. SolidWire. I don't know if you saw this. This was actually kind of cool.
+[04:56:47] [1] But yeah, it was a—
+[04:56:51] [1] it had it all working with suspense and async. Yeah.
+[04:56:57] [1] Create async.
+[04:57:00] [1] Yeah, store use. And then basically taps into the sync engine in the local DB. But yeah,
+[04:57:08] [1] as I said, I wasn't very involved with the judging, but it was— or the voting.
+[04:57:16] [1] Things I occasionally got asked on which challenges would be interesting, but I'm just— like, look at
+[04:57:22] [1] this README is better than the README I wrote when I first released Solid. Like, people put work in and they created good things, like, quality things.
+[04:57:33] [1] I'm pretty stoked on the activity on this stuff. Yeah. And again, I love seeing Cobalt just get more and more components.
+[04:57:50] [1] Just killing it on Cobalt. HSLM got, like, $3,000, it looks like.
+[04:57:56] [1] Winning animation library. Ooh. This is something that I've been wanting to see.
+[04:58:02] [1] Highly reactive signals library for Solid. Signal-based primitives, render agnostic, 3DS scenes.
+[04:58:09] [1] Very cool. And there's a doc site too. See, people
+[04:58:13] [1] — yeah.
+[04:58:16] [1] I love this. Like,
+[04:58:21] [1] any render that Solid can control. 3DS. So yeah, custom renders. DOM. Yeah. This is cool.
+[04:58:27] [1] This is the kind of fundamental pieces. I know there's other animation stuff, but just having the choice out there, this is definitely added to my list now.
+[04:58:35] [1] Very, very cool.
+[04:58:44] [1] AI SDK Solid. There was something that I saw that was, like, looked really, really impressive.
+[04:58:52] [1] I don't know if I reposted it because I was worried about being biased from the Solid account, but there's this native script thing with— and I was like, oh, crap.
+[04:59:03] [1] I didn't realize this was an entry in the thing. Yeah, here. Solid Desktop. Did you guys see this?
+[04:59:08] [1] I might have shown this last stream, but it was, like, it looked so cool
+[04:59:15] [1] doing native script iOS development with Solid and Reactivity. Honestly.
+[04:59:27] [1] Single sign-on. Attila has been making some great auth videos.
+[04:59:32] [1] Let's see here. Yeah, and then finally,
+[04:59:36] [1] the Grammy prizes. The best Solid app went to Giphium by CM Griffin. And then this ecosystem tool, the Solid Socket,
+[04:59:45] [1] which we covered today in stream with Dev. It was completely by votes. There was no, like, judging community.
+[04:59:52] [1] It was completely by votes. And
+[04:59:56] [1] I think David might have written it, but David.

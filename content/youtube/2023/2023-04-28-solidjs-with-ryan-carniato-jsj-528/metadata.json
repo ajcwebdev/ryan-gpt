@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "SolidJS with Ryan Carniato - JSJ 528",
+    "duration": "53:36",
+    "author": "Top End Devs",
+    "url": "https://www.youtube.com/watch?v=hmbwjJAQeps",
+    "publishDate": "2023-04-28",
+    "thumbnail": "https://i.ytimg.com/vi/hmbwjJAQeps/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCABJEQ57MIn6X3TIHIebJUw",
+    "description": "SolidJS is a web development framework that focuses on using reactivity and carries forward several ideas from Knockout.js.\nhttps://javascriptjabber.com/13\n\nRyan Carniato, the creator of SolidJS breaks down the history and ideas behind SolidJS and compares it to React and other frameworks."
+  }
+}

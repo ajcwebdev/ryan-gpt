@@ -1,0 +1,84 @@
+{
+  "step1": {
+    "title": "10 Years Of SolidJS: Saying No To React | Ryan Carniato | PodRocket",
+    "duration": "54:45",
+    "author": "LogRocket",
+    "url": "https://www.youtube.com/watch?v=ti8XnfFCPcs",
+    "publishDate": "2025-06-12",
+    "thumbnail": "https://i.ytimg.com/vi/ti8XnfFCPcs/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCktI_HQAkbr-tJbdWnQ_osw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 71,
+        "title": "Intro"
+      },
+      {
+        "startTime": 71,
+        "endTime": 173,
+        "title": "Reflecting on a Decade of Solid JS"
+      },
+      {
+        "startTime": 173,
+        "endTime": 364,
+        "title": "The Evolution of Web Development Frameworks"
+      },
+      {
+        "startTime": 364,
+        "endTime": 516,
+        "title": "The Rise of React and Its Impact"
+      },
+      {
+        "startTime": 516,
+        "endTime": 724,
+        "title": "Solid JS: Motivation and Early Development"
+      },
+      {
+        "startTime": 724,
+        "endTime": 1255,
+        "title": "Challenges and Innovations in Solid JS"
+      },
+      {
+        "startTime": 1255,
+        "endTime": 1591,
+        "title": "Performance Benchmarks and Open Sourcing Solid JS"
+      },
+      {
+        "startTime": 1591,
+        "endTime": 1641,
+        "title": "Understanding Retain Mode vs Immediate Mode"
+      },
+      {
+        "startTime": 1641,
+        "endTime": 1747,
+        "title": "React's Ecosystem and State Management"
+      },
+      {
+        "startTime": 1747,
+        "endTime": 1860,
+        "title": "The Introduction of Hooks in React"
+      },
+      {
+        "startTime": 1860,
+        "endTime": 2080,
+        "title": "The Evolution of Reactivity in Frameworks"
+      },
+      {
+        "startTime": 2080,
+        "endTime": 2520,
+        "title": "The Future of Web Development and AI"
+      },
+      {
+        "startTime": 2520,
+        "endTime": 2914,
+        "title": "Lightning Round and Wrap-Up"
+      },
+      {
+        "startTime": 2914,
+        "endTime": 3285,
+        "title": "Challenges in Open Source Maintenance"
+      }
+    ],
+    "description": "Today on PodRocket, we have Ryan Carniato (@ryansolid) creator of SolidJS, here to talk about a decade of SolidJS.\n\nIn this episode, Ryan talks about\n\n* The history of SolidJS\n* Its success on the heels of React Hooks\n* How signals may be the web primitive we really need\n\n---\nLinks\nYouTube: https://www.youtube.com/@ryansolid\nX: https://x.com/ryancarniato\nDev.to: https://dev.to/ryansolid\nSolidJS Website: https://www.solidjs.com\n\nResources\nA Decade of SolidJS: https://dev.to/this-is-learning/a-decade-of-solidjs-32f4\n---\nChapters\n00:00 Intro\n01:11 Reflecting on a Decade of Solid JS\n02:53 The Evolution of Web Development Frameworks\n06:04 The Rise of React and Its Impact\n08:36 Solid JS: Motivation and Early Development\n12:04 Challenges and Innovations in Solid JS\n20:55 Performance Benchmarks and Open Sourcing Solid JS\n26:31 Understanding Retain Mode vs Immediate Mode\n27:21 React's Ecosystem and State Management\n29:07 The Introduction of Hooks in React\n31:00 The Evolution of Reactivity in Frameworks\n34:40 The Future of Web Development and AI\n42:00 Lightning Round and Wrap-Up\n48:34 Challenges in Open Source Maintenance\n\n---\n🎙 Listen to PodRocket\n🎧 Spotify: https://open.spotify.com/show/6oFuKu89C9X1wQ7bT0QEM2\n🎧 Apple Podcasts: https://podcasts.apple.com/us/podcast/podrocket-a-web-development-podcast-from-logrocket/id1539945251\n\n📺 Subscribe on YouTube: @LogRocket\n\nFollow on Socials\n➡️ Noel Minchow, Host: https://www.linkedin.com/in/noel-minchow/\n➡️ Emily Kochanek, Producer: https://www.linkedin.com/in/emily-kochanek-11582750/\n➡️ Elizabeth Becz, Production Assistant: https://www.linkedin.com/in/elizabethb3cz/\n➡️ LogRocket: https://www.linkedin.com/company/logrocket/\n\n---\nWhat does LogRocket do?\nLogRocket provides AI-first session replay and analytics that surface the UX and technical issues impacting user experiences. Start understanding where your users are struggling by trying it for free at LogRocket.com."
+  }
+}

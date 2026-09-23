@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Server Functions & Server Actions",
+      "slug": "2023-12-02-server-functions-server-actions",
+      "duration": "4:57:12",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=veKm9MDVVg8",
+      "publishDate": "2023-12-02",
+      "thumbnail": "https://i.ytimg.com/vi/veKm9MDVVg8/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 450,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 450,
+          "endTime": 1020,
+          "title": "Remix & Why Routing is Important"
+        },
+        {
+          "startTime": 1020,
+          "endTime": 1590,
+          "title": "The History of Remote Procedure Calls"
+        },
+        {
+          "startTime": 1590,
+          "endTime": 2310,
+          "title": "Solid's Road to Modern Server Actions"
+        },
+        {
+          "startTime": 2310,
+          "endTime": 3030,
+          "title": "Q&A: Versioning? Increased Server Computation?"
+        },
+        {
+          "startTime": 3030,
+          "endTime": 3540,
+          "title": "Server Actions vs. Server Functions"
+        },
+        {
+          "startTime": 3540,
+          "endTime": 4380,
+          "title": "Compilation & Serializing Functions"
+        },
+        {
+          "startTime": 4380,
+          "endTime": 4980,
+          "title": "Co-Location & Tree-Shaking"
+        },
+        {
+          "startTime": 4980,
+          "endTime": 5910,
+          "title": "Troubleshooting Fun"
+        },
+        {
+          "startTime": 5910,
+          "endTime": 6585,
+          "title": "The Difference Two Characters Can Make"
+        },
+        {
+          "startTime": 6585,
+          "endTime": 7200,
+          "title": "Demo: Enhanced Serialization from Universal JS"
+        },
+        {
+          "startTime": 7200,
+          "endTime": 7515,
+          "title": "Demo: Seroval's Powerful Serialization Primitives"
+        },
+        {
+          "startTime": 7515,
+          "endTime": 8400,
+          "title": "Demo: Distinguishing Server Actions"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9300,
+          "title": "Demo: withAuth"
+        },
+        {
+          "startTime": 9300,
+          "endTime": 9600,
+          "title": "Demo: TodoMVC"
+        },
+        {
+          "startTime": 9600,
+          "endTime": 9990,
+          "title": "Q&A: _server? Form Fields? What Ships? Resumable?"
+        },
+        {
+          "startTime": 9990,
+          "endTime": 10560,
+          "title": "Code: Closer Look at Server Functions"
+        },
+        {
+          "startTime": 10560,
+          "endTime": 11160,
+          "title": "Code: Closer Look at Server Actions"
+        },
+        {
+          "startTime": 11160,
+          "endTime": 12030,
+          "title": "Q&A: Right Level of Abstraction? Svelte & Solid?"
+        },
+        {
+          "startTime": 12030,
+          "endTime": 12330,
+          "title": "Conclusion: Slimming Down SolidStart"
+        },
+        {
+          "startTime": 12330,
+          "endTime": 12795,
+          "title": "Svelte Proxied State API: Reading Through the PR"
+        },
+        {
+          "startTime": 12795,
+          "endTime": 13230,
+          "title": "Svelte Proxies: The Performance Cost"
+        },
+        {
+          "startTime": 13230,
+          "endTime": 13995,
+          "title": "Svelte Proxies: A Sacrifice for Simplicity"
+        },
+        {
+          "startTime": 13995,
+          "endTime": 14295,
+          "title": "This Week in JavaScript: Svelte Class API"
+        },
+        {
+          "startTime": 14295,
+          "endTime": 14640,
+          "title": "TWiJ: State of JS & Non-Blocking Suspense"
+        },
+        {
+          "startTime": 14640,
+          "endTime": 15330,
+          "title": "TWiJ: Lit as a Framework"
+        },
+        {
+          "startTime": 15330,
+          "endTime": 15735,
+          "title": "TWiJ: Mitosis vs. Web Components"
+        },
+        {
+          "startTime": 15735,
+          "endTime": 16110,
+          "title": "TWiJ: OOP Reaction Videos"
+        },
+        {
+          "startTime": 16110,
+          "endTime": 16575,
+          "title": "TWiJ: Guillermo Rauch - Bundleless Doesn't Scale"
+        },
+        {
+          "startTime": 16575,
+          "endTime": 17340,
+          "title": "TWiJ: Guillermo Rauch - Node is the Standard"
+        },
+        {
+          "startTime": 17340,
+          "endTime": 17831,
+          "title": "TWiJ: Evan You's Response & Conclusion"
+        }
+      ],
+      "description": "What's the big deal with Server Functions/Actions. Are they the same thing? What do they do? We will explore the topic today and look at how these are shaping the future of fullstack applications.\n\n[0:00] Preamble\n[7:30] Remix & Why Routing is Important\n[17:00] The History of Remote Procedure Calls\n[26:30] Solid's Road to Modern Server Actions\n[38:30] Q&A: Versioning? Increased Server Computation?\n[50:30] Server Actions vs. Server Functions\n[59:00] Compilation & Serializing Functions\n[1:13:00] Co-Location & Tree-Shaking\n[1:23:00] Troubleshooting Fun\n[1:38:30] The Difference Two Characters Can Make\n[1:49:45] Demo: Enhanced Serialization from Universal JS\n[2:00:00] Demo: Seroval's Powerful Serialization Primitives\n[2:05:15] Demo: Distinguishing Server Actions\n[2:20:00] Demo: withAuth\n[2:35:00] Demo: TodoMVC\n[2:40:00] Q&A: _server? Form Fields? What Ships? Resumable?\n[2:46:30] Code: Closer Look at Server Functions\n[2:56:00] Code: Closer Look at Server Actions\n[3:06:00] Q&A: Right Level of Abstraction? Svelte & Solid?\n[3:20:30] Conclusion: Slimming Down SolidStart\n[3:25:30] Svelte Proxied State API: Reading Through the PR\n[3:33:15] Svelte Proxies: The Performance Cost\n[3:40:30] Svelte Proxies: A Sacrifice for Simplicity\n[3:53:15] This Week in JavaScript: Svelte Class API\n[3:58:15] TWiJ: State of JS & Non-Blocking Suspense\n[4:04:00] TWiJ: Lit as a Framework \n[4:15:30] TWiJ: Mitosis vs. Web Components\n[4:22:15] TWiJ: OOP Reaction Videos\n[4:28:30] TWiJ: Guillermo Rauch - Bundleless Doesn't Scale\n[4:36:15] TWiJ: Guillermo Rauch - Node is the Standard\n[4:49:00] TWiJ: Evan You's Response & Conclusion\n\nThank you @zombiefacesupreme for the time stamps."
+    }
+  }
+}

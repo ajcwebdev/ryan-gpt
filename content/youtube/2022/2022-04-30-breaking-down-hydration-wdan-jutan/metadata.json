@@ -1,0 +1,96 @@
+{
+  "title": "Breaking Down Hydration w/Dan Jutan",
+  "duration": "3:31:18",
+  "channel": "Ryan Carniato",
+  "description": "Want to know what Partial, Progressive, and Resumable means? Solid Core Documentor, Dan Jutan, joins me again as this time we get into the core concepts and approaches to JavaScript Frameworks' hardest problem, Hydration.\n\n[0:00] Introduction\n[5:01] This Week in JavaScript\n[46:33] Defining Hydration\n[55:20] The Duplication Problem\n[1:00:03] The Render Tree\n[1:10:04] Hydrating SPAs\n[1:24:55] Static Routes\n[1:33:30] 3 Axes of Hydration\n[1:41:36] Eager vs Progressive\n[1:46:27] Full vs Partial\n[2:10:35] Replayable vs Resumable\n[2:29:40] Combatting Serialization Cost\n[2:37:13] Component vs Fine-Grained\n[2:45:26] Frameworks vs VanillaJS\n[2:51:23] Performance Comparison\n[3:12:38] Summary/Conclusion\n\nBanner credits: ©️ Wreck-It Ralph characters owned by Disney",
+  "url": "https://www.youtube.com/watch?v=iR5T2HefqKk",
+  "publishDate": "2022-04-30",
+  "thumbnail": "https://i.ytimg.com/vi/iR5T2HefqKk/maxresdefault.jpg",
+  "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 301,
+      "title": "Introduction"
+    },
+    {
+      "startTime": 301,
+      "endTime": 2793,
+      "title": "This Week in JavaScript"
+    },
+    {
+      "startTime": 2793,
+      "endTime": 3320,
+      "title": "Defining Hydration"
+    },
+    {
+      "startTime": 3320,
+      "endTime": 3603,
+      "title": "The Duplication Problem"
+    },
+    {
+      "startTime": 3603,
+      "endTime": 4204,
+      "title": "The Render Tree"
+    },
+    {
+      "startTime": 4204,
+      "endTime": 5095,
+      "title": "Hydrating SPAs"
+    },
+    {
+      "startTime": 5095,
+      "endTime": 5610,
+      "title": "Static Routes"
+    },
+    {
+      "startTime": 5610,
+      "endTime": 6096,
+      "title": "3 Axes of Hydration"
+    },
+    {
+      "startTime": 6096,
+      "endTime": 6387,
+      "title": "Eager vs Progressive"
+    },
+    {
+      "startTime": 6387,
+      "endTime": 7835,
+      "title": "Full vs Partial"
+    },
+    {
+      "startTime": 7835,
+      "endTime": 8980,
+      "title": "Replayable vs Resumable"
+    },
+    {
+      "startTime": 8980,
+      "endTime": 9433,
+      "title": "Combatting Serialization Cost"
+    },
+    {
+      "startTime": 9433,
+      "endTime": 9926,
+      "title": "Component vs Fine-Grained"
+    },
+    {
+      "startTime": 9926,
+      "endTime": 10283,
+      "title": "Frameworks vs VanillaJS"
+    },
+    {
+      "startTime": 10283,
+      "endTime": 11558,
+      "title": "Performance Comparison"
+    },
+    {
+      "startTime": 11558,
+      "endTime": 12678,
+      "title": "Summary/Conclusion"
+    }
+  ],
+  "slug": "2022-04-30-breaking-down-hydration-wdan-jutan",
+  "audioFileName": "2022-04-30-breaking-down-hydration-wdan-jutan.m4a",
+  "audioFileSize": 158498095,
+  "durationSeconds": 12678
+}

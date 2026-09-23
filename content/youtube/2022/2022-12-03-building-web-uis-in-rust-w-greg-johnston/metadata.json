@@ -1,0 +1,108 @@
+{
+  "step1": {
+    "title": "Building Web UI's in Rust w/ Greg Johnston",
+    "duration": "5:03:22",
+    "channel": "Ryan Carniato",
+    "description": "Today we are going to learn about building Web UIs in Rust. I've been watching the evolution of WASM DOM performance and in the past few months there has been a bit of a breakthrough. So who better to guide us on that than Greg Johnston, the creator of Leptos.\r\n\r\nLeptos is a SolidJS-inspired fine-grained reactive renderer built in Rust, that believe it or not is holding its own in benchmarks and has closed the gap between the fastest JavaScript frameworks and Rust frameworks in terms of DOM manipulation.\n\n[0:00] Introduction\n[9:33] Welcome Greg\n[21:52] What is WASM?\n[34:43] Introducing Rust\n[1:15:32] Rust for Web UI\n[1:21:47] Building Elm in Rust \n[1:30:49] Enter Yew\n[1:46:24] Fine-Grained Rust\n[1:55:48] Tailwind in Rust?\n[1:56:38] Data Serialization and Resumability\n[2:09:41] The State of Code Splitting\n[2:12:13] SolidStart in Leptos?!\n[2:16:43] Progressive Enhanced WASM\n[2:27:17] Q&A w/ Greg\n[2:30:50] WASM in the JS Framework Benchmark\n[2:47:05] Talking w/ chat\n[2:57:14] This Week in JavaScript\n[4:22:36] More chat",
+    "url": "https://www.youtube.com/watch?v=zgY7ql1xwW4",
+    "publishDate": "2022-12-03",
+    "thumbnail": "https://i.ytimg.com/vi/zgY7ql1xwW4/hqdefault.jpg",
+    "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 573,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 573,
+        "endTime": 1312,
+        "title": "Welcome Greg"
+      },
+      {
+        "startTime": 1312,
+        "endTime": 2083,
+        "title": "What is WASM?"
+      },
+      {
+        "startTime": 2083,
+        "endTime": 4532,
+        "title": "Introducing Rust"
+      },
+      {
+        "startTime": 4532,
+        "endTime": 4907,
+        "title": "Rust for Web UI"
+      },
+      {
+        "startTime": 4907,
+        "endTime": 5449,
+        "title": "Building Elm in Rust"
+      },
+      {
+        "startTime": 5449,
+        "endTime": 6384,
+        "title": "Enter Yew"
+      },
+      {
+        "startTime": 6384,
+        "endTime": 6948,
+        "title": "Fine-Grained Rust"
+      },
+      {
+        "startTime": 6948,
+        "endTime": 6998,
+        "title": "Tailwind in Rust?"
+      },
+      {
+        "startTime": 6998,
+        "endTime": 7781,
+        "title": "Data Serialization and Resumability"
+      },
+      {
+        "startTime": 7781,
+        "endTime": 7933,
+        "title": "The State of Code Splitting"
+      },
+      {
+        "startTime": 7933,
+        "endTime": 8203,
+        "title": "SolidStart in Leptos?!"
+      },
+      {
+        "startTime": 8203,
+        "endTime": 8837,
+        "title": "Progressive Enhanced WASM"
+      },
+      {
+        "startTime": 8837,
+        "endTime": 9050,
+        "title": "Q&A w/ Greg"
+      },
+      {
+        "startTime": 9050,
+        "endTime": 10025,
+        "title": "WASM in the JS Framework Benchmark"
+      },
+      {
+        "startTime": 10025,
+        "endTime": 10634,
+        "title": "Talking w/ chat"
+      },
+      {
+        "startTime": 10634,
+        "endTime": 15756,
+        "title": "This Week in JavaScript"
+      },
+      {
+        "startTime": 15756,
+        "endTime": 18202,
+        "title": "More chat"
+      }
+    ],
+    "slug": "2022-12-03-building-web-uis-in-rust-w-greg-johnston",
+    "audioFileName": "2022-12-03-building-web-uis-in-rust-w-greg-johnston.m4a",
+    "audioFileSize": 226836418,
+    "durationSeconds": 18202
+  }
+}

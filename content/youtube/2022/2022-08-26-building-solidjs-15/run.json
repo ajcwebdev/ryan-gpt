@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Building SolidJS 1.5",
+      "slug": "2022-08-26-building-solidjs-15",
+      "duration": "3:57:34",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=jHDzGYHY2ew",
+      "publishDate": "2022-08-26",
+      "thumbnail": "https://i.ytimg.com/vi/jHDzGYHY2ew/sddefault.jpg?v=6306bb41",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 374,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 374,
+          "endTime": 897,
+          "title": "Motivation for Solid v1.5"
+        },
+        {
+          "startTime": 897,
+          "endTime": 1598,
+          "title": "The things we didn't do"
+        },
+        {
+          "startTime": 1598,
+          "endTime": 1824,
+          "title": "Improving Quality of Life"
+        },
+        {
+          "startTime": 1824,
+          "endTime": 2705,
+          "title": "TypeScript & Keyed Control Flow"
+        },
+        {
+          "startTime": 2705,
+          "endTime": 4866,
+          "title": "The Good Batch"
+        },
+        {
+          "startTime": 4866,
+          "endTime": 6576,
+          "title": "Push/Pull Reactivity Explained"
+        },
+        {
+          "startTime": 6576,
+          "endTime": 7510,
+          "title": "Why Memo's are Important"
+        },
+        {
+          "startTime": 7510,
+          "endTime": 8649,
+          "title": "Resource Improvements"
+        },
+        {
+          "startTime": 8649,
+          "endTime": 10309,
+          "title": "Consolidating SSR"
+        },
+        {
+          "startTime": 10309,
+          "endTime": 13917,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 13917,
+          "endTime": 14253,
+          "title": "Wrap up"
+        }
+      ],
+      "description": "Solid 1.5 is just around the corner. While it adds some much-wanted new features, it sets the stage for what comes next. Discussions for 2.0 have picked up, real needs from SolidStart presented themselves, and we are starting to see much wider adoption. In this stream, I will go into the thinking and implementation that went into building this milestone release.\n\n[0:00] Preamble\n[6:14] Motivation for Solid v1.5\n[14:57] The things we didn't do\n[26:38] Improving Quality of Life\n[30:24] TypeScript & Keyed Control Flow\n[45:05] The Good Batch\n[1:21:06] Push/Pull Reactivity Explained\n[1:49:36] Why Memo's are Important\n[2:05:10] Resource Improvements\n[2:24:09] Consolidating SSR\n[2:51:49] This Week in JavaScript\n[3:51:57] Wrap up"
+    }
+  }
+}

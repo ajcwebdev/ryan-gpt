@@ -1,0 +1,297 @@
+[02:30:00] [1] People. Like, every time we— this is why when we— when you write code like the example in here, um, this has two different effects.
+[02:30:08] [1] But if you were to combine it— let me see, HackMD, I think it was something along the lines of, uh, do do do
+[02:30:19] [1] do do do do do do do— um,
+[02:30:22] [1] no, no, no. Older God, how long ago did I write about this stuff? Derivations as first principles?
+[02:30:29] [1] That sounds about right.
+[02:30:31] [1] Five months ago?
+[02:30:32] [2] Yep.
+[02:30:33] [1] Jeez, what— how long have I been working on this stuff?
+[02:30:35] [2] It's been a while.
+[02:30:36] [1] Okay, well, yeah. Um, this is the— this is the projection version of that code, right?
+[02:30:42] [1] Where you do the timestamp, you ask if it's updated. If it has, you go to the one branch and you reconcile.
+[02:30:48] [1] You do the diff. Or you go the other side where you do it one by one. Um, you have to understand—
+[02:30:53] [2] Can you bump up the font size?
+[02:30:55] [1] Yeah, let's do that again.
+[02:30:56] [2] So we can check.
+[02:30:57] [1] Yeah. Yeah. Let's— let's look at this again. Um, basically, you have to understand here that, like, this is very clear it's a diff.
+[02:31:06] [1] Reconcile. Like, 100% doing a diff. If you go down this path, you are doing a diff.
+[02:31:10] [1] Good. But on this side, you have to— this is the key to the whole thing. You aren't doing a diff exactly.
+[02:31:19] [1] You're optimizing away a diff by knowing that you've already processed some of this list.
+[02:31:26] [1] Right? So every time— we use a timestamp. You could say, like, "done processing.
+[02:31:30] [1] " You could say, like, "hey, mutation." Well, as soon as you've been processed, you know, done.
+[02:31:35] [1] You know, like, there's other mechanisms for— for trying to make that decision point.
+[02:31:39] [1] But in a sense, these are both sort of diffs. You expect that whether you, you know, got the first mutation and then the second mutation, or you got both mutations at the same time, that you'd get the same results.
+[02:31:54] [1] And if you look at the actual function we use for— inside of, uh, the Strello demos to do it, we do things like call push.
+[02:32:03] [1] You know, like— like when we get a new one, we push it on. It doesn't have to be immutable, but, like, we have to be careful that push only gets called in a specific
+[02:32:15] [1] thing. And to be fair, this is no different than create effect, to be fair, or create memo.
+[02:32:19] [1] We generally try and prevent things from over-executing. But when you think— consider things like transactions and forking stuff, it's going to be possible.
+[02:32:28] [1] Because I was talking to Milo about solving this, and he's like, "Oh, Ryan, it's really easy.
+[02:32:33] [1] You just run it twice."
+[02:32:37] [1] React strict mode, right?
+[02:32:39] [2] Right.
+[02:32:41] [1] I'm like, that's like—
+[02:32:44] [1] do you want people to hate you, you know? Um,
+[02:32:51] [1] yeah. Yeah.
+[02:32:52] [2] I mean, you're turning more— Solid is turning, uh, slightly more into React with 2.
+[02:32:57] [2] 0 anyway, so might as well.
+[02:33:02] [1] Yeah. Yeah. I mean, it was just— it was just one of those kind of funny comments where, well, 2.
+[02:33:08] [1] 0 does have that aspect because the effects pull all the way down
+[02:33:14] [1] when it comes to a scheduling thing. Like, anyway. But I'll talk more about that here.
+[02:33:18] [1] I still got you here. I wanted to talk about this one while you're here because it's very close to the area that you've been working on.
+[02:33:23] [2] Yeah.
+[02:33:24] [1] Um, but yeah. Imagine splitting effects into multiple effects at compile time. If no other errors from the scope would you use?
+[02:33:30] [1] The huge problem is getting pretty confused fast and you can't do it. Yeah, and it's kind of interesting because on one hand you want to split them, but then you increase the creation cost.
+[02:33:38] [1] Like, I'm pretty sure Svelte and the similar stuff to Solid where some level of effects are combined because if you make too many effects, it starts adding up.
+[02:33:49] [1] Um, I could be wrong. Um, you guys can correct me on that. Um, so, like, I was playing around.
+[02:33:56] [1] That's what this whole "has updated, updated lessons" run. I've actually implemented this in the 2.
+[02:34:01] [1] 0 logic. I told Milo, and he looked at me very horrified. Like, this was like a property that, like, was unsafe.
+[02:34:08] [1] Um, he's the academic one. I just make things work. Um, and— and— but, like, it's— like, this is a trick because you could— you could literally go this— this equation could be, instead of checking the value, you could actu
+[02:34:23] [1] ally skip the whole value and just go like, "Hey, has B actually updated?" Like, not even has the value changed.
+[02:34:29] [1] That's an easy one. But actually, you could— you could probably avoid even executing B.
+[02:34:35] [1] Right? You know, this solves Fabio's, like, he gets very upset that the random numbers— because when you group effects and you have, like, math.
+[02:34:43] [1] random in the middle of the effect somewhere, it's possible because every time it reruns, it'll— even if the specific thing didn't change, math.
+[02:34:50] [1] random will change. And I'm like, look, we do our best, but, like, there is some amount of, like, extra stuff going on.
+[02:34:57] [1] Like, like, we— we're not going to— like, everything isn't necessarily 100% to fine grain.
+[02:35:02] [1] It's what we can guarantee to you is that we're not going to recreate a bunch of extra DOM elements and that we're not going to do stuff.
+[02:35:08] [1] But, like, functions may run, you know, more than they have to. You know, it's like there— there's, like, that small portion of the time where it's not fine grain for a different reason, but you're not going to observe it
+[02:35:20] [1] except for if you're, like, putting— like, counting the number of times this function ran.
+[02:35:26] [1] Um, and not even a function—
+[02:35:28] [2] That's like React compiler.
+[02:35:29] [1] Yeah. Yeah. Exactly. Right? I need the React compiler to hoist out his math.random, you know?
+[02:35:37] [1] But what I'm getting at is, like, it's— it's at the most granular of levels. Like, the— the final bindings.
+[02:35:43] [1] It's not in your code. Like, it— it's in— it's only in the JSX that this happens.
+[02:35:48] [1] Um, but this would solve— this could solve the— the— that problem.
+[02:35:54] [2] Yeah. But yeah, it— it was a very similar observation that I made, which was there's always some sort of a diff involved.
+[02:36:01] [2] Either you reconcile the entire state of the board, or you have something keep— that keeps track of what actions you have already applied so that you— you diff and you figure out, okay, these are the only ones that need
+[02:36:14] [2] to be applied. Or, like, you have something like "updated since last run," which is like, okay, has this value updated since last time I saw it?
+[02:36:23] [1] Yeah. It's— it's— the way I'm actually doing it isn't actually the value. I'm using clock cycles inside the internal of the Reactive system.
+[02:36:31] [2] Yeah.
+[02:36:31] [1] So it actually is, like, it— it can do it without checking the value or running, which sort of answers your question here.
+[02:36:38] [1] Yeah. Um, and yeah, uh, Paul confirmed, yeah, effect, uh, Svelte does the same basic thing that Solid does in terms of template grouping and stuff.
+[02:36:47] [1] Yeah.
+[02:36:48] [2] Yeah.
+[02:36:48] [1] So.
+[02:36:48] [2] Yeah. And the point is that in— in, like, that the sort of a pull-based system, that's really the best you can do.
+[02:36:55] [2] Like, you have to check against something. But with push-based, you kind of— you, uh, you get to kind of circumvent that because you have a very specific instance where everything updates and you have a very specific re
+[02:37:07] [2] ason for what needs to be updated. You do need to check for, like— like in the— in the create note, uh, update, there is a check, like, has this node already been created?
+[02:37:17] [2] So you do have to kind of, like, some maybe, like, you want to call it idempotency checks.
+[02:37:22] [2] Um, but other than that, you— event happens, you mutate, and that's it.
+[02:37:26] [1] Yeah.
+[02:37:27] [2] Which is really convenient for stores.
+[02:37:30] [1] Yeah. I mean, it's— it's got to be on the right portion of the— of the code path to make work well.
+[02:37:36] [1] Because the—
+[02:37:38] [2] Yeah.
+[02:37:38] [1] RX does classically have this problem. The reason that Angular people, like, jumped on signals, it felt like— not the true story.
+[02:37:44] [1] We already did that on a previous stream.
+[02:37:46] [2] Yeah.
+[02:37:46] [1] Talking with, uh, Pavel and, you know, Alex, where it was a long journey to get there.
+[02:37:51] [1] But, like, from their community perspective, the reason they're just like, "Yes," is because they were using RX for so long on the get and fetch side, and they would have things fork and then remerge again and trigger tw
+[02:38:02] [1] ice.
+[02:38:02] [2] Yeah.
+[02:38:02] [1] Like, the— the— the loops and the cycles drove them absolutely nuts. But where
+[02:38:11] [1] RX fits really well is not on the get side. It's actually on the path from the— like, to the post.
+[02:38:17] [1] It's like from— from, like, the user action going back into the Reactive system is probably the most powerful place for— for events.
+[02:38:25] [1] I mean, there is transformations on the other side coming out, but the place that's, like, uniquely interesting is actually going back in.
+[02:38:31] [1] Um.
+[02:38:33] [2] Yeah. That's exactly what I'm trying to build here. Because, like, signals, they exist.
+[02:38:37] [2] They do a great job. Uh, I don't want, like, RXJS, like, with its own state primitives, behavior subjects taking over that.
+[02:38:46] [2] Um, but, like, what is one use case that we can— what are these, like, specific use cases that we can solve with events, knowing that we already have signals on the other side?
+[02:38:57] [2] Um.
+[02:38:58] [1] We— we really got to thank Ryan Florence, I think. Sorry. This whole Trello demo thing, like, not only spawned the whole create projection work and the whole mutables work.
+[02:39:11] [1] I mean, I had— it's funny. I have some notes from, like, two years ago in my HackMD that I'm just like, I feel like I only thought of this like a month— a couple months ago.
+[02:39:19] [1] And it's like, no, you've been talking about this for, like, three years, Ryan.
+[02:39:22] [1] Um, but that demo just, like, accelerated everything forward. Like, it's like used in all these examples and, like, talking about, uh, you know, this kind of situation, um, that bridges even with the WebSocket and the local
+[02:39:38] [1] -first stuff. This whole idea of, like, fine grained projected or derived data is a very interesting, um, thing.
+[02:39:47] [1] And I'm very happy for that demo because, um, without it, yeah, like, we already did single flights.
+[02:39:53] [1] Like, the single flight mutation was inspired by the React server component notes demo.
+[02:39:57] [1] This one, though, uh, really inspired this whole granular, like, zero— I don't know what to call it— zero work diffing or, like, mutation optimistic update approach, which, as I said, hasn't been matched really in any of
+[02:40:11] [1] the other frameworks. And we're— we haven't even just done that. We were actually— you've come up with different ways to represent the same space.
+[02:40:19] [1] It's like— it feels like it's a thing. So yeah, Ryan Florence, big heads up for making us, like, look at the problem and go,
+[02:40:27] [1] like, here's the problem. There is— there is something legit here. In React, you kind of just forget all of this and you literally just, like, kind of, like, you just write basically the first one.
+[02:40:39] [1] You just, like, you just, like, like, you don't write this. In React, like, you don't even have to do this.
+[02:40:44] [1] You— you basically just go, "Here, clone the notes, apply the mutations, and then stick it into my VDOM.
+[02:40:50] [1] " So in— in Solid.
+[02:40:53] [2] You can remove the untrack and the reconcile.
+[02:40:56] [1] Yeah, yeah. In Solid, basic— basically what you could do— Solid's version of it is a one-liner.
+[02:41:01] [1] You just say, "Reconcile." Like, React, the reconciling happens automatically in the JSX.
+[02:41:06] [1] Here, you have to call reconcile. You could just say, like, "Here, we did them separately.
+[02:41:10] [1] " It could be— could have reconciled the whole board. Doesn't matter. So here, we just call reconcile.
+[02:41:15] [1] So it's a one-liner. So to be fair, the Trello demos in React look like apply mutations into the JSX.
+[02:41:23] [1] In Solid, it's apply mutations, reconcile into the JSX. So, you know, it's a little bit nicer.
+[02:41:29] [1] But, um,
+[02:41:33] [1] we add this little bit of extra code here, and it completely changes the performance aspect.
+[02:41:40] [1] And maybe people don't care about that much, but it changes the performance and execution aspects in, like, a dramatic way, in my opinion.
+[02:41:47] [1] Like, obviously, um, um, it— no one's probably spamming this, but if this test— if the Strello demo was DB mod, you know, like Ryan Florence's original demo, the Solid version would be absolutely demolishing the React vers
+[02:42:02] [1] ion, um, in terms of amount of work getting done. So yeah, um,
+[02:42:09] [1] it's interesting. And this little bit of code is less than the incremental, uh, the incremental signia approach in React amount of code.
+[02:42:18] [1] Like, trying to— so yeah, I'm just glad this example exists. It's like— it's on my list now.
+[02:42:23] [1] Right? We have to do MVC. We have the JS Framework Benchmark, which is basically super to do MVC.
+[02:42:28] [1] We have Hacker News, and we have Strello demo. Um, so, like, they each show something different.
+[02:42:35] [1] Um, I think this one's officially on the list, um, so to speak. So very, very cool demo and big, big shout out to Ryan Florence for— for getting people to all build their own versions is quite a journey.
+[02:42:52] [1] And then you have a whole alternative reality where you try to use RXJS. I think we talked about this stuff earlier.
+[02:42:58] [1] All right.
+[02:42:59] [2] Yeah.
+[02:42:59] [1] Um, I don't know. I think we're pretty good on what I wanted to talk with you. Was there anything else you wanted to share?
+[02:43:04] [1] Or I'm also giving the audience another chance to ask you any outstanding questions.
+[02:43:13] [2] So I have— there is something that Dave and I have been cooking up, which I would love to get your thoughts on.
+[02:43:20] [1] Yeah.
+[02:43:20] [2] So it's— it's an idea mostly inspired by VConf. It's an, uh, like, a conference around signals, fine grain reactivity.
+[02:43:32] [1] Nice.
+[02:43:32] [2] And one day or two days of content from, like, community people, framework authors, implementers, people in companies who are using this.
+[02:43:42] [1] It's general enough to do it. And I love it. It's hilarious because you need it— you need the audience poll to be big enough to— to— to get enough communities in.
+[02:43:53] [1] But then it's like, how do you tie them all together? Because there's, like, JS Nation, right, where it's, like, everybody.
+[02:43:59] [1] But the only thing that's funny about it is it's, like, the not React comp.
+[02:44:04] [2] Yeah.
+[02:44:04] [1] Like, JS— like, JS Nation ends up being that way because it's, like, literally next door to, um, like, React Summit.
+[02:44:13] [1] But you're— so you're suggest— so it's like— because, like, who would— who would speak at signals?
+[02:44:19] [1] We would have— we have Svelte.
+[02:44:21] [2] Anyone that's not in— in React? I mean, I was thinking, like, even, like, sending, like, reaching out to the React compiler people and like, "Hey, it's— it's just about fine grain reactivity.
+[02:44:32] [2] Come talk about compiler."
+[02:44:33] [1] I mean, you know, you're right. Actually, fine grain reactivity. You know, it's fine.
+[02:44:36] [1] It's not actually not React. It's interesting. But yeah, the compiler would be fair game.
+[02:44:40] [1] You also have all the state library people, Legend State, MobX. Yeah. So yeah, I mean, it's an interesting thing.
+[02:44:46] [1] If you pull it together, that's pretty interesting.
+[02:44:49] [1] Will Terminal be there doing something weird?
+[02:44:53] [2] If you— if you want to, sure. I mean, it's an online— it's a virtual thing, so.
+[02:44:56] [1] Yeah.
+[02:44:57] [2] Probably not as exciting.
+[02:44:58] [1] Yeah. MobX, yeah. Yeah. Interesting. Yeah. Um, yeah. I— that's an interesting idea to put forth.
+[02:45:06] [1] Um, you know, got signals.
+[02:45:10] [2] Yeah.
+[02:45:11] [1] This is the first of me— first me hearing it. Um, so yeah.
+[02:45:16] [2] It's like a very fresh idea. Like, I started talking to Dave, like, maybe three, four, five days ago.
+[02:45:22] [2] Um, I actually had a call with, um, Patak. I forgot his real name, but, like, how he runs VConf and, like, get some ideas from him as well.
+[02:45:32] [2] But this is something that, uh, I'll try to keep cooking and see where it goes.
+[02:45:39] [1] Yeah. No, I mean, that's— that's definitely very exciting and interesting. There was— there was actually a question earlier in the chat.
+[02:45:45] [1] Someone was asking if you'd figured out how to spend your Solid's hack mone
+[02:45:51] [1] y.
+[02:45:51] [2] Yeah.
+[02:45:53] [2] Um.
+[02:45:55] [1] I'm glad somebody— yeah, somebody, I think it was Jay Larky, probably.
+[02:45:59] [2] Yeah. That was him.
+[02:46:04] [1] Mathias, yes.
+[02:46:05] [2] Yeah, Mathias. Thank you.
+[02:46:06] [1] Mathias or, yeah.
+[02:46:07] [2] Mathias. Sorry.
+[02:46:08] [1] Yeah. Yeah. Whichever way it is, I'm sorry.
+[02:46:10] [2] No, I haven't figured it out yet. It's probably just going to go back, uh, go to, um, like, repaying my education loan, even though it didn't come out of
+[02:46:19] [2] .
+[02:46:19] [1] I think that's a fair expense for anyone. Um, yeah. No. Uh, no, we're— we're good.
+[02:46:28] [1] Um,
+[02:46:30] [1] all right. Well, yeah, I— I'm excited about that. Um, beyond that, what did I want to— oh, yeah.
+[02:46:36] [1] Right. I had some other matters of business we've been talking about. Um, uh, your— your continued work with signals and, uh, server signals and stuff in the area of research has, um, been very enlightening and really p
+[02:46:52] [1] ushed the boundaries of what we've been doing here. So, um, uh, we do have a little bit of an announcement today.
+[02:46:58] [1] Uh, for people who don't know, um, Dev's joining the, uh, SolidJS core team. So, uh, a little bit of news.
+[02:47:04] [1] We'll get the website updated soon. Um, but yeah, continuing the work and research into new areas.
+[02:47:11] [1] I know we have a lot more researchers on our core team than maintainers, but, um,
+[02:47:17] [1] that's how you push the envelope forward to a certain degree. So yeah, very, very exciting.
+[02:47:24] [2] Thanks. I am very excited for this. I'm very happy that, uh, whatever research I was doing was considered valuable enough for this.
+[02:47:33] [1] No, you— you constantly are part of the conversation and pushing stuff forward, not just on the technical side, but in terms of even the DX and having communications, even, like, release stuff, you know, bugs, even cont
+[02:47:44] [1] ributions peripherally around Solid Start and whatnot. So, like, just, like, understanding, like, uh, where— where we're at in the ecosystem.
+[02:47:52] [1] And it's an important area. Um, so yeah, very, very excited to have you working with us more on a more official basis.
+[02:48:00] [1] Not that it changes very much beyond that.
+[02:48:05] [2] Thank you very much. I— I am, uh, not looking forward to— I do have to be maybe, I guess, a little less spicy on Twitter when I talk about React, though.
+[02:48:15] [1] Yeah. Yeah. I mean, I— that was the biggest way to hold— reason to hold off on— on— on making this maneuver because we wanted to
+[02:48:24] [1] love the tweets. Um, but to be fair, you and, uh, Attila have been doing fine. There was one that I probably didn't even like it or didn't, like, bookmark it.
+[02:48:32] [1] I liked it, but I didn't bookmark it. But you guys were talking about, like, the real benefit of the compiler or not.
+[02:48:37] [1] Uh, Aiden's been just hitting React so hard over and over again. Um, so
+[02:48:46] [1] yeah, fire. Definitely. Did you see that Solid Meteor when?
+[02:48:50] [2] There— there is a Solid Meteor.
+[02:48:52] [1] Is there already? God.
+[02:48:54] [2] Sorry?
+[02:48:54] [1] Of course there is. We have a giant.
+[02:48:55] [2] Yeah, I posted in the private chat.
+[02:48:57] [1] We— we have a giant ecosystem of every library you can think of. There's a Solid library, right?
+[02:49:03] [1] There you go. Oh, okay. Yeah. I mean.
+[02:49:06] [2] I think.
+[02:49:07] [1] We've had this for a while. I— I know the author of this one. Um, yeah. There you go.
+[02:49:14] [2] And I think— I think this does tracking beyond, like, if you.
+[02:49:16] [1] Three years ago.
+[02:49:17] [2] Use a meteor tracker inside a Solid effect, it automatically tracks it as well, I believe.
+[02:49:22] [1] Yeah. Yeah. He's probably using the, uh, the arcs. We have, uh, use an external source, which lets you, like, use MobX natively in Solid or use a different Reactive system.
+[02:49:33] [1] He probably put Meteor in there.
+[02:49:35] [2] Right.
+[02:49:35] [1] Yeah. So it hasn't been updated in nine months, which is fine. We haven't updated a ton of stuff on the core.
+[02:49:40] [1] This is probably, like, 1.8 time period. Um,
+[02:49:45] [1] but essentially, yeah, three years. There you go. So all the hot libraries here in Solid ecosystem.
+[02:49:56] [1] Uh, good stuff. Good stuff. Um.
+[02:50:02] [2] Yeah. Thank you very much. I'm very happy to, uh, and very excited to continue, like, um, working— working with the team and seeing what— where Solid goes next.
+[02:50:13] [1] Yeah. Definitely. Great to have you. Anyway, I think that's it for Dev on the stream today.
+[02:50:18] [1] I'm going to continue on a few other topics, um, uh, that I've prepared because I haven't done a stream forever.
+[02:50:25] [1] Thank you so much for joining us. Um, that's awesome. Um, to, like, talk to you next.
+[02:50:30] [1] Catch you later.
+[02:50:31] [2] Thanks for having me.
+[02:50:32] [1] Yeah.
+[02:50:34] [1] That was pretty awesome. Um, stream's not over yet. I have a couple topics I want to go over.
+[02:50:40] [1] I don't know if this week in JavaScript will be much of anything because I really haven't been paying attention for, like, a month.
+[02:50:45] [1] I've been, like, so— I've been on a crazy deep path looking into stores, um, and because since the last stream, which I think, um, probably a lot of people didn't even follow exactly, but I'm actually pretty happy on the
+[02:51:00] [1] results of that. So I'll talk about that in a minute. But yeah, no, uh, Dev's work has been really, um, really interesting and, um, constant voice presence out there, uh, kind of giving benefits of using things like sign
+[02:51:13] [1] als, you know
+[02:51:15] [1] . Another mad scientist. Yeah. Yeah. Hopefully, you know, we do enough of this stuff sticks and hits the wall.
+[02:51:24] [1] Um, you know,
+[02:51:26] [1] um, we've been— it— it happens on all levels is the best way I can put it because, like, right now I'm doing a loop around back to the core of things, whereas, like, um, you know, we went all the way out to the depths of
+[02:51:45] [1] , you know, the lengths of, like, Solid Start. Um, so having people doing R&D, you know, continuing the R&D on the, like, you know, I'd say, like, like, the server signal stuff is pretty far out, like, in the Solid Start
+[02:51:58] [1] kind of range of stuff, um, versus, like, you know, the work Milo has done on, like, Reactively and the really core, uh, Reactive stuff, you know, on the other side.
+[02:52:09] [1] We constantly have to, like, explore all the different patterns and then figure out the right time to kind of integrate it all along.
+[02:52:16] [1] And I'm— I'm very excited because we're, like, basically starting up a new push, you know, background.
+[02:52:22] [1] All right.
+[02:52:28] [1] Take a deep breath
+[02:52:30] [1] .
+[02:52:32] [1] Drink the last sips of my coconut water. Okay. So yeah, I got a couple topics to talk about, uh, today, um, in addition to what I covered there.
+[02:52:42] [1] Um, as you can imagine,
+[02:52:47] [1] I've been— I've been working on
+[02:52:51] [1] — oh, God. I— I have— I have even— I have even more topics than I even realized.
+[02:52:58] [1] Typical me. I— I won't cover them all, probably. Let's— let me share my screen a little bit here.
+[02:53:04] [1] But, like, I— I realized, like, Tanner sent me off on a weird goose chase the other day, um, where he wanted to know if lakes were real, essentially.
+[02:53:15] [1] So I, like, started hypothesizing. This is about server components. I don't know if that's a topic that's interesting to anyone.
+[02:53:21] [1] Um, I'm pretty sure this was
+[02:53:27] [1] — I— I talked a bunch and made no sense, um, on the store stuff last time. I actually found a solve, though, and I'm actually really happy to talk about that today because— so maybe that's where I'm going to talk about, um
+[02:53:39] [1] , and then maybe I'll talk about hierarchical Reactive scheduling boundaries. But yeah, basicall
+[02:53:49] [1] y,
+[02:53:51] [1] I realized that all this work that I've been trying to do for stores to make them, um, performant, um, and make them, like, work well and not mutate and mess with stuff was basically
+[02:54:07] [1] — I was trying to make stores something they're not, right? We— we spent the last stream, we looked a lot at, like, IMR, and we looked at— so this is kind of like a follow-up to— to the previous stream.
+[02:54:16] [1] Um, we looked— we looked a lot about, like, diffing and patching. But if you think about it
+[02:54:23] [1] , I might need to excalidraw for this one. Um,
+[02:54:28] [1] if you— if you think about it, um, I'm trying to think of the best way to kind of lay this out is if— maybe I'll start in the playground.
+[02:54:35] [1] It's probably easier just to, like,
+[02:54:39] [1] just delete some code and just write some lines under. If you have an immutable syst
+[02:54:46] [1] em, what you'll generally do is you'll have, like,
+[02:54:51] [1] uh, let's say let— I mean, this is Redux in a— in a— in a— in a— in a— in a nutshell.
+[02:55:00] [1] But essentially, you have, like, the previous state, and you have some kind of other input action, whatever you want to call it, to get the next state, right?
+[02:55:08] [1] So this will— this is how you're going to generate this next state, right? Um, and then later on, where you do the connector piece, what you end up doing is you go diff
+[02:55:24] [1] next against previo
+[02:55:28] [1] us, and then you patch. So this will give you, like,
+[02:55:35] [1] I don't know what to call it. It's like the encoded— this is— we'll call this the patch, and then we'll call this apply patch,
+[02:55:47] [1] um, to whatever the output is. Output, and we're going to apply the patch to it.
+[02:55:52] [1] This is— this is kind of the cycle that you have when you're dealing with immutability.
+[02:55:59] [1] So what ends up happening usually is that next
+[02:56:06] [1] anything, like, along the tree, which is where I'm going to get here, let's pretend we have, you know,
+[02:56:17] [1] these data nodes. Let's give them a col
+[02:56:21] [1] or. Okay.
+[02:56:36] [1] All right.
+[02:56:38] [1] And you've probably seen this cut. My arrow's both directions. Let's— oh, it's because I'm zoomed way out.
+[02:56:52] [1] Probably should have— this is the problem. It's like if I keep on zooming way out, um,
+[02:57:00] [1] I'm going to— I'm going to make something here, and then we're going to do this.
+[02:57:05] [1] I probably showed a version of this. Let me see. Turn this into that
+[02:57:11] [1] . I feel like I showed a version of this, but it's been a month, so I'm not going to— I'm going to redraw it right now.
+[02:57:16] [1] If you had a data structure that was nested like this, and you want to change this one here, so, um,
+[02:57:29] [1] I'll keep it black. We'll go here. See, and you change this node, you know, so that you have an array of users which have properties on them, whatever.
+[02:57:39] [1] If you change this node, what you end up doing is you clone th
+[02:57:45] [1] is, and you clone this. These references stay the same, but you end up needing to clone these.
+[02:57:52] [1] So the array will now hold that had two users in it will now have
+[02:57:58] [1] an existing user and a new user, even if it has the same ID. It doesn't matter.
+[02:58:03] [1] This is, like, the basic way you do immutability. Um, you basically clone along the direct path of ancestors in order to— to make it work.
+[02:58:14] [1] And what this means is when you get around to diffing, which you'd be surprised to know one, it's actually fairly easy to diff because you can go— what you— what you'll have over here on the diff side, um, is you'll have
+[02:58:26] [1] a— you'll have a copy of this, right, over here. Let's see. Can I shrink this whole thing down?
+[02:58:32] [1] Yeah, I can. So on the— on the diff side, what you'll hav
+[02:58:38] [1] e, you'll have the original
+[02:58:41] [1] , right? So you'll have this version. So
+[02:58:46] [1] do let me know if I'm making complete sense or I'm— I'm sure you're probably already aware of this, but what you'll do is you'll have the original, and then you'll have the new version.
+[02:58:56] [1] So, you know, this is previo
+[02:59:01] [1] us. Yeah. See, I'm— I'm way zoomed out. Yeah. So you have
+[02:59:07] [1] previo
+[02:59:11] [1] us. Let's make that large. And then you have
+[02:59:17] [1] next, right? So
+[02:59:23] [1] do do do do do. Sorry. No. Yeah. So previous, next, some input changed it. And then when you do the diff, you're just like, yeah, I— I need to make these even smaller.
+[02:59:33] [1] Sorry. Give me a second while I wrestle with my excalidraw here.
+[02:59:40] [1] Do do do do do.

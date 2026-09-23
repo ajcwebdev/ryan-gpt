@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring 11ty with Zach Leatherman",
+      "slug": "2022-08-19-exploring-11ty-with-zach-leatherman",
+      "duration": "4:33:46",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=iuwqOkH6jKY",
+      "publishDate": "2022-08-19",
+      "thumbnail": "https://i.ytimg.com/vi/iuwqOkH6jKY/sddefault.jpg?v=62fd39f4",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 192,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 192,
+          "endTime": 1953,
+          "title": "Welcome Zach"
+        },
+        {
+          "startTime": 1953,
+          "endTime": 2707,
+          "title": "Failing at Git"
+        },
+        {
+          "startTime": 2707,
+          "endTime": 4127,
+          "title": "Getting Started with 11ty"
+        },
+        {
+          "startTime": 4127,
+          "endTime": 5800,
+          "title": "11ty is-lands"
+        },
+        {
+          "startTime": 5800,
+          "endTime": 6039,
+          "title": "Dynamic Services"
+        },
+        {
+          "startTime": 6039,
+          "endTime": 6787,
+          "title": "What's Next for 11ty?"
+        },
+        {
+          "startTime": 6787,
+          "endTime": 7507,
+          "title": "Dynamic Bundling"
+        },
+        {
+          "startTime": 7507,
+          "endTime": 8483,
+          "title": "Markdown Benchmark"
+        },
+        {
+          "startTime": 8483,
+          "endTime": 8978,
+          "title": "Wrap-up with Zach"
+        },
+        {
+          "startTime": 8978,
+          "endTime": 14022,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 14022,
+          "endTime": 14440,
+          "title": "Latest Benchmark from Builder"
+        },
+        {
+          "startTime": 14440,
+          "endTime": 16425,
+          "title": "The Quest for the Fastest Runtime"
+        }
+      ],
+      "description": "Static Site Generation is actually a topic I know nothing about. In all my years I'm yet to use one. Luckily we have Zach with us to show us the ropes, and to showcase his project 11ty, a JavaScript-based static site generator. Join us as I learn the ins and outs of a whole world that lives within the build step.\n\n[0:00] Introduction\n[3:12] Welcome Zach\n[32:33] Failing at Git\n[45:07] Getting Started with 11ty\n[1:08:47] 11ty is-lands\n[1:36:40] Dynamic Services\n[1:40:39] What's Next for 11ty?\n[1:53:07] Dynamic Bundling\n[2:05:07] Markdown Benchmark\n[2:21:23] Wrap-up with Zach\n[2:29:38] This Week in JavaScript\n[3:53:42] Latest Benchmark from Builder\n[4:00:40] The Quest for the Fastest Runtime\n\nBanner credits: © LOTR characters owned by Middle-earth Enterprises."
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "What the head?",
+      "slug": "2024-09-21-what-the-head",
+      "duration": "5:22:59",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=_EkUCF4HzWg",
+      "publishDate": "2024-09-21",
+      "thumbnail": "https://i.ytimg.com/vi/_EkUCF4HzWg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 75,
+          "title": "Muted Ryan"
+        },
+        {
+          "startTime": 75,
+          "endTime": 570,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 570,
+          "endTime": 1365,
+          "title": "Head Tags & JS Frameworks"
+        },
+        {
+          "startTime": 1365,
+          "endTime": 1905,
+          "title": "Streaming & The Importance of First Flush"
+        },
+        {
+          "startTime": 1905,
+          "endTime": 2580,
+          "title": "Some Examples & Out of Order Streaming"
+        },
+        {
+          "startTime": 2580,
+          "endTime": 2985,
+          "title": "OoO Streaming with Declarative Shadow DOM"
+        },
+        {
+          "startTime": 2985,
+          "endTime": 3300,
+          "title": "This Has To Be Built Into The Core of a Framework"
+        },
+        {
+          "startTime": 3300,
+          "endTime": 3975,
+          "title": "Twitter Context: The React Philosophy"
+        },
+        {
+          "startTime": 3975,
+          "endTime": 4740,
+          "title": "Twitter Context: Ryan Florence & Tanner Linsley"
+        },
+        {
+          "startTime": 4740,
+          "endTime": 5595,
+          "title": "RFC: Metadata & JSX Head Tags"
+        },
+        {
+          "startTime": 5595,
+          "endTime": 6465,
+          "title": "RFC: Comparing Various Head Solutions"
+        },
+        {
+          "startTime": 6465,
+          "endTime": 6840,
+          "title": "RFC: The New Proposal (useHead)"
+        },
+        {
+          "startTime": 6840,
+          "endTime": 7260,
+          "title": "RFC: Ricky Hanlon's Response & Other Ideas"
+        },
+        {
+          "startTime": 7260,
+          "endTime": 7605,
+          "title": "Conclusion of Main Topic"
+        },
+        {
+          "startTime": 7605,
+          "endTime": 8400,
+          "title": "Jose Valim: LiveView Demo (Declarative?)"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9420,
+          "title": "Jose Valim: Remix's Concurrent Submissions"
+        },
+        {
+          "startTime": 9420,
+          "endTime": 9765,
+          "title": "Strello (Solid Trello Demo): General Overview"
+        },
+        {
+          "startTime": 9765,
+          "endTime": 10245,
+          "title": "Strello: Optimistic Updates & Revalidation"
+        },
+        {
+          "startTime": 10245,
+          "endTime": 11085,
+          "title": "Strello: Fine-Grained Mutations"
+        },
+        {
+          "startTime": 11085,
+          "endTime": 11940,
+          "title": "Strello: Conclusion"
+        },
+        {
+          "startTime": 11940,
+          "endTime": 12390,
+          "title": "Mike F. Pearson & Dev Agrawal on Reactivity"
+        },
+        {
+          "startTime": 12390,
+          "endTime": 12975,
+          "title": "This Week in JavaScript: Theo & Vercel"
+        },
+        {
+          "startTime": 12975,
+          "endTime": 13305,
+          "title": "TWiJ: T&V - Ryan's Response"
+        },
+        {
+          "startTime": 13305,
+          "endTime": 14040,
+          "title": "TWiJ: T&V - Looking for a Scapegoat"
+        },
+        {
+          "startTime": 14040,
+          "endTime": 14445,
+          "title": "TWiJ: Free JavaScript & Solid News"
+        },
+        {
+          "startTime": 14445,
+          "endTime": 14760,
+          "title": "TWiJ: Marko & The Boundaries of Templating"
+        },
+        {
+          "startTime": 14760,
+          "endTime": 15300,
+          "title": "TWiJ: The use Hook & Passing Promises as Props"
+        },
+        {
+          "startTime": 15300,
+          "endTime": 15870,
+          "title": "TWiJ: Effects, Synchronization & Derivation"
+        },
+        {
+          "startTime": 15870,
+          "endTime": 16590,
+          "title": "TWiJ: ES&D - Code Examples"
+        },
+        {
+          "startTime": 16590,
+          "endTime": 17430,
+          "title": "TWiJ: ES&D - Current Solution for Solid 2.0"
+        },
+        {
+          "startTime": 17430,
+          "endTime": 18060,
+          "title": "TWiJ: ES&D - Split Effects"
+        },
+        {
+          "startTime": 18060,
+          "endTime": 18465,
+          "title": "TWiJ: ES&D - Strict Mode & Simple vs. Easy"
+        },
+        {
+          "startTime": 18465,
+          "endTime": 19080,
+          "title": "TWiJ: ES&D - TypeScript & Other Ideas"
+        },
+        {
+          "startTime": 19080,
+          "endTime": 19379,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "I've been looking a lot at MetaData and Head tags recently in putting together the upcoming Solid 1.9 release. Having it work seamlessly with streaming has been my primary goal. In the process, I looked into a dozen of the most popular frameworks and libraries to aid designing our solution. Join me as we talk about this surprisingly opinionated topic.\n\n[0:00] Muted Ryan\n[1:15] Preamble\n[9:30] Head Tags & JS Frameworks\n[22:45] Streaming & The Importance of First Flush\n[31:45] Some Examples & Out of Order Streaming\n[43:00] OoO Streaming with Declarative Shadow DOM\n[49:45] This Has To Be Built Into The Core of a Framework\n[55:00] Twitter Context: The React Philosophy\n[1:06:15] Twitter Context: Ryan Florence & Tanner Linsley\n[1:19:00] RFC: Metadata & JSX Head Tags\n[1:33:15] RFC: Comparing Various Head Solutions\n[1:47:45] RFC: The New Proposal (useHead)\n[1:54:00] RFC: Ricky Hanlon's Response & Other Ideas\n[2:01:00] Conclusion of Main Topic\n[2:06:45] Jose Valim: LiveView Demo (Declarative?)\n[2:20:00] Jose Valim: Remix's Concurrent Submissions\n[2:37:00] Strello (Solid Trello Demo): General Overview\n[2:42:45] Strello: Optimistic Updates & Revalidation\n[2:50:45] Strello: Fine-Grained Mutations\n[3:04:45] Strello: Conclusion\n[3:19:00] Mike F. Pearson & Dev Agrawal on Reactivity\n[3:26:30] This Week in JavaScript: Theo & Vercel\n[3:36:15] TWiJ: T&V - Ryan's Response\n[3:41:45] TWiJ: T&V - Looking for a Scapegoat\n[3:54:00] TWiJ: Free JavaScript & Solid News\n[4:00:45] TWiJ: Marko & The Boundaries of Templating\n[4:06:00] TWiJ: The use Hook & Passing Promises as Props\n[4:15:00] TWiJ: Effects, Synchronization & Derivation\n[4:24:30] TWiJ: ES&D - Code Examples\n[4:36:30] TWiJ: ES&D - Current Solution for Solid 2.0\n[4:50:30] TWiJ: ES&D - Split Effects\n[5:01:00] TWiJ: ES&D - Strict Mode & Simple vs. Easy\n[5:07:45] TWiJ: ES&D - TypeScript & Other Ideas\n[5:18:00] Conclusion\n\nBig thanks to @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

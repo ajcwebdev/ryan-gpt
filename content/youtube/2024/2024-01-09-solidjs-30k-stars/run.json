@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidJS 30k Stars",
+      "slug": "2024-01-09-solidjs-30k-stars",
+      "duration": "3:17",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=ZdGPsEFT8AQ",
+      "publishDate": "2024-01-09",
+      "thumbnail": "https://i.ytimg.com/vi/ZdGPsEFT8AQ/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "I'm going to try to be the 30k star on the SolidJS Github Repo. This will probably fail."
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Are There Actually That Many Different Ways to Build Web Apps?",
+      "slug": "2024-10-19-are-there-actually-that-many-different-ways-to-build-web-apps",
+      "duration": "5:05:16",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=ja4LIaxxUeA",
+      "publishDate": "2024-10-19",
+      "thumbnail": "https://i.ytimg.com/vi/ja4LIaxxUeA/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 390,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 390,
+          "endTime": 1365,
+          "title": "Q&A: SolidHack? UI Libraries? TanStack? tRPC?"
+        },
+        {
+          "startTime": 1365,
+          "endTime": 1635,
+          "title": "Introduction - Three Key Buckets"
+        },
+        {
+          "startTime": 1635,
+          "endTime": 2085,
+          "title": "Differentiating SPAs & Server Components"
+        },
+        {
+          "startTime": 2085,
+          "endTime": 2310,
+          "title": "Q&A: HTMX? Resumability?"
+        },
+        {
+          "startTime": 2310,
+          "endTime": 2700,
+          "title": "Charting State in Web Architectures"
+        },
+        {
+          "startTime": 2700,
+          "endTime": 3000,
+          "title": "Stateful Servers"
+        },
+        {
+          "startTime": 3000,
+          "endTime": 3525,
+          "title": "Where Do MPA's Fit In?"
+        },
+        {
+          "startTime": 3525,
+          "endTime": 3825,
+          "title": "Service Workers and The Client/Server Tension"
+        },
+        {
+          "startTime": 3825,
+          "endTime": 4155,
+          "title": "The Single App Experience"
+        },
+        {
+          "startTime": 4155,
+          "endTime": 5085,
+          "title": "What Do You Actually Do in a Web App? (WDYD)"
+        },
+        {
+          "startTime": 5085,
+          "endTime": 5535,
+          "title": "WDYD: Client-Only Interaction"
+        },
+        {
+          "startTime": 5535,
+          "endTime": 6330,
+          "title": "WDYD: Committed Interaction"
+        },
+        {
+          "startTime": 6330,
+          "endTime": 7185,
+          "title": "WDYD: Navigate to a Different Page"
+        },
+        {
+          "startTime": 7185,
+          "endTime": 7740,
+          "title": "WDYD: Load The Page"
+        },
+        {
+          "startTime": 7740,
+          "endTime": 8205,
+          "title": "WDYD: Tallying The Scores"
+        },
+        {
+          "startTime": 8205,
+          "endTime": 8985,
+          "title": "WDYD: Conclusions"
+        },
+        {
+          "startTime": 8985,
+          "endTime": 9360,
+          "title": "Q&A: CDN? Lakes? Resumability?"
+        },
+        {
+          "startTime": 9360,
+          "endTime": 9780,
+          "title": "Optimizing Actions: Introduction"
+        },
+        {
+          "startTime": 9780,
+          "endTime": 10320,
+          "title": "OA: Progressive Enhancement & Refined Responses"
+        },
+        {
+          "startTime": 10320,
+          "endTime": 10590,
+          "title": "Advanced Caching with Router APIs: Introduction"
+        },
+        {
+          "startTime": 10590,
+          "endTime": 10920,
+          "title": "ACwRAPIs: The Wrapper Approach"
+        },
+        {
+          "startTime": 10920,
+          "endTime": 11490,
+          "title": "ACwRAPIs: Where Do You Put The Wrapper?"
+        },
+        {
+          "startTime": 11490,
+          "endTime": 11805,
+          "title": "Next.js & \"use cache\": Introduction"
+        },
+        {
+          "startTime": 11805,
+          "endTime": 12165,
+          "title": "\"use cache\": Questions & Code Example"
+        },
+        {
+          "startTime": 12165,
+          "endTime": 12420,
+          "title": "\"use cache\": Testing in AST Explorer"
+        },
+        {
+          "startTime": 12420,
+          "endTime": 12735,
+          "title": "\"use cache\": Compiler + Runtime + Infrastructure"
+        },
+        {
+          "startTime": 12735,
+          "endTime": 13050,
+          "title": "\"use cache\": Cache Keys (Tags) & Invalidation"
+        },
+        {
+          "startTime": 13050,
+          "endTime": 13440,
+          "title": "\"use cache\": Another Idea"
+        },
+        {
+          "startTime": 13440,
+          "endTime": 13935,
+          "title": "\"use cache\": Conclusion"
+        },
+        {
+          "startTime": 13935,
+          "endTime": 14235,
+          "title": "Server Signals as Architecture: Introduction"
+        },
+        {
+          "startTime": 14235,
+          "endTime": 14535,
+          "title": "SSaA: But, Why? What Are They Doing?"
+        },
+        {
+          "startTime": 14535,
+          "endTime": 14880,
+          "title": "SSaA: Event to Server"
+        },
+        {
+          "startTime": 14880,
+          "endTime": 15180,
+          "title": "SSaA: Only Isomorphic Signals?"
+        },
+        {
+          "startTime": 15180,
+          "endTime": 15600,
+          "title": "SSaA: Thinking About Compilation"
+        },
+        {
+          "startTime": 15600,
+          "endTime": 16155,
+          "title": "SSaA: Making Sense of This & Examples"
+        },
+        {
+          "startTime": 16155,
+          "endTime": 16500,
+          "title": "SSaA: Conclusion - Is This Better Than Diffing?"
+        },
+        {
+          "startTime": 16500,
+          "endTime": 16935,
+          "title": "A Brief Aside on Web Components & \"Sprinkles\""
+        },
+        {
+          "startTime": 16935,
+          "endTime": 17175,
+          "title": "Intermission"
+        },
+        {
+          "startTime": 17175,
+          "endTime": 17295,
+          "title": "This Week in JavaScript: Brenley Dueck's Tutorial"
+        },
+        {
+          "startTime": 17295,
+          "endTime": 17775,
+          "title": "TWiJ: solid-events"
+        },
+        {
+          "startTime": 17775,
+          "endTime": 18000,
+          "title": "Quick Explanation of Optimistic UI"
+        },
+        {
+          "startTime": 18000,
+          "endTime": 18315,
+          "title": "More on Stateful Servers & Conclusion"
+        }
+      ],
+      "description": "There is no shortage of 3 letter acronyms when describing building on the Web. We've covered dozens of different approaches and techniques on the stream over the years. But are we just circling only a couple of fundamental architecture decisions?\n\nLink to excalidraw images: https://x.com/RyanCarniato/status/1848755798153039882\n\n[0:00] Preamble\n[6:30] Q&A: SolidHack? UI Libraries? TanStack? tRPC?\n[22:45] Introduction - Three Key Buckets\n[27:15] Differentiating SPAs & Server Components\n[34:45] Q&A: HTMX? Resumability?\n[38:30] Charting State in Web Architectures\n[45:00] Stateful Servers\n[50:00] Where Do MPA's Fit In? \n[58:45] Service Workers and The Client/Server Tension\n[1:03:45] The Single App Experience\n[1:09:15] What Do You Actually Do in a Web App? (WDYD)\n[1:24:45] WDYD: Client-Only Interaction\n[1:32:15] WDYD: Committed Interaction\n[1:45:30] WDYD: Navigate to a Different Page\n[1:59:45] WDYD: Load The Page\n[2:09:00] WDYD: Tallying The Scores\n[2:16:45] WDYD: Conclusions\n[2:29:45] Q&A: CDN? Lakes? Resumability?\n[2:36:00] Optimizing Actions: Introduction\n[2:43:00] OA: Progressive Enhancement & Refined Responses\n[2:52:00] Advanced Caching with Router APIs: Introduction\n[2:56:30] ACwRAPIs: The Wrapper Approach\n[3:02:00] ACwRAPIs: Where Do You Put The Wrapper?\n[3:11:30] Next.js & \"use cache\": Introduction\n[3:16:45] \"use cache\": Questions & Code Example\n[3:22:45] \"use cache\": Testing in AST Explorer\n[3:27:00] \"use cache\": Compiler + Runtime + Infrastructure\n[3:32:15] \"use cache\": Cache Keys (Tags) & Invalidation\n[3:37:30] \"use cache\": Another Idea\n[3:44:00] \"use cache\": Conclusion\n[3:52:15] Server Signals as Architecture: Introduction\n[3:57:15] SSaA: But, Why? What Are They Doing?\n[4:02:15] SSaA: Event to Server\n[4:08:00] SSaA: Only Isomorphic Signals?\n[4:13:00] SSaA: Thinking About Compilation\n[4:20:00] SSaA: Making Sense of This & Examples\n[4:29:15] SSaA: Conclusion - Is This Better Than Diffing?\n[4:35:00] A Brief Aside on Web Components & \"Sprinkles\"\n[4:42:15] Intermission\n[4:46:15] This Week in JavaScript: Brenley Dueck's Tutorial\n[4:48:15] TWiJ: solid-events\n[4:56:15] Quick Explanation of Optimistic UI\n[5:00:00] More on Stateful Servers & Conclusion\n\nThanks @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

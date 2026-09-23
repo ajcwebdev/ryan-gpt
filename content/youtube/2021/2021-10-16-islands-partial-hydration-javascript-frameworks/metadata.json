@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=Q0mXYbA86Qo",
+    "videoTitle": "Islands, Partial Hydration, & JavaScript Frameworks",
+    "videoPublishDate": "2021-10-16",
+    "videoThumbnail": "https://i.ytimg.com/vi/Q0mXYbA86Qo/sddefault.jpg?v=6169b8a0",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "2:51:21",
+    "audioFileName": "Islands_Partial_Hydration_JavaScript_Frameworks.wav",
+    "audioFileSize": 328986734
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo.bin | coreml:/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 514568,
+    "tokenCount": 27395
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "step1": {
+    "title": "Building a UI Language w/ Dylan Piercey",
+    "duration": "5:18:55",
+    "channel": "Ryan Carniato",
+    "description": "JavaScript frameworks have been leveraging custom templating languages since their inception. But in recent years we seen even more exploration into using compilers to build UI languages.\r\n\r\nI'm fortunate to have Dylan Piercey, maintainer of the Marko framework, one of the earliest compiled JS Frameworks, back on the stream lay out all that goes into one of the most ambitious efforts in modern UI tooling.\n\n[0:00] Preamble\n[6:15] Welcome Dylan\n[42:57] Marko to Solid JSX\n[1:45:53] Bringing Reactivity to the Language\n[2:21:15] Building a Language\n[2:32:32] Language Server\n[2:51:36] TypeScript Support\n[3:17:48] Syntax Highlighting\n[3:29:07] Prettier\n[3:37:46] Bundling\n[3:47:52] Q & A \n[4:17:00] This Week in JavaScript",
+    "url": "https://www.youtube.com/watch?v=W9wfkP21c80",
+    "publishDate": "2022-09-10",
+    "thumbnail": "https://i.ytimg.com/vi/W9wfkP21c80/maxresdefault.jpg",
+    "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 375,
+        "title": "Preamble"
+      },
+      {
+        "startTime": 375,
+        "endTime": 2577,
+        "title": "Welcome Dylan"
+      },
+      {
+        "startTime": 2577,
+        "endTime": 6353,
+        "title": "Marko to Solid JSX"
+      },
+      {
+        "startTime": 6353,
+        "endTime": 8475,
+        "title": "Bringing Reactivity to the Language"
+      },
+      {
+        "startTime": 8475,
+        "endTime": 9152,
+        "title": "Building a Language"
+      },
+      {
+        "startTime": 9152,
+        "endTime": 10296,
+        "title": "Language Server"
+      },
+      {
+        "startTime": 10296,
+        "endTime": 11868,
+        "title": "TypeScript Support"
+      },
+      {
+        "startTime": 11868,
+        "endTime": 12547,
+        "title": "Syntax Highlighting"
+      },
+      {
+        "startTime": 12547,
+        "endTime": 13066,
+        "title": "Prettier"
+      },
+      {
+        "startTime": 13066,
+        "endTime": 13672,
+        "title": "Bundling"
+      },
+      {
+        "startTime": 13672,
+        "endTime": 15420,
+        "title": "Q & A"
+      },
+      {
+        "startTime": 15420,
+        "endTime": 19135,
+        "title": "This Week in JavaScript"
+      }
+    ],
+    "slug": "2022-09-10-building-a-ui-language-w-dylan-piercey",
+    "audioFileName": "2022-09-10-building-a-ui-language-w-dylan-piercey.m4a",
+    "audioFileSize": 239343932,
+    "durationSeconds": 19135
+  }
+}

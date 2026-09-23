@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Composing Time: Compositional Async in Solid 2.0",
+      "slug": "2026-07-10-composing-time-compositional-async-in-solid-20",
+      "duration": "4:58:23",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=_914md6XXcg",
+      "publishDate": "2026-07-10",
+      "thumbnail": "https://i.ytimg.com/vi/_914md6XXcg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 139,
+          "title": "Return to Streaming and Personal Updates"
+        },
+        {
+          "startTime": 139,
+          "endTime": 725,
+          "title": "Solid Beta Issues, AI Bug Hunts, and Design Questions"
+        },
+        {
+          "startTime": 725,
+          "endTime": 1129,
+          "title": "AI Ambition, Rust Compiler Work, and Performance Benchmarks"
+        },
+        {
+          "startTime": 1129,
+          "endTime": 1749,
+          "title": "Native Compiler Packaging, TSRX, and Model Preferences"
+        },
+        {
+          "startTime": 1749,
+          "endTime": 2426,
+          "title": "Solid 2.0 Status, Start Releases, and Migration Strategy"
+        },
+        {
+          "startTime": 2426,
+          "endTime": 3145,
+          "title": "Retained Mode, Immediate Mode, and UI Consistency"
+        },
+        {
+          "startTime": 3145,
+          "endTime": 3583,
+          "title": "Async as Derivation Instead of Effect Loops"
+        },
+        {
+          "startTime": 3583,
+          "endTime": 3986,
+          "title": "Selection Lists and Data Fetching Through Reactive Graphs"
+        },
+        {
+          "startTime": 3986,
+          "endTime": 4428,
+          "title": "Get Versus Post and the Role of Actions"
+        },
+        {
+          "startTime": 4428,
+          "endTime": 4645,
+          "title": "Divide Example and Async Consistency Guarantees"
+        },
+        {
+          "startTime": 4645,
+          "endTime": 5726,
+          "title": "Composable Loading Affordances in Buttons and Inputs"
+        },
+        {
+          "startTime": 5726,
+          "endTime": 6383,
+          "title": "Optimistic State as Time-Based Ephemeral State"
+        },
+        {
+          "startTime": 6383,
+          "endTime": 7400,
+          "title": "Sources, Async Nodes, Results, and Synchronized Updates"
+        },
+        {
+          "startTime": 7400,
+          "endTime": 8723,
+          "title": "Actions, Generators, and Sequenced Async Work"
+        },
+        {
+          "startTime": 8723,
+          "endTime": 9382,
+          "title": "Choosing Process-Oriented or Data-Oriented Affordances"
+        },
+        {
+          "startTime": 9382,
+          "endTime": 9976,
+          "title": "Optimistic Lanes, Pending State, and Downstream Async"
+        },
+        {
+          "startTime": 9976,
+          "endTime": 10445,
+          "title": "Optimistic Fetching With Saved Categories"
+        },
+        {
+          "startTime": 10445,
+          "endTime": 12007,
+          "title": "Optimistic Stores, Pending Edge Cases, and Affects Proposals"
+        },
+        {
+          "startTime": 12007,
+          "endTime": 13120,
+          "title": "Convergence of Server Components, Partials, and Ephemeral State"
+        },
+        {
+          "startTime": 13120,
+          "endTime": 15269,
+          "title": "Kent C. Dodds on Why React Was Not Dethroned"
+        },
+        {
+          "startTime": 15269,
+          "endTime": 15545,
+          "title": "React Adoption, Jobs Theory, and Solid’s Technical Motivation"
+        },
+        {
+          "startTime": 15545,
+          "endTime": 16268,
+          "title": "CPU Architecture Analogy for Framework Choices"
+        },
+        {
+          "startTime": 16268,
+          "endTime": 16904,
+          "title": "Complacency, Front-End Culture, and Innovation Paths"
+        },
+        {
+          "startTime": 16904,
+          "endTime": 17345,
+          "title": "Class Components, Hooks, and Signal-Like Composition"
+        },
+        {
+          "startTime": 17345,
+          "endTime": 17645,
+          "title": "AI Models, Open Source Feasibility, and Bigger Ambitions"
+        },
+        {
+          "startTime": 17645,
+          "endTime": 17903,
+          "title": "Solid 2.0 Roadmap and Closing Plans"
+        }
+      ],
+      "description": "A lot has evolved in the Solid 2.0 Beta in the last month. In this stream we will look where we have landed and explore the latest progress on Solid 2.0.\n\n00:00:00 - Return to Streaming and Personal Updates\n00:02:19 - Solid Beta Issues, AI Bug Hunts, and Design Questions\n00:12:05 - AI Ambition, Rust Compiler Work, and Performance Benchmarks\n00:18:49 - Native Compiler Packaging, TSRX, and Model Preferences\n00:29:09 - Solid 2.0 Status, Start Releases, and Migration Strategy\n00:40:26 - Retained Mode, Immediate Mode, and UI Consistency\n00:52:25 - Async as Derivation Instead of Effect Loops\n00:59:43 - Selection Lists and Data Fetching Through Reactive Graphs\n01:06:26 - Get Versus Post and the Role of Actions\n01:13:48 - Divide Example and Async Consistency Guarantees\n01:17:25 - Composable Loading Affordances in Buttons and Inputs\n01:35:26 - Optimistic State as Time-Based Ephemeral State\n01:46:23 - Sources, Async Nodes, Results, and Synchronized Updates\n02:03:20 - Actions, Generators, and Sequenced Async Work\n02:25:23 - Choosing Process-Oriented or Data-Oriented Affordances\n02:36:22 - Optimistic Lanes, Pending State, and Downstream Async\n02:46:16 - Optimistic Fetching With Saved Categories\n02:54:05 - Optimistic Stores, Pending Edge Cases, and Affects Proposals\n03:20:07 - Convergence of Server Components, Partials, and Ephemeral State\n03:38:40 - Kent C. Dodds on Why React Was Not Dethroned\n04:14:29 - React Adoption, Jobs Theory, and Solid’s Technical Motivation\n04:19:05 - CPU Architecture Analogy for Framework Choices\n04:31:08 - Complacency, Front-End Culture, and Innovation Paths\n04:41:44 - Class Components, Hooks, and Signal-Like Composition\n04:49:05 - AI Models, Open Source Feasibility, and Bigger Ambitions\n04:54:05 - Solid 2.0 Roadmap and Closing Plans|\n\nChapters generated by ajcwebdev/autoshow-cli"
+    }
+  }
+}

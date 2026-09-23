@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Wiz: Behind the Curtain w/ Jatin Ramanathan",
+      "slug": "2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan",
+      "duration": "2:56:49",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=qzOzyUA9kbg",
+      "publishDate": "2024-04-12",
+      "thumbnail": "https://i.ytimg.com/vi/qzOzyUA9kbg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 360,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 360,
+          "endTime": 885,
+          "title": "Welcome Jatin Ramanathan & What is Wiz?"
+        },
+        {
+          "startTime": 885,
+          "endTime": 1350,
+          "title": "Jatin's History with Google"
+        },
+        {
+          "startTime": 1350,
+          "endTime": 1920,
+          "title": "The Beginnings of Wiz & How It Works"
+        },
+        {
+          "startTime": 1920,
+          "endTime": 2220,
+          "title": "Is Wiz a Rendering Framework?"
+        },
+        {
+          "startTime": 2220,
+          "endTime": 2850,
+          "title": "Incremental DOM vs. Imperative Updates"
+        },
+        {
+          "startTime": 2850,
+          "endTime": 3420,
+          "title": "Google's Need for Multiple Frameworks"
+        },
+        {
+          "startTime": 3420,
+          "endTime": 3690,
+          "title": "How Wiz Ended Up Using TSX"
+        },
+        {
+          "startTime": 3690,
+          "endTime": 4080,
+          "title": "What is Resumability?"
+        },
+        {
+          "startTime": 4080,
+          "endTime": 4740,
+          "title": "Serialization, Data Splitting, and Context"
+        },
+        {
+          "startTime": 4740,
+          "endTime": 4995,
+          "title": "Will Lit Be Merged with Wiz & Angular?"
+        },
+        {
+          "startTime": 4995,
+          "endTime": 5715,
+          "title": "Wiz's Road to Signals"
+        },
+        {
+          "startTime": 5715,
+          "endTime": 6180,
+          "title": "Standardizing Signals as a Framework Primitive"
+        },
+        {
+          "startTime": 6180,
+          "endTime": 6765,
+          "title": "Async Signals & Impact of The Proposal"
+        },
+        {
+          "startTime": 6765,
+          "endTime": 7065,
+          "title": "How Resumability Fits into the Future"
+        },
+        {
+          "startTime": 7065,
+          "endTime": 7335,
+          "title": "Q&A: useEffect? Lifecycle Events? OCaml?"
+        },
+        {
+          "startTime": 7335,
+          "endTime": 8175,
+          "title": "Q&A: How Close is Solid to Resumability?"
+        },
+        {
+          "startTime": 8175,
+          "endTime": 8640,
+          "title": "Q&A: Performance? Web Components?"
+        },
+        {
+          "startTime": 8640,
+          "endTime": 9090,
+          "title": "Jatin's Parting Words & Clarifications"
+        },
+        {
+          "startTime": 9090,
+          "endTime": 9510,
+          "title": "Creating Useful Benchmarks is Hard"
+        },
+        {
+          "startTime": 9510,
+          "endTime": 9870,
+          "title": "CUBiH: Finding the Right Baseline"
+        },
+        {
+          "startTime": 9870,
+          "endTime": 10320,
+          "title": "CUBiH: Sensationalism on Twitter"
+        },
+        {
+          "startTime": 10320,
+          "endTime": 10608,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "When Angular broke the news they were merging with another Google framework almost no one had heard of, it caught some people by surprise. Wiz, has been powering Google most used websites for a long time. Wiz core maintainer Jatin Ramanathan joins us to talk about this incredible tool, his journey, and what he's learned along the way.\n\n[0:00] Preamble\n[6:00] Welcome Jatin Ramanathan & What is Wiz?\n[14:45] Jatin's History with Google\n[22:30] The Beginnings of Wiz & How It Works\n[32:00] Is Wiz a Rendering Framework?\n[37:00] Incremental DOM vs. Imperative Updates\n[47:30] Google's Need for Multiple Frameworks\n[57:00] How Wiz Ended Up Using TSX\n[1:01:30] What is Resumability?\n[1:08:00] Serialization, Data Splitting, and Context\n[1:19:00] Will Lit Be Merged with Wiz & Angular?\n[1:23:15] Wiz's Road to Signals\n[1:35:15] Standardizing Signals as a Framework Primitive\n[1:43:00] Async Signals & Impact of The Proposal\n[1:52:45] How Resumability Fits into the Future\n[1:57:45] Q&A: useEffect? Lifecycle Events? OCaml?\n[2:02:15] Q&A: How Close is Solid to Resumability?\n[2:16:15] Q&A: Performance? Web Components?\n[2:24:00] Jatin's Parting Words & Clarifications\n[2:31:30] Creating Useful Benchmarks is Hard\n[2:38:30] CUBiH: Finding the Right Baseline \n[2:44:30] CUBiH: Sensationalism on Twitter\n[2:52:00] Conclusion\n\nThanks @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

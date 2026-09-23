@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=HstDoVQeP9g",
+    "videoTitle": "Signals in Angular w/ Pawel and Alex",
+    "videoPublishDate": "2023-02-25",
+    "videoThumbnail": "https://i.ytimg.com/vi/HstDoVQeP9g/maxresdefault.jpg",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "5:23:37",
+    "audioFileName": "Signals_in_Angular_w_Pawel_and_Alex.wav",
+    "audioFileSize": 621336344
+  },
+  "step2": {
+    "transcriptionService": "lemonfox",
+    "transcriptionModel": "default",
+    "processingTime": 378700,
+    "tokenCount": 52245
+  }
+}

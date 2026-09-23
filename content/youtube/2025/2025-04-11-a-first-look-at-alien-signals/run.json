@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "A First Look at Alien Signals",
+      "slug": "2025-04-11-a-first-look-at-alien-signals",
+      "duration": "5:12:26",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=FSxvwln27_U",
+      "publishDate": "2025-04-11",
+      "thumbnail": "https://i.ytimg.com/vi/FSxvwln27_U/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 600,
+          "title": "Intro and Stream Setup"
+        },
+        {
+          "startTime": 600,
+          "endTime": 1200,
+          "title": "Background on Signals and Observer Pattern"
+        },
+        {
+          "startTime": 1200,
+          "endTime": 1800,
+          "title": "S.js, Arrays vs. Sets, and Linked Lists"
+        },
+        {
+          "startTime": 1800,
+          "endTime": 2400,
+          "title": "Introduction to Alien Signals and Initial Impressions"
+        },
+        {
+          "startTime": 2400,
+          "endTime": 3000,
+          "title": "Ownership Graphs, Scope, and Cleanup Mechanisms"
+        },
+        {
+          "startTime": 3000,
+          "endTime": 3600,
+          "title": "Walking Through Alien Signals’ Source Code"
+        },
+        {
+          "startTime": 3600,
+          "endTime": 4200,
+          "title": "Benchmark Insights and Reactivity Marketing"
+        },
+        {
+          "startTime": 4200,
+          "endTime": 4800,
+          "title": "“Cellx” Stress Tests and Practical Relevance"
+        },
+        {
+          "startTime": 4800,
+          "endTime": 5400,
+          "title": "The JS Framework Benchmark: Reality Check"
+        },
+        {
+          "startTime": 5400,
+          "endTime": 6000,
+          "title": "The “Cheating” Debate and Create Selector"
+        },
+        {
+          "startTime": 6000,
+          "endTime": 6600,
+          "title": "Reflecting on Historical Knockout Oversight"
+        },
+        {
+          "startTime": 6600,
+          "endTime": 7200,
+          "title": "The Promise and Limitations of Signals Proposals"
+        },
+        {
+          "startTime": 7200,
+          "endTime": 7800,
+          "title": "Ownership and Deep Reactivity Challenges"
+        },
+        {
+          "startTime": 7800,
+          "endTime": 8400,
+          "title": "Splitting Effects and React-Style Dependency Arrays"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9000,
+          "title": "A Deeper Look at View Vapor and Svelte 5"
+        },
+        {
+          "startTime": 9000,
+          "endTime": 9600,
+          "title": "“Deep” Watchers Revisited: Performance Implications"
+        },
+        {
+          "startTime": 9600,
+          "endTime": 10200,
+          "title": "Solid Primitives for Deep Tracking"
+        },
+        {
+          "startTime": 10200,
+          "endTime": 10800,
+          "title": "Combining Strategies for Optimal Depth Handling"
+        },
+        {
+          "startTime": 10800,
+          "endTime": 11400,
+          "title": "Benchmarks vs. Real App Scenarios"
+        },
+        {
+          "startTime": 11400,
+          "endTime": 12000,
+          "title": "This Week in JavaScript: Rapid-Fire News"
+        },
+        {
+          "startTime": 12000,
+          "endTime": 12600,
+          "title": "Vite Documentary and Meta-Framework Shifts"
+        },
+        {
+          "startTime": 12600,
+          "endTime": 13200,
+          "title": "Validity and Low-Overhead Libraries"
+        },
+        {
+          "startTime": 13200,
+          "endTime": 13800,
+          "title": "React Server Components and Breaking Points"
+        },
+        {
+          "startTime": 13800,
+          "endTime": 14400,
+          "title": "The Compiler vs. Runtime Debate"
+        },
+        {
+          "startTime": 14400,
+          "endTime": 15000,
+          "title": "Strengthening the Solid Ecosystem"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15600,
+          "title": "Hybrid Approaches and Module Federation"
+        },
+        {
+          "startTime": 15600,
+          "endTime": 16200,
+          "title": "Convergent APIs and Future Collaboration"
+        },
+        {
+          "startTime": 16200,
+          "endTime": 16800,
+          "title": "SSR, Resumability, and Edge Deployments"
+        },
+        {
+          "startTime": 16800,
+          "endTime": 17400,
+          "title": "Async Nuances and Transitioning States"
+        },
+        {
+          "startTime": 17400,
+          "endTime": 18000,
+          "title": "Reflecting on Community Questions and Feedback"
+        },
+        {
+          "startTime": 18000,
+          "endTime": 18600,
+          "title": "Summaries, Synthesis, and Key Takeaways"
+        },
+        {
+          "startTime": 18600,
+          "endTime": 18746,
+          "title": "Final Thoughts and Closing"
+        }
+      ],
+      "description": "I've been working on a lot of future facing Signals work in recent times. So much so I haven't been paying as much attention on the here and now. It has come to my attention that a new Signals library has been benchmarking incredibly well. Let's take a look at it to better understand what this means for where things are heading.\n\n00:00:00 - Intro and Stream Setup\n00:10:00 - Background on Signals and Observer Pattern\n00:20:00 - S.js, Arrays vs. Sets, and Linked Lists\n00:30:00 - Introduction to Alien Signals and Initial Impressions\n00:40:00 - Ownership Graphs, Scope, and Cleanup Mechanisms\n00:50:00 - Walking Through Alien Signals’ Source Code\n01:00:00 - Benchmark Insights and Reactivity Marketing\n01:10:00 - “Cellx” Stress Tests and Practical Relevance\n01:20:00 - The JS Framework Benchmark: Reality Check\n01:30:00 - The “Cheating” Debate and Create Selector\n01:40:00 - Reflecting on Historical Knockout Oversight\n01:50:00 - The Promise and Limitations of Signals Proposals\n02:00:00 - Ownership and Deep Reactivity Challenges\n02:10:00 - Splitting Effects and React-Style Dependency Arrays\n02:20:00 - A Deeper Look at View Vapor and Svelte 5\n02:30:00 - “Deep” Watchers Revisited: Performance Implications\n02:40:00 - Solid Primitives for Deep Tracking\n02:50:00 - Combining Strategies for Optimal Depth Handling\n03:00:00 - Benchmarks vs. Real App Scenarios\n03:10:00 - This Week in JavaScript: Rapid-Fire News\n03:20:00 - Vite Documentary and Meta-Framework Shifts\n03:30:00 - Validity and Low-Overhead Libraries\n03:40:00 - React Server Components and Breaking Points\n03:50:00 - The Compiler vs. Runtime Debate\n04:00:00 - Strengthening the Solid Ecosystem\n04:10:00 - Hybrid Approaches and Module Federation\n04:20:00 - Convergent APIs and Future Collaboration\n04:30:00 - SSR, Resumability, and Edge Deployments\n04:40:00 - Async Nuances and Transitioning States\n04:50:00 - Reflecting on Community Questions and Feedback\n05:00:00 - Summaries, Synthesis, and Key Takeaways\n05:10:00 - Final Thoughts and Closing\n\nThanks @ajcwebdev for generating timestamps."
+    }
+  }
+}

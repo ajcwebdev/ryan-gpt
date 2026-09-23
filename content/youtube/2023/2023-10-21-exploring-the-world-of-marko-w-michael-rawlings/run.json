@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring the World of Marko w/ Michael Rawlings",
+      "slug": "2023-10-21-exploring-the-world-of-marko-w-michael-rawlings",
+      "duration": "5:46:59",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=n3YtxzHRjI0",
+      "publishDate": "2023-10-21",
+      "thumbnail": "https://i.ytimg.com/vi/n3YtxzHRjI0/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 540,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 540,
+          "endTime": 960,
+          "title": "Welcome Michael Rawlings (A Meme Artist)"
+        },
+        {
+          "startTime": 960,
+          "endTime": 1380,
+          "title": "Michael Finds Marko"
+        },
+        {
+          "startTime": 1380,
+          "endTime": 1920,
+          "title": "Marko 3: Michael Gets Involved with Marko"
+        },
+        {
+          "startTime": 1920,
+          "endTime": 2760,
+          "title": "Marko 4: Server Rendering Advances & Backwards Compatibility"
+        },
+        {
+          "startTime": 2760,
+          "endTime": 3165,
+          "title": "TypeScript Support: Basics"
+        },
+        {
+          "startTime": 3165,
+          "endTime": 3675,
+          "title": "TypeScript Support: Control Flow & Generics"
+        },
+        {
+          "startTime": 3675,
+          "endTime": 4215,
+          "title": "TypeScript Support: Higher Order Types & Compilation"
+        },
+        {
+          "startTime": 4215,
+          "endTime": 4830,
+          "title": "Marko Run: Creating a New Project (Movies App Discussion)"
+        },
+        {
+          "startTime": 4830,
+          "endTime": 5130,
+          "title": "Marko Run: Vite & eBay"
+        },
+        {
+          "startTime": 5130,
+          "endTime": 5760,
+          "title": "Marko Run: Routing Conventions"
+        },
+        {
+          "startTime": 5760,
+          "endTime": 6270,
+          "title": "Marko Run: Handlers, Await, & global.meta"
+        },
+        {
+          "startTime": 6270,
+          "endTime": 6945,
+          "title": "Marko Run: Running the Demo & Exploring Routes"
+        },
+        {
+          "startTime": 6945,
+          "endTime": 7410,
+          "title": "Marko 6: Intro - Playground & Compilation Output"
+        },
+        {
+          "startTime": 7410,
+          "endTime": 8175,
+          "title": "Marko 6: queueSource, queueEffect & scope"
+        },
+        {
+          "startTime": 8175,
+          "endTime": 9420,
+          "title": "Marko 6: Resumability, Tags API, & Language Primitives"
+        },
+        {
+          "startTime": 9420,
+          "endTime": 10080,
+          "title": "Marko 6: What's Next?"
+        },
+        {
+          "startTime": 10080,
+          "endTime": 11250,
+          "title": "Conclusion: Has Web Dev Gotten Too Complex?"
+        },
+        {
+          "startTime": 11250,
+          "endTime": 12330,
+          "title": "Conclusion: Serialization & Resumability"
+        },
+        {
+          "startTime": 12330,
+          "endTime": 13410,
+          "title": "Conclusion: Serialization & Secrets"
+        },
+        {
+          "startTime": 13410,
+          "endTime": 13905,
+          "title": "Solid Router Data APIs: Loaders"
+        },
+        {
+          "startTime": 13905,
+          "endTime": 14580,
+          "title": "SRDA: Actions"
+        },
+        {
+          "startTime": 14580,
+          "endTime": 15015,
+          "title": "SRDA: Todos Example"
+        },
+        {
+          "startTime": 15015,
+          "endTime": 16320,
+          "title": "SRDA: Q&A - De-duping & Avoiding Waterfalls"
+        },
+        {
+          "startTime": 16320,
+          "endTime": 17295,
+          "title": "SRDA: Q&A - The Problem with Async Components"
+        },
+        {
+          "startTime": 17295,
+          "endTime": 17505,
+          "title": "This Week in JavaScript: TanStack Query v5"
+        },
+        {
+          "startTime": 17505,
+          "endTime": 18510,
+          "title": "TWiJ: Ryan's \"Spicy\" DHH Tweet"
+        },
+        {
+          "startTime": 18510,
+          "endTime": 19500,
+          "title": "TWiJ: Serialization and Locality of Thinking"
+        },
+        {
+          "startTime": 19500,
+          "endTime": 20010,
+          "title": "TWiJ: Ryan Florence on RSCs & Adam Rackis on GraphQL"
+        },
+        {
+          "startTime": 20010,
+          "endTime": 20818,
+          "title": "TWiJ: JS Framework Benchmark Updates & Conclusion"
+        }
+      ],
+      "description": "It's been a while since we've had an update on Marko. Michael Rawlings, Marko resident visionary, joins us to talk Metaframeworks, Resumability, and Compiler Macros. We might even glimpse the often talked about but ever-elusive, Marko 6.\n\n[0:00] Preamble\n[9:00] Welcome Michael Rawlings (A Meme Artist)\n[16:00] Michael Finds Marko\n[23:00] Marko 3: Michael Gets Involved with Marko\n[32:00] Marko 4: Server Rendering Advances & Backwards Compatibility\n[46:00] TypeScript Support: Basics\n[52:45] TypeScript Support: Control Flow & Generics\n[1:01:15] TypeScript Support: Higher Order Types & Compilation\n[1:10:15] Marko Run: Creating a New Project (Movies App Discussion)\n[1:20:30] Marko Run: Vite & eBay\n[1:25:30] Marko Run: Routing Conventions\n[1:36:00] Marko Run: Handlers, Await, & global.meta\n[1:44:30] Marko Run: Running the Demo & Exploring Routes\n[1:55:45] Marko 6: Intro - Playground & Compilation Output\n[2:03:30] Marko 6: queueSource, queueEffect & scope\n[2:16:15] Marko 6: Resumability, Tags API, & Language Primitives\n[2:37:00] Marko 6: What's Next?\n[2:48:00] Conclusion: Has Web Dev Gotten Too Complex?\n[3:07:30] Conclusion: Serialization & Resumability\n[3:25:30] Conclusion: Serialization & Secrets\n[3:43:30] Solid Router Data APIs: Loaders\n[3:51:45] SRDA: Actions\n[4:03:00] SRDA: Todos Example \n[4:10:15] SRDA: Q&A - De-duping & Avoiding Waterfalls\n[4:32:00] SRDA: Q&A - The Problem with Async Components\n[4:48:15] This Week in JavaScript: TanStack Query v5\n[4:51:45] TWiJ: Ryan's \"Spicy\" DHH Tweet \n[5:08:30] TWiJ: Serialization and Locality of Thinking\n[5:25:00] TWiJ: Ryan Florence on RSCs & Adam Rackis on GraphQL\n[5:33:30] TWiJ: JS Framework Benchmark Updates & Conclusion\n\nThank you @zombiefacesupreme for the timestamps."
+    }
+  }
+}

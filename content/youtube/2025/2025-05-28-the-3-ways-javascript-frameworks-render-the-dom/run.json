@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "The 3 Ways JavaScript Frameworks Render the DOM",
+      "slug": "2025-05-28-the-3-ways-javascript-frameworks-render-the-dom",
+      "duration": "16:52",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=0C-y59betmY",
+      "publishDate": "2025-05-28",
+      "thumbnail": "https://i.ytimg.com/vi/0C-y59betmY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 51,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 51,
+          "endTime": 99,
+          "title": "Anatomy of a Template"
+        },
+        {
+          "startTime": 99,
+          "endTime": 203,
+          "title": "Render by Replacement"
+        },
+        {
+          "startTime": 203,
+          "endTime": 287,
+          "title": "The DOM is slow?"
+        },
+        {
+          "startTime": 287,
+          "endTime": 555,
+          "title": "Dirty Checking"
+        },
+        {
+          "startTime": 555,
+          "endTime": 786,
+          "title": "Virtual DOM"
+        },
+        {
+          "startTime": 786,
+          "endTime": 969,
+          "title": "Fine-Grained"
+        },
+        {
+          "startTime": 969,
+          "endTime": 1012,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "That's right, there are only 3.  There may have been dozens of JavaScript frameworks over the years, but how they render the DOM is almost always identical. In this video, we will look at the approaches all Declarative JavaScript frameworks update the DOM to better understand how they work and their pros and cons.\n\n[0:00] Introduction\n[0:51] Anatomy of a Template\n[1:39] Render by Replacement\n[3:23] The DOM is slow?\n[4:47] Dirty Checking\n[9:15] Virtual DOM\n[13:06] Fine-Grained\n[16:09] Conclusion\n\nExamples:\nReplacement - https://playground.solidjs.com/anonymous/ba6baa78-37b1-4a60-8a5f-ac34b0f47c6b\nDirty Checking - https://playground.solidjs.com/anonymous/4499a448-3a92-4886-94e2-52820817c208\nVirtual DOM - https://playground.solidjs.com/anonymous/b9cdee71-a908-4a00-a36e-b41838cb660c\nFine-Grained - https://playground.solidjs.com/anonymous/e89f77f1-19b3-4286-8dff-31902de34bdd"
+    }
+  }
+}

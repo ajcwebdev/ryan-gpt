@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Netlify and Vercel and Cloudflare, Oh My!",
+      "slug": "2021-11-13-netlify-and-vercel-and-cloudflare-oh-my",
+      "duration": "2:58:29",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=O2kFXlNSdn0",
+      "publishDate": "2021-11-13",
+      "thumbnail": "https://i.ytimg.com/vi/O2kFXlNSdn0/hqdefault.jpg?v=618ea61c",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 206,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 206,
+          "endTime": 1191,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 1191,
+          "endTime": 2413,
+          "title": "Netlify"
+        },
+        {
+          "startTime": 2413,
+          "endTime": 3600,
+          "title": "Vercel"
+        },
+        {
+          "startTime": 3600,
+          "endTime": 4257,
+          "title": "Serverless and Edge Functions"
+        },
+        {
+          "startTime": 4257,
+          "endTime": 4477,
+          "title": "Cloudflare"
+        },
+        {
+          "startTime": 4477,
+          "endTime": 6885,
+          "title": "Sebastian Markbage Twitter Thread"
+        },
+        {
+          "startTime": 6885,
+          "endTime": 7793,
+          "title": "What makes React Special"
+        },
+        {
+          "startTime": 7793,
+          "endTime": 10223,
+          "title": "Unidirectional Flow"
+        },
+        {
+          "startTime": 10223,
+          "endTime": 10597,
+          "title": "onChange"
+        },
+        {
+          "startTime": 10597,
+          "endTime": 10709,
+          "title": "Outro"
+        }
+      ],
+      "description": "This stream looks at what deployment is like on different platforms. And reflect on the work we've been doing with adapters in Solid Start. \n\n[0:00] Introduction\n[3:26] This Week in JavaScript\n[19:51] Netlify\n[40:13] Vercel\n[1:00:00] Serverless and Edge Functions\n[1:10:57] Cloudflare\n[1:14:37] Sebastian Markbage Twitter Thread\n[1:54:45] What makes React Special\n[2:09:53] Unidirectional Flow\n[2:50:23] onChange\n[2:56:37] Outro"
+    }
+  }
+}

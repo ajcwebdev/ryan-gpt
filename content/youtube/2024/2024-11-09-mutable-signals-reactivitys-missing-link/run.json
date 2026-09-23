@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Mutable Signals - Reactivity's Missing Link",
+      "slug": "2024-11-09-mutable-signals-reactivitys-missing-link",
+      "duration": "5:53:50",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=jfZdl3QckMM",
+      "publishDate": "2024-11-09",
+      "thumbnail": "https://i.ytimg.com/vi/jfZdl3QckMM/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 555,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 555,
+          "endTime": 1275,
+          "title": "Aside: Framework Trickery with The Event Loop"
+        },
+        {
+          "startTime": 1275,
+          "endTime": 1575,
+          "title": "Aside: Cancellable Promises"
+        },
+        {
+          "startTime": 1575,
+          "endTime": 1815,
+          "title": "Mutable Derivations in Reactivity: Introduction"
+        },
+        {
+          "startTime": 1815,
+          "endTime": 2340,
+          "title": "MDiR: At Their Core, Signals Are Immutable"
+        },
+        {
+          "startTime": 2340,
+          "endTime": 2880,
+          "title": "MDiR: (World) Beyond Components & Compiler Limitations"
+        },
+        {
+          "startTime": 2880,
+          "endTime": 3420,
+          "title": "MDiR: Reducing Operations & Signals vs. Streams"
+        },
+        {
+          "startTime": 3420,
+          "endTime": 3840,
+          "title": "MDiR: Nested Signals & Nested Effects"
+        },
+        {
+          "startTime": 3840,
+          "endTime": 4380,
+          "title": "MDiR: Proxies & Reactive Stores"
+        },
+        {
+          "startTime": 4380,
+          "endTime": 4740,
+          "title": "MDiR: Immutable Updates vs. Mutable Change"
+        },
+        {
+          "startTime": 4740,
+          "endTime": 5115,
+          "title": "MDiR: Revisiting Derivations - state = fn(state)"
+        },
+        {
+          "startTime": 5115,
+          "endTime": 5355,
+          "title": "MDiR: Following the Shape - The Getter/Setter Pyramid"
+        },
+        {
+          "startTime": 5355,
+          "endTime": 5715,
+          "title": "MDiR: A Getter-Setter (Linked Signals)"
+        },
+        {
+          "startTime": 5715,
+          "endTime": 6075,
+          "title": "MDiR: createWritable & Higher-Order Signals"
+        },
+        {
+          "startTime": 6075,
+          "endTime": 6555,
+          "title": "MDiR: Derived Signals Through createSignal"
+        },
+        {
+          "startTime": 6555,
+          "endTime": 6975,
+          "title": "MDiR: The Problem With Diffing"
+        },
+        {
+          "startTime": 6975,
+          "endTime": 7560,
+          "title": "MDiR: Exploring Projections & \"The Grand Unifying Theory\""
+        },
+        {
+          "startTime": 7560,
+          "endTime": 7860,
+          "title": "Intermission 1"
+        },
+        {
+          "startTime": 7860,
+          "endTime": 8100,
+          "title": "Exploring Mutable Reactivity: Introduction"
+        },
+        {
+          "startTime": 8100,
+          "endTime": 8715,
+          "title": "EMR: The .map function"
+        },
+        {
+          "startTime": 8715,
+          "endTime": 9360,
+          "title": "EMR: Templating Is a Map Function - Key by Index"
+        },
+        {
+          "startTime": 9360,
+          "endTime": 9990,
+          "title": "EMR: TIaMF - Explicit Key"
+        },
+        {
+          "startTime": 9990,
+          "endTime": 10245,
+          "title": "EMR: TIaMF - Key by Reference"
+        },
+        {
+          "startTime": 10245,
+          "endTime": 11010,
+          "title": "EMR: TIaMF - Repeat & Concluding Thoughts on Control Flow"
+        },
+        {
+          "startTime": 11010,
+          "endTime": 11400,
+          "title": "EMR: The .reduce function"
+        },
+        {
+          "startTime": 11400,
+          "endTime": 11925,
+          "title": "EMR: The .filter function"
+        },
+        {
+          "startTime": 11925,
+          "endTime": 12375,
+          "title": "EMR: Conclusion & Why createAsync Doesn't Have .loading"
+        },
+        {
+          "startTime": 12375,
+          "endTime": 12540,
+          "title": "Fixing Reconcile/Stores: Understanding the Challenges"
+        },
+        {
+          "startTime": 12540,
+          "endTime": 13035,
+          "title": "FR/S: UtC - Cloning Internals"
+        },
+        {
+          "startTime": 13035,
+          "endTime": 13230,
+          "title": "FR/S: UtC - uibench (UI Benchmark)"
+        },
+        {
+          "startTime": 13230,
+          "endTime": 13440,
+          "title": "FR/S: UtC - Structured Operations"
+        },
+        {
+          "startTime": 13440,
+          "endTime": 13845,
+          "title": "FR/S: Finding A Solution (Cloning on Write?)"
+        },
+        {
+          "startTime": 13845,
+          "endTime": 14625,
+          "title": "FR/S: CODE - Playground Examples"
+        },
+        {
+          "startTime": 14625,
+          "endTime": 14955,
+          "title": "FR/S: Defining A Diff Format (Immutable)"
+        },
+        {
+          "startTime": 14955,
+          "endTime": 15585,
+          "title": "FR/S: Conclusion"
+        },
+        {
+          "startTime": 15585,
+          "endTime": 16035,
+          "title": "Nature of Async: Lazy Async Causes Waterfalls"
+        },
+        {
+          "startTime": 16035,
+          "endTime": 16290,
+          "title": "NoA: Async Tearing is Wasteful"
+        },
+        {
+          "startTime": 16290,
+          "endTime": 16575,
+          "title": "NoA: Suspense is Necessary & .latest / resolveSync"
+        },
+        {
+          "startTime": 16575,
+          "endTime": 17160,
+          "title": "NoA: Conclusion"
+        },
+        {
+          "startTime": 17160,
+          "endTime": 17280,
+          "title": "Intermission 2"
+        },
+        {
+          "startTime": 17280,
+          "endTime": 17490,
+          "title": "This Week in JavaScript: Solid News - SolidHack"
+        },
+        {
+          "startTime": 17490,
+          "endTime": 17880,
+          "title": "TWiJ: Solid News - SolidJS Book & Solid Desktop"
+        },
+        {
+          "startTime": 17880,
+          "endTime": 18015,
+          "title": "TWiJ: Solid News - Benchmarks on The Solid Site"
+        },
+        {
+          "startTime": 18015,
+          "endTime": 18210,
+          "title": "TWiJ: Early Returns - Introduction & Reading the Article"
+        },
+        {
+          "startTime": 18210,
+          "endTime": 18450,
+          "title": "TWiJ: Early Returns - This Is Not Great"
+        },
+        {
+          "startTime": 18450,
+          "endTime": 18900,
+          "title": "TWiJ: Early Returns - Syntax & Readability"
+        },
+        {
+          "startTime": 18900,
+          "endTime": 19470,
+          "title": "TWiJ: Early Returns - Conclusion"
+        },
+        {
+          "startTime": 19470,
+          "endTime": 19785,
+          "title": "TWiJ: Solid Runes / solid-labels"
+        },
+        {
+          "startTime": 19785,
+          "endTime": 20400,
+          "title": "TWiJ: Syntax is Overrated (Vue Vine & \"Copying React\")"
+        },
+        {
+          "startTime": 20400,
+          "endTime": 20880,
+          "title": "TWiJ: \"Svelte Has No Future\""
+        },
+        {
+          "startTime": 20880,
+          "endTime": 21229,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "The past few months I feel like I've been on a path of discovery. I'm very excited to talk about it today and discuss what this means for the future of Signals-based architecture.\n\n[0:00:00] Preamble\n[0:09:15] Aside: Framework Trickery with The Event Loop\n[0:21:15] Aside: Cancellable Promises\n[0:26:15] Mutable Derivations in Reactivity: Introduction\n[0:30:15] MDiR: At Their Core, Signals Are Immutable\n[0:39:00] MDiR: (World) Beyond Components & Compiler Limitations\n[0:48:00] MDiR: Reducing Operations & Signals vs. Streams\n[0:57:00] MDiR: Nested Signals & Nested Effects\n[1:04:00] MDiR: Proxies & Reactive Stores\n[1:13:00] MDiR: Immutable Updates vs. Mutable Change\n[1:19:00] MDiR: Revisiting Derivations - state = fn(state)\n[1:25:15] MDiR: Following the Shape - The Getter/Setter Pyramid\n[1:29:15] MDiR: A Getter-Setter (Linked Signals)\n[1:35:15] MDiR: createWritable & Higher-Order Signals\n[1:41:15] MDiR: Derived Signals Through createSignal\n[1:49:15] MDiR: The Problem With Diffing\n[1:56:15] MDiR: Exploring Projections & \"The Grand Unifying Theory\"\n[2:06:00] Intermission 1\n[2:11:00] Exploring Mutable Reactivity: Introduction\n[2:15:00] EMR: The .map function\n[2:25:15] EMR: Templating Is a Map Function - Key by Index\n[2:36:00] EMR: TIaMF - Explicit Key\n[2:46:30] EMR: TIaMF - Key by Reference\n[2:50:45] EMR: TIaMF - Repeat & Concluding Thoughts on Control Flow\n[3:03:30] EMR: The .reduce function \n[3:10:00] EMR: The .filter function\n[3:18:45] EMR: Conclusion & Why createAsync Doesn't Have .loading\n[3:26:15] Fixing Reconcile/Stores: Understanding the Challenges\n[3:29:00] FR/S: UtC - Cloning Internals\n[3:37:15] FR/S: UtC - uibench (UI Benchmark)\n[3:40:30] FR/S: UtC - Structured Operations\n[3:44:00] FR/S: Finding A Solution (Cloning on Write?)\n[3:50:45] FR/S: CODE - Playground Examples\n[4:03:45] FR/S: Defining A Diff Format (Immutable) \n[4:09:15] FR/S: Conclusion\n[4:19:45] Nature of Async: Lazy Async Causes Waterfalls\n[4:27:15] NoA: Async Tearing is Wasteful\n[4:31:30] NoA: Suspense is Necessary & .latest / resolveSync\n[4:36:15] NoA: Conclusion\n[4:46:00] Intermission 2\n[4:48:00] This Week in JavaScript: Solid News - SolidHack\n[4:51:30] TWiJ: Solid News - SolidJS Book & Solid Desktop\n[4:58:00] TWiJ: Solid News - Benchmarks on The Solid Site \n[5:00:15] TWiJ: Early Returns - Introduction & Reading the Article\n[5:03:30] TWiJ: Early Returns - This Is Not Great\n[5:07:30] TWiJ: Early Returns - Syntax & Readability\n[5:15:00] TWiJ: Early Returns - Conclusion\n[5:24:30] TWiJ: Solid Runes / solid-labels\n[5:29:45] TWiJ: Syntax is Overrated (Vue Vine & \"Copying React\")\n[5:40:00] TWiJ: \"Svelte Has No Future\"\n[5:48:00] Conclusion\n\nThanks @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

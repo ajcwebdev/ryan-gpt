@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "A First Look at Next.js",
+      "slug": "2022-04-16-a-first-look-at-nextjs",
+      "duration": "2:13:10",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=m-Gl_Cc8xOg",
+      "publishDate": "2022-04-16",
+      "thumbnail": "https://i.ytimg.com/vi/m-Gl_Cc8xOg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 187,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 187,
+          "endTime": 3071,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 3071,
+          "endTime": 4130,
+          "title": "Talking Next"
+        },
+        {
+          "startTime": 4130,
+          "endTime": 6713,
+          "title": "Building Hackernews"
+        },
+        {
+          "startTime": 6713,
+          "endTime": 7920,
+          "title": "Benchmarking"
+        },
+        {
+          "startTime": 7920,
+          "endTime": 7990,
+          "title": "Outro"
+        }
+      ],
+      "description": "It may surprise some of you but I've never really looked at Next.js. And it has been strangely absent from my coverage of other meta frameworks. Although there is a lot changing today will just be an introduction to classic Next. In the future we might look at edge functions and React 18 features but today we keep it simple, since I admit I have no idea what I'm doing.\n\n[0:00] Introduction\n[3:07] This Week in JavaScript\n[51:11] Talking Next\n[1:08:50] Building Hackernews\n[1:51:53] Benchmarking\n[2:12:00] Outro"
+    }
+  }
+}

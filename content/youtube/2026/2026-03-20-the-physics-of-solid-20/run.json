@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "The Physics of Solid 2.0",
+      "slug": "2026-03-20-the-physics-of-solid-20",
+      "duration": "5:55:48",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Nnrr3rurv4M",
+      "publishDate": "2026-03-20",
+      "thumbnail": "https://i.ytimg.com/vi/Nnrr3rurv4M/sddefault.jpg?v=69bd7341",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 1050,
+          "title": "Stream Setup and AI Content Debate"
+        },
+        {
+          "startTime": 1050,
+          "endTime": 2040,
+          "title": "AI Writing Process and Article Reception"
+        },
+        {
+          "startTime": 2040,
+          "endTime": 3100,
+          "title": "Web Components, Data Star, and Framework Philosophy"
+        },
+        {
+          "startTime": 3100,
+          "endTime": 3960,
+          "title": "The Physics of React: Why Deferred Commits Are Correct"
+        },
+        {
+          "startTime": 3960,
+          "endTime": 5220,
+          "title": "Derived State, Ephemeral Overrides, and Solid 2.0's Solution"
+        },
+        {
+          "startTime": 5220,
+          "endTime": 6120,
+          "title": "Async Effects and the Dependency Discovery Problem"
+        },
+        {
+          "startTime": 6120,
+          "endTime": 7200,
+          "title": "Compiler Limitations and Why Runtime Reactivity Wins"
+        },
+        {
+          "startTime": 7200,
+          "endTime": 8220,
+          "title": "Commit Isolation, Transitions, and the Consistency Contract"
+        },
+        {
+          "startTime": 8220,
+          "endTime": 9720,
+          "title": "Rich Harris's Response and the Color of Async"
+        },
+        {
+          "startTime": 9720,
+          "endTime": 11100,
+          "title": "Split Effects in Practice and Developer Warnings"
+        },
+        {
+          "startTime": 11100,
+          "endTime": 12600,
+          "title": "Why Compilers Can't Extract Signal Dependencies"
+        },
+        {
+          "startTime": 12600,
+          "endTime": 13620,
+          "title": "The Three Phases of Async and Framework DX Comparison"
+        },
+        {
+          "startTime": 13620,
+          "endTime": 15000,
+          "title": "Async Components, Waterfalls, and the Promise.all Trap"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 16080,
+          "title": "Colorless Async as Optimal DX"
+        },
+        {
+          "startTime": 16080,
+          "endTime": 17280,
+          "title": "Live Demos: Nested Fetching and Streaming Iterators"
+        },
+        {
+          "startTime": 17280,
+          "endTime": 19560,
+          "title": "The Divide Example and Transition Boundary Mechanics"
+        },
+        {
+          "startTime": 19560,
+          "endTime": 21347,
+          "title": "This Week in JavaScript and Closing Thoughts"
+        }
+      ],
+      "description": "Early bugs in Solid 2.0 Beta have made it clearer where developer knowledge gaps are. Today I'm going to look at how Solid 2.0 implements the rules of async in a more mechanical way.\n\n00:00:00 - Stream Setup and AI Content Debate\n00:17:30 - AI Writing Process and Article Reception\n00:34:00 - Web Components, Data Star, and Framework Philosophy\n00:51:40 - The Physics of React: Why Deferred Commits Are Correct\n01:06:00 - Derived State, Ephemeral Overrides, and Solid 2.0's Solution\n01:27:00 - Async Effects and the Dependency Discovery Problem\n01:42:00 - Compiler Limitations and Why Runtime Reactivity Wins\n02:00:00 - Commit Isolation, Transitions, and the Consistency Contract\n02:17:00 - Rich Harris's Response and the Color of Async\n02:42:00 - Split Effects in Practice and Developer Warnings\n03:05:00 - Why Compilers Can't Extract Signal Dependencies\n03:30:00 - The Three Phases of Async and Framework DX Comparison\n03:47:00 - Async Components, Waterfalls, and the Promise.all Trap\n04:10:00 - Colorless Async as Optimal DX\n04:28:00 - Live Demos: Nested Fetching and Streaming Iterators\n04:48:00 - The Divide Example and Transition Boundary Mechanics\n05:26:00 - This Week in JavaScript and Closing Thoughts\n\nChapter titles generated with ajcwebdev/autoshow-cli and Claude Opus 4.6"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidJS in React? Reconciling Disparate Worlds",
+      "slug": "2023-01-21-solidjs-in-react-reconciling-disparate-worlds",
+      "duration": "4:27:34",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=p9pwHyM5Z98",
+      "publishDate": "2023-01-21",
+      "thumbnail": "https://i.ytimg.com/vi/p9pwHyM5Z98/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 616,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 616,
+          "endTime": 1418,
+          "title": "Very Different Runtime"
+        },
+        {
+          "startTime": 1418,
+          "endTime": 1930,
+          "title": "Can a Compiler Solve This?"
+        },
+        {
+          "startTime": 1930,
+          "endTime": 2433,
+          "title": "What's in a Language?"
+        },
+        {
+          "startTime": 2433,
+          "endTime": 2922,
+          "title": "Cross-module Reactivity"
+        },
+        {
+          "startTime": 2922,
+          "endTime": 3375,
+          "title": "Compiler Challenges"
+        },
+        {
+          "startTime": 3375,
+          "endTime": 3775,
+          "title": "React Solid State"
+        },
+        {
+          "startTime": 3775,
+          "endTime": 4273,
+          "title": "createReaction"
+        },
+        {
+          "startTime": 4273,
+          "endTime": 4929,
+          "title": "Comparing State Management Solutions in React"
+        },
+        {
+          "startTime": 4929,
+          "endTime": 6496,
+          "title": "Mutable vs Immutable Changes"
+        },
+        {
+          "startTime": 6496,
+          "endTime": 7974,
+          "title": "Identity by Reference vs Path"
+        },
+        {
+          "startTime": 7974,
+          "endTime": 8918,
+          "title": "Building Adapters"
+        },
+        {
+          "startTime": 8918,
+          "endTime": 9122,
+          "title": "Solid in React"
+        },
+        {
+          "startTime": 9122,
+          "endTime": 10391,
+          "title": "Sharing Context"
+        },
+        {
+          "startTime": 10391,
+          "endTime": 11297,
+          "title": "React Compat a Good Thing?"
+        },
+        {
+          "startTime": 11297,
+          "endTime": 16054,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "As similar as SolidJS and React look on the surface it has been challenging to have them play nicely together. From Compilation to Compat, State Management to Adapters, I'm going to explore just how different these frameworks are and if they have any chance of working together.\n\n[0:00] Preamble\n[10:16] Very Different Runtime\n[23:38] Can a Compiler Solve This?\n[32:10] What's in a Language?\n[40:33] Cross-module Reactivity\n[48:42] Compiler Challenges\n[56:15] React Solid State\n[1:02:55] createReaction\n[1:11:13] Comparing State Management Solutions in React\n[1:22:09] Mutable vs Immutable Changes\n[1:48:16] Identity by Reference vs Path\n[2:12:54] Building Adapters\n[2:28:38] Solid in React\n[2:32:02] Sharing Context\n[2:53:11] React Compat a Good Thing?\n[3:08:17] This Week in JavaScript"
+    }
+  }
+}

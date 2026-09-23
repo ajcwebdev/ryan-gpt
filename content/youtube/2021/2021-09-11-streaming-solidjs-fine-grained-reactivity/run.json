@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS: Fine-Grained Reactivity",
+      "slug": "2021-09-11-streaming-solidjs-fine-grained-reactivity",
+      "duration": "2:00:50",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=b9e7VXs_A4s",
+      "publishDate": "2021-09-11",
+      "thumbnail": "https://i.ytimg.com/vi/b9e7VXs_A4s/hqdefault.jpg?v=613bfece",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 880,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 880,
+          "endTime": 1744,
+          "title": "Signals & Effects"
+        },
+        {
+          "startTime": 1744,
+          "endTime": 2880,
+          "title": "Derivations"
+        },
+        {
+          "startTime": 2880,
+          "endTime": 3900,
+          "title": "Untrack"
+        },
+        {
+          "startTime": 3900,
+          "endTime": 4666,
+          "title": "Glitch Free Execution"
+        },
+        {
+          "startTime": 4666,
+          "endTime": 4986,
+          "title": "Cleanup"
+        },
+        {
+          "startTime": 4986,
+          "endTime": 7249,
+          "title": "Reactive Rendering"
+        }
+      ],
+      "description": "I'm going to go over the topic of fine-grained reactivity based on my article series and answer any questions along the way.\n\n[0:00] Introduction\n[14:40] Signals & Effects\n[29:04] Derivations\n[48:00] Untrack\n[1:05:00] Glitch Free Execution\n[1:17:46] Cleanup\n[1:23:06] Reactive Rendering"
+    }
+  }
+}

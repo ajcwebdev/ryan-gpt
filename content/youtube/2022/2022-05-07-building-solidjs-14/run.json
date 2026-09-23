@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Building SolidJS 1.4",
+      "slug": "2022-05-07-building-solidjs-14",
+      "duration": "3:12:35",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=2UPX0HZxXEQ",
+      "publishDate": "2022-05-07",
+      "thumbnail": "https://i.ytimg.com/vi/2UPX0HZxXEQ/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 249,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 249,
+          "endTime": 4309,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 4309,
+          "endTime": 4407,
+          "title": "Introducing Solid 1.4"
+        },
+        {
+          "startTime": 4407,
+          "endTime": 5046,
+          "title": "Fun with Classes"
+        },
+        {
+          "startTime": 5046,
+          "endTime": 5234,
+          "title": "Spreading Null"
+        },
+        {
+          "startTime": 5234,
+          "endTime": 6230,
+          "title": "Resource Deferred Streaming"
+        },
+        {
+          "startTime": 6230,
+          "endTime": 7405,
+          "title": "Stale Resource Reads"
+        },
+        {
+          "startTime": 7405,
+          "endTime": 9516,
+          "title": "Top Level Arrays in Stores"
+        },
+        {
+          "startTime": 9516,
+          "endTime": 10549,
+          "title": "Batching createMutable"
+        },
+        {
+          "startTime": 10549,
+          "endTime": 10789,
+          "title": "Multiple Custom Renderers"
+        },
+        {
+          "startTime": 10789,
+          "endTime": 11472,
+          "title": "Glitch-free Stores"
+        },
+        {
+          "startTime": 11472,
+          "endTime": 11555,
+          "title": "Outro"
+        }
+      ],
+      "description": "Tonight we look at the new features coming in SolidJS 1.4, including better streaming and resource handling, improved Stores, and added compiler niceties. I won't just preview the features. We will dig into the code to see how they are implemented.\n\n[0:00] Introduction\n[4:09] This Week in JavaScript\n[1:11:49] Introducing Solid 1.4\n[1:13:27] Fun with Classes\n[1:24:06] Spreading Null\n[1:27:14] Resource Deferred Streaming\n[1:43:50] Stale Resource Reads\n[2:03:25] Top Level Arrays in Stores\n[2:38:36] Batching createMutable\n[2:55:49] Multiple Custom Renderers\n[2:59:49] Glitch-free Stores\n[3:11:12] Outro\n\nBanner credits: ©️ Characters from Chrono Crusade by Gonzo K.K. / ADK Holdings"
+    }
+  }
+}

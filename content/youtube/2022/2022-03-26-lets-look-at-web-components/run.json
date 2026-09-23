@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Let's look at Web Components",
+      "slug": "2022-03-26-lets-look-at-web-components",
+      "duration": "3:03:56",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=BEWkLXU1Wlc",
+      "publishDate": "2022-03-26",
+      "thumbnail": "https://i.ytimg.com/vi/BEWkLXU1Wlc/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 342,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 342,
+          "endTime": 1699,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 1699,
+          "endTime": 1939,
+          "title": "Intro to Web Components"
+        },
+        {
+          "startTime": 1939,
+          "endTime": 2640,
+          "title": "Building a Custom Element"
+        },
+        {
+          "startTime": 2640,
+          "endTime": 3118,
+          "title": "Adding a Template"
+        },
+        {
+          "startTime": 3118,
+          "endTime": 3768,
+          "title": "Entering the Shadow DOM"
+        },
+        {
+          "startTime": 3768,
+          "endTime": 3918,
+          "title": "Web Components Need Libraries"
+        },
+        {
+          "startTime": 3918,
+          "endTime": 5837,
+          "title": "Library Showcase"
+        },
+        {
+          "startTime": 5837,
+          "endTime": 7842,
+          "title": "Failed Promise of Web Components"
+        },
+        {
+          "startTime": 7842,
+          "endTime": 8350,
+          "title": "No Build"
+        },
+        {
+          "startTime": 8350,
+          "endTime": 9082,
+          "title": "The Fastest Way to Render the DOM"
+        },
+        {
+          "startTime": 9082,
+          "endTime": 11035,
+          "title": "Open Discussion"
+        }
+      ],
+      "description": "In the spirit of looking at technology I haven't covered on stream, and that I have a long history with, this week we will look at Web Components. There has been a struggle between frameworks and \"the platform\" that has culminated around them that is worth exploring, plus looking at tools and approaches to using them.\n\n[0:00] Introduction\n[5:42] This Week in JavaScript\n[28:19] Intro to Web Components\n[32:19] Building a Custom Element\n[44:00] Adding a Template\n[51:58] Entering the Shadow DOM\n[1:02:48] Web Components Need Libraries\n[1:05:18] Library Showcase\n[1:37:17] Failed Promise of Web Components\n[2:10:42] No Build\n[2:19:10] The Fastest Way to Render the DOM\n[2:31:22] Open Discussion\n\nResources:\n\nLibraries:\nhttps://polymer-library.polymer-project.org/3.0/docs/devguide/feature-overview\nhttps://skatejs.netlify.app/\nhttps://lit.dev/\nhttps://stenciljs.com/\n\nExamples:\nLit Playground: https://lit.dev/playground/\n Solid Element: https://codesandbox.io/s/solid-counter-element-qt5up?file=/index.html\n\nMy Journey:\nhttps://betterprogramming.pub/the-real-cost-of-ui-components-6d2da4aba205\nhttps://dev.to/this-is-learning/the-real-cost-of-ui-components-revisited-4d23\n\nFramework Perspective\nhttps://dev.to/richharris/why-i-don-t-use-web-components-2cia\nhttps://dev.to/ryansolid/maybe-web-components-are-not-the-future-hfh"
+    }
+  }
+}

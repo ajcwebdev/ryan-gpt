@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Marko 6: Fulfilling the Promise of Less JavaScript w/ Dylan Piercey",
+      "slug": "2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey",
+      "duration": "5:38:24",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=x-3RxGf4KA8",
+      "publishDate": "2025-09-05",
+      "thumbnail": "https://i.ytimg.com/vi/x-3RxGf4KA8/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "We've seen a lot of technology compete in the low JavaScript space but from what I've seen none do it better than Marko. Because Marko scales with the demand, automatically. Forget Islands, forget `$`, forget your low JS library for your non-JS backend. Dylan Piercey joins us on stream again to talk about the much anticipated Marko 6 Beta."
+    }
+  }
+}

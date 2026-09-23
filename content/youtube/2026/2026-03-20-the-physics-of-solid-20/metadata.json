@@ -1,0 +1,77 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=Nnrr3rurv4M",
+    "videoTitle": "The Physics of Solid 2.0",
+    "videoPublishDate": "2026-03-20",
+    "videoThumbnail": "https://i.ytimg.com/vi/Nnrr3rurv4M/sddefault.jpg?v=69bd7341",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "5:55:47",
+    "videoDescription": "Early bugs in Solid 2.0 Beta have made it clearer where developer knowledge gaps are. Today I'm going to look at how Solid 2.0 implements the rules of async in a more mechanical way.",
+    "audioFileName": "2026-03-20-the-physics-of-solid-20.wav",
+    "audioFileSize": 683105138
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/c/as/autoshow-cli/runtime/models/whisper/ggml-large-v3-turbo.bin | coreml:/Users/ajc/c/as/autoshow-cli/runtime/models/whisper/ggml-large-v3-turbo-encoder.mlmodelc",
+    "transcriptionModelName": "large-v3-turbo",
+    "processingTime": 1400220,
+    "tokenCount": 48818
+  },
+  "cost": {
+    "estimated": {
+      "totalCost": 0,
+      "steps": [
+        {
+          "step": "stt",
+          "provider": "whisper",
+          "model": "large-v3-turbo",
+          "cost": 0,
+          "costMultiplier": 1,
+          "durationSeconds": 0
+        }
+      ]
+    },
+    "actual": {
+      "totalCost": 0,
+      "steps": [
+        {
+          "step": "stt",
+          "provider": "whisper",
+          "model": "large-v3-turbo",
+          "cost": 0,
+          "inputMetric": "durationSeconds",
+          "inputValue": 21347
+        }
+      ]
+    }
+  },
+  "timing": {
+    "estimated": {
+      "totalProcessingTimeMs": 2134700,
+      "steps": [
+        {
+          "step": "stt",
+          "provider": "whisper",
+          "model": "large-v3-turbo",
+          "processingTimeMs": 2134700,
+          "inputMetric": "durationSeconds",
+          "inputValue": 21347
+        }
+      ]
+    },
+    "actual": {
+      "totalProcessingTimeMs": 1400220,
+      "steps": [
+        {
+          "step": "stt",
+          "provider": "whisper",
+          "model": "large-v3-turbo",
+          "processingTimeMs": 1400220,
+          "inputMetric": "durationSeconds",
+          "inputValue": 21347
+        }
+      ]
+    }
+  }
+}

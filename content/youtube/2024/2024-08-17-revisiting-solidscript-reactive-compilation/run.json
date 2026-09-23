@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Revisiting SolidScript: Reactive Compilation",
+      "slug": "2024-08-17-revisiting-solidscript-reactive-compilation",
+      "duration": "4:57:40",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=4TdOEe6liSE",
+      "publishDate": "2024-08-17",
+      "thumbnail": "https://i.ytimg.com/vi/4TdOEe6liSE/sddefault.jpg?v=66be2a3e",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 75,
+          "title": "Starting Soon"
+        },
+        {
+          "startTime": 75,
+          "endTime": 870,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 870,
+          "endTime": 1770,
+          "title": "Investigating Youtube's Broken Admin Console"
+        },
+        {
+          "startTime": 1770,
+          "endTime": 2625,
+          "title": "Revisiting SolidScript: Reactive Compilation"
+        },
+        {
+          "startTime": 2625,
+          "endTime": 3000,
+          "title": "RSS: The Destiny Operator"
+        },
+        {
+          "startTime": 3000,
+          "endTime": 3645,
+          "title": "RSS: Primitives and Wrappers"
+        },
+        {
+          "startTime": 3645,
+          "endTime": 4065,
+          "title": "RSS: The Quest for ReactiveScript"
+        },
+        {
+          "startTime": 4065,
+          "endTime": 4590,
+          "title": "RSS: Svelte 5 & Tracking Context"
+        },
+        {
+          "startTime": 4590,
+          "endTime": 5250,
+          "title": "RSS: Rich Harris's Recent Tweets"
+        },
+        {
+          "startTime": 5250,
+          "endTime": 5610,
+          "title": "RSS: Stores & Read/Write Segregation"
+        },
+        {
+          "startTime": 5610,
+          "endTime": 6060,
+          "title": "Q&A: One-Liners? Dangerous? Types?"
+        },
+        {
+          "startTime": 6060,
+          "endTime": 6720,
+          "title": "RSS: Derived Stores (Projections) & Mutability"
+        },
+        {
+          "startTime": 6720,
+          "endTime": 7080,
+          "title": "RSS: Revisiting ReactiveScript"
+        },
+        {
+          "startTime": 7080,
+          "endTime": 7860,
+          "title": "RSS: Designing the Compiler & Potential Problems"
+        },
+        {
+          "startTime": 7860,
+          "endTime": 8325,
+          "title": "RSS: Exploring Svelte's Solutions"
+        },
+        {
+          "startTime": 8325,
+          "endTime": 8970,
+          "title": "RSS: Do SFC's Still Make Sense?"
+        },
+        {
+          "startTime": 8970,
+          "endTime": 9315,
+          "title": "RSS: Macros & The Identity Test"
+        },
+        {
+          "startTime": 9315,
+          "endTime": 10035,
+          "title": "RSS: Conclusion"
+        },
+        {
+          "startTime": 10035,
+          "endTime": 10335,
+          "title": "Revisiting Reactive Primitives"
+        },
+        {
+          "startTime": 10335,
+          "endTime": 11415,
+          "title": "Split Effects"
+        },
+        {
+          "startTime": 11415,
+          "endTime": 11595,
+          "title": "Solid 2.0 API Changes: Intro & Strict Mode"
+        },
+        {
+          "startTime": 11595,
+          "endTime": 11805,
+          "title": "S2APIC: flushSync & createRoot disposal"
+        },
+        {
+          "startTime": 11805,
+          "endTime": 11970,
+          "title": "S2APIC: Lazy createMemo"
+        },
+        {
+          "startTime": 11970,
+          "endTime": 12180,
+          "title": "S2APIC: Deprecate createComputed"
+        },
+        {
+          "startTime": 12180,
+          "endTime": 12510,
+          "title": "S2APIC: Stores & Async"
+        },
+        {
+          "startTime": 12510,
+          "endTime": 13050,
+          "title": "S2APIC: Deprecate onMount & Other Removals"
+        },
+        {
+          "startTime": 13050,
+          "endTime": 13710,
+          "title": "S2APIC: Conclusion"
+        },
+        {
+          "startTime": 13710,
+          "endTime": 13965,
+          "title": "This Week in JavaScript: Solid News"
+        },
+        {
+          "startTime": 13965,
+          "endTime": 14535,
+          "title": "TWiJ: Ryan's Tweet on Framework Design"
+        },
+        {
+          "startTime": 14535,
+          "endTime": 14835,
+          "title": "TWiJ: Ryan's Tweet on JSX"
+        },
+        {
+          "startTime": 14835,
+          "endTime": 15090,
+          "title": "TWiJ: React 19 RC (This Aged Well)"
+        },
+        {
+          "startTime": 15090,
+          "endTime": 15315,
+          "title": "TWiJ: Sebastian Markbage on Debounce/Throttle"
+        },
+        {
+          "startTime": 15315,
+          "endTime": 15810,
+          "title": "TWiJ: datastar - First Look & Bundle Size"
+        },
+        {
+          "startTime": 15810,
+          "endTime": 16305,
+          "title": "TWiJ: datastar - Reading the Docs"
+        },
+        {
+          "startTime": 16305,
+          "endTime": 16800,
+          "title": "TWiJ: datastar - The Problem We Need to Solve"
+        },
+        {
+          "startTime": 16800,
+          "endTime": 17055,
+          "title": "TWiJ: htmx sucks (That's The Essay Title)"
+        },
+        {
+          "startTime": 17055,
+          "endTime": 17655,
+          "title": "TWiJ: Ryan's Tweet on JavaScript Developers"
+        },
+        {
+          "startTime": 17655,
+          "endTime": 17860,
+          "title": "TWiJ: Conclusion"
+        }
+      ],
+      "description": "Back in November 2021 when I first put out the idea of a Reactive Language compiling to Solid I only had a vague idea of what I wanted out of it. A lot has changed in the last 3 years. React's compiler was announced and released. Svelte 5 is in preview bringing compilation to their new adoption of Signals. So let's take some time to explore where things are at today.\r\n\r\nOriginal article: https://dev.to/this-is-learning/the-quest-for-reactivescript-3ka3\n\n[0:00] Starting Soon\n[1:15] Preamble\n[14:30] Investigating Youtube's Broken Admin Console\n[29:30] Revisiting SolidScript: Reactive Compilation\n[43:45] RSS: The Destiny Operator\n[50:00] RSS: Primitives and Wrappers\n[1:00:45] RSS: The Quest for ReactiveScript\n[1:07:45] RSS: Svelte 5 & Tracking Context\n[1:16:30] RSS: Rich Harris's Recent Tweets\n[1:27:30] RSS: Stores & Read/Write Segregation\n[1:33:30] Q&A: One-Liners? Dangerous? Types?\n[1:41:00] RSS: Derived Stores (Projections) & Mutability\n[1:52:00] RSS: Revisiting ReactiveScript\n[1:58:00] RSS: Designing the Compiler & Potential Problems\n[2:11:00] RSS: Exploring Svelte's Solutions\n[2:18:45] RSS: Do SFC's Still Make Sense?\n[2:29:30] RSS: Macros & The Identity Test\n[2:35:15] RSS: Conclusion\n[2:47:15] Revisiting Reactive Primitives\n[2:52:15] Split Effects\n[3:10:15] Solid 2.0 API Changes: Intro & Strict Mode\n[3:13:15] S2APIC: flushSync & createRoot disposal\n[3:16:45] S2APIC: Lazy createMemo\n[3:19:30] S2APIC: Deprecate createComputed\n[3:23:00] S2APIC: Stores & Async\n[3:28:30] S2APIC: Deprecate onMount & Other Removals\n[3:37:30] S2APIC: Conclusion\n[3:48:30] This Week in JavaScript: Solid News\n[3:52:45] TWiJ: Ryan's Tweet on Framework Design\n[4:02:15] TWiJ: Ryan's Tweet on JSX\n[4:07:15] TWiJ: React 19 RC (This Aged Well)\n[4:11:30] TWiJ: Sebastian Markbage on Debounce/Throttle\n[4:15:15] TWiJ: datastar - First Look & Bundle Size\n[4:23:30] TWiJ: datastar - Reading the Docs\n[4:31:45] TWiJ: datastar - The Problem We Need to Solve\n[4:40:00] TWiJ: htmx sucks (That's The Essay Title)\n[4:44:15] TWiJ: Ryan's Tweet on JavaScript Developers\n[4:54:15] TWiJ: Conclusion\n\nThanks @zombiefacesupreme for the time stamps."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidJS NYC Meetup Dec 2022",
+      "slug": "2022-12-14-solidjs-nyc-meetup-dec-2022",
+      "duration": "2:30:51",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=yAUlw5GL7jw",
+      "publishDate": "2022-12-14",
+      "thumbnail": "https://i.ytimg.com/vi/yAUlw5GL7jw/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 98,
+          "title": "Intro"
+        },
+        {
+          "startTime": 98,
+          "endTime": 460,
+          "title": "David"
+        },
+        {
+          "startTime": 460,
+          "endTime": 3940,
+          "title": "Ryan"
+        },
+        {
+          "startTime": 3940,
+          "endTime": 4943,
+          "title": "Moshe"
+        },
+        {
+          "startTime": 4943,
+          "endTime": 9050,
+          "title": "Q&A"
+        }
+      ],
+      "description": "Live Steam of NYC Meetup\n\n[0:00] Intro\n[1:38] David\n[7:40] Ryan\n[1:05:40] Moshe\n[1:22:23] Q&A"
+    }
+  }
+}

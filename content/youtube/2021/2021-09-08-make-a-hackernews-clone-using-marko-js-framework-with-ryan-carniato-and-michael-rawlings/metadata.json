@@ -1,0 +1,124 @@
+{
+  "step1": {
+    "title": "Make a HackerNews clone using Marko js framework - with Ryan Carniato and Michael Rawlings",
+    "duration": "1:53:15",
+    "author": "Maksim Ivanov",
+    "url": "https://www.youtube.com/watch?v=cXHmxbLlJIM",
+    "publishDate": "2021-09-08",
+    "thumbnail": "https://i.ytimg.com/vi/cXHmxbLlJIM/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UC5hby9iDkwOTQM7PIjyjbgw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 318,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 318,
+        "endTime": 407,
+        "title": "Initializing a Project"
+      },
+      {
+        "startTime": 407,
+        "endTime": 550,
+        "title": "Language Guide"
+      },
+      {
+        "startTime": 550,
+        "endTime": 663,
+        "title": "Interpolation Syntax"
+      },
+      {
+        "startTime": 663,
+        "endTime": 960,
+        "title": "Index Marco File"
+      },
+      {
+        "startTime": 960,
+        "endTime": 1156,
+        "title": "Dynamic Tag"
+      },
+      {
+        "startTime": 1156,
+        "endTime": 1190,
+        "title": "Auto Component Detection"
+      },
+      {
+        "startTime": 1190,
+        "endTime": 1394,
+        "title": "Nesting inside of Components"
+      },
+      {
+        "startTime": 1394,
+        "endTime": 1706,
+        "title": "Static Function"
+      },
+      {
+        "startTime": 1706,
+        "endTime": 1954,
+        "title": "The Hacker News Api"
+      },
+      {
+        "startTime": 1954,
+        "endTime": 2611,
+        "title": "Attribute Tags"
+      },
+      {
+        "startTime": 2611,
+        "endTime": 3863,
+        "title": "Typescript"
+      },
+      {
+        "startTime": 3863,
+        "endTime": 3999,
+        "title": "Tag Parameters"
+      },
+      {
+        "startTime": 3999,
+        "endTime": 4032,
+        "title": "Class Components"
+      },
+      {
+        "startTime": 4032,
+        "endTime": 4092,
+        "title": "Binding the Helpers"
+      },
+      {
+        "startTime": 4092,
+        "endTime": 4437,
+        "title": "Linters"
+      },
+      {
+        "startTime": 4437,
+        "endTime": 5038,
+        "title": "Npm Run Build"
+      },
+      {
+        "startTime": 5038,
+        "endTime": 5053,
+        "title": "What Are the Drawbacks"
+      },
+      {
+        "startTime": 5053,
+        "endTime": 5336,
+        "title": "Drawbacks"
+      },
+      {
+        "startTime": 5336,
+        "endTime": 5525,
+        "title": "Server Side Rendering"
+      },
+      {
+        "startTime": 5525,
+        "endTime": 5724,
+        "title": "Favicon"
+      },
+      {
+        "startTime": 5724,
+        "endTime": 6795,
+        "title": "Images"
+      }
+    ],
+    "description": "Ryan Carniato and Michael Rawlings from the Marko team will show us how to use the Marko JS framework.\n\nWe're going to build a Hacker News site from scratch.\n\nCode: https://github.com/ryansolid/marko-hackernews\nDemo: https://marko-hackernews.herokuapp.com/\n\nRyan Carniato: https://twitter.com/ryancarniato\nMichael Rawlings: https://twitter.com/mlrawlings"
+  }
+}

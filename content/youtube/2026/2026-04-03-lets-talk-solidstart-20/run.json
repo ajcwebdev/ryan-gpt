@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Let's Talk: SolidStart 2.0",
+      "slug": "2026-04-03-lets-talk-solidstart-20",
+      "duration": "6:30:47",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=J7Sc10A0cvY",
+      "publishDate": "2026-04-03",
+      "thumbnail": "https://i.ytimg.com/vi/J7Sc10A0cvY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 750,
+          "title": "Stream Introduction and SolidStart Team Welcome"
+        },
+        {
+          "startTime": 750,
+          "endTime": 1560,
+          "title": "From Vinci to Vite Environment API"
+        },
+        {
+          "startTime": 1560,
+          "endTime": 2160,
+          "title": "CSS Asset Loading and Streaming Challenges"
+        },
+        {
+          "startTime": 2160,
+          "endTime": 2820,
+          "title": "Nitropage, H3 Re-exports, and API Boundaries"
+        },
+        {
+          "startTime": 2820,
+          "endTime": 3480,
+          "title": "Deployment Adapters and Platform Abstractions"
+        },
+        {
+          "startTime": 3480,
+          "endTime": 4140,
+          "title": "Vite Governance and Primitives Philosophy"
+        },
+        {
+          "startTime": 4140,
+          "endTime": 4620,
+          "title": "Framework as Plugin and Core Consolidation"
+        },
+        {
+          "startTime": 4620,
+          "endTime": 5460,
+          "title": "SolidStart 2.0 Version Clarity and AI Migrations"
+        },
+        {
+          "startTime": 5460,
+          "endTime": 6180,
+          "title": "Migration Code Examples and AI-Assisted Patterns"
+        },
+        {
+          "startTime": 6180,
+          "endTime": 6900,
+          "title": "Alexis Contributions and Plugin Ecosystem"
+        },
+        {
+          "startTime": 6900,
+          "endTime": 7680,
+          "title": "OpenCode Architecture and Solid in Production"
+        },
+        {
+          "startTime": 7680,
+          "endTime": 8400,
+          "title": "Framework Perception and Ecosystem Maturity"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9180,
+          "title": "Effect Integration and Actions Modeling"
+        },
+        {
+          "startTime": 9180,
+          "endTime": 10140,
+          "title": "Roadmap, Contributing, and Beta Feedback"
+        },
+        {
+          "startTime": 10140,
+          "endTime": 10860,
+          "title": "Meta in Core and Solid 3.0 Direction"
+        },
+        {
+          "startTime": 10860,
+          "endTime": 11700,
+          "title": "Weather Demo and Non-Blocking Async"
+        },
+        {
+          "startTime": 11700,
+          "endTime": 12120,
+          "title": "Weather Demo Architecture and Reactivity"
+        },
+        {
+          "startTime": 12120,
+          "endTime": 12780,
+          "title": "Chat Demo and Status Encoding Patterns"
+        },
+        {
+          "startTime": 12780,
+          "endTime": 13380,
+          "title": "Repeat Primitive and Spinning Cube Demo"
+        },
+        {
+          "startTime": 13380,
+          "endTime": 14160,
+          "title": "Trello Demo and Optimistic Updates"
+        },
+        {
+          "startTime": 14160,
+          "endTime": 15000,
+          "title": "Router Actions and Optimistic Primitives"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15720,
+          "title": "This Week in JavaScript and Rust Search Demo"
+        },
+        {
+          "startTime": 15720,
+          "endTime": 16560,
+          "title": "Async Coloration Explained"
+        },
+        {
+          "startTime": 16560,
+          "endTime": 17460,
+          "title": "Waterfall-Free Async Demo"
+        },
+        {
+          "startTime": 17460,
+          "endTime": 18660,
+          "title": "Implicit Transitions and Performance Costs"
+        },
+        {
+          "startTime": 18660,
+          "endTime": 19560,
+          "title": "Framework Innovation Pushback Controversy"
+        },
+        {
+          "startTime": 19560,
+          "endTime": 20040,
+          "title": "AI Poll and Developer Risk Tolerance"
+        },
+        {
+          "startTime": 20040,
+          "endTime": 20640,
+          "title": "AI Signal Library Experiment"
+        },
+        {
+          "startTime": 20640,
+          "endTime": 21000,
+          "title": "Framework Comparison Benchmark Setup"
+        },
+        {
+          "startTime": 21000,
+          "endTime": 22140,
+          "title": "Waterfall Detection as Framework Superpower"
+        },
+        {
+          "startTime": 22140,
+          "endTime": 22920,
+          "title": "Lines of Code Debate"
+        },
+        {
+          "startTime": 22920,
+          "endTime": 23446,
+          "title": "Reactivity Versus State Machines"
+        }
+      ],
+      "description": "We're going to do something we've never done before: Have the SolidStart team join us from around the world on a live stream to talk about the latest work they've been doing and to answer any questions.\n\n00:00:00 - Stream Introduction and SolidStart Team Welcome\n00:12:30 - From Vinci to Vite Environment API\n00:26:00 - CSS Asset Loading and Streaming Challenges\n00:36:00 - Nitropage, H3 Re-exports, and API Boundaries\n00:47:00 - Deployment Adapters and Platform Abstractions\n00:58:00 - Vite Governance and Primitives Philosophy\n01:09:00 - Framework as Plugin and Core Consolidation\n01:17:00 - SolidStart 2.0 Version Clarity and AI Migrations\n01:31:00 - Migration Code Examples and AI-Assisted Patterns\n01:43:00 - Alexis Contributions and Plugin Ecosystem\n01:55:00 - OpenCode Architecture and Solid in Production\n02:08:00 - Framework Perception and Ecosystem Maturity\n02:20:00 - Effect Integration and Actions Modeling\n02:33:00 - Roadmap, Contributing, and Beta Feedback\n02:49:00 - Meta in Core and Solid 3.0 Direction\n03:01:00 - Weather Demo and Non-Blocking Async\n03:15:00 - Weather Demo Architecture and Reactivity\n03:22:00 - Chat Demo and Status Encoding Patterns\n03:33:00 - Repeat Primitive and Spinning Cube Demo\n03:43:00 - Trello Demo and Optimistic Updates\n03:56:00 - Router Actions and Optimistic Primitives\n04:10:00 - This Week in JavaScript and Rust Search Demo\n04:22:00 - Async Coloration Explained\n04:36:00 - Waterfall-Free Async Demo\n04:51:00 - Implicit Transitions and Performance Costs\n05:11:00 - Framework Innovation Pushback Controversy\n05:26:00 - AI Poll and Developer Risk Tolerance\n05:34:00 - AI Signal Library Experiment\n05:44:00 - Framework Comparison Benchmark Setup\n05:50:00 - Waterfall Detection as Framework Superpower\n06:09:00 - Lines of Code Debate\n06:22:00 - Reactivity Versus State Machines\n\nChapter titles generated with ajcwebdev/autoshow-cli and Claude Opus 4.6"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS - Server Rendering",
+      "slug": "2021-09-25-streaming-solidjs-server-rendering",
+      "duration": "2:14:37",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=0zadjVUV7zM",
+      "publishDate": "2021-09-25",
+      "thumbnail": "https://i.ytimg.com/vi/0zadjVUV7zM/sddefault.jpg?v=614e0353",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 295,
+          "title": "Welcome"
+        },
+        {
+          "startTime": 295,
+          "endTime": 608,
+          "title": "Origins of SSR in Solid"
+        },
+        {
+          "startTime": 608,
+          "endTime": 923,
+          "title": "Server Rendering Techniques"
+        },
+        {
+          "startTime": 923,
+          "endTime": 1370,
+          "title": "Isomorphic Imports"
+        },
+        {
+          "startTime": 1370,
+          "endTime": 1650,
+          "title": "Raw Rendering Performance"
+        },
+        {
+          "startTime": 1650,
+          "endTime": 2476,
+          "title": "SSR Example"
+        },
+        {
+          "startTime": 2476,
+          "endTime": 3138,
+          "title": "SKIP... Accidentally Lost Screen Share"
+        },
+        {
+          "startTime": 3138,
+          "endTime": 4236,
+          "title": "Profiling SSR"
+        },
+        {
+          "startTime": 4236,
+          "endTime": 4417,
+          "title": "0Kb JS?"
+        },
+        {
+          "startTime": 4417,
+          "endTime": 5128,
+          "title": "Slower Networks"
+        },
+        {
+          "startTime": 5128,
+          "endTime": 5582,
+          "title": "Hydrating from the Document"
+        },
+        {
+          "startTime": 5582,
+          "endTime": 5823,
+          "title": "Isomorphic Fetching"
+        },
+        {
+          "startTime": 5823,
+          "endTime": 6596,
+          "title": "Q & A on Streaming and Partial Hydration"
+        },
+        {
+          "startTime": 6596,
+          "endTime": 7110,
+          "title": "Solid Start"
+        },
+        {
+          "startTime": 7110,
+          "endTime": 7740,
+          "title": "Solid Start Actions"
+        },
+        {
+          "startTime": 7740,
+          "endTime": 8077,
+          "title": "The Future"
+        }
+      ],
+      "description": "Going to talk about Server Rendering with SolidJS Framework\n\n[0:00] Welcome\n[4:55] Origins of SSR in Solid\n[10:08] Server Rendering Techniques\n[15:23] Isomorphic Imports\n[22:50] Raw Rendering Performance\n[27:30] SSR Example\n[41:16] SKIP... Accidentally Lost Screen Share\n[52:18] Profiling SSR\n[1:10:36] 0Kb JS?\n[1:13:37] Slower Networks\n[1:25:28] Hydrating from the Document\n[1:33:02] Isomorphic Fetching\n[1:37:03] Q & A on Streaming and Partial Hydration\n[1:49:56] Solid Start\n[1:58:30] Solid Start Actions\n[2:09:00] The Future"
+    }
+  }
+}

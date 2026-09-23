@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "First look at DOM Expressions",
+      "slug": "2021-09-04-first-look-at-dom-expressions",
+      "duration": "32:08",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=jnZmG4hyNas",
+      "publishDate": "2021-09-04",
+      "thumbnail": "https://i.ytimg.com/vi/jnZmG4hyNas/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 273,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 273,
+          "endTime": 726,
+          "title": "Runtime"
+        },
+        {
+          "startTime": 726,
+          "endTime": 1324,
+          "title": "Compiler"
+        },
+        {
+          "startTime": 1324,
+          "endTime": 1928,
+          "title": "Other Templating"
+        }
+      ],
+      "description": "Overview of the universal reactive renderer that powers SolidJS.\n\n[0:00] Introduction\n[4:33] Runtime\n[12:06] Compiler\n[22:04] Other Templating"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "This week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶  Portland",
+      "slug": "2025-07-11-this-week-in-javascript-portland",
+      "duration": "6:08:19",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=MIWNTo8Xa9M",
+      "publishDate": "2025-07-11",
+      "thumbnail": "https://i.ytimg.com/vi/MIWNTo8Xa9M/sddefault.jpg?v=686ee5a4",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "I've been away for a month with the move to my new home in Portland, OR. But today the stream is back with my new setup. We will look at the latest work towards Solid 2.0, talk about education in frontend, and get caught up on all the latest happenings around the JS ecosystem."
+    }
+  }
+}

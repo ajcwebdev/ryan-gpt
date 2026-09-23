@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Front-End's Existential Crisis",
+      "slug": "2024-01-27-front-ends-existential-crisis",
+      "duration": "5:16:58",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=aA7Xeh7WG4E",
+      "publishDate": "2024-01-27",
+      "thumbnail": "https://i.ytimg.com/vi/aA7Xeh7WG4E/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 180,
+          "title": "Starting Soon..."
+        },
+        {
+          "startTime": 180,
+          "endTime": 690,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 690,
+          "endTime": 1230,
+          "title": "Frontend vs. Backend & Too Much Change?"
+        },
+        {
+          "startTime": 1230,
+          "endTime": 2295,
+          "title": "1993-1997: The Static Web"
+        },
+        {
+          "startTime": 2295,
+          "endTime": 2835,
+          "title": "1997-2005: Dynamic Web & AJAX"
+        },
+        {
+          "startTime": 2835,
+          "endTime": 3465,
+          "title": "2005-2010: Split-Model Thinking"
+        },
+        {
+          "startTime": 3465,
+          "endTime": 4470,
+          "title": "2010-2016: JS Frameworks & CS Routing"
+        },
+        {
+          "startTime": 4470,
+          "endTime": 5670,
+          "title": "2016-????: SSR"
+        },
+        {
+          "startTime": 5670,
+          "endTime": 6255,
+          "title": "The Dark Ages & Abstraction"
+        },
+        {
+          "startTime": 6255,
+          "endTime": 6795,
+          "title": "Hydration & State Boundaries"
+        },
+        {
+          "startTime": 6795,
+          "endTime": 7350,
+          "title": "The Trade-Offs of Resumability"
+        },
+        {
+          "startTime": 7350,
+          "endTime": 7740,
+          "title": "Unified Client/Server Data Model"
+        },
+        {
+          "startTime": 7740,
+          "endTime": 8385,
+          "title": "Is This Worth The Added Complexity?"
+        },
+        {
+          "startTime": 8385,
+          "endTime": 8790,
+          "title": "Q&A: Back to Basics? Performance? Elm?"
+        },
+        {
+          "startTime": 8790,
+          "endTime": 9195,
+          "title": "Q&A: DX? Local-First? React Crisis?"
+        },
+        {
+          "startTime": 9195,
+          "endTime": 9555,
+          "title": "Q&A: WebSockets? We Don't Know!"
+        },
+        {
+          "startTime": 9555,
+          "endTime": 9855,
+          "title": "Q&A: Signals? React? JS Paradox? Jobs?"
+        },
+        {
+          "startTime": 9855,
+          "endTime": 10620,
+          "title": "Q&A: State Mismatch? Tooling? WASM?"
+        },
+        {
+          "startTime": 10620,
+          "endTime": 11130,
+          "title": "Gift Sub Bonanza!!"
+        },
+        {
+          "startTime": 11130,
+          "endTime": 11880,
+          "title": "Q&A: Caching? MST? Space Jam? SWs?"
+        },
+        {
+          "startTime": 11880,
+          "endTime": 12870,
+          "title": "Conclusion: Finding What's Important"
+        },
+        {
+          "startTime": 12870,
+          "endTime": 13440,
+          "title": "One Month of SolidStart Beta 2"
+        },
+        {
+          "startTime": 13440,
+          "endTime": 13995,
+          "title": "OMoSSB2: Streaming & API Routes"
+        },
+        {
+          "startTime": 13995,
+          "endTime": 14670,
+          "title": "OMoSSB2: Base Path Fiasco & a vs. A"
+        },
+        {
+          "startTime": 14670,
+          "endTime": 15360,
+          "title": "OMoSSB2: To Wrap or Not to Wrap?"
+        },
+        {
+          "startTime": 15360,
+          "endTime": 16410,
+          "title": "OMoSSB2: Conclusion & New Experiments"
+        },
+        {
+          "startTime": 16410,
+          "endTime": 16695,
+          "title": "This Week in JavaScript: Data Loading"
+        },
+        {
+          "startTime": 16695,
+          "endTime": 17085,
+          "title": "TWiJ: Is Solid 10x Better?"
+        },
+        {
+          "startTime": 17085,
+          "endTime": 17580,
+          "title": "TWiJ: Next.js vs. Rails"
+        },
+        {
+          "startTime": 17580,
+          "endTime": 17730,
+          "title": "TWiJ: Solid News"
+        },
+        {
+          "startTime": 17730,
+          "endTime": 18600,
+          "title": "TWiJ: The Balance of Complexity"
+        },
+        {
+          "startTime": 18600,
+          "endTime": 19018,
+          "title": "The Future of These Streams"
+        }
+      ],
+      "description": "From the outside, watching the ark of JavaScript Frameworks over the past 15 years is probably a pretty confusing one. I believe we are at a critical point in front-end web development right now that we haven't seen of this nature in over a decade. So let's look at how we got here, and what drives us to where we are going today.\n\n[0:00] Starting Soon...\n[3:00] Preamble\n[11:30] Frontend vs. Backend & Too Much Change?\n[20:30] 1993-1997: The Static Web\n[38:15] 1997-2005: Dynamic Web & AJAX\n[47:15] 2005-2010: Split-Model Thinking\n[57:45] 2010-2016: JS Frameworks & CS Routing\n[1:14:30] 2016-????: SSR\n[1:34:30] The Dark Ages & Abstraction\n[1:44:15] Hydration & State Boundaries\n[1:53:15] The Trade-Offs of Resumability\n[2:02:30] Unified Client/Server Data Model\n[2:09:00] Is This Worth The Added Complexity?\n[2:19:45] Q&A: Back to Basics? Performance? Elm?\n[2:26:30] Q&A: DX? Local-First? React Crisis?\n[2:33:15] Q&A: WebSockets? We Don't Know!\n[2:39:15] Q&A: Signals? React? JS Paradox? Jobs?\n[2:44:15] Q&A: State Mismatch? Tooling? WASM?\n[2:57:00] Gift Sub Bonanza!!\n[3:05:30] Q&A: Caching? MST? Space Jam? SWs?\n[3:18:00] Conclusion: Finding What's Important\n[3:34:30] One Month of SolidStart Beta 2 \n[3:44:00] OMoSSB2: Streaming & API Routes\n[3:53:15] OMoSSB2: Base Path Fiasco & a vs. A\n[4:04:30] OMoSSB2: To Wrap or Not to Wrap?\n[4:16:00] OMoSSB2: Conclusion & New Experiments\n[4:33:30] This Week in JavaScript: Data Loading\n[4:38:15] TWiJ: Is Solid 10x Better?\n[4:44:45] TWiJ: Next.js vs. Rails\n[4:53:00] TWiJ: Solid News\n[4:55:30] TWiJ: The Balance of Complexity\n[5:10:00] The Future of These Streams\n\nThanks to @daviddibiase4727 for the cover and @zombiefacesupreme for the time stamps."
+    }
+  }
+}

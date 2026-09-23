@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Fine-Grained Rendering in Depth",
+      "slug": "2025-01-25-fine-grained-rendering-in-depth",
+      "duration": "5:31:50",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=kkUuaqDBSqA",
+      "publishDate": "2025-01-25",
+      "thumbnail": "https://i.ytimg.com/vi/kkUuaqDBSqA/sddefault.jpg?v=6792d47e",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "We talk a lot about Signals on this stream but not nearly enough about how fine-grained rendering works. What makes Solid/Svelte 5 different than Preact/Qwik or React w/ Jotai? Why does everyone ignore Vue in Signals conversations? Why is fine-grained rendering more performant than VDOM? How does it work? Let's talk about the real reason everyone is talking about Signals."
+    }
+  }
+}

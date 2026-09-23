@@ -10,11 +10,11 @@ Top matches for: "Why is Marko the most underrated frontend framework ever?"
 ┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
 │ (index) │ filename                                                                                │ similarity          │
 ├─────────┼─────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework-part-01.md'                │ 0.4920250963894983  │
-│ 1       │ 'content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-01.md'    │ 0.4367972782950814  │
-│ 2       │ 'content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings-part-01.md'       │ 0.43539383853815283 │
-│ 3       │ 'content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list-part-02.md'    │ 0.4196447101341584  │
-│ 4       │ 'content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings-part-01.md' │ 0.40978166721589493 │
+│ 0       │ 'content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework/2022-01-15-marko-the-most-underrated-js-framework-part-01.md'                │ 0.4920250963894983  │
+│ 1       │ 'content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list/2025-01-28-building-js-framework-client-performance-tier-list-part-01.md'    │ 0.4367972782950814  │
+│ 2       │ 'content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings-part-01.md'       │ 0.43539383853815283 │
+│ 3       │ 'content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list/2025-01-28-building-js-framework-client-performance-tier-list-part-02.md'    │ 0.4196447101341584  │
+│ 4       │ 'content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings-part-01.md' │ 0.40978166721589493 │
 └─────────┴─────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
 ```
 

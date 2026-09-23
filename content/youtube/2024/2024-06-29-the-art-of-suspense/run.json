@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "The Art of Suspense",
+      "slug": "2024-06-29-the-art-of-suspense",
+      "duration": "5:07:29",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=k3RU0ayAdW4",
+      "publishDate": "2024-06-29",
+      "thumbnail": "https://i.ytimg.com/vi/k3RU0ayAdW4/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 150,
+          "title": "Starting Soon"
+        },
+        {
+          "startTime": 150,
+          "endTime": 435,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 435,
+          "endTime": 1080,
+          "title": "React Compiler: Benchmarking the Compiler"
+        },
+        {
+          "startTime": 1080,
+          "endTime": 1815,
+          "title": "RC: Debugging & Million.js Comparison"
+        },
+        {
+          "startTime": 1815,
+          "endTime": 2160,
+          "title": "RC: Cross-Module Compilation?"
+        },
+        {
+          "startTime": 2160,
+          "endTime": 3210,
+          "title": "RC: Server Components, Astro, and Client State"
+        },
+        {
+          "startTime": 3210,
+          "endTime": 3750,
+          "title": "RC: JS Framework Benchmark & Cars"
+        },
+        {
+          "startTime": 3750,
+          "endTime": 4320,
+          "title": "Rendering Basics: Building the React Demo"
+        },
+        {
+          "startTime": 4320,
+          "endTime": 4680,
+          "title": "RB: Comparison with Solid"
+        },
+        {
+          "startTime": 4680,
+          "endTime": 5190,
+          "title": "RB: Solid Update with Function"
+        },
+        {
+          "startTime": 5190,
+          "endTime": 5520,
+          "title": "RB: Lazy Signals & Predictability"
+        },
+        {
+          "startTime": 5520,
+          "endTime": 5985,
+          "title": "RB: Split Effects"
+        },
+        {
+          "startTime": 5985,
+          "endTime": 6660,
+          "title": "RB: Scheduling, Concurrency & Consistency"
+        },
+        {
+          "startTime": 6660,
+          "endTime": 7095,
+          "title": "The Nature of Async Consistency: Sync"
+        },
+        {
+          "startTime": 7095,
+          "endTime": 7740,
+          "title": "TNoAC: Revisiting with Async (Four Options)"
+        },
+        {
+          "startTime": 7740,
+          "endTime": 8400,
+          "title": "TNoAC: Code Example"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9030,
+          "title": "TNoAC: Consistent by Default / Independence"
+        },
+        {
+          "startTime": 9030,
+          "endTime": 9330,
+          "title": "TNoAC: Conclusions"
+        },
+        {
+          "startTime": 9330,
+          "endTime": 10095,
+          "title": "Consistency First?: 3 Modes on Initial Render"
+        },
+        {
+          "startTime": 10095,
+          "endTime": 10770,
+          "title": "CF?: 3 Modes on Update & Thoughts So Far"
+        },
+        {
+          "startTime": 10770,
+          "endTime": 11025,
+          "title": "CF?: Implicit Transactions"
+        },
+        {
+          "startTime": 11025,
+          "endTime": 11490,
+          "title": "CF?: Code Examples (Forking? createWritable?)"
+        },
+        {
+          "startTime": 11490,
+          "endTime": 12300,
+          "title": "CF?: Inconsistency First? & Conclusions"
+        },
+        {
+          "startTime": 12300,
+          "endTime": 12780,
+          "title": "Colorless Non-Blocking Async: Code Example"
+        },
+        {
+          "startTime": 12780,
+          "endTime": 13245,
+          "title": "CNBA: Building Up Some DOM"
+        },
+        {
+          "startTime": 13245,
+          "endTime": 14280,
+          "title": "CNBA: Conclusion & Summary (Why This Is Cool)"
+        },
+        {
+          "startTime": 14280,
+          "endTime": 14760,
+          "title": "React 19 Suspense: Code Example"
+        },
+        {
+          "startTime": 14760,
+          "endTime": 15030,
+          "title": "R19S: Sophie Alpert Explanation (Data Hoisting)"
+        },
+        {
+          "startTime": 15030,
+          "endTime": 15705,
+          "title": "R19S: Why React Made This Decision"
+        },
+        {
+          "startTime": 15705,
+          "endTime": 16605,
+          "title": "R19S: RSCs in Remix vs. Next"
+        },
+        {
+          "startTime": 16605,
+          "endTime": 16875,
+          "title": "This Week in JavaScript: More Suspense"
+        },
+        {
+          "startTime": 16875,
+          "endTime": 17115,
+          "title": "TWiJ: Aiden Bai's Tooling Work"
+        },
+        {
+          "startTime": 17115,
+          "endTime": 17445,
+          "title": "TWiJ: Solid News"
+        },
+        {
+          "startTime": 17445,
+          "endTime": 18045,
+          "title": "TWiJ: State of JS 2023"
+        },
+        {
+          "startTime": 18045,
+          "endTime": 18330,
+          "title": "TWiJ: Vue Composition API Syntax Discussion"
+        },
+        {
+          "startTime": 18330,
+          "endTime": 18449,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "Async is not an easy problem as a framework author. We can push the complexity on to the developer but that's a hard ask when what we care about most is consistency. On stream I'm going to look the recent React 19 conversation and share my latest thinking and prototypes on async.\n\n[0:00] Starting Soon\n[2:30] Preamble\n[7:15] React Compiler: Benchmarking the Compiler\n[18:00] RC: Debugging & Million.js Comparison\n[30:15] RC: Cross-Module Compilation?\n[36:00] RC: Server Components, Astro, and Client State\n[53:30] RC: JS Framework Benchmark & Cars\n[1:02:30] Rendering Basics: Building the React Demo\n[1:12:00] RB: Comparison with Solid\n[1:18:00] RB: Solid Update with Function\n[1:26:30] RB: Lazy Signals & Predictability\n[1:32:00] RB: Split Effects\n[1:39:45] RB: Scheduling, Concurrency & Consistency\n[1:51:00] The Nature of Async Consistency: Sync\n[1:58:15] TNoAC: Revisiting with Async (Four Options)\n[2:09:00] TNoAC: Code Example\n[2:20:00] TNoAC: Consistent by Default / Independence \n[2:30:30] TNoAC: Conclusions\n[2:35:30] Consistency First?: 3 Modes on Initial Render\n[2:48:15] CF?: 3 Modes on Update & Thoughts So Far\n[2:59:30] CF?: Implicit Transactions\n[3:03:45] CF?: Code Examples (Forking? createWritable?)\n[3:11:30] CF?: Inconsistency First? & Conclusions\n[3:25:00] Colorless Non-Blocking Async: Code Example\n[3:33:00] CNBA: Building Up Some DOM\n[3:40:45] CNBA: Conclusion & Summary (Why This Is Cool)\n[3:58:00] React 19 Suspense: Code Example\n[4:06:00] R19S: Sophie Alpert Explanation (Data Hoisting)\n[4:10:30] R19S: Why React Made This Decision\n[4:21:45] R19S: RSCs in Remix vs. Next\n[4:36:45] This Week in JavaScript: More Suspense\n[4:41:15] TWiJ: Aiden Bai's Tooling Work \n[4:45:15] TWiJ: Solid News & \n[4:50:45] TWiJ: State of JS 2023\n[5:00:45] TWiJ: Vue Composition API Syntax Discussion\n[5:05:30] Conclusion\n\nThank you @zombiefacesupreme for the timestamps! Very much appreciated."
+    }
+  }
+}

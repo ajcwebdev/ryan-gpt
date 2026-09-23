@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "A First Look at Remix",
+      "slug": "2021-12-04-a-first-look-at-remix",
+      "duration": "3:00:02",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=CQm52h3Ukng",
+      "publishDate": "2021-12-04",
+      "thumbnail": "https://i.ytimg.com/vi/CQm52h3Ukng/sddefault.jpg?v=61aa5dcc",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 136,
+          "title": "Intro"
+        },
+        {
+          "startTime": 136,
+          "endTime": 540,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 540,
+          "endTime": 812,
+          "title": "Let's Talk Remix"
+        },
+        {
+          "startTime": 812,
+          "endTime": 1740,
+          "title": "Nested Routing Explained"
+        },
+        {
+          "startTime": 1740,
+          "endTime": 2575,
+          "title": "Getting Started with Remix"
+        },
+        {
+          "startTime": 2575,
+          "endTime": 2892,
+          "title": "Looking at Demos"
+        },
+        {
+          "startTime": 2892,
+          "endTime": 3265,
+          "title": "Nested Router Example"
+        },
+        {
+          "startTime": 3265,
+          "endTime": 4220,
+          "title": "Remix Actions"
+        },
+        {
+          "startTime": 4220,
+          "endTime": 6763,
+          "title": "Building Hackernews"
+        },
+        {
+          "startTime": 6763,
+          "endTime": 7297,
+          "title": "Accidental Deletion (Thanks VSCode)"
+        },
+        {
+          "startTime": 7297,
+          "endTime": 7707,
+          "title": "Finished Hacker News"
+        },
+        {
+          "startTime": 7707,
+          "endTime": 8173,
+          "title": "Deploying to Netlify"
+        },
+        {
+          "startTime": 8173,
+          "endTime": 8591,
+          "title": "Exploring Performance"
+        },
+        {
+          "startTime": 8591,
+          "endTime": 8758,
+          "title": "Reflection on Building with Remix"
+        },
+        {
+          "startTime": 8758,
+          "endTime": 9165,
+          "title": "Google Page Insights"
+        },
+        {
+          "startTime": 9165,
+          "endTime": 9739,
+          "title": "Marko Joins the Party"
+        },
+        {
+          "startTime": 9739,
+          "endTime": 10801,
+          "title": "SPA - MPA Spectrum"
+        }
+      ],
+      "description": "Taking a break from Solid specific content this week, I thought it would be fun to look at Remix. I'm a big fan of Ryan and Michael's work and want to see how it feels compared to my expectations.\n\n[0:00] Intro\n[2:16] This Week in JavaScript\n[9:00] Let's Talk Remix\n[13:32] Nested Routing Explained\n[29:00] Getting Started with Remix\n[42:55] Looking at Demos\n[48:12] Nested Router Example\n[54:25] Remix Actions\n[1:10:20] Building Hackernews\n[1:52:43] Accidental Deletion (Thanks VSCode)\n[2:01:37] Finished Hacker News\n[2:08:27] Deploying to Netlify\n[2:16:13] Exploring Performance\n[2:23:11] Reflection on Building with Remix\n[2:25:58] Google Page Insights\n[2:32:45] Marko Joins the Party\n[2:42:19] SPA - MPA Spectrum"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "2-way Binding and REPL Diving",
+      "slug": "2021-10-30-2-way-binding-and-repl-diving",
+      "duration": "2:59:00",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=C83XD19-1jg",
+      "publishDate": "2021-10-30",
+      "thumbnail": "https://i.ytimg.com/vi/C83XD19-1jg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 106,
+          "title": "Intro Rambling"
+        },
+        {
+          "startTime": 106,
+          "endTime": 2151,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 2151,
+          "endTime": 3445,
+          "title": "Two Way Binding"
+        },
+        {
+          "startTime": 3445,
+          "endTime": 4010,
+          "title": "REPL Diving"
+        },
+        {
+          "startTime": 4010,
+          "endTime": 4463,
+          "title": "Form Binding Comparison"
+        },
+        {
+          "startTime": 4463,
+          "endTime": 4629,
+          "title": "Framework Identity"
+        },
+        {
+          "startTime": 4629,
+          "endTime": 7500,
+          "title": "Controlled vs Uncontrolled vs Controllable"
+        },
+        {
+          "startTime": 7500,
+          "endTime": 7808,
+          "title": "Creating Loop in each Framework"
+        },
+        {
+          "startTime": 7808,
+          "endTime": 8648,
+          "title": "Creating Paginated Component"
+        },
+        {
+          "startTime": 8648,
+          "endTime": 9523,
+          "title": "Learning Vue the long way"
+        },
+        {
+          "startTime": 9523,
+          "endTime": 9719,
+          "title": "Thoughts on Paginated"
+        },
+        {
+          "startTime": 9719,
+          "endTime": 10698,
+          "title": "Looking at Compiled Output"
+        },
+        {
+          "startTime": 10698,
+          "endTime": 10740,
+          "title": "Outro"
+        }
+      ],
+      "description": "I love studying the differences between different JavaScript frameworks. Let's play around with their REPLs and see what we can learn.\n\n[0:00] Intro Rambling\n[1:46] This Week in JavaScript\n[35:51] Two Way Binding\n[57:25] REPL Diving\n[1:06:50] Form Binding Comparison\n[1:14:23] Framework Identity\n[1:17:09] Controlled vs Uncontrolled vs Controllable\n[2:05:00] Creating Loop in each Framework\n[2:10:08] Creating Paginated Component\n[2:24:08] Learning Vue the long way\n[2:38:43] Thoughts on Paginated\n[2:41:59] Looking at Compiled Output\n[2:58:18] Outro"
+    }
+  }
+}

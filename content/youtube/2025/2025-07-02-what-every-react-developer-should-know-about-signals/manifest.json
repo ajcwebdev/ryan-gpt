@@ -1,0 +1,202 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T12:10:13.559Z",
+  "updatedAt": "2026-09-23T12:10:24.392Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": "output/ryan-solo-host-transcripts/VgGl9i-OBBI",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "VgGl9i-OBBI",
+          "duration": "10:45",
+          "channel": "Local",
+          "description": "",
+          "url": "file:///workspace/output/ryan-solo-host-audio/VgGl9i-OBBI.m4a",
+          "slug": "VgGl9i-OBBI",
+          "audioFileName": "vggl9i-obbi.mp3",
+          "audioFileSize": 7741484,
+          "durationSeconds": 645
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "deepinfra",
+              "model": "openai/whisper-large-v3-turbo",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 0.215,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 0.215,
+                "costMultiplier": 1,
+                "durationSeconds": 645
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 0.215,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 0.215,
+                "costMultiplier": 1,
+                "durationSeconds": 645
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 0.215,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 0.215,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 645
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 107715,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 107715,
+                "inputMetric": "durationSeconds",
+                "inputValue": 645,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 167,
+                "throughputValue": 5.988,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 107715
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 10632,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 10632,
+                "timingBreakdown": {
+                  "transcribeMs": 10620,
+                  "remoteProcessingMs": 12
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 645,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 16.484,
+                "throughputValue": 60.666,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "deepinfra",
+          "model": "openai/whisper-large-v3-turbo",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {},
+          "metadata": {
+            "transcriptionService": "deepinfra",
+            "transcriptionModel": "openai/whisper-large-v3-turbo",
+            "processingTime": 10632,
+            "tokenCount": 2130,
+            "timings": {
+              "transcribeMs": 10620,
+              "remoteProcessingMs": 12,
+              "requestCount": 1
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "deepinfra",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "deepinfra:configured-account"
+                  },
+                  "configuredLimit": 2,
+                  "currentLimit": 1,
+                  "active": 0,
+                  "activePeak": 1,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 1,
+                  "completed": 1,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "stt-segment",
+                      "configuredLimit": 2,
+                      "active": 0,
+                      "activePeak": 1,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "deepinfra.stt.v1",
+            "request": {
+              "model": "openai/whisper-large-v3-turbo"
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": true,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

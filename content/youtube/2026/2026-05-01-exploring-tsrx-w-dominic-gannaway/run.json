@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring TSRX w/ Dominic Gannaway",
+      "slug": "2026-05-01-exploring-tsrx-w-dominic-gannaway",
+      "duration": "5:07:43",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=xulUG54CW4c",
+      "publishDate": "2026-05-01",
+      "thumbnail": "https://i.ytimg.com/vi/xulUG54CW4c/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 914,
+          "title": "Solid's Runtime Philosophy and Stream Setup"
+        },
+        {
+          "startTime": 914,
+          "endTime": 1860,
+          "title": "AI Findings: Class Lists, Form Inputs, and React Brain"
+        },
+        {
+          "startTime": 1860,
+          "endTime": 2820,
+          "title": "The Layered State Architecture Pattern"
+        },
+        {
+          "startTime": 2820,
+          "endTime": 3660,
+          "title": "Suspense Boundaries and Recognition Mode Failures"
+        },
+        {
+          "startTime": 3660,
+          "endTime": 4620,
+          "title": "Dominic Joins: From Svelte 5 to Ripple"
+        },
+        {
+          "startTime": 4620,
+          "endTime": 5520,
+          "title": "Lazy Destructuring and the Component Keyword"
+        },
+        {
+          "startTime": 5520,
+          "endTime": 6480,
+          "title": "TSRX Syntax: Strings, Control Flow, and Scope"
+        },
+        {
+          "startTime": 6480,
+          "endTime": 7260,
+          "title": "Error Boundaries, Pending States, and Async Patterns"
+        },
+        {
+          "startTime": 7260,
+          "endTime": 8040,
+          "title": "Lazy Destructuring with Tuples and Getters"
+        },
+        {
+          "startTime": 8040,
+          "endTime": 9000,
+          "title": "Scoped Styles and Inline Server Modules"
+        },
+        {
+          "startTime": 9000,
+          "endTime": 10020,
+          "title": "Loops, Keys, and TSRX's Place in Frameworks"
+        },
+        {
+          "startTime": 10020,
+          "endTime": 10860,
+          "title": "Why TSRX Matters for Agentic Coding"
+        },
+        {
+          "startTime": 10860,
+          "endTime": 11820,
+          "title": "Reflecting on TSRX and Solid's Future"
+        },
+        {
+          "startTime": 11820,
+          "endTime": 12900,
+          "title": "Solid 2.0's Complete API Surface"
+        },
+        {
+          "startTime": 12900,
+          "endTime": 13860,
+          "title": "Dynamic Components and Async Composition"
+        },
+        {
+          "startTime": 13860,
+          "endTime": 14880,
+          "title": "Solid Is Compiled? Transforms and Templates"
+        },
+        {
+          "startTime": 14880,
+          "endTime": 15900,
+          "title": "AbortControllers and the Remix 3 Reveal"
+        },
+        {
+          "startTime": 15900,
+          "endTime": 16920,
+          "title": "Remix UI Packages and Component Mixing"
+        },
+        {
+          "startTime": 16920,
+          "endTime": 18462,
+          "title": "Race Conditions, AI Generation, and Closing"
+        }
+      ],
+      "description": "Dominic Gannaway creator of Inferno.js, Ripple.ts, and former React and Svelte Core team member returns to the stream to talk about his latest creation TSRX a templating language for all. We will dig in to why this is more impactful than you might first think.\n\nStream starts 11am PT, Dominic joins at 12pm PT.\n\n00:00:00 - Solid's Runtime Philosophy and Stream Setup\n00:15:14 - AI Findings: Class Lists, Form Inputs, and React Brain\n00:31:00 - The Layered State Architecture Pattern\n00:47:00 - Suspense Boundaries and Recognition Mode Failures\n01:01:00 - Dominic Joins: From Svelte 5 to Ripple\n01:17:00 - Lazy Destructuring and the Component Keyword\n01:32:00 - TSRX Syntax: Strings, Control Flow, and Scope\n01:48:00 - Error Boundaries, Pending States, and Async Patterns\n02:01:00 - Lazy Destructuring with Tuples and Getters\n02:14:00 - Scoped Styles and Inline Server Modules\n02:30:00 - Loops, Keys, and TSRX's Place in Frameworks\n02:47:00 - Why TSRX Matters for Agentic Coding\n03:01:00 - Reflecting on TSRX and Solid's Future\n03:17:00 - Solid 2.0's Complete API Surface\n03:35:00 - Dynamic Components and Async Composition\n03:51:00 - Solid Is Compiled? Transforms and Templates\n04:08:00 - AbortControllers and the Remix 3 Reveal\n04:25:00 - Remix UI Packages and Component Mixing\n04:42:00 - Race Conditions, AI Generation, and Closing\n\nChapter titles generated with @ajcwebdev/autoshow-cli and Claude Opus 4.7"
+    }
+  }
+}

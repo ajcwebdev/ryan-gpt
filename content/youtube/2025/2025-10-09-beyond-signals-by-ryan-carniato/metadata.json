@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "Beyond Signals, by Ryan Carniato",
+    "duration": "34:06",
+    "author": "JetBrains",
+    "url": "https://www.youtube.com/watch?v=DZPSAOBnBAM",
+    "publishDate": "2025-10-09",
+    "thumbnail": "https://i.ytimg.com/vi/DZPSAOBnBAM/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCGp4UBwpTNegd_4nCpuBcow",
+    "description": "Signals and fine-grained reactivity have recently become staples in modern JavaScript frameworks. However, 9 years ago, when Ryan Carniato created SolidJS, the blueprint for the modern framework, that was not the case at all. Today more developers use Signals than ever before, but we are only at the beginning of the journey. Join Ryan as he looks to the future of fine-grained reactivity, web development, and explores what lies beyond Signals."
+  }
+}

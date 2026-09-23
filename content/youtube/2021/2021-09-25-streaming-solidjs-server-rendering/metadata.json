@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=0zadjVUV7zM",
+    "videoTitle": "Streaming SolidJS - Server Rendering",
+    "videoPublishDate": "2021-09-25",
+    "videoThumbnail": "https://i.ytimg.com/vi/0zadjVUV7zM/sddefault.jpg?v=614e0353",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "2:14:37",
+    "audioFileName": "Streaming_SolidJS_-_Server_Rendering.wav",
+    "audioFileSize": 258450434
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo.bin | coreml:/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 405499,
+    "tokenCount": 20468
+  }
+}

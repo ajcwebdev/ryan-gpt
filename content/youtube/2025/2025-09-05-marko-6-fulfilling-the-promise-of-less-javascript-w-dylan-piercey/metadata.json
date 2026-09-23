@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=x-3RxGf4KA8",
+    "videoTitle": "Marko 6: Fulfilling the Promise of Less JavaScript w/ Dylan Piercey",
+    "videoPublishDate": "2025-09-05",
+    "videoThumbnail": "https://i.ytimg.com/vi/x-3RxGf4KA8/maxresdefault.jpg",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "5:38:23",
+    "audioFileName": "Marko_6_-_Fulfilling_the_Promise_of_Less_JavaScript_w_Dylan_Piercey.wav",
+    "audioFileSize": 649707042
+  },
+  "step2": {
+    "transcriptionService": "lemonfox",
+    "transcriptionModel": "default",
+    "processingTime": 387727,
+    "tokenCount": 56911
+  }
+}

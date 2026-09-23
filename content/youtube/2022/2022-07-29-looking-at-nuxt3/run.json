@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Looking at Nuxt3",
+      "slug": "2022-07-29-looking-at-nuxt3",
+      "duration": "3:53:30",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=s4Rd2snXSr0",
+      "publishDate": "2022-07-29",
+      "thumbnail": "https://i.ytimg.com/vi/s4Rd2snXSr0/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 264,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 264,
+          "endTime": 2181,
+          "title": "Welcome Daniel Roe"
+        },
+        {
+          "startTime": 2181,
+          "endTime": 2620,
+          "title": "Getting Started with Nuxt"
+        },
+        {
+          "startTime": 2620,
+          "endTime": 3538,
+          "title": "Vue Server Components?"
+        },
+        {
+          "startTime": 3538,
+          "endTime": 4733,
+          "title": "Getting Started for Real"
+        },
+        {
+          "startTime": 4733,
+          "endTime": 6426,
+          "title": "Porting Hackernews"
+        },
+        {
+          "startTime": 6426,
+          "endTime": 8222,
+          "title": "Reactivity & Routing"
+        },
+        {
+          "startTime": 8222,
+          "endTime": 10077,
+          "title": "Deploying"
+        },
+        {
+          "startTime": 10077,
+          "endTime": 10748,
+          "title": "Pagespeed Insights"
+        },
+        {
+          "startTime": 10748,
+          "endTime": 11645,
+          "title": "Q & A"
+        },
+        {
+          "startTime": 11645,
+          "endTime": 13752,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 13752,
+          "endTime": 14009,
+          "title": "Outro"
+        }
+      ],
+      "description": "Vue SSR has been strangely absent from the streams and it's time to rectify that. So I'm taking the dive into the world of Nuxt 3. Come join me in learning the basics and maybe even making an app.\n\n[0:00] Introduction\n[4:24] Welcome Daniel Roe\n[36:21] Getting Started with Nuxt\n[43:40] Vue Server Components?\n[58:58] Getting Started for Real\n[1:18:53] Porting Hackernews\n[1:47:06] Reactivity & Routing\n[2:17:02] Deploying\n[2:47:57] Pagespeed Insights\n[2:59:08] Q & A\n[3:14:05] This Week in JavaScript \n[3:49:12] Outro"
+    }
+  }
+}

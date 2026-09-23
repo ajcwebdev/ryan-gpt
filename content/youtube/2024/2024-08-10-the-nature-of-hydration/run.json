@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "The Nature of Hydration",
+      "slug": "2024-08-10-the-nature-of-hydration",
+      "duration": "5:04:19",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=oOhfZtUm-pE",
+      "publishDate": "2024-08-10",
+      "thumbnail": "https://i.ytimg.com/vi/oOhfZtUm-pE/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 255,
+          "title": "Starting Soon..."
+        },
+        {
+          "startTime": 255,
+          "endTime": 675,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 675,
+          "endTime": 1125,
+          "title": "Defining Hydration"
+        },
+        {
+          "startTime": 1125,
+          "endTime": 1920,
+          "title": "Hydration Errors Should Be Deterministic"
+        },
+        {
+          "startTime": 1920,
+          "endTime": 2520,
+          "title": "Partial Hydration, Resumability, & Event Replay"
+        },
+        {
+          "startTime": 2520,
+          "endTime": 3480,
+          "title": "Choosing When to Stream & Partial Pre-Rendering"
+        },
+        {
+          "startTime": 3480,
+          "endTime": 3780,
+          "title": "Q&A: Replace Hydration? PPR & Auth?"
+        },
+        {
+          "startTime": 3780,
+          "endTime": 4260,
+          "title": "Q&A: OoO Streaming? Why Bother? Cancellation?"
+        },
+        {
+          "startTime": 4260,
+          "endTime": 4740,
+          "title": "Speed Tests: Solid Netlify/Solid Vercel/Next PPR"
+        },
+        {
+          "startTime": 4740,
+          "endTime": 5535,
+          "title": "Speed Tests: Solid Netlify/Next PPR/Astro SI"
+        },
+        {
+          "startTime": 5535,
+          "endTime": 6090,
+          "title": "Exploring Last Week's Demo & Lighthouse Scores"
+        },
+        {
+          "startTime": 6090,
+          "endTime": 6570,
+          "title": "Version Skew: Introduction"
+        },
+        {
+          "startTime": 6570,
+          "endTime": 6870,
+          "title": "VS: Infrastructure Coupling & Vendor Lock-In"
+        },
+        {
+          "startTime": 6870,
+          "endTime": 7185,
+          "title": "VS: Offline Support in Server Components"
+        },
+        {
+          "startTime": 7185,
+          "endTime": 7665,
+          "title": "VS: Caching Granularity Between Frameworks"
+        },
+        {
+          "startTime": 7665,
+          "endTime": 8280,
+          "title": "Solid Hydration in Astro: Intro & Setting Up The Demo"
+        },
+        {
+          "startTime": 8280,
+          "endTime": 8760,
+          "title": "SHiA: The Problem with client:visible & The Fix"
+        },
+        {
+          "startTime": 8760,
+          "endTime": 9150,
+          "title": "SHiA: Testing The Fix with View Transitions"
+        },
+        {
+          "startTime": 9150,
+          "endTime": 9870,
+          "title": "SHiA: Conclusion (This is a Safety Net)"
+        },
+        {
+          "startTime": 9870,
+          "endTime": 10200,
+          "title": "Hono Client-Side Benchmarks: Introduction"
+        },
+        {
+          "startTime": 10200,
+          "endTime": 10920,
+          "title": "HCSB: A Record Low on the JS Framework Benchmark"
+        },
+        {
+          "startTime": 10920,
+          "endTime": 11265,
+          "title": "HCSB: Setting Up The Benchmark"
+        },
+        {
+          "startTime": 11265,
+          "endTime": 11835,
+          "title": "HCSB: Exploring The Code & Debugging Session"
+        },
+        {
+          "startTime": 11835,
+          "endTime": 12525,
+          "title": "HCSB: Running the Benchmark & General Discussion"
+        },
+        {
+          "startTime": 12525,
+          "endTime": 12885,
+          "title": "HCSB: Looking at Flawed Results"
+        },
+        {
+          "startTime": 12885,
+          "endTime": 13200,
+          "title": "HCSB: Checking Heap Snapshots"
+        },
+        {
+          "startTime": 13200,
+          "endTime": 13605,
+          "title": "HCSB: Checking The Flame Graph (Problem Found)"
+        },
+        {
+          "startTime": 13605,
+          "endTime": 13980,
+          "title": "HCSB: Patching /dist/ & Finding Other Issues"
+        },
+        {
+          "startTime": 13980,
+          "endTime": 14205,
+          "title": "HCSB: Conclusion & Submitting Github Issue"
+        },
+        {
+          "startTime": 14205,
+          "endTime": 14415,
+          "title": "Async Derivations in Reactivity: Introduction"
+        },
+        {
+          "startTime": 14415,
+          "endTime": 15000,
+          "title": "ADiR: Three Critical Points with Async Data"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15480,
+          "title": "ADiR: Colorless Async with Signals"
+        },
+        {
+          "startTime": 15480,
+          "endTime": 15990,
+          "title": "ADiR: React Example & Finding a Consistent Model"
+        },
+        {
+          "startTime": 15990,
+          "endTime": 16245,
+          "title": "ADiR: Two-Way Binding Can Be A One-Way Street"
+        },
+        {
+          "startTime": 16245,
+          "endTime": 16740,
+          "title": "ADiR: Conclusion"
+        },
+        {
+          "startTime": 16740,
+          "endTime": 17010,
+          "title": "This Week in JavaScript: The State of React"
+        },
+        {
+          "startTime": 17010,
+          "endTime": 17160,
+          "title": "TWiJ: Solid News"
+        },
+        {
+          "startTime": 17160,
+          "endTime": 17670,
+          "title": "TWiJ: Astro & No-JS View Transitions"
+        },
+        {
+          "startTime": 17670,
+          "endTime": 17910,
+          "title": "TWiJ: d.ts Files & HTMX"
+        },
+        {
+          "startTime": 17910,
+          "endTime": 18060,
+          "title": "TWiJ: Ryan's Tweet on Simple Tech Demos"
+        },
+        {
+          "startTime": 18060,
+          "endTime": 18180,
+          "title": "TWiJ: Niall Crosby's Tragic Death"
+        },
+        {
+          "startTime": 18180,
+          "endTime": 18258,
+          "title": "TWiJ: ViteConf & Conclusion"
+        }
+      ],
+      "description": "Today's stream we will look at the complexity of modern hydration. How the goal lines are moving and how interactivity plays into our user experiences. We will also be looking at performance implications and how that impacts how we build towards the web in the future.\n\n[00:00] Starting Soon...\n[04:15] Preamble\n[11:15] Defining Hydration\n[18:45] Hydration Errors Should Be Deterministic\n[32:00] Partial Hydration, Resumability, & Event Replay\n[42:00] Choosing When to Stream & Partial Pre-Rendering\n[58:00] Q&A: Replace Hydration? PPR & Auth?\n[1:03:00] Q&A: OoO Streaming? Why Bother? Cancellation?\n[1:11:00] Speed Tests: Solid Netlify/Solid Vercel/Next PPR\n[1:19:00] Speed Tests: Solid Netlify/Next PPR/Astro SI\n[1:32:15] Exploring Last Week's Demo & Lighthouse Scores\n[1:41:30] Version Skew: Introduction\n[1:49:30] VS: Infrastructure Coupling & Vendor Lock-In\n[1:54:30] VS: Offline Support in Server Components\n[1:59:45] VS: Caching Granularity Between Frameworks\n[2:07:45] Solid Hydration in Astro: Intro & Setting Up The Demo\n[2:18:00] SHiA: The Problem with client:visible & The Fix\n[2:26:00] SHiA: Testing The Fix with View Transitions\n[2:32:30] SHiA: Conclusion (This is a Safety Net)\n[2:44:30] Hono Client-Side Benchmarks: Introduction\n[2:50:00] HCSB: A Record Low on the JS Framework Benchmark\n[3:02:00] HCSB: Setting Up The Benchmark\n[3:07:45] HCSB: Exploring The Code & Debugging Session\n[3:17:15] HCSB: Running the Benchmark & General Discussion\n[3:28:45] HCSB: Looking at Flawed Results\n[3:34:45] HCSB: Checking Heap Snapshots\n[3:40:00] HCSB: Checking The Flame Graph (Problem Found)\n[3:46:45] HCSB: Patching /dist/ & Finding Other Issues\n[3:53:00] HCSB: Conclusion & Submitting Github Issue\n[3:56:45] Async Derivations in Reactivity: Introduction\n[4:00:15] ADiR: Three Critical Points with Async Data\n[4:10:00] ADiR: Colorless Async with Signals\n[4:18:00] ADiR: React Example & Finding a Consistent Model\n[4:26:30] ADiR: Two-Way Binding Can Be A One-Way Street\n[4:30:45] ADiR: Conclusion\n[4:39:00] This Week in JavaScript: The State of React\n[4:43:30] TWiJ: Solid News  \n[4:46:00] TWiJ: Astro & No-JS View Transitions\n[4:54:30] TWiJ: d.ts Files & HTMX\n[4:58:30] TWiJ: Ryan's Tweet on Simple Tech Demos\n[5:01:00] TWiJ: Niall Crosby's Tragic Death\n[5:03:00] TWiJ: ViteConf & Conclusion\n\nThank you @zombiefacesupreme for the subtitles."
+    }
+  }
+}

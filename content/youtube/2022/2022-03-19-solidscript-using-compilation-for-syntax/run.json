@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidScript?! Using Compilation for Syntax",
+      "slug": "2022-03-19-solidscript-using-compilation-for-syntax",
+      "duration": "3:26:30",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=ZVKHxm1-g3E",
+      "publishDate": "2022-03-19",
+      "thumbnail": "https://i.ytimg.com/vi/ZVKHxm1-g3E/sddefault.jpg?v=623434dd",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 203,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 203,
+          "endTime": 678,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 678,
+          "endTime": 1537,
+          "title": "Thoughts on Ecosystem"
+        },
+        {
+          "startTime": 1537,
+          "endTime": 2047,
+          "title": "The Impact of Streaming"
+        },
+        {
+          "startTime": 2047,
+          "endTime": 2993,
+          "title": "TTFB Streaming vs SSR"
+        },
+        {
+          "startTime": 2993,
+          "endTime": 4184,
+          "title": "JSX"
+        },
+        {
+          "startTime": 4184,
+          "endTime": 4712,
+          "title": "Syntax & Feelings"
+        },
+        {
+          "startTime": 4712,
+          "endTime": 5576,
+          "title": "Approaches to Reactive Syntax"
+        },
+        {
+          "startTime": 5576,
+          "endTime": 6420,
+          "title": "Destructuring Props in Solid!"
+        },
+        {
+          "startTime": 6420,
+          "endTime": 6975,
+          "title": "Solid Reactivars"
+        },
+        {
+          "startTime": 6975,
+          "endTime": 7443,
+          "title": "Solid Labels"
+        },
+        {
+          "startTime": 7443,
+          "endTime": 7585,
+          "title": "Solid Styles"
+        },
+        {
+          "startTime": 7585,
+          "endTime": 8989,
+          "title": "Solid SFC"
+        },
+        {
+          "startTime": 8989,
+          "endTime": 9260,
+          "title": "Reference vs Value"
+        },
+        {
+          "startTime": 9260,
+          "endTime": 9954,
+          "title": "ReactiveScript"
+        },
+        {
+          "startTime": 9954,
+          "endTime": 12390,
+          "title": "Q & A"
+        }
+      ],
+      "description": "Everyone seems to have their own preferences when it comes to syntax. Some like it explicit. Some implicit. Fortunately, with the right primitives, it is easy to tailor it to what you want. This week we will look at projects that do exactly that and discuss the role of language in JS Framework design.\n\n[0:00] Introduction\n[3:23] This Week in JavaScript\n[11:18] Thoughts on Ecosystem\n[25:37] The Impact of Streaming\n[34:07] TTFB Streaming vs SSR\n[49:53] JSX\n[1:09:44] Syntax & Feelings\n[1:18:32] Approaches to Reactive Syntax\n[1:32:56] Destructuring Props in Solid!\n[1:47:00] Solid Reactivars\n[1:56:15] Solid Labels\n[2:04:03] Solid Styles\n[2:06:25] Solid SFC\n[2:29:49] Reference vs Value \n[2:34:20] ReactiveScript\n[2:45:54] Q & A \n\n*Corrections\n[41:55] I point at the wrong thing. Those are service workers and favicons coming in at the end. The Blue line is what you should be noticing and it does include hydration. Hydration does happen faster in the streaming example, but it looks like scripts are taking longer to come in even if requested sooner. Needs more investigation.\n\n[58:15] It is still the first line not sure how I missed it."
+    }
+  }
+}

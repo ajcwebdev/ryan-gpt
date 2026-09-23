@@ -1,0 +1,49 @@
+{
+  "step1": {
+    "title": "Interviewing SolidJS Creator & Developer - Fireside Dev Chats #3",
+    "duration": "1:04:14",
+    "author": "CoderPad",
+    "url": "https://www.youtube.com/watch?v=DC-ieYrZiiw",
+    "publishDate": "2022-03-22",
+    "thumbnail": "https://i.ytimg.com/vi/DC-ieYrZiiw/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCrG1Vfj90JwHkzBkdg3BNHg",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 292,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 292,
+        "endTime": 467,
+        "title": "Knockout Js"
+      },
+      {
+        "startTime": 467,
+        "endTime": 1005,
+        "title": "How Did You Learn Javascript"
+      },
+      {
+        "startTime": 1005,
+        "endTime": 2442,
+        "title": "Batching"
+      },
+      {
+        "startTime": 2442,
+        "endTime": 2553,
+        "title": "Web Components"
+      },
+      {
+        "startTime": 2553,
+        "endTime": 3428,
+        "title": "Using Vanilla Js"
+      },
+      {
+        "startTime": 3428,
+        "endTime": 3854,
+        "title": "Template Literals"
+      }
+    ],
+    "description": "We interviewed the creator and developer behind SolidJS - Ryan Carniato!\n\nHe walked us through how SolidJS works, how it differs from other frameworks like React and Svelte, and how to use it in your apps!\n\nSolidJS: solidjs.com/\n\nRyan's socials:\nhttps://twitter.com/RyanCarniato\nhttps://dev.to/ryansolid\nhttps://github.com/ryansolid"
+  }
+}

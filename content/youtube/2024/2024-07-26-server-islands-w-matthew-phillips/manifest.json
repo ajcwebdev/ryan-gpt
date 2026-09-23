@@ -1,0 +1,444 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T02:42:57.245Z",
+  "updatedAt": "2026-09-12T02:46:11.305Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Server Islands w/ Matthew Phillips",
+          "duration": "4:24:09",
+          "channel": "Ryan Carniato",
+          "description": "Astro has a pretty cool new feature that blends the best of static pre-rendering and dynamic server rendering. Matthew Phillips returns to show off Server Islands and explain how they work.\n\n[0:00] Preamble\n[8:15] Welcome Matthew Phillips & Component Architecture\n[18:30] Compilers & The Perception of Complexity\n[29:00] Suspense, Reactivity, and Framework Ecosystems\n[36:30] Server Islands: Introduction & Demo\n[41:30] SI: App vs. Site or Static vs. Dynamic\n[53:30] SI: Clarifying How It Works & Limitations\n[58:30] SI: Excalidraw! - Server Islands in Astro \n[1:04:30] SI: Excalidraw! - PPR in Next\n[1:10:00] SI: Excalidraw! - Out of Order Streaming\n[1:16:00] SI: Inspiration & Background\n[1:23:15] SI: HTTP Considerations\n[1:28:15] SI: The Spectrum of Solutions\n[1:32:15] SI: Live Performance Demos are Impossible\n[1:38:00] SI: Inspecting Network Timelines\n[1:49:45] SI: PageSpeed Insights\n[1:57:45] SI: The New JAMStack (Does PPR Matter?)\n[2:05:15] SI: Q&A - Signals in Astro? Speculation Rules? \n[2:11:30] SI: Q&A -  Streaming JSON? PPR in Astro?\n[2:14:30] SI: Conclusion & Matthew's Parting Words\n[2:19:30] Intermission: A Unified Story\n[2:31:45] Intermission: How The Giants Fall\n[2:41:30] Intermission: There's Something Here\n[2:47:30] Solid HackerNews - /hydrate Script Experiment\n[3:09:00] Run Once Suspense (Version 2)\n[3:20:45] Derivations as First Principles: Introduction\n[3:24:45] DaFP: createMemo & createProjection \n[3:28:00] DaFP: Writable Variants\n[3:32:00] DaFP: Diffing Revisited \n[3:37:00] DaFP: Trello Example\n[3:47:15] DaFP: Why Derive? & Colorless Async\n[3:55:30] DaFP: Deriving Signals from props\n[4:01:30] DaFP: Conclusion\n[4:09:15] This Week in JavaScript: Astro & Remix\n[4:11:45] TWiJ: Stack Overflow Survey\n[4:17:15] TWiJ: Atila Fassina's Content \n[4:19:45] TWiJ: Astro & Netlify\n\nThanks @zombiefacesupreme for the timestamps!!\n[4:22:00] Conclusion & Small Gift",
+          "url": "https://www.youtube.com/watch?v=SkJiaRclTjM",
+          "publishDate": "2024-07-26",
+          "thumbnail": "https://i.ytimg.com/vi/SkJiaRclTjM/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 495,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 495,
+              "endTime": 1110,
+              "title": "Welcome Matthew Phillips & Component Architecture"
+            },
+            {
+              "startTime": 1110,
+              "endTime": 1740,
+              "title": "Compilers & The Perception of Complexity"
+            },
+            {
+              "startTime": 1740,
+              "endTime": 2190,
+              "title": "Suspense, Reactivity, and Framework Ecosystems"
+            },
+            {
+              "startTime": 2190,
+              "endTime": 2490,
+              "title": "Server Islands: Introduction & Demo"
+            },
+            {
+              "startTime": 2490,
+              "endTime": 3210,
+              "title": "SI: App vs. Site or Static vs. Dynamic"
+            },
+            {
+              "startTime": 3210,
+              "endTime": 3510,
+              "title": "SI: Clarifying How It Works & Limitations"
+            },
+            {
+              "startTime": 3510,
+              "endTime": 3870,
+              "title": "SI: Excalidraw! - Server Islands in Astro"
+            },
+            {
+              "startTime": 3870,
+              "endTime": 4200,
+              "title": "SI: Excalidraw! - PPR in Next"
+            },
+            {
+              "startTime": 4200,
+              "endTime": 4560,
+              "title": "SI: Excalidraw! - Out of Order Streaming"
+            },
+            {
+              "startTime": 4560,
+              "endTime": 4995,
+              "title": "SI: Inspiration & Background"
+            },
+            {
+              "startTime": 4995,
+              "endTime": 5295,
+              "title": "SI: HTTP Considerations"
+            },
+            {
+              "startTime": 5295,
+              "endTime": 5535,
+              "title": "SI: The Spectrum of Solutions"
+            },
+            {
+              "startTime": 5535,
+              "endTime": 5880,
+              "title": "SI: Live Performance Demos are Impossible"
+            },
+            {
+              "startTime": 5880,
+              "endTime": 6585,
+              "title": "SI: Inspecting Network Timelines"
+            },
+            {
+              "startTime": 6585,
+              "endTime": 7065,
+              "title": "SI: PageSpeed Insights"
+            },
+            {
+              "startTime": 7065,
+              "endTime": 7515,
+              "title": "SI: The New JAMStack (Does PPR Matter?)"
+            },
+            {
+              "startTime": 7515,
+              "endTime": 7890,
+              "title": "SI: Q&A - Signals in Astro? Speculation Rules?"
+            },
+            {
+              "startTime": 7890,
+              "endTime": 8070,
+              "title": "SI: Q&A - Streaming JSON? PPR in Astro?"
+            },
+            {
+              "startTime": 8070,
+              "endTime": 8370,
+              "title": "SI: Conclusion & Matthew's Parting Words"
+            },
+            {
+              "startTime": 8370,
+              "endTime": 9105,
+              "title": "Intermission: A Unified Story"
+            },
+            {
+              "startTime": 9105,
+              "endTime": 9690,
+              "title": "Intermission: How The Giants Fall"
+            },
+            {
+              "startTime": 9690,
+              "endTime": 10050,
+              "title": "Intermission: There's Something Here"
+            },
+            {
+              "startTime": 10050,
+              "endTime": 11340,
+              "title": "Solid HackerNews - /hydrate Script Experiment"
+            },
+            {
+              "startTime": 11340,
+              "endTime": 12045,
+              "title": "Run Once Suspense (Version 2)"
+            },
+            {
+              "startTime": 12045,
+              "endTime": 12285,
+              "title": "Derivations as First Principles: Introduction"
+            },
+            {
+              "startTime": 12285,
+              "endTime": 12480,
+              "title": "DaFP: createMemo & createProjection"
+            },
+            {
+              "startTime": 12480,
+              "endTime": 12720,
+              "title": "DaFP: Writable Variants"
+            },
+            {
+              "startTime": 12720,
+              "endTime": 13020,
+              "title": "DaFP: Diffing Revisited"
+            },
+            {
+              "startTime": 13020,
+              "endTime": 13635,
+              "title": "DaFP: Trello Example"
+            },
+            {
+              "startTime": 13635,
+              "endTime": 14130,
+              "title": "DaFP: Why Derive? & Colorless Async"
+            },
+            {
+              "startTime": 14130,
+              "endTime": 14490,
+              "title": "DaFP: Deriving Signals from props"
+            },
+            {
+              "startTime": 14490,
+              "endTime": 14955,
+              "title": "DaFP: Conclusion"
+            },
+            {
+              "startTime": 14955,
+              "endTime": 15105,
+              "title": "This Week in JavaScript: Astro & Remix"
+            },
+            {
+              "startTime": 15105,
+              "endTime": 15435,
+              "title": "TWiJ: Stack Overflow Survey"
+            },
+            {
+              "startTime": 15435,
+              "endTime": 15585,
+              "title": "TWiJ: Atila Fassina's Content"
+            },
+            {
+              "startTime": 15585,
+              "endTime": 15720,
+              "title": "TWiJ: Astro & Netlify"
+            },
+            {
+              "startTime": 15720,
+              "endTime": 15849,
+              "title": "Conclusion & Small Gift"
+            }
+          ],
+          "slug": "2024-07-26-server-islands-w-matthew-phillips",
+          "audioFileName": "2024-07-26-server-islands-w-matthew-phillips.m4a",
+          "audioFileSize": 193534299,
+          "durationSeconds": 15849
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 101.2575,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 101.2575,
+                "costMultiplier": 1,
+                "durationSeconds": 15849
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 101.2575,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 101.2575,
+                "costMultiplier": 1,
+                "durationSeconds": 15849
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 101.2575,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 101.2575,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 15849
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2979612,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2979612,
+                "inputMetric": "durationSeconds",
+                "inputValue": 15849,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2979612
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 193865,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 193865,
+                "timingBreakdown": {
+                  "uploadMs": 3702,
+                  "createMs": 136,
+                  "pollMs": 24971,
+                  "pollSleepMs": 165035,
+                  "remoteProcessingMs": 165056
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 15849,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 12.232,
+                "throughputValue": 81.753,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 193863,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3702,
+                  "createMs": 136,
+                  "createCount": 1,
+                  "pollMs": 24971,
+                  "requestCount": 21
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "55c66996-89b7-4b3e-bdae-b87578ba5af7",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/dbf10399e13b4e1d4fa34db8d92416de999c907ddf8a4b03c4ba78b6bcc9d818/d88ec2d5-3732-4731-88ab-b5058ffbd607",
+                  "createCompletedAt": "2026-09-12T02:43:01.084Z",
+                  "lastPollAt": "2026-09-12T02:46:11.109Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 193865,
+            "tokenCount": 38953,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "55c66996-89b7-4b3e-bdae-b87578ba5af7",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/dbf10399e13b4e1d4fa34db8d92416de999c907ddf8a4b03c4ba78b6bcc9d818/d88ec2d5-3732-4731-88ab-b5058ffbd607",
+              "createCompletedAt": "2026-09-12T02:43:01.084Z",
+              "lastPollAt": "2026-09-12T02:46:11.109Z",
+              "completedAt": "2026-09-12T02:46:11.111Z"
+            },
+            "timings": {
+              "uploadMs": 3702,
+              "createMs": 136,
+              "createCount": 1,
+              "pollMs": 24971,
+              "pollSleepMs": 165035,
+              "pollCount": 19,
+              "remoteProcessingMs": 165056,
+              "requestCount": 21
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 3,
+                  "active": 2,
+                  "activePeak": 3,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 6,
+                  "completed": 4,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789180853795,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789181086125,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 2,
+                      "activePeak": 3,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

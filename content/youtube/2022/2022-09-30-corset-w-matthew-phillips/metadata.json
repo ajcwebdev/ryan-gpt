@@ -1,0 +1,58 @@
+{
+  "step1": {
+    "title": "Corset: A Novel Approach to Declarative Data-Binding w/ Matthew Phillips",
+    "duration": "4:13:58",
+    "channel": "Ryan Carniato",
+    "description": "We spend a lot of time looking at frameworks on this channel. And most of them are quite similar in a lot of ways. Sometimes I wonder if we have hit a local maxima.\r\n\r\nLuckily, we have Matthew Phillips, creator of Corset and Astro maintainer, joining us to talk about how he has created an approach to building user interfaces that revisits some assumptions from the past and takes them to all new places.\n\n[0:00] Preamble\n[6:08] Welcome Matthew\n[16:00] Introducing Corset\n[55:09] Corset Demo\n[2:01:44] Hackernews\n[2:32:50] Q&A With Matthew\n[2:51:55] This Week in JavaScript\n[4:06:27] Wrap up",
+    "url": "https://www.youtube.com/watch?v=0cmj4S8K_6c",
+    "publishDate": "2022-09-30",
+    "thumbnail": "https://i.ytimg.com/vi/0cmj4S8K_6c/maxresdefault.jpg",
+    "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 368,
+        "title": "Preamble"
+      },
+      {
+        "startTime": 368,
+        "endTime": 960,
+        "title": "Welcome Matthew"
+      },
+      {
+        "startTime": 960,
+        "endTime": 3309,
+        "title": "Introducing Corset"
+      },
+      {
+        "startTime": 3309,
+        "endTime": 7304,
+        "title": "Corset Demo"
+      },
+      {
+        "startTime": 7304,
+        "endTime": 9170,
+        "title": "Hackernews"
+      },
+      {
+        "startTime": 9170,
+        "endTime": 10315,
+        "title": "Q&A With Matthew"
+      },
+      {
+        "startTime": 10315,
+        "endTime": 14787,
+        "title": "This Week in JavaScript"
+      },
+      {
+        "startTime": 14787,
+        "endTime": 15238,
+        "title": "Wrap up"
+      }
+    ],
+    "slug": "2022-09-30-corset-a-novel-approach-to-declarative-data-binding-w-matthew-phillips",
+    "audioFileName": "2022-09-30-corset-a-novel-approach-to-declarative-data-binding-w-matthew-phillips.m4a",
+    "audioFileSize": 189789143,
+    "durationSeconds": 15238
+  }
+}

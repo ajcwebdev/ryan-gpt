@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "JavaScript vs JavaScript - CSR  & SSR",
+      "slug": "2023-12-20-javascript-vs-javascript-csr-ssr",
+      "duration": "4:01:53",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=kHsTiFWz3sY",
+      "publishDate": "2023-12-20",
+      "thumbnail": "https://i.ytimg.com/vi/kHsTiFWz3sY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 255,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 255,
+          "endTime": 660,
+          "title": "SolidStart Beta 2 is Out!"
+        },
+        {
+          "startTime": 660,
+          "endTime": 1305,
+          "title": "Q&A: What To Do Now? How Can People Help?"
+        },
+        {
+          "startTime": 1305,
+          "endTime": 2250,
+          "title": "Q&A: Dependencies? PPR? JS Backends? The Edge?"
+        },
+        {
+          "startTime": 2250,
+          "endTime": 3060,
+          "title": "Q&A: React's Complexity? DHH? No-Build? 3 C's?"
+        },
+        {
+          "startTime": 3060,
+          "endTime": 3480,
+          "title": "Q&A: But, Why? SSG? Right Tool? Migrations?"
+        },
+        {
+          "startTime": 3480,
+          "endTime": 4155,
+          "title": "SSR vs. CSR: FCP, TTFB, and the Extra Hop"
+        },
+        {
+          "startTime": 4155,
+          "endTime": 4635,
+          "title": "SSR/CSR: What's a SPA? & UI = fn((state || data))"
+        },
+        {
+          "startTime": 4635,
+          "endTime": 5190,
+          "title": "SSR/CSR: SEO, CSR, & JS on the Server"
+        },
+        {
+          "startTime": 5190,
+          "endTime": 5790,
+          "title": "SSR/CSR: Spinners, Hydration, & The Fold"
+        },
+        {
+          "startTime": 5790,
+          "endTime": 6300,
+          "title": "SSR/CSR: Lazy Hydration Is A Myth"
+        },
+        {
+          "startTime": 6300,
+          "endTime": 6660,
+          "title": "SSR/CSR: Resumability Doesn't Solve Routing"
+        },
+        {
+          "startTime": 6660,
+          "endTime": 6990,
+          "title": "SSR/CSR: Innovation From Large Companies"
+        },
+        {
+          "startTime": 6990,
+          "endTime": 7290,
+          "title": "SSR/CSR: Why Is Qwik On Its Own?"
+        },
+        {
+          "startTime": 7290,
+          "endTime": 7950,
+          "title": "SSR/CSR: Marko, React, Svelte, & Performance"
+        },
+        {
+          "startTime": 7950,
+          "endTime": 8280,
+          "title": "SSR/CSR: Progressive Enhancement?"
+        },
+        {
+          "startTime": 8280,
+          "endTime": 8580,
+          "title": "SSR/CSR: Atila's Video & Gatsby's Alive"
+        },
+        {
+          "startTime": 8580,
+          "endTime": 8970,
+          "title": "SSR/CSR: Do We Need Server Rendered SPAs?"
+        },
+        {
+          "startTime": 8970,
+          "endTime": 9720,
+          "title": "SSR/CSR: From SPAs to Islands to... HTMX?!"
+        },
+        {
+          "startTime": 9720,
+          "endTime": 10605,
+          "title": "Conclusion: What to Use? Explore the Middle"
+        },
+        {
+          "startTime": 10605,
+          "endTime": 11040,
+          "title": "One Extra Microtask Tick"
+        },
+        {
+          "startTime": 11040,
+          "endTime": 11835,
+          "title": "The Power of JSX & Good Baseline Primitives"
+        },
+        {
+          "startTime": 11835,
+          "endTime": 12900,
+          "title": "What is SolidStart Again?"
+        },
+        {
+          "startTime": 12900,
+          "endTime": 13755,
+          "title": "Closure Extraction, .bind(), & .with()"
+        },
+        {
+          "startTime": 13755,
+          "endTime": 14513,
+          "title": "Final Thoughts on the New APIs & The Future"
+        }
+      ],
+      "description": "Decided to squeeze an extra stream in before the holidays because the conversation this week so far is already has so much going on.\n\n[0:00] Preamble\n[4:15] SolidStart Beta 2 is Out!\n[11:00] Q&A: What To Do Now? How Can People Help?\n[21:45] Q&A: Dependencies? PPR? JS Backends? The Edge?\n[37:30] Q&A: React's Complexity? DHH? No-Build? 3 C's?\n[51:00] Q&A: But, Why? SSG? Right Tool? Migrations?\n[58:00] SSR vs. CSR: FCP, TTFB, and the Extra Hop\n[1:09:15] SSR/CSR: What's a SPA? & UI = fn((state || data))\n[1:17:15] SSR/CSR: SEO, CSR, & JS on the Server\n[1:26:30] SSR/CSR: Spinners, Hydration, & The Fold\n[1:36:30] SSR/CSR: Lazy Hydration Is A Myth\n[1:45:00] SSR/CSR: Resumability Doesn't Solve Routing\n[1:51:00] SSR/CSR: Innovation From Large Companies\n[1:56:30] SSR/CSR: Why Is Qwik On Its Own?\n[2:01:30] SSR/CSR: Marko, React, Svelte, & Performance\n[2:12:30] SSR/CSR: Progressive Enhancement?\n[2:18:00] SSR/CSR: Atila's Video & Gatsby's Alive\n[2:23:00] SSR/CSR: Do We Need Server Rendered SPAs?\n[2:29:30] SSR/CSR: From SPAs to Islands to... HTMX?!\n[2:42:00] Conclusion: What to Use? Explore the Middle\n[2:56:45] One Extra Microtask Tick\n[3:04:00] The Power of JSX & Good Baseline Primitives\n[3:17:15] What is SolidStart Again?\n[3:35:00] Closure Extraction, .bind(), & .with()\n[3:49:15] Final Thoughts on the New APIs & The Future\n\nThank you @zombiefacesupreme for the time stamps"
+    }
+  }
+}

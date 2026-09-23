@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Designing Signals 2.0",
+      "slug": "2024-03-23-designing-signals-20",
+      "duration": "5:10:04",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=sMbICJUGJj4",
+      "publishDate": "2024-03-23",
+      "thumbnail": "https://i.ytimg.com/vi/sMbICJUGJj4/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 175,
+          "title": "Intro"
+        },
+        {
+          "startTime": 175,
+          "endTime": 549,
+          "title": "Ryan Joins Stream"
+        },
+        {
+          "startTime": 549,
+          "endTime": 1578,
+          "title": "Ryan Answers Questions From Chat 1"
+        },
+        {
+          "startTime": 1578,
+          "endTime": 4218,
+          "title": "What is signals 2.0?"
+        },
+        {
+          "startTime": 4218,
+          "endTime": 4891,
+          "title": "Ryan Answers Questions From Chat 2"
+        },
+        {
+          "startTime": 4891,
+          "endTime": 5178,
+          "title": "Ownership Model In Solid"
+        },
+        {
+          "startTime": 5178,
+          "endTime": 5299,
+          "title": "Is IT Common To Nest Effects ?"
+        },
+        {
+          "startTime": 5299,
+          "endTime": 5426,
+          "title": "Discussion With Chat"
+        },
+        {
+          "startTime": 5426,
+          "endTime": 5695,
+          "title": "Three Types Of Rendering Frameworks"
+        },
+        {
+          "startTime": 5695,
+          "endTime": 5917,
+          "title": "Solid Beyond HTML Elements"
+        },
+        {
+          "startTime": 5917,
+          "endTime": 6069,
+          "title": "How Solid's Context Works !"
+        },
+        {
+          "startTime": 6069,
+          "endTime": 6439,
+          "title": "Discussion Chat Continues"
+        },
+        {
+          "startTime": 6439,
+          "endTime": 6496,
+          "title": "Example Of Losing Reactivity"
+        },
+        {
+          "startTime": 6496,
+          "endTime": 6772,
+          "title": "Error Boundaries"
+        },
+        {
+          "startTime": 6772,
+          "endTime": 6990,
+          "title": "What Is A Control Boundary?"
+        },
+        {
+          "startTime": 6990,
+          "endTime": 7290,
+          "title": "Performance Of Proxies"
+        },
+        {
+          "startTime": 7290,
+          "endTime": 7535,
+          "title": "What Really Is Signals 2.0?"
+        },
+        {
+          "startTime": 7535,
+          "endTime": 8514,
+          "title": "createResource"
+        },
+        {
+          "startTime": 8514,
+          "endTime": 9192,
+          "title": "Dependency tracking"
+        },
+        {
+          "startTime": 9192,
+          "endTime": 9343,
+          "title": "createAsync"
+        },
+        {
+          "startTime": 9343,
+          "endTime": 9836,
+          "title": "createRenderEffect"
+        },
+        {
+          "startTime": 9836,
+          "endTime": 10078,
+          "title": "Synchronisation vs Derivation"
+        },
+        {
+          "startTime": 10078,
+          "endTime": 12244,
+          "title": "createWritable"
+        },
+        {
+          "startTime": 12244,
+          "endTime": 12495,
+          "title": "This Week In JavaScript"
+        },
+        {
+          "startTime": 12495,
+          "endTime": 12796,
+          "title": "TWIJS: \"You Can't Make Children Typesafe In React And Typesafe\""
+        },
+        {
+          "startTime": 12796,
+          "endTime": 13084,
+          "title": "TWIJS: Default HTTP Method Of form"
+        },
+        {
+          "startTime": 13084,
+          "endTime": 13217,
+          "title": "TWIJS: \"SSR For Docs Site Is A mistake ?\""
+        },
+        {
+          "startTime": 13217,
+          "endTime": 13305,
+          "title": "TWIJS: Solid News"
+        },
+        {
+          "startTime": 13305,
+          "endTime": 13649,
+          "title": "TWIJS React Complier's Type System"
+        },
+        {
+          "startTime": 13649,
+          "endTime": 14070,
+          "title": "The World Beyond Components (Clip)"
+        },
+        {
+          "startTime": 14070,
+          "endTime": 14583,
+          "title": "Crossing The Chasm"
+        },
+        {
+          "startTime": 14583,
+          "endTime": 16649,
+          "title": "Angular And Wiz Are Merging!"
+        },
+        {
+          "startTime": 16649,
+          "endTime": 17925,
+          "title": "Appreciation To All Contributors"
+        },
+        {
+          "startTime": 17925,
+          "endTime": 18604,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "Signals are not a new technology. The current wave of Signals and fine-grained rendering has existed in the modern form for the past 7 years. As an early adopter/pioneer in this area I want to talk about where things are and how I see them changing in the next few years. We will take a first look at Solid's work in this area and talk about the tradeoffs and constraints.\n\r\n[0:00] Intro\n[2:55] Ryan Joins Stream\n[09:09] Ryan Answers Questions From Chat 1\n[26:18] What is signals 2.0?\n[1:10:18]  Ryan Answers Questions From Chat 2\n[1:21:31] Ownership Model In Solid\n[1:26:18] Is IT Common To Nest Effects ?\n[1:28:19] Discussion With Chat \n[1:30:26] Three Types Of Rendering Frameworks\n[1:34:55] Solid Beyond HTML Elements\n[1:38:37] How Solid's Context Works !\n[1:41:09] Discussion Chat Continues \n[1:47:19] Example Of Losing Reactivity\n[1:48:16] Error Boundaries\n[1:52:52] What Is A Control Boundary?\n[1:56:30] Performance Of Proxies\n[2:01:30] What Really Is Signals 2.0?\n[2:05:35] createResource\n[2:21:54] Dependency tracking\n[2:33:12] createAsync\n[2:35:43] createRenderEffect\n[2:43:56] Synchronisation vs Derivation\n[2:47:58] createWritable\n[3:24:04] This Week In JavaScript\n[3:28:15] TWIJS: \"You Can't Make Children Typesafe In React And Typesafe\"\n[3:33:16] TWIJS: Default HTTP Method Of form\n[3:38:04] TWIJS: \"SSR For Docs Site Is A mistake ?\"\n[3:40:17] TWIJS: Solid News\n[3:41:45] TWIJS React Complier's Type System\n[3:47:29] The World Beyond Components (Clip)\n[3:54:30] Crossing The Chasm\n[4:03:03] Angular And Wiz Are Merging!\n[4:37:29] Appreciation To All Contributors\n[4:58:45] Conclusion\n\r\nThanks to @boomshakalaka656 for the timestamps!\n\nImage by pvproductions on Freepik"
+    }
+  }
+}

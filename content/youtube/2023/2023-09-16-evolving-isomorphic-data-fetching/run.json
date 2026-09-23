@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Evolving Isomorphic Data-Fetching",
+      "slug": "2023-09-16-evolving-isomorphic-data-fetching",
+      "duration": "4:44:24",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=8ObxzMSIqKA",
+      "publishDate": "2023-09-16",
+      "thumbnail": "https://i.ytimg.com/vi/8ObxzMSIqKA/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 1170,
+          "title": "Preamble - Isomorphic Code in JS vs. Rust, etc."
+        },
+        {
+          "startTime": 1170,
+          "endTime": 2220,
+          "title": "Preamble - Templating, Signals, & Academia"
+        },
+        {
+          "startTime": 2220,
+          "endTime": 3330,
+          "title": "Evolving Isomorphic Data-Fetching - Introduction"
+        },
+        {
+          "startTime": 3330,
+          "endTime": 4140,
+          "title": "EIDF: Early Client-Side Routing"
+        },
+        {
+          "startTime": 4140,
+          "endTime": 4755,
+          "title": "EIDF: The React Router 4 Regression"
+        },
+        {
+          "startTime": 4755,
+          "endTime": 5115,
+          "title": "EIDF: How Does Client-Side Routing Work?"
+        },
+        {
+          "startTime": 5115,
+          "endTime": 5805,
+          "title": "EIDF: SSR in JS Frameworks: Prepass"
+        },
+        {
+          "startTime": 5805,
+          "endTime": 6585,
+          "title": "EIDF: SSR: Suspense & Loader Pattern"
+        },
+        {
+          "startTime": 6585,
+          "endTime": 7290,
+          "title": "EIDF: SSR: Async Components"
+        },
+        {
+          "startTime": 7290,
+          "endTime": 7695,
+          "title": "EIDF: SSR: Solid's Current Patterns"
+        },
+        {
+          "startTime": 7695,
+          "endTime": 8790,
+          "title": "EIDF: Benefits of Islands"
+        },
+        {
+          "startTime": 8790,
+          "endTime": 9510,
+          "title": "EIDF: State and Context in Server Components"
+        },
+        {
+          "startTime": 9510,
+          "endTime": 10140,
+          "title": "EIDF: Cache and Preload"
+        },
+        {
+          "startTime": 10140,
+          "endTime": 10350,
+          "title": "EIDF: Brief Preview of New Async Primitive"
+        },
+        {
+          "startTime": 10350,
+          "endTime": 11250,
+          "title": "Q & A: HTMX, Bun, Rust, etc. (Primeagen Raid)"
+        },
+        {
+          "startTime": 11250,
+          "endTime": 12030,
+          "title": "Q & A: RSC's, Context, Complexity, etc."
+        },
+        {
+          "startTime": 12030,
+          "endTime": 12480,
+          "title": "EIDF: createAsync & createWriteable"
+        },
+        {
+          "startTime": 12480,
+          "endTime": 13275,
+          "title": "EIDF: cache(fn)"
+        },
+        {
+          "startTime": 13275,
+          "endTime": 14400,
+          "title": "EIDF: Conclusion"
+        },
+        {
+          "startTime": 14400,
+          "endTime": 14700,
+          "title": "Intermission"
+        },
+        {
+          "startTime": 14700,
+          "endTime": 15630,
+          "title": "This Week in JavaScript: Node & Bun"
+        },
+        {
+          "startTime": 15630,
+          "endTime": 16110,
+          "title": "TWiJ - Ryan's Article"
+        },
+        {
+          "startTime": 16110,
+          "endTime": 16425,
+          "title": "TWiJ - Vercel V0"
+        },
+        {
+          "startTime": 16425,
+          "endTime": 16920,
+          "title": "TWiJ - Remix v2"
+        },
+        {
+          "startTime": 16920,
+          "endTime": 17064,
+          "title": "Wrap-up and Preview of Next Week"
+        }
+      ],
+      "description": "New constraints have been leading to a complete rethinking of how we handle isomorphic data-fetching in JavaScript frameworks. Truthfully I don't have the full answer yet. Join me as we explore this topic understanding the constraints, learning from history, and attempt to design what the architecture of the future looks like.\n\n0:00] - Preamble - Isomorphic Code in JS vs. Rust, etc.\n[19:30] - Preamble - Templating, Signals, & Academia\n[37:00] - Evolving Isomorphic Data-Fetching - Introduction \n[55:30] - EIDF: Early Client-Side Routing\n[1:09:00] - EIDF: The React Router 4 Regression\n[1:19:15] - EIDF: How Does Client-Side Routing Work?\n[1:25:15] - EIDF: SSR in JS Frameworks: Prepass\n[1:36:45] - EIDF: SSR: Suspense & Loader Pattern\n[1:49:45] - EIDF: SSR: Async Components\n[2:01:30] - EIDF: SSR: Solid's Current Patterns\n[2:08:15] - EIDF: Benefits of Islands\n[2:26:30] - EIDF: State and Context in Server Components\n[2:38:30] - EIDF: Cache and Preload\n[2:49:00] - EIDF: Brief Preview of New Async Primitive\n[2:52:30] - Q & A: HTMX, Bun, Rust, etc. (Primeagen Raid)\n[3:07:30] - Q & A: RSC's, Context, Complexity, etc.\n[3:20:30] - EIDF: createAsync & createWriteable\n[3:28:00] - EIDF: cache(fn)\n[3:41:15] - EIDF: Conclusion\n[4:00:00] - Intermission\n[4:05:00] - This Week in JavaScript: Node & Bun\n[4:20:30] - TWiJ - Ryan's Article\n[4:28:30] - TWiJ - Vercel V0 \n[4:33:45] - TWiJ - Remix v2 \n[4:42:00] - Wrap-up and Preview of Next Week\n\nThank you @zombiefacesupreme for the timestamps."
+    }
+  }
+}

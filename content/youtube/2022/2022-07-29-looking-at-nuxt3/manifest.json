@@ -1,0 +1,324 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:04:07.188Z",
+  "updatedAt": "2026-09-23T08:07:09.093Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Looking at Nuxt3",
+          "duration": "3:53:29",
+          "channel": "Ryan Carniato",
+          "description": "Vue SSR has been strangely absent from the streams and it's time to rectify that. So I'm taking the dive into the world of Nuxt 3. Come join me in learning the basics and maybe even making an app.\n\n[0:00] Introduction\n[4:24] Welcome Daniel Roe\n[36:21] Getting Started with Nuxt\n[43:40] Vue Server Components?\n[58:58] Getting Started for Real\n[1:18:53] Porting Hackernews\n[1:47:06] Reactivity & Routing\n[2:17:02] Deploying\n[2:47:57] Pagespeed Insights\n[2:59:08] Q & A\n[3:14:05] This Week in JavaScript \n[3:49:12] Outro",
+          "url": "https://www.youtube.com/watch?v=s4Rd2snXSr0",
+          "publishDate": "2022-07-29",
+          "thumbnail": "https://i.ytimg.com/vi/s4Rd2snXSr0/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 264,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 264,
+              "endTime": 2181,
+              "title": "Welcome Daniel Roe"
+            },
+            {
+              "startTime": 2181,
+              "endTime": 2620,
+              "title": "Getting Started with Nuxt"
+            },
+            {
+              "startTime": 2620,
+              "endTime": 3538,
+              "title": "Vue Server Components?"
+            },
+            {
+              "startTime": 3538,
+              "endTime": 4733,
+              "title": "Getting Started for Real"
+            },
+            {
+              "startTime": 4733,
+              "endTime": 6426,
+              "title": "Porting Hackernews"
+            },
+            {
+              "startTime": 6426,
+              "endTime": 8222,
+              "title": "Reactivity & Routing"
+            },
+            {
+              "startTime": 8222,
+              "endTime": 10077,
+              "title": "Deploying"
+            },
+            {
+              "startTime": 10077,
+              "endTime": 10748,
+              "title": "Pagespeed Insights"
+            },
+            {
+              "startTime": 10748,
+              "endTime": 11645,
+              "title": "Q & A"
+            },
+            {
+              "startTime": 11645,
+              "endTime": 13752,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 13752,
+              "endTime": 14009,
+              "title": "Outro"
+            }
+          ],
+          "slug": "2022-07-29-looking-at-nuxt3",
+          "audioFileName": "2022-07-29-looking-at-nuxt3.m4a",
+          "audioFileSize": 176478925,
+          "durationSeconds": 14009
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 89.50194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 89.50194444444445,
+                "costMultiplier": 1,
+                "durationSeconds": 14009
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 89.50194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 89.50194444444445,
+                "costMultiplier": 1,
+                "durationSeconds": 14009
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 89.50194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 89.50194444444445,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 14009
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2633692,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2633692,
+                "inputMetric": "durationSeconds",
+                "inputValue": 14009,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2633692
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 176621,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 176621,
+                "timingBreakdown": {
+                  "uploadMs": 3553,
+                  "createMs": 113,
+                  "pollMs": 7782,
+                  "pollSleepMs": 165063,
+                  "remoteProcessingMs": 165173
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 14009,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 12.608,
+                "throughputValue": 79.317,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 176618,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3553,
+                  "createMs": 113,
+                  "createCount": 1,
+                  "pollMs": 7782,
+                  "requestCount": 21
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "4d74445e-0374-4ebf-996f-72839dce63da",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/4626e41ecb16560a1bb404454ba6a4a615b802bbfbc577b46ee8b3143e444764/28e6209e-bafa-4718-b141-e619e2563c57",
+                  "createCompletedAt": "2026-09-23T08:04:15.868Z",
+                  "lastPollAt": "2026-09-23T08:07:08.818Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 176621,
+            "tokenCount": 39888,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "4d74445e-0374-4ebf-996f-72839dce63da",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/4626e41ecb16560a1bb404454ba6a4a615b802bbfbc577b46ee8b3143e444764/28e6209e-bafa-4718-b141-e619e2563c57",
+              "createCompletedAt": "2026-09-23T08:04:15.868Z",
+              "lastPollAt": "2026-09-23T08:07:08.818Z",
+              "completedAt": "2026-09-23T08:07:08.821Z"
+            },
+            "timings": {
+              "uploadMs": 3553,
+              "createMs": 113,
+              "createCount": 1,
+              "pollMs": 7782,
+              "pollSleepMs": 165063,
+              "pollCount": 19,
+              "remoteProcessingMs": 165173,
+              "requestCount": 21
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 3,
+                  "completed": 2,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790150652199,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "assemblyai.stt.v1",
+            "request": {
+              "model": "universal-3-5-pro",
+              "diarization": {
+                "enabled": true
+              }
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

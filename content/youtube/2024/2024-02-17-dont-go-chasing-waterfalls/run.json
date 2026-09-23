@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Don't Go Chasing Waterfalls",
+      "slug": "2024-02-17-dont-go-chasing-waterfalls",
+      "duration": "4:49:17",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=hiYQC4XaUu4",
+      "publishDate": "2024-02-17",
+      "thumbnail": "https://i.ytimg.com/vi/hiYQC4XaUu4/sddefault.jpg?v=65ce8567",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 105,
+          "title": "Starting Soon..."
+        },
+        {
+          "startTime": 105,
+          "endTime": 420,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 420,
+          "endTime": 1050,
+          "title": "Why Are We Talking About Waterfalls?"
+        },
+        {
+          "startTime": 1050,
+          "endTime": 1500,
+          "title": "What Is a Waterfall and Why Do We Care?"
+        },
+        {
+          "startTime": 1500,
+          "endTime": 1920,
+          "title": "The Benefits of Grouping Requests"
+        },
+        {
+          "startTime": 1920,
+          "endTime": 2640,
+          "title": "The Tradeoffs of Grouping Requests"
+        },
+        {
+          "startTime": 2640,
+          "endTime": 3600,
+          "title": "The Internet's Inherent Waterfalls"
+        },
+        {
+          "startTime": 3600,
+          "endTime": 4560,
+          "title": "Data Fetching & Client State"
+        },
+        {
+          "startTime": 4560,
+          "endTime": 5100,
+          "title": "Streaming, Spinners, & Suspense"
+        },
+        {
+          "startTime": 5100,
+          "endTime": 5565,
+          "title": "RSCs & Componentized Data Fetching"
+        },
+        {
+          "startTime": 5565,
+          "endTime": 6120,
+          "title": "Await Means Stop"
+        },
+        {
+          "startTime": 6120,
+          "endTime": 6765,
+          "title": "The Remix Approach & Loaders"
+        },
+        {
+          "startTime": 6765,
+          "endTime": 7275,
+          "title": "Server Waterfalls Are Real"
+        },
+        {
+          "startTime": 7275,
+          "endTime": 7680,
+          "title": "The DataLoader Example"
+        },
+        {
+          "startTime": 7680,
+          "endTime": 8355,
+          "title": "Single Flight Mutations"
+        },
+        {
+          "startTime": 8355,
+          "endTime": 8715,
+          "title": "Conclusion: More Than One Way"
+        },
+        {
+          "startTime": 8715,
+          "endTime": 9660,
+          "title": "Are Server Components Actually Composable?"
+        },
+        {
+          "startTime": 9660,
+          "endTime": 10290,
+          "title": "Q&A: Publish This? Composition? Slots?"
+        },
+        {
+          "startTime": 10290,
+          "endTime": 10830,
+          "title": "This Week in JavaScript: Solid News"
+        },
+        {
+          "startTime": 10830,
+          "endTime": 11160,
+          "title": "TWiJ: The Trough of Disillusionment"
+        },
+        {
+          "startTime": 11160,
+          "endTime": 11880,
+          "title": "TWiJ: A Framework for Future Developers"
+        },
+        {
+          "startTime": 11880,
+          "endTime": 12180,
+          "title": "TWiJ: Bobae Kang - React, Solid, & HTMX"
+        },
+        {
+          "startTime": 12180,
+          "endTime": 12480,
+          "title": "TWiJ: Brenley Dueck - Vinxi Article"
+        },
+        {
+          "startTime": 12480,
+          "endTime": 12780,
+          "title": "TWiJ: HTMX Notion App"
+        },
+        {
+          "startTime": 12780,
+          "endTime": 13515,
+          "title": "TWiJ: Qwik 2.0"
+        },
+        {
+          "startTime": 13515,
+          "endTime": 14100,
+          "title": "TWiJ: You'll Never Need These APIs Again"
+        },
+        {
+          "startTime": 14100,
+          "endTime": 15375,
+          "title": "TWiJ: React Blog Post - React Compiler"
+        },
+        {
+          "startTime": 15375,
+          "endTime": 15825,
+          "title": "TWiJ: React Blog Post - Actions & Resources"
+        },
+        {
+          "startTime": 15825,
+          "endTime": 16365,
+          "title": "TWiJ: JS Framework Benchmark Fun"
+        },
+        {
+          "startTime": 16365,
+          "endTime": 17130,
+          "title": "TWiJ: Signal Memes & Reactivity History"
+        },
+        {
+          "startTime": 17130,
+          "endTime": 17356,
+          "title": "Conclusion & Future Stream Schedule"
+        }
+      ],
+      "description": "After the recent conversation on Twitter around data-fetching waterfalls I figured it was a topic worth discussing. We will talk about the difference between Server Components, and other models when it comes to addressing waterfalls.\n\n[0:00] Starting Soon...\n[1:45] Preamble\n[7:00] Why Are We Talking About Waterfalls?\n[17:30] What Is a Waterfall and Why Do We Care?\n[25:00] The Benefits of Grouping Requests\n[32:00] The Tradeoffs of Grouping Requests \n[44:00] The Internet's Inherent Waterfalls\n[1:00:00] Data Fetching & Client State\n[1:16:00] Streaming, Spinners, & Suspense\n[1:25:00] RSCs & Componentized Data Fetching\n[1:32:45] Await Means Stop\n[1:42:00] The Remix Approach & Loaders\n[1:52:45] Server Waterfalls Are Real\n[2:01:15] The DataLoader Example\n[2:08:00] Single Flight Mutations\n[2:19:15] Conclusion: More Than One Way \n[2:25:15] Are Server Components Actually Composable?\n[2:41:00] Q&A: Publish This? Composition? Slots?   \n[2:51:30] This Week in JavaScript: Solid News\n[3:00:30] TWiJ: The Trough of Disillusionment\n[3:06:00] TWiJ: A Framework for Future Developers\n[3:18:00] TWiJ: Bobae Kang - React, Solid, & HTMX\n[3:23:00] TWiJ: Brenley Dueck - Vinxi Article\n[3:28:00] TWiJ: HTMX Notion App \n[3:33:00] TWiJ: Qwik 2.0 \n[3:45:15] TWiJ: You'll Never Need These APIs Again\n[3:55:00] TWiJ: React Blog Post - React Compiler\n[4:16:15] TWiJ: React Blog Post - Actions & Resources\n[4:23:45] TWiJ: JS Framework Benchmark Fun \n[4:32:45] TWiJ: Signal Memes & Reactivity History\n[4:45:30] Conclusion & Future Stream Schedule\n\nThanks @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

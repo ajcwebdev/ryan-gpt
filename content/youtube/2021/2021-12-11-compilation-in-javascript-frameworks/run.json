@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Compilation in JavaScript Frameworks",
+      "slug": "2021-12-11-compilation-in-javascript-frameworks",
+      "duration": "3:41:54",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=FB_kBYO_vIw",
+      "publishDate": "2021-12-11",
+      "thumbnail": "https://i.ytimg.com/vi/FB_kBYO_vIw/sddefault.jpg?v=61b38de9",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 257,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 257,
+          "endTime": 2573,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 2573,
+          "endTime": 2743,
+          "title": "Introduction to Compilation"
+        },
+        {
+          "startTime": 2743,
+          "endTime": 3428,
+          "title": "History of Compilation in JavaScript"
+        },
+        {
+          "startTime": 3428,
+          "endTime": 4007,
+          "title": "Early Templates"
+        },
+        {
+          "startTime": 4007,
+          "endTime": 4204,
+          "title": "JSX/HyperScript"
+        },
+        {
+          "startTime": 4204,
+          "endTime": 5167,
+          "title": "Tagged Template Literals"
+        },
+        {
+          "startTime": 5167,
+          "endTime": 5634,
+          "title": "Solid Templates"
+        },
+        {
+          "startTime": 5634,
+          "endTime": 6251,
+          "title": "Svelte Templates"
+        },
+        {
+          "startTime": 6251,
+          "endTime": 6410,
+          "title": "React Forget"
+        },
+        {
+          "startTime": 6410,
+          "endTime": 6676,
+          "title": "JSX vs DSLs"
+        },
+        {
+          "startTime": 6676,
+          "endTime": 6815,
+          "title": "SSR Templates"
+        },
+        {
+          "startTime": 6815,
+          "endTime": 7973,
+          "title": "Frameworks as a Language"
+        },
+        {
+          "startTime": 7973,
+          "endTime": 8436,
+          "title": "The Marko Language"
+        },
+        {
+          "startTime": 8436,
+          "endTime": 9074,
+          "title": "Aggressive Colocation"
+        },
+        {
+          "startTime": 9074,
+          "endTime": 9365,
+          "title": "React Forget Example Revisited"
+        },
+        {
+          "startTime": 9365,
+          "endTime": 9868,
+          "title": "Components are Pure Overhead"
+        },
+        {
+          "startTime": 9868,
+          "endTime": 10650,
+          "title": "Sub-Component Partial Hydration"
+        },
+        {
+          "startTime": 10650,
+          "endTime": 11154,
+          "title": "Fine-Grained FTW"
+        },
+        {
+          "startTime": 11154,
+          "endTime": 11635,
+          "title": "Is Syntax just Superficial?"
+        },
+        {
+          "startTime": 11635,
+          "endTime": 11801,
+          "title": "Innovation in Contradiction"
+        },
+        {
+          "startTime": 11801,
+          "endTime": 12063,
+          "title": "Language vs Paradigm"
+        },
+        {
+          "startTime": 12063,
+          "endTime": 12405,
+          "title": "Product of their Environment"
+        },
+        {
+          "startTime": 12405,
+          "endTime": 12788,
+          "title": "ASTExplorer.net"
+        },
+        {
+          "startTime": 12788,
+          "endTime": 13115,
+          "title": "Binding Analysis"
+        },
+        {
+          "startTime": 13115,
+          "endTime": 13276,
+          "title": "Mitosis"
+        },
+        {
+          "startTime": 13276,
+          "endTime": 13314,
+          "title": "Ending"
+        }
+      ],
+      "description": "A lot of recent talk and even my own focus has been around compilation in JavaScript frameworks. Truthfully tooling extends throughout the whole toolchain to the point what you put in is nothing like what you get out. We will look at the progression of compilation techniques and the impact on how we approach developing web applications.\n\n[0:00] Introduction\n[4:17] This Week in JavaScript\n[42:53] Introduction to Compilation\n[45:43] History of Compilation in JavaScript\n[57:08] Early Templates\n[1:06:47] JSX/HyperScript\n[1:10:04] Tagged Template Literals\n[1:26:07] Solid Templates\n[1:33:54] Svelte Templates\n[1:44:11] React Forget\n[1:46:50] JSX vs DSLs\n[1:51:16] SSR Templates\n[1:53:35] Frameworks as a Language\n[2:12:53] The Marko Language \n[2:20:36] Aggressive Colocation\n[2:31:14] React Forget Example Revisited\n[2:36:05] Components are Pure Overhead\n[2:44:28] Sub-Component Partial Hydration\n[2:57:30] Fine-Grained FTW\n[3:05:54] Is Syntax just Superficial?\n[3:13:55] Innovation in Contradiction\n[3:16:41] Language vs Paradigm\n[3:21:03] Product of their Environment\n[3:26:45] ASTExplorer.net\n[3:33:08] Binding Analysis\n[3:38:35] Mitosis\n[3:41:16] Ending"
+    }
+  }
+}

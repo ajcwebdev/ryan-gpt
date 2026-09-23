@@ -10,7 +10,6 @@ IGNORE_PATHS=(
   "content/on-deck"
   "content/youtube"
   "content/questions-and-answers"
-  "content/archive"
   ".gitignore"
   "chapters.md"
   "embeddings.json"

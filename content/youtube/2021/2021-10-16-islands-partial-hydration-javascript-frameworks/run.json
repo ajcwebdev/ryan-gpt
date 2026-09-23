@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Islands, Partial Hydration, & JavaScript Frameworks",
+      "slug": "2021-10-16-islands-partial-hydration-javascript-frameworks",
+      "duration": "2:51:21",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Q0mXYbA86Qo",
+      "publishDate": "2021-10-16",
+      "thumbnail": "https://i.ytimg.com/vi/Q0mXYbA86Qo/sddefault.jpg?v=6169b8a0",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 88,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 88,
+          "endTime": 212,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 212,
+          "endTime": 1726,
+          "title": "Size of JavaScript Frameworks"
+        },
+        {
+          "startTime": 1726,
+          "endTime": 3515,
+          "title": "History of Server-Side Rendering"
+        },
+        {
+          "startTime": 3515,
+          "endTime": 4149,
+          "title": "Astro"
+        },
+        {
+          "startTime": 4149,
+          "endTime": 5607,
+          "title": "Qwik"
+        },
+        {
+          "startTime": 5607,
+          "endTime": 7146,
+          "title": "Marko"
+        },
+        {
+          "startTime": 7146,
+          "endTime": 7925,
+          "title": "Grand Unifying Theory of SPA/MPA"
+        },
+        {
+          "startTime": 7925,
+          "endTime": 8570,
+          "title": "Q&A"
+        },
+        {
+          "startTime": 8570,
+          "endTime": 9506,
+          "title": "Future plans for Solid SSR"
+        },
+        {
+          "startTime": 9506,
+          "endTime": 9570,
+          "title": "Ideas for Future Streams"
+        },
+        {
+          "startTime": 9570,
+          "endTime": 9720,
+          "title": "Module Federation"
+        },
+        {
+          "startTime": 9720,
+          "endTime": 10140,
+          "title": "Micro-Frame"
+        },
+        {
+          "startTime": 10140,
+          "endTime": 10281,
+          "title": "The SPA/MPA Gap"
+        }
+      ],
+      "description": "This stream will look at the most innovative thing going on in JavaScript frameworks. I will explore the ideas of islands, islets, and partial hydration, and look at what frameworks like Marko, Astro, and Qwik are attacking this.\n\nJavaScript Framework Size Comparison: https://dev.to/ryansolid/a-hands-on-introduction-to-fine-grained-reactivity-3ndf\n\n[0:00] Introduction\n[1:28] This Week in JavaScript\n[3:32] Size of JavaScript Frameworks\n[28:46] History of Server-Side Rendering\n[58:35] Astro\n[1:09:09] Qwik\n[1:33:27] Marko\n[1:59:06] Grand Unifying Theory of SPA/MPA\n[2:12:05] Q&A\n[2:22:50] Future plans for Solid SSR\n[2:38:26] Ideas for Future Streams\n[2:39:30] Module Federation\n[2:42:00] Micro-Frame\n[2:49:00] The SPA/MPA Gap"
+    }
+  }
+}

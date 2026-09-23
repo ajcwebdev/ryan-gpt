@@ -1,0 +1,59 @@
+{
+  "step1": {
+    "title": "UI Libraries, Improving React.js & Music, with Ryan Carniato, Solid.js Creator",
+    "duration": "1:13:26",
+    "author": "Zaiste Programming",
+    "url": "https://www.youtube.com/watch?v=Dq5EAcup044",
+    "publishDate": "2021-03-24",
+    "thumbnail": "https://i.ytimg.com/vi/Dq5EAcup044/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCzgkOWKcwy0uhYilE6bd1Lg",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 196,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 196,
+        "endTime": 642,
+        "title": "Transition to Programming"
+      },
+      {
+        "startTime": 642,
+        "endTime": 1430,
+        "title": "Your First Job as Junior Programmer Was It about Web Development"
+      },
+      {
+        "startTime": 1430,
+        "endTime": 2305,
+        "title": "Server Side Rendering"
+      },
+      {
+        "startTime": 2305,
+        "endTime": 2523,
+        "title": "Reactive Libraries"
+      },
+      {
+        "startTime": 2523,
+        "endTime": 2692,
+        "title": "Story of Server-Side Rendering for Solid Js"
+      },
+      {
+        "startTime": 2692,
+        "endTime": 3213,
+        "title": "Progressive Rendering"
+      },
+      {
+        "startTime": 3213,
+        "endTime": 4040,
+        "title": "Debugging"
+      },
+      {
+        "startTime": 4040,
+        "endTime": 4406,
+        "title": "Binding Syntax"
+      }
+    ],
+    "description": "An interview with Ryan Carniato, the creator of Solid.js, a JavaScript library for building user interfaces."
+  }
+}

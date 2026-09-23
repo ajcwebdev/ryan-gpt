@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "The State of JS Frameworks with Ryan Carniato: Part 2 - JSJ 571",
+    "duration": "49:48",
+    "author": "Top End Devs",
+    "url": "https://www.youtube.com/watch?v=embiPIZzP6E",
+    "publishDate": "2023-02-28",
+    "thumbnail": "https://i.ytimg.com/vi/embiPIZzP6E/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCABJEQ57MIn6X3TIHIebJUw",
+    "description": "Ryan Carniato is the Principal Engineer OSS at Netlify. He is the author of the SolidJS UI library. He joins the show to talk about where the JavaScript Frameworks are headed. They share their insights on the changes that occurred in React. Additionally, they talk about their perspective on React and other JavaScript frameworks."
+  }
+}

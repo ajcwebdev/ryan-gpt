@@ -1,0 +1,154 @@
+{
+  "step1": {
+    "title": "JSMP 12: SolidJS - Unveiling the Future of JavaScript Performance with Creator Ryan Carniato",
+    "duration": "1:09:23",
+    "author": "JS Poland Conf",
+    "url": "https://www.youtube.com/watch?v=oP43Gy6ap70",
+    "publishDate": "2023-04-14",
+    "thumbnail": "https://i.ytimg.com/vi/oP43Gy6ap70/sddefault.jpg?v=6438ea29",
+    "channelUrl": "https://www.youtube.com/channel/UCbCvFj_QGyth4S_P7P0zBKg",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 73,
+        "title": "Intro"
+      },
+      {
+        "startTime": 73,
+        "endTime": 317,
+        "title": "Meet Ryan"
+      },
+      {
+        "startTime": 317,
+        "endTime": 560,
+        "title": "What is SolidJS"
+      },
+      {
+        "startTime": 560,
+        "endTime": 766,
+        "title": "SolidJS SEO"
+      },
+      {
+        "startTime": 766,
+        "endTime": 895,
+        "title": "Why SolidJS"
+      },
+      {
+        "startTime": 895,
+        "endTime": 1109,
+        "title": "Performance Simplicity"
+      },
+      {
+        "startTime": 1109,
+        "endTime": 1356,
+        "title": "Integration"
+      },
+      {
+        "startTime": 1356,
+        "endTime": 1464,
+        "title": "Signals"
+      },
+      {
+        "startTime": 1464,
+        "endTime": 1574,
+        "title": "Interrupt"
+      },
+      {
+        "startTime": 1574,
+        "endTime": 1741,
+        "title": "Primitives"
+      },
+      {
+        "startTime": 1741,
+        "endTime": 1837,
+        "title": "Ecosystem"
+      },
+      {
+        "startTime": 1837,
+        "endTime": 1949,
+        "title": "How to get started"
+      },
+      {
+        "startTime": 1949,
+        "endTime": 2017,
+        "title": "Notable projects built using SolidJS"
+      },
+      {
+        "startTime": 2017,
+        "endTime": 2077,
+        "title": "Capital One and SolidJS"
+      },
+      {
+        "startTime": 2077,
+        "endTime": 2174,
+        "title": "Learning SolidJS"
+      },
+      {
+        "startTime": 2174,
+        "endTime": 2235,
+        "title": "SolidJS vs React"
+      },
+      {
+        "startTime": 2235,
+        "endTime": 2304,
+        "title": "React Brain"
+      },
+      {
+        "startTime": 2304,
+        "endTime": 2416,
+        "title": "Focus on Documentation"
+      },
+      {
+        "startTime": 2416,
+        "endTime": 2528,
+        "title": "React vs SolidJS"
+      },
+      {
+        "startTime": 2528,
+        "endTime": 2661,
+        "title": "New Considerations"
+      },
+      {
+        "startTime": 2661,
+        "endTime": 2743,
+        "title": "SolidJS Adoption"
+      },
+      {
+        "startTime": 2743,
+        "endTime": 2929,
+        "title": "The Impact of SolidJS"
+      },
+      {
+        "startTime": 2929,
+        "endTime": 3021,
+        "title": "Education"
+      },
+      {
+        "startTime": 3021,
+        "endTime": 3115,
+        "title": "Stack Overflow"
+      },
+      {
+        "startTime": 3115,
+        "endTime": 3229,
+        "title": "Web Application Development"
+      },
+      {
+        "startTime": 3229,
+        "endTime": 3360,
+        "title": "Future Releases"
+      },
+      {
+        "startTime": 3360,
+        "endTime": 3475,
+        "title": "Server Components"
+      },
+      {
+        "startTime": 3475,
+        "endTime": 4163,
+        "title": "What Factors Should Developers Consider When Choosing SolidJS"
+      }
+    ],
+    "description": "🔥Yo! Dariusz Kalbarczyk here. Get ready for a lit sesh of the JavaScript Master Podcast! 🎧\n\nWe've got the boss of SolidJS, Ryan Carniato, joining us in episode 12, and it's gonna be LIT! 💥 This JavaScript performance guru & fine-grained reactivity expert is spillin' the tea on SolidJS & so much more. 😎\n\nGet the deets on:\n- An in-depth look at SolidJS: its core concepts and benefits 🧩\n- SolidJS's readiness for production and SEO support 🚀\n- Why SolidJS is a great choice for startups 💼\n- Comparing SolidJS to other frameworks in performance and simplicity 🥊\n- Tips to enhance web app performance using SolidJS 🏎️\n- Seamless integration of SolidJS with other tools and libraries 🤝\n- The growing SolidJS community and contributions 🌍\n- Notable projects built with SolidJS 🏗️\n- Learning curve for developers transitioning to SolidJS 🎢\n- Key challenges and best practices when working with SolidJS for the first time 🚧\n- Future improvements and considerations for adopting SolidJS 🌈\n- Resources for learning and getting started with SolidJS 📚\n\nDon't miss this opportunity to learn from a top expert in the field.\nClick the link and join us for an informative and engaging podcast episode! 🤓🎙️✨\n\nhttps://bit.ly/JSMP12-Spotify\nhttps://bit.ly/JSMP12-Apple\nhttps://bit.ly/JSMP12-Google\nhttps://bit.ly/JSMP12-Podcasters\n\nBut wait, there's more! 🔥 If you're an Angular enthusiast, don't forget to check out our 2nd podcast series, the \"Angular Master Podcast.\" Dive deep into the world of Angular and stay up to date with the latest trends and best practices. 🅰️🌐\n\n#SolidJS #JavaScript #RyanCarniato #WebDev #JSMP #Podcast #DeveloperLife"
+  }
+}

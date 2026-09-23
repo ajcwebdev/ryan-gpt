@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Server Components? Building SolidJS v1.6",
+      "slug": "2022-10-22-server-components-building-solidjs-v16",
+      "duration": "4:54:28",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=adXqweWZcNA",
+      "publishDate": "2022-10-22",
+      "thumbnail": "https://i.ytimg.com/vi/adXqweWZcNA/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 374,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 374,
+          "endTime": 524,
+          "title": "Solid 1.6 Release"
+        },
+        {
+          "startTime": 524,
+          "endTime": 3412,
+          "title": "Reworking Spreads"
+        },
+        {
+          "startTime": 3412,
+          "endTime": 5117,
+          "title": "Islands/Partial Hydration"
+        },
+        {
+          "startTime": 5117,
+          "endTime": 5712,
+          "title": "Islands Hackernews"
+        },
+        {
+          "startTime": 5712,
+          "endTime": 6388,
+          "title": "Explaining Partial Hydration"
+        },
+        {
+          "startTime": 6388,
+          "endTime": 7131,
+          "title": "Sharing Context Between Islands"
+        },
+        {
+          "startTime": 7131,
+          "endTime": 7668,
+          "title": "Hybrid-Nested Routing"
+        },
+        {
+          "startTime": 7668,
+          "endTime": 8265,
+          "title": "Movies App"
+        },
+        {
+          "startTime": 8265,
+          "endTime": 8626,
+          "title": "Solid Server Components?"
+        },
+        {
+          "startTime": 8626,
+          "endTime": 9964,
+          "title": "Castle in the Sky"
+        },
+        {
+          "startTime": 9964,
+          "endTime": 16997,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 16997,
+          "endTime": 17667,
+          "title": "Outro"
+        }
+      ],
+      "description": "SolidJS 1.6 is not the biggest release but it brings some new interesting technology. We will explore what went into developing the features, and discuss the future of partial hydration and islands.\n\n[0:00] Introduction\n[6:14] Solid 1.6 Release\n[8:44] Reworking Spreads\n[56:52] Islands/Partial Hydration\n[1:25:17] Islands Hackernews\n[1:35:12] Explaining Partial Hydration\n[1:46:28] Sharing Context Between Islands\n[1:58:51] Hybrid-Nested Routing\n[2:07:48] Movies App\n[2:17:45] Solid Server Components? \n[2:23:46] Castle in the Sky\n[2:46:04] This Week in JavaScript\n[4:43:17] Outro\r\n\r\nCover Credit: Laputa: Castle In The Sky Over Achensee by Oliver Wetter"
+    }
+  }
+}

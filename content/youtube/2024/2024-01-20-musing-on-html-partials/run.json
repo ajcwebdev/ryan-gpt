@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Musing on HTML Partials",
+      "slug": "2024-01-20-musing-on-html-partials",
+      "duration": "5:29:32",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=N-QwFFqI8aQ",
+      "publishDate": "2024-01-20",
+      "thumbnail": "https://i.ytimg.com/vi/N-QwFFqI8aQ/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 300,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 300,
+          "endTime": 660,
+          "title": "Q&A: Shorter Videos? Component Libraries?"
+        },
+        {
+          "startTime": 660,
+          "endTime": 1170,
+          "title": "Q&A: Imba? neo.mjs? Rakkas? Angular? Remix?"
+        },
+        {
+          "startTime": 1170,
+          "endTime": 1665,
+          "title": "The Friction Between Data Loading Paradigms"
+        },
+        {
+          "startTime": 1665,
+          "endTime": 2010,
+          "title": "ui = fn(data)(state) - Unidirectional?"
+        },
+        {
+          "startTime": 2010,
+          "endTime": 2940,
+          "title": "Where Does the State Live?"
+        },
+        {
+          "startTime": 2940,
+          "endTime": 3825,
+          "title": "What Is Hydration?"
+        },
+        {
+          "startTime": 3825,
+          "endTime": 4200,
+          "title": "It's More Than Adding Event Listeners"
+        },
+        {
+          "startTime": 4200,
+          "endTime": 5160,
+          "title": "Hydration vs. Rendering"
+        },
+        {
+          "startTime": 5160,
+          "endTime": 6240,
+          "title": "Performance vs. Removing Complexity"
+        },
+        {
+          "startTime": 6240,
+          "endTime": 6750,
+          "title": "What Is An HTML Partial?"
+        },
+        {
+          "startTime": 6750,
+          "endTime": 7140,
+          "title": "Once State is Updated, Islands Can't Hydrate"
+        },
+        {
+          "startTime": 7140,
+          "endTime": 8100,
+          "title": "Islands vs. Server Components / MPA vs. SPA"
+        },
+        {
+          "startTime": 8100,
+          "endTime": 8880,
+          "title": "Island Lifecycles & The Double Data Problem"
+        },
+        {
+          "startTime": 8880,
+          "endTime": 9510,
+          "title": "HTML Is Lossy"
+        },
+        {
+          "startTime": 9510,
+          "endTime": 10065,
+          "title": "Render vs. Mutation / GET vs. POST"
+        },
+        {
+          "startTime": 10065,
+          "endTime": 10365,
+          "title": "The Mutation Slippery Slope: Direct Mutation"
+        },
+        {
+          "startTime": 10365,
+          "endTime": 10785,
+          "title": "MSS: Revalidation - Key-Based & Route-Based"
+        },
+        {
+          "startTime": 10785,
+          "endTime": 11145,
+          "title": "MSS: Server Components"
+        },
+        {
+          "startTime": 11145,
+          "endTime": 11520,
+          "title": "MSS: Weighing the Tradeoffs"
+        },
+        {
+          "startTime": 11520,
+          "endTime": 12150,
+          "title": "MSS: Is There a Silver Bullet Solution?"
+        },
+        {
+          "startTime": 12150,
+          "endTime": 12690,
+          "title": "MSS: Conclusion - Where Do We Go From Here?"
+        },
+        {
+          "startTime": 12690,
+          "endTime": 13170,
+          "title": "Derivations in Reactivity"
+        },
+        {
+          "startTime": 13170,
+          "endTime": 13620,
+          "title": "DiR: Derivation vs. Synchronization"
+        },
+        {
+          "startTime": 13620,
+          "endTime": 13950,
+          "title": "DiR: Push vs. Pull"
+        },
+        {
+          "startTime": 13950,
+          "endTime": 14610,
+          "title": "DiR: Pull (Scheduling)"
+        },
+        {
+          "startTime": 14610,
+          "endTime": 14895,
+          "title": "DiR: Push (Events)"
+        },
+        {
+          "startTime": 14895,
+          "endTime": 15875,
+          "title": "DiR: Conclusion - Push-Pull (Signals)"
+        },
+        {
+          "startTime": 15875,
+          "endTime": 16065,
+          "title": "This Week in JavaScript: Solid News"
+        },
+        {
+          "startTime": 16065,
+          "endTime": 17085,
+          "title": "TWiJ: Solid's JSX Transform"
+        },
+        {
+          "startTime": 17085,
+          "endTime": 17445,
+          "title": "TWiJ: The React use Hook & Remix Demos"
+        },
+        {
+          "startTime": 17445,
+          "endTime": 17880,
+          "title": "TWiJ: Lightning Round"
+        },
+        {
+          "startTime": 17880,
+          "endTime": 18240,
+          "title": "TWiJ: Remix SPA Mode & Framework Comparison"
+        },
+        {
+          "startTime": 18240,
+          "endTime": 19200,
+          "title": "TWiJ: The React Backlash"
+        },
+        {
+          "startTime": 19200,
+          "endTime": 19772,
+          "title": "Conclusion: The Framework Should Disappear?"
+        }
+      ],
+      "description": "HTML is the basis for displaying content on the web. Yet we have gone pretty far from it with JS driving our UIs. Today I will continue my exploration into the complexities of reconciling the state and view as we cross the server/client boundary.\n\n[0:00] Preamble\n[5:00] Q&A: Shorter Videos? Component Libraries?\n[11:00] Q&A: Imba? neo.mjs? Rakkas? Angular? Remix?\n[19:30] The Friction Between Data Loading Paradigms\n[27:45] ui = fn(data)(state) - Unidirectional?\n[33:30] Where Does the State Live?\n[49:00] What Is Hydration?\n[1:03:45] It's More Than Adding Event Listeners\n[1:10:00] Hydration vs. Rendering\n[1:26:00] Performance vs. Removing Complexity\n[1:44:00] What Is An HTML Partial?\n[1:52:30] Once State is Updated, Islands Can't Hydrate\n[1:59:00] Islands vs. Server Components / MPA vs. SPA\n[2:15:00] Island Lifecycles & The Double Data Problem\n[2:28:00] HTML Is Lossy\n[2:38:30] Render vs. Mutation / GET vs. POST\n[2:47:45] The Mutation Slippery Slope: Direct Mutation\n[2:52:45] MSS: Revalidation - Key-Based & Route-Based\n[2:59:45] MSS: Server Components\n[3:05:45] MSS: Weighing the Tradeoffs\n[3:12:00] MSS: Is There a Silver Bullet Solution?\n[3:22:30] MSS: Conclusion - Where Do We Go From Here?\n[3:31:30] Derivations in Reactivity\n[3:39:30] DiR: Derivation vs. Synchronization\n[3:47:00] DiR: Push vs. Pull\n[3:52:30] DiR: Pull (Scheduling)\n[4:03:30] DiR: Push (Events)\n[4:08:15] DiR: Conclusion - Push-Pull (Signals)\n[4:24:35] This Week in JavaScript: Solid News \n[4:27:45] TWiJ: Solid's JSX Transform\n[4:44:45] TWiJ: The React use Hook & Remix Demos\n[4:50:45] TWiJ: Lightning Round\n[4:58:00] TWiJ: Remix SPA Mode & Framework Comparison\n[5:04:00] TWiJ: The React Backlash\n[5:20:00] Conclusion: The Framework Should Disappear?\n\nThanks to @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

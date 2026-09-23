@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming HTML, Solid 1.3, and More",
+      "slug": "2021-12-18-streaming-html-solid-13-and-more",
+      "duration": "2:28:59",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=8hlo9uPrpr4",
+      "publishDate": "2021-12-18",
+      "thumbnail": "https://i.ytimg.com/vi/8hlo9uPrpr4/hqdefault.jpg?v=61bce73e",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 114,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 114,
+          "endTime": 2213,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 2213,
+          "endTime": 4093,
+          "title": "What is Streaming?"
+        },
+        {
+          "startTime": 4093,
+          "endTime": 4810,
+          "title": "Streaming Demo"
+        },
+        {
+          "startTime": 4810,
+          "endTime": 6010,
+          "title": "Streaming Performance Profiles"
+        },
+        {
+          "startTime": 6010,
+          "endTime": 6871,
+          "title": "Isomorphic Error Boundaries"
+        },
+        {
+          "startTime": 6871,
+          "endTime": 7449,
+          "title": "Namespaced Hydration"
+        },
+        {
+          "startTime": 7449,
+          "endTime": 8131,
+          "title": "Universal Reactivity"
+        },
+        {
+          "startTime": 8131,
+          "endTime": 8558,
+          "title": "Improved React Server Components Demo"
+        },
+        {
+          "startTime": 8558,
+          "endTime": 8764,
+          "title": "Q & A"
+        },
+        {
+          "startTime": 8764,
+          "endTime": 8939,
+          "title": "Outro"
+        }
+      ],
+      "description": "This stream I want to focus on HTML Streaming (looking at Solid, React, and Marko) and cover some of the other features that are coming in Solid 1.3.\n\n[0:00] Introduction\n[1:54] This Week in JavaScript\n[36:53] What is Streaming?\n[1:08:13] Streaming Demo\n[1:20:10] Streaming Performance Profiles\n[1:40:10] Isomorphic Error Boundaries\n[1:54:31] Namespaced Hydration\n[2:04:09] Universal Reactivity\n[2:15:31] Improved React Server Components Demo\n[2:22:38] Q & A\n[2:26:04] Outro"
+    }
+  }
+}

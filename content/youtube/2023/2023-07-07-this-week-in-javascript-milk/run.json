@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ ...Milk?",
+      "slug": "2023-07-07-this-week-in-javascript-milk",
+      "duration": "2:37:29",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=ZI-BfelG6z4",
+      "publishDate": "2023-07-07",
+      "thumbnail": "https://i.ytimg.com/vi/ZI-BfelG6z4/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 510,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 510,
+          "endTime": 1260,
+          "title": "Conferences & Milk"
+        },
+        {
+          "startTime": 1260,
+          "endTime": 1980,
+          "title": "RSC's & Resumability"
+        },
+        {
+          "startTime": 1980,
+          "endTime": 2715,
+          "title": "Pitching RSC's"
+        },
+        {
+          "startTime": 2715,
+          "endTime": 3060,
+          "title": "Astro & Server Rendering"
+        },
+        {
+          "startTime": 3060,
+          "endTime": 3735,
+          "title": "Theo Browne's Svelte Video"
+        },
+        {
+          "startTime": 3735,
+          "endTime": 4380,
+          "title": "Q & A: RSC's Risky? Theo's Motivations? Vue?"
+        },
+        {
+          "startTime": 4380,
+          "endTime": 5160,
+          "title": "Q & A: Bling? Svelte 4 Release Notes? RSC Hostility?"
+        },
+        {
+          "startTime": 5160,
+          "endTime": 5730,
+          "title": "Theo Joins Chat to Discuss RSC's with Ryan"
+        },
+        {
+          "startTime": 5730,
+          "endTime": 6120,
+          "title": "What if Marko Was Always Right?"
+        },
+        {
+          "startTime": 6120,
+          "endTime": 6480,
+          "title": "Module Environment Declaration Spectrum"
+        },
+        {
+          "startTime": 6480,
+          "endTime": 6780,
+          "title": "Async Components"
+        },
+        {
+          "startTime": 6780,
+          "endTime": 7500,
+          "title": "What Do You Actually Need on the Server?"
+        },
+        {
+          "startTime": 7500,
+          "endTime": 7860,
+          "title": "Svelte and SolidStart on the Spectrum"
+        },
+        {
+          "startTime": 7860,
+          "endTime": 8220,
+          "title": "Trusting the Developer / Defaults Matter"
+        },
+        {
+          "startTime": 8220,
+          "endTime": 8400,
+          "title": "This \"Week\" in JavaScript Intro"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9120,
+          "title": "TWiJ: Vite Templates & NPM Trends Fun"
+        },
+        {
+          "startTime": 9120,
+          "endTime": 9285,
+          "title": "TWiJ: Marvin Hagemeister Joins Fresh!"
+        },
+        {
+          "startTime": 9285,
+          "endTime": 9448,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "I've been away for over a month and trying to catch up on what I've missed. Let's talk end of the conference season, RSCs, burnout, and Milk...? Help me understand what is going because things seem to have gone a bit crazy.\n\n[0:00] Preamble\n[8:30] Conferences & Milk\n[21:00] RSC's & Resumability\n[33:00] Pitching RSC's\n[45:15] Astro & Server Rendering\n[51:00] Theo Browne's Svelte Video\n[1:02:15] Q & A: RSC's Risky? Theo's Motivations? Vue?\n[1:13:00] Q & A: Bling? Svelte 4 Release Notes? RSC Hostility?\n[1:26:00] Theo Joins Chat to Discuss RSC's with Ryan\n[1:35:30] What if Marko Was Always Right?\n[1:42:00] Module Environment Declaration Spectrum\n[1:48:00] Async Components\n[1:53:00] What Do You Actually Need on the Server?\n[2:05:00] Svelte and SolidStart on the Spectrum\n[2:11:00] Trusting the Developer / Defaults Matter\n[2:17:00] This \"Week\" in JavaScript Intro\n[2:20:00] TWiJ: Vite Templates & NPM Trends Fun\n[2:32:00] TWiJ: Marvin Hagemeister Joins Fresh!\n[2:34:45] Conclusion\n\nThanks to @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

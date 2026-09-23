@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Designing Concurrent Transitions",
+      "slug": "2025-08-26-designing-concurrent-transitions",
+      "duration": "5:32:07",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=eZAcJc_eR1M",
+      "publishDate": "2025-08-26",
+      "thumbnail": "https://i.ytimg.com/vi/eZAcJc_eR1M/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "React proposed a different way to handle Async back in 2018, but most other frameworks did not follow their lead. However, Solid did and released our first version in back in Dec 2019. However, we've learned a lot in the last 6 years. So let's look at how I'm redesigning them for the upcoming Solid 2.0."
+    }
+  }
+}

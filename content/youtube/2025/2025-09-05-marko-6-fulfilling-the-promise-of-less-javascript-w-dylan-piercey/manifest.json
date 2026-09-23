@@ -1,0 +1,254 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T02:47:30.678Z",
+  "updatedAt": "2026-09-12T02:50:30.918Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Marko 6: Fulfilling the Promise of Less JavaScript w/ Dylan Piercey",
+          "duration": "5:38:23",
+          "channel": "Ryan Carniato",
+          "description": "We've seen a lot of technology compete in the low JavaScript space but from what I've seen none do it better than Marko. Because Marko scales with the demand, automatically. Forget Islands, forget `$`, forget your low JS library for your non-JS backend. Dylan Piercey joins us on stream again to talk about the much anticipated Marko 6 Beta.",
+          "url": "https://www.youtube.com/watch?v=x-3RxGf4KA8",
+          "publishDate": "2025-09-05",
+          "thumbnail": "https://i.ytimg.com/vi/x-3RxGf4KA8/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "slug": "2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey",
+          "audioFileName": "2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey.m4a",
+          "audioFileSize": 252632367,
+          "durationSeconds": 20303
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 129.7136111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 129.7136111111111,
+                "costMultiplier": 1,
+                "durationSeconds": 20303
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 129.7136111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 129.7136111111111,
+                "costMultiplier": 1,
+                "durationSeconds": 20303
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 129.7136111111111,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 129.7136111111111,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 20303
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3816964,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3816964,
+                "inputMetric": "durationSeconds",
+                "inputValue": 20303,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3816964
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 179957,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 179957,
+                "timingBreakdown": {
+                  "uploadMs": 4115,
+                  "createMs": 332,
+                  "pollMs": 70451,
+                  "pollSleepMs": 105030,
+                  "remoteProcessingMs": 105059
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 20303,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 8.864,
+                "throughputValue": 112.821,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 179954,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4115,
+                  "createMs": 332,
+                  "createCount": 1,
+                  "pollMs": 70451,
+                  "requestCount": 16,
+                  "retryCount": 1
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "c933fa7b-0313-4b8e-947e-739cdbf2b08e",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/da2d663ededc8adf865bfe67d1fcdfc7ce03539bede23f5f3a21410517ce01a0/9d9c05e1-5743-48d5-8476-6e7e5eb0432f",
+                  "createCompletedAt": "2026-09-12T02:47:35.126Z",
+                  "lastPollAt": "2026-09-12T02:50:30.633Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 179957,
+            "tokenCount": 56295,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "c933fa7b-0313-4b8e-947e-739cdbf2b08e",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/da2d663ededc8adf865bfe67d1fcdfc7ce03539bede23f5f3a21410517ce01a0/9d9c05e1-5743-48d5-8476-6e7e5eb0432f",
+              "createCompletedAt": "2026-09-12T02:47:35.126Z",
+              "lastPollAt": "2026-09-12T02:50:30.633Z",
+              "completedAt": "2026-09-12T02:50:30.636Z"
+            },
+            "timings": {
+              "uploadMs": 4115,
+              "createMs": 332,
+              "createCount": 1,
+              "pollMs": 70451,
+              "pollSleepMs": 105030,
+              "pollCount": 13,
+              "remoteProcessingMs": 105059,
+              "requestCount": 16,
+              "retryCount": 1
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 3,
+                  "active": 0,
+                  "activePeak": 3,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 8,
+                  "completed": 8,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789180853795,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789181086125,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 3,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Breaking SolidJS 2.0 Beta",
+      "slug": "2026-03-06-breaking-solidjs-20-beta",
+      "duration": "5:52:35",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=-VzCdz7zfPc",
+      "publishDate": "2026-03-06",
+      "thumbnail": "https://i.ytimg.com/vi/-VzCdz7zfPc/sddefault.jpg?v=69a8789b",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 969,
+          "title": "Stream Setup and Solid 2.0 Beta 1 Release"
+        },
+        {
+          "startTime": 969,
+          "endTime": 2535,
+          "title": "The Three Objectives of Modern JavaScript Frameworks"
+        },
+        {
+          "startTime": 2535,
+          "endTime": 3993,
+          "title": "Async-First Demo: React vs Solid Comparison"
+        },
+        {
+          "startTime": 3993,
+          "endTime": 5232,
+          "title": "Isomorphic-First Architecture and the Universal Model"
+        },
+        {
+          "startTime": 5232,
+          "endTime": 5880,
+          "title": "AI-First Framework and Temporal Determinism"
+        },
+        {
+          "startTime": 5880,
+          "endTime": 6894,
+          "title": "Performance, Compilers, and React Benchmarks"
+        },
+        {
+          "startTime": 6894,
+          "endTime": 9046,
+          "title": "Live Coding: Dev Guardrails and Effect Splitting"
+        },
+        {
+          "startTime": 9046,
+          "endTime": 13195,
+          "title": "SSR Streaming, Async Iterators, and Projections"
+        },
+        {
+          "startTime": 13195,
+          "endTime": 16823,
+          "title": "Building Islands Architecture from Scratch"
+        },
+        {
+          "startTime": 16823,
+          "endTime": 17924,
+          "title": "Manifest System, Asset Discovery, and CSS Flash Prevention"
+        },
+        {
+          "startTime": 17924,
+          "endTime": 21154,
+          "title": "Data Star, Hypermedia vs SPA, and Performance Benchmarking"
+        }
+      ],
+      "description": "I'm pretty excited to have the beta released. But because it was built with extremely powerful primitives even I don't know its limits. The combinatorics feel like it could get us into crazy places but I believe the fundamentals sound enough to handle anything we throw at it. So let's put it to the test.\n\n00:00:00 - Stream Setup and Solid 2.0 Beta 1 Release\n00:16:09 - The Three Objectives of Modern JavaScript Frameworks\n00:42:15 - Async-First Demo: React vs Solid Comparison\n01:06:33 - Isomorphic-First Architecture and the Universal Model\n01:27:12 - AI-First Framework and Temporal Determinism\n01:38:00 - Performance, Compilers, and React Benchmarks\n01:54:54 - Live Coding: Dev Guardrails and Effect Splitting\n02:30:46 - SSR Streaming, Async Iterators, and Projections\n03:39:55 - Building Islands Architecture from Scratch\n04:40:23 - Manifest System, Asset Discovery, and CSS Flash Prevention\n04:58:44 - Data Star, Hypermedia vs SPA, and Performance Benchmarking\n\nChapter titles generated with ajcwebdev/autoshow and Claude Opus 4.6"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring Reactivity: Fine-Grained Derivation & Incremental Computation",
+      "slug": "2024-07-13-exploring-reactivity-fine-grained-derivation-incremental-computation",
+      "duration": "5:02:18",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=kz-p_017Usc",
+      "publishDate": "2024-07-13",
+      "thumbnail": "https://i.ytimg.com/vi/kz-p_017Usc/sddefault.jpg?v=66916d93",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 120,
+          "title": "Starting Soon..."
+        },
+        {
+          "startTime": 120,
+          "endTime": 345,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 345,
+          "endTime": 1320,
+          "title": "Discussion of Twitter Hack"
+        },
+        {
+          "startTime": 1320,
+          "endTime": 1860,
+          "title": "Twitter Stream Suggestions: JS Framework Fanfic"
+        },
+        {
+          "startTime": 1860,
+          "endTime": 2205,
+          "title": "TSS: Toy Solid & Nitro on Various Hosts"
+        },
+        {
+          "startTime": 2205,
+          "endTime": 2505,
+          "title": "TSS: Finding Fine-Grained Reactive Programming"
+        },
+        {
+          "startTime": 2505,
+          "endTime": 3360,
+          "title": "TSS: Minko Gechev - Converging Web Frameworks"
+        },
+        {
+          "startTime": 3360,
+          "endTime": 4290,
+          "title": "TSS: MG - Event Replay & Fine-Grained Code Loading"
+        },
+        {
+          "startTime": 4290,
+          "endTime": 4695,
+          "title": "TSS: Comparing Frameworks by NPM Trends"
+        },
+        {
+          "startTime": 4695,
+          "endTime": 4935,
+          "title": "TSS: Solid Real World Demo"
+        },
+        {
+          "startTime": 4935,
+          "endTime": 5280,
+          "title": "TSS: Neo.js's New DOM Diffing Algorithm"
+        },
+        {
+          "startTime": 5280,
+          "endTime": 5760,
+          "title": "TSS: Automatic vs. Manual Subscriptions"
+        },
+        {
+          "startTime": 5760,
+          "endTime": 6420,
+          "title": "TSS: Svelte's DSL, Remix's Routing, & Compilers"
+        },
+        {
+          "startTime": 6420,
+          "endTime": 6825,
+          "title": "TSS: Effects, createRoot, & Memory Leaks"
+        },
+        {
+          "startTime": 6825,
+          "endTime": 7530,
+          "title": "Run-Once Suspense: Concept & Proposal"
+        },
+        {
+          "startTime": 7530,
+          "endTime": 7755,
+          "title": "ROS: Examples - Two Modes on Initial Render"
+        },
+        {
+          "startTime": 7755,
+          "endTime": 8550,
+          "title": "ROS: Examples - Two Modes on Update"
+        },
+        {
+          "startTime": 8550,
+          "endTime": 8925,
+          "title": "ROS: Examples - Simple Routing"
+        },
+        {
+          "startTime": 8925,
+          "endTime": 9330,
+          "title": "ROS: Examples - Advanced Routing & Conclusion"
+        },
+        {
+          "startTime": 9330,
+          "endTime": 9630,
+          "title": "Q&A: async vs. memo? Lazy? Intro Material?"
+        },
+        {
+          "startTime": 9630,
+          "endTime": 10440,
+          "title": "Q&A: Optimistic? .state? Render Nothing?"
+        },
+        {
+          "startTime": 10440,
+          "endTime": 11190,
+          "title": "Q&A: createResource? Solid 2.0? Router Cache?"
+        },
+        {
+          "startTime": 11190,
+          "endTime": 11745,
+          "title": "Living in a Derived World: Introduction"
+        },
+        {
+          "startTime": 11745,
+          "endTime": 12615,
+          "title": "LiaDW: Deriving Stores"
+        },
+        {
+          "startTime": 12615,
+          "endTime": 13065,
+          "title": "LiaDW: The Nature of Reference Based Derivation"
+        },
+        {
+          "startTime": 13065,
+          "endTime": 13800,
+          "title": "Lazy + Derived Fine Grained is Hard"
+        },
+        {
+          "startTime": 13800,
+          "endTime": 14205,
+          "title": "L+DFGiH: Local Diffing"
+        },
+        {
+          "startTime": 14205,
+          "endTime": 15060,
+          "title": "L+DFGiH: Broadcast Diffing (Signia)"
+        },
+        {
+          "startTime": 15060,
+          "endTime": 15555,
+          "title": "L+DFGiH: Single Primitive?"
+        },
+        {
+          "startTime": 15555,
+          "endTime": 16155,
+          "title": "L+DFGiH: Conclusion"
+        },
+        {
+          "startTime": 16155,
+          "endTime": 16785,
+          "title": "Consistency Revisited"
+        },
+        {
+          "startTime": 16785,
+          "endTime": 16920,
+          "title": "This Week in JavaScript: Brenelz's Suspense Post"
+        },
+        {
+          "startTime": 16920,
+          "endTime": 16995,
+          "title": "TWiJ: Theo's Framework Happiness Video"
+        },
+        {
+          "startTime": 16995,
+          "endTime": 17235,
+          "title": "TWiJ: Solid News"
+        },
+        {
+          "startTime": 17235,
+          "endTime": 17625,
+          "title": "TWiJ: New Front-End Frameworks"
+        },
+        {
+          "startTime": 17625,
+          "endTime": 17775,
+          "title": "TWiJ: Tanner Linsley's Explorations"
+        },
+        {
+          "startTime": 17775,
+          "endTime": 17940,
+          "title": "TWiJ: Matthew Phillips - Component Composition"
+        },
+        {
+          "startTime": 17940,
+          "endTime": 18138,
+          "title": "TWiJ: Tracy Lee - DOM Observables"
+        }
+      ],
+      "description": "In this stream I'm going to talk about my latest thinking on the nature of Reactivity by exploring one of the most challenging topics, Derivations and Incremental Computation\n\n[0:00] Starting Soon...\n[2:00] Preamble\n[5:45] Discussion of Twitter Hack\n[22:00] Twitter Stream Suggestions: JS Framework Fanfic\n[31:00] TSS: Toy Solid & Nitro on Various Hosts\n[36:45] TSS: Finding Fine-Grained Reactive Programming\n[41:45] TSS: Minko Gechev - Converging Web Frameworks\n[56:00] TSS: MG - Event Replay & Fine-Grained Code Loading\n[1:11:30] TSS: Comparing Frameworks by NPM Trends\n[1:18:15] TSS: Solid Real World Demo\n[1:22:15] TSS: Neo.js's New DOM Diffing Algorithm\n[1:28:00] TSS: Automatic vs. Manual Subscriptions\n[1:36:00] TSS: Svelte's DSL, Remix's Routing, & Compilers\n[1:47:00] TSS: Effects, createRoot, & Memory Leaks\n[1:53:45] Run-Once Suspense: Concept & Proposal\n[2:05:30] ROS: Examples - Two Modes on Initial Render\n[2:09:15] ROS: Examples - Two Modes on Update\n[2:22:30] ROS: Examples - Simple Routing\n[2:28:45] ROS: Examples - Advanced Routing & Conclusion\n[2:35:30] Q&A: async vs. memo? Lazy? Intro Material?\n[2:40:30] Q&A: Optimistic? .state? Render Nothing?\n[2:54:00] Q&A: createResource? Solid 2.0? Router Cache?\n[3:06:30] Living in a Derived World: Introduction\n[3:15:45] LiaDW: Deriving Stores\n[3:30:15] LiaDW: The Nature of Reference Based Derivation\n[3:37:45] Lazy + Derived Fine Grained is Hard\n[3:50:00] L+DFGiH: Local Diffing\n[3:56:45] L+DFGiH: Broadcast Diffing (Signia)\n[4:11:00] L+DFGiH: Single Primitive?\n[4:19:15] L+DFGiH: Conclusion\n[4:29:15] Consistency Revisited\n[4:39:45] This Week in JavaScript: Brenelz's Suspense Post\n[4:42:00] TWiJ: Theo's Framework Happiness Video\n[4:43:15] TWiJ: Solid News\n[4:47:15] TWiJ: New Front-End Frameworks\n[4:53:45] TWiJ: Tanner Linsley's Explorations\n[4:56:15] TWiJ: Matthew Phillips - Component Composition\n[4:59:00] TWiJ: Tracy Lee - DOM Observables\n\nThanks to @zombiefacesupreme for the timestamps."
+    }
+  }
+}

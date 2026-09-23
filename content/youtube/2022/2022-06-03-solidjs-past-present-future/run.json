@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidJS: Past, Present, Future",
+      "slug": "2022-06-03-solidjs-past-present-future",
+      "duration": "2:52:24",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=dOgnQ9SuKYk",
+      "publishDate": "2022-06-03",
+      "thumbnail": "https://i.ytimg.com/vi/dOgnQ9SuKYk/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 230,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 230,
+          "endTime": 2468,
+          "title": "Past - Experiments 2016-18"
+        },
+        {
+          "startTime": 2468,
+          "endTime": 5760,
+          "title": "Past - Open Source 2018-19"
+        },
+        {
+          "startTime": 5760,
+          "endTime": 6758,
+          "title": "Past - Beginning of Community 2020-22"
+        },
+        {
+          "startTime": 6758,
+          "endTime": 7555,
+          "title": "Present"
+        },
+        {
+          "startTime": 7555,
+          "endTime": 10343,
+          "title": "Future"
+        }
+      ],
+      "description": "The one thing that surprises new people about SolidJS is just how long I've been working on it. It completely shifts the perspective. So in this stream, I'm going to cover everything Solid from the first commit in a private repo in 2016, how Solid is already redefining how the whole industry is building the web for the future, and give insights into how that future is shaping up.\n\n[0:00] Introduction\n[3:50] Past - Experiments 2016-18\n[41:08] Past - Open Source 2018-19\n[1:36:00] Past - Beginning of Community 2020-22\n[1:52:38] Present\n[2:05:55] Future\n\n\nLinks to the Past:\nInitial Twitter Dec 2019\nhttps://twitter.com/RyanCarniato/status/1201632416844005377https://twitter.com/Rich_Harris/status/1252983936529113088\nhttps://twitter.com/AdamRackis/status/1252826611025502219\n\nSolid Logo Jan 2020\nhttps://github.com/solidjs/solid/issues/101\n\nSolid Router Apr 2020\nHackerNews Jun 2020\nhttps://news.ycombinator.com/item?id=23368473\nhttps://dev.to/ryansolid/why-solidjs-do-we-need-another-js-ui-library-1mdc\n\nSept 2020 - Solid PlaygroundSolid App Router Oct 2020https://github.com/solidjs/solid-app-router/commits/main?after=38cfc4893db9f0c7abf4419ee29289d654ee64a1+174&branch=main&qualified_name=refs%2Fheads%2Fmain\n\nConquering the Server\nhttps://levelup.gitconnected.com/how-we-wrote-the-fastest-javascript-ui-framework-again-db097ddd99b6\n\nSolid Start 2021\nCloudflare https://twitter.com/RyanCarniato/status/1369238224233586691Vercel https://twitter.com/RyanCarniato/status/1453283158149980161\nNetlify https://twitter.com/RyanCarniato/status/1516510395787218944\n\nInfluencers April 2021\nhttps://dev.to/this-is-learning/of-chickens-and-pigs-the-dilemma-of-creator-self-promotion-51ea\nhttps://dev.to/this-is-learning/javascript-frameworks-and-metagaming-pb5\n\nBanner credits: ©️ Foundation is a copyright of Skydance / Apple"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Building Qwik w/ Misko Hevery",
+  "duration": "2:32:57",
+  "channel": "Ryan Carniato",
+  "description": "We've been explored Qwik last week and saw a lot of interesting things. But those opened up even more questions. Fortunately, we will have Misko Hevery, creator of Qwik joining us tonight to show us what it is all about and answer some of those questions.\n\n[0:00] Introduction\n[1:47] This Week in JavaScript\n[8:27] Introducing Misko & Qwik\n[28:09] Why is Resumable Progressive Hydration So Hard?\n[48:12] Shop Demo\n[49:58] Breaking Code into Chunks\n[1:10:05] Resuming across browser windows\n[1:13:12] Invalidating State\n[1:31:04] Projecting Children\n[1:41:58] Side Effects\n[1:48:14] Optimizing Bundles\n[1:57:21] Q&A\n[2:19:51] Naming is Hard\n[2:27:58] Outro",
+  "url": "https://www.youtube.com/watch?v=lY6e7Hw4uVo",
+  "publishDate": "2022-02-19",
+  "thumbnail": "https://i.ytimg.com/vi/lY6e7Hw4uVo/hqdefault.jpg",
+  "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 107,
+      "title": "Introduction"
+    },
+    {
+      "startTime": 107,
+      "endTime": 507,
+      "title": "This Week in JavaScript"
+    },
+    {
+      "startTime": 507,
+      "endTime": 1689,
+      "title": "Introducing Misko & Qwik"
+    },
+    {
+      "startTime": 1689,
+      "endTime": 2892,
+      "title": "Why is Resumable Progressive Hydration So Hard?"
+    },
+    {
+      "startTime": 2892,
+      "endTime": 2998,
+      "title": "Shop Demo"
+    },
+    {
+      "startTime": 2998,
+      "endTime": 4205,
+      "title": "Breaking Code into Chunks"
+    },
+    {
+      "startTime": 4205,
+      "endTime": 4392,
+      "title": "Resuming across browser windows"
+    },
+    {
+      "startTime": 4392,
+      "endTime": 5464,
+      "title": "Invalidating State"
+    },
+    {
+      "startTime": 5464,
+      "endTime": 6118,
+      "title": "Projecting Children"
+    },
+    {
+      "startTime": 6118,
+      "endTime": 6494,
+      "title": "Side Effects"
+    },
+    {
+      "startTime": 6494,
+      "endTime": 7041,
+      "title": "Optimizing Bundles"
+    },
+    {
+      "startTime": 7041,
+      "endTime": 8391,
+      "title": "Q&A"
+    },
+    {
+      "startTime": 8391,
+      "endTime": 8878,
+      "title": "Naming is Hard"
+    },
+    {
+      "startTime": 8878,
+      "endTime": 9177,
+      "title": "Outro"
+    }
+  ],
+  "slug": "2022-02-19-building-qwik-w-misko-hevery",
+  "audioFileName": "2022-02-19-building-qwik-w-misko-hevery.m4a",
+  "audioFileSize": 114597529,
+  "durationSeconds": 9177
+}

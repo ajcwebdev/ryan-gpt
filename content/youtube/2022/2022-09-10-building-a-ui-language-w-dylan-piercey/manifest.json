@@ -1,0 +1,308 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T12:24:59.871Z",
+  "updatedAt": "2026-09-12T12:26:57.075Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Building a UI Language w/ Dylan Piercey",
+          "duration": "5:18:55",
+          "channel": "Ryan Carniato",
+          "description": "JavaScript frameworks have been leveraging custom templating languages since their inception. But in recent years we seen even more exploration into using compilers to build UI languages.\r\n\r\nI'm fortunate to have Dylan Piercey, maintainer of the Marko framework, one of the earliest compiled JS Frameworks, back on the stream lay out all that goes into one of the most ambitious efforts in modern UI tooling.\n\n[0:00] Preamble\n[6:15] Welcome Dylan\n[42:57] Marko to Solid JSX\n[1:45:53] Bringing Reactivity to the Language\n[2:21:15] Building a Language\n[2:32:32] Language Server\n[2:51:36] TypeScript Support\n[3:17:48] Syntax Highlighting\n[3:29:07] Prettier\n[3:37:46] Bundling\n[3:47:52] Q & A \n[4:17:00] This Week in JavaScript",
+          "url": "https://www.youtube.com/watch?v=W9wfkP21c80",
+          "publishDate": "2022-09-10",
+          "thumbnail": "https://i.ytimg.com/vi/W9wfkP21c80/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 375,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 375,
+              "endTime": 2577,
+              "title": "Welcome Dylan"
+            },
+            {
+              "startTime": 2577,
+              "endTime": 6353,
+              "title": "Marko to Solid JSX"
+            },
+            {
+              "startTime": 6353,
+              "endTime": 8475,
+              "title": "Bringing Reactivity to the Language"
+            },
+            {
+              "startTime": 8475,
+              "endTime": 9152,
+              "title": "Building a Language"
+            },
+            {
+              "startTime": 9152,
+              "endTime": 10296,
+              "title": "Language Server"
+            },
+            {
+              "startTime": 10296,
+              "endTime": 11868,
+              "title": "TypeScript Support"
+            },
+            {
+              "startTime": 11868,
+              "endTime": 12547,
+              "title": "Syntax Highlighting"
+            },
+            {
+              "startTime": 12547,
+              "endTime": 13066,
+              "title": "Prettier"
+            },
+            {
+              "startTime": 13066,
+              "endTime": 13672,
+              "title": "Bundling"
+            },
+            {
+              "startTime": 13672,
+              "endTime": 15420,
+              "title": "Q & A"
+            },
+            {
+              "startTime": 15420,
+              "endTime": 19135,
+              "title": "This Week in JavaScript"
+            }
+          ],
+          "slug": "2022-09-10-building-a-ui-language-w-dylan-piercey",
+          "audioFileName": "2022-09-10-building-a-ui-language-w-dylan-piercey.m4a",
+          "audioFileSize": 239343932,
+          "durationSeconds": 19135
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 122.2513888888889,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 122.2513888888889,
+                "costMultiplier": 1,
+                "durationSeconds": 19135
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 122.2513888888889,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 122.2513888888889,
+                "costMultiplier": 1,
+                "durationSeconds": 19135
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 122.2513888888889,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 122.2513888888889,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 19135
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3597380,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3597380,
+                "inputMetric": "durationSeconds",
+                "inputValue": 19135,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3597380
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 116930,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 116930,
+                "timingBreakdown": {
+                  "uploadMs": 4158,
+                  "createMs": 115,
+                  "pollMs": 7614,
+                  "pollSleepMs": 105019,
+                  "remoteProcessingMs": 105043
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 19135,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 6.111,
+                "throughputValue": 163.645,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 116929,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4158,
+                  "createMs": 115,
+                  "createCount": 1,
+                  "pollMs": 7614,
+                  "requestCount": 15
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "9e3f4ecc-b8dd-4bf1-a48b-e3bcba921a58",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/cc5362ec5e98419eda5cd75b69193882c0e24d3a036966e57a7f7dcccb929f2e/eee6fe90-3bc8-4f33-bc5c-d2b00107eaec",
+                  "createCompletedAt": "2026-09-12T12:25:04.145Z",
+                  "lastPollAt": "2026-09-12T12:26:56.801Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 116930,
+            "tokenCount": 59683,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "9e3f4ecc-b8dd-4bf1-a48b-e3bcba921a58",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/cc5362ec5e98419eda5cd75b69193882c0e24d3a036966e57a7f7dcccb929f2e/eee6fe90-3bc8-4f33-bc5c-d2b00107eaec",
+              "createCompletedAt": "2026-09-12T12:25:04.145Z",
+              "lastPollAt": "2026-09-12T12:26:56.801Z",
+              "completedAt": "2026-09-12T12:26:56.802Z"
+            },
+            "timings": {
+              "uploadMs": 4158,
+              "createMs": 115,
+              "createCount": 1,
+              "pollMs": 7614,
+              "pollSleepMs": 105019,
+              "pollCount": 13,
+              "remoteProcessingMs": 105043,
+              "requestCount": 15
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 0,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 7,
+                  "completed": 7,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789215516976,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

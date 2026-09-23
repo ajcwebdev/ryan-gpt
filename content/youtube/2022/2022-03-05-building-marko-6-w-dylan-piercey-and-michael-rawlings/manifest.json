@@ -1,0 +1,339 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T02:44:41.121Z",
+  "updatedAt": "2026-09-12T02:47:49.924Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Building Marko 6 w/ Dylan Piercey, and Michael Rawlings",
+          "duration": "3:31:53",
+          "channel": "Ryan Carniato",
+          "description": "I'm excited to finally bring my co-workers on stream to talk about what I feel is some of the most innovative work happening in web development. We will get a first look at Marko 6, talk about the considerations that went into designing a compiler-driven resumable sub-template partially hydratable framework, and what this means for the future of the web.\n\n[0:00] Introduction\n[2:17] This Week in JavaScript\n[13:04] Introducing the Team\n[20:40] What is Marko 6\n[27:06] Qwik Comparison\n[42:16] Talking Docs\n[46:56] Marko 6 Tags Demo\n[1:23:12] Exploring Compilation\n[1:50:16] JS Framework Benchmark\n[1:55:09] Resumability\n[2:07:20] SPA vs MPA\n[2:12:26] Future of Marko\n[2:16:51] Rethinking Routing\n[2:38:41] Challenges with Hybrid Approach\n[2:54:12] MPAplus\n[3:14:41] Q&A\n[3:30:16] Outro",
+          "url": "https://www.youtube.com/watch?v=Y22xf8EjioE",
+          "publishDate": "2022-03-05",
+          "thumbnail": "https://i.ytimg.com/vi/Y22xf8EjioE/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 137,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 137,
+              "endTime": 784,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 784,
+              "endTime": 1240,
+              "title": "Introducing the Team"
+            },
+            {
+              "startTime": 1240,
+              "endTime": 1626,
+              "title": "What is Marko 6"
+            },
+            {
+              "startTime": 1626,
+              "endTime": 2536,
+              "title": "Qwik Comparison"
+            },
+            {
+              "startTime": 2536,
+              "endTime": 2816,
+              "title": "Talking Docs"
+            },
+            {
+              "startTime": 2816,
+              "endTime": 4992,
+              "title": "Marko 6 Tags Demo"
+            },
+            {
+              "startTime": 4992,
+              "endTime": 6616,
+              "title": "Exploring Compilation"
+            },
+            {
+              "startTime": 6616,
+              "endTime": 6909,
+              "title": "JS Framework Benchmark"
+            },
+            {
+              "startTime": 6909,
+              "endTime": 7640,
+              "title": "Resumability"
+            },
+            {
+              "startTime": 7640,
+              "endTime": 7946,
+              "title": "SPA vs MPA"
+            },
+            {
+              "startTime": 7946,
+              "endTime": 8211,
+              "title": "Future of Marko"
+            },
+            {
+              "startTime": 8211,
+              "endTime": 9521,
+              "title": "Rethinking Routing"
+            },
+            {
+              "startTime": 9521,
+              "endTime": 10452,
+              "title": "Challenges with Hybrid Approach"
+            },
+            {
+              "startTime": 10452,
+              "endTime": 11681,
+              "title": "MPAplus"
+            },
+            {
+              "startTime": 11681,
+              "endTime": 12616,
+              "title": "Q&A"
+            },
+            {
+              "startTime": 12616,
+              "endTime": 12713,
+              "title": "Outro"
+            }
+          ],
+          "slug": "2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings",
+          "audioFileName": "2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings.m4a",
+          "audioFileSize": 158701265,
+          "durationSeconds": 12713
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 81.22194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 81.22194444444445,
+                "costMultiplier": 1,
+                "durationSeconds": 12713
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 81.22194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 81.22194444444445,
+                "costMultiplier": 1,
+                "durationSeconds": 12713
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 81.22194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 81.22194444444445,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 12713
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2390044,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2390044,
+                "inputMetric": "durationSeconds",
+                "inputValue": 12713,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2390044
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 183627,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 183627,
+                "timingBreakdown": {
+                  "uploadMs": 2754,
+                  "createMs": 241,
+                  "pollMs": 35585,
+                  "pollSleepMs": 145028,
+                  "remoteProcessingMs": 145047
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 12713,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 14.444,
+                "throughputValue": 69.233,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 183625,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 2754,
+                  "createMs": 241,
+                  "createCount": 1,
+                  "pollMs": 35585,
+                  "requestCount": 19
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "d765eac3-df5c-4e8d-bb0c-d36c244f87cf",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/81d9d4bbc35b974c1773f8bd147202826f44893f2ef18a816b89bd657494e4ff/ad7f2b85-b6df-4bf0-b2e2-46de84f55b37",
+                  "createCompletedAt": "2026-09-12T02:44:49.120Z",
+                  "lastPollAt": "2026-09-12T02:47:49.750Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 183627,
+            "tokenCount": 37048,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "d765eac3-df5c-4e8d-bb0c-d36c244f87cf",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/81d9d4bbc35b974c1773f8bd147202826f44893f2ef18a816b89bd657494e4ff/ad7f2b85-b6df-4bf0-b2e2-46de84f55b37",
+              "createCompletedAt": "2026-09-12T02:44:49.120Z",
+              "lastPollAt": "2026-09-12T02:47:49.750Z",
+              "completedAt": "2026-09-12T02:47:49.752Z"
+            },
+            "timings": {
+              "uploadMs": 2754,
+              "createMs": 241,
+              "createCount": 1,
+              "pollMs": 35585,
+              "pollSleepMs": 145028,
+              "pollCount": 17,
+              "remoteProcessingMs": 145047,
+              "requestCount": 19
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 3,
+                  "active": 2,
+                  "activePeak": 3,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 7,
+                  "completed": 5,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789180853795,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789181086125,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 2,
+                      "activePeak": 3,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Introducing SolidStart w/ Nikhil Saraf",
+      "slug": "2022-08-05-introducing-solidstart-w-nikhil-saraf",
+      "duration": "4:30:19",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=eAwuPvRXNdY",
+      "publishDate": "2022-08-05",
+      "thumbnail": "https://i.ytimg.com/vi/eAwuPvRXNdY/sddefault.jpg?v=62eaa4d2",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 156,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 156,
+          "endTime": 775,
+          "title": "Welcome Nikhil"
+        },
+        {
+          "startTime": 775,
+          "endTime": 1091,
+          "title": "Introducing Hackernews SPA"
+        },
+        {
+          "startTime": 1091,
+          "endTime": 1374,
+          "title": "Getting Started with SolidStart"
+        },
+        {
+          "startTime": 1374,
+          "endTime": 1882,
+          "title": "Migrating to a SolidStart SPA"
+        },
+        {
+          "startTime": 1882,
+          "endTime": 2652,
+          "title": "Adding FileSystem Routing"
+        },
+        {
+          "startTime": 2652,
+          "endTime": 2897,
+          "title": "Changing to SSR"
+        },
+        {
+          "startTime": 2897,
+          "endTime": 3368,
+          "title": "Leveraging the Server"
+        },
+        {
+          "startTime": 3368,
+          "endTime": 4076,
+          "title": "Typed RPCs with `server`"
+        },
+        {
+          "startTime": 4076,
+          "endTime": 5301,
+          "title": "Server Data & Actions"
+        },
+        {
+          "startTime": 5301,
+          "endTime": 5731,
+          "title": "Progressive Enhancement with TodoMVC"
+        },
+        {
+          "startTime": 5731,
+          "endTime": 6816,
+          "title": "Optimistic Updates with TodoMVC"
+        },
+        {
+          "startTime": 6816,
+          "endTime": 7597,
+          "title": "Errors with Errors"
+        },
+        {
+          "startTime": 7597,
+          "endTime": 8154,
+          "title": "API Routes"
+        },
+        {
+          "startTime": 8154,
+          "endTime": 8527,
+          "title": "Reflecting on Design Philosophy"
+        },
+        {
+          "startTime": 8527,
+          "endTime": 10254,
+          "title": "Websockets & Durable Objects"
+        },
+        {
+          "startTime": 10254,
+          "endTime": 10790,
+          "title": "Server-Sent Events"
+        },
+        {
+          "startTime": 10790,
+          "endTime": 11742,
+          "title": "Partial Hydration?"
+        },
+        {
+          "startTime": 11742,
+          "endTime": 12225,
+          "title": "Hybrid Nested Routing"
+        },
+        {
+          "startTime": 12225,
+          "endTime": 14376,
+          "title": "SolidStart and the Future"
+        },
+        {
+          "startTime": 14376,
+          "endTime": 16114,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 16114,
+          "endTime": 16218,
+          "title": "Outro"
+        }
+      ],
+      "description": "As we are preparing for beta release for SolidStart, SolidJS's starter/metaframework, I'm excited to spend this stream to give you all sneak peak at what is coming. I will be joined by Nikhil Saraf the main contributor on the project as we look at how it has never easer to get started with SolidJS in the browser or on the server.\n\n[0:00] Introduction\n[2:36] Welcome Nikhil\n[12:55] Introducing Hackernews SPA\n[18:11] Getting Started with SolidStart\n[22:54] Migrating to a SolidStart SPA\n[31:22] Adding FileSystem Routing\n[44:12] Changing to SSR\n[48:17] Leveraging the Server\n[56:08] Typed RPCs with `server`\n[1:07:56] Server Data & Actions\n[1:28:21] Progressive Enhancement with TodoMVC\n[1:35:31] Optimistic Updates with TodoMVC\n[1:53:36] Errors with Errors\n[2:06:37] API Routes\n[2:15:54] Reflecting on Design Philosophy\n[2:22:07] Websockets & Durable Objects\n[2:50:54] Server-Sent Events\n[2:59:50] Partial Hydration?\n[3:15:42] Hybrid Nested Routing\n[3:23:45] SolidStart and the Future\n[3:59:36] This Week in JavaScript\n[4:28:34] Outro"
+    }
+  }
+}

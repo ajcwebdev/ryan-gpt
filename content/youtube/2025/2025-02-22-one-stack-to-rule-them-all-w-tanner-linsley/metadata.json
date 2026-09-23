@@ -1,0 +1,187 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=p16CQPTHS8g",
+    "videoTitle": "One Stack to Rule Them All w/ Tanner Linsley",
+    "videoPublishDate": "2025-02-22",
+    "videoThumbnail": "https://i.ytimg.com/vi/p16CQPTHS8g/maxresdefault.jpg",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "5:08:41",
+    "videoDescription": "Tanner returns to the stream to talk all things Tanstack. We will look at the latest developments of Tanstack Start and Router, and he has a new release that we will be announcing live!!\n\n00:00:00 - Introduction and Stream Setup\n00:06:00 - Welcoming Tanner and General Catch-Up\n00:12:00 - Reflecting on Past Streams and Routing Fundamentals\n00:18:00 - Announcing the New TanStack Solid Router\n00:24:00 - Comparing Solid Router Features and Implementation Details\n00:30:00 - Revisiting Server Functions and Shared Origins in Meta-Frameworks\n00:36:00 - Introducing the Vinci Layer and the Impact of Vite 6\n00:42:00 - Plans for De-Vincification and Convergence\n00:48:00 - Community Collaboration and Shared Discord Workspace\n00:54:00 - Deep Type Safety and Architectural Implications\n01:00:00 - Future Potential for Cross-Framework Adapters\n01:06:00 - Considering File-Based Routing Conventions\n01:12:00 - Lessons Learned from React Query and Normalized Caching\n01:18:00 - Acknowledging Convergence Around Signals and Observables\n01:24:00 - Rehashing the Double-Data Problem and Streaming\n01:30:00 - The Rise of “Partial SSR” and Single-Flight Techniques\n01:36:00 - The Solid Start Team’s Workflow and the TanStack Start Vision\n01:42:00 - Reflecting on React’s Current Marketing Challenges\n01:48:00 - The Pragmatism of Multiple Approaches\n01:54:00 - Summarizing the Philosophy Behind TanStack’s Independence\n02:00:00 - The Enduring Strength of React’s Ecosystem\n02:06:00 - Comparing Compiler Approaches and Client-Side Optimizations\n02:12:00 - Revisiting the Role of Ecosystem Wrappers and Adapters\n02:18:00 - Balancing Reactive Simplicity Against Complexity\n02:24:00 - Strengthening the Foundations: CSS Handling and Dev Tools\n02:29:00 - Tanstack Router in SolidStart\n02:33:20 - Server Components w/o \"use client\"\n03:09:00 - Observables in the Browser?\n03:15:30 - Async Effects/Events\n04:34:35 - Inventory of Reactive Primitives\n04:39:00 - The Road to Solid 2.0\n04:45:10 - This Week in JavaScript\n05:08:10 - Parting Remarks and Conclusion\n\nThank you @ajcwebdev for the AI generated timestamps.",
+    "videoChapters": [
+      {
+        "startTime": 0,
+        "endTime": 360,
+        "title": "Introduction and Stream Setup"
+      },
+      {
+        "startTime": 360,
+        "endTime": 720,
+        "title": "Welcoming Tanner and General Catch-Up"
+      },
+      {
+        "startTime": 720,
+        "endTime": 1080,
+        "title": "Reflecting on Past Streams and Routing Fundamentals"
+      },
+      {
+        "startTime": 1080,
+        "endTime": 1440,
+        "title": "Announcing the New TanStack Solid Router"
+      },
+      {
+        "startTime": 1440,
+        "endTime": 1800,
+        "title": "Comparing Solid Router Features and Implementation Details"
+      },
+      {
+        "startTime": 1800,
+        "endTime": 2160,
+        "title": "Revisiting Server Functions and Shared Origins in Meta-Frameworks"
+      },
+      {
+        "startTime": 2160,
+        "endTime": 2520,
+        "title": "Introducing the Vinci Layer and the Impact of Vite 6"
+      },
+      {
+        "startTime": 2520,
+        "endTime": 2880,
+        "title": "Plans for De-Vincification and Convergence"
+      },
+      {
+        "startTime": 2880,
+        "endTime": 3240,
+        "title": "Community Collaboration and Shared Discord Workspace"
+      },
+      {
+        "startTime": 3240,
+        "endTime": 3600,
+        "title": "Deep Type Safety and Architectural Implications"
+      },
+      {
+        "startTime": 3600,
+        "endTime": 3960,
+        "title": "Future Potential for Cross-Framework Adapters"
+      },
+      {
+        "startTime": 3960,
+        "endTime": 4320,
+        "title": "Considering File-Based Routing Conventions"
+      },
+      {
+        "startTime": 4320,
+        "endTime": 4680,
+        "title": "Lessons Learned from React Query and Normalized Caching"
+      },
+      {
+        "startTime": 4680,
+        "endTime": 5040,
+        "title": "Acknowledging Convergence Around Signals and Observables"
+      },
+      {
+        "startTime": 5040,
+        "endTime": 5400,
+        "title": "Rehashing the Double-Data Problem and Streaming"
+      },
+      {
+        "startTime": 5400,
+        "endTime": 5760,
+        "title": "The Rise of “Partial SSR” and Single-Flight Techniques"
+      },
+      {
+        "startTime": 5760,
+        "endTime": 6120,
+        "title": "The Solid Start Team’s Workflow and the TanStack Start Vision"
+      },
+      {
+        "startTime": 6120,
+        "endTime": 6480,
+        "title": "Reflecting on React’s Current Marketing Challenges"
+      },
+      {
+        "startTime": 6480,
+        "endTime": 6840,
+        "title": "The Pragmatism of Multiple Approaches"
+      },
+      {
+        "startTime": 6840,
+        "endTime": 7200,
+        "title": "Summarizing the Philosophy Behind TanStack’s Independence"
+      },
+      {
+        "startTime": 7200,
+        "endTime": 7560,
+        "title": "The Enduring Strength of React’s Ecosystem"
+      },
+      {
+        "startTime": 7560,
+        "endTime": 7920,
+        "title": "Comparing Compiler Approaches and Client-Side Optimizations"
+      },
+      {
+        "startTime": 7920,
+        "endTime": 8280,
+        "title": "Revisiting the Role of Ecosystem Wrappers and Adapters"
+      },
+      {
+        "startTime": 8280,
+        "endTime": 8640,
+        "title": "Balancing Reactive Simplicity Against Complexity"
+      },
+      {
+        "startTime": 8640,
+        "endTime": 8940,
+        "title": "Strengthening the Foundations: CSS Handling and Dev Tools"
+      },
+      {
+        "startTime": 8940,
+        "endTime": 9200,
+        "title": "Tanstack Router in SolidStart"
+      },
+      {
+        "startTime": 9200,
+        "endTime": 11340,
+        "title": "Server Components w/o \"use client\""
+      },
+      {
+        "startTime": 11340,
+        "endTime": 11730,
+        "title": "Observables in the Browser?"
+      },
+      {
+        "startTime": 11730,
+        "endTime": 16475,
+        "title": "Async Effects/Events"
+      },
+      {
+        "startTime": 16475,
+        "endTime": 16740,
+        "title": "Inventory of Reactive Primitives"
+      },
+      {
+        "startTime": 16740,
+        "endTime": 17110,
+        "title": "The Road to Solid 2.0"
+      },
+      {
+        "startTime": 17110,
+        "endTime": 18490,
+        "title": "This Week in JavaScript"
+      },
+      {
+        "startTime": 18490,
+        "endTime": 18521,
+        "title": "Parting Remarks and Conclusion"
+      }
+    ],
+    "audioFileName": "One_Stack_to_Rule_Them_All_w_Tanner_Linsley.wav",
+    "audioFileSize": 592658798
+  },
+  "step2": {
+    "transcriptionService": "lemonfox",
+    "transcriptionModel": "default",
+    "processingTime": 346180,
+    "tokenCount": 49311
+  }
+}

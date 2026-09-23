@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS - Context, Async, & Suspense",
+      "slug": "2021-09-18-streaming-solidjs-context-async-suspense",
+      "duration": "2:55:28",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=8Ou6domKfU4",
+      "publishDate": "2021-09-18",
+      "thumbnail": "https://i.ytimg.com/vi/8Ou6domKfU4/sddefault.jpg?v=61453cfd",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 876,
+          "title": "This Week in JavaScript Twitter"
+        },
+        {
+          "startTime": 876,
+          "endTime": 3062,
+          "title": "Context"
+        },
+        {
+          "startTime": 3062,
+          "endTime": 3979,
+          "title": "Without Context"
+        },
+        {
+          "startTime": 3979,
+          "endTime": 4390,
+          "title": "Async Pause/Resume"
+        },
+        {
+          "startTime": 4390,
+          "endTime": 7140,
+          "title": "Suspense"
+        },
+        {
+          "startTime": 7140,
+          "endTime": 8935,
+          "title": "Transitions"
+        },
+        {
+          "startTime": 8935,
+          "endTime": 10527,
+          "title": "Q & A"
+        }
+      ],
+      "description": "Streaming on topics related to SolidJS\n\n[0:00] This Week in JavaScript Twitter\n[14:36] Context\n[51:02] Without Context\n[1:06:19] Async Pause/Resume\n[1:13:10] Suspense\n[1:59:00] Transitions\n[2:28:55] Q & A"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "JavaScript Frameworks - Heading into 2024",
+      "slug": "2024-01-13-javascript-frameworks-heading-into-2024",
+      "duration": "5:05:14",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=82dzMKZzHrY",
+      "publishDate": "2024-01-13",
+      "thumbnail": "https://i.ytimg.com/vi/82dzMKZzHrY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 150,
+          "title": "Starting Soon..."
+        },
+        {
+          "startTime": 150,
+          "endTime": 525,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 525,
+          "endTime": 1020,
+          "title": "The Plan for Today"
+        },
+        {
+          "startTime": 1020,
+          "endTime": 1620,
+          "title": "Ryan's Predictions Last Year"
+        },
+        {
+          "startTime": 1620,
+          "endTime": 2010,
+          "title": "React in 2023"
+        },
+        {
+          "startTime": 2010,
+          "endTime": 2700,
+          "title": "React - Server Components with No Server"
+        },
+        {
+          "startTime": 2700,
+          "endTime": 3450,
+          "title": "React - Next & Server Actions"
+        },
+        {
+          "startTime": 3450,
+          "endTime": 4020,
+          "title": "React - Q&A: Versioning? Security? Linting?"
+        },
+        {
+          "startTime": 4020,
+          "endTime": 4680,
+          "title": "React - Next: The Edge & asyncLocalStorage"
+        },
+        {
+          "startTime": 4680,
+          "endTime": 5130,
+          "title": "React - Next: Partial Pre-Rendering"
+        },
+        {
+          "startTime": 5130,
+          "endTime": 5505,
+          "title": "React - Remix: Vite & Optimistic Updates"
+        },
+        {
+          "startTime": 5505,
+          "endTime": 6000,
+          "title": "React - Remix: SPA/CSR Mode"
+        },
+        {
+          "startTime": 6000,
+          "endTime": 6840,
+          "title": "React - Remix: Influence & Impatience"
+        },
+        {
+          "startTime": 6840,
+          "endTime": 7215,
+          "title": "React - Gatsby: Still Alive!"
+        },
+        {
+          "startTime": 7215,
+          "endTime": 7830,
+          "title": "React - Forget: The Auto-Reactivity Compiler"
+        },
+        {
+          "startTime": 7830,
+          "endTime": 8400,
+          "title": "React - Q&A: The Future? Signals? Shirts?"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9240,
+          "title": "HTMX - Partials as a Primitive"
+        },
+        {
+          "startTime": 9240,
+          "endTime": 9735,
+          "title": "HTMX - Are We Going Back to Stateful Servers?"
+        },
+        {
+          "startTime": 9735,
+          "endTime": 10305,
+          "title": "HTMX - Transclusion & JavaScript Backends"
+        },
+        {
+          "startTime": 10305,
+          "endTime": 10665,
+          "title": "HTMX - Where Does It Fit?"
+        },
+        {
+          "startTime": 10665,
+          "endTime": 11190,
+          "title": "Astro - Finding Its Niche & Owning It"
+        },
+        {
+          "startTime": 11190,
+          "endTime": 11640,
+          "title": "Astro - Limitations of Persistent Islands"
+        },
+        {
+          "startTime": 11640,
+          "endTime": 12255,
+          "title": "Q&A: Double Data Problem? WASM Frameworks?"
+        },
+        {
+          "startTime": 12255,
+          "endTime": 12630,
+          "title": "Svelte - Signals & Fine-Grained Rendering"
+        },
+        {
+          "startTime": 12630,
+          "endTime": 13305,
+          "title": "Svelte - Smaller Build & Better Composition"
+        },
+        {
+          "startTime": 13305,
+          "endTime": 13800,
+          "title": "Million - Pure Rendering Optimization"
+        },
+        {
+          "startTime": 13800,
+          "endTime": 14250,
+          "title": "Vue - Making Developers Happy"
+        },
+        {
+          "startTime": 14250,
+          "endTime": 14550,
+          "title": "Angular - Renaissance"
+        },
+        {
+          "startTime": 14550,
+          "endTime": 15000,
+          "title": "Angular - The TC-39 Signals Proposal"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15435,
+          "title": "Angular - We're So Back"
+        },
+        {
+          "startTime": 15435,
+          "endTime": 15735,
+          "title": "Solid - Start is Close to 1.0"
+        },
+        {
+          "startTime": 15735,
+          "endTime": 16290,
+          "title": "Solid - Solid 2.0 on the Way (Signals 2.0?)"
+        },
+        {
+          "startTime": 16290,
+          "endTime": 17055,
+          "title": "Qwik - Pushing the Boundaries of Serialization"
+        },
+        {
+          "startTime": 17055,
+          "endTime": 17610,
+          "title": "Lit, Yew, Alpine, Preact & Fresh"
+        },
+        {
+          "startTime": 17610,
+          "endTime": 17820,
+          "title": "Marko - The Real Marko Has Never Been Tried"
+        },
+        {
+          "startTime": 17820,
+          "endTime": 18314,
+          "title": "Conclusion - Finding The Right Tool"
+        }
+      ],
+      "description": "It's my first stream of the new year. Let's talk about JavaScript frameworks. Where things have been and where they are going.\n\n[0:00} Starting Soon...\n[2:30] Preamble\n[8:45] The Plan for Today\n[17:00] Ryan's Predictions Last Year\n[27:00] React in 2023\n[33:30] React - Server Components with No Server\n[45:00] React - Next & Server Actions\n[57:30] React - Q&A: Versioning? Security? Linting?\n[1:07:00] React - Next: The Edge & asyncLocalStorage\n[1:18:00] React - Next: Partial Pre-Rendering\n[1:25:30] React - Remix: Vite & Optimistic Updates\n[1:31:45] React - Remix: SPA/CSR Mode\n[1:40:00] React - Remix: Influence & Impatience\n[1:54:00] React - Gatsby: Still Alive!\n[2:00:15] React - Forget: The Auto-Reactivity Compiler\n[2:10:30] React - Q&A: The Future? Signals? Shirts?\n[2:20:00] HTMX - Partials as a Primitive\n[2:34:00] HTMX - Are We Going Back to Stateful Servers?\n[2:42:15] HTMX - Transclusion & JavaScript Backends\n[2:51:45] HTMX - Where Does It Fit?\n[2:57:45] Astro - Finding Its Niche & Owning It\n[3:06:30] Astro - Limitations of Persistent Islands\n[3:14:00] Q&A: Double Data Problem? WASM Frameworks?\n[3:24:15] Svelte - Signals & Fine-Grained Rendering\n[3:30:30] Svelte - Smaller Build & Better Composition\n[3:41:45] Million - Pure Rendering Optimization\n[3:50:00] Vue - Making Developers Happy\n[3:57:30] Angular - Renaissance\n[4:02:30] Angular - The TC-39 Signals Proposal \n[4:10:00] Angular - We're So Back\n[4:17:15] Solid - Start is Close to 1.0\n[4:22:15] Solid - Solid 2.0 on the Way (Signals 2.0?)\n[4:31:30] Qwik - Pushing the Boundaries of Serialization\n[4:44:15] Lit, Yew, Alpine, Preact & Fresh\n[4:53:30] Marko - The Real Marko Has Never Been Tried\n[4:57:00] Conclusion - Finding The Right Tool\r\n\r\nCover: Tomorrowland - Walt Disney Studios Motion Pictures (2015)"
+    }
+  }
+}

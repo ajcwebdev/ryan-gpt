@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Designing Async-First Signals",
+      "slug": "2025-11-22-designing-async-first-signals",
+      "duration": "6:30:27",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=ori9xZhvNlc",
+      "publishDate": "2025-11-22",
+      "thumbnail": "https://i.ytimg.com/vi/ori9xZhvNlc/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 1092,
+          "title": "Stream intro and Solid 2.0 status"
+        },
+        {
+          "startTime": 1092,
+          "endTime": 1192,
+          "title": "JavaScript async and UI frameworks"
+        },
+        {
+          "startTime": 1192,
+          "endTime": 1372,
+          "title": "Node’s concurrency model vs threads"
+        },
+        {
+          "startTime": 1372,
+          "endTime": 1436,
+          "title": "Early multi‑core, semaphores, classic concurrency problems"
+        },
+        {
+          "startTime": 1436,
+          "endTime": 1620,
+          "title": "Async “just works” in JS, so frameworks ignored it"
+        },
+        {
+          "startTime": 1620,
+          "endTime": 1871,
+          "title": "React Suspense and Transitions, Solid’s versions"
+        },
+        {
+          "startTime": 1871,
+          "endTime": 1971,
+          "title": "Solid example: basic Suspense with lazy component"
+        },
+        {
+          "startTime": 1971,
+          "endTime": 2341,
+          "title": "Nested Suspense and layout‑driven loading boundaries"
+        },
+        {
+          "startTime": 2341,
+          "endTime": 2581,
+          "title": "Streaming and Marko’s async fragments"
+        },
+        {
+          "startTime": 2581,
+          "endTime": 2758,
+          "title": "Four async modes: placeholder, hold, optimistic, tear"
+        },
+        {
+          "startTime": 2758,
+          "endTime": 3153,
+          "title": "Solid transitions demo: holding previous tab while loading next"
+        },
+        {
+          "startTime": 3153,
+          "endTime": 3217,
+          "title": "Svelte 5 async holding model and demo"
+        },
+        {
+          "startTime": 3217,
+          "endTime": 3432,
+          "title": "Rich’s multiply demo and Svelte’s derived async"
+        },
+        {
+          "startTime": 3432,
+          "endTime": 3659,
+          "title": "Recreating the demo in Solid 1.0 with tearing"
+        },
+        {
+          "startTime": 3659,
+          "endTime": 3926,
+          "title": "Visual tearing and why it breaks trust"
+        },
+        {
+          "startTime": 3926,
+          "endTime": 4206,
+          "title": "Pending indicators and why default holding is tricky"
+        },
+        {
+          "startTime": 4206,
+          "endTime": 4388,
+          "title": "Svelte compiler infers dependencies; contrast with runtime tracking"
+        },
+        {
+          "startTime": 4388,
+          "endTime": 4425,
+          "title": "Async in routers and Remix‑style actions"
+        },
+        {
+          "startTime": 4425,
+          "endTime": 4615,
+          "title": "Solid router uses transitions by default; confusion issues"
+        },
+        {
+          "startTime": 4615,
+          "endTime": 5112,
+          "title": "Remix 3 and “async everywhere” component actions"
+        },
+        {
+          "startTime": 5112,
+          "endTime": 5385,
+          "title": "TanStack / Ricky patterns for actions and transitions"
+        },
+        {
+          "startTime": 5385,
+          "endTime": 5591,
+          "title": "Cascading selects example and composing async UIs"
+        },
+        {
+          "startTime": 5591,
+          "endTime": 5839,
+          "title": "Svelte version of cascading selects and global pending issues"
+        },
+        {
+          "startTime": 5839,
+          "endTime": 6252,
+          "title": "Realization: if everything goes through actions, you’re already in “transition world”"
+        },
+        {
+          "startTime": 6252,
+          "endTime": 7143,
+          "title": "Consistency of signals vs React setState"
+        },
+        {
+          "startTime": 7143,
+          "endTime": 7259,
+          "title": "“Cost of consistency” article and 0/1/2/… patterns"
+        },
+        {
+          "startTime": 7259,
+          "endTime": 7445,
+          "title": "How React, Vue, Svelte 3, Solid report values differently"
+        },
+        {
+          "startTime": 7445,
+          "endTime": 7691,
+          "title": "Adding async breaks “derived inside handler” assumptions"
+        },
+        {
+          "startTime": 7691,
+          "endTime": 7982,
+          "title": "Example where async derived value lags and causes bugs"
+        },
+        {
+          "startTime": 7982,
+          "endTime": 8768,
+          "title": "Inside the reactive system vs outside (handlers/effects)"
+        },
+        {
+          "startTime": 8768,
+          "endTime": 9419,
+          "title": "Poll: would you accept deferred setSignal like React?"
+        },
+        {
+          "startTime": 9419,
+          "endTime": 9841,
+          "title": "Async‑first thought experiment and introduction of R3"
+        },
+        {
+          "startTime": 9841,
+          "endTime": 10071,
+          "title": "Idea: everything implicit transitions, opt out to tearing"
+        },
+        {
+          "startTime": 10071,
+          "endTime": 10340,
+          "title": "isPending as a graph question, not per‑signal flag"
+        },
+        {
+          "startTime": 10340,
+          "endTime": 10502,
+          "title": "pending() vs isPending(), naming and usage"
+        },
+        {
+          "startTime": 10502,
+          "endTime": 10785,
+          "title": "State changes apply async; optimistic only for unknown data"
+        },
+        {
+          "startTime": 10785,
+          "endTime": 11120,
+          "title": "Milo’s R3: topological height ordering and eager graph"
+        },
+        {
+          "startTime": 11120,
+          "endTime": 11523,
+          "title": "R3 vs push‑pull: O(1) propagation with heights"
+        },
+        {
+          "startTime": 11523,
+          "endTime": 12426,
+          "title": "Why cloning/forking the graph for transitions is expensive"
+        },
+        {
+          "startTime": 12426,
+          "endTime": 12881,
+          "title": "Show component as memo; ownership and auto‑disposal"
+        },
+        {
+          "startTime": 12881,
+          "endTime": 13204,
+          "title": "New idea: keep both branches, defer pure disposal"
+        },
+        {
+          "startTime": 13204,
+          "endTime": 14288,
+          "title": "Handling render effects specially while keeping memos pure"
+        },
+        {
+          "startTime": 14288,
+          "endTime": 14459,
+          "title": "New async model demos: holding, parallel async, selects"
+        },
+        {
+          "startTime": 14459,
+          "endTime": 14561,
+          "title": "Entanglement: multiple async derived values move together"
+        },
+        {
+          "startTime": 14561,
+          "endTime": 14726,
+          "title": "Parallel async: independent branches don’t entangle"
+        },
+        {
+          "startTime": 14726,
+          "endTime": 15014,
+          "title": "isPending on arbitrary expressions, not just signals"
+        },
+        {
+          "startTime": 15014,
+          "endTime": 15220,
+          "title": "Cascading select demo: consistent state/city pairs"
+        },
+        {
+          "startTime": 15220,
+          "endTime": 15825,
+          "title": "Select component only asks “are my options pending?”"
+        },
+        {
+          "startTime": 15825,
+          "endTime": 16065,
+          "title": "Optimistic store pattern and reconciling after server refresh"
+        },
+        {
+          "startTime": 16065,
+          "endTime": 16135,
+          "title": "Actions still need wrappers (generators or async context)"
+        },
+        {
+          "startTime": 16135,
+          "endTime": 16413,
+          "title": "Controlled inputs, tearing vs consistency and UI affordances"
+        },
+        {
+          "startTime": 16413,
+          "endTime": 16646,
+          "title": "Suspense mainly for initial load; pending for updates"
+        },
+        {
+          "startTime": 16646,
+          "endTime": 17720,
+          "title": "Question of cancellation and going “back” during transitions"
+        },
+        {
+          "startTime": 17720,
+          "endTime": 17787,
+          "title": "React Conf talk (Joseph Savona) and analysis"
+        },
+        {
+          "startTime": 17787,
+          "endTime": 18121,
+          "title": "Draw benchmark"
+        },
+        {
+          "startTime": 18121,
+          "endTime": 18780,
+          "title": "React baseline vs React Compiler on giant context state"
+        },
+        {
+          "startTime": 18780,
+          "endTime": 19032,
+          "title": "Signals prototype"
+        },
+        {
+          "startTime": 19032,
+          "endTime": 19479,
+          "title": "React Fir: hybrid eager/lazy incremental algorithm"
+        },
+        {
+          "startTime": 19479,
+          "endTime": 19951,
+          "title": "External store beating all approaches"
+        },
+        {
+          "startTime": 19951,
+          "endTime": 21079,
+          "title": "Takeaway: separating state from rendering, implications for React"
+        },
+        {
+          "startTime": 21079,
+          "endTime": 21107,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 21107,
+          "endTime": 21713,
+          "title": "Ecosystem metrics and Solid’s growth"
+        },
+        {
+          "startTime": 21713,
+          "endTime": 21840,
+          "title": "TanStack Start hackathon and Solid as first‑class target"
+        },
+        {
+          "startTime": 21840,
+          "endTime": 21936,
+          "title": "Integrating vanilla libs: Remix 3 vs Solid/Svelte"
+        },
+        {
+          "startTime": 21936,
+          "endTime": 22005,
+          "title": "Isomorphic‑first RSCs and TanStack’s planned approach"
+        },
+        {
+          "startTime": 22005,
+          "endTime": 22059,
+          "title": "HTMX “no new version” then announces v2"
+        },
+        {
+          "startTime": 22059,
+          "endTime": 22873,
+          "title": "useEffect “square hole” meme and overuse discussion"
+        },
+        {
+          "startTime": 22873,
+          "endTime": 23118,
+          "title": "Knockout vs RxJS: why UI signals are different"
+        },
+        {
+          "startTime": 23118,
+          "endTime": 23368,
+          "title": "Funding politics around Vercel, TanStack, Solid sponsors"
+        },
+        {
+          "startTime": 23368,
+          "endTime": 23427,
+          "title": "Stream wrap‑up and upcoming break from streaming"
+        }
+      ],
+      "description": "When it comes to UIs I've long held the perspective reactivity is all you need. Defeating synchronization gremlins is over half the battle. To accomplish that we'e built incredible synchronous systems. Async while recognized as important has been largely an add-on; an afterthought. Today I'm going to look at what Signals reactivity would look if we started with async in mind.\n\n[00:00:00] Stream intro and Solid 2.0 status\n[00:18:12] JavaScript async and UI frameworks\n    [00:19:52] Node’s concurrency model vs threads\n    [00:22:52] Early multi‑core, semaphores, classic concurrency problems\n    [00:23:56] Async “just works” in JS, so frameworks ignored it\n[00:27:00] React Suspense and Transitions, Solid’s versions\n    [00:31:11] Solid example: basic Suspense with lazy component\n    [00:32:51] Nested Suspense and layout‑driven loading boundaries\n    [00:39:01] Streaming and Marko’s async fragments\n    [00:43:01] Four async modes: placeholder, hold, optimistic, tear\n    [00:45:58] Solid transitions demo: holding previous tab while loading next\n[00:52:33] Svelte 5 async holding model and demo\n    [00:53:37] Rich’s multiply demo and Svelte’s derived async\n    [00:57:12] Recreating the demo in Solid 1.0 with tearing\n    [01:00:59] Visual tearing and why it breaks trust\n    [01:05:26] Pending indicators and why default holding is tricky\n    [01:10:06] Svelte compiler infers dependencies; contrast with runtime tracking\n[01:13:08] Async in routers and Remix‑style actions\n    [01:13:45] Solid router uses transitions by default; confusion issues\n    [01:16:55] Remix 3 and “async everywhere” component actions\n    [01:25:12] TanStack / Ricky patterns for actions and transitions\n    [01:29:45] Cascading selects example and composing async UIs\n    [01:33:11] Svelte version of cascading selects and global pending issues\n    [01:37:19] Realization: if everything goes through actions, you’re already in “transition world”\n[01:44:12] Consistency of signals vs React setState\n    [01:59:03] “Cost of consistency” article and 0/1/2/… patterns\n    [02:00:59] How React, Vue, Svelte 3, Solid report values differently\n    [02:04:05] Adding async breaks “derived inside handler” assumptions\n    [02:08:11] Example where async derived value lags and causes bugs\n    [02:13:02] Inside the reactive system vs outside (handlers/effects)\n    [02:26:08] Poll: would you accept deferred setSignal like React?\n[02:36:59] Async‑first thought experiment and introduction of R3\n    [02:44:01] Idea: everything implicit transitions, opt out to tearing\n    [02:47:51] isPending as a graph question, not per‑signal flag\n    [02:52:20] pending() vs isPending(), naming and usage\n    [02:55:02] State changes apply async; optimistic only for unknown data\n    [02:59:45] Milo’s R3: topological height ordering and eager graph\n    [03:05:20] R3 vs push‑pull: O(1) propagation with heights\n    [03:12:03] Why cloning/forking the graph for transitions is expensive\n    [03:27:06] Show component as memo; ownership and auto‑disposal\n    [03:34:41] New idea: keep both branches, defer pure disposal\n    [03:40:04] Handling render effects specially while keeping memos pure\n[03:58:08] New async model demos: holding, parallel async, selects\n    [04:00:59] Entanglement: multiple async derived values move together\n    [04:02:41] Parallel async: independent branches don’t entangle\n    [04:05:26] isPending on arbitrary expressions, not just signals\n    [04:10:14] Cascading select demo: consistent state/city pairs\n    [04:13:40] Select component only asks “are my options pending?”\n    [04:23:45] Optimistic store pattern and reconciling after server refresh\n    [04:27:45] Actions still need wrappers (generators or async context)\n    [04:28:55] Controlled inputs, tearing vs consistency and UI affordances\n    [04:33:33] Suspense mainly for initial load; pending for updates\n    [04:37:26] Question of cancellation and going “back” during transitions\n[04:55:20] React Conf talk (Joseph Savona) and analysis\n    [04:56:27] Draw benchmark\n    [05:02:01] React baseline vs React Compiler on giant context state\n    [05:13:00] Signals prototype\n    [05:17:12] React Fir: hybrid eager/lazy incremental algorithm\n    [05:24:39] External store beating all approaches\n    [05:32:31] Takeaway: separating state from rendering, implications for React\n[05:51:19] This Week in JavaScript\n    [05:51:47] Ecosystem metrics and Solid’s growth\n    [06:01:53] TanStack Start hackathon and Solid as first‑class target\n    [06:04:00] Integrating vanilla libs: Remix 3 vs Solid/Svelte\n    [06:05:36] Isomorphic‑first RSCs and TanStack’s planned approach\n    [06:06:45] HTMX “no new version” then announces v2\n    [06:07:39] useEffect “square hole” meme and overuse discussion\n    [06:21:13] Knockout vs RxJS: why UI signals are different\n    [06:25:18] Funding politics around Vercel, TanStack, Solid sponsors\n    [06:29:28] Stream wrap‑up and upcoming break from streaming\n\nThanks @undreamtmayhem7530 for timestamps!"
+    }
+  }
+}

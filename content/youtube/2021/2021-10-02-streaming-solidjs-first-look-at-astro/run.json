@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS - First look at Astro",
+      "slug": "2021-10-02-streaming-solidjs-first-look-at-astro",
+      "duration": "3:00:26",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=UPhx3OxUH0w",
+      "publishDate": "2021-10-02",
+      "thumbnail": "https://i.ytimg.com/vi/UPhx3OxUH0w/hqdefault.jpg?v=615732c7",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 599,
+          "title": "JavaScript this Week"
+        },
+        {
+          "startTime": 599,
+          "endTime": 1315,
+          "title": "Creating an Astro Project"
+        },
+        {
+          "startTime": 1315,
+          "endTime": 1680,
+          "title": "Astro + Solid"
+        },
+        {
+          "startTime": 1680,
+          "endTime": 1777,
+          "title": "Solid Renderer"
+        },
+        {
+          "startTime": 1777,
+          "endTime": 2120,
+          "title": "Conditional Exports"
+        },
+        {
+          "startTime": 2120,
+          "endTime": 2399,
+          "title": "Solid Renderer Continued"
+        },
+        {
+          "startTime": 2399,
+          "endTime": 2802,
+          "title": "Updating Renderer to Hydrate"
+        },
+        {
+          "startTime": 2802,
+          "endTime": 3538,
+          "title": "Progressive Hydration Event Replay"
+        },
+        {
+          "startTime": 3538,
+          "endTime": 3840,
+          "title": "Talk Build Tooling"
+        },
+        {
+          "startTime": 3840,
+          "endTime": 4130,
+          "title": "Removing Static Templates"
+        },
+        {
+          "startTime": 4130,
+          "endTime": 4556,
+          "title": "Testing the Renderer"
+        },
+        {
+          "startTime": 4556,
+          "endTime": 5320,
+          "title": "Sharing data between Components"
+        },
+        {
+          "startTime": 5320,
+          "endTime": 6940,
+          "title": "Hackernews Demo Layout"
+        },
+        {
+          "startTime": 6940,
+          "endTime": 7364,
+          "title": "Hackernews Solid Component"
+        },
+        {
+          "startTime": 7364,
+          "endTime": 8239,
+          "title": "Hackernews API"
+        },
+        {
+          "startTime": 8239,
+          "endTime": 9124,
+          "title": "Fetch.default is not a function"
+        },
+        {
+          "startTime": 9124,
+          "endTime": 9863,
+          "title": "Screw fetch, let's fake it"
+        },
+        {
+          "startTime": 9863,
+          "endTime": 10502,
+          "title": "Synchronous SSR"
+        },
+        {
+          "startTime": 10502,
+          "endTime": 10825,
+          "title": "Wrap up"
+        }
+      ],
+      "description": "Astro provides an entirely different way to approach making Solid Apps. Going to take a look to see what that is all about.\n\n[0:00] JavaScript this Week\n[9:59] Creating an Astro Project\n[21:55] Astro + Solid\n[28:00] Solid Renderer\n[29:37} Conditional Exports\n[35:20] Solid Renderer Continued\n[39:59] Updating Renderer to Hydrate\n[46:42] Progressive Hydration Event Replay\n[58:58] Talk Build Tooling\n[1:04:00] Removing Static Templates\n[1:08:50] Testing the Renderer\n[1:15:56] Sharing data between Components\n[1:28:40] Hackernews Demo Layout\n[1:55:40] Hackernews Solid Component\n[2:02:44] Hackernews API\n[2:17:19] Fetch.default is not a function\n[2:32:04] Screw fetch, let's fake it\n[2:44:23] Synchronous SSR\n[2:55:02] Wrap up"
+    }
+  }
+}

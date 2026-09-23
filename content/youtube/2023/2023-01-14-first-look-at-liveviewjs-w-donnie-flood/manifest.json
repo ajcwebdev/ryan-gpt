@@ -1,0 +1,338 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T12:18:31.974Z",
+  "updatedAt": "2026-09-12T12:20:35.721Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "First Look at LiveViewJS w/ Donnie Flood",
+          "duration": "5:37:56",
+          "channel": "Ryan Carniato",
+          "description": "I spend a lot of time looking at declarative JavaScript frameworks. Looking at how they Server Render and are moving forward into a new hybrid future. But I've neglected looking at progress from backend technologies.\r\n\r\nDonnie Flood, creator of LiveViewJS, joins us to show how we can use LiveViews inspired by Phoenix Liveview in a full JavaScript stack.\n\n[0:00] Introduction\n[8:50] Welcome Donnie Flood\n[33:06] What is a LiveView?\n[35:28] Stateful Servers?\n[39:52] Do we always go to the Server on any Change?\n[43:16] LiveViewJS Origins\n[47:50] Routing\n[56:09] Application entry\n[1:02:57] The anatomy of a LiveView\n[1:13:21] Data Structure and Diffing\n[1:25:20] Leveraging Websockets\n[1:35:00] Forms\n[1:52:16] Does it Scale?\n[2:06:06} Hackernews\n[2:27:08] Exploring Client Performance\n[3:04:28] Wrapping up with Donny\n[3:09:35] Reflections on LiveViewJS\n[3:29:04] This Week in JavaScript\n\r\nThumbnail Image Credit: © Warner Bros. Pictures/IMDb",
+          "url": "https://www.youtube.com/watch?v=S0a-1lriNl4",
+          "publishDate": "2023-01-14",
+          "thumbnail": "https://i.ytimg.com/vi/S0a-1lriNl4/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 530,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 530,
+              "endTime": 1986,
+              "title": "Welcome Donnie Flood"
+            },
+            {
+              "startTime": 1986,
+              "endTime": 2128,
+              "title": "What is a LiveView?"
+            },
+            {
+              "startTime": 2128,
+              "endTime": 2392,
+              "title": "Stateful Servers?"
+            },
+            {
+              "startTime": 2392,
+              "endTime": 2596,
+              "title": "Do we always go to the Server on any Change?"
+            },
+            {
+              "startTime": 2596,
+              "endTime": 2870,
+              "title": "LiveViewJS Origins"
+            },
+            {
+              "startTime": 2870,
+              "endTime": 3369,
+              "title": "Routing"
+            },
+            {
+              "startTime": 3369,
+              "endTime": 3777,
+              "title": "Application entry"
+            },
+            {
+              "startTime": 3777,
+              "endTime": 4401,
+              "title": "The anatomy of a LiveView"
+            },
+            {
+              "startTime": 4401,
+              "endTime": 5120,
+              "title": "Data Structure and Diffing"
+            },
+            {
+              "startTime": 5120,
+              "endTime": 5700,
+              "title": "Leveraging Websockets"
+            },
+            {
+              "startTime": 5700,
+              "endTime": 6736,
+              "title": "Forms"
+            },
+            {
+              "startTime": 6736,
+              "endTime": 7566,
+              "title": "Does it Scale?"
+            },
+            {
+              "startTime": 7566,
+              "endTime": 8828,
+              "title": "Hackernews"
+            },
+            {
+              "startTime": 8828,
+              "endTime": 11068,
+              "title": "Exploring Client Performance"
+            },
+            {
+              "startTime": 11068,
+              "endTime": 11375,
+              "title": "Wrapping up with Donny"
+            },
+            {
+              "startTime": 11375,
+              "endTime": 12544,
+              "title": "Reflections on LiveViewJS"
+            },
+            {
+              "startTime": 12544,
+              "endTime": 20276,
+              "title": "This Week in JavaScript"
+            }
+          ],
+          "slug": "2023-01-14-first-look-at-liveviewjs-w-donnie-flood",
+          "audioFileName": "2023-01-14-first-look-at-liveviewjs-w-donnie-flood.m4a",
+          "audioFileSize": 253186724,
+          "durationSeconds": 20276
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 129.54111111111112,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 129.54111111111112,
+                "costMultiplier": 1,
+                "durationSeconds": 20276
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 129.54111111111112,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 129.54111111111112,
+                "costMultiplier": 1,
+                "durationSeconds": 20276
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 129.54111111111112,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 129.54111111111112,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 20276
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3811888,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3811888,
+                "inputMetric": "durationSeconds",
+                "inputValue": 20276,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3811888
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 118454,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 118454,
+                "timingBreakdown": {
+                  "uploadMs": 5791,
+                  "createMs": 129,
+                  "pollMs": 7481,
+                  "pollSleepMs": 105018,
+                  "remoteProcessingMs": 105053
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 20276,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 5.842,
+                "throughputValue": 171.172,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 118452,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 5791,
+                  "createMs": 129,
+                  "createCount": 1,
+                  "pollMs": 7481,
+                  "requestCount": 15
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "db2f622f-b84e-4ead-b4de-11d7caa9f317",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/6052ee95b8d6f2d78def8ef942dea32aab3a67519596571bbf3325c3b16e3693/984c56d4-0f84-4168-a21a-3b80bbc6a351",
+                  "createCompletedAt": "2026-09-12T12:18:42.897Z",
+                  "lastPollAt": "2026-09-12T12:20:35.428Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 118454,
+            "tokenCount": 53514,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "db2f622f-b84e-4ead-b4de-11d7caa9f317",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/6052ee95b8d6f2d78def8ef942dea32aab3a67519596571bbf3325c3b16e3693/984c56d4-0f84-4168-a21a-3b80bbc6a351",
+              "createCompletedAt": "2026-09-12T12:18:42.897Z",
+              "lastPollAt": "2026-09-12T12:20:35.428Z",
+              "completedAt": "2026-09-12T12:20:35.430Z"
+            },
+            "timings": {
+              "uploadMs": 5791,
+              "createMs": 129,
+              "createCount": 1,
+              "pollMs": 7481,
+              "pollSleepMs": 105018,
+              "pollCount": 13,
+              "remoteProcessingMs": 105053,
+              "requestCount": 15
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 3,
+                  "completed": 2,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789215516976,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

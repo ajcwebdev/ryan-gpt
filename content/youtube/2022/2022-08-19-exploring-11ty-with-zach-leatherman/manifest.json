@@ -1,0 +1,313 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T12:24:52.172Z",
+  "updatedAt": "2026-09-12T12:26:47.974Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Exploring 11ty with Zach Leatherman",
+          "duration": "4:33:45",
+          "channel": "Ryan Carniato",
+          "description": "Static Site Generation is actually a topic I know nothing about. In all my years I'm yet to use one. Luckily we have Zach with us to show us the ropes, and to showcase his project 11ty, a JavaScript-based static site generator. Join us as I learn the ins and outs of a whole world that lives within the build step.\n\n[0:00] Introduction\n[3:12] Welcome Zach\n[32:33] Failing at Git\n[45:07] Getting Started with 11ty\n[1:08:47] 11ty is-lands\n[1:36:40] Dynamic Services\n[1:40:39] What's Next for 11ty?\n[1:53:07] Dynamic Bundling\n[2:05:07] Markdown Benchmark\n[2:21:23] Wrap-up with Zach\n[2:29:38] This Week in JavaScript\n[3:53:42] Latest Benchmark from Builder\n[4:00:40] The Quest for the Fastest Runtime\n\nBanner credits: © LOTR characters owned by Middle-earth Enterprises.",
+          "url": "https://www.youtube.com/watch?v=iuwqOkH6jKY",
+          "publishDate": "2022-08-19",
+          "thumbnail": "https://i.ytimg.com/vi/iuwqOkH6jKY/hqdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 192,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 192,
+              "endTime": 1953,
+              "title": "Welcome Zach"
+            },
+            {
+              "startTime": 1953,
+              "endTime": 2707,
+              "title": "Failing at Git"
+            },
+            {
+              "startTime": 2707,
+              "endTime": 4127,
+              "title": "Getting Started with 11ty"
+            },
+            {
+              "startTime": 4127,
+              "endTime": 5800,
+              "title": "11ty is-lands"
+            },
+            {
+              "startTime": 5800,
+              "endTime": 6039,
+              "title": "Dynamic Services"
+            },
+            {
+              "startTime": 6039,
+              "endTime": 6787,
+              "title": "What's Next for 11ty?"
+            },
+            {
+              "startTime": 6787,
+              "endTime": 7507,
+              "title": "Dynamic Bundling"
+            },
+            {
+              "startTime": 7507,
+              "endTime": 8483,
+              "title": "Markdown Benchmark"
+            },
+            {
+              "startTime": 8483,
+              "endTime": 8978,
+              "title": "Wrap-up with Zach"
+            },
+            {
+              "startTime": 8978,
+              "endTime": 14022,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 14022,
+              "endTime": 14440,
+              "title": "Latest Benchmark from Builder"
+            },
+            {
+              "startTime": 14440,
+              "endTime": 16425,
+              "title": "The Quest for the Fastest Runtime"
+            }
+          ],
+          "slug": "2022-08-19-exploring-11ty-with-zach-leatherman",
+          "audioFileName": "2022-08-19-exploring-11ty-with-zach-leatherman.m4a",
+          "audioFileSize": 206590213,
+          "durationSeconds": 16425
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 104.9375,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 104.9375,
+                "costMultiplier": 1,
+                "durationSeconds": 16425
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 104.9375,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 104.9375,
+                "costMultiplier": 1,
+                "durationSeconds": 16425
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 104.9375,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 104.9375,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 16425
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3087900,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3087900,
+                "inputMetric": "durationSeconds",
+                "inputValue": 16425,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3087900
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 115585,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 115585,
+                "timingBreakdown": {
+                  "uploadMs": 3540,
+                  "createMs": 108,
+                  "pollMs": 16892,
+                  "pollSleepMs": 95019,
+                  "remoteProcessingMs": 95045
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 16425,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 7.037,
+                "throughputValue": 142.103,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 115584,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3540,
+                  "createMs": 108,
+                  "createCount": 1,
+                  "pollMs": 16892,
+                  "requestCount": 14
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "aaca9752-fe52-4441-8c4f-6237c574f912",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/ba28eca6a9670b300b8e369347c6af5fd89f4039d4f6a4f63f658c20f6db5979/4c516466-a7ad-48ad-acf0-30b6489d508f",
+                  "createCompletedAt": "2026-09-12T12:24:55.821Z",
+                  "lastPollAt": "2026-09-12T12:26:47.757Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 115585,
+            "tokenCount": 47049,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "aaca9752-fe52-4441-8c4f-6237c574f912",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/ba28eca6a9670b300b8e369347c6af5fd89f4039d4f6a4f63f658c20f6db5979/4c516466-a7ad-48ad-acf0-30b6489d508f",
+              "createCompletedAt": "2026-09-12T12:24:55.821Z",
+              "lastPollAt": "2026-09-12T12:26:47.757Z",
+              "completedAt": "2026-09-12T12:26:47.758Z"
+            },
+            "timings": {
+              "uploadMs": 3540,
+              "createMs": 108,
+              "createCount": 1,
+              "pollMs": 16892,
+              "pollSleepMs": 95019,
+              "pollCount": 12,
+              "remoteProcessingMs": 95045,
+              "requestCount": 14
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 7,
+                  "completed": 6,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789215516976,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

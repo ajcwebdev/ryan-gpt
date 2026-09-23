@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "We Are So Back",
+      "slug": "2024-05-25-we-are-so-back",
+      "duration": "4:53:13",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=VdDJbrh23zo",
+      "publishDate": "2024-05-25",
+      "thumbnail": "https://i.ytimg.com/vi/VdDJbrh23zo/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 675,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 675,
+          "endTime": 1260,
+          "title": "Meme Round-Up"
+        },
+        {
+          "startTime": 1260,
+          "endTime": 1815,
+          "title": "RSCs on Mobile & Server-Driven UI"
+        },
+        {
+          "startTime": 1815,
+          "endTime": 2190,
+          "title": "The Impact of AI on Web Trends"
+        },
+        {
+          "startTime": 2190,
+          "endTime": 2565,
+          "title": "TanStack, TurboPack, Vite, and Vinxi"
+        },
+        {
+          "startTime": 2565,
+          "endTime": 3000,
+          "title": "Vendor Lock-In & Next Standalone Mode"
+        },
+        {
+          "startTime": 3000,
+          "endTime": 3390,
+          "title": "Partial Pre-Rendering & OoO Streaming"
+        },
+        {
+          "startTime": 3390,
+          "endTime": 3765,
+          "title": "Astro Actions, Container API, & formData"
+        },
+        {
+          "startTime": 3765,
+          "endTime": 4185,
+          "title": "Million Lint 1.0 RC"
+        },
+        {
+          "startTime": 4185,
+          "endTime": 4530,
+          "title": "SolidStart 1.0"
+        },
+        {
+          "startTime": 4530,
+          "endTime": 5610,
+          "title": "Ryan Watches Theo Watch Dan Abramov"
+        },
+        {
+          "startTime": 5610,
+          "endTime": 5910,
+          "title": "Theo's Additional Demo and Explanation"
+        },
+        {
+          "startTime": 5910,
+          "endTime": 6300,
+          "title": "Why Some Can't See the Benefit of RSCs"
+        },
+        {
+          "startTime": 6300,
+          "endTime": 6840,
+          "title": "Routing & Serialization Boundaries"
+        },
+        {
+          "startTime": 6840,
+          "endTime": 7335,
+          "title": "Ryan Florence's React Router v7 Talk"
+        },
+        {
+          "startTime": 7335,
+          "endTime": 8055,
+          "title": "The Nuances of Streaming (Data vs. HTML)"
+        },
+        {
+          "startTime": 8055,
+          "endTime": 8370,
+          "title": "React Compiler: Introduction & Background"
+        },
+        {
+          "startTime": 8370,
+          "endTime": 9465,
+          "title": "RC: Fine-Grained Reactivity?"
+        },
+        {
+          "startTime": 9465,
+          "endTime": 9975,
+          "title": "RC: Svelte Demo"
+        },
+        {
+          "startTime": 9975,
+          "endTime": 10215,
+          "title": "RC: First React Compiler Demo"
+        },
+        {
+          "startTime": 10215,
+          "endTime": 10785,
+          "title": "RC: Misko Hevery's Article & More Demos"
+        },
+        {
+          "startTime": 10785,
+          "endTime": 11160,
+          "title": "RC: Rick Hanlon's Demo & Response"
+        },
+        {
+          "startTime": 11160,
+          "endTime": 11520,
+          "title": "RC: React Forget Todos vs. Solid Todos"
+        },
+        {
+          "startTime": 11520,
+          "endTime": 11775,
+          "title": "RC: Performance Ceiling vs. Average"
+        },
+        {
+          "startTime": 11775,
+          "endTime": 12765,
+          "title": "RC: Let's Test It!"
+        },
+        {
+          "startTime": 12765,
+          "endTime": 13275,
+          "title": "Q&A: Solid V2? DOM Parts? TC39 Signals?"
+        },
+        {
+          "startTime": 13275,
+          "endTime": 13800,
+          "title": "Q&A: Benchmark? Real Codebases? Million?"
+        },
+        {
+          "startTime": 13800,
+          "endTime": 14640,
+          "title": "RC: Test Results!"
+        },
+        {
+          "startTime": 14640,
+          "endTime": 15390,
+          "title": "RC: Conclusion and Comparisons"
+        },
+        {
+          "startTime": 15390,
+          "endTime": 16185,
+          "title": "File System Routing"
+        },
+        {
+          "startTime": 16185,
+          "endTime": 17040,
+          "title": "Server Signals"
+        },
+        {
+          "startTime": 17040,
+          "endTime": 17475,
+          "title": "Solid's Ecosystem & New Fellowships"
+        },
+        {
+          "startTime": 17475,
+          "endTime": 17593,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "I can't say it better than Rick Hanlon's tweet. We are so back. There has been a ton of releases the last couple weeks and I want to start digging into them and understanding their impact on the wider ecosystem.\n\n[0:00] Preamble\n[11:15] Meme Round-Up\n[21:00] RSCs on Mobile & Server-Driven UI\n[30:15] The Impact of AI on Web Trends \n[36:30] TanStack, TurboPack, Vite, and Vinxi\n[42:45] Vendor Lock-In & Next Standalone Mode\n[50:00] Partial Pre-Rendering & OoO Streaming\n[56:30] Astro Actions, Container API, & formData\n[1:02:45] Million Lint 1.0 RC\n[1:09:45] SolidStart 1.0\n[1:15:30] Ryan Watches Theo Watch Dan Abramov\n[1:33:30] Theo's Additional Demo and Explanation\n[1:38:30] Why Some Can't See the Benefit of RSCs\n[1:45:00] Routing & Serialization Boundaries\n[1:54:00] Ryan Florence's React Router v7 Talk\n[2:02:15] The Nuances of Streaming (Data vs. HTML)\n[2:14:15] React Compiler: Introduction & Background\n[2:19:30] RC: Fine-Grained Reactivity?\n[2:37:45] RC: Svelte Demo\n[2:46:15] RC: First React Compiler Demo\n[2:50:15] RC: Misko Hevery's Article & More Demos\n[2:59:45] RC: Rick Hanlon's Demo & Response\n[3:06:00] RC: React Forget Todos vs. Solid Todos\n[3:12:00] RC: Performance Ceiling vs. Average\n[3:16:15] RC: Let's Test It!\n[3:32:45] Q&A: Solid V2? DOM Parts? TC39 Signals? \n[3:41:15] Q&A: Benchmark? Real Codebases? Million?\n[3:50:00] RC: Test Results!\n[4:04:00] RC: Conclusion and Comparisons\n[4:16:30] File System Routing \n[4:29:45] Server Signals\n[4:44:00] Solid's Ecosystem & New Fellowships\n[4:51:15] Conclusion\n\nThank you @zombiefacesupreme for the timestamps."
+    }
+  }
+}

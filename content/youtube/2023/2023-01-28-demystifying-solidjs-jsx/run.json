@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Demystifying SolidJS' JSX",
+      "slug": "2023-01-28-demystifying-solidjs-jsx",
+      "duration": "5:27:46",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=5du6jBlryIc",
+      "publishDate": "2023-01-28",
+      "thumbnail": "https://i.ytimg.com/vi/5du6jBlryIc/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 555,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 555,
+          "endTime": 848,
+          "title": "What is JSX?"
+        },
+        {
+          "startTime": 848,
+          "endTime": 1254,
+          "title": "HyperScript"
+        },
+        {
+          "startTime": 1254,
+          "endTime": 1382,
+          "title": "Why JSX"
+        },
+        {
+          "startTime": 1382,
+          "endTime": 1695,
+          "title": "Virtual DOM"
+        },
+        {
+          "startTime": 1695,
+          "endTime": 2429,
+          "title": "Template DSL Spectrum"
+        },
+        {
+          "startTime": 2429,
+          "endTime": 2600,
+          "title": "React vs Vue vs Solid"
+        },
+        {
+          "startTime": 2600,
+          "endTime": 4080,
+          "title": "Introducing Solid's JSX Transform"
+        },
+        {
+          "startTime": 4080,
+          "endTime": 4476,
+          "title": "Reactive Props"
+        },
+        {
+          "startTime": 4476,
+          "endTime": 5269,
+          "title": "Moving past the Demo"
+        },
+        {
+          "startTime": 5269,
+          "endTime": 5643,
+          "title": "Platform Agnostic Components"
+        },
+        {
+          "startTime": 5643,
+          "endTime": 6519,
+          "title": "Control Flow"
+        },
+        {
+          "startTime": 6519,
+          "endTime": 7185,
+          "title": "AST Explorer"
+        },
+        {
+          "startTime": 7185,
+          "endTime": 7510,
+          "title": "DOM Expressions"
+        },
+        {
+          "startTime": 7510,
+          "endTime": 7712,
+          "title": "JSXElement Transform"
+        },
+        {
+          "startTime": 7712,
+          "endTime": 8078,
+          "title": "Static Analysis & Inlining"
+        },
+        {
+          "startTime": 8078,
+          "endTime": 8497,
+          "title": "Fragment & Component Transforms"
+        },
+        {
+          "startTime": 8497,
+          "endTime": 9270,
+          "title": "Component Refs"
+        },
+        {
+          "startTime": 9270,
+          "endTime": 9711,
+          "title": "Why we don't \"fix\" Destructuring"
+        },
+        {
+          "startTime": 9711,
+          "endTime": 9796,
+          "title": "React Dependency Arrays"
+        },
+        {
+          "startTime": 9796,
+          "endTime": 10030,
+          "title": "Quest for ReactiveScript"
+        },
+        {
+          "startTime": 10030,
+          "endTime": 11176,
+          "title": "Boolean and Ternary Expressions"
+        },
+        {
+          "startTime": 11176,
+          "endTime": 11349,
+          "title": "Native Elements"
+        },
+        {
+          "startTime": 11349,
+          "endTime": 11836,
+          "title": "Note on Early Returns"
+        },
+        {
+          "startTime": 11836,
+          "endTime": 12060,
+          "title": "Universal Renderer"
+        },
+        {
+          "startTime": 12060,
+          "endTime": 12148,
+          "title": "Optimizing Past HyperScript"
+        },
+        {
+          "startTime": 12148,
+          "endTime": 12545,
+          "title": "Grouping Effects"
+        },
+        {
+          "startTime": 12545,
+          "endTime": 12966,
+          "title": "Adjacent TextNodes w/ Template Cloning"
+        },
+        {
+          "startTime": 12966,
+          "endTime": 13273,
+          "title": "Hydration Output"
+        },
+        {
+          "startTime": 13273,
+          "endTime": 13947,
+          "title": "Special Attributes"
+        },
+        {
+          "startTime": 13947,
+          "endTime": 14382,
+          "title": "Problem with ClassList"
+        },
+        {
+          "startTime": 14382,
+          "endTime": 15509,
+          "title": "SSR Output"
+        },
+        {
+          "startTime": 15509,
+          "endTime": 16340,
+          "title": "Future of JSX"
+        },
+        {
+          "startTime": 16340,
+          "endTime": 19665,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "The topic of compilation has come up again and I want to give a few thoughts on that. And I figured it was a good time to finally do a deep dive into Solid's relationship with JSX.\n\n[0:00] Preamble\n[9:15] What is JSX?\n[14:08] HyperScript\n[20:54] Why JSX\n[23:02] Virtual DOM\n[28:15] Template DSL Spectrum\n[40:29] React vs Vue vs Solid\n[43:20] Introducing Solid's JSX Transform\n[1:08:00] Reactive Props\n[1:14:36] Moving past the Demo\n[1:27:49] Platform Agnostic Components\n[1:34:03] Control Flow\n[1:48:39] AST Explorer\n[1:59:45] DOM Expressions\n[2:05:10] JSXElement Transform\n[2:08:32] Static Analysis & Inlining\n[2:14:38] Fragment & Component Transforms\n[2:21:37] Component Refs\n[2:34:30] Why we don't \"fix\" Destructuring\n[2:41:51] React Dependency Arrays\n[2:43:16] Quest for ReactiveScript\n[2:47:10] Boolean and Ternary Expressions\n[3:06:16] Native Elements\n[3:09:09] Note on Early Returns\n[3:17:16] Universal Renderer\n[3:21:00] Optimizing Past HyperScript\n[3:22:28] Grouping Effects\n[3:29:05] Adjacent TextNodes w/ Template Cloning\n[3:36:06] Hydration Output\n[3:41:13] Special Attributes\n[3:52:27] Problem with ClassList\n[3:59:42] SSR Output\n[4:18:29] Future of JSX\n[4:32:20] This Week in JavaScript"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS - Benchmarking and Custom Renderers",
+      "slug": "2021-10-23-streaming-solidjs-benchmarking-and-custom-renderers",
+      "duration": "2:57:19",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Yi_MJ8cVCCs",
+      "publishDate": "2021-10-23",
+      "thumbnail": "https://i.ytimg.com/vi/Yi_MJ8cVCCs/sddefault.jpg?v=6172edbd",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 107,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 107,
+          "endTime": 675,
+          "title": "This week in JavaScript"
+        },
+        {
+          "startTime": 675,
+          "endTime": 1082,
+          "title": "Introduction to Benchmarking"
+        },
+        {
+          "startTime": 1082,
+          "endTime": 1506,
+          "title": "Circles Benchmark"
+        },
+        {
+          "startTime": 1506,
+          "endTime": 2999,
+          "title": "DBMon"
+        },
+        {
+          "startTime": 2999,
+          "endTime": 5120,
+          "title": "Snapshot Benchmark Shortcomings"
+        },
+        {
+          "startTime": 5120,
+          "endTime": 6490,
+          "title": "JS Frameworks Benchmark"
+        },
+        {
+          "startTime": 6490,
+          "endTime": 6856,
+          "title": "Sierpinski's Triangle"
+        },
+        {
+          "startTime": 6856,
+          "endTime": 7197,
+          "title": "Spinning 3D Cubes"
+        },
+        {
+          "startTime": 7197,
+          "endTime": 7664,
+          "title": "DOM-less Components"
+        },
+        {
+          "startTime": 7664,
+          "endTime": 7940,
+          "title": "Custom DOM Renderer"
+        },
+        {
+          "startTime": 7940,
+          "endTime": 8841,
+          "title": "Custom Renderer in the JS Framework Benchmark"
+        },
+        {
+          "startTime": 8841,
+          "endTime": 9425,
+          "title": "Running JS Framework Performance Benchmarks"
+        },
+        {
+          "startTime": 9425,
+          "endTime": 9766,
+          "title": "Results of Performance Benchmarks"
+        },
+        {
+          "startTime": 9766,
+          "endTime": 10176,
+          "title": "Reactive Benchmarks"
+        },
+        {
+          "startTime": 10176,
+          "endTime": 10415,
+          "title": "Running JS Framework Memory/Loading Benchmarks"
+        },
+        {
+          "startTime": 10415,
+          "endTime": 10550,
+          "title": "Results of Memory/Loading Benchmarks"
+        },
+        {
+          "startTime": 10550,
+          "endTime": 10639,
+          "title": "Outro"
+        }
+      ],
+      "description": "Performance has always been one of Solid's selling points and big part of that has been benchmarking. I'm going to go over the history of JavaScript framework benchmarking and look to see if we can extend Solid's performance benefits to custom renderers using the new custom renderer API coming in Solid 1.2.0\n\n[0:00] Introduction\n[1:47] This week in JavaScript\n[11:15] Introduction to Benchmarking\n[18:02] Circles Benchmark\n[25:06] DBMon\n[49:59] Snapshot Benchmark Shortcomings\n[103.39] UIBench\n[1:25:20] JS Frameworks Benchmark\n[1:48:10] Sierpinski's Triangle\n[1:54:16] Spinning 3D Cubes\n[1:59:57] DOM-less Components\n[2:07:44] Custom DOM Renderer\n[2:12:20] Custom Renderer in the JS Framework Benchmark\n[2:27:21] Running JS Framework Performance Benchmarks\n[2:37:05] Results of Performance Benchmarks\n[2:42:46] Reactive Benchmarks\n[2:49:36] Running JS Framework Memory/Loading Benchmarks\n[2:53:35] Results of Memory/Loading Benchmarks\n[2:55:50] Outro"
+    }
+  }
+}

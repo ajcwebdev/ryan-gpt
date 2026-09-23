@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Let's do an AMA",
+      "slug": "2022-02-05-lets-do-an-ama",
+      "duration": "4:02:17",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=8_YiKUb6DW8",
+      "publishDate": "2022-02-05",
+      "thumbnail": "https://i.ytimg.com/vi/8_YiKUb6DW8/sddefault.jpg?v=61fd77a9",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 55,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 55,
+          "endTime": 440,
+          "title": "Remix Preamble"
+        },
+        {
+          "startTime": 440,
+          "endTime": 1258,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 1258,
+          "endTime": 1826,
+          "title": "Partial Hydration Demo"
+        },
+        {
+          "startTime": 1826,
+          "endTime": 14536,
+          "title": "AMA"
+        }
+      ],
+      "description": "I have no content this week except current events. It's my birthday weekend so let's kick it casual. Bring your questions we can talk tech, my journey, or whatever. If you've ever had a question or want to pick my brain about something here is your chance.\n\n[0:00] Introduction\n[0:55] Remix Preamble\n[7:20] This Week in JavaScript\n[20:58] Partial Hydration Demo\n[30:26] AMA"
+    }
+  }
+}

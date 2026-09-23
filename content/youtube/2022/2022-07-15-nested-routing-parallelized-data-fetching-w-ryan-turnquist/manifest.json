@@ -1,0 +1,314 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:06:54.981Z",
+  "updatedAt": "2026-09-23T08:08:58.625Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Nested Routing, Parallelized Data Fetching, and SolidJS  w/ Ryan Turnquist",
+          "duration": "3:06:49",
+          "channel": "Ryan Carniato",
+          "description": "This stream we will focus on all things routing. And who better to do this with me than Ryan Turnquist the co-creator of Solid's router. We'll talk about the history of Nested Routing, about the new features in Solid Router v0.4.0, and where we see this all going in the future.\n\n[0:00] Introduction\n[6:13] This Week in JavaScript\n[46:17] Welcome Ryan\n[47:45] History of Nested Routing \n[1:08:30] History of Solid Routing\n[1:34:58] Data Fetching with Solid Router\n[2:10:35] What's new in Solid Router\n[2:33:16] Will we see Actions/Loaders?\n[2:39:47] Future of Routing\n[2:58:34] Q & A",
+          "url": "https://www.youtube.com/watch?v=-TeXU9UZ_4w",
+          "publishDate": "2022-07-15",
+          "thumbnail": "https://i.ytimg.com/vi/-TeXU9UZ_4w/hqdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 373,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 373,
+              "endTime": 2777,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 2777,
+              "endTime": 2865,
+              "title": "Welcome Ryan"
+            },
+            {
+              "startTime": 2865,
+              "endTime": 4110,
+              "title": "History of Nested Routing"
+            },
+            {
+              "startTime": 4110,
+              "endTime": 5698,
+              "title": "History of Solid Routing"
+            },
+            {
+              "startTime": 5698,
+              "endTime": 7835,
+              "title": "Data Fetching with Solid Router"
+            },
+            {
+              "startTime": 7835,
+              "endTime": 9196,
+              "title": "What's new in Solid Router"
+            },
+            {
+              "startTime": 9196,
+              "endTime": 9587,
+              "title": "Will we see Actions/Loaders?"
+            },
+            {
+              "startTime": 9587,
+              "endTime": 10714,
+              "title": "Future of Routing"
+            },
+            {
+              "startTime": 10714,
+              "endTime": 11209,
+              "title": "Q & A"
+            }
+          ],
+          "slug": "2022-07-15-nested-routing-parallelized-data-fetching-and-solidjs-w-ryan-turnquist",
+          "audioFileName": "2022-07-15-nested-routing-parallelized-data-fetching-and-solidjs-w-ryan-turnquist.m4a",
+          "audioFileSize": 140199851,
+          "durationSeconds": 11209
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 71.61305555555556,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 71.61305555555556,
+                "costMultiplier": 1,
+                "durationSeconds": 11209
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 71.61305555555556,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 71.61305555555556,
+                "costMultiplier": 1,
+                "durationSeconds": 11209
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 71.61305555555556,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 71.61305555555556,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 11209
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2107292,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2107292,
+                "inputMetric": "durationSeconds",
+                "inputValue": 11209,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2107292
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 123434,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 123434,
+                "timingBreakdown": {
+                  "uploadMs": 3221,
+                  "createMs": 184,
+                  "pollMs": 4869,
+                  "pollSleepMs": 115078,
+                  "remoteProcessingMs": 115160
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 11209,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 11.012,
+                "throughputValue": 90.81,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 123432,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3221,
+                  "createMs": 184,
+                  "createCount": 1,
+                  "pollMs": 4869,
+                  "requestCount": 16
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "d820cc9d-1813-4377-ad82-609327e710cd",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/0a8f8d12c80cccccbc30a4823d162195898e71b3ab815980d3c3f3de9b9525cf/c5be0c49-c615-46d4-82c3-e75cc9f86afc",
+                  "createCompletedAt": "2026-09-23T08:06:58.387Z",
+                  "lastPollAt": "2026-09-23T08:08:58.414Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 123434,
+            "tokenCount": 31797,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "d820cc9d-1813-4377-ad82-609327e710cd",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/0a8f8d12c80cccccbc30a4823d162195898e71b3ab815980d3c3f3de9b9525cf/c5be0c49-c615-46d4-82c3-e75cc9f86afc",
+              "createCompletedAt": "2026-09-23T08:06:58.387Z",
+              "lastPollAt": "2026-09-23T08:08:58.414Z",
+              "completedAt": "2026-09-23T08:08:58.416Z"
+            },
+            "timings": {
+              "uploadMs": 3221,
+              "createMs": 184,
+              "createCount": 1,
+              "pollMs": 4869,
+              "pollSleepMs": 115078,
+              "pollCount": 14,
+              "remoteProcessingMs": 115160,
+              "requestCount": 16
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 0,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 3,
+                  "completed": 3,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790150652199,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "assemblyai.stt.v1",
+            "request": {
+              "model": "universal-3-5-pro",
+              "diarization": {
+                "enabled": true
+              }
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

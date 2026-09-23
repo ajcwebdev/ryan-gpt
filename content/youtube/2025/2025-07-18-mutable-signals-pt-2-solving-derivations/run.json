@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Mutable Signals Pt 2 - Solving Derivations",
+      "slug": "2025-07-18-mutable-signals-pt-2-solving-derivations",
+      "duration": "5:11:38",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=J0O69dGljx8",
+      "publishDate": "2025-07-18",
+      "thumbnail": "https://i.ytimg.com/vi/J0O69dGljx8/sddefault.jpg?v=68797f29",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "Fine-Grained Projections have been the missing link in Reactive systems. The one thing whose absence has lead us back to the path of diffing. No Longer. \n\nI've been staring at this problem for months now. But it feels like the pieces are finally coming together. Join me on stream as we look again at reactivity's most elusive primitive."
+    }
+  }
+}

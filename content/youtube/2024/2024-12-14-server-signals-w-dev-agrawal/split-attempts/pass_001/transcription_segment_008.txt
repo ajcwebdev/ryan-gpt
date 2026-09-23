@@ -1,0 +1,239 @@
+[03:30:00] [1] To check, I actually made a clone version of the stores. I was like, okay, let's try doing these things.
+[03:30:05] [1] And this was a non-starter. It was, like, way slower than even React, right? If you're slower than React, you know you're doing something wrong.
+[03:30:15] [1] But even the version where I was trying to just clone certain portions of it would just absolutely destroy any kind of creation benchmarks.
+[03:30:24] [1] So, yeah, it's a benchmark consideration, perhaps. But you start going,
+[03:30:31] [1] this is less than ideal. It's very optimal in a certain set of cases, but then it becomes really, like, the performance just drops off a cliff
+[03:30:46] [1] afterwards. And in fact, some changes we made around 1.0 made, like, I actually took the current version of Solid in here and tested it, and it scored
+[03:30:58] [1] similar to React, just, like, slightly slower. And I was like, that's what we've been running the whole time in 1.
+[03:31:03] [1] 0. I went back to when I made the change, and it was, like, the release before 1.
+[03:31:07] [1] 0. So
+[03:31:10] [1] it was an interesting journey to realize that our diffing performance was fine, no one had complained about it, but
+[03:31:18] [1] it was actually
+[03:31:22] [1] a bit slower than React, which is what I'm using as, like, the baseline here. And
+[03:31:30] [1] it, it, it had this characteristic I was telling you about, right, in terms of, like, the mutability, which could be considered a negative.
+[03:31:39] [1] And once you try and fix that characteristic, as if it's a thing to fix, then this is just not a good solution.
+[03:31:45] [1] So I was kind of stuck. And that doesn't sound good, but the exciting part is I actually solved this.
+[03:31:50] [1] So
+[03:31:52] [1] that's what I'm excited to tell you about. I just needed to get this basis, because I spent a bunch of time, that's what I've been doing the last 3 weeks, and I actually got a fixed version of Solid with all the features
+[03:32:01] [1] I want that scores
+[03:32:04] [1] slightly better than this old version that was broken, cheating. So, yes, it doesn't match Inferno, but I think I've solved all the other weird characteristics.
+[03:32:15] [1] So I want to talk about this: reference swapping stores.
+[03:32:21] [1] So
+[03:32:23] [1] I realized, and it was kind of a weird test, that if I added one layer of abstraction between a store's value and the proxy,
+[03:32:31] [1] and I ensured that the signals in the proxy always stored the wrapped or proxy values, I could reconcile without mutation.
+[03:32:46] [1] It doesn't match Inferno, it's a no for me. It's still way faster than React.
+[03:32:54] [1] This, you understand what this use case is. This is the DBMON use case. To be fair, in DBMON specifically itself, and sorry, I shouldn't have said that right, it doesn't match Inferno in terms of raw iteration time, but
+[03:33:09] [1] it matches Inferno in terms of total render time. So that's why, like, the DBMON tests, Solid and Inferno, are basically identical.
+[03:33:18] [1] Because,
+[03:33:21] [1] like,
+[03:33:23] [1] the way we render is slightly, like, it's like one, the raw diffing is slightly slower because of, yeah,
+[03:33:35] [1] just invented double pointers in JavaScript, yeah.
+[03:33:39] [1] Yeah, new value, old reference, yeah. It was weird. I think I would, you'd think this would be slower because you would be creating an extra object per node, right?
+[03:33:49] [1] Because instead of just having a proxy where you have an object and then the proxy trap around it, I was suggesting creating an object that has the value of that object on it and the, so proxy trap, intermediate object,
+[03:34:08] [1] value. But some benefit is you don't have to ever clone the original object, and you can keep the intermediate object.
+[03:34:18] [1] It's only a costed initial creation. And something that I didn't realize, which is kind of cool, is the intermediate object is monomorphic.
+[03:34:26] [1] So the proxy trap always gets an object of exactly the same shape, which actually improved the performance.
+[03:34:31] [1] It's, it's, I didn't realize this when I was working on it, like, but it, like, had this positive thing.
+[03:34:37] [1] So, but how did I get there? It was a little bit tricky because at first I tried to, like, swap the prototype.
+[03:34:43] [1] And as you guys can all imagine, swapping prototypes is not a good thing. I wanted to do that because I thought I could save creating extra objects, but it wasn't faster.
+[03:34:52] [1] Funnily enough, making this separate object ended up being faster. So, I mean,
+[03:34:57] [1] the gist of this, and I'll kind of drop it down here, is
+[03:35:02] [1] what if instead of doing all the stuff we talked about
+[03:35:08] [1] , you know,
+[03:35:13] [1] what if we
+[03:35:16] [1] kind of do both still? What I mean is, keep this relationship where if you mutate something, you mutate something, right?
+[03:35:23] [1] That's fine.
+[03:35:25] [1] If you've noticed the work that Dev, and he pointed it out, and it's kind of smart, in the stream, he was talking about how create projection and all these things didn't have writing on the outside.
+[03:35:36] [1] They only had, like, writing on the inside, and we have this kind of flow where things are more derived.
+[03:35:40] [1] If you're not actually, quite often, you know, getting data from a server, some external source, a cache source, you're not actually mutating the
+[03:35:50] [1] data always. Yes, if you're in the mutate case, this still holds up. But what I was suggesting is, instead of doing this, screw this, instead, if someone does this
+[03:36:06] [1] immutable and sends this in to reconcile,
+[03:36:12] [1] instead of mutating this, you swap this. So this object is now this object, and then you iterate over only the properties that have signals on them.
+[03:36:25] [1] So only the things that are being listened to. If you remember in the previous stream when I did create projection, I was talking about the JS Framework benchmark, and I had to release signals that weren't being listened
+[03:36:34] [1] to, otherwise the, like, selector got huge. Now that we do that, we're in this interesting zone where stores only have signals for things that are currently being listened to, which means that if you diff, we can ignore,
+[03:36:46] [1] like, if we swap an object
+[03:36:50] [1] and, you know, you listen along a path in stores, right? So if some, if there's no property over here, like, no one's listening to this part of the graph,
+[03:37:03] [1] well, we don't have to, like, sure, nothing changed, obviously, but even if it had changed,
+[03:37:09] [1] we don't actually have
+[03:37:12] [1] to diff it. Because when you switch this object with this object, it's going to have a link to the new object.
+[03:37:19] [1] Like, it's going to be there. So as long as there's no signal there that you have to update with a new update here, you can just replace the whole part of the tree that isn't listened to, and there's no consequence.
+[03:37:31] [1] If it is listened to, then yes, you have to walk through and do the diff on that.
+[03:37:36] [1] But now you don't have the right to every single property during a mutation. You actually only care about what's listened to, which is, which means that what you can do is you can just, as I say, swap this, go, okay, sw
+[03:37:47] [1] ap. Then you go, let's pretend this is the only side of the tree that's being listened to, this whole side.
+[03:37:53] [1] Then it goes, okay, I'm going to access this property, this is the only one I'm going to, then it's going to compare this and go, okay,
+[03:38:01] [1] if they're the same key, the same reference, so either the keys match or there's no keys, it's going to swap it again and then check the specific things.
+[03:38:10] [1] And, you know, maybe these are both listened to, so it goes here and goes, okay, nothing's changed, same reference, skip, and then goes here and sees a change and applies it.
+[03:38:21] [1] But my point is, if you do it this way, the next time another immutable change comes in, now this object is this object.
+[03:38:29] [1] So you don't have, you can keep on shortcutting, essentially. Like, you don't have to worry.
+[03:38:36] [1] It's actually the immutable change. And because we keep the wrapped values and the signals,
+[03:38:45] [1] we basically don't care that the objects underneath swap out, so to speak.
+[03:38:55] [1] Is there increased memory cost? You would think so because I'm creating one extra object per store node.
+[03:39:04] [1] But as I said, it doesn't have any negative effect, at least on the benchmark, in terms of performance.
+[03:39:10] [1] You know, it's possible that that could add up the one extra object, but on the other hand, you're also not cloning stuff nearly as often.
+[03:39:21] [1] So, yes, I would imagine that it would have a memory overhead, but you're also, you're doing less memory creating and releasing operations.
+[03:39:34] [1] Because, like, literally, you're just, like, when the old object is gone, when you swap it out and no one else references, then it gets released.
+[03:39:43] [1] Like, so, yeah, I don't know. It's, I don't think it has, yeah.
+[03:39:51] [1] And you're doing, and you're doing less work overall. So, like, yes, we're still doing fine grain mutation.
+[03:39:58] [1] So if someone mutates this, yeah, your previous is going to get messed up. But if you're doing, quite often, a lot of store work is just reconciling server data, reconciling stuff.
+[03:40:07] [1] This works both for server data and for immutable data, like redux, and it's faster because it, like, one of the problems is, like, you start going, I don't know what's changed.
+[03:40:17] [1] So, like, when you mutate, you can't, you have nothing to diff against, so you end up just writing, overwriting every property, right?
+[03:40:23] [1] That's the problem with mutation-based. Where in this version, like, we, I remember looking at it and the, you can see it's in SolidJS as reconcile functions.
+[03:40:30] [1] That's kind of funny. There's a part of the code where if you go packages and
+[03:40:39] [1] Solid
+[03:40:42] [1] source, sorry, not source, store source
+[03:40:47] [1] modifiers, in here, there's a part at the end where we're merging objects, right?
+[03:40:53] [1] And where is it? It's in apply state here. Where we go and get the target keys and we go and we apply the updated state and then we find anything that's, like, not there and remove it.
+[03:41:01] [1] But the funny thing about this is, this is completely dumb, I realized after we're, because if these are the same object, like, sometimes they aren't, but sometimes they are.
+[03:41:12] [1] Like, you get into this weird state where it's like, you merge, you, I guess this is fine because technically, yeah, no, yeah, it's, you already merged the previous object into the current object, which means that when y
+[03:41:24] [1] ou do object.keys here, I guess technically speaking, it is important because you get all the keys of the current one plus the keys of the new one coming in.
+[03:41:35] [1] Whereas if I move this statement up here, it would actually be smarter, because then if I do it ahead of time, at least I only need to iterate over the keys that were already there and not the new ones that were just add
+[03:41:45] [1] ed. So this already is like a micro optimization if I move this up here. But more of it, it's like, it kind of shows the point of both these for loops being weird because, like, it doesn't know, like, it, all we can do is
+[03:41:57] [1] check if it's undefined. Like, it might iterate over keys that are in both objects because it can't tell what's changed because it's like, it is the same object.
+[03:42:06] [1] After you transform it into the same object, there's no previous state to look at.
+[03:42:11] [1] And this is, this is like the kind of constant problem with, like, this kind of diffing thing where with the new approach, let's see, SolidJS to come, GitHub, GitHub, SolidJS,
+[03:42:31] [1] signals,
+[03:42:33] [1] source,
+[03:42:37] [1] store, reconcile.
+[03:42:46] [1] Where is it? This is values and this is tasks. Yeah, there's a bit more code here, but what it literally does is it only needs to iterate over it once because it gets the keys and then it looks at the previous and next val
+[03:42:58] [1] ue. And because it knows that it's swapping it, like, these are independent references, you can literally diff against it and do the update.
+[03:43:07] [1] It's funny, the swap actually happens up here, I think, where it's literally previous proxy is null, remove the old proxy, target, this is like the object in the store value equals the next value.
+[03:43:20] [1] So it's just swapping the value when you get past. This is like the shortcut was like, no, these should be swapped or whatever, like, don't merge.
+[03:43:28] [1] But then once you get into the merging logics, the first line is just literally like, swap it.
+[03:43:35] [1] Anyway,
+[03:43:39] [1] so you get the properties of immutable internals for diffing type situations. So like, multiple, like, don't get me wrong, you can mutate in the middle, so you keep this aspect, but if you do multiple immutable diffs, lik
+[03:43:54] [1] e, consecutively, you will have the same qualities where you don't have to clone extra objects.
+[03:44:00] [1] And the only cloning happening is the cloning that you
+[03:44:05] [1] are doing as the person generating the data to go in the store. And let's face it, you would clone anyways because if you just mutated
+[03:44:15] [1] your source data coming in
+[03:44:18] [1] , then it would be the same as the data inside, so diffing wouldn't do anything, right?
+[03:44:23] [1] If it's the same reference and you mutate it, then you can't diff it. So like, people who are doing
+[03:44:30] [1] either the data is fresh from the server or if you're doing like a redux thing, you have to use immutable sources.
+[03:44:37] [1] There's only three ways you can update stuff. All new, rely on the keys. Referential, which means you have to clone the part that changed.
+[03:44:46] [1] Or
+[03:44:48] [1] granular, where you mutate exactly the thing that you want changed. There's no other option.
+[03:44:54] [1] And if you look at it, the solution actually nicely handles all three scenarios.
+[03:45:01] [1] So, yeah, and it's fast. So like, that was sort of the
+[03:45:08] [1] thinking here, coming in terms of the fundamentals, right? I talked about the thing I showed on stream where like, there is some rules and takeaways here and caveats.
+[03:45:18] [1] I said this is all good, but
+[03:45:22] [1] there
+[03:45:24] [1] is some problems that I want to talk about and see what the community thinks about this, and that's why I'm bringing this up.
+[03:45:28] [1] One of the problems is that you need keys. Like, merge isn't an option anymore because you always merge.
+[03:45:36] [1] If you have a list that has an array of A and a selected item A, and then you send this array, without knowing keys, you're going to think item A is item B, which means, and this is not new to the swap method.
+[03:45:49] [1] Literally, that's a problem with stores today. If you try and do something like this, it will try to merge these items if it doesn't realize they don't have a different identity.
+[03:45:58] [1] It's going to try and merge them, which means, because they, you know, share the reference with the proxy and stuff, what will happen is item A will transform into item B, which will mean selected will become item B.
+[03:46:11] [1] You know, when it does that part, then when it gets to here, it will create a new item A.
+[03:46:16] [1] And then when it gets to here and sees that these are not the same, it's, you know, in the past
+[03:46:24] [1] , like, it would end up turning them all into item A again, I think. And now, because we delete the proxy off the old one, it will treat it as a new object.
+[03:46:35] [1] And I think you'll end up with maybe the right thing, but you'll have recreated all the proxies for item A, the existing item, where what you really would have preferred to happen would have been to retain the proxies for
+[03:46:46] [1] item A. Because here, you've already rendered the UI with this. You wouldn't want to re-render all the UI for item A.
+[03:46:53] [1] So even the best case I can do here without keys would be re-render everything, but it'd be correct.
+[03:47:00] [1] You need keys, okay? This is just the thing, okay?
+[03:47:15] [1] Are you just trolling today, Benton? Okay.
+[03:47:27] [1] The
+[03:47:31] [1] other consideration here is you can't change the identity of something. If we're not going,
+[03:47:45] [1] this is kind of an interesting thing. Like, if you have two different IDs and you try and reconcile th
+[03:47:51] [1] em, today with Solid Stores, it would transform
+[03:47:56] [1] , you know what I mean? It would basically transform this user into this user. And if this was referenced in like 10 different places,
+[03:48:04] [1] like, you'd have something weird going on, right? Because suddenly all the places your user one is.
+[03:48:09] [1] It's this problem. Like, I think the IDs actually prevent us, but like,
+[03:48:15] [1] I've never made this clear. I'm going to make this error. You can't reconcile one object into another object with different keys because they're different things.
+[03:48:23] [1] These have to be swapped. You don't want to change all the ones into twos. You want to swap them.
+[03:48:29] [1] But where this comes a problem is that
+[03:48:34] [1] you almost have to nest it now. Because if you have like create async and it returns one user object, right?
+[03:48:39] [1] And then you want to like, on the prop change, have a second user object. You don't actually want to reconcile.
+[03:48:45] [1] You want to swap the user if the user changes. You want to reconcile if the user, the same user is the same user, but its data is updated.
+[03:48:54] [1] So it's hard because top level, there's nothing to swap because you can't listen to swapping the top level, right?
+[03:49:02] [1] We do that with arrays because we do a special track, you know, ability. But no one's tracking the top level.
+[03:49:08] [1] You can't just pass store into, you know, like an object and have it track properly.
+[03:49:16] [1] You know, no one just listens to store. You listen to store.something. So like, yes, if you did the swap and effectively only the user, like a ID, like if a property on it changed and you were listening to that property,
+[03:49:33] [1] then it would update properly. But it is very difficult. I mean, maybe that's fine, but I think you kind of see where the problem is.
+[03:49:40] [1] Like, we literally can't notify a top level swap, right?
+[03:49:49] [1] So if you're like writing to your store and you want a new, if the whole store has an ID, then you, yeah, you know what I mean?
+[03:50:01] [1] Like, it doesn't make sense. You can't reconcile something into another.
+[03:50:09] [1] So I think this is probably the biggest thing because,
+[03:50:16] [1] like, as I said, the problem is you just went like this, fetch user, create async, create projection, reconcile user async.
+[03:50:21] [1] It would error or not work as you expect if user ID changed, right? So I wrote a bunch of complicated code.
+[03:50:32] [1] You know, this is like checking if the user ID is changed and then reconcile. But this is actually changing the user ID.
+[03:50:40] [1] Like, this is like cheating. This is like saying, "Hey, I want to change the user IDs to its new ID.
+[03:50:44] [1] Now they're the same. Now I can do it." I mean, at least I'm forcing it to be explicit.
+[03:50:49] [1] But the better solution is actually, and this is a trick we use actually in create async store inside a Solid Router, is put it on a property and that way it can be swapped, right?
+[03:51:04] [1] This is a consideration people probably have not thought of. So it's something that I'm still trying to get around.
+[03:51:09] [1] I also tried to come up with some other fancy way of doing it. This is like nesting a store inside of, like, it's funny that you can do this multiple ways.
+[03:51:17] [1] I think this is still the best way of doing it. Basicall
+[03:51:22] [1] y, putting it on a property. I don't think this is going to necessarily impact a lot of people, but it's just something you got to kind of understand.
+[03:51:30] [1] Create async store could do this internally. Like, we do dot value inside create async store.
+[03:51:34] [1] It's just, you don't want to try and merge distinctly unique things into each other.
+[03:51:40] [1] You want to, you need to be able to swap them.
+[03:51:49] [1] Yes,
+[03:51:51] [1] yeah, normalized stores, right? The old redux thing, right? Where you put them on an ID and then iterate over the keys.
+[03:51:57] [1] Yeah,
+[03:52:00] [1] that's probably the best way of doing it
+[03:52:04] [1] from like a data normalization. If your store is big enough, you're probably going to have to do that because you have relational models.
+[03:52:09] [1] But like the basic case,
+[03:52:12] [1] yeah, I mean,
+[03:52:16] [1] I came up with a few takeaways here to wrap up this talk. If something has an identity, it needs to have a key.
+[03:52:21] [1] If it can appear in multiple places or has other different things of the same type, then it needs to have a way to indicate its unique identity, okay?
+[03:52:27] [1] So that's number one. I think that's rule one. Two, stores mutate. Their performance benefit comes from doing granular updates.
+[03:52:34] [1] If someone mutates something, it is mutated, okay? Pretty straightforward. Reconcile is not a mutation operation.
+[03:52:40] [1] It resets the store to the suggested references. That way, the next time you reconcile, it can do it so again and always be able to referentially tell what changes.
+[03:52:48] [1] I was kind of joking around and calling it like rebase instead of reconcile. It's not quite the right term, but you kind of,
+[03:52:56] [1] that's kind of its purpose. Four, you can't reconcile two objects that have different identity.
+[03:53:00] [1] You can't reconcile one identity into another. That
+[03:53:05] [1] 's basically my rules and takeaways. I think with those rules, this is consistent.
+[03:53:12] [1] To be fair, I understand this a lot. It's funny because I feel like if people watch my stream, they probably are like, get scared away from Solid JS unless they're in deepest me.
+[03:53:21] [1] Because the truth matters, this isn't how to use Solid JS stream. This is how to write Solid JS stream.
+[03:53:28] [1] Once, the funny thing is, I go through all this pain and all these details and all this stuff so that at the end of the line, someone can just put create signal in a component and call create effect to update it.
+[03:53:43] [1] I mean, that's sort of the reality of it. You know,
+[03:53:48] [1] I
+[03:53:50] [1] 'm not suggesting that anyone go out and do that, but that is kind of how, that's where things go.
+[03:53:57] [1] It's just important to create tools in the right way and then hopefully guide people in that direction.
+[03:54:04] [1] So I'm sorry if this is a lot, but I hope the explanation of the capability is pretty clear here.
+[03:54:11] [1] And I actually have a demo for this. I don't think my notes synced. No, my notes are not synced.
+[03:54:18] [1] Give me two seconds.
+[03:54:20] [1] I need to grab this demo.
+[03:54:27] [1] Let me, where is it? Solid, was it on
+[03:54:34] [1] ?
+[03:54:41] [1] God, it's been so long since I've been working on this stuff that it's, I sometimes,
+[03:54:50] [1] I have no clue how I actually found it earlier. Let me see if I can send it to myself.
+[03:54:57] [1] Two seconds. I have it on my other computer. It's just my stuff didn't sync.
+[03:55:11] [1] Discord.
+[03:55:14] [1] Sorry about that. One sec.
+[03:55:23] [1] Just going to use public Discord as my sync mechanism. There we go.
+[03:55:30] [1] Cool.
+[03:55:32] [1] Okay, so,
+[03:55:36] [1] yeah, I'm very flattered by this whole Ryan script thing. I was trying to write reactive script, but, you know, okay, check this out.
+[03:55:47] [1] So this example looks complicated because it's using the new Solid Reactivity, but it's, but without the compiler.
+[03:55:53] [1] So I hand compiled everything, which surprisingly is an exercise that I'm enjoying doing a lot these days, just for fun, where I'm just like creating stuff.
+[03:56:02] [1] But what I did was I took one of the oldest examples off the Solid Tutorial, where, or, and I think I actually had an old code sandbox.
+[03:56:11] [1] And essentially, there's this one file that has all the redux information. This is literally redux.
+[03:56:18] [1] And it creates a redux store that has two actions: add to do, toggle to do, right?
+[03:56:24] [1] So you can go, you know, you can add a to do, and then you can toggle it back and forth, okay?
+[03:56:30] [1] Now,
+[03:56:33] [1] before I had this custom logic because I had to make my own undo library because Solid mutates state and I had to make snapshots.
+[03:56:42] [1] But for this test, I literally just took the off-the-shelf redux undo tool. It was linked off their website.
+[03:56:50] [1] So I was like, okay, I will just use that. And I just wrap it going undoable to dos and then undo type, undo, redo type things.
+[03:56:55] [1] So I just tell them what the types are, and I passed it in. Because I'd already written this based on this, it wasn't too hard to add the new actions.
+[03:57:05] [1] And then I had to, I had to write some logic to map between the structures. But basically, I made this simple hook, which creates a store, a Solid store, subscribes to our redux store, and this calls literally reconcile
+[03:57:21] [1] on it. That's all it does. Reconcile, map the state, and unclean up, unsubscribe.
+[03:57:28] [1] So, and there's also
+[03:57:31] [1] this capability to map actions, right? So the way this gets used here is I'm creating this redux store, and it's essentially, you pass in the redux store, which is actually the redux store that I created.
+[03:57:47] [1] And I pass in a way to map
+[03:57:51] [1] the state coming to redux store, which now, because it's undo, has like present, past, and future in it.
+[03:57:56] [1] And it gave me a couple of things like to dose, which is present to dose. Can undo and can redo is based on past length.
+[03:58:03] [1] I literally copied this example like straight off the redux website, essentially, and then I passed those actions.
+[03:58:09] [1] And so basically, other than this simple wrapper, which says on redux store, call reconcile, unsubscribe, and then like writing a simple mechanism for doing mapping, essentially, like map, you pass a map state and map ac
+[03:58:24] [1] tions more or less, which is pretty standard in redux if you ever used it. This is like, there's no specific code to this problem of undoing here.
+[03:58:33] [1] This is just standard redux
+[03:58:36] [1] wrappers. And this is a specific store that just happens to use some immutable library from the redux ecosystem, no special consideration.
+[03:58:46] [1] I was able to
+[03:58:49] [1] , yeah, there's a lot of document create element here, create a UI by hand, which is a little bit of fun.
+[03:58:56] [1] I just created a bunch of elements, created some render effects to disable buttons,
+[03:59:05] [1] and then appended them all to the page. I did something very simple for making the list, which is not efficient.
+[03:59:12] [1] Every time the to dose change, I just replace all the DOM elements. Don't get me wrong.
+[03:59:18] [1] Technically, they're the same references. I'm not recreating all the new to dose, but they are getting removed and added again.
+[03:59:25] [1] So they will paint flicker. This is not Solid's reconciler. This is literally a one-liner.
+[03:59:34] [1] Just to like, this is the simplest way an insert works. Everything else is just returning DOM nodes, doing map.
+[03:59:41] [1] See, map array, this is
+[03:59:44] [1] four component, essentiall
+[03:59:47] [1] y. Basically just hand compiled it. But the result is that
+[03:59:57] [1] we have full.

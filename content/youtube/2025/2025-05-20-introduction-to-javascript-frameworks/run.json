@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Introduction to JavaScript Frameworks",
+      "slug": "2025-05-20-introduction-to-javascript-frameworks",
+      "duration": "11:40",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=DAci3O2j31o",
+      "publishDate": "2025-05-20",
+      "thumbnail": "https://i.ytimg.com/vi/DAci3O2j31o/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 50,
+          "title": "Intro"
+        },
+        {
+          "startTime": 50,
+          "endTime": 205,
+          "title": "React"
+        },
+        {
+          "startTime": 205,
+          "endTime": 316,
+          "title": "Angular"
+        },
+        {
+          "startTime": 316,
+          "endTime": 431,
+          "title": "Vue"
+        },
+        {
+          "startTime": 431,
+          "endTime": 551,
+          "title": "Svelte"
+        },
+        {
+          "startTime": 551,
+          "endTime": 685,
+          "title": "Solid"
+        },
+        {
+          "startTime": 685,
+          "endTime": 699,
+          "title": "Outro"
+        }
+      ],
+      "description": "Have you ever wondered why it feels like there are so many JavaScript Frameworks? In this video we will look at 5 popular frameworks: React, Angular, Vue, Svelte, and Solid, to better understand why they exist, how they work, and what makes them unique.\n\n[0:00] - Intro\n[0:50] - React\n[3:25] - Angular\n[5:16] - Vue\n[7:11] - Svelte\n[9:11] - Solid\n[11:25] - Outro"
+    }
+  }
+}

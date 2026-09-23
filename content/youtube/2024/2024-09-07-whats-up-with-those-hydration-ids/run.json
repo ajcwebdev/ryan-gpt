@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "What's up with those Hydration IDs?",
+      "slug": "2024-09-07-whats-up-with-those-hydration-ids",
+      "duration": "5:35:54",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=776vUMP16Fo",
+      "publishDate": "2024-09-07",
+      "thumbnail": "https://i.ytimg.com/vi/776vUMP16Fo/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 300,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 300,
+          "endTime": 660,
+          "title": "The Fastify SSR Benchmark"
+        },
+        {
+          "startTime": 660,
+          "endTime": 1500,
+          "title": "How It Works & What Went Wrong"
+        },
+        {
+          "startTime": 1500,
+          "endTime": 2205,
+          "title": "toFixed(2) - Small Changes/Big Differences"
+        },
+        {
+          "startTime": 2205,
+          "endTime": 2580,
+          "title": "What Happens If We Turn Off Hydration?"
+        },
+        {
+          "startTime": 2580,
+          "endTime": 3030,
+          "title": "What Are We Actually Testing?"
+        },
+        {
+          "startTime": 3030,
+          "endTime": 3420,
+          "title": "Why Does Solid Even Have Hydration IDs?"
+        },
+        {
+          "startTime": 3420,
+          "endTime": 3750,
+          "title": "5 Places SolidJS Is Not The Best"
+        },
+        {
+          "startTime": 3750,
+          "endTime": 4080,
+          "title": "Fine-Grained Hydration: Introduction"
+        },
+        {
+          "startTime": 4080,
+          "endTime": 4890,
+          "title": "FGH: \"In Solid... myDiv is a div\""
+        },
+        {
+          "startTime": 4890,
+          "endTime": 5370,
+          "title": "FGH: Async Uncertainty & Hierarchical IDs"
+        },
+        {
+          "startTime": 5370,
+          "endTime": 6375,
+          "title": "FGH: Automatic Data Serialization"
+        },
+        {
+          "startTime": 6375,
+          "endTime": 6960,
+          "title": "FGH: What If A div Wasn't a div Anymore?"
+        },
+        {
+          "startTime": 6960,
+          "endTime": 7425,
+          "title": "FGH: Trade-Offs (ref & children Introspection)"
+        },
+        {
+          "startTime": 7425,
+          "endTime": 7650,
+          "title": "FGH: Conclusion (This Comes At A Cost)"
+        },
+        {
+          "startTime": 7650,
+          "endTime": 7935,
+          "title": "Solid 2.0 Benchmarks & New Ideas"
+        },
+        {
+          "startTime": 7935,
+          "endTime": 8745,
+          "title": "Alternate Reality - Props as Accessors"
+        },
+        {
+          "startTime": 8745,
+          "endTime": 9900,
+          "title": "How to Debug Solid When Hydration Fails"
+        },
+        {
+          "startTime": 9900,
+          "endTime": 11145,
+          "title": "Run (Throw) Once Suspense Revisited"
+        },
+        {
+          "startTime": 11145,
+          "endTime": 11790,
+          "title": "Exploring New Primitives: createAsync & Async Iterables"
+        },
+        {
+          "startTime": 11790,
+          "endTime": 12360,
+          "title": "ENP: Adding createProjection To The Mix"
+        },
+        {
+          "startTime": 12360,
+          "endTime": 12750,
+          "title": "ENP: Keyed Approaches to Reactive Arrays"
+        },
+        {
+          "startTime": 12750,
+          "endTime": 13200,
+          "title": "ENP: The Repeat Component"
+        },
+        {
+          "startTime": 13200,
+          "endTime": 13725,
+          "title": "ENP: Conclusion"
+        },
+        {
+          "startTime": 13725,
+          "endTime": 13920,
+          "title": "This Week in JavaScript: Solid News"
+        },
+        {
+          "startTime": 13920,
+          "endTime": 14280,
+          "title": "TWiJ: Ryan Joins Sentry & SolidHack 2024"
+        },
+        {
+          "startTime": 14280,
+          "endTime": 14520,
+          "title": "TWiJ: Tanner Linsley on TanStack Start"
+        },
+        {
+          "startTime": 14520,
+          "endTime": 14640,
+          "title": "TWiJ: _princesseuh on Library Size"
+        },
+        {
+          "startTime": 14640,
+          "endTime": 14790,
+          "title": "TWiJ: Cheng Lou on Midjourney's Website"
+        },
+        {
+          "startTime": 14790,
+          "endTime": 15225,
+          "title": "TWiJ: Astro on Preact Signals"
+        },
+        {
+          "startTime": 15225,
+          "endTime": 15735,
+          "title": "TWiJ: ImSh4yy on Auth in JS community"
+        },
+        {
+          "startTime": 15735,
+          "endTime": 16020,
+          "title": "TWiJ: Reacting to Jose Valim's Video - Intro"
+        },
+        {
+          "startTime": 16020,
+          "endTime": 16440,
+          "title": "TWiJ: RtJVV - Single Flight Mutations"
+        },
+        {
+          "startTime": 16440,
+          "endTime": 16845,
+          "title": "TWiJ: RtJVV - Is There A Ceiling Here?"
+        },
+        {
+          "startTime": 16845,
+          "endTime": 17640,
+          "title": "TWiJ: RtJVV - Not Using Prescribed Patterns"
+        },
+        {
+          "startTime": 17640,
+          "endTime": 18165,
+          "title": "TWiJ: RtJVV - Conclusion"
+        },
+        {
+          "startTime": 18165,
+          "endTime": 18825,
+          "title": "TWiJ: Web Components & SSR"
+        },
+        {
+          "startTime": 18825,
+          "endTime": 19410,
+          "title": "TWiJ: Shell Pages & Preloads (Excalidraw!)"
+        },
+        {
+          "startTime": 19410,
+          "endTime": 19770,
+          "title": "TWiJ: Discussing Framework Features"
+        },
+        {
+          "startTime": 19770,
+          "endTime": 20154,
+          "title": "TWiJ: \"Just JavaScript\" & Conclusion"
+        }
+      ],
+      "description": "Recently there was a benchmark showcasing SSR rendering speed, and it ended up being a bit of a wild ride. It called into light some design decisions of SolidJS and what should we actually be measuring. So I'm going to take the time to dig into how Solid's Hydration works in detail.\n\n[0:00:00] Preamble\n[0:05:00] The Fastify SSR Benchmark\n[0:11:00] How It Works & What Went Wrong\n[0:25:00] toFixed(2) - Small Changes/Big Differences\n[0:36:45] What Happens If We Turn Off Hydration?\n[0:43:00] What Are We Actually Testing?\n[0:50:30] Why Does Solid Even Have Hydration IDs?\n[0:57:00] 5 Places SolidJS Is Not The Best\n[1:02:30] Fine-Grained Hydration: Introduction\n[1:08:00] FGH: \"In Solid... myDiv is a div\"\n[1:21:30] FGH: Async Uncertainty & Hierarchical IDs\n[1:29:30] FGH: Automatic Data Serialization\n[1:46:15] FGH: What If A div Wasn't a div Anymore?\n[1:56:00] FGH: Trade-Offs (ref & children Introspection)\n[2:03:45] FGH: Conclusion (This Comes At A Cost)\n[2:07:30] Solid 2.0 Benchmarks & New Ideas\n[2:12:15] Alternate Reality - Props as Accessors\n[2:25:45] How to Debug Solid When Hydration Fails\n[2:45:00] Run (Throw) Once Suspense Revisited\n[3:05:45] Exploring New Primitives: createAsync & Async Iterables\n[3:16:30] ENP: Adding createProjection To The Mix\n[3:26:00] ENP: Keyed Approaches to Reactive Arrays\n[3:32:30] ENP: The Repeat Component\n[3:40:00] ENP: Conclusion\n[3:48:45] This Week in JavaScript: Solid News\n[3:52:00] TWiJ: Ryan Joins Sentry & SolidHack 2024\n[3:58:00] TWiJ: Tanner Linsley on TanStack Start\n[4:02:00] TWiJ: _princesseuh on Library Size \n[4:04:00] TWiJ: Cheng Lou on Midjourney's Website\n[4:06:30] TWiJ: Astro on Preact Signals \n[4:13:45] TWiJ: ImSh4yy on Auth in JS community\n[4:22:15] TWiJ: Reacting to Jose Valim's Video - Intro\n[4:27:00] TWiJ: RtJVV - Single Flight Mutations\n[4:34:00] TWiJ: RtJVV - Is There A Ceiling Here?\n[4:40:45] TWiJ: RtJVV - Not Using Prescribed Patterns\n[4:54:00] TWiJ: RtJVV - Conclusion\n[5:02:45] TWiJ: Web Components & SSR\n[5:13:45] TWiJ: Shell Pages & Preloads (Excalidraw!)\n[5:23:30] TWiJ: Discussing Framework Features\n[5:29:30] TWiJ: \"Just JavaScript\" & Conclusion\n\nThanks @zombiefacesupreme for the time stamps! Very much appreciated."
+    }
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T03:14:18.698Z",
+  "updatedAt": "2026-09-12T03:15:59.197Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Piecing it Together w/ Pooya Parsa",
+          "duration": "4:44:45",
+          "channel": "Ryan Carniato",
+          "description": "This week we look at the UnJS project, an ecosystem of open source libraries building the foundations of the web. Pooya, core maintainer, joins us to talk about libraries like Nitro, H3, Unstorage, and how they all go together to build a framework agnostic future.\n\n[0:00] Preamble\n[8:30] Welcome Pooya Parsa & History of Unjs\n[19:00] Nuxt 2 & The Birth of Nitro\n[28:30] Nuxt vs. Nuxtlabs vs. Unjs\n[33:00] jiti & Balancing Multiple Projects\n[38:30] h3 & radix3: Composable Server Primitives\n[49:30] Q & A - http2 streaming & proxied dev server\n[53:30] unplugin: Unified Bundler Plugins\n[58:45] unenv & std-env: Cross-Platform Compatibility\n[1:06:00] Magicast, Unhead, and untyped\n[1:13:45] Unstorage - Async K/V Anywhere\n[1:24:00] Cookies & Sessions\n[1:29:00] unbuild, Consola, listhen, unimport\n[1:35:00] ofetch & Node 16 reaching End-of-Life\n[1:41:30] c12 - Smart Configuration Loading\n[1:48:00] Nitro - Routing & Caching Overview\n[1:58:00] Nitro - StackBlitz Example\n[2:08:00] Nitro - Handlers & Params\n[2:19:15] Nitro - Middleware, Mountpoints, and Storage Layer\n[2:25:15] Nitro - Typesafe Routes & Streaming Responses\n[2:36:00] Nitro - Early Hints\n[2:43:00] Q & A - Nextjs app dir? What's next?\n[2:49:00] Viteconf\n[2:56:00] Vinxi & Saying Goodbye to Pooya\n[3:02:00] Update - What About Bling!?\n[3:10:00] Update - What About Astro!?\n[3:17:30] Update - Balance of Control in Meta-Frameworks\n[3:31:30] TWiJ - Solid News\n[3:35:30] TWiJ - Astro 3.0 & Islands vs. Remix vs. RSC\n[3:47:00] TWiJ - Million.js & React Forget\n[3:58:30] TWiJ - DHH & TypeScript (technical difficulties)\n[4:10:30] TWiJ - DHH & TypeScript Take 2\n[4:22:15] TWiJ - PartyKit Expands Team\n[4:26:00] TWiJ - Bun Hits 1.0\n[4:32:00] TWiJ - Vite & Next.js\n[4:39:00] Conclusion\n\nThank you to @zombiefacesupreme for the timestamps.",
+          "url": "https://www.youtube.com/watch?v=seLSN1i8zRw",
+          "publishDate": "2023-09-09",
+          "thumbnail": "https://i.ytimg.com/vi/seLSN1i8zRw/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 510,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 510,
+              "endTime": 1140,
+              "title": "Welcome Pooya Parsa & History of Unjs"
+            },
+            {
+              "startTime": 1140,
+              "endTime": 1710,
+              "title": "Nuxt 2 & The Birth of Nitro"
+            },
+            {
+              "startTime": 1710,
+              "endTime": 1980,
+              "title": "Nuxt vs. Nuxtlabs vs. Unjs"
+            },
+            {
+              "startTime": 1980,
+              "endTime": 2310,
+              "title": "jiti & Balancing Multiple Projects"
+            },
+            {
+              "startTime": 2310,
+              "endTime": 2970,
+              "title": "h3 & radix3: Composable Server Primitives"
+            },
+            {
+              "startTime": 2970,
+              "endTime": 3210,
+              "title": "Q & A - http2 streaming & proxied dev server"
+            },
+            {
+              "startTime": 3210,
+              "endTime": 3525,
+              "title": "unplugin: Unified Bundler Plugins"
+            },
+            {
+              "startTime": 3525,
+              "endTime": 3960,
+              "title": "unenv & std-env: Cross-Platform Compatibility"
+            },
+            {
+              "startTime": 3960,
+              "endTime": 4425,
+              "title": "Magicast, Unhead, and untyped"
+            },
+            {
+              "startTime": 4425,
+              "endTime": 5040,
+              "title": "Unstorage - Async K/V Anywhere"
+            },
+            {
+              "startTime": 5040,
+              "endTime": 5340,
+              "title": "Cookies & Sessions"
+            },
+            {
+              "startTime": 5340,
+              "endTime": 5700,
+              "title": "unbuild, Consola, listhen, unimport"
+            },
+            {
+              "startTime": 5700,
+              "endTime": 6090,
+              "title": "ofetch & Node 16 reaching End-of-Life"
+            },
+            {
+              "startTime": 6090,
+              "endTime": 6480,
+              "title": "c12 - Smart Configuration Loading"
+            },
+            {
+              "startTime": 6480,
+              "endTime": 7080,
+              "title": "Nitro - Routing & Caching Overview"
+            },
+            {
+              "startTime": 7080,
+              "endTime": 7680,
+              "title": "Nitro - StackBlitz Example"
+            },
+            {
+              "startTime": 7680,
+              "endTime": 8355,
+              "title": "Nitro - Handlers & Params"
+            },
+            {
+              "startTime": 8355,
+              "endTime": 8715,
+              "title": "Nitro - Middleware, Mountpoints, and Storage Layer"
+            },
+            {
+              "startTime": 8715,
+              "endTime": 9360,
+              "title": "Nitro - Typesafe Routes & Streaming Responses"
+            },
+            {
+              "startTime": 9360,
+              "endTime": 9780,
+              "title": "Nitro - Early Hints"
+            },
+            {
+              "startTime": 9780,
+              "endTime": 10140,
+              "title": "Q & A - Nextjs app dir? What's next?"
+            },
+            {
+              "startTime": 10140,
+              "endTime": 10560,
+              "title": "Viteconf"
+            },
+            {
+              "startTime": 10560,
+              "endTime": 10920,
+              "title": "Vinxi & Saying Goodbye to Pooya"
+            },
+            {
+              "startTime": 10920,
+              "endTime": 11400,
+              "title": "Update - What About Bling!?"
+            },
+            {
+              "startTime": 11400,
+              "endTime": 11850,
+              "title": "Update - What About Astro!?"
+            },
+            {
+              "startTime": 11850,
+              "endTime": 12690,
+              "title": "Update - Balance of Control in Meta-Frameworks"
+            },
+            {
+              "startTime": 12690,
+              "endTime": 12930,
+              "title": "TWiJ - Solid News"
+            },
+            {
+              "startTime": 12930,
+              "endTime": 13620,
+              "title": "TWiJ - Astro 3.0 & Islands vs. Remix vs. RSC"
+            },
+            {
+              "startTime": 13620,
+              "endTime": 14310,
+              "title": "TWiJ - Million.js & React Forget"
+            },
+            {
+              "startTime": 14310,
+              "endTime": 15030,
+              "title": "TWiJ - DHH & TypeScript (technical difficulties)"
+            },
+            {
+              "startTime": 15030,
+              "endTime": 15735,
+              "title": "TWiJ - DHH & TypeScript Take 2"
+            },
+            {
+              "startTime": 15735,
+              "endTime": 15960,
+              "title": "TWiJ - PartyKit Expands Team"
+            },
+            {
+              "startTime": 15960,
+              "endTime": 16320,
+              "title": "TWiJ - Bun Hits 1.0"
+            },
+            {
+              "startTime": 16320,
+              "endTime": 16740,
+              "title": "TWiJ - Vite & Next.js"
+            },
+            {
+              "startTime": 16740,
+              "endTime": 17085,
+              "title": "Conclusion"
+            }
+          ],
+          "slug": "2023-09-09-piecing-it-together-w-pooya-parsa",
+          "audioFileName": "2023-09-09-piecing-it-together-w-pooya-parsa.m4a",
+          "audioFileSize": 211621703,
+          "durationSeconds": 17085
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 109.15416666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 109.15416666666667,
+                "costMultiplier": 1,
+                "durationSeconds": 17085
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 109.15416666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 109.15416666666667,
+                "costMultiplier": 1,
+                "durationSeconds": 17085
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 109.15416666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 109.15416666666667,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 17085
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3211980,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3211980,
+                "inputMetric": "durationSeconds",
+                "inputValue": 17085,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3211980
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 95305,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 95305,
+                "timingBreakdown": {
+                  "uploadMs": 4208,
+                  "createMs": 156,
+                  "pollMs": 5866,
+                  "pollSleepMs": 85038,
+                  "remoteProcessingMs": 85075
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 17085,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 5.578,
+                "throughputValue": 179.267,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 95304,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4208,
+                  "createMs": 156,
+                  "createCount": 1,
+                  "pollMs": 5866,
+                  "requestCount": 13
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "d248a150-0927-4416-a9d2-a8b0244cdf74",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/da631847af5119ac39385d5f91b744dba5f7ca9d6e8ce4480fb32bcd09004b8a/2339a2f8-47c5-4205-8c88-41035a02a78f",
+                  "createCompletedAt": "2026-09-12T03:14:28.065Z",
+                  "lastPollAt": "2026-09-12T03:15:59.004Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 95305,
+            "tokenCount": 41568,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "d248a150-0927-4416-a9d2-a8b0244cdf74",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/da631847af5119ac39385d5f91b744dba5f7ca9d6e8ce4480fb32bcd09004b8a/2339a2f8-47c5-4205-8c88-41035a02a78f",
+              "createCompletedAt": "2026-09-12T03:14:28.065Z",
+              "lastPollAt": "2026-09-12T03:15:59.004Z",
+              "completedAt": "2026-09-12T03:15:59.005Z"
+            },
+            "timings": {
+              "uploadMs": 4208,
+              "createMs": 156,
+              "createCount": 1,
+              "pollMs": 5866,
+              "pollSleepMs": 85038,
+              "pollCount": 11,
+              "remoteProcessingMs": 85075,
+              "requestCount": 13
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 4,
+                  "active": 1,
+                  "activePeak": 4,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 9,
+                  "completed": 8,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789181661652,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789182740611,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789182863700,
+                      "previousLimit": 3,
+                      "nextLimit": 4,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 4,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

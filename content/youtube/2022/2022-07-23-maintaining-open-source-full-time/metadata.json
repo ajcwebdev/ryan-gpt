@@ -1,0 +1,44 @@
+{
+  "step1": {
+    "title": "Maintaining Open Source Full-time",
+    "duration": "1:09:01",
+    "author": "Playful Programming Podcast",
+    "url": "https://www.youtube.com/watch?v=sgMdAD8stJg",
+    "publishDate": "2022-07-23",
+    "thumbnail": "https://i.ytimg.com/vi/sgMdAD8stJg/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCwLr8EHk7A-A89tRqoHSdZw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 185,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 185,
+        "endTime": 258,
+        "title": "How You Started with Open Source"
+      },
+      {
+        "startTime": 258,
+        "endTime": 753,
+        "title": "Tooling"
+      },
+      {
+        "startTime": 753,
+        "endTime": 1932,
+        "title": "Js Framework Benchmark"
+      },
+      {
+        "startTime": 1932,
+        "endTime": 3219,
+        "title": "Streaming Graphql"
+      },
+      {
+        "startTime": 3219,
+        "endTime": 4141,
+        "title": "What's Your Hope for the Next Two Years Doing this Job"
+      }
+    ],
+    "description": "In this episode, we are going to Talk with Ryan Carniato, creator of the @solid_js framework; We will explore what it takes to become an Open Source maintainer full-time and how to achieve it, and the challenges faced.\r\n\r\nYou can Follow Ryan on: \r\nhttps://twitter.com/RyanCarniato\r\nhttps://dev.to/ryansolid\r\nhttps://github.com/ryansolid\r\n\r\nSolidJs on:\r\nhttps://twitter.com/solid_js\r\nhttps://github.com/solidjs/solid\r\nhttps://github.com/solidjs/solid"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "step1": {
+    "title": "DOUBLE your speed with Single Flight Mutations and Solid.js",
+    "duration": "59:12",
+    "author": "This Dot Media",
+    "url": "https://www.youtube.com/watch?v=dT344XrOJ_g",
+    "publishDate": "2024-12-26",
+    "thumbnail": "https://i.ytimg.com/vi/dT344XrOJ_g/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCHkqtrnQO2HMyW50ixOtJGw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 112,
+        "title": "Introduction and Guest Welcome"
+      },
+      {
+        "startTime": 112,
+        "endTime": 245,
+        "title": "Challenges of Client and Server Models in Modern Web"
+      },
+      {
+        "startTime": 245,
+        "endTime": 360,
+        "title": "Importance of Page Load Time and SEO"
+      },
+      {
+        "startTime": 360,
+        "endTime": 543,
+        "title": "Balancing Client-Server Interactions in Frameworks"
+      },
+      {
+        "startTime": 543,
+        "endTime": 720,
+        "title": "Exploring React Server Components and Astro Islands"
+      },
+      {
+        "startTime": 720,
+        "endTime": 962,
+        "title": "Single Page Apps and Data Serialization Challenges"
+      },
+      {
+        "startTime": 962,
+        "endTime": 1202,
+        "title": "Understanding the Cost Triangle of Modern Frameworks"
+      },
+      {
+        "startTime": 1202,
+        "endTime": 1620,
+        "title": "The Router Approach in Solid and Its Benefits"
+      },
+      {
+        "startTime": 1620,
+        "endTime": 2103,
+        "title": "Framework Opinionation and Flexibility in Ecosystems"
+      },
+      {
+        "startTime": 2103,
+        "endTime": 2584,
+        "title": "Vendor Lock-in Trends and React’s Evolution"
+      },
+      {
+        "startTime": 2584,
+        "endTime": 2765,
+        "title": "Single Flight Mutations: Concept and Benefits"
+      },
+      {
+        "startTime": 2765,
+        "endTime": 3120,
+        "title": "Current Work: Reactivity and Signals in Solid"
+      },
+      {
+        "startTime": 3120,
+        "endTime": 3422,
+        "title": "Exploring Mutable Reactivity and Performance Gains"
+      },
+      {
+        "startTime": 3422,
+        "endTime": 3552,
+        "title": "Wrap-Up and Final Thoughts"
+      }
+    ],
+    "description": "In this episode of the Modern Web Podcast, host Danny Thompson interviews Ryan Carniato, creator of SolidJS, about the evolving relationship between client and server technologies in web development. They explore the history of server-side rendering, single-page applications, and how SolidJS bridges these worlds with innovations like single-flight mutations, which cut down on server-client round trips for better performance. Ryan also shares his vision for the future of reactive systems, focusing on async models and proxy-based stores that enable precise state updates with minimal re-renders. \n\n0:00 – Introduction and Guest Welcome  \n1:52 – Challenges of Client and Server Models in Modern Web  \n4:05 – Importance of Page Load Time and SEO  \n6:00 – Balancing Client-Server Interactions in Frameworks  \n9:03 – Exploring React Server Components and Astro Islands  \n12:00 – Single Page Apps and Data Serialization Challenges  \n16:02 – Understanding the Cost Triangle of Modern Frameworks  \n20:02 – The Router Approach in Solid and Its Benefits  \n27:00 – Framework Opinionation and Flexibility in Ecosystems  \n35:03 – Vendor Lock-in Trends and React’s Evolution  \n43:04 – Single Flight Mutations: Concept and Benefits  \n46:05 – Current Work: Reactivity and Signals in Solid  \n52:00 – Exploring Mutable Reactivity and Performance Gains  \n57:02 – Wrap-Up and Final Thoughts\n\nFollow Ryan Carniato on Social Media\nTwitter: https://x.com/RyanCarniato\nDev.to: https://dev.to/ryansolid\nGithub: https://github.com/ryansolid\n\nSponsored by This Dot: thisdot.co"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidJS - The Hard Parts w/ Dan Jutan",
+      "slug": "2023-03-18-solidjs-the-hard-parts-w-dan-jutan",
+      "duration": "5:42:05",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=E3jYGTB50LE",
+      "publishDate": "2023-03-18",
+      "thumbnail": "https://i.ytimg.com/vi/E3jYGTB50LE/sddefault.jpg?v=6414ae11",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 500,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 500,
+          "endTime": 900,
+          "title": "Welcome Dan Jutan!"
+        },
+        {
+          "startTime": 900,
+          "endTime": 1215,
+          "title": "About Docs"
+        },
+        {
+          "startTime": 1215,
+          "endTime": 1805,
+          "title": "Getting involved in OSS"
+        },
+        {
+          "startTime": 1805,
+          "endTime": 2400,
+          "title": "SolidStart and Astro (again!)"
+        },
+        {
+          "startTime": 2400,
+          "endTime": 3000,
+          "title": "Catching up and conference talks"
+        },
+        {
+          "startTime": 3000,
+          "endTime": 3360,
+          "title": "Solid fundamentals"
+        },
+        {
+          "startTime": 3360,
+          "endTime": 4185,
+          "title": "Proxies"
+        },
+        {
+          "startTime": 4185,
+          "endTime": 4710,
+          "title": "JSX reactivity in Solid"
+        },
+        {
+          "startTime": 4710,
+          "endTime": 4830,
+          "title": "Proxy support in browsers"
+        },
+        {
+          "startTime": 4830,
+          "endTime": 4905,
+          "title": "Parameters in derived signals"
+        },
+        {
+          "startTime": 4905,
+          "endTime": 5055,
+          "title": "Stores vs. getter/setter objects"
+        },
+        {
+          "startTime": 5055,
+          "endTime": 5205,
+          "title": "Read/Write segregation"
+        },
+        {
+          "startTime": 5205,
+          "endTime": 5670,
+          "title": "Referential equality of DOM nodes"
+        },
+        {
+          "startTime": 5670,
+          "endTime": 5850,
+          "title": "Back to Excalidraw"
+        },
+        {
+          "startTime": 5850,
+          "endTime": 6210,
+          "title": "Tracking"
+        },
+        {
+          "startTime": 6210,
+          "endTime": 6645,
+          "title": "Show, For, and \"Compiler Magic\""
+        },
+        {
+          "startTime": 6645,
+          "endTime": 7470,
+          "title": "Context & state management"
+        },
+        {
+          "startTime": 7470,
+          "endTime": 8460,
+          "title": "createResource & data fetching"
+        },
+        {
+          "startTime": 8460,
+          "endTime": 8895,
+          "title": "The \"ugly\" parts Dan doesn't teach"
+        },
+        {
+          "startTime": 8895,
+          "endTime": 9075,
+          "title": "Advanced and obscure primitives"
+        },
+        {
+          "startTime": 9075,
+          "endTime": 9675,
+          "title": "Suspense"
+        },
+        {
+          "startTime": 9675,
+          "endTime": 10080,
+          "title": "useTransition"
+        },
+        {
+          "startTime": 10080,
+          "endTime": 10485,
+          "title": "Nesting and Triggering Suspense"
+        },
+        {
+          "startTime": 10485,
+          "endTime": 11040,
+          "title": "Classic SSR (Server Side Rendering)"
+        },
+        {
+          "startTime": 11040,
+          "endTime": 11550,
+          "title": "Modern Async SSR"
+        },
+        {
+          "startTime": 11550,
+          "endTime": 12285,
+          "title": "Streaming SSR"
+        },
+        {
+          "startTime": 12285,
+          "endTime": 12540,
+          "title": "Limitations, SSG, and challenges"
+        },
+        {
+          "startTime": 12540,
+          "endTime": 12930,
+          "title": "Next.js app directory architecture"
+        },
+        {
+          "startTime": 12930,
+          "endTime": 13155,
+          "title": "Error Boundaries"
+        },
+        {
+          "startTime": 13155,
+          "endTime": 13575,
+          "title": "Using transitions"
+        },
+        {
+          "startTime": 13575,
+          "endTime": 14190,
+          "title": "Dan talks through a TRANSACTION"
+        },
+        {
+          "startTime": 14190,
+          "endTime": 14580,
+          "title": "Concurrent Rendering"
+        },
+        {
+          "startTime": 14580,
+          "endTime": 14765,
+          "title": "Pending State"
+        },
+        {
+          "startTime": 14765,
+          "endTime": 15750,
+          "title": "Teaching useTransition"
+        },
+        {
+          "startTime": 15750,
+          "endTime": 16155,
+          "title": "Can this be automatic?"
+        },
+        {
+          "startTime": 16155,
+          "endTime": 17400,
+          "title": "latest/stale slicing/opt-in tearing"
+        },
+        {
+          "startTime": 17400,
+          "endTime": 17790,
+          "title": "Farewell Dan!"
+        },
+        {
+          "startTime": 17790,
+          "endTime": 17910,
+          "title": "Christopher Ehrlich's RSC video"
+        },
+        {
+          "startTime": 17910,
+          "endTime": 18090,
+          "title": "SolidJS and TypeScript"
+        },
+        {
+          "startTime": 18090,
+          "endTime": 18150,
+          "title": "New StackBlitz examples"
+        },
+        {
+          "startTime": 18150,
+          "endTime": 18240,
+          "title": "Reactathon"
+        },
+        {
+          "startTime": 18240,
+          "endTime": 19050,
+          "title": "VDom libraries and JS Framework Benchmark"
+        },
+        {
+          "startTime": 19050,
+          "endTime": 19140,
+          "title": "React.Dev Launch"
+        },
+        {
+          "startTime": 19140,
+          "endTime": 19185,
+          "title": "Greg Johnston's WASM video"
+        },
+        {
+          "startTime": 19185,
+          "endTime": 19770,
+          "title": "React, CRA, Vite, and SPA's"
+        },
+        {
+          "startTime": 19770,
+          "endTime": 20205,
+          "title": "\"Never use a chainsaw...\" - Matthew Phillips"
+        },
+        {
+          "startTime": 20205,
+          "endTime": 20400,
+          "title": "\"I don't want to hurt anyone's feelings...\" - Mike Nikles"
+        },
+        {
+          "startTime": 20400,
+          "endTime": 20525,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "With any tool, there are challenges and gotcha's. There are things that aren't obvious at first, and require more explanation. Fortunately, Dan Jutan, Solid and Astro team member, will join me once again to dig into some of the hardest topics in SolidJS and modern web dev in general.\n\nSolidJS - The Hard Parts w/ Dan Jutan\n\n[0:00] Preamble\n[8:20] Welcome Dan Jutan!\n[15:00] About Docs\n[20:15] Getting involved in OSS\n[30:05] SolidStart and Astro (again!)\n[40:00] Catching up and conference talks\n[50:00] Solid fundamentals\n[56:00] Proxies\n[1:09:45] JSX reactivity in Solid\n[1:18:30] Proxy support in browsers\n[1:20:30] Parameters in derived signals\n[1:21:45] Stores vs. getter/setter objects\n[1:24:15] Read/Write segregation\n[1:26:45] Referential equality of DOM nodes\n[1:34:30] Back to Excalidraw\n[1:37:30] Tracking\n[1:43:30] Show, For, and \"Compiler Magic\"\n[1:50:45] Context & state management\n[2:04:30] createResource & data fetching\n[2:21:00] The \"ugly\" parts Dan doesn't teach\n[2:28:15] Advanced and obscure primitives\n[2:31:15] Suspense\n[2:41:15] useTransition\n[2:48:00] Nesting and Triggering Suspense\n[2:54:45] Classic SSR (Server Side Rendering)\n[3:04:00] Modern Async SSR\n[3:12:30] Streaming SSR\n[3:24:45] Limitations, SSG, and challenges\n[3:29:00] Next.js app directory architecture\n[3:35:30] Error Boundaries\n[3:39:15] Using transitions\n[3:46:15] Dan talks through a TRANSACTION\n[3:56:30] Concurrent Rendering\n[4:03:00] Pending State\n[4:06:05] Teaching useTransition\n[4:22:30] Can this be automatic?\n[4:29:15] .latest/stale slicing/opt-in tearing\n[4:50:00] Farewell Dan!\n\nThis Week in JavaScript\n\n[4:56:30] Christopher Ehrlich's RSC video\n[4:58:30] SolidJS and TypeScript\n[5:01:30] New StackBlitz examples\n[5:02:30] Reactathon\n[5:04:00] VDom libraries and JS Framework Benchmark\n[5:17:30] React.Dev Launch\n[5:19:00] Greg Johnston's WASM video\n[5:19:45] React, CRA, Vite, and SPA's\n[5:29:30] \"Never use a chainsaw...\" - Matthew Phillips\n[5:36:45] \"I don't want to hurt anyone's feelings...\" - Mike Nikles\n[5:40:00] Conclusion\n\nThanks to @zombiefacesupreme for the wonderful timestamps\r\n\r\nBanner credits: :copyright: Wreck-It Ralph characters owned by Disney"
+    }
+  }
+}

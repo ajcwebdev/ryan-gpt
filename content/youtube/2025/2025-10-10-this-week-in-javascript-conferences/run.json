@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "This Week in JavaScript Conferences",
+      "slug": "2025-10-10-this-week-in-javascript-conferences",
+      "duration": "5:50:11",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=8bpjU_NzbyI",
+      "publishDate": "2025-10-10",
+      "thumbnail": "https://i.ytimg.com/vi/8bpjU_NzbyI/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 240,
+          "title": "Introduction and Conference Overview"
+        },
+        {
+          "startTime": 240,
+          "endTime": 660,
+          "title": "Signals and Async Rendering Talk"
+        },
+        {
+          "startTime": 660,
+          "endTime": 1080,
+          "title": "React Comp Analysis Begins"
+        },
+        {
+          "startTime": 1080,
+          "endTime": 1620,
+          "title": "Component Design Philosophy"
+        },
+        {
+          "startTime": 1620,
+          "endTime": 2280,
+          "title": "React API Evolution"
+        },
+        {
+          "startTime": 2280,
+          "endTime": 2880,
+          "title": "Fear and Innovation in React"
+        },
+        {
+          "startTime": 2880,
+          "endTime": 3480,
+          "title": "Reactive Systems Comparison"
+        },
+        {
+          "startTime": 3480,
+          "endTime": 4080,
+          "title": "Remix 3 Announcement Coverage"
+        },
+        {
+          "startTime": 4080,
+          "endTime": 4680,
+          "title": "Remix Events Deep Dive"
+        },
+        {
+          "startTime": 4680,
+          "endTime": 5280,
+          "title": "Form Handling and Async Patterns"
+        },
+        {
+          "startTime": 5280,
+          "endTime": 5880,
+          "title": "File Upload and Storage"
+        },
+        {
+          "startTime": 5880,
+          "endTime": 6480,
+          "title": "Routing Architecture"
+        },
+        {
+          "startTime": 6480,
+          "endTime": 7080,
+          "title": "Frames Architecture Revealed"
+        },
+        {
+          "startTime": 7080,
+          "endTime": 7680,
+          "title": "Frames and Hydration"
+        },
+        {
+          "startTime": 7680,
+          "endTime": 8280,
+          "title": "Event System Analysis"
+        },
+        {
+          "startTime": 8280,
+          "endTime": 8880,
+          "title": "Platform Primitives Philosophy"
+        },
+        {
+          "startTime": 8880,
+          "endTime": 9480,
+          "title": "Comparing Reactive Examples"
+        },
+        {
+          "startTime": 9480,
+          "endTime": 10080,
+          "title": "ViteConf and Funding Models"
+        },
+        {
+          "startTime": 10080,
+          "endTime": 10680,
+          "title": "Open Source Controversy"
+        },
+        {
+          "startTime": 10680,
+          "endTime": 11280,
+          "title": "React Foundation Announcement"
+        },
+        {
+          "startTime": 11280,
+          "endTime": 11880,
+          "title": "JSX Templating Proposal"
+        },
+        {
+          "startTime": 11880,
+          "endTime": 12480,
+          "title": "Framework Philosophy Differences"
+        },
+        {
+          "startTime": 12480,
+          "endTime": 13080,
+          "title": "Performance and Benchmarking"
+        },
+        {
+          "startTime": 13080,
+          "endTime": 13680,
+          "title": "AI Impact on Development"
+        },
+        {
+          "startTime": 13680,
+          "endTime": 14280,
+          "title": "Signals in Browsers"
+        },
+        {
+          "startTime": 14280,
+          "endTime": 14880,
+          "title": "Server Architecture Patterns"
+        },
+        {
+          "startTime": 14880,
+          "endTime": 15480,
+          "title": "Community and Ecosystem"
+        },
+        {
+          "startTime": 15480,
+          "endTime": 16080,
+          "title": "Tooling and Developer Experience"
+        },
+        {
+          "startTime": 16080,
+          "endTime": 16680,
+          "title": "State Management Evolution"
+        },
+        {
+          "startTime": 16680,
+          "endTime": 17280,
+          "title": "Compilation Strategies"
+        },
+        {
+          "startTime": 17280,
+          "endTime": 17880,
+          "title": "Documentation and Learning"
+        },
+        {
+          "startTime": 17880,
+          "endTime": 18480,
+          "title": "Testing and Quality"
+        },
+        {
+          "startTime": 18480,
+          "endTime": 19080,
+          "title": "Migration Strategies"
+        },
+        {
+          "startTime": 19080,
+          "endTime": 19680,
+          "title": "Future Predictions"
+        },
+        {
+          "startTime": 19680,
+          "endTime": 20280,
+          "title": "Remix 3 Final Thoughts"
+        },
+        {
+          "startTime": 20280,
+          "endTime": 20640,
+          "title": "Stream Wrap-Up and Reflections"
+        },
+        {
+          "startTime": 20640,
+          "endTime": 21011,
+          "title": "Closing Remarks"
+        }
+      ],
+      "description": "It's been quite a week. From Jetbrains JavaScriptDays, React Conf, Vite Conf, and Remix Jam. So after I finish up my panel at ViteConf. I'm going to cover all that has been going on.\n\n00:00:00 - Introduction and Conference Overview\n00:04:00 - Signals and Async Rendering Talk\n00:11:00 - React Comp Analysis Begins\n00:18:00 - Component Design Philosophy\n00:27:00 - React API Evolution\n00:38:00 - Fear and Innovation in React\n00:48:00 - Reactive Systems Comparison\n00:58:00 - Remix 3 Announcement Coverage\n01:08:00 - Remix Events Deep Dive\n01:18:00 - Form Handling and Async Patterns\n01:28:00 - File Upload and Storage\n01:38:00 - Routing Architecture\n01:48:00 - Frames Architecture Revealed\n01:58:00 - Frames and Hydration\n02:08:00 - Event System Analysis\n02:18:00 - Platform Primitives Philosophy\n02:28:00 - Comparing Reactive Examples\n02:38:00 - ViteConf and Funding Models\n02:48:00 - Open Source Controversy\n02:58:00 - React Foundation Announcement\n03:08:00 - JSX Templating Proposal\n03:18:00 - Framework Philosophy Differences\n03:28:00 - Performance and Benchmarking\n03:38:00 - AI Impact on Development\n03:48:00 - Signals in Browsers\n03:58:00 - Server Architecture Patterns\n04:08:00 - Community and Ecosystem\n04:18:00 - Tooling and Developer Experience\n04:28:00 - State Management Evolution\n04:38:00 - Compilation Strategies\n04:48:00 - Documentation and Learning\n04:58:00 - Testing and Quality\n05:08:00 - Migration Strategies\n05:18:00 - Future Predictions\n05:28:00 - Remix 3 Final Thoughts\n05:38:00 - Stream Wrap-Up and Reflections\n05:44:00 - Closing Remarks\n\nThanks @ajcwebdev and his brilliant AI solutions for the timestamps!"
+    }
+  }
+}

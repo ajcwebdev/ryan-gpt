@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "First Look at Create T3 App w/ Christopher Ehrlich",
+      "slug": "2023-02-04-first-look-at-create-t3-app-w-christopher-ehrlich",
+      "duration": "4:52:49",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=-CWarVQDtEg",
+      "publishDate": "2023-02-04",
+      "thumbnail": "https://i.ytimg.com/vi/-CWarVQDtEg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 465,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 465,
+          "endTime": 660,
+          "title": "Welcome Christopher Ehrlich"
+        },
+        {
+          "startTime": 660,
+          "endTime": 945,
+          "title": "How Christopher found t3"
+        },
+        {
+          "startTime": 945,
+          "endTime": 1260,
+          "title": "Practicality and Abstraction in learning"
+        },
+        {
+          "startTime": 1260,
+          "endTime": 1380,
+          "title": "Ways to learn new technology"
+        },
+        {
+          "startTime": 1380,
+          "endTime": 1710,
+          "title": "Semantic versioning"
+        },
+        {
+          "startTime": 1710,
+          "endTime": 1860,
+          "title": "Making content to answer questions and learn"
+        },
+        {
+          "startTime": 1860,
+          "endTime": 2220,
+          "title": "What makes t3 special"
+        },
+        {
+          "startTime": 2220,
+          "endTime": 2395,
+          "title": "Humor in tech"
+        },
+        {
+          "startTime": 2395,
+          "endTime": 2590,
+          "title": "How Christopher got more involved with t3"
+        },
+        {
+          "startTime": 2590,
+          "endTime": 2910,
+          "title": "Advice on getting started with Open Source Software"
+        },
+        {
+          "startTime": 2910,
+          "endTime": 3210,
+          "title": "Open Source and prepping for interviews"
+        },
+        {
+          "startTime": 3210,
+          "endTime": 3470,
+          "title": "Checking out the landing page"
+        },
+        {
+          "startTime": 3470,
+          "endTime": 3915,
+          "title": "Using the CLI"
+        },
+        {
+          "startTime": 3915,
+          "endTime": 4140,
+          "title": "Setting up the project"
+        },
+        {
+          "startTime": 4140,
+          "endTime": 5025,
+          "title": "Setting up NextAuth"
+        },
+        {
+          "startTime": 5025,
+          "endTime": 5160,
+          "title": "Config files and folder structure"
+        },
+        {
+          "startTime": 5160,
+          "endTime": 6295,
+          "title": "tRPC and following the data flow"
+        },
+        {
+          "startTime": 6295,
+          "endTime": 6510,
+          "title": "tRPC and Tanstack Query"
+        },
+        {
+          "startTime": 6510,
+          "endTime": 6765,
+          "title": "How the Auth works"
+        },
+        {
+          "startTime": 6765,
+          "endTime": 7140,
+          "title": "Prisma and Community Involvement"
+        },
+        {
+          "startTime": 7140,
+          "endTime": 7680,
+          "title": "More about tRPC and TanStack Query"
+        },
+        {
+          "startTime": 7680,
+          "endTime": 8010,
+          "title": "Migration stories"
+        },
+        {
+          "startTime": 8010,
+          "endTime": 8370,
+          "title": "The balancing act between DX and bleeding edge"
+        },
+        {
+          "startTime": 8370,
+          "endTime": 8805,
+          "title": "The future of t3 and the app directory"
+        },
+        {
+          "startTime": 8805,
+          "endTime": 9460,
+          "title": "Saying Bye to Christopher and wrapping up"
+        },
+        {
+          "startTime": 9460,
+          "endTime": 9660,
+          "title": "Introduction and Installation"
+        },
+        {
+          "startTime": 9660,
+          "endTime": 9870,
+          "title": "Difference between islands and server components"
+        },
+        {
+          "startTime": 9870,
+          "endTime": 10090,
+          "title": "Excalidraw: Sharing context between server and client"
+        },
+        {
+          "startTime": 10090,
+          "endTime": 10520,
+          "title": "Building a counter and context provider"
+        },
+        {
+          "startTime": 10520,
+          "endTime": 11100,
+          "title": "Investigation into rendering order"
+        },
+        {
+          "startTime": 11100,
+          "endTime": 11520,
+          "title": "Testing the cache"
+        },
+        {
+          "startTime": 11520,
+          "endTime": 12000,
+          "title": "Excalidraw: Where and when things are rendered"
+        },
+        {
+          "startTime": 12000,
+          "endTime": 12530,
+          "title": "Testing the \"use\" hook and streaming promises"
+        },
+        {
+          "startTime": 12530,
+          "endTime": 12960,
+          "title": "Serializing promises"
+        },
+        {
+          "startTime": 12960,
+          "endTime": 13440,
+          "title": "Recap of what we learned"
+        },
+        {
+          "startTime": 13440,
+          "endTime": 14000,
+          "title": "Q & A"
+        },
+        {
+          "startTime": 14000,
+          "endTime": 14280,
+          "title": "How the Solid Movie Demo compares"
+        },
+        {
+          "startTime": 14280,
+          "endTime": 15000,
+          "title": "Resumability and more about promise serialization in React"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15390,
+          "title": "\"SPAs were a 0% interest rate phenomenon.\" - Guillermo Rauch"
+        },
+        {
+          "startTime": 15390,
+          "endTime": 15765,
+          "title": "\"I wish we'd stop making one-size-fits-all tools...\" - Devon Garrett"
+        },
+        {
+          "startTime": 15765,
+          "endTime": 15850,
+          "title": "SolidJS Xstate integration - Austin Golding"
+        },
+        {
+          "startTime": 15850,
+          "endTime": 16180,
+          "title": "Long post on Create React App - Dan Abramov"
+        },
+        {
+          "startTime": 16180,
+          "endTime": 16465,
+          "title": "Wrappers or Patches - Seb Markbage"
+        },
+        {
+          "startTime": 16465,
+          "endTime": 17300,
+          "title": "Netlify acquired Gatsby"
+        },
+        {
+          "startTime": 17300,
+          "endTime": 17569,
+          "title": "Closing thoughts"
+        }
+      ],
+      "description": "Create T3 App is a newish full-stack solution template built on top of Next.js. It was created only about 6 months ago but has already garnered a lot of attention. Christopher Ehrlich, a CT3A maintainer, will show me the ropes and help me understand what it looks like to be using the best patterns with React today.\n\nPreamble and Opening Interview\n[0:00] Preamble\n[7:45] Welcome Christopher Ehrlich\n[11:00] How Christopher found t3\n[15:45] Practicality and Abstraction in learning\n[21:00] Ways to learn new technology\n[23:00] Semantic versioning\n[28:30] Making content to answer questions and learn\n[31:00] What makes t3 special\n[37:00] Humor in tech\n[39:55] How Christopher got more involved with t3\n[43:10] Advice on getting started with Open Source Software\n[48:30] Open Source and prepping for interviews\n\nHow T3 Works\n[53:30] Checking out the landing page\n[57:50] Using the CLI\n[1:05:15] Setting up the project\n[1:09:00] Setting up NextAuth\n[1:23:45] Config files and folder structure\n[1:26:00] tRPC and following the data flow\n[1:44:55] tRPC and Tanstack Query\n[1:48:30] How the Auth works\n[1:52:45] Prisma and Community Involvement\n[1:59:00] More about tRPC and TanStack Query\n[2:08:00] Migration stories\n[2:13:30] The balancing act between DX and bleeding edge\n[2:19:30] The future of t3 and the app directory\n[2:26:45] Saying Bye to Christopher and wrapping up \n\nDigging into Server Components\n[2:37:40] Introduction and Installation\n[2:41:00] Difference between islands and server components\n[2:44:30] Excalidraw: Sharing context between server and client\n[2:48:10] Building a counter and context provider\n[2:55:20] Investigation into rendering order\n[3:05:00] Testing the cache\n[3:12:00] Excalidraw: Where and when things are rendered\n[3:20:00] Testing the \"use\" hook and streaming promises\n[3:28:50] Serializing promises\n[3:36:00] Recap of what we learned\n[3:44:00] Q & A\n[3:53:20] How the Solid Movie Demo compares\n[3:58:00] Resumability and more about promise serialization in React\n\nThis Week in JavaScript\n[4:10:00] \"SPAs were a 0% interest rate phenomenon.\" - Guillermo Rauch\n[4:16:30] \"I wish we'd stop making one-size-fits-all tools...\" - Devon Garrett\n[4:22:45] SolidJS Xstate integration - Austin Golding\n[4:24:10] Long post on Create React App - Dan Abramov\n[4:29:40] Wrappers or Patches - Seb Markbage\n[4:34:25] Netlify acquired Gatsby\n[4:48:20] Closing thoughts\n\n(Thank you to @zombiefacesupreme for the timestamps)\nzombiefacesupreme\nzombiefacesupreme"
+    }
+  }
+}

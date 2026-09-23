@@ -1,0 +1,299 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:25:48.232Z",
+  "updatedAt": "2026-09-23T08:26:46.643Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Streaming HTML, Solid 1.3, and More",
+          "duration": "2:28:59",
+          "channel": "Ryan Carniato",
+          "description": "This stream I want to focus on HTML Streaming (looking at Solid, React, and Marko) and cover some of the other features that are coming in Solid 1.3.\n\n[0:00] Introduction\n[1:54] This Week in JavaScript\n[36:53] What is Streaming?\n[1:08:13] Streaming Demo\n[1:20:10] Streaming Performance Profiles\n[1:40:10] Isomorphic Error Boundaries\n[1:54:31] Namespaced Hydration\n[2:04:09] Universal Reactivity\n[2:15:31] Improved React Server Components Demo\n[2:22:38] Q & A\n[2:26:04] Outro",
+          "url": "https://www.youtube.com/watch?v=8hlo9uPrpr4",
+          "publishDate": "2021-12-18",
+          "thumbnail": "https://i.ytimg.com/vi/8hlo9uPrpr4/hqdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 114,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 114,
+              "endTime": 2213,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 2213,
+              "endTime": 4093,
+              "title": "What is Streaming?"
+            },
+            {
+              "startTime": 4093,
+              "endTime": 4810,
+              "title": "Streaming Demo"
+            },
+            {
+              "startTime": 4810,
+              "endTime": 6010,
+              "title": "Streaming Performance Profiles"
+            },
+            {
+              "startTime": 6010,
+              "endTime": 6871,
+              "title": "Isomorphic Error Boundaries"
+            },
+            {
+              "startTime": 6871,
+              "endTime": 7449,
+              "title": "Namespaced Hydration"
+            },
+            {
+              "startTime": 7449,
+              "endTime": 8131,
+              "title": "Universal Reactivity"
+            },
+            {
+              "startTime": 8131,
+              "endTime": 8558,
+              "title": "Improved React Server Components Demo"
+            },
+            {
+              "startTime": 8558,
+              "endTime": 8764,
+              "title": "Q & A"
+            },
+            {
+              "startTime": 8764,
+              "endTime": 8939,
+              "title": "Outro"
+            }
+          ],
+          "slug": "2021-12-18-streaming-html-solid-13-and-more",
+          "audioFileName": "2021-12-18-streaming-html-solid-13-and-more.mp3",
+          "audioFileSize": 107262476,
+          "durationSeconds": 8939
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "deepinfra",
+              "model": "openai/whisper-large-v3-turbo",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 2.9796666666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 2.9796666666666667,
+                "costMultiplier": 1,
+                "durationSeconds": 8939
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 2.9796666666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 2.9796666666666667,
+                "costMultiplier": 1,
+                "durationSeconds": 8939
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 2.9796666666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "cost": 2.9796666666666667,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 8939
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 1492813,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 1492813,
+                "inputMetric": "durationSeconds",
+                "inputValue": 8939,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 167,
+                "throughputValue": 5.988,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 1492813
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 169075,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "deepinfra",
+                "model": "openai/whisper-large-v3-turbo",
+                "processingTimeMs": 169075,
+                "timingBreakdown": {
+                  "transcribeMs": 169047,
+                  "remoteProcessingMs": 28
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 8939,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 18.914,
+                "throughputValue": 52.87,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "deepinfra",
+          "model": "openai/whisper-large-v3-turbo",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {},
+          "metadata": {
+            "transcriptionService": "deepinfra",
+            "transcriptionModel": "openai/whisper-large-v3-turbo",
+            "processingTime": 169075,
+            "tokenCount": 21213,
+            "timings": {
+              "transcribeMs": 169047,
+              "remoteProcessingMs": 28,
+              "requestCount": 5
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "deepinfra",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "deepinfra:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 7,
+                  "active": 7,
+                  "activePeak": 7,
+                  "queuedWork": 0,
+                  "queuedPeak": 5,
+                  "admitted": 12,
+                  "completed": 5,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790151956743,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790151961743,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790151966744,
+                      "previousLimit": 3,
+                      "nextLimit": 4,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790151971744,
+                      "previousLimit": 4,
+                      "nextLimit": 5,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790151997590,
+                      "previousLimit": 5,
+                      "nextLimit": 6,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1790152002590,
+                      "previousLimit": 6,
+                      "nextLimit": 7,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "stt-segment",
+                      "configuredLimit": 7,
+                      "active": 7,
+                      "activePeak": 7,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "deepinfra.stt.v1",
+            "request": {
+              "model": "openai/whisper-large-v3-turbo"
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": true,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

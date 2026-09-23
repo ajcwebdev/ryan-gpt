@@ -1,0 +1,413 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T02:40:47.470Z",
+  "updatedAt": "2026-09-12T02:43:05.390Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "One Stack to Rule Them All w/ Tanner Linsley",
+          "duration": "5:08:41",
+          "channel": "Ryan Carniato",
+          "description": "Tanner returns to the stream to talk all things Tanstack. We will look at the latest developments of Tanstack Start and Router, and he has a new release that we will be announcing live!!\n\n00:00:00 - Introduction and Stream Setup\n00:06:00 - Welcoming Tanner and General Catch-Up\n00:12:00 - Reflecting on Past Streams and Routing Fundamentals\n00:18:00 - Announcing the New TanStack Solid Router\n00:24:00 - Comparing Solid Router Features and Implementation Details\n00:30:00 - Revisiting Server Functions and Shared Origins in Meta-Frameworks\n00:36:00 - Introducing the Vinci Layer and the Impact of Vite 6\n00:42:00 - Plans for De-Vincification and Convergence\n00:48:00 - Community Collaboration and Shared Discord Workspace\n00:54:00 - Deep Type Safety and Architectural Implications\n01:00:00 - Future Potential for Cross-Framework Adapters\n01:06:00 - Considering File-Based Routing Conventions\n01:12:00 - Lessons Learned from React Query and Normalized Caching\n01:18:00 - Acknowledging Convergence Around Signals and Observables\n01:24:00 - Rehashing the Double-Data Problem and Streaming\n01:30:00 - The Rise of “Partial SSR” and Single-Flight Techniques\n01:36:00 - The Solid Start Team’s Workflow and the TanStack Start Vision\n01:42:00 - Reflecting on React’s Current Marketing Challenges\n01:48:00 - The Pragmatism of Multiple Approaches\n01:54:00 - Summarizing the Philosophy Behind TanStack’s Independence\n02:00:00 - The Enduring Strength of React’s Ecosystem\n02:06:00 - Comparing Compiler Approaches and Client-Side Optimizations\n02:12:00 - Revisiting the Role of Ecosystem Wrappers and Adapters\n02:18:00 - Balancing Reactive Simplicity Against Complexity\n02:24:00 - Strengthening the Foundations: CSS Handling and Dev Tools\n02:29:00 - Tanstack Router in SolidStart\n02:33:20 - Server Components w/o \"use client\"\n03:09:00 - Observables in the Browser?\n03:15:30 - Async Effects/Events\n04:34:35 - Inventory of Reactive Primitives\n04:39:00 - The Road to Solid 2.0\n04:45:10 - This Week in JavaScript\n05:08:10 - Parting Remarks and Conclusion\n\nThank you @ajcwebdev for the AI generated timestamps.",
+          "url": "https://www.youtube.com/watch?v=p16CQPTHS8g",
+          "publishDate": "2025-02-22",
+          "thumbnail": "https://i.ytimg.com/vi/p16CQPTHS8g/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 360,
+              "title": "Introduction and Stream Setup"
+            },
+            {
+              "startTime": 360,
+              "endTime": 720,
+              "title": "Welcoming Tanner and General Catch-Up"
+            },
+            {
+              "startTime": 720,
+              "endTime": 1080,
+              "title": "Reflecting on Past Streams and Routing Fundamentals"
+            },
+            {
+              "startTime": 1080,
+              "endTime": 1440,
+              "title": "Announcing the New TanStack Solid Router"
+            },
+            {
+              "startTime": 1440,
+              "endTime": 1800,
+              "title": "Comparing Solid Router Features and Implementation Details"
+            },
+            {
+              "startTime": 1800,
+              "endTime": 2160,
+              "title": "Revisiting Server Functions and Shared Origins in Meta-Frameworks"
+            },
+            {
+              "startTime": 2160,
+              "endTime": 2520,
+              "title": "Introducing the Vinci Layer and the Impact of Vite 6"
+            },
+            {
+              "startTime": 2520,
+              "endTime": 2880,
+              "title": "Plans for De-Vincification and Convergence"
+            },
+            {
+              "startTime": 2880,
+              "endTime": 3240,
+              "title": "Community Collaboration and Shared Discord Workspace"
+            },
+            {
+              "startTime": 3240,
+              "endTime": 3600,
+              "title": "Deep Type Safety and Architectural Implications"
+            },
+            {
+              "startTime": 3600,
+              "endTime": 3960,
+              "title": "Future Potential for Cross-Framework Adapters"
+            },
+            {
+              "startTime": 3960,
+              "endTime": 4320,
+              "title": "Considering File-Based Routing Conventions"
+            },
+            {
+              "startTime": 4320,
+              "endTime": 4680,
+              "title": "Lessons Learned from React Query and Normalized Caching"
+            },
+            {
+              "startTime": 4680,
+              "endTime": 5040,
+              "title": "Acknowledging Convergence Around Signals and Observables"
+            },
+            {
+              "startTime": 5040,
+              "endTime": 5400,
+              "title": "Rehashing the Double-Data Problem and Streaming"
+            },
+            {
+              "startTime": 5400,
+              "endTime": 5760,
+              "title": "The Rise of “Partial SSR” and Single-Flight Techniques"
+            },
+            {
+              "startTime": 5760,
+              "endTime": 6120,
+              "title": "The Solid Start Team’s Workflow and the TanStack Start Vision"
+            },
+            {
+              "startTime": 6120,
+              "endTime": 6480,
+              "title": "Reflecting on React’s Current Marketing Challenges"
+            },
+            {
+              "startTime": 6480,
+              "endTime": 6840,
+              "title": "The Pragmatism of Multiple Approaches"
+            },
+            {
+              "startTime": 6840,
+              "endTime": 7200,
+              "title": "Summarizing the Philosophy Behind TanStack’s Independence"
+            },
+            {
+              "startTime": 7200,
+              "endTime": 7560,
+              "title": "The Enduring Strength of React’s Ecosystem"
+            },
+            {
+              "startTime": 7560,
+              "endTime": 7920,
+              "title": "Comparing Compiler Approaches and Client-Side Optimizations"
+            },
+            {
+              "startTime": 7920,
+              "endTime": 8280,
+              "title": "Revisiting the Role of Ecosystem Wrappers and Adapters"
+            },
+            {
+              "startTime": 8280,
+              "endTime": 8640,
+              "title": "Balancing Reactive Simplicity Against Complexity"
+            },
+            {
+              "startTime": 8640,
+              "endTime": 8940,
+              "title": "Strengthening the Foundations: CSS Handling and Dev Tools"
+            },
+            {
+              "startTime": 8940,
+              "endTime": 9200,
+              "title": "Tanstack Router in SolidStart"
+            },
+            {
+              "startTime": 9200,
+              "endTime": 11340,
+              "title": "Server Components w/o \"use client\""
+            },
+            {
+              "startTime": 11340,
+              "endTime": 11730,
+              "title": "Observables in the Browser?"
+            },
+            {
+              "startTime": 11730,
+              "endTime": 16475,
+              "title": "Async Effects/Events"
+            },
+            {
+              "startTime": 16475,
+              "endTime": 16740,
+              "title": "Inventory of Reactive Primitives"
+            },
+            {
+              "startTime": 16740,
+              "endTime": 17110,
+              "title": "The Road to Solid 2.0"
+            },
+            {
+              "startTime": 17110,
+              "endTime": 18490,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 18490,
+              "endTime": 18521,
+              "title": "Parting Remarks and Conclusion"
+            }
+          ],
+          "slug": "2025-02-22-one-stack-to-rule-them-all-w-tanner-linsley",
+          "audioFileName": "2025-02-22-one-stack-to-rule-them-all-w-tanner-linsley.m4a",
+          "audioFileSize": 232198886,
+          "durationSeconds": 18521
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 118.32861111111112,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 118.32861111111112,
+                "costMultiplier": 1,
+                "durationSeconds": 18521
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 118.32861111111112,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 118.32861111111112,
+                "costMultiplier": 1,
+                "durationSeconds": 18521
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 118.32861111111112,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 118.32861111111112,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 18521
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3481948,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3481948,
+                "inputMetric": "durationSeconds",
+                "inputValue": 18521,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3481948
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 137700,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 137700,
+                "timingBreakdown": {
+                  "uploadMs": 4678,
+                  "createMs": 115,
+                  "pollMs": 37844,
+                  "pollSleepMs": 95028,
+                  "remoteProcessingMs": 95063
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 18521,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 7.435,
+                "throughputValue": 134.503,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 137699,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4678,
+                  "createMs": 115,
+                  "createCount": 1,
+                  "pollMs": 37844,
+                  "requestCount": 14
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "be71646c-6c7e-4c85-ae35-99da1e5af9a5",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/3d64ba22dec0942428ac77898285043606c9bff9b3138010986320bac16226c2/13f597bf-16f9-40fc-a9bf-ec89e3364079",
+                  "createCompletedAt": "2026-09-12T02:40:52.268Z",
+                  "lastPollAt": "2026-09-12T02:43:05.172Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 137700,
+            "tokenCount": 49455,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "be71646c-6c7e-4c85-ae35-99da1e5af9a5",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/3d64ba22dec0942428ac77898285043606c9bff9b3138010986320bac16226c2/13f597bf-16f9-40fc-a9bf-ec89e3364079",
+              "createCompletedAt": "2026-09-12T02:40:52.268Z",
+              "lastPollAt": "2026-09-12T02:43:05.172Z",
+              "completedAt": "2026-09-12T02:43:05.173Z"
+            },
+            "timings": {
+              "uploadMs": 4678,
+              "createMs": 115,
+              "createCount": 1,
+              "pollMs": 37844,
+              "pollSleepMs": 95028,
+              "pollCount": 12,
+              "remoteProcessingMs": 95063,
+              "requestCount": 14
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 3,
+                  "completed": 2,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789180853795,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

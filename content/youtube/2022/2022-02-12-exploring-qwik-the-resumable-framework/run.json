@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring Qwik, the Resumable Framework",
+      "slug": "2022-02-12-exploring-qwik-the-resumable-framework",
+      "duration": "2:14:21",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=gT5NWKZZPQM",
+      "publishDate": "2022-02-12",
+      "thumbnail": "https://i.ytimg.com/vi/gT5NWKZZPQM/sddefault.jpg?v=6206bbcf",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 152,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 152,
+          "endTime": 853,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 853,
+          "endTime": 2044,
+          "title": "Introducing the Resumable Framework"
+        },
+        {
+          "startTime": 2044,
+          "endTime": 2841,
+          "title": "TodoMVC"
+        },
+        {
+          "startTime": 2841,
+          "endTime": 3324,
+          "title": "Hackernews"
+        },
+        {
+          "startTime": 3324,
+          "endTime": 3702,
+          "title": "Cost of Lazy Loading and Optimizer"
+        },
+        {
+          "startTime": 3702,
+          "endTime": 4330,
+          "title": "Performance & Data Serialization"
+        },
+        {
+          "startTime": 4330,
+          "endTime": 4952,
+          "title": "Ergonomic Considerations"
+        },
+        {
+          "startTime": 4952,
+          "endTime": 5144,
+          "title": "JS Framework Benchmark"
+        },
+        {
+          "startTime": 5144,
+          "endTime": 5415,
+          "title": "Keyed Reconciliation?"
+        },
+        {
+          "startTime": 5415,
+          "endTime": 5718,
+          "title": "Adding Select/Delete Row to Demo"
+        },
+        {
+          "startTime": 5718,
+          "endTime": 6223,
+          "title": "Exploring the Source Code"
+        },
+        {
+          "startTime": 6223,
+          "endTime": 6560,
+          "title": "OnWatch"
+        },
+        {
+          "startTime": 6560,
+          "endTime": 6897,
+          "title": "Knowledge vs Analytics"
+        },
+        {
+          "startTime": 6897,
+          "endTime": 6962,
+          "title": "transitionalapps DOA?"
+        },
+        {
+          "startTime": 6962,
+          "endTime": 7810,
+          "title": "New Foundation for the Web"
+        },
+        {
+          "startTime": 7810,
+          "endTime": 8060,
+          "title": "Closing Thoughts"
+        }
+      ],
+      "description": "We're going to just take a first look at Qwik, new approach to attacking the problem of efficient page-load in JavaScript frameworks. We will play around with samples, build something. And get an idea of what it is all about.\n\n[0:00] Introduction\n[2:32] This Week in JavaScript\n[14:13] Introducing the Resumable Framework\n[34:04] TodoMVC\n[47:21] Hackernews\n[55:24] Cost of Lazy Loading and Optimizer\n[1:01:42] Performance & Data Serialization\n[1:12:10] Ergonomic Considerations\n[1:22:32] JS Framework Benchmark\n[1:25:44] Keyed Reconciliation?\n[1:30:15] Adding Select/Delete Row to Demo\n[1:35:18] Exploring the Source Code\n[1:43:43] OnWatch$\n[1:49:20] Knowledge vs Analytics\n[1:54:57] #transitionalapps DOA?\n[1:56:02] New Foundation for the Web\n[2:10:10] Closing Thoughts"
+    }
+  }
+}

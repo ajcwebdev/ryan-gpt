@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "JavaScript Frameworks in 2023",
+      "slug": "2023-01-07-javascript-frameworks-in-2023",
+      "duration": "5:28:38",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=6RIPfwxj24s",
+      "publishDate": "2023-01-07",
+      "thumbnail": "https://i.ytimg.com/vi/6RIPfwxj24s/sddefault.jpg?v=63b71818",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 533,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 533,
+          "endTime": 575,
+          "title": "Thumbnail Image"
+        },
+        {
+          "startTime": 575,
+          "endTime": 676,
+          "title": "Angular Logo"
+        },
+        {
+          "startTime": 676,
+          "endTime": 810,
+          "title": "NPM Download Mess up"
+        },
+        {
+          "startTime": 810,
+          "endTime": 906,
+          "title": "Story behind dev.to article"
+        },
+        {
+          "startTime": 906,
+          "endTime": 1099,
+          "title": "Reflecting on 2022"
+        },
+        {
+          "startTime": 1099,
+          "endTime": 1262,
+          "title": "Time it takes to create a MetaFramework"
+        },
+        {
+          "startTime": 1262,
+          "endTime": 1456,
+          "title": "Technology Topics for 2023"
+        },
+        {
+          "startTime": 1456,
+          "endTime": 2417,
+          "title": "Signals"
+        },
+        {
+          "startTime": 2417,
+          "endTime": 3056,
+          "title": "Talking Complexity and Hydration"
+        },
+        {
+          "startTime": 3056,
+          "endTime": 4623,
+          "title": "One way to rule them all?"
+        },
+        {
+          "startTime": 4623,
+          "endTime": 5677,
+          "title": "Scaling Server Components"
+        },
+        {
+          "startTime": 5677,
+          "endTime": 5980,
+          "title": "React"
+        },
+        {
+          "startTime": 5980,
+          "endTime": 6541,
+          "title": "Caching, Routing, and Server Components"
+        },
+        {
+          "startTime": 6541,
+          "endTime": 7340,
+          "title": "Loaders vs Server Components vs Resumability"
+        },
+        {
+          "startTime": 7340,
+          "endTime": 8456,
+          "title": "Vue"
+        },
+        {
+          "startTime": 8456,
+          "endTime": 9289,
+          "title": "Angular"
+        },
+        {
+          "startTime": 9289,
+          "endTime": 9982,
+          "title": "Svelte"
+        },
+        {
+          "startTime": 9982,
+          "endTime": 10513,
+          "title": "Preact"
+        },
+        {
+          "startTime": 10513,
+          "endTime": 11309,
+          "title": "Solid"
+        },
+        {
+          "startTime": 11309,
+          "endTime": 11773,
+          "title": "Lit"
+        },
+        {
+          "startTime": 11773,
+          "endTime": 12100,
+          "title": "Marko"
+        },
+        {
+          "startTime": 12100,
+          "endTime": 13230,
+          "title": "Qwik"
+        },
+        {
+          "startTime": 13230,
+          "endTime": 13871,
+          "title": "Astro"
+        },
+        {
+          "startTime": 13871,
+          "endTime": 14298,
+          "title": "Edge + Data"
+        },
+        {
+          "startTime": 14298,
+          "endTime": 14993,
+          "title": "Leptos/Sycamore"
+        },
+        {
+          "startTime": 14993,
+          "endTime": 15760,
+          "title": "Async Consistency"
+        },
+        {
+          "startTime": 15760,
+          "endTime": 19717,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "Let's take some time to reflect on the past year and next year. Look at the options, look at the trends. This is the time of the year where people make some hot or not-so-hot takes. So let's do it.\n\n[0:00] Introduction\n[8:53] Thumbnail Image\n[9:35] Angular Logo\n[11:16] NPM Download Mess up\n[13:30] Story behind dev.to article \n[15:06] Reflecting on 2022\n[18:19] Time it takes to create a MetaFramework\n[21:02] Technology Topics for 2023\n[24:16] Signals\n[40:17] Talking Complexity and Hydration\n[50:56] One way to rule them all?\n[1:17:03] Scaling Server Components\n[1:34:37] React\n[1:39:40] Caching, Routing, and Server Components \n[1:49:01] Loaders vs Server Components vs Resumability\n[2:02:20] Vue\n[2:20:56] Angular\n[2:34:49] Svelte\n[2:46:22] Preact\n[2:55:13] Solid\n[3:08:29] Lit\n[3:16:13] Marko\n[3:21:40] Qwik\n[3:40:30] Astro\n[3:51:11] Edge + Data\n[3:58:18] Leptos/Sycamore\n[4:09:53] Async Consistency\n[4:22:40] This Week in JavaScript\n\nJavaScript Framework: Heading into 2023\nhttps://dev.to/this-is-learning/javascript-frameworks-heading-into-2023-nln\n\nIntroducing Zero Bundle Size React Server Components\nhttps://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html\n\nIslands Architecture\nhttps://jasonformat.com/islands-architecture/\n\nMisko Introducing World to Resumability in 2019\nhttps://www.youtube.com/watch?v=-kYtw3CSe6s&t=796s\n\nReactivity & Rendering Stream\nhttps://www.youtube.com/watch?v=R5AcOtxIdMk\n\n3 Lession from React that can make you a better Svelte Developer\nhttps://dev.to/this-is-learning/3-lessons-from-react-that-can-make-you-a-better-svelte-developer-23c4\n\nJavaScript Framework TodoMVC Size Comparison\nhttps://dev.to/this-is-learning/javascript-framework-todomvc-size-comparison-504f"
+    }
+  }
+}

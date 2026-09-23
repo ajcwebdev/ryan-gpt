@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Reactivity, Runes & Revolution w/ Dominic Gannaway",
+      "slug": "2023-10-14-reactivity-runes-revolution-w-dominic-gannaway",
+      "duration": "5:20:47",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=N54FZtNvk_A",
+      "publishDate": "2023-10-14",
+      "thumbnail": "https://i.ytimg.com/vi/N54FZtNvk_A/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 465,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 465,
+          "endTime": 870,
+          "title": "Welcome Dominic Gannaway & Early History"
+        },
+        {
+          "startTime": 870,
+          "endTime": 1260,
+          "title": "Dominic's Early Web Dev Journey"
+        },
+        {
+          "startTime": 1260,
+          "endTime": 1905,
+          "title": "Inferno.js"
+        },
+        {
+          "startTime": 1905,
+          "endTime": 2250,
+          "title": "What Made Inferno Fast?"
+        },
+        {
+          "startTime": 2250,
+          "endTime": 2820,
+          "title": "Working at Facebook"
+        },
+        {
+          "startTime": 2820,
+          "endTime": 3285,
+          "title": "Prepack"
+        },
+        {
+          "startTime": 3285,
+          "endTime": 3825,
+          "title": "React Hooks & react-compiler"
+        },
+        {
+          "startTime": 3825,
+          "endTime": 4230,
+          "title": "Lexical"
+        },
+        {
+          "startTime": 4230,
+          "endTime": 4620,
+          "title": "Octane & Svelte 5"
+        },
+        {
+          "startTime": 4620,
+          "endTime": 5040,
+          "title": "Runes"
+        },
+        {
+          "startTime": 5040,
+          "endTime": 5790,
+          "title": "Properly Exposing Signals in an API"
+        },
+        {
+          "startTime": 5790,
+          "endTime": 6675,
+          "title": "CODE: Svelte 5 Playground & Compilation Output"
+        },
+        {
+          "startTime": 6675,
+          "endTime": 7050,
+          "title": "Possible Future Improvements to Svelte"
+        },
+        {
+          "startTime": 7050,
+          "endTime": 7440,
+          "title": "Q & A: Flow? JSDoc? TypeScript? Time Zones?"
+        },
+        {
+          "startTime": 7440,
+          "endTime": 7755,
+          "title": "Q & A: Virtual DOM? Runes & Reactivity?"
+        },
+        {
+          "startTime": 7755,
+          "endTime": 8100,
+          "title": "Q & A: Signals Spec? Community Response?"
+        },
+        {
+          "startTime": 8100,
+          "endTime": 8400,
+          "title": "Q & A: SvelteKit? Production Ready?"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9000,
+          "title": "Dominic's Parting Notes & Intermission"
+        },
+        {
+          "startTime": 9000,
+          "endTime": 9975,
+          "title": "Signal Syntax & Compilation"
+        },
+        {
+          "startTime": 9975,
+          "endTime": 10500,
+          "title": "Signals in the DOM & Benefits of VDOM"
+        },
+        {
+          "startTime": 10500,
+          "endTime": 11340,
+          "title": "This Week in JavaScript: Fabio Spampinato - Signal Tweet"
+        },
+        {
+          "startTime": 11340,
+          "endTime": 12075,
+          "title": "TWiJ: Solid 1.8 Release & Hydration Warnings"
+        },
+        {
+          "startTime": 12075,
+          "endTime": 12690,
+          "title": "TWiJ: Template Cloning, Compilation, and Cost of Abstraction"
+        },
+        {
+          "startTime": 12690,
+          "endTime": 13320,
+          "title": "TWiJ: React Server Components as NPM Packages & Serialization"
+        },
+        {
+          "startTime": 13320,
+          "endTime": 14550,
+          "title": "TWiJ: Musing on Server Component Designs"
+        },
+        {
+          "startTime": 14550,
+          "endTime": 15525,
+          "title": "TWiJ: DHH - \"No-Build\""
+        },
+        {
+          "startTime": 15525,
+          "endTime": 15960,
+          "title": "TWiJ: Andrew Clark - RSC's & HTMX"
+        },
+        {
+          "startTime": 15960,
+          "endTime": 16455,
+          "title": "TWiJ: The Cycle of Progress"
+        },
+        {
+          "startTime": 16455,
+          "endTime": 17025,
+          "title": "TWiJ: The Framework Reactivity Graph"
+        },
+        {
+          "startTime": 17025,
+          "endTime": 18735,
+          "title": "TWiJ: Thinking Locally with Signals"
+        },
+        {
+          "startTime": 18735,
+          "endTime": 19035,
+          "title": "TWiJ: Fresh 1.5"
+        },
+        {
+          "startTime": 19035,
+          "endTime": 19246,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "Dominic Gannaway, creator of InfernoJS, former React Core Team member, Compiler wizard, and all-around great guy, joins us this week to talk about his latest work bringing Fine-Grained Reactivity to Svelte 5.\n\n[0:00] Preamble\n[7:45] Welcome Dominic Gannaway & Early History\n[14:30] Dominic's Early Web Dev Journey \n[21:00] Inferno.js\n[31:45] What Made Inferno Fast?\n[37:30] Working at Facebook\n[47:00] Prepack \n[54:45] React Hooks & react-compiler \n[1:03:45] Lexical\n[1:10:30] Octane & Svelte 5 \n[1:17:00] Runes\n[1:24:00] Properly Exposing Signals in an API\n[1:36:30] CODE: Svelte 5 Playground & Compilation Output\n[1:51:15] Possible Future Improvements to Svelte\n[1:57:30] Q & A: Flow? JSDoc? TypeScript? Time Zones?\n[2:04:00] Q & A: Virtual DOM? Runes & Reactivity?\n[2:09:15] Q & A: Signals Spec? Community Response?\n[2:15:00] Q & A: SvelteKit? Production Ready?\n[2:20:00] Dominic's Parting Notes & Intermission\n[2:30:00] Signal Syntax & Compilation\n[2:46:15] Signals in the DOM & Benefits of VDOM\n[2:55:00] This Week in JavaScript: Fabio Spampinato - Signal Tweet\n[3:09:00] TWiJ: Solid 1.8 Release & Hydration Warnings\n[3:21:15] TWiJ: Template Cloning, Compilation, and Cost of Abstraction\n[3:31:30] TWiJ: React Server Components as NPM Packages & Serialization\n[3:42:00] TWiJ: Musing on Server Component Designs\n[4:02:30] TWiJ: DHH - \"No-Build\"\n[4:18:45] TWiJ: Andrew Clark - RSC's & HTMX\n[4:26:00] TWiJ: The Cycle of Progress\n[4:34:15] TWiJ: The Framework Reactivity Graph\n[4:43:45] TWiJ: Thinking Locally with Signals\n[5:12:15] TWiJ: Fresh 1.5\n[5:17:15] Conclusion\n\nThanks to @zombiefacesupreme for the timestamps."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=Yi_MJ8cVCCs",
+    "videoTitle": "Streaming SolidJS - Benchmarking and Custom Renderers",
+    "videoPublishDate": "2021-10-23",
+    "videoThumbnail": "https://i.ytimg.com/vi/Yi_MJ8cVCCs/sddefault.jpg?v=6172edbd",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "2:57:19",
+    "audioFileName": "Streaming_SolidJS_-_Benchmarking_and_Custom_Renderers.wav",
+    "audioFileSize": 340433220
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo.bin | coreml:/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 548162,
+    "tokenCount": 26819
+  }
+}

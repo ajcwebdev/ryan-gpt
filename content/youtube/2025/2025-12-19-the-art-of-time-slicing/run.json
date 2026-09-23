@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "The Art of Time Slicing",
+      "slug": "2025-12-19-the-art-of-time-slicing",
+      "duration": "5:59:32",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=YNdrWgWuUOc",
+      "publishDate": "2025-12-19",
+      "thumbnail": "https://i.ytimg.com/vi/YNdrWgWuUOc/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "description": "Can co-operative scheduling really help performance? What other impacts does it have? How does it even work? Are there alternatives? In this last stream of the year I will look at the topic and how it is impacting my research into the future of Signals."
+    }
+  }
+}

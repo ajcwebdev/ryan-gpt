@@ -1,0 +1,54 @@
+{
+  "step1": {
+    "title": "Ryan Carniato on SolidStart 1.0 and How He Changes the Shape of JavaScript | JS Roundup",
+    "duration": "26:40",
+    "author": "JetBrains",
+    "url": "https://www.youtube.com/watch?v=CuE8jbTzJzk",
+    "publishDate": "2024-05-21",
+    "thumbnail": "https://i.ytimg.com/vi/CuE8jbTzJzk/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCGp4UBwpTNegd_4nCpuBcow",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 72,
+        "title": "Intro"
+      },
+      {
+        "startTime": 72,
+        "endTime": 372,
+        "title": "What is SolidStart"
+      },
+      {
+        "startTime": 372,
+        "endTime": 676,
+        "title": "How does SolidStart compare to other meta-frameworks"
+      },
+      {
+        "startTime": 676,
+        "endTime": 900,
+        "title": "SolidStart and Signals"
+      },
+      {
+        "startTime": 900,
+        "endTime": 1054,
+        "title": "SolidStart Primitives"
+      },
+      {
+        "startTime": 1054,
+        "endTime": 1264,
+        "title": "Ryan's \"spicy take\""
+      },
+      {
+        "startTime": 1264,
+        "endTime": 1383,
+        "title": "SolidStart direction"
+      },
+      {
+        "startTime": 1383,
+        "endTime": 1600,
+        "title": "SolidJS 2.0"
+      }
+    ],
+    "description": "SolidStart 1.0 is now officially out! We invited Ryan Carniato to talk about what SolidStart is, how it compares to other meta-frameworks, and his thoughts about the future of JavaScript. \n\n00:00 Intro\n01:12 What is SolidStart\n6:12 How does SolidStart compare to other meta-frameworks\n11:16 SolidStart and Signals\n15:00 SolidStart Primitives\n17:34 Ryan's \"spicy take\"\n21:04 SolidStart direction\n23:03 SolidJS 2.0\n\n#SolidStart #News #JSRoundup\n_____\n\n👋 Looking for an IDE for JavaScript and TypeScript? See WebStorm in action with a 30-day free trial: https://jb.gg/webstorm_jetbrains_ide"
+  }
+}

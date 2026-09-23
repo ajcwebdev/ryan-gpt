@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Strict Mode in SolidJS?!",
+      "slug": "2023-04-01-strict-mode-in-solidjs",
+      "duration": "5:23:13",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=2bkuEIa3Nwk",
+      "publishDate": "2023-04-01",
+      "thumbnail": "https://i.ytimg.com/vi/2bkuEIa3Nwk/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 720,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 720,
+          "endTime": 1530,
+          "title": "A Red, Squiggly Line"
+        },
+        {
+          "startTime": 1530,
+          "endTime": 1965,
+          "title": "Beyond TypeScript and ESLint"
+        },
+        {
+          "startTime": 1965,
+          "endTime": 2355,
+          "title": "Strict Mode in React (also, JSDocs)"
+        },
+        {
+          "startTime": 2355,
+          "endTime": 2745,
+          "title": "Destructuring Props and Proxies"
+        },
+        {
+          "startTime": 2745,
+          "endTime": 3435,
+          "title": "Performance, DX, and Building Frameworks"
+        },
+        {
+          "startTime": 3435,
+          "endTime": 3885,
+          "title": "Build Output and Learning Reactivity"
+        },
+        {
+          "startTime": 3885,
+          "endTime": 4665,
+          "title": "Future of Solid & SolidStart"
+        },
+        {
+          "startTime": 4665,
+          "endTime": 5115,
+          "title": "Strict Mode in SolidJS"
+        },
+        {
+          "startTime": 5115,
+          "endTime": 6270,
+          "title": "Untracked Reads and When to Error?"
+        },
+        {
+          "startTime": 6270,
+          "endTime": 6855,
+          "title": "Opt-in or Opt-Out?"
+        },
+        {
+          "startTime": 6855,
+          "endTime": 7575,
+          "title": "Writing in Effects / Resettable signals"
+        },
+        {
+          "startTime": 7575,
+          "endTime": 8310,
+          "title": "Sketching out createWritable"
+        },
+        {
+          "startTime": 8310,
+          "endTime": 8805,
+          "title": "Strict Mode Research & Setting up StackBlitz"
+        },
+        {
+          "startTime": 8805,
+          "endTime": 9300,
+          "title": "Making Solid Angry"
+        },
+        {
+          "startTime": 9300,
+          "endTime": 10320,
+          "title": "Allowing Explicit Untracking"
+        },
+        {
+          "startTime": 10320,
+          "endTime": 11100,
+          "title": "Click Handlers and Dependency Arrays"
+        },
+        {
+          "startTime": 11100,
+          "endTime": 11610,
+          "title": "Testing"
+        },
+        {
+          "startTime": 11610,
+          "endTime": 12480,
+          "title": "Throwing an Error"
+        },
+        {
+          "startTime": 12480,
+          "endTime": 13485,
+          "title": "Conclusion - Should It Error?"
+        },
+        {
+          "startTime": 13485,
+          "endTime": 13800,
+          "title": "This Week in JavaScipt - Solid News"
+        },
+        {
+          "startTime": 13800,
+          "endTime": 14055,
+          "title": "TWiJ - Other News (Qwik and Recent Streams)"
+        },
+        {
+          "startTime": 14055,
+          "endTime": 14445,
+          "title": "TWiJ - Dom Gannaway and Tom Occhino join Vercel"
+        },
+        {
+          "startTime": 14445,
+          "endTime": 14910,
+          "title": "TWiJ - Vercel Lambda Streaming"
+        },
+        {
+          "startTime": 14910,
+          "endTime": 15195,
+          "title": "TWiJ - RSCs in Astro"
+        },
+        {
+          "startTime": 15195,
+          "endTime": 15855,
+          "title": "SolidStart & TanStack Start"
+        },
+        {
+          "startTime": 15855,
+          "endTime": 16515,
+          "title": "Client and Server Mutations"
+        },
+        {
+          "startTime": 16515,
+          "endTime": 17175,
+          "title": "Server Components vs. Resumability"
+        },
+        {
+          "startTime": 17175,
+          "endTime": 18000,
+          "title": "React & Fighting the Wave"
+        },
+        {
+          "startTime": 18000,
+          "endTime": 18540,
+          "title": "Review of Strict Mode"
+        },
+        {
+          "startTime": 18540,
+          "endTime": 18870,
+          "title": "Solid: Library or Compilation Target"
+        },
+        {
+          "startTime": 18870,
+          "endTime": 19393,
+          "title": "Outro"
+        }
+      ],
+      "description": "A lot of consideration in frameworks go into how we can best guide developers. Let's look at designing what a Strict Mode in SolidJS would look like and then implement it live.\n\n[0:00] Preamble\n[12:00] A Red, Squiggly Line\n[25:30] Beyond TypeScript and ESLint\n[32:45] Strict Mode in React (also, JSDocs)\n[39:15] Destructuring Props and Proxies\n[45:45] Performance, DX, and Building Frameworks\n[57:15] Build Output and Learning Reactivity\n[1:04:45] Future of Solid & SolidStart\n[1:17:45] Strict Mode in SolidJS\n[1:25:15] Untracked Reads and When to Error?\n[1:44:30] Opt-in or Opt-Out?\n[1:54:15] Writing in Effects / Resettable signals\n[2:06:15] Sketching out createWritable\n[2:18:30] Strict Mode Research & Setting up StackBlitz\n[2:26:45] Making Solid Angry\n[2:35:00] Allowing Explicit Untracking\n[2:52:00] Click Handlers and Dependency Arrays\n[3:05:00] Testing\n[3:13:30] Throwing an Error\n[3:28:00] Conclusion - Should It Error?\n[3:44:45] This Week in JavaScipt - Solid News\n[3:50:00] TWiJ - Other News (Qwik and Recent Streams)\n[3:54:15] TWiJ - Dom Gannaway and Tom Occhino join Vercel\n[4:00:45] TWiJ - Vercel Lambda Streaming\n[4:08:30] TWiJ - RSCs in Astro\n[4:13:15] SolidStart & TanStack Start\n[4:24:15] Client and Server Mutations\n[4:35:15] Server Components vs. Resumability\n[4:46:15] React & Fighting the Wave\n[5:00:00] Review of Strict Mode\n[5:09:00] Solid: Library or Compilation Target\n[5:14:30] Outro\n\nThanks to @zombiefacesupreme for the timestamps."
+    }
+  }
+}

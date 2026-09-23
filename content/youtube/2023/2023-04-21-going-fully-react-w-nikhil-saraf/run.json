@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Going \"Fully React\" w/ Nikhil Saraf",
+      "slug": "2023-04-21-going-fully-react-w-nikhil-saraf",
+      "duration": "5:49:11",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=jwppKc4avIk",
+      "publishDate": "2023-04-21",
+      "thumbnail": "https://i.ytimg.com/vi/jwppKc4avIk/sddefault.jpg?v=6441636b",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 495,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 495,
+          "endTime": 1200,
+          "title": "Welcome Nikhil Saraf"
+        },
+        {
+          "startTime": 1200,
+          "endTime": 2190,
+          "title": "RSC Checklist - What Do We Need?"
+        },
+        {
+          "startTime": 2190,
+          "endTime": 3015,
+          "title": "The Perils of Nested Data Fetching"
+        },
+        {
+          "startTime": 3015,
+          "endTime": 3720,
+          "title": "Patching Global Fetch"
+        },
+        {
+          "startTime": 3720,
+          "endTime": 4710,
+          "title": "Routing is Essential"
+        },
+        {
+          "startTime": 4710,
+          "endTime": 5790,
+          "title": "\"Fully React\" - HN Example Code Walkthrough"
+        },
+        {
+          "startTime": 5790,
+          "endTime": 6405,
+          "title": "Demos: HN Example"
+        },
+        {
+          "startTime": 6405,
+          "endTime": 7500,
+          "title": "Kerplunk! - Caching and Pre-Loading"
+        },
+        {
+          "startTime": 7500,
+          "endTime": 8235,
+          "title": "Server Entry"
+        },
+        {
+          "startTime": 8235,
+          "endTime": 9135,
+          "title": "Client Entry"
+        },
+        {
+          "startTime": 9135,
+          "endTime": 9855,
+          "title": "Demos: Simple Mutation Example"
+        },
+        {
+          "startTime": 9855,
+          "endTime": 10680,
+          "title": "RSC - SPA or MPA?"
+        },
+        {
+          "startTime": 10680,
+          "endTime": 11610,
+          "title": "Demos: SSG, Sessions, Auth, and Apple Music"
+        },
+        {
+          "startTime": 11610,
+          "endTime": 12720,
+          "title": "Key Takeaways: Separation & Data Distance"
+        },
+        {
+          "startTime": 12720,
+          "endTime": 13080,
+          "title": "Key Takeaways: Propietary Data Format"
+        },
+        {
+          "startTime": 13080,
+          "endTime": 13500,
+          "title": "Key Takeaways: Directives vs. Decorators"
+        },
+        {
+          "startTime": 13500,
+          "endTime": 14250,
+          "title": "Evaluating Solid Server Components"
+        },
+        {
+          "startTime": 14250,
+          "endTime": 15015,
+          "title": "Q & A: Differences with React & Solid"
+        },
+        {
+          "startTime": 15015,
+          "endTime": 15405,
+          "title": "Q & A: What Would You Change with RSC's?"
+        },
+        {
+          "startTime": 15405,
+          "endTime": 16635,
+          "title": "Current Status of SolidStart"
+        },
+        {
+          "startTime": 16635,
+          "endTime": 17235,
+          "title": "Nikhil's Parting Notes"
+        },
+        {
+          "startTime": 17235,
+          "endTime": 17400,
+          "title": "This Week in JavaScript: Solid News"
+        },
+        {
+          "startTime": 17400,
+          "endTime": 17655,
+          "title": "TWiJ: Rich Harris - IMHO"
+        },
+        {
+          "startTime": 17655,
+          "endTime": 18465,
+          "title": "TWiJ: Dan Abramov - Colocation and RSC Quiz"
+        },
+        {
+          "startTime": 18465,
+          "endTime": 19140,
+          "title": "TWiJ: Theo Browne - RSC Thoughts"
+        },
+        {
+          "startTime": 19140,
+          "endTime": 19890,
+          "title": "TWiJ: Dan Abramov - Defending Fetch Patch"
+        },
+        {
+          "startTime": 19890,
+          "endTime": 20310,
+          "title": "TWiJ: Ryan's Thoughts on React & Standards"
+        },
+        {
+          "startTime": 20310,
+          "endTime": 20760,
+          "title": "TWiJ: Dave Di Biase - Svelte Super Fan"
+        },
+        {
+          "startTime": 20760,
+          "endTime": 20951,
+          "title": "Conclusion"
+        }
+      ],
+      "description": "Nikhil Saraf, SolidJS Core Team member, and maintainer of SolidStart joins us to talk about what he's been doing lately. He has been busy implementing a fully featured React Server Component solution with routing, data fetching, and mutation on top of Vite, and he is going to share with us what he has learned.\n\n[0:00] Preamble\n[8:15] Welcome Nikhil Saraf\n[20:00] RSC Checklist - What Do We Need?\n[36:30] The Perils of Nested Data Fetching\n[50:15] Patching Global Fetch\n[1:02:00] Routing is Essential\n[1:18:30] \"Fully React\" - HN Example Code Walkthrough\n[1:36:30] Demos: HN Example\n[1:46:45] Kerplunk! - Caching and Pre-Loading\n[2:05:00] Server Entry\n[2:17:15] Client Entry\n[2:32:15] Demos: Simple Mutation Example\n[2:44:15] RSC - SPA or MPA?\n[2:58:00] Demos: SSG, Sessions, Auth, and Apple Music\n[3:13:30] Key Takeaways: Separation & Data Distance\n[3:32:00] Key Takeaways: Propietary Data Format\n[3:38:00] Key Takeaways: Directives vs. Decorators\n[3:45:00] Evaluating Solid Server Components\n[3:57:30] Q & A: Differences with React & Solid \n[4:10:15] Q & A: What Would You Change with RSC's?  \n[4:16:45] Current Status of SolidStart  \n[4:37:15] Nikhil's Parting Notes\n[4:47:15] This Week in JavaScript: Solid News \n[4:50:00] TWiJ: Rich Harris - IMHO\n[4:54:15] TWiJ: Dan Abramov - Colocation and RSC Quiz \n[5:07:45] TWiJ: Theo Browne - RSC Thoughts \n[5:19:00] TWiJ: Dan Abramov - Defending Fetch Patch\n[5:31:30] TWiJ: Ryan's Thoughts on React & Standards\n[5:38:30] TWiJ: Dave Di Biase - Svelte Super Fan\n[5:46:00] Conclusion\n\nThanks @zombiefacesupreme for the timestamps."
+    }
+  }
+}

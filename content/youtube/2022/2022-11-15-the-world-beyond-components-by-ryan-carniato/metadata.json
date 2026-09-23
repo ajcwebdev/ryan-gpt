@@ -1,0 +1,94 @@
+{
+  "step1": {
+    "title": "The World Beyond Components, by Ryan Carniato",
+    "duration": "29:10",
+    "author": "JetBrains",
+    "url": "https://www.youtube.com/watch?v=-CrsHsBZFg4",
+    "publishDate": "2022-11-15",
+    "thumbnail": "https://i.ytimg.com/vi/-CrsHsBZFg4/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCGp4UBwpTNegd_4nCpuBcow",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 126,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 126,
+        "endTime": 169,
+        "title": "Components"
+      },
+      {
+        "startTime": 169,
+        "endTime": 242,
+        "title": "Memoize"
+      },
+      {
+        "startTime": 242,
+        "endTime": 259,
+        "title": "Dependency"
+      },
+      {
+        "startTime": 259,
+        "endTime": 308,
+        "title": "Fake Compiler"
+      },
+      {
+        "startTime": 308,
+        "endTime": 405,
+        "title": "What if"
+      },
+      {
+        "startTime": 405,
+        "endTime": 456,
+        "title": "Finegrained reactivity"
+      },
+      {
+        "startTime": 456,
+        "endTime": 488,
+        "title": "JS reactivity"
+      },
+      {
+        "startTime": 488,
+        "endTime": 604,
+        "title": "Signal and effect"
+      },
+      {
+        "startTime": 604,
+        "endTime": 806,
+        "title": "Implementation"
+      },
+      {
+        "startTime": 806,
+        "endTime": 844,
+        "title": "Primitives"
+      },
+      {
+        "startTime": 844,
+        "endTime": 1312,
+        "title": "Live Coding"
+      },
+      {
+        "startTime": 1312,
+        "endTime": 1444,
+        "title": "Component Rendering"
+      },
+      {
+        "startTime": 1444,
+        "endTime": 1538,
+        "title": "Reactive Advantage"
+      },
+      {
+        "startTime": 1538,
+        "endTime": 1579,
+        "title": "Summary"
+      },
+      {
+        "startTime": 1579,
+        "endTime": 1750,
+        "title": "Beyond Components"
+      }
+    ],
+    "description": "Components have been the foundation of how we've built web applications for almost a decade now. They've defined not only how we organize our code but how it runs.\n\nIn this talk, Ryan, author of SolidJS, will look at what comes after the component model. Driven by the need for more granularity, and empowered by compilation, reactivity is becoming the universal language of user interfaces.\n\nSpeaker: Ryan Carniato, \nPrincipal Engineer at Netlify\n\n#JavaScriptDay2022\n\n–––\n\n🔗 Browse our resources 🔗\n\nCheck out WebStorm, a JavaScript IDE by JetBrains, and get a 30-day free trial:\nhttps://www.jetbrains.com/webstorm/\n\n⭐️ Keep in touch ⭐️\n\nJetBrains on Twitter:\nhttps://twitter.com/JetBrains\n\nWebStorm on Twitter:\nhttps://twitter.com/WebStormIDE"
+  }
+}

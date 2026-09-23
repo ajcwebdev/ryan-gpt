@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "This Week in JavaScript... Conferences",
+      "slug": "2023-05-19-this-week-in-javascript-conferences",
+      "duration": "4:20:00",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=KMGJk2VtQ3I",
+      "publishDate": "2023-05-19",
+      "thumbnail": "https://i.ytimg.com/vi/KMGJk2VtQ3I/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 630,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 630,
+          "endTime": 1035,
+          "title": "International JavaScript Conference"
+        },
+        {
+          "startTime": 1035,
+          "endTime": 1620,
+          "title": "Interaction to Next Paint"
+        },
+        {
+          "startTime": 1620,
+          "endTime": 2325,
+          "title": "useTransition and INP"
+        },
+        {
+          "startTime": 2325,
+          "endTime": 3480,
+          "title": "Future Reactivity Design"
+        },
+        {
+          "startTime": 3480,
+          "endTime": 4260,
+          "title": "Reactathon: Server Components Panel"
+        },
+        {
+          "startTime": 4260,
+          "endTime": 5040,
+          "title": "React's Public Image and Marketing"
+        },
+        {
+          "startTime": 5040,
+          "endTime": 5835,
+          "title": "React, Vercel, PHP, and Serverless"
+        },
+        {
+          "startTime": 5835,
+          "endTime": 6045,
+          "title": "Block DOM & Million.js"
+        },
+        {
+          "startTime": 6045,
+          "endTime": 6720,
+          "title": "Qwik: 1.0 & Marketing"
+        },
+        {
+          "startTime": 6720,
+          "endTime": 7080,
+          "title": "Dan Abramov is Not Excited"
+        },
+        {
+          "startTime": 7080,
+          "endTime": 7635,
+          "title": "Ryan Carniato is Excited (Solid News)"
+        },
+        {
+          "startTime": 7635,
+          "endTime": 8400,
+          "title": "Remix Conf: The React Team Talk Signals"
+        },
+        {
+          "startTime": 8400,
+          "endTime": 9090,
+          "title": "Early Returns in React and SolidJS"
+        },
+        {
+          "startTime": 9090,
+          "endTime": 9690,
+          "title": "Signals as Implementation Detail & Performance"
+        },
+        {
+          "startTime": 9690,
+          "endTime": 10470,
+          "title": "Debugging React Forget"
+        },
+        {
+          "startTime": 10470,
+          "endTime": 10980,
+          "title": "Bun Bundler, Nuxt Dev Tools, and Vercel Storage"
+        },
+        {
+          "startTime": 10980,
+          "endTime": 12585,
+          "title": "Closure Extraction, Tree-Shaking, and Leaking Secrets"
+        },
+        {
+          "startTime": 12585,
+          "endTime": 13440,
+          "title": "The New Serverless Monolith, The Edge, and Astro"
+        },
+        {
+          "startTime": 13440,
+          "endTime": 14100,
+          "title": "Worker$ & npm create cloudflare"
+        },
+        {
+          "startTime": 14100,
+          "endTime": 14670,
+          "title": "BeJS & Dan Jutan"
+        },
+        {
+          "startTime": 14670,
+          "endTime": 15060,
+          "title": "Theo & Mustache Story"
+        },
+        {
+          "startTime": 15060,
+          "endTime": 15599,
+          "title": "SolidStart & Conclusion"
+        }
+      ],
+      "description": "Conference season has been abuzz the past month. I've been away a month, and I will be away more in coming weeks, but let's spend some time catching up on the latest.\n\n[0:00] - Preamble\n[10:30] - International JavaScript Conference\n[17:15] - Interaction to Next Paint\n[27:00] - useTransition and INP \n[38:45] - Future Reactivity Design   \n[58:00] - Reactathon: Server Components Panel\n[1:11:00] - React's Public Image and Marketing\n[1:24:00] - React, Vercel, PHP, and Serverless\n[1:37:15] - Block DOM & Million.js\n[1:40:45] - Qwik: 1.0 & Marketing \n[1:52:00] - Dan Abramov is Not Excited \n[1:58:00] - Ryan Carniato is Excited (Solid News)\n[2:07:15] - Remix Conf: The React Team Talk Signals\n[2:20:00] - Early Returns in React and SolidJS\n[2:31:30] - Signals as Implementation Detail & Performance\n[2:41:30] - Debugging React Forget\n[2:54:30] - Bun Bundler, Nuxt Dev Tools, and Vercel Storage \n[3:03:00] - Closure Extraction, Tree-Shaking, and Leaking Secrets\n[3:29:45] - The New Serverless Monolith, The Edge, and Astro\n[3:44:00] - Worker$ & npm create cloudflare\n[3:55:00] - BeJS & Dan Jutan\n[4:04:30] - Theo & Mustache Story\n[4:11:00] - SolidStart & Conclusion\n\nThank you @zombiefacesupreme for the timestamps."
+    }
+  }
+}

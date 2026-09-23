@@ -1,0 +1,413 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T02:40:48.792Z",
+  "updatedAt": "2026-09-12T02:42:30.716Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Dive into NativeScript w/Nathan Walker & Ammar Ahmed",
+          "duration": "5:05:40",
+          "channel": "Ryan Carniato",
+          "description": "By far after a metaframework, the most requested thing I get asked is about SolidJS' native story. Today we have the folks from NativeScript to finally answer that question, and show us all what the future of mobile development can look like.\n\n[0:00] Preamble\n[8:30] Introducing Nathan Walker, Ammar Ahmed, & NativeScript\n[18:00] Bringing Native APIs into JavaScript\n[25:15] Universal UI / Mitigating Context Switching\n[38:00] The UI Thread & Fine-Grained Reactivity\n[49:00] SolidStart Demo on Every Platform (even Vision Pro)\n[59:00] Exploring the Solid Code\n[1:06:00] DOMiNATIVE\n[1:18:00] Performance & DOM Events\n[1:25:00] Diving Deeper into the Project's Code\n[1:36:00] solid-navigation, nativescript-mason & bridging the gap\n[1:45:00] ListView & @NativeClass Overview\n[1:51:30] ListView Demo\n[2:11:00] Q&A: What's Next? Open Native? Workspaces? Embedded?\n[2:23:00] Nathan & Ammar's Parting Notes\n[2:28:00] Intermission & Ryan's Thoughts on NativeScript\n[2:39:30] This Week in JavaScript - Solid News (New Docs!)\n[2:51:00] SolidStart 1.0 - Update: How Long Until 1.0?\n[3:00:00] SolidStart 1.0 - Time Estimates & Open Source\n[3:12:00] SolidStart 1.0 - What Do We Still Need?\n[3:19:45] SolidStart 1.0 - Not a One-Man Show\n[3:32:45] createAsync - Data Loading, Caching, & Routing\n[3:38:00] createAsync - createAsync vs. createResource\n[3:43:30] createAsync - Todo Example #1\n[3:49:45] createAsync - Todo Example #2 (Cache Store)\n[3:57:00] createAsync - Ryan's Wild Promise Idea\n[4:11:00] Solid Router 0.9 - A Universal Router\n[4:17:45] Solid Router 0.9 - a & form\n[4:22:45] Solid Router 0.9 - How cache() & action() fit in\n[4:35:00] Solid Router 0.9 - Preload Functions & Deprecations\n[4:43:15] Solid Router 0.9 - Contrasted w/ Next.js File Routing\n[4:52:45] Solid Router 0.9 - Final Code Example\n[5:00:00] Conclusion\n\nThanks @zombiefacesupreme for the timestamps!",
+          "url": "https://www.youtube.com/watch?v=j0s8w34Xh9o",
+          "publishDate": "2023-11-04",
+          "thumbnail": "https://i.ytimg.com/vi/j0s8w34Xh9o/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 510,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 510,
+              "endTime": 1080,
+              "title": "Introducing Nathan Walker, Ammar Ahmed, & NativeScript"
+            },
+            {
+              "startTime": 1080,
+              "endTime": 1515,
+              "title": "Bringing Native APIs into JavaScript"
+            },
+            {
+              "startTime": 1515,
+              "endTime": 2280,
+              "title": "Universal UI / Mitigating Context Switching"
+            },
+            {
+              "startTime": 2280,
+              "endTime": 2940,
+              "title": "The UI Thread & Fine-Grained Reactivity"
+            },
+            {
+              "startTime": 2940,
+              "endTime": 3540,
+              "title": "SolidStart Demo on Every Platform (even Vision Pro)"
+            },
+            {
+              "startTime": 3540,
+              "endTime": 3960,
+              "title": "Exploring the Solid Code"
+            },
+            {
+              "startTime": 3960,
+              "endTime": 4680,
+              "title": "DOMiNATIVE"
+            },
+            {
+              "startTime": 4680,
+              "endTime": 5100,
+              "title": "Performance & DOM Events"
+            },
+            {
+              "startTime": 5100,
+              "endTime": 5760,
+              "title": "Diving Deeper into the Project's Code"
+            },
+            {
+              "startTime": 5760,
+              "endTime": 6300,
+              "title": "solid-navigation, nativescript-mason & bridging the gap"
+            },
+            {
+              "startTime": 6300,
+              "endTime": 6690,
+              "title": "ListView & @NativeClass Overview"
+            },
+            {
+              "startTime": 6690,
+              "endTime": 7860,
+              "title": "ListView Demo"
+            },
+            {
+              "startTime": 7860,
+              "endTime": 8580,
+              "title": "Q&A: What's Next? Open Native? Workspaces? Embedded?"
+            },
+            {
+              "startTime": 8580,
+              "endTime": 8880,
+              "title": "Nathan & Ammar's Parting Notes"
+            },
+            {
+              "startTime": 8880,
+              "endTime": 9570,
+              "title": "Intermission & Ryan's Thoughts on NativeScript"
+            },
+            {
+              "startTime": 9570,
+              "endTime": 10260,
+              "title": "This Week in JavaScript - Solid News (New Docs!)"
+            },
+            {
+              "startTime": 10260,
+              "endTime": 10800,
+              "title": "SolidStart 1.0 - Update: How Long Until 1.0?"
+            },
+            {
+              "startTime": 10800,
+              "endTime": 11520,
+              "title": "SolidStart 1.0 - Time Estimates & Open Source"
+            },
+            {
+              "startTime": 11520,
+              "endTime": 11985,
+              "title": "SolidStart 1.0 - What Do We Still Need?"
+            },
+            {
+              "startTime": 11985,
+              "endTime": 12765,
+              "title": "SolidStart 1.0 - Not a One-Man Show"
+            },
+            {
+              "startTime": 12765,
+              "endTime": 13080,
+              "title": "createAsync - Data Loading, Caching, & Routing"
+            },
+            {
+              "startTime": 13080,
+              "endTime": 13410,
+              "title": "createAsync - createAsync vs. createResource"
+            },
+            {
+              "startTime": 13410,
+              "endTime": 13785,
+              "title": "createAsync - Todo Example #1"
+            },
+            {
+              "startTime": 13785,
+              "endTime": 14220,
+              "title": "createAsync - Todo Example #2 (Cache Store)"
+            },
+            {
+              "startTime": 14220,
+              "endTime": 15060,
+              "title": "createAsync - Ryan's Wild Promise Idea"
+            },
+            {
+              "startTime": 15060,
+              "endTime": 15465,
+              "title": "Solid Router 0.9 - A Universal Router"
+            },
+            {
+              "startTime": 15465,
+              "endTime": 15765,
+              "title": "Solid Router 0.9 - a & form"
+            },
+            {
+              "startTime": 15765,
+              "endTime": 16500,
+              "title": "Solid Router 0.9 - How cache() & action() fit in"
+            },
+            {
+              "startTime": 16500,
+              "endTime": 16995,
+              "title": "Solid Router 0.9 - Preload Functions & Deprecations"
+            },
+            {
+              "startTime": 16995,
+              "endTime": 17565,
+              "title": "Solid Router 0.9 - Contrasted w/ Next.js File Routing"
+            },
+            {
+              "startTime": 17565,
+              "endTime": 18000,
+              "title": "Solid Router 0.9 - Final Code Example"
+            },
+            {
+              "startTime": 18000,
+              "endTime": 18340,
+              "title": "Conclusion"
+            }
+          ],
+          "slug": "2023-11-04-dive-into-nativescript-wnathan-walker-ammar-ahmed",
+          "audioFileName": "2023-11-04-dive-into-nativescript-wnathan-walker-ammar-ahmed.m4a",
+          "audioFileSize": 229103088,
+          "durationSeconds": 18340
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 117.17222222222222,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 117.17222222222222,
+                "costMultiplier": 1,
+                "durationSeconds": 18340
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 117.17222222222222,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 117.17222222222222,
+                "costMultiplier": 1,
+                "durationSeconds": 18340
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 117.17222222222222,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 117.17222222222222,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 18340
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3447920,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3447920,
+                "inputMetric": "durationSeconds",
+                "inputValue": 18340,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3447920
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 96688,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 96688,
+                "timingBreakdown": {
+                  "uploadMs": 3884,
+                  "createMs": 108,
+                  "pollMs": 7641,
+                  "pollSleepMs": 85028,
+                  "remoteProcessingMs": 85055
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 18340,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 5.272,
+                "throughputValue": 189.682,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 96686,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3884,
+                  "createMs": 108,
+                  "createCount": 1,
+                  "pollMs": 7641,
+                  "requestCount": 13
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "652bf925-8f48-4cf7-b064-56742f685053",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/4773578fe5833f25923d1e36b4cc15fb01b9de54f8dfe501e18ac75fd7e397b4/f86d4572-149b-4aca-a61c-45044fadc9cb",
+                  "createCompletedAt": "2026-09-12T02:40:57.787Z",
+                  "lastPollAt": "2026-09-12T02:42:30.481Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 96688,
+            "tokenCount": 44975,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "652bf925-8f48-4cf7-b064-56742f685053",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/4773578fe5833f25923d1e36b4cc15fb01b9de54f8dfe501e18ac75fd7e397b4/f86d4572-149b-4aca-a61c-45044fadc9cb",
+              "createCompletedAt": "2026-09-12T02:40:57.787Z",
+              "lastPollAt": "2026-09-12T02:42:30.481Z",
+              "completedAt": "2026-09-12T02:42:30.482Z"
+            },
+            "timings": {
+              "uploadMs": 3884,
+              "createMs": 108,
+              "createCount": 1,
+              "pollMs": 7641,
+              "pollSleepMs": 85028,
+              "pollCount": 11,
+              "remoteProcessingMs": 85055,
+              "requestCount": 13
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 2,
+                  "completed": 1,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789180853795,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

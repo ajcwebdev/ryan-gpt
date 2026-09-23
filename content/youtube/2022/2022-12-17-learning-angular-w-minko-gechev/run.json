@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Learning Angular w/ Minko Gechev",
+      "slug": "2022-12-17-learning-angular-w-minko-gechev",
+      "duration": "4:43:08",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=tfxxeknwsi8",
+      "publishDate": "2022-12-17",
+      "thumbnail": "https://i.ytimg.com/vi/tfxxeknwsi8/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 3460,
+          "title": "Random Chatter"
+        },
+        {
+          "startTime": 3460,
+          "endTime": 4484,
+          "title": "Welcome Minko"
+        },
+        {
+          "startTime": 4484,
+          "endTime": 5885,
+          "title": "Getting Started with Angular"
+        },
+        {
+          "startTime": 5885,
+          "endTime": 6425,
+          "title": "Compiled Output"
+        },
+        {
+          "startTime": 6425,
+          "endTime": 7406,
+          "title": "Nesting Components"
+        },
+        {
+          "startTime": 7406,
+          "endTime": 8018,
+          "title": "Writing a Directive"
+        },
+        {
+          "startTime": 8018,
+          "endTime": 8670,
+          "title": "Dependency Injection"
+        },
+        {
+          "startTime": 8670,
+          "endTime": 10845,
+          "title": "Reflecting on Angular"
+        },
+        {
+          "startTime": 10845,
+          "endTime": 16747,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 16747,
+          "endTime": 16988,
+          "title": "Outro"
+        }
+      ],
+      "description": "I've never looked at Angular before but that is all about to change. Who better to learn from than Minko Gechev the current Angular team lead.\n\n[0:00] Random Chatter\n[57:40] Welcome Minko\n[1:14:44] Getting Started with Angular\n[1:38:05] Compiled Output\n[1:47:05] Nesting Components\n[2:03:26] Writing a Directive\n[2:13:38] Dependency Injection\n[2:24:30] Reflecting on Angular\n[3:00:45] This Week in JavaScript\n[4:39:07] Outro"
+    }
+  }
+}

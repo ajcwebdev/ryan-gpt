@@ -1,0 +1,430 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T03:12:15.608Z",
+  "updatedAt": "2026-09-12T03:15:31.808Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "The Future of Routing w/ Tanner Linsley",
+          "duration": "4:34:24",
+          "channel": "Ryan Carniato",
+          "description": "Tanner is back to talk all things routing. We will catch up on his progress on Tanstack Router, talk about TypeScript, look at how data fetching and server rendering play a part and talk about where things are heading.\n\n[0:00] Preamble\n[5:30] Welcome Tanner Linsley\n[12:15] Routing & TypeScript - Why TanStack Router?\n[17:15] getParentRoute & Advanced TypeScript Inference\n[22:30] Relative Routing & Link\n[27:30] Declaration Merging - Extending the Register Interface\n[33:00] TanStack: A Framework for Client-Focused React Apps\n[42:00] File System Routing & Code Generation\n[59:00] Server-Side Rendering & the Stream Transform\n[1:06:00] Routing in React vs. Reactive Routing\n[1:11:00] Data-Fetching in Tanstack Router\n[1:20:00] Q&A: Browser APIs? Timeline? SearchParam Routing? \n[1:25:00] Farewell Tanner Linsley & More SearchParam Routing\n[1:34:00] Cache/Preload Architecture: RFC & Demo\n[1:50:00] Cache/Preload: Simple Examples\n[2:00:00] Cache/Preload: Hackernews\n[2:09:15] Cache/Preload: createAsync & Composing Primitives\n[2:19:30] Revisiting Partials\n[2:32:30] This Week in JavaScript: Data Fetching Debate\n[2:45:00] TWiJ: TanStack News & Browser Standards Discussion\n[2:51:30] TWiJ: Ryan Florence on Focus Events & flushSync()\n[2:58:00] TWiJ: Rick Hanlon on React Documentation Philosophy\n[3:05:30] TWiJ: Tauri, Brendan_CSEL's Migrations, & Alpine.js\n[3:14:00] TWiJ: Qwik's New Astro Integration & astro-remix\n[3:20:30] TWiJ: Next 14 & Partial Pre-Rendering\n[3:25:45] TWiJ: Netlify's New Features\n[3:32:30] TWiJ: MobX's Decorators & Qwik's Serialization\n[3:39:00] TWiJ: Closure Extraction in Server Actions\n[3:46:45] TWiJ: Using .bind() as an Alternative\n[4:02:00] TWiJ: Jason Lengstorf's Recent Content & MobX Again\n[4:06:00] Q&A: SolidStart, Nitro & Bundle Size\n[4:15:00] Q&A: React, State Management & MVC\n[4:21:00] Q&A: DHH & No-Build\n[4:29:00] Conclusion\n\nThanks to @zombiefacesupreme for the timestamps.",
+          "url": "https://www.youtube.com/watch?v=lrejTB07FOM",
+          "publishDate": "2023-11-18",
+          "thumbnail": "https://i.ytimg.com/vi/lrejTB07FOM/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 330,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 330,
+              "endTime": 735,
+              "title": "Welcome Tanner Linsley"
+            },
+            {
+              "startTime": 735,
+              "endTime": 1035,
+              "title": "Routing & TypeScript - Why TanStack Router?"
+            },
+            {
+              "startTime": 1035,
+              "endTime": 1350,
+              "title": "getParentRoute & Advanced TypeScript Inference"
+            },
+            {
+              "startTime": 1350,
+              "endTime": 1650,
+              "title": "Relative Routing & Link"
+            },
+            {
+              "startTime": 1650,
+              "endTime": 1980,
+              "title": "Declaration Merging - Extending the Register Interface"
+            },
+            {
+              "startTime": 1980,
+              "endTime": 2520,
+              "title": "TanStack: A Framework for Client-Focused React Apps"
+            },
+            {
+              "startTime": 2520,
+              "endTime": 3540,
+              "title": "File System Routing & Code Generation"
+            },
+            {
+              "startTime": 3540,
+              "endTime": 3960,
+              "title": "Server-Side Rendering & the Stream Transform"
+            },
+            {
+              "startTime": 3960,
+              "endTime": 4260,
+              "title": "Routing in React vs. Reactive Routing"
+            },
+            {
+              "startTime": 4260,
+              "endTime": 4800,
+              "title": "Data-Fetching in Tanstack Router"
+            },
+            {
+              "startTime": 4800,
+              "endTime": 5100,
+              "title": "Q&A: Browser APIs? Timeline? SearchParam Routing?"
+            },
+            {
+              "startTime": 5100,
+              "endTime": 5640,
+              "title": "Farewell Tanner Linsley & More SearchParam Routing"
+            },
+            {
+              "startTime": 5640,
+              "endTime": 6600,
+              "title": "Cache/Preload Architecture: RFC & Demo"
+            },
+            {
+              "startTime": 6600,
+              "endTime": 7200,
+              "title": "Cache/Preload: Simple Examples"
+            },
+            {
+              "startTime": 7200,
+              "endTime": 7755,
+              "title": "Cache/Preload: Hackernews"
+            },
+            {
+              "startTime": 7755,
+              "endTime": 8370,
+              "title": "Cache/Preload: createAsync & Composing Primitives"
+            },
+            {
+              "startTime": 8370,
+              "endTime": 9150,
+              "title": "Revisiting Partials"
+            },
+            {
+              "startTime": 9150,
+              "endTime": 9900,
+              "title": "This Week in JavaScript: Data Fetching Debate"
+            },
+            {
+              "startTime": 9900,
+              "endTime": 10290,
+              "title": "TWiJ: TanStack News & Browser Standards Discussion"
+            },
+            {
+              "startTime": 10290,
+              "endTime": 10680,
+              "title": "TWiJ: Ryan Florence on Focus Events & flushSync()"
+            },
+            {
+              "startTime": 10680,
+              "endTime": 11130,
+              "title": "TWiJ: Rick Hanlon on React Documentation Philosophy"
+            },
+            {
+              "startTime": 11130,
+              "endTime": 11640,
+              "title": "TWiJ: Tauri, Brendan_CSEL's Migrations, & Alpine.js"
+            },
+            {
+              "startTime": 11640,
+              "endTime": 12030,
+              "title": "TWiJ: Qwik's New Astro Integration & astro-remix"
+            },
+            {
+              "startTime": 12030,
+              "endTime": 12345,
+              "title": "TWiJ: Next 14 & Partial Pre-Rendering"
+            },
+            {
+              "startTime": 12345,
+              "endTime": 12750,
+              "title": "TWiJ: Netlify's New Features"
+            },
+            {
+              "startTime": 12750,
+              "endTime": 13140,
+              "title": "TWiJ: MobX's Decorators & Qwik's Serialization"
+            },
+            {
+              "startTime": 13140,
+              "endTime": 13605,
+              "title": "TWiJ: Closure Extraction in Server Actions"
+            },
+            {
+              "startTime": 13605,
+              "endTime": 14520,
+              "title": "TWiJ: Using .bind() as an Alternative"
+            },
+            {
+              "startTime": 14520,
+              "endTime": 14760,
+              "title": "TWiJ: Jason Lengstorf's Recent Content & MobX Again"
+            },
+            {
+              "startTime": 14760,
+              "endTime": 15300,
+              "title": "Q&A: SolidStart, Nitro & Bundle Size"
+            },
+            {
+              "startTime": 15300,
+              "endTime": 15660,
+              "title": "Q&A: React, State Management & MVC"
+            },
+            {
+              "startTime": 15660,
+              "endTime": 16140,
+              "title": "Q&A: DHH & No-Build"
+            },
+            {
+              "startTime": 16140,
+              "endTime": 16464,
+              "title": "Conclusion"
+            }
+          ],
+          "slug": "2023-11-18-the-future-of-routing-w-tanner-linsley",
+          "audioFileName": "2023-11-18-the-future-of-routing-w-tanner-linsley.m4a",
+          "audioFileSize": 205864082,
+          "durationSeconds": 16464
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 105.18666666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 105.18666666666667,
+                "costMultiplier": 1,
+                "durationSeconds": 16464
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 105.18666666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 105.18666666666667,
+                "costMultiplier": 1,
+                "durationSeconds": 16464
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 105.18666666666667,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 105.18666666666667,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 16464
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3095232,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3095232,
+                "inputMetric": "durationSeconds",
+                "inputValue": 16464,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3095232
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 191014,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 191014,
+                "timingBreakdown": {
+                  "uploadMs": 4025,
+                  "createMs": 125,
+                  "pollMs": 11777,
+                  "pollSleepMs": 175043,
+                  "remoteProcessingMs": 175087
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 16464,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 11.602,
+                "throughputValue": 86.193,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 191013,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4025,
+                  "createMs": 125,
+                  "createCount": 1,
+                  "pollMs": 11777,
+                  "requestCount": 22
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "adb38fc1-53f8-4cdf-9963-ec0305b8047c",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/34fb0ff9df36d957ca091f7f966622dff7107c6f5267fad52df34270df4d1389/66e85d14-e3b2-4926-844e-fb614244508d",
+                  "createCompletedAt": "2026-09-12T03:12:24.762Z",
+                  "lastPollAt": "2026-09-12T03:15:31.624Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 191014,
+            "tokenCount": 41058,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "adb38fc1-53f8-4cdf-9963-ec0305b8047c",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/34fb0ff9df36d957ca091f7f966622dff7107c6f5267fad52df34270df4d1389/66e85d14-e3b2-4926-844e-fb614244508d",
+              "createCompletedAt": "2026-09-12T03:12:24.762Z",
+              "lastPollAt": "2026-09-12T03:15:31.624Z",
+              "completedAt": "2026-09-12T03:15:31.625Z"
+            },
+            "timings": {
+              "uploadMs": 4025,
+              "createMs": 125,
+              "createCount": 1,
+              "pollMs": 11777,
+              "pollSleepMs": 175043,
+              "pollCount": 20,
+              "remoteProcessingMs": 175087,
+              "requestCount": 22
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 4,
+                  "active": 2,
+                  "activePeak": 4,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 9,
+                  "completed": 7,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789181661652,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789182740611,
+                      "previousLimit": 2,
+                      "nextLimit": 3,
+                      "reason": "startup-ramp"
+                    },
+                    {
+                      "atMs": 1789182863700,
+                      "previousLimit": 3,
+                      "nextLimit": 4,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 2,
+                      "activePeak": 4,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

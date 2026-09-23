@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Signals 2.0: The Future of Signals",
+      "slug": "2025-02-15-signals-20-the-future-of-signals",
+      "duration": "5:47:49",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=xnmvxWEK25I",
+      "publishDate": "2025-02-15",
+      "thumbnail": "https://i.ytimg.com/vi/xnmvxWEK25I/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 493,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 493,
+          "endTime": 838,
+          "title": "Async Parallel Fetching Example"
+        },
+        {
+          "startTime": 838,
+          "endTime": 1465,
+          "title": "Introducing createAsync"
+        },
+        {
+          "startTime": 1465,
+          "endTime": 1595,
+          "title": "Parallelizing Nested Fetching Example"
+        },
+        {
+          "startTime": 1595,
+          "endTime": 1718,
+          "title": "Surpassing the Limits of the Component Model"
+        },
+        {
+          "startTime": 1718,
+          "endTime": 2011,
+          "title": "Have we Solved Client Side Waterfalls?"
+        },
+        {
+          "startTime": 2011,
+          "endTime": 2354,
+          "title": "How Does Suspense Know to Wait?"
+        },
+        {
+          "startTime": 2354,
+          "endTime": 2507,
+          "title": "Is it just a Try/Catch?"
+        },
+        {
+          "startTime": 2507,
+          "endTime": 3142,
+          "title": "Back to Basics with Async"
+        },
+        {
+          "startTime": 3142,
+          "endTime": 3461,
+          "title": "Tearing by Default on Updates"
+        },
+        {
+          "startTime": 3461,
+          "endTime": 3860,
+          "title": "Async + createEffect"
+        },
+        {
+          "startTime": 3860,
+          "endTime": 4020,
+          "title": "Why Split Effects? (WSE)"
+        },
+        {
+          "startTime": 4020,
+          "endTime": 4222,
+          "title": "WSE - 3 Ways to Handle Async"
+        },
+        {
+          "startTime": 4222,
+          "endTime": 4714,
+          "title": "WSE - Composition is King"
+        },
+        {
+          "startTime": 4714,
+          "endTime": 4874,
+          "title": "WSE - Use a Compiler?"
+        },
+        {
+          "startTime": 4874,
+          "endTime": 5104,
+          "title": "WSE - Do other Primitives need to Split Tracking?"
+        },
+        {
+          "startTime": 5104,
+          "endTime": 6193,
+          "title": "WSE - Why Throw/Block Async? (Drawings)"
+        },
+        {
+          "startTime": 6193,
+          "endTime": 6310,
+          "title": "WSE - Who is Responsible for Suspense?"
+        },
+        {
+          "startTime": 6310,
+          "endTime": 6838,
+          "title": "Dynamic Fetching Example (DFE)"
+        },
+        {
+          "startTime": 6838,
+          "endTime": 7085,
+          "title": "DFE - Loading Affordances Still Define How UI is Built"
+        },
+        {
+          "startTime": 7085,
+          "endTime": 7568,
+          "title": "DFE - Self Healing ErrorBoundaries"
+        },
+        {
+          "startTime": 7568,
+          "endTime": 8030,
+          "title": "DFE - createEffect Error Handlers"
+        },
+        {
+          "startTime": 8030,
+          "endTime": 8598,
+          "title": "Pull vs Push vs Push-Pull"
+        },
+        {
+          "startTime": 8598,
+          "endTime": 9848,
+          "title": "Derived(Linked) Signals"
+        },
+        {
+          "startTime": 9848,
+          "endTime": 11084,
+          "title": "createProjection: Attempt to Port TodoMVC"
+        },
+        {
+          "startTime": 11084,
+          "endTime": 11815,
+          "title": "createProjection: Selector in JS Framework Benchmark"
+        },
+        {
+          "startTime": 11815,
+          "endTime": 13532,
+          "title": "createProjection: How to it Works"
+        },
+        {
+          "startTime": 13532,
+          "endTime": 13970,
+          "title": "onMount + onCleanup"
+        },
+        {
+          "startTime": 13970,
+          "endTime": 15315,
+          "title": "Inventory of Reactive Primitives"
+        },
+        {
+          "startTime": 15315,
+          "endTime": 15928,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 15928,
+          "endTime": 16120,
+          "title": "TWiJS - SolidStart 1.1.0"
+        },
+        {
+          "startTime": 16120,
+          "endTime": 16511,
+          "title": "TWiJS - Road to Solid 2.0"
+        },
+        {
+          "startTime": 16511,
+          "endTime": 17168,
+          "title": "TWiJS - Reflecting on 7 years of SolidJS"
+        },
+        {
+          "startTime": 17168,
+          "endTime": 18333,
+          "title": "TWiJS - RSCs Not a Silver Bullet?"
+        },
+        {
+          "startTime": 18333,
+          "endTime": 19192,
+          "title": "TWiJS - React did a lot more Right then it did Wrong"
+        },
+        {
+          "startTime": 19192,
+          "endTime": 20869,
+          "title": "TWiJS - React Post CRA Recommendations vs Vite"
+        }
+      ],
+      "description": "We started a journey almost a year ago to look at what the future of Signals looks like. It's led to a ton of experimentation and writeups. Today I am very excited to give you the first peak at that future. \n\nBanner Credit: Thank you to Andrea Ciani for his worked entitled \"Sci-fi Signals in geometry nodes\" for providing images for non-commercial use.\n\n[0:00] Introduction\n[8:13] Async Parallel Fetching Example\n[13:58] Introducing createAsync\n[24:25] Parallelizing Nested Fetching Example\n[26:35] Surpassing the Limits of the Component Model\n[28:38] Have we Solved Client Side Waterfalls?\n[33:31] How Does Suspense Know to Wait?\n[39:14] Is it just a Try/Catch?\n[41:47] Back to Basics with Async\n[52:22] Tearing by Default on Updates\n[57:41] Async + createEffect\n[1:04:20] Why Split Effects? (WSE)\n[1:07:00] WSE - 3 Ways to Handle Async\n[1:10:22] WSE - Composition is King\n[1:18:34] WSE - Use a Compiler?\n[1:21:14] WSE - Do other Primitives need to Split Tracking?\n[1:25:04] WSE - Why Throw/Block Async? (Drawings)\n[1:43:13] WSE - Who is Responsible for Suspense?\n[1:45:10] Dynamic Fetching Example (DFE)\n[1:53:58] DFE - Loading Affordances Still Define How UI is Built\n[1:58:05] DFE - Self Healing ErrorBoundaries\n[2:06:08] DFE - createEffect Error Handlers\n[2:13:50] Pull vs Push vs Push-Pull\n[2:23:18] Derived(Linked) Signals\n[2:44:08] createProjection: Attempt to Port TodoMVC\n[3:04:44] createProjection: Selector in JS Framework Benchmark\n[3:16:55] createProjection: How to it Works\n[3:45:32] onMount + onCleanup\n[3:52:50] Inventory of Reactive Primitives\n[4:15:15] This Week in JavaScript\n[4:25:28] TWiJS - SolidStart 1.1.0\n[4:28:40] TWiJS - Road to Solid 2.0\n[4:35:11] TWiJS - Reflecting on 7 years of SolidJS\n[4:46:08] TWiJS - RSCs Not a Silver Bullet?\n[5:05:33] TWiJS - React did a lot more Right then it did Wrong\n[5:19:52] TWiJS - React Post CRA Recommendations vs Vite"
+    }
+  }
+}

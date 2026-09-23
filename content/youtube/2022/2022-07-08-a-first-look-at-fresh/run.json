@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "A First Look at Fresh",
+      "slug": "2022-07-08-a-first-look-at-fresh",
+      "duration": "3:57:54",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=jfT7aEoeaGE",
+      "publishDate": "2022-07-08",
+      "thumbnail": "https://i.ytimg.com/vi/jfT7aEoeaGE/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 380,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 380,
+          "endTime": 3992,
+          "title": "This Month in JavaScript"
+        },
+        {
+          "startTime": 3992,
+          "endTime": 4655,
+          "title": "Getting Started with Fresh"
+        },
+        {
+          "startTime": 4655,
+          "endTime": 7420,
+          "title": "Hackernews Landing Page"
+        },
+        {
+          "startTime": 7420,
+          "endTime": 8068,
+          "title": "Adding Islands"
+        },
+        {
+          "startTime": 8068,
+          "endTime": 9229,
+          "title": "Attempting Recursive Partial Hydration"
+        },
+        {
+          "startTime": 9229,
+          "endTime": 9990,
+          "title": "Deno Deploy"
+        },
+        {
+          "startTime": 9990,
+          "endTime": 11140,
+          "title": "Looking at Performance"
+        },
+        {
+          "startTime": 11140,
+          "endTime": 13232,
+          "title": "What's going on with First Paint?"
+        },
+        {
+          "startTime": 13232,
+          "endTime": 13515,
+          "title": "Thoughts on Fresh"
+        },
+        {
+          "startTime": 13515,
+          "endTime": 14274,
+          "title": "Q & A"
+        }
+      ],
+      "description": "I'm going to run the latest Islands-Architecture based through its paces and see what it is all about.\n\n[0:00] Introduction\n[6:20] This Month in JavaScript\n[1:06:32] Getting Started with Fresh\n[1:17:35] Hackernews Landing Page\n[2:03:40] Adding Islands\n[2:14:28] Attempting Recursive Partial Hydration\n[2:33:49] Deno Deploy\n[2:46:30] Looking at Performance\n[3:05:40] What's going on with First Paint?\n[3:40:32] Thoughts on Fresh\n[3:45:15] Q & A"
+    }
+  }
+}

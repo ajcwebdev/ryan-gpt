@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Building SolidJS v1.8",
+      "slug": "2023-10-06-building-solidjs-v18",
+      "duration": "3:45:38",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=87D15Gu1d6w",
+      "publishDate": "2023-10-06",
+      "thumbnail": "https://i.ytimg.com/vi/87D15Gu1d6w/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 660,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 660,
+          "endTime": 1335,
+          "title": "Introducing Solid 1.8 - Overview"
+        },
+        {
+          "startTime": 1335,
+          "endTime": 2235,
+          "title": "Solid 1.8 - De-duping Streaming Serialization"
+        },
+        {
+          "startTime": 2235,
+          "endTime": 2910,
+          "title": "Solid 1.8 - Nested Promise Resolution in Action"
+        },
+        {
+          "startTime": 2910,
+          "endTime": 3360,
+          "title": "Solid 1.8 - Q & A: Bad Network? Reactive Graph? AWS?"
+        },
+        {
+          "startTime": 3360,
+          "endTime": 4245,
+          "title": "Solid 1.8 - Q & A: JSX? SWC? Bun? Compilation? No Build?"
+        },
+        {
+          "startTime": 4245,
+          "endTime": 4710,
+          "title": "Solid 1.8 - Hydration Improvements"
+        },
+        {
+          "startTime": 4710,
+          "endTime": 5610,
+          "title": "Solid 1.8 - Smaller Templates"
+        },
+        {
+          "startTime": 5610,
+          "endTime": 6330,
+          "title": "Solid 1.8 - Better Guards on Global Scripts"
+        },
+        {
+          "startTime": 6330,
+          "endTime": 7320,
+          "title": "Solid 1.8 - Handling Hydration Mismatches"
+        },
+        {
+          "startTime": 7320,
+          "endTime": 7605,
+          "title": "SolidJS Pain Points & Pitfalls - Intro"
+        },
+        {
+          "startTime": 7605,
+          "endTime": 8490,
+          "title": "SPP&P - ClassList"
+        },
+        {
+          "startTime": 8490,
+          "endTime": 9210,
+          "title": "SPP&P - Directives"
+        },
+        {
+          "startTime": 9210,
+          "endTime": 9960,
+          "title": "SPP&P - Prop Wrapping & Untrack Reactive Things"
+        },
+        {
+          "startTime": 9960,
+          "endTime": 10410,
+          "title": "SPP&P - onCleanup & Resource Mutation"
+        },
+        {
+          "startTime": 10410,
+          "endTime": 10770,
+          "title": "SPP&P - Resource in Transitions"
+        },
+        {
+          "startTime": 10770,
+          "endTime": 11100,
+          "title": "SPP&P - Conclusion"
+        },
+        {
+          "startTime": 11100,
+          "endTime": 11400,
+          "title": "This Week in JavaScript - Solid News"
+        },
+        {
+          "startTime": 11400,
+          "endTime": 12060,
+          "title": "TWiJ - Svelte Runes & Signals"
+        },
+        {
+          "startTime": 12060,
+          "endTime": 12720,
+          "title": "TWiJ - ViteConf"
+        },
+        {
+          "startTime": 12720,
+          "endTime": 13230,
+          "title": "TWiJ - Netlify's New Features (SWR)"
+        },
+        {
+          "startTime": 13230,
+          "endTime": 13538,
+          "title": "TWiJ - Valibot, angular-signals-jsx, and Conclusion"
+        }
+      ],
+      "description": "The upcoming SolidJS v1.8 release might not be the most flashy but it has us re-examining our foundations on the server. Join me as I talk through the thinking and features that go into the latest Solid release.\n\n[0:00] Preamble\n[11:00] Introducing Solid 1.8 - Overview\n[22:15] Solid 1.8 - De-duping Streaming Serialization\n[37:15] Solid 1.8 - Nested Promise Resolution in Action\n[48:30] Solid 1.8 - Q & A: Bad Network? Reactive Graph? AWS?\n[56:00] Solid 1.8 - Q & A: JSX? SWC? Bun? Compilation? No Build?\n[1:10:45] Solid 1.8 - Hydration Improvements\n[1:18:30] Solid 1.8 - Smaller Templates\n[1:33:30] Solid 1.8 - Better Guards on Global Scripts\n[1:45:30] Solid 1.8 - Handling Hydration Mismatches\n[2:02:00] SolidJS Pain Points & Pitfalls - Intro\n[2:06:45] SPP&P - ClassList\n[2:21:30] SPP&P - Directives\n[2:33:30] SPP&P - Prop Wrapping & Untrack Reactive Things\n[2:46:00] SPP&P - onCleanup & Resource Mutation\n[2:53:30] SPP&P - Resource in Transitions\n[2:59:30] SPP&P - Conclusion\n[3:05:00] This Week in JavaScript - Solid News\n[3:10:00] TWiJ - Svelte Runes & Signals\n[3:21:00] TWiJ - ViteConf\n[3:32:00] TWiJ - Netlify's New Features (SWR)\n[3:40:30] TWiJ - Valibot, angular-signals-jsx, and Conclusion\n\nThanks to @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

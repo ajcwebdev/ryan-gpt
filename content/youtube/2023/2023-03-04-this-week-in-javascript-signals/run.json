@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "This Week in J̶a̶v̶a̶S̶c̶r̶i̶p̶t̶ Signals",
+      "slug": "2023-03-04-this-week-in-javascript-signals",
+      "duration": "5:14:44",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=g584AIL1HtI",
+      "publishDate": "2023-03-04",
+      "thumbnail": "https://i.ytimg.com/vi/g584AIL1HtI/sddefault.jpg?v=6402482e",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 378,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 378,
+          "endTime": 594,
+          "title": "Why is everyone talking Signals?"
+        },
+        {
+          "startTime": 594,
+          "endTime": 843,
+          "title": "Angular Lights the Fire"
+        },
+        {
+          "startTime": 843,
+          "endTime": 928,
+          "title": "Qwik pours on the Gasoline"
+        },
+        {
+          "startTime": 928,
+          "endTime": 1094,
+          "title": "React joins the Fray"
+        },
+        {
+          "startTime": 1094,
+          "endTime": 1367,
+          "title": "Return of the Old Guard"
+        },
+        {
+          "startTime": 1367,
+          "endTime": 1538,
+          "title": "Focusing the Narrative"
+        },
+        {
+          "startTime": 1538,
+          "endTime": 1630,
+          "title": "Aside: Proxies vs Functions"
+        },
+        {
+          "startTime": 1630,
+          "endTime": 1830,
+          "title": "Starting the Dialogue"
+        },
+        {
+          "startTime": 1830,
+          "endTime": 2547,
+          "title": "Does Vue have Signals?"
+        },
+        {
+          "startTime": 2547,
+          "endTime": 2629,
+          "title": "React looks like a Signals Library"
+        },
+        {
+          "startTime": 2629,
+          "endTime": 2908,
+          "title": "Immediate vs Retained Mode"
+        },
+        {
+          "startTime": 2908,
+          "endTime": 3130,
+          "title": "Evolution of Signals"
+        },
+        {
+          "startTime": 3130,
+          "endTime": 3620,
+          "title": "MobX Solved Everything"
+        },
+        {
+          "startTime": 3620,
+          "endTime": 4325,
+          "title": "S.js Solved Disposal"
+        },
+        {
+          "startTime": 4325,
+          "endTime": 4640,
+          "title": "Signals in the Virtual DOM"
+        },
+        {
+          "startTime": 4640,
+          "endTime": 4980,
+          "title": "Vue Vapor will be Fast"
+        },
+        {
+          "startTime": 4980,
+          "endTime": 5310,
+          "title": "Stitching a Narrative"
+        },
+        {
+          "startTime": 5310,
+          "endTime": 6061,
+          "title": "React vs Signals"
+        },
+        {
+          "startTime": 6061,
+          "endTime": 6359,
+          "title": "Something to be Fixed?"
+        },
+        {
+          "startTime": 6359,
+          "endTime": 7740,
+          "title": "Compilation as a Fix?"
+        },
+        {
+          "startTime": 7740,
+          "endTime": 7866,
+          "title": "React looks like a Signals Library, Revisited"
+        },
+        {
+          "startTime": 7866,
+          "endTime": 8092,
+          "title": "React vs the World"
+        },
+        {
+          "startTime": 8092,
+          "endTime": 8877,
+          "title": "Dan Abramov Discussion"
+        },
+        {
+          "startTime": 8877,
+          "endTime": 9038,
+          "title": "React: The Philosophy"
+        },
+        {
+          "startTime": 9038,
+          "endTime": 9264,
+          "title": "Selling Signals"
+        },
+        {
+          "startTime": 9264,
+          "endTime": 9640,
+          "title": "Living up to the Ideal"
+        },
+        {
+          "startTime": 9640,
+          "endTime": 10970,
+          "title": "Why Signals"
+        },
+        {
+          "startTime": 10970,
+          "endTime": 12745,
+          "title": "Too Many Frameworks?"
+        },
+        {
+          "startTime": 12745,
+          "endTime": 13280,
+          "title": "Bring it in the Language?"
+        },
+        {
+          "startTime": 13280,
+          "endTime": 13883,
+          "title": "Signia"
+        },
+        {
+          "startTime": 13883,
+          "endTime": 15994,
+          "title": "Jotai"
+        },
+        {
+          "startTime": 15994,
+          "endTime": 18884,
+          "title": "Solid Strict Mode?"
+        }
+      ],
+      "description": "A week ago I had a very different idea of how this week would go but here we are. Let's wrap it up in style as I put it all in perspective.\n\n[0:00] Introduction\n[6:18] Why is everyone talking Signals?\n[9:54] Angular Lights the Fire\n[14:03] Qwik pours on the Gasoline\n[15:28] React joins the Fray\n[18:14] Return of the Old Guard\n[22:47] Focusing the Narrative\n[25:38] Aside: Proxies vs Functions\n[27:10] Starting the Dialogue\n[30:30] Does Vue have Signals?\n[42:27] React looks like a Signals Library\n[43:49] Immediate vs Retained Mode\n[48:28] Evolution of Signals\n[52:10] MobX Solved Everything\n[1:00:20] S.js Solved Disposal\n[1:12:05] Signals in the Virtual DOM\n[1:17:20] Vue Vapor will be Fast\n[1:23:00] Stitching a Narrative\n[1:28:30] React vs Signals\n[1:41:01] Something to be Fixed?\n[1:45:59] Compilation as a Fix?\n[2:09:00] React looks like a Signals Library, Revisited\n[2:11:06] React vs the World\n[2:14:52] Dan Abramov Discussion\n[2:27:57] React: The Philosophy\n[2:30:38] Selling Signals\n[2:34:24] Living up to the Ideal\n[2:40:40] Why Signals\n\nJust Chatting\n[3:02:50] Too Many Frameworks?\n[3:32:25] Bring it in the Language?\n[3:41:20] Signia\n[3:51:23] Jotai\n[4:26:34] Solid Strict Mode?"
+    }
+  }
+}

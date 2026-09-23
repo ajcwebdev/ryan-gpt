@@ -1,0 +1,298 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T12:22:10.970Z",
+  "updatedAt": "2026-09-12T12:23:55.761Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Learning Angular w/ Minko Gechev",
+          "duration": "4:43:08",
+          "channel": "Ryan Carniato",
+          "description": "I've never looked at Angular before but that is all about to change. Who better to learn from than Minko Gechev the current Angular team lead.\n\n[0:00] Random Chatter\n[57:40] Welcome Minko\n[1:14:44] Getting Started with Angular\n[1:38:05] Compiled Output\n[1:47:05] Nesting Components\n[2:03:26] Writing a Directive\n[2:13:38] Dependency Injection\n[2:24:30] Reflecting on Angular\n[3:00:45] This Week in JavaScript\n[4:39:07] Outro",
+          "url": "https://www.youtube.com/watch?v=tfxxeknwsi8",
+          "publishDate": "2022-12-17",
+          "thumbnail": "https://i.ytimg.com/vi/tfxxeknwsi8/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 3460,
+              "title": "Random Chatter"
+            },
+            {
+              "startTime": 3460,
+              "endTime": 4484,
+              "title": "Welcome Minko"
+            },
+            {
+              "startTime": 4484,
+              "endTime": 5885,
+              "title": "Getting Started with Angular"
+            },
+            {
+              "startTime": 5885,
+              "endTime": 6425,
+              "title": "Compiled Output"
+            },
+            {
+              "startTime": 6425,
+              "endTime": 7406,
+              "title": "Nesting Components"
+            },
+            {
+              "startTime": 7406,
+              "endTime": 8018,
+              "title": "Writing a Directive"
+            },
+            {
+              "startTime": 8018,
+              "endTime": 8670,
+              "title": "Dependency Injection"
+            },
+            {
+              "startTime": 8670,
+              "endTime": 10845,
+              "title": "Reflecting on Angular"
+            },
+            {
+              "startTime": 10845,
+              "endTime": 16747,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 16747,
+              "endTime": 16988,
+              "title": "Outro"
+            }
+          ],
+          "slug": "2022-12-17-learning-angular-w-minko-gechev",
+          "audioFileName": "2022-12-17-learning-angular-w-minko-gechev.m4a",
+          "audioFileSize": 212687068,
+          "durationSeconds": 16988
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 108.53444444444443,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 108.53444444444443,
+                "costMultiplier": 1,
+                "durationSeconds": 16988
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 108.53444444444443,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 108.53444444444443,
+                "costMultiplier": 1,
+                "durationSeconds": 16988
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 108.53444444444443,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 108.53444444444443,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 16988
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3193744,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3193744,
+                "inputMetric": "durationSeconds",
+                "inputValue": 16988,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3193744
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 104562,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 104562,
+                "timingBreakdown": {
+                  "uploadMs": 4020,
+                  "createMs": 119,
+                  "pollMs": 15398,
+                  "pollSleepMs": 85010,
+                  "remoteProcessingMs": 85025
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 16988,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 6.155,
+                "throughputValue": 162.468,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 104561,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4020,
+                  "createMs": 119,
+                  "createCount": 1,
+                  "pollMs": 15398,
+                  "requestCount": 13
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "2b2a8553-6861-4385-a77c-ac65b1df5a0b",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/c95b29111fa3f5a8c10cf9f5b5ebd4e779662a3a7d73633d11e6d83c25ae6a3f/23835e79-e1fb-4393-856e-616018ef9f59",
+                  "createCompletedAt": "2026-09-12T12:22:15.110Z",
+                  "lastPollAt": "2026-09-12T12:23:55.532Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 104562,
+            "tokenCount": 44226,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "2b2a8553-6861-4385-a77c-ac65b1df5a0b",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/c95b29111fa3f5a8c10cf9f5b5ebd4e779662a3a7d73633d11e6d83c25ae6a3f/23835e79-e1fb-4393-856e-616018ef9f59",
+              "createCompletedAt": "2026-09-12T12:22:15.110Z",
+              "lastPollAt": "2026-09-12T12:23:55.532Z",
+              "completedAt": "2026-09-12T12:23:55.533Z"
+            },
+            "timings": {
+              "uploadMs": 4020,
+              "createMs": 119,
+              "createCount": 1,
+              "pollMs": 15398,
+              "pollSleepMs": 85010,
+              "pollCount": 11,
+              "remoteProcessingMs": 85025,
+              "requestCount": 13
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 5,
+                  "completed": 4,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789215516976,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,9 @@ async function getAllMarkdownFiles(dir: string): Promise<string[]> {
     if (entry.isDirectory()) {
       const nestedFiles = await getAllMarkdownFiles(fullPath)
       mdFiles.push(...nestedFiles)
-    } else if (entry.isFile() && entry.name.toLowerCase().endsWith('.md')) {
+    } else if (entry.isFile() && entry.name.toLowerCase().endsWith('.md') &&
+      !(dir.includes(join('content', 'youtube')) &&
+        (entry.name === 'prompt.md' || entry.name.endsWith('-prompt.md')))) {
       mdFiles.push(fullPath)
     }
   }
@@ -47,7 +49,7 @@ async function getAllMarkdownFiles(dir: string): Promise<string[]> {
 /**
  * Creates embeddings for all .md files found in the content directories (recursively).
  * The embeddings are stored in a JSON file named "embeddings.json" in the project root,
- * keyed by the relative path (e.g., "content/youtube/2022/2022-01-08-something.md"
+ * keyed by the relative path (e.g., "content/youtube/2022/2022-01-08-something/2022-01-08-something.md"
  * or "content/blog/2025/2025-01-01-post.md").
  *
  * @async

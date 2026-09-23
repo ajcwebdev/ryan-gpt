@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Ride the LightningJS w/ Chris Lorenzo",
+      "slug": "2024-04-20-ride-the-lightningjs-w-chris-lorenzo",
+      "duration": "5:03:12",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=NDRV14_WDYA",
+      "publishDate": "2024-04-20",
+      "thumbnail": "https://i.ytimg.com/vi/NDRV14_WDYA/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 420,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 420,
+          "endTime": 1350,
+          "title": "Welcome Chris Lorenzo & What is LightningJS?"
+        },
+        {
+          "startTime": 1350,
+          "endTime": 1875,
+          "title": "Technological Constraints of Televisions"
+        },
+        {
+          "startTime": 1875,
+          "endTime": 2415,
+          "title": "Canvas, WebGL, & LightningJS 3.0"
+        },
+        {
+          "startTime": 2415,
+          "endTime": 3090,
+          "title": "Solid's Universal Renderer"
+        },
+        {
+          "startTime": 3090,
+          "endTime": 3900,
+          "title": "Why Solid?"
+        },
+        {
+          "startTime": 3900,
+          "endTime": 4320,
+          "title": "React Native Comparison & Why A DOM Tree?"
+        },
+        {
+          "startTime": 4320,
+          "endTime": 4890,
+          "title": "The Difficulties of Text Rendering"
+        },
+        {
+          "startTime": 4890,
+          "endTime": 5370,
+          "title": "More on Backwards Compatibility"
+        },
+        {
+          "startTime": 5370,
+          "endTime": 5610,
+          "title": "How Do The Types Work? TypeScript Fun!"
+        },
+        {
+          "startTime": 5610,
+          "endTime": 6255,
+          "title": "Exploring The Movies Demo"
+        },
+        {
+          "startTime": 6255,
+          "endTime": 6555,
+          "title": "Video Playback in LightningJS"
+        },
+        {
+          "startTime": 6555,
+          "endTime": 7110,
+          "title": "Animations & FlexBox in LightningJS"
+        },
+        {
+          "startTime": 7110,
+          "endTime": 7545,
+          "title": "Pushing Standards Forward & Vue Experiments"
+        },
+        {
+          "startTime": 7545,
+          "endTime": 8235,
+          "title": "Performance & Rendering Optimizations"
+        },
+        {
+          "startTime": 8235,
+          "endTime": 8805,
+          "title": "Q&A: Web Workers? Getting Started?"
+        },
+        {
+          "startTime": 8805,
+          "endTime": 9480,
+          "title": "Dave Di Biase Joins React Miami Panel"
+        },
+        {
+          "startTime": 9480,
+          "endTime": 9735,
+          "title": "Solid's Popularity in the Real World"
+        },
+        {
+          "startTime": 9735,
+          "endTime": 10185,
+          "title": "The Current Framework Landscape"
+        },
+        {
+          "startTime": 10185,
+          "endTime": 10845,
+          "title": "Q&A: RSCs? Reactivity? Movies Demo? Start?"
+        },
+        {
+          "startTime": 10845,
+          "endTime": 11085,
+          "title": "The Next JavaScript Framework Benchmark"
+        },
+        {
+          "startTime": 11085,
+          "endTime": 11745,
+          "title": "TNJSFB: Hydration Cost & We Have a Test?"
+        },
+        {
+          "startTime": 11745,
+          "endTime": 12105,
+          "title": "TNJSFB: What Do We Measure? & Conclusion"
+        },
+        {
+          "startTime": 12105,
+          "endTime": 12435,
+          "title": "Partially Lazy Reactivity"
+        },
+        {
+          "startTime": 12435,
+          "endTime": 12915,
+          "title": "PLR: Pure Sinks & Scheduling"
+        },
+        {
+          "startTime": 12915,
+          "endTime": 13590,
+          "title": "PLR: Suspense, Transitions & Concurrency"
+        },
+        {
+          "startTime": 13590,
+          "endTime": 14160,
+          "title": "PLR: Revisiting Rendering"
+        },
+        {
+          "startTime": 14160,
+          "endTime": 15030,
+          "title": "PLR: Inserting Nodes & \"Onioning\""
+        },
+        {
+          "startTime": 15030,
+          "endTime": 15825,
+          "title": "PLR: Other Thoughts & Conclusion"
+        },
+        {
+          "startTime": 15825,
+          "endTime": 16410,
+          "title": "This Week in JavaScript: Solid News"
+        },
+        {
+          "startTime": 16410,
+          "endTime": 16695,
+          "title": "TWiJ: Tailwind Signals & Declarative Routes"
+        },
+        {
+          "startTime": 16695,
+          "endTime": 17040,
+          "title": "TWiJ: TC39 Signals, React, Remix & RSCs"
+        },
+        {
+          "startTime": 17040,
+          "endTime": 17490,
+          "title": "TWiJ: HTMX vs. React vs. Solid (Need & Want)"
+        },
+        {
+          "startTime": 17490,
+          "endTime": 18192,
+          "title": "TWiJ: What's Going On With The Edge?"
+        }
+      ],
+      "description": "LightningJS is a WebGL renderer for Television UIs developed and used by Comcast for apps like Peacock. SolidJS is a lightweight and highly performant reactive framework that supports custom renderers. Are these the perfect match? Chris Lorenzo, creator of SolidJS integration for Lightning 3, joins the stream today to talk about this powerful pair.\n\n[0:00] Preamble\n[7:00] Welcome Chris Lorenzo & What is LightningJS?\n[22:30] Technological Constraints of Televisions\n[31:15] Canvas, WebGL, & LightningJS 3.0\n[40:15] Solid's Universal Renderer\n[51:30] Why Solid?\n[1:05:00] React Native Comparison & Why A DOM Tree?\n[1:12:00] The Difficulties of Text Rendering\n[1:21:30] More on Backwards Compatibility\n[1:29:30] How Do The Types Work? TypeScript Fun!\n[1:33:30] Exploring The Movies Demo\n[1:44:15] Video Playback in LightningJS\n[1:49:15] Animations & FlexBox in LightningJS\n[1:58:30] Pushing Standards Forward & Vue Experiments\n[2:05:45] Performance & Rendering Optimizations\n[2:17:15] Q&A: Web Workers? Getting Started?\n[2:26:45] Dave Di Biase Joins React Miami Panel\n[2:38:00] Solid's Popularity in the Real World\n[2:42:15] The Current Framework Landscape\n[2:49:45] Q&A: RSCs? Reactivity? Movies Demo? Start?\n[3:00:45] The Next JavaScript Framework Benchmark\n[3:04:45] TNJSFB: Hydration Cost & We Have a Test?\n[3:15:45] TNJSFB: What Do We Measure? & Conclusion\n[3:21:45] Partially Lazy Reactivity\n[3:27:15] PLR: Pure Sinks & Scheduling\n[3:35:15] PLR: Suspense, Transitions & Concurrency\n[3:46:30] PLR: Revisiting Rendering\n[3:56:00] PLR: Inserting Nodes & \"Onioning\"\n[4:10:30] PLR: Other Thoughts & Conclusion\n[4:23:45] This Week in JavaScript: Solid News\n[4:33:30] TWiJ: Tailwind Signals & Declarative Routes\n[4:38:15] TWiJ: TC39 Signals, React, Remix & RSCs\n[4:44:00] TWiJ: HTMX vs. React vs. Solid (Need & Want)\n[4:51:30] TWiJ: What's Going On With The Edge?\n\nThanks @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

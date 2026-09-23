@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Petite Solid?! Let's build a Micro View Library",
+      "slug": "2022-01-08-petite-solid-lets-build-a-micro-view-library",
+      "duration": "2:02:32",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=tcwe85p7M9c",
+      "publishDate": "2022-01-08",
+      "thumbnail": "https://i.ytimg.com/vi/tcwe85p7M9c/sddefault.jpg?v=61d88837",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 172,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 172,
+          "endTime": 1031,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 1031,
+          "endTime": 1498,
+          "title": "Introducing Alpine/Petite Vue"
+        },
+        {
+          "startTime": 1498,
+          "endTime": 1630,
+          "title": "Solid Hack & v1.3"
+        },
+        {
+          "startTime": 1630,
+          "endTime": 1964,
+          "title": "Introducing Reactive Templating"
+        },
+        {
+          "startTime": 1964,
+          "endTime": 2174,
+          "title": "Rendeing with innerHTML"
+        },
+        {
+          "startTime": 2174,
+          "endTime": 2335,
+          "title": "Diverging Approaches to Frameworks"
+        },
+        {
+          "startTime": 2335,
+          "endTime": 3596,
+          "title": "Templates in the HTML"
+        },
+        {
+          "startTime": 3596,
+          "endTime": 4049,
+          "title": "Event Binding"
+        },
+        {
+          "startTime": 4049,
+          "endTime": 4574,
+          "title": "Attribute Binding"
+        },
+        {
+          "startTime": 4574,
+          "endTime": 4800,
+          "title": "Fix Incorrect Walker"
+        },
+        {
+          "startTime": 4800,
+          "endTime": 5797,
+          "title": "If Directive"
+        },
+        {
+          "startTime": 5797,
+          "endTime": 6600,
+          "title": "For Directive"
+        },
+        {
+          "startTime": 6600,
+          "endTime": 7224,
+          "title": "List Diffing"
+        },
+        {
+          "startTime": 7224,
+          "endTime": 7351,
+          "title": "Outro"
+        }
+      ],
+      "description": "The question of this functionality in Solid has come up a few times and I thought it would be fun to explore. What this really is, is a throwback to the early days of frontend frameworks.\r\n\r\nSo if you want to know how things were done back in 2010 this stream may be for you.\n\nCodeSandbox: https://codesandbox.io/s/simple-html-renderer-zkb6k\n\n[0:00] Preamble\n[2:52] This Week in JavaScript\n[17:11] Introducing Alpine/Petite Vue\n[24:58] Solid Hack & v1.3\n[27:10] Introducing Reactive Templating\n[32:44] Rendeing with innerHTML\n[36:14] Diverging Approaches to Frameworks\n[38:55] Templates in the HTML\n[59:56] Event Binding\n[1:07:29] Attribute Binding\n[1:16:14] Fix Incorrect Walker\n[1:20:00] If Directive\n[1:36:37] For Directive\n[1:50:00] List Diffing\n[2:00:24] Outro"
+    }
+  }
+}

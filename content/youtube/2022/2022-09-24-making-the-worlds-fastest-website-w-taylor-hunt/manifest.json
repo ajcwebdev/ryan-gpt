@@ -1,0 +1,343 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-12T12:22:45.596Z",
+  "updatedAt": "2026-09-12T12:24:44.808Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Making the World's Fastest Website and Other Mistakes w/ Taylor Hunt",
+          "duration": "5:47:29",
+          "channel": "Ryan Carniato",
+          "description": "Taylor Hunt was tasked with the job to figure out if there was a viable way to improve his company's (Kroger) website performance. What started as a small exploration ended up being a 2-year journey through the full landscape of modern web development.\r\n\r\nToday we have him on the stream to talk about what web performance looks like in practice. How sometimes technology can make a difference while at the same time not ultimately being the decider. And all the lessons he learned along the way.\n\nArticle Series:\nhttps://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na\n\n[0:00] Preamble\n[9:30] Welcome Taylor\n[13:24] Introduction to Kroger\n[19:30] The Journey to Performance\n[20:45] UX vs DX\n[28:59] Building an Alternate Frontend\n[31:55] 20kb of JavaScript\n[39:25] The Lost Art of Streaming HTML\n[53:52] Finding Marko\n[1:01:53] Tackling Design\n[1:21:49] SPA vs MPA\n[1:40:15] Success?\n[1:41:42] Killer Demo \n[1:51:10] Are SPAs faster after the fact?\n[1:55:21] Aftermath\n[2:03:08] Q & A with Taylor\n[2:31:43] Random Chat\n[2:44:21] This Week in JavaScript\n[4:35:15] Community and Inclusion\n\r\nBanner image of Sisyphus from Classical Wisdom \"The Myth of Sisyphus and Lessons in Absurdity\" (https://classicalwisdom.com/mythology/gods/myth-sisyphus-lessons-absurdity/).",
+          "url": "https://www.youtube.com/watch?v=Vcq2DvkMz3k",
+          "publishDate": "2022-09-24",
+          "thumbnail": "https://i.ytimg.com/vi/Vcq2DvkMz3k/hqdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 570,
+              "title": "Preamble"
+            },
+            {
+              "startTime": 570,
+              "endTime": 804,
+              "title": "Welcome Taylor"
+            },
+            {
+              "startTime": 804,
+              "endTime": 1170,
+              "title": "Introduction to Kroger"
+            },
+            {
+              "startTime": 1170,
+              "endTime": 1245,
+              "title": "The Journey to Performance"
+            },
+            {
+              "startTime": 1245,
+              "endTime": 1739,
+              "title": "UX vs DX"
+            },
+            {
+              "startTime": 1739,
+              "endTime": 1915,
+              "title": "Building an Alternate Frontend"
+            },
+            {
+              "startTime": 1915,
+              "endTime": 2365,
+              "title": "20kb of JavaScript"
+            },
+            {
+              "startTime": 2365,
+              "endTime": 3232,
+              "title": "The Lost Art of Streaming HTML"
+            },
+            {
+              "startTime": 3232,
+              "endTime": 3713,
+              "title": "Finding Marko"
+            },
+            {
+              "startTime": 3713,
+              "endTime": 4909,
+              "title": "Tackling Design"
+            },
+            {
+              "startTime": 4909,
+              "endTime": 6015,
+              "title": "SPA vs MPA"
+            },
+            {
+              "startTime": 6015,
+              "endTime": 6102,
+              "title": "Success?"
+            },
+            {
+              "startTime": 6102,
+              "endTime": 6670,
+              "title": "Killer Demo"
+            },
+            {
+              "startTime": 6670,
+              "endTime": 6921,
+              "title": "Are SPAs faster after the fact?"
+            },
+            {
+              "startTime": 6921,
+              "endTime": 7388,
+              "title": "Aftermath"
+            },
+            {
+              "startTime": 7388,
+              "endTime": 9103,
+              "title": "Q & A with Taylor"
+            },
+            {
+              "startTime": 9103,
+              "endTime": 9861,
+              "title": "Random Chat"
+            },
+            {
+              "startTime": 9861,
+              "endTime": 16515,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 16515,
+              "endTime": 20849,
+              "title": "Community and Inclusion"
+            }
+          ],
+          "slug": "2022-09-24-making-the-worlds-fastest-website-and-other-mistakes-w-taylor-hunt",
+          "audioFileName": "2022-09-24-making-the-worlds-fastest-website-and-other-mistakes-w-taylor-hunt.m4a",
+          "audioFileSize": 262020757,
+          "durationSeconds": 20849
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 133.20194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 133.20194444444445,
+                "costMultiplier": 1,
+                "durationSeconds": 20849
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 133.20194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 133.20194444444445,
+                "costMultiplier": 1,
+                "durationSeconds": 20849
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 133.20194444444445,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 133.20194444444445,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 20849
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 3919612,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3919612,
+                "inputMetric": "durationSeconds",
+                "inputValue": 20849,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 3919612
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 118946,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 118946,
+                "timingBreakdown": {
+                  "uploadMs": 4557,
+                  "createMs": 160,
+                  "pollMs": 9199,
+                  "pollSleepMs": 105017,
+                  "remoteProcessingMs": 105030
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 20849,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 5.705,
+                "throughputValue": 175.281,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 118945,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 4557,
+                  "createMs": 160,
+                  "createCount": 1,
+                  "pollMs": 9199,
+                  "requestCount": 15
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "11dfb48a-7aad-48eb-85de-0e9a9b60816a",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/b47386dda999ad89e1d895b82786b4f1c79c9c2c9a8231bbc6693b2508bb60ad/257fc12e-cab3-4d5b-9cf5-a781996d9cbe",
+                  "createCompletedAt": "2026-09-12T12:22:50.314Z",
+                  "lastPollAt": "2026-09-12T12:24:44.542Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 118946,
+            "tokenCount": 57988,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "11dfb48a-7aad-48eb-85de-0e9a9b60816a",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/b47386dda999ad89e1d895b82786b4f1c79c9c2c9a8231bbc6693b2508bb60ad/257fc12e-cab3-4d5b-9cf5-a781996d9cbe",
+              "createCompletedAt": "2026-09-12T12:22:50.314Z",
+              "lastPollAt": "2026-09-12T12:24:44.542Z",
+              "completedAt": "2026-09-12T12:24:44.543Z"
+            },
+            "timings": {
+              "uploadMs": 4557,
+              "createMs": 160,
+              "createCount": 1,
+              "pollMs": 9199,
+              "pollSleepMs": 105017,
+              "pollCount": 13,
+              "remoteProcessingMs": 105030,
+              "requestCount": 15
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 0,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 5,
+                  "completed": 5,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1789215516976,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

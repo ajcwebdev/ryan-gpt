@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "SolidStart: The Shape of Frameworks to Come",
+      "slug": "2023-12-16-solidstart-the-shape-of-frameworks-to-come",
+      "duration": "5:02:36",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=RzL4N3ZavxU",
+      "publishDate": "2023-12-16",
+      "thumbnail": "https://i.ytimg.com/vi/RzL4N3ZavxU/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 330,
+          "title": "Intro"
+        },
+        {
+          "startTime": 330,
+          "endTime": 1080,
+          "title": "The Shape of Frameworks to Come"
+        },
+        {
+          "startTime": 1080,
+          "endTime": 1845,
+          "title": "A Classic Client-Side Solid App"
+        },
+        {
+          "startTime": 1845,
+          "endTime": 2700,
+          "title": "Simple Todo App with a Router & a Form"
+        },
+        {
+          "startTime": 2700,
+          "endTime": 3390,
+          "title": "Adding API Routes"
+        },
+        {
+          "startTime": 3390,
+          "endTime": 4155,
+          "title": "\"use server\" in a Client Rendered App"
+        },
+        {
+          "startTime": 4155,
+          "endTime": 5100,
+          "title": "Code-Splitting & Hoisted Data Fetching"
+        },
+        {
+          "startTime": 5100,
+          "endTime": 5520,
+          "title": "FileRoutes"
+        },
+        {
+          "startTime": 5520,
+          "endTime": 6060,
+          "title": "SSR"
+        },
+        {
+          "startTime": 6060,
+          "endTime": 6720,
+          "title": "The New Router, createAsync() & load()"
+        },
+        {
+          "startTime": 6720,
+          "endTime": 7170,
+          "title": "cache()"
+        },
+        {
+          "startTime": 7170,
+          "endTime": 7590,
+          "title": "action() & useSubmissions()"
+        },
+        {
+          "startTime": 7590,
+          "endTime": 8520,
+          "title": "Pre-Rendering & Progressive Enhancement"
+        },
+        {
+          "startTime": 8520,
+          "endTime": 9450,
+          "title": "with() for Partial Application"
+        },
+        {
+          "startTime": 9450,
+          "endTime": 9750,
+          "title": "What Does SolidStart Actually Do?"
+        },
+        {
+          "startTime": 9750,
+          "endTime": 10140,
+          "title": "Throwing Redirects & Returning Errors"
+        },
+        {
+          "startTime": 10140,
+          "endTime": 10500,
+          "title": "Session Management & Other h3 Features"
+        },
+        {
+          "startTime": 10500,
+          "endTime": 10800,
+          "title": "Server Functions vs. Serializing Functions"
+        },
+        {
+          "startTime": 10800,
+          "endTime": 11100,
+          "title": "Middleware"
+        },
+        {
+          "startTime": 11100,
+          "endTime": 11580,
+          "title": "Automatic Fine-Grained Updates"
+        },
+        {
+          "startTime": 11580,
+          "endTime": 12165,
+          "title": "What's Next? Islands? SCs? GET actions?"
+        },
+        {
+          "startTime": 12165,
+          "endTime": 12930,
+          "title": "Version Skew, Vercel, & Vendor Lock-In"
+        },
+        {
+          "startTime": 12930,
+          "endTime": 13245,
+          "title": "Marketing, Solid, & Community"
+        },
+        {
+          "startTime": 13245,
+          "endTime": 14040,
+          "title": "Server Waterfalls & The Edge"
+        },
+        {
+          "startTime": 14040,
+          "endTime": 14880,
+          "title": "Conclusion: SolidStart Beta 2 is Coming"
+        },
+        {
+          "startTime": 14880,
+          "endTime": 15300,
+          "title": "This Week in JavaScript: The State of Frameworks"
+        },
+        {
+          "startTime": 15300,
+          "endTime": 15630,
+          "title": "TWiJ: Solid News"
+        },
+        {
+          "startTime": 15630,
+          "endTime": 16080,
+          "title": "TWiJ: Astro 4.0"
+        },
+        {
+          "startTime": 16080,
+          "endTime": 16860,
+          "title": "TWiJ: Tanstack Router's Journey"
+        },
+        {
+          "startTime": 16860,
+          "endTime": 17415,
+          "title": "TWiJ: The Importance of Performance"
+        },
+        {
+          "startTime": 17415,
+          "endTime": 17715,
+          "title": "Q&A: New Benchmarks? Cross-Compatibility?"
+        },
+        {
+          "startTime": 17715,
+          "endTime": 18156,
+          "title": "TWiJ Lightning Round & Conclusion"
+        }
+      ],
+      "description": "Join me to take a look at what SolidStart is shaping up to be. I will be going through a full tour of the framework to show you what it is, what you can do with it, and how it changes things.\n\n[0:00:00] Intro\n[0:05:30] The Shape of Frameworks to Come\n[0:18:00] A Classic Client-Side Solid App\n[0:30:45] Simple Todo App with a Router & a Form\n[0:45:00] Adding API Routes\n[0:56:30] \"use server\" in a Client Rendered App\n[1:09:15] Code-Splitting & Hoisted Data Fetching\n[1:25:00] FileRoutes \n[1:32:00] SSR\n[1:41:00] The New Router, createAsync() & load()\n[1:52:00] cache()\n[1:59:30] action() & useSubmissions()\n[2:06:30] Pre-Rendering & Progressive Enhancement\n[2:22:00] .with() for Partial Application\n[2:37:30] What Does SolidStart Actually Do?\n[2:42:30] Throwing Redirects & Returning Errors\n[2:49:00] Session Management & Other h3 Features \n[2:55:00] Server Functions vs. Serializing Functions\n[3:00:00] Middleware\n[3:05:00] Automatic Fine-Grained Updates\n[3:13:00] What's Next? Islands? SCs? GET actions?\n[3:22:45] Version Skew, Vercel, & Vendor Lock-In\n[3:35:30] Marketing, Solid, & Community\n[3:40:45] Server Waterfalls & The Edge\n[3:54:00] Conclusion: SolidStart Beta 2 is Coming\n[4:08:00] This Week in JavaScript: The State of Frameworks\n[4:15:00] TWiJ: Solid News\n[4:20:30] TWiJ: Astro 4.0\n[4:28:00] TWiJ: Tanstack Router's Journey\n[4:41:00] TWiJ: The Importance of Performance\n[4:50:15] Q&A: New Benchmarks? Cross-Compatibility?\n[4:55:15] TWiJ Lightning Round & Conclusion\n\nThanks to @zombiefacesupreme for the timestamps. Vecteezy for the loading image.\n\r\nCover Influence: Refused - Shape of Punk to Come (Burning Heart Records, 1998)"
+    }
+  }
+}

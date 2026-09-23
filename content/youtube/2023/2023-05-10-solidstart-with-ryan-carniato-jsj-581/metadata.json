@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "SolidStart with Ryan Carniato - JSJ 581",
+    "duration": "1:25:57",
+    "author": "Top End Devs",
+    "url": "https://www.youtube.com/watch?v=orHtlbkZxVc",
+    "publishDate": "2023-05-10",
+    "thumbnail": "https://i.ytimg.com/vi/orHtlbkZxVc/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCABJEQ57MIn6X3TIHIebJUw",
+    "description": "Ryan Carniato is the CEO of Signals and the Principal Engineer OSS at Netlify. He is the author of the SolidJS UI library. He returns to the show to talk about SolidStart. He begins by explaining the difference between signals and observables. Along with that, he discusses how he came to develop the framework, its features, and his future plans. \n\nhttps://topenddevs.com/podcasts/javascript-jabber/episodes/solidstart-with-ryan-carniato-jsj-581"
+  }
+}

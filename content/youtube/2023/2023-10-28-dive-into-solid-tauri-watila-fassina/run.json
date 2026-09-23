@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Dive into Solid + Tauri w/Atila Fassina",
+      "slug": "2023-10-28-dive-into-solid-tauri-watila-fassina",
+      "duration": "5:09:21",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=yLjqh6dKdBc",
+      "publishDate": "2023-10-28",
+      "thumbnail": "https://i.ytimg.com/vi/yLjqh6dKdBc/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 480,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 480,
+          "endTime": 1200,
+          "title": "Welcome Atila Fassina"
+        },
+        {
+          "startTime": 1200,
+          "endTime": 1680,
+          "title": "What is Tauri?"
+        },
+        {
+          "startTime": 1680,
+          "endTime": 2040,
+          "title": "What is Crab Nebula & Atila's Conference Talks"
+        },
+        {
+          "startTime": 2040,
+          "endTime": 2460,
+          "title": "Setting Up the Dev Environment"
+        },
+        {
+          "startTime": 2460,
+          "endTime": 3120,
+          "title": "System Permissions & Running the Dev Server"
+        },
+        {
+          "startTime": 3120,
+          "endTime": 3900,
+          "title": "The Rust Code"
+        },
+        {
+          "startTime": 3900,
+          "endTime": 4320,
+          "title": "The Solid Code So Far"
+        },
+        {
+          "startTime": 4320,
+          "endTime": 4740,
+          "title": "Creating Dialog & Scanning node_modules"
+        },
+        {
+          "startTime": 4740,
+          "endTime": 5565,
+          "title": "Discussing Mutations & Optimistic Updates"
+        },
+        {
+          "startTime": 5565,
+          "endTime": 6045,
+          "title": "Implementing Optimistic Updates"
+        },
+        {
+          "startTime": 6045,
+          "endTime": 6750,
+          "title": "Testing the App & Ryan Makes Some Changes"
+        },
+        {
+          "startTime": 6750,
+          "endTime": 7050,
+          "title": "Other Tauri API's"
+        },
+        {
+          "startTime": 7050,
+          "endTime": 7785,
+          "title": "Universal UI, Native Dev & The Solid Ecosystem"
+        },
+        {
+          "startTime": 7785,
+          "endTime": 8520,
+          "title": "Building the App & Inspecting Output"
+        },
+        {
+          "startTime": 8520,
+          "endTime": 9120,
+          "title": "Q&A - What's Next? More Rust/No Rust? Why Solid?"
+        },
+        {
+          "startTime": 9120,
+          "endTime": 9585,
+          "title": "Atila's Parting Notes & Intermission"
+        },
+        {
+          "startTime": 9585,
+          "endTime": 10200,
+          "title": "Server Actions - Serializing Closures & Security"
+        },
+        {
+          "startTime": 10200,
+          "endTime": 10530,
+          "title": "Server Actions - But... Why?"
+        },
+        {
+          "startTime": 10530,
+          "endTime": 10875,
+          "title": "Server Actions - New Solid Router Data API"
+        },
+        {
+          "startTime": 10875,
+          "endTime": 11370,
+          "title": "Server Actions - Form Method GET/POST"
+        },
+        {
+          "startTime": 11370,
+          "endTime": 11820,
+          "title": "Solid Start - Meta Component & FileRoutes"
+        },
+        {
+          "startTime": 11820,
+          "endTime": 12210,
+          "title": "Solid Start - A, Link, & a (Delegation)"
+        },
+        {
+          "startTime": 12210,
+          "endTime": 12540,
+          "title": "Solid Start - Async Context & getRequestEvent()"
+        },
+        {
+          "startTime": 12540,
+          "endTime": 12930,
+          "title": "Q&A - MPA vs CSR? Compiler Tricks? JSX?"
+        },
+        {
+          "startTime": 12930,
+          "endTime": 13680,
+          "title": "Composing Server Primitives"
+        },
+        {
+          "startTime": 13680,
+          "endTime": 14025,
+          "title": "This Week in JavaScript - Solid News"
+        },
+        {
+          "startTime": 14025,
+          "endTime": 15060,
+          "title": "TWiJ - JavaScript Framework Benchmark Updates"
+        },
+        {
+          "startTime": 15060,
+          "endTime": 15270,
+          "title": "TWiJ - New Netlify Caching Features"
+        },
+        {
+          "startTime": 15270,
+          "endTime": 15975,
+          "title": "TWiJ - Web Components & Microfrontends"
+        },
+        {
+          "startTime": 15975,
+          "endTime": 16290,
+          "title": "TWiJ - Astro 3.4"
+        },
+        {
+          "startTime": 16290,
+          "endTime": 16980,
+          "title": "TWiJ - Next 14: Server Actions & Security"
+        },
+        {
+          "startTime": 16980,
+          "endTime": 17445,
+          "title": "TWiJ - Next 14: Partial Pre-Rendering"
+        },
+        {
+          "startTime": 17445,
+          "endTime": 18210,
+          "title": "TWiJ - Kent C. Dodds: Why I Won't Use Next.js"
+        },
+        {
+          "startTime": 18210,
+          "endTime": 18561,
+          "title": "Conclusion & Notes on Spiciness"
+        }
+      ],
+      "description": "SolidJS works on more than just the web thanks to projects like Tauri. Atila Fassina, from CrabNebula, joins us to talk about the project and how Solid is natural fit as a frontend framework.\n\n[0:00] Preamble\n[8:00] Welcome Atila Fassina \n[20:00] What is Tauri?\n[28:00] What is Crab Nebula & Atila's Conference Talks\n[34:00] Setting Up the Dev Environment\n[41:00] System Permissions & Running the Dev Server\n[52:00] The Rust Code\n[1:05:00] The Solid Code So Far\n[1:12:00] Creating Dialog & Scanning node_modules\n[1:19:00] Discussing Mutations & Optimistic Updates\n[1:32:45] Implementing Optimistic Updates\n[1:40:45] Testing the App & Ryan Makes Some Changes\n[1:52:30] Other Tauri API's\n[1:57:30] Universal UI, Native Dev & The Solid Ecosystem\n[2:09:45] Building the App & Inspecting Output\n[2:22:00] Q&A - What's Next? More Rust/No Rust? Why Solid?\n[2:32:00] Atila's Parting Notes & Intermission\n[2:39:45] Server Actions - Serializing Closures & Security\n[2:50:00] Server Actions - But... Why?\n[2:55:30] Server Actions - New Solid Router Data API\n[3:01:15] Server Actions - Form Method GET/POST\n[3:09:30] Solid Start - Meta Component & FileRoutes\n[3:17:00] Solid Start - A, Link, & a (Delegation)\n[3:23:30] Solid Start - Async Context & getRequestEvent()\n[3:29:00] Q&A - MPA vs CSR? Compiler Tricks? JSX? \n[3:35:30] Composing Server Primitives\n[3:48:00] This Week in JavaScript - Solid News\n[3:53:45] TWiJ - JavaScript Framework Benchmark Updates\n[4:11:00] TWiJ - New Netlify Caching Features\n[4:14:30] TWiJ - Web Components & Microfrontends\n[4:26:15] TWiJ - Astro 3.4\n[4:31:30] TWiJ - Next 14: Server Actions & Security\n[4:43:00] TWiJ - Next 14: Partial Pre-Rendering\n[4:50:45] TWiJ - Kent C. Dodds: Why I Won't Use Next.js\n[5:03:30] Conclusion & Notes on Spiciness"
+    }
+  }
+}

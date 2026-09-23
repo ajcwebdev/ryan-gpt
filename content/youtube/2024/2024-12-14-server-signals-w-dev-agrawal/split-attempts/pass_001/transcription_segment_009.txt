@@ -1,0 +1,242 @@
+[04:00:00] [1] Oh, soups. We have full time travel
+[04:00:05] [1] without— because we don't mutate the state anymore, and we didn't have to do anything special.
+[04:00:10] [1] Basically, all of Redux's capabiliti
+[04:00:16] [1] es, um, natively just work here without us having to do anything special. So that's the— that's the outcome of it.
+[04:00:24] [1] It was literally just a reconcile wrapper. So, this just kind of both. Very fast in the benchmarks, and very simple to create a wrapper.
+[04:00:35] [1] This will be very important. It'll make stuff like XState easier, um, managing stuff like that.
+[04:00:41] [1] I was very upset with how
+[04:00:46] [1] — like, don't get me wrong, I feel like a lot of these third-party libraries could be set up in such a way that they could do fine-grained updates instead of immutable, and they would be much more performant for us.
+[04:00:59] [1] But this approach to diffing— like, right now XState uses like a different store.
+[04:01:06] [1] Someone— like, I made something called CreateImmutable once, which is like, this removes the need— I think this new store API, um, between using Produce as the default, so like you just write to it, like immutables, and
+[04:01:20] [1] using ReconcileImmutable, basically removes the need for having 3 store parameters in Solid or all these different ones.
+[04:01:26] [1] We literally just need store, and we're good to go. And then that stores can also be used through projections.
+[04:01:32] [1] So like, essentially, um, all the different combinatorics are handled by a single solution.
+[04:01:40] [1] So, yeah.
+[04:01:46] [1] Interesting topic, at least from my mind, but I spent a whole bunch of time fixing stores, and this is the result of it.
+[04:01:52] [1] Um,
+[04:01:56] [1] so, yeah, I don't know. Uh, you can check out this example.
+[04:02:07] [1] Okay.
+[04:02:09] [1] The other thing that I've been working on is
+[04:02:14] [1] — is, hmm,
+[04:02:19] [1] uh, I might save this "Are these lakes real?" to a different time. Tanner was trying to come up with a different way to do server components that didn't use server and use client, and I— I had a new revelation on how to
+[04:02:30] [1] do that. Um, but let's look at hierarchical reactive scheduling boundaries. Um,
+[04:02:38] [1] this is probably more interesting to people who are really into the deep into the reactivity.
+[04:02:41] [1] So it might— I might just skip the explanation here and go straight to the demo, because it's probably more interesting to more people.
+[04:02:50] [1] But the gist of it is, I started thinking, really high level, that there is a scheduler behind, um, signal reactivity.
+[04:03:01] [1] As much as we, you know, talk about, you know, there is a pole. There's a definite pole there.
+[04:03:07] [1] But there are a lot of things that need to get scheduled to make that pole possible.
+[04:03:13] [1] And they happen in phases. Um, and I— really roughly, I said there's 5 phases. There's pure schedule computations, things like create async, things that you, like, need to schedule even though they're not, like, apex, so
+[04:03:27] [1] to speak. Uh, projections fall in this category until we can actually find a way to pull them properly.
+[04:03:32] [1] Um, then there's pure side of the effects, like the front half. Like the render effects and the user effects.
+[04:03:40] [1] It's— if you saw in this example here, you can actually see it in action. I'm actually doing this, where there's the tracking part, and then there's the effectful part.
+[04:03:50] [1] So tracking part goes can store undo, and then the effect is, you know, do this.
+[04:03:57] [1] This is an example of this kind of split effect approach, where you track the reactive state, and then you do the side effect.
+[04:04:06] [1] So if we go back to, um, here, the pure side of render effects and user effects would run next.
+[04:04:15] [1] Then, you know, pulling out all the reactive values. Then, um, you'd do the effectful part of the render effects before doing the user effects, because the users wants to be able to read from the DOM, you know, that's been
+[04:04:27] [1] updated. So generally there's this kind of flow
+[04:04:31] [1] . And I suspect the order of 2 and 3 don't matter, because they're pure. Do you know what I mean?
+[04:04:38] [1] Like, they don't do side effects. Like, you want to render before you do the user effects, but the pure side doesn't really matter.
+[04:04:44] [1] In fact, all 3 of these probably could be combined into a single queue, which is what I'm going to do for this thing.
+[04:04:50] [1] But essentially there's pure stuff, render, user, which is the way Solid works today.
+[04:04:55] [1] As much as I tried to, like, delete it, this— we still have the same phases. It's— I got right back to the same place when I tried to solve the same problems.
+[04:05:05] [1] But— so all pure stuff, effectful stuff, render stuff. But I started thinking, um, we have an interesting problem, because we don't necessarily always want to run all 3 of these all the time.
+[04:05:20] [1] Like, a perfect example is if you're suspending, you'll run all the pure stuff, find something async, and then be like, nope, not running any of the effects until the effectful parts, until the, um, until the pure stuff
+[04:05:30] [1] runs. Which is why there's this split, because if this was async, you don't want to run this.
+[04:05:38] [1] And it's not just that you don't want to run this. You— quite likely you don't want to run, um, you might not want to run
+[04:05:49] [1] show any of this, because it could be torn. Like, you could be showing some UI missing, some parts there, classes missing, whatever.
+[04:05:56] [1] So what you want to do is you want to go, no, I know that
+[04:06:01] [1] this is waiting somewhere. I'm going to show a suspense boundary, and then when it's done, I'm going to go through and run all the effects and actually do the actual rendering.
+[04:06:11] [1] But you know, because you do all the tracking here, you will capture all the async on the front half.
+[04:06:16] [1] So what, um,
+[04:06:21] [1] what I'm getting at is that, like, there's different patterns here about when you want to run stuff.
+[04:06:26] [1] You could also do something like off-screen, where you're like, hey, I actually don't want to run any of this, um, when it's off-screen.
+[04:06:35] [1] I don't want to do any work, and then when it's connected, I want it to do work.
+[04:06:38] [1] So I can, like, hold some nodes in stasis and then bring them back, and not have, like, a bunch of, like, work chugging along that no one's going to benefit from.
+[04:06:45] [1] You could update the signal like 15 times when it's off-screen. You don't need to do it 15 times at the end.
+[04:06:50] [1] You just need it to come in. So— but the problem is, you still want when stuff— even if you subdivide stuff hierarchically into these boundaries, like you have, like, top-level app, and then you have suspense, some off-s
+[04:07:02] [1] creen, these pieces, you still want all the pure for all the parts to run first.
+[04:07:07] [1] All this for all the parts and all this. You don't want to run these as individual apps.
+[04:07:12] [1] You actually want to synchronize the pure part, the render part, and the user part to happen at the same time when you're doing a flush.
+[04:07:18] [1] So I started thinking of creating, like, a hierarchical queue, which could add into each of those 3 queues, essentially, and have the ability to run a specific queue, and then ability to add child and remove child queues
+[04:07:34] [1] from them. And the expectation is that when you run a specific queue, you run yourself and you tell your children to call their run function.
+[04:07:41] [1] Now, the children themselves could, you know, do whatever they want. This is an interface.
+[04:07:47] [1] The children could be like, I'm not running. But conceptually, you can kind of bring everything together so the parent controls the flowdown when you flush, but the child basically can halt it or do whatever it wants all
+[04:08:01] [1] the way down. I mean, I talked about off-screen. Another one would be, like, picture you have a part of the page that people don't really interact with, or, like, maybe it's farther screen, and you're like, I'm going to
+[04:08:10] [1] update it every 15 seconds. Like, I don't need it, like, freaking real time, you know?
+[04:08:14] [1] Because of the laziness and because of scheduling, we have the ability to control these kind of things.
+[04:08:20] [1] So, um, yeah. I mean, I go in a bit here, and I should probably share this one.
+[04:08:28] [1] Um,
+[04:08:31] [1] did I already share this one? Yeah, I did already share this one. Um, and talk about, like, some of the consequences with async and transactions.
+[04:08:38] [1] I'm not too actually worried about that. I think that, um, clearly when people are opting into these different queues— this is a very low-level API.
+[04:08:46] [1] I'm using this to build suspense, to build off-screen. I don't expect the average developer to be building their own suspense component from scratch, or off-screen component from scratch, or, you know, delayed component
+[04:09:01] [1] from scratch. But I'm approaching this from a primitive standpoint. Basically making the core of the reactive system have the ability to create any sort of signals-based framework, right?
+[04:09:12] [1] Like, that's the conception here. I want to— I want to understand what the building blocks are, and this is kind of where, um, I got to, right?
+[04:09:20] [1] You have to consider there's interesting hierarchical considerations. You have to think about, you know, the, uh, like, the impact of, you know, if something is not present, then it's not participating, say, in suspense.
+[04:09:36] [1] But I think the hierarchy mostly just works. So I'm going to show another example here of me doing the same kind of thing I've been doing the last little bit, which is, uh,
+[04:09:48] [1] what I ended up doing was I made another one of my hand-programmed apps. And what this app does is it creates a signal and a button with an increment, and then a toggle for switching, uh, a mode in this custom queue I mad
+[04:10:07] [1] e, which extends the base queue, which you can just assume does the normal operation, with two methods.
+[04:10:14] [1] Um, one, the toggle between it being— this mode being enabled, turned on and off, and then another one that, when it's enabled, call the run function.
+[04:10:25] [1] Otherwise, if it's, like, not enabled, don't call the run function. So this is just disabling basically the whole queue, um, if it's not enabled.
+[04:10:36] [1] And then what I did was I put one counter
+[04:10:41] [1] top-level, and then I put the other counter inside this boundary where I passed in the custom queue, which gets toggled.
+[04:10:51] [1] And then simply, whenever I toggle it, I switch the text on the toggle. So essentially, the base behavior is, as I click, the count goes up, because everything updates.
+[04:11:03] [1] Now, if I toggle off the boundary, when I click, now only the first one updates.
+[04:11:11] [1] When I toggle it back on, the
+[04:11:15] [1] other one doesn't run all the missing stuff. It just basically just updates again to the, like, the latest.
+[04:11:22] [1] Because it knows that the
+[04:11:26] [1] thing that depends on it has updated, essentially. So, uh, then it runs it, sees that it's updated, runs it once, gets the latest value, and then if, you know, if it was queued more or whatever, it just goes, okay, I'm al
+[04:11:40] [1] ready updated, I don't need to run anymore. So update, off,
+[04:11:45] [1] toggle on. This is basically the off-screen component, if you think about it. See, now it's off-screen.
+[04:11:51] [1] Don't care about it. Bring it back on-screen, and so on.
+[04:12:02] [1] No, I— this is about the reactivity. The fact that the DOM is there is— it's— off-screen is this thing that Vue has, or Keep Alive, maybe.
+[04:12:15] [1] Um, I forget it. They talked about it in React too. I don't think they've implemented it yet.
+[04:12:20] [1] But this idea that you can, like, hold part of the page, like, outside of the DOM.
+[04:12:28] [1] Because, like, think about it. In Solid, when you create a component, you just get some DOM elements.
+[04:12:31] [1] If you don't insert them and just leave them out somewhere, like, they're still alive, and then you can attach them again.
+[04:12:38] [1] Like, you can just, like, add and— like, because all you're inserting in Solid, it's very obvious when I'm doing this document, create element stuff, is we're literally just inserting DOM elements.
+[04:12:48] [1] So whether they're connected to the DOM or not is irrelevant from Solid. Whether they're even DOM elements is irrelevant from Solid's perspective.
+[04:12:55] [1] The whole trick to off-screen, though, is, like, you can do this today. You can just stash a node and then insert it and uninsert it.
+[04:13:02] [1] Like, you have a tab thing and you have 3 tabs, and you can be like, instead of using, like— instead of just purely using show, you could basically be like, oh, I'm going to
+[04:13:12] [1] , um, render all of these and then just choose which one I insert, for example. Or you can cache it the first time you insert it.
+[04:13:18] [1] Like, there's lots of tricks to do this. But the problem with Solid today is, if you create 3 tabs and you have a signal that's listened to in all those tabs, this happens, right?
+[04:13:29] [1] Like, you update the signal, and those pages, even though they're not on the page, they're updating, they're re-rendering their DOM and stuff.
+[04:13:35] [1] Maybe that's fine. But, you know, you're actually doing all the work for stuff that you will never see.
+[04:13:41] [1] Whereas what I'm suggesting with off-screen, and I'm showing it here so you can visibly see it, is when you detach it from the DOM and it's in an off-screen situation, you can freeze it.
+[04:13:50] [1] So updates aren't running, but it knows it's updated so that when you attach it again, it's updated.
+[04:13:59] [1] So that's kind of, like, what the off-screen mechanism is. I don't— it's essentially a way of holding the queue, so to speak, so that you don't have to do unnecessary work.
+[04:14:14] [1] So, yeah, Vue has this, and
+[04:14:18] [1] they might be the only one, but I keep on getting requests for this, and I was like— and I was like, I started thinking that this was, like, very similar, because this shortcuts everything.
+[04:14:28] [1] But if you, like, suspense would just shortcut the actual, like, effectful parts and run the pure stuff over and over again until async is complete.
+[04:14:37] [1] And then it can then run the effects and update the rendering. So, like, it's all kind of the same thing.
+[04:14:44] [1] Suspense would be just a different type of queue mode switch based on some other criteria.
+[04:14:51] [1] And the thing is, this stuff can work hierarchically, right? Why not? So I actually made a nested example.
+[04:15:00] [1] Same thing, I just changed the text around. I don't know why I didn't make it an H1.
+[04:15:04] [1] Probably to make it less confusing on the layout, but it doesn't feel less confusing.
+[04:15:09] [1] Um, let's make this an H1 again.
+[04:15:14] [1] Yeah, I don't know if this makes it— this probably doesn't make it less confusing.
+[04:15:20] [1] Basically what I did was, I increment first counter, then inside the boundary, I wrote a button in another counter, and inside this boundary, there's another
+[04:15:33] [1] boundary with the counter. So if you want to see it here, there's— I called it off-screen.
+[04:15:39] [1] I just ended up pulling this button component. It's like the toggle plus, um, wrap around its children, boundary around its children, as this off-screen.
+[04:15:50] [1] It's like a pseudo-off-screen, because it actually doesn't remove it. It just— you need to see it in the DOM to actually understand that it doesn't do any work.
+[04:15:58] [1] Um, it just has a button here. But essentially, what you can see is counter, off-screen, get children.
+[04:16:06] [1] Um, and then here, there's a counter and another off-screen, which gets children, which has another counter.
+[04:16:13] [1] So you're seeing there's nesting off-screens, um, and there's counter in each of them.
+[04:16:18] [1] So if I start incrementing, all 3 update, right, as expected. And then if I turn off the bottom on
+[04:16:29] [1] e, only the top 2 update, because it's the most nested. If I turn off this one, then only these ones update, and so on.
+[04:16:38] [1] If I turn this one back on, it doesn't matter, because it's still under this one that's off.
+[04:16:46] [1] And then when I turn this one on, they jump up to 31. So, um, yeah, you can kind of see it up.
+[04:16:56] [1] If I turn this one off first, now only this one's updating. If I turn this one off, increment some more.
+[04:17:03] [1] Then I turn this one, this one jumps. Turn this one, this one jumps. Toggle off, both of them.
+[04:17:09] [1] This one's off. This one's still on, but because it's under this one, it's still off.
+[04:17:13] [1] And then jump. You get the idea. Um,
+[04:17:22] [1] so, yeah, like, conceptually, like, nesting works, um,
+[04:17:27] [1] right?
+[04:17:30] [1] This is probably more interesting to me than other people, but it's just this idea that we can generalize, um, the controlling of flushing using the ownership graph.
+[04:17:40] [1] Like, it's not just about disposal. It's also about scheduling. And this, as I said, it doesn't help with transactions necessarily.
+[04:17:47] [1] It actually makes transactions a little bit more complicated. But what it does do is help with things like off-screen suspense boundaries, um, weird place that updates based on polling, you know?
+[04:18:03] [1] Like,
+[04:18:05] [1] yeah, it's just—
+[04:18:08] [1] I guess it has supposedly niche appeal, but it is powerful because it handles this whole category of thing.
+[04:18:18] [1] Obviously, someone could try and write this manually. In a sense, that's how Solid works today.
+[04:18:23] [1] But it's— I think it's nice to be able to generalize it. Okay. Cool. Um,
+[04:18:31] [1] yeah. That's all there is to this one. What it means, though, if you've been following along, is we've almost solved all this 2.
+[04:18:41] [1] 0
+[04:18:43] [1] design space stuff. I've been working on, lik
+[04:18:49] [1] e, the different primitives I want to see, and I've been writing up, like, proposals so people can understand the impact of those.
+[04:18:54] [1] And we're getting to a point that I almost now implemented every feature. I need the suspense will be next, now that I have this.
+[04:19:02] [1] I should be able to get suspense, and I think that's core.
+[04:19:05] [1] Um, off-screen is not so core, because, like, we could put this actually in Solid, not in the reactivity library.
+[04:19:11] [1] Suspense, because the way it reads into the effect queue, probably needs to be part of the reactivity core.
+[04:19:18] [1] But what I'm getting at is, now that we have this, the only thing that's left is transactions, um, which is probably going to be my next thing.
+[04:19:27] [1] Technically, create projections are unsafe, so, um, there's probably work to be done there.
+[04:19:32] [1] But, um, things are coming along, essentially. Like, this version of reactivity TSX, um, has all the async primitives, has all the stuff.
+[04:19:43] [1] It's— the pieces are coming together. So I'm pretty happy on the progress so far.
+[04:19:49] [1] Okay. Um,
+[04:19:53] [1] okay, give me a second here. Let's see if I have any this week in JavaScript to talk about, um, because I have not been very on top of stuff, I admit.
+[04:20:05] [1] I think the last time I did a stream, um,
+[04:20:10] [1] was so long ago. It was a month ago,
+[04:20:16] [1] um, according to Twitter
+[04:20:21] [1] .
+[04:20:24] [1] Okay, well,
+[04:20:26] [1] I apparently did talk about some stuff. So, like, I'm going to get that ready here in two seconds.
+[04:20:34] [1] All right.
+[04:20:37] [1] All right.
+[04:20:40] [1] It's funny navigating both Twitter and, uh,
+[04:20:53] [1] it's been a while— and BlueSky trying to actually get stuff set up
+[04:21:00] [1] . The internals of queue look like? I mean, if you go to Solid Signals, you can see it.
+[04:21:06] [1] It's actually not
+[04:21:09] [1] — it is almost like what I said. It's basically, um,
+[04:21:15] [1] uh, how should I put it? It's basically
+[04:21:20] [1] a for loop, you know, for each type. And then, um,
+[04:21:28] [1] yeah.
+[04:21:34] [1] Yeah, it looks like most of my stuff is just me being
+[04:21:39] [1] annoyingly facetious.
+[04:21:42] [1] There was a lot of conversations the last month about, uh, um,
+[04:21:48] [1] you know, uh, like Aiden's tool, you know, with the, uh, uh,
+[04:22:02] [1] yeah. What? The React scan? Yeah, November 7th is when I last did a
+[04:22:08] [1] stream.
+[04:22:11] [1] Um, yeah, okay, that's good. And then last one is Solid.js.
+[04:22:19] [1] One second.
+[04:22:46] [1] Is diffing and reconciliation the same thing? Um, kind of. I call reconciliation, like, the whole process.
+[04:22:52] [1] Like, diff— there's a point, like, when I talk about diffing, I'm talking about just, like, the front half, like, going, has this changed?
+[04:23:00] [1] And when I talk about reconciliating, it's more of, it's either the second half or the whole process.
+[04:23:05] [1] It's when you're talking about actually taking that information of what changed and
+[04:23:11] [1] applying it, or making
+[04:23:15] [1] the, the, what exists match what your input is. So in a sense, it is diffing, but it's more than just the diff.
+[04:23:24] [1] It's the, it's the resolution of said diff so that the new state
+[04:23:31] [1] reflects in, like, the, yeah, the old state reflects the current state. Like, we change it from how it was to how it is.
+[04:23:41] [1] That's reconciling it.
+[04:23:46] [1] Pretend you're the main source of JSON. Could you give me a rundown of the hackathon?
+[04:23:49] [1] Yeah. I wasn't as involved in the hackathon. Um, I, the last, I mean, I wasn't super involved last time either, but, um, David and them did a great job running all those projects and all the, all the things.
+[04:24:05] [1] But yeah, we'll definitely talk about the hackathon when we talk about, um, when we talk about Solid today.
+[04:24:12] [1] So yeah, let me share my screen and let's get started. Um,
+[04:24:18] [1] yeah. Yeah, where are we? God, why can't I—
+[04:24:26] [1] let's get started on this week in JavaScript. All right.
+[04:24:32] [1] So, yeah, let me— it's funny, I did all that and then I ended up being, um,
+[04:24:46] [1] I ended up being not on the right screen anyways. Uh, so, yeah, we'll kind of go back a bit between Twitter and BlueSky as it makes sense.
+[04:24:55] [1] Although most of the conversation, I think, is still on Twitter, um, at least on my side of things.
+[04:25:00] [1] At least a month ago it was. Um,
+[04:25:06] [1] was there a video that goes through some entries and winners? I saw, I thought I saw a video about someone going through some of the entries.
+[04:25:13] [1] Um, I don't know, was it Jay Larkey again? But
+[04:25:19] [1] , yeah, um,
+[04:25:23] [1] the winners, I have the list because we posted them each time as they won on the, uh, on the Solid Twitter feed and BlueSky feed.
+[04:25:36] [1] But anyways, yeah, let's look at a few of these. Tired of folks seeing this and thinking React.
+[04:25:40] [1] Oh, yeah, right. It's kind of funny. There's this whole conversation about, you know, how similar
+[04:25:49] [1] frameworks are getting. And you might not be able to see this code that easily.
+[04:25:52] [1] This is view code, but it's literally just
+[04:25:56] [1] ref, you know, which is a signal, random pick, and then, like, vine tag template, literally a template.
+[04:26:05] [1] Um, what? No one told me about view vine before. This looks so good, right? Because a lot of people who are on the React side, their biggest gripe with viewer's felt is the single file components.
+[04:26:15] [1] So this is, like, literally
+[04:26:18] [1] view without the single file components. View reactivity and whatever this vine is.
+[04:26:23] [1] I don't know if vine is even actually using view internally to do the rendering.
+[04:26:27] [1] I'm not actually that familiar with it. But it basically— so it's now funny React, no, kind of.
+[04:26:33] [1] It's more similar to Solid, yeah. But also interrupts your traditional view files and coalesce your view components.
+[04:26:37] [1] Okay, yeah, so this does actually make use actual view under the hood. So yeah, that's, it's just, this is closer to actually, um, it's funny, you can have JSX components in view as well.
+[04:26:49] [1] So I'm not, it's kind of interesting, because the people who really like single file components and all the kind of, like, compilation aspect impacting the top part of their code probably see no point in this.
+[04:26:59] [1] But for other people, this is, like, the complete game changer that, like, this is a possible mode here.
+[04:27:04] [1] Um, but yeah, what I was getting at here is that
+[04:27:11] [1] the response was, like, now views, like, React. And I have a little bit of a bone to pick on this one, I think, because, um,
+[04:27:22] [1] view is, like, why do people see this and instantly think React? I guess React has kind of cornered this whole market of function as a component thing.
+[04:27:31] [1] But, like, my knockout code was like that. Um, it just, it's very odd to me that you have a signals library
+[04:27:43] [1] that, you know, has function components. And people from view and Svelte communities I've been seeing this are like, oh, now they're just copying React.
+[04:27:54] [1] And it's like,
+[04:27:56] [1] ironically, it's like the furthest thing from React. Um,
+[04:28:02] [1] with every major— yeah. I don't know why this bugged me so much. It's funny, you look at something a month later and you're just like, why was I so worked up about it?
+[04:28:10] [1] Anyway.
+[04:28:12] [1] Yeah, geez, yeah, I was definitely worked out. Syntax and JS frameworks is overrated.
+[04:28:16] [1] Is anyone actually surprised the same people who complained about Svelte runes being too much like React, now that they're migrating their apps are realizing how much cleaner it is?
+[04:28:24] [1] Runes were never about React. Yeah.
+[04:28:27] [1] Yeah, I think, I think I was on a, I was getting very annoyed about, I was checking out the view and Svelte discords, yeah.
+[04:28:43] [1] They see function components and think React, yeah. But I mean, as I said, function, ironically, I mean, returning the view at the bottom of it
+[04:28:51] [1] was React specific. I'll give, because templating languages used to be on the outside.
+[04:28:57] [1] So, like, when you built components in knockout, you would return
+[04:29:03] [1] child components. It's so weird, because it didn't, it wasn't view code, it wasn't diffs.
+[04:29:08] [1] But, like, you would return, like, nesting of, like, you'd write your view models, essentially.
+[04:29:16] [1] So you'd have, like, user list component, essentially, return an array of user components that
+[04:29:27] [1] , um,
+[04:29:29] [1] returned, you know, a user component that had an address
+[04:29:34] [1] component and a, and a something else component. Like, you were mapping out view models, but they were basically the data side.
+[04:29:42] [1] And then on the other side, you had templates, which would map out the, the, the other side.
+[04:29:48] [1] But yeah, it's just so weird to me, because, like, when I saw React, it didn't feel that different to me.
+[04:29:54] [1] I don't know. So it's like,
+[04:29:58] [1] I, especially moving from the single.

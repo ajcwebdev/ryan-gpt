@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Creating a VDOM-less Renderer with Preact Signals",
+      "slug": "2022-10-29-creating-a-vdom-less-renderer-with-preact-signals",
+      "duration": "5:11:57",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Fp9duJd6Txc",
+      "publishDate": "2022-10-29",
+      "thumbnail": "https://i.ytimg.com/vi/Fp9duJd6Txc/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 512,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 512,
+          "endTime": 3215,
+          "title": "Introduction to DOM Expressions"
+        },
+        {
+          "startTime": 3215,
+          "endTime": 8270,
+          "title": "Building Preact Signals Reactive Renderer"
+        },
+        {
+          "startTime": 8270,
+          "endTime": 8820,
+          "title": "Testing our Implementation"
+        },
+        {
+          "startTime": 8820,
+          "endTime": 11927,
+          "title": "Building JS Framework Benchmark"
+        },
+        {
+          "startTime": 11927,
+          "endTime": 13164,
+          "title": "Benchmark Results"
+        },
+        {
+          "startTime": 13164,
+          "endTime": 14413,
+          "title": "Solid Server Components Notes Demo"
+        },
+        {
+          "startTime": 14413,
+          "endTime": 18716,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "I did not have any time to prepare this week but think it will be fun to try to create a VDOM-less renderer with Preact Signals. So come watch me struggle through this while working off jetlag.\n\n[0:00] Introduction\n[8:32] Introduction to DOM Expressions\n[53:35] Building Preact Signals Reactive Renderer\n[2:17:50] Testing our Implementation\n[2:27:00] Building JS Framework Benchmark\n[3:18:47] Benchmark Results\n[3:39:24] Solid Server Components Notes Demo\n[4:00:13] This Week in JavaScript"
+    }
+  }
+}

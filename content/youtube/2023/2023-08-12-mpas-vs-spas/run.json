@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "MPAs vs SPAs",
+      "slug": "2023-08-12-mpas-vs-spas",
+      "duration": "4:59:56",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=iOqPj-CjoV0",
+      "publishDate": "2023-08-12",
+      "thumbnail": "https://i.ytimg.com/vi/iOqPj-CjoV0/sddefault.jpg?v=64d414da",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 810,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 810,
+          "endTime": 1800,
+          "title": "Before SPA's - Playing Hot Potato with State"
+        },
+        {
+          "startTime": 1800,
+          "endTime": 2460,
+          "title": "Is 0kb of JS in Your Future? - The Weight of JavaScript"
+        },
+        {
+          "startTime": 2460,
+          "endTime": 3390,
+          "title": "0kbJS? - Dueling Templates and the Uncanny Valley"
+        },
+        {
+          "startTime": 3390,
+          "endTime": 3945,
+          "title": "0kbJS? - Comparing Rendering Timelines: CSR & Isomorphic SSR"
+        },
+        {
+          "startTime": 3945,
+          "endTime": 4485,
+          "title": "0kbJS? - Progressive Hydration"
+        },
+        {
+          "startTime": 4485,
+          "endTime": 4935,
+          "title": "0kbJS? - The Benefits of Streaming"
+        },
+        {
+          "startTime": 4935,
+          "endTime": 5730,
+          "title": "0kbJS? - MPAs to the Rescue! (Islands and Resumability)"
+        },
+        {
+          "startTime": 5730,
+          "endTime": 6780,
+          "title": "0kbJS? - The Limitations of MPA's"
+        },
+        {
+          "startTime": 6780,
+          "endTime": 7200,
+          "title": "Astro & View Transitions - Original Astro Hackernews Example"
+        },
+        {
+          "startTime": 7200,
+          "endTime": 7890,
+          "title": "A&VT - The View Transitions API"
+        },
+        {
+          "startTime": 7890,
+          "endTime": 8490,
+          "title": "A&VT - Adding View Transitions to Astro Hackernews Example"
+        },
+        {
+          "startTime": 8490,
+          "endTime": 9840,
+          "title": "A&VT - State Persistence & Serialization"
+        },
+        {
+          "startTime": 9840,
+          "endTime": 10560,
+          "title": "A&VT - Comparing SPA, MPA, Turbo, and SCs"
+        },
+        {
+          "startTime": 10560,
+          "endTime": 11610,
+          "title": "A&VT - Where Does Astro Fit Now?"
+        },
+        {
+          "startTime": 11610,
+          "endTime": 12255,
+          "title": "A&VT - Conclusion & Intermission"
+        },
+        {
+          "startTime": 12255,
+          "endTime": 12690,
+          "title": "This Week in JavaScript - Introduction & Solid News"
+        },
+        {
+          "startTime": 12690,
+          "endTime": 13095,
+          "title": "TWiJ - SolidStart"
+        },
+        {
+          "startTime": 13095,
+          "endTime": 13320,
+          "title": "TWiJ - Valibot"
+        },
+        {
+          "startTime": 13320,
+          "endTime": 13665,
+          "title": "TWiJ - Declarative Code"
+        },
+        {
+          "startTime": 13665,
+          "endTime": 14400,
+          "title": "TWiJ - svelte:head component & WHATWG Observable Proposal"
+        },
+        {
+          "startTime": 14400,
+          "endTime": 14760,
+          "title": "TWiJ - Is the JAMStack Dead?"
+        },
+        {
+          "startTime": 14760,
+          "endTime": 15000,
+          "title": "TWiJ - Aiden Bai/Million.js & Netlify Compose"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15645,
+          "title": "TWiJ - Ryan & Misko Hevery's talks at Future Frontends"
+        },
+        {
+          "startTime": 15645,
+          "endTime": 15975,
+          "title": "TWiJ - Class Components vs. Function Components"
+        },
+        {
+          "startTime": 15975,
+          "endTime": 16605,
+          "title": "TWiJ - Svelte 5 & Benchmarks"
+        },
+        {
+          "startTime": 16605,
+          "endTime": 17220,
+          "title": "Conclusion - Signals in the Browser"
+        },
+        {
+          "startTime": 17220,
+          "endTime": 17700,
+          "title": "Conclusion - Why not Object Getters & Setters?"
+        },
+        {
+          "startTime": 17700,
+          "endTime": 17995,
+          "title": "Conclusion - Back to Svelte 5, TypeScript, and Wrapping Up"
+        }
+      ],
+      "description": "I've seen this chatter pick up again, thanks to things like the View Transition API, and it has been a while since we've talked about the subject. So thought I'd take a deep dive into the subject.\n\n[0:00] Preamble\n[13:30] Before SPA's - Playing Hot Potato with State\n[30:00] Is 0kb of JS in Your Future? - The Weight of JavaScript\n[41:00] 0kbJS? - Dueling Templates and the Uncanny Valley\n[56:30] 0kbJS? - Comparing Rendering Timelines: CSR & Isomorphic SSR\n[1:05:45] 0kbJS? - Progressive Hydration\n[1:14:45] 0kbJS? - The Benefits of Streaming\n[1:22:15] 0kbJS? - MPAs to the Rescue! (Islands and Resumability)\n[1:35:30] 0kbJS? - The Limitations of MPA's\n[1:53:00] Astro & View Transitions - Original Astro Hackernews Example\n[2:00:00] A&VT - The View Transitions API\n[2:11:30] A&VT - Adding View Transitions to Astro Hackernews Example\n[2:21:30] A&VT - State Persistence & Serialization\n[2:44:00] A&VT - Comparing SPA, MPA, Turbo, and SCs\n[2:56:00] A&VT - Where Does Astro Fit Now?\n[3:13:30] A&VT - Conclusion & Intermission\n[3:24:15] This Week in JavaScript - Introduction & Solid News\n[3:31:30] TWiJ - SolidStart\n[3:38:15] TWiJ - Valibot\n[3:42:00] TWiJ - Declarative Code\n[3:47:45] TWiJ - svelte:head component & WHATWG Observable Proposal\n[4:00:00] TWiJ - Is the JAMStack Dead?\n[4:06:00] TWiJ - Aiden Bai/Million.js & Netlify Compose\n[4:10:00] TWiJ - Ryan & Misko Hevery's talks at Future Frontends\n[4:20:45] TWiJ - Class Components vs. Function Components\n[4:26:15] TWiJ - Svelte 5 & Benchmarks\n[4:36:45] Conclusion - Signals in the Browser\n[4:47:00] Conclusion - Why not Object Getters & Setters?\n[4:55:00] Conclusion - Back to Svelte 5, TypeScript, and Wrapping Up\r\n\r\nBanner credits: :copyright: Dragon Ball Z characters owned by FUNimation, Toei Animation, Fuji TV, and Akira Toriyama"
+    }
+  }
+}

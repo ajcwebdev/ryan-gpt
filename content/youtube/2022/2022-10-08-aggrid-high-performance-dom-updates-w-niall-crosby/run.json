@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "AGGrid: High-Performance DOM Updates w/ Niall Crosby",
+      "slug": "2022-10-08-aggrid-high-performance-dom-updates-w-niall-crosby",
+      "duration": "5:00:00",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=QRtrS_SvR4w",
+      "publishDate": "2022-10-08",
+      "thumbnail": "https://i.ytimg.com/vi/QRtrS_SvR4w/sddefault.jpg?v=633de746",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 430,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 430,
+          "endTime": 1662,
+          "title": "Welcome Niall"
+        },
+        {
+          "startTime": 1662,
+          "endTime": 4260,
+          "title": "Coding Example"
+        },
+        {
+          "startTime": 4260,
+          "endTime": 5310,
+          "title": "Looking at Internals"
+        },
+        {
+          "startTime": 5310,
+          "endTime": 6268,
+          "title": "Benchmarks"
+        },
+        {
+          "startTime": 6268,
+          "endTime": 6840,
+          "title": "Chatting and Q&A w/Niall"
+        },
+        {
+          "startTime": 6840,
+          "endTime": 9730,
+          "title": "Random Ramblings"
+        },
+        {
+          "startTime": 9730,
+          "endTime": 11621,
+          "title": "Could we use Preact Signals to make a Solid-like Renderer?"
+        },
+        {
+          "startTime": 11621,
+          "endTime": 17759,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 17759,
+          "endTime": 17999,
+          "title": "Outro"
+        }
+      ],
+      "description": "SolidJS's ecosystem has been growing at a rapid rate. The latest addition is AGGrid, a high-performance table library. Niall Crosby, creator of AGGrid, joins me on stream to talk about what AGGrid is, how we can use it with Solid, and where things are going in the future.\r\n\r\n[0:00] Preamble\n[7:10] Welcome Niall\n[27:42] Coding Example\n[1:11:00] Looking at Internals\n[1:28:30] Benchmarks\n[1:44:28] Chatting and Q&A w/Niall\n[1:54:00] Random Ramblings\n[2:42:10] Could we use Preact Signals to make a Solid-like Renderer?\n[3:13:41] This Week in JavaScript\n[4:55:59] Outro\n\nBanner credit: Imagery was taken from Tron the movie which is a copyright of The Walt Disney Company"
+    }
+  }
+}

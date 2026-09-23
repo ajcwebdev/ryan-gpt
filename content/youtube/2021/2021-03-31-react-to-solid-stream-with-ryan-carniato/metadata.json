@@ -1,0 +1,174 @@
+{
+  "step1": {
+    "title": "React to Solid - Stream With Ryan Carniato",
+    "duration": "1:52:22",
+    "author": "Maksim Ivanov",
+    "url": "https://www.youtube.com/watch?v=p8e9ta269x8",
+    "publishDate": "2021-03-31",
+    "thumbnail": "https://i.ytimg.com/vi/p8e9ta269x8/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UC5hby9iDkwOTQM7PIjyjbgw",
+    "chapters": [
+      {
+        "startTime": 0,
+        "endTime": 45,
+        "title": "Intro"
+      },
+      {
+        "startTime": 45,
+        "endTime": 90,
+        "title": "What is Solid"
+      },
+      {
+        "startTime": 90,
+        "endTime": 160,
+        "title": "State Management"
+      },
+      {
+        "startTime": 160,
+        "endTime": 267,
+        "title": "React vs Solid"
+      },
+      {
+        "startTime": 267,
+        "endTime": 378,
+        "title": "Hooks in Solid"
+      },
+      {
+        "startTime": 378,
+        "endTime": 433,
+        "title": "Goblin Store"
+      },
+      {
+        "startTime": 433,
+        "endTime": 523,
+        "title": "Migrating to Solid"
+      },
+      {
+        "startTime": 523,
+        "endTime": 550,
+        "title": "Initial Lighthouse Course"
+      },
+      {
+        "startTime": 550,
+        "endTime": 707,
+        "title": "Solid Rectifier"
+      },
+      {
+        "startTime": 707,
+        "endTime": 914,
+        "title": "Micro frontend"
+      },
+      {
+        "startTime": 914,
+        "endTime": 1243,
+        "title": "React performance"
+      },
+      {
+        "startTime": 1243,
+        "endTime": 1412,
+        "title": "Solid Native"
+      },
+      {
+        "startTime": 1412,
+        "endTime": 1452,
+        "title": "Life Coding"
+      },
+      {
+        "startTime": 1452,
+        "endTime": 1532,
+        "title": "Creating a New Project"
+      },
+      {
+        "startTime": 1532,
+        "endTime": 1622,
+        "title": "Bundler"
+      },
+      {
+        "startTime": 1622,
+        "endTime": 1642,
+        "title": "Flashbacks"
+      },
+      {
+        "startTime": 1642,
+        "endTime": 1802,
+        "title": "TypeScript"
+      },
+      {
+        "startTime": 1802,
+        "endTime": 1842,
+        "title": "CSS"
+      },
+      {
+        "startTime": 1842,
+        "endTime": 1912,
+        "title": "Create React App"
+      },
+      {
+        "startTime": 1912,
+        "endTime": 2002,
+        "title": "React Router"
+      },
+      {
+        "startTime": 2002,
+        "endTime": 2052,
+        "title": "React Exact"
+      },
+      {
+        "startTime": 2052,
+        "endTime": 2272,
+        "title": "React NonReact"
+      },
+      {
+        "startTime": 2272,
+        "endTime": 2342,
+        "title": "Hash State"
+      },
+      {
+        "startTime": 2342,
+        "endTime": 2397,
+        "title": "Hashes"
+      },
+      {
+        "startTime": 2397,
+        "endTime": 2522,
+        "title": "Switch"
+      },
+      {
+        "startTime": 2522,
+        "endTime": 2652,
+        "title": "Router"
+      },
+      {
+        "startTime": 2652,
+        "endTime": 2782,
+        "title": "Data Fetching"
+      },
+      {
+        "startTime": 2782,
+        "endTime": 2897,
+        "title": "V Library"
+      },
+      {
+        "startTime": 2897,
+        "endTime": 3032,
+        "title": "Progressive Async"
+      },
+      {
+        "startTime": 3032,
+        "endTime": 3222,
+        "title": "Solid Course"
+      },
+      {
+        "startTime": 3222,
+        "endTime": 3402,
+        "title": "JavaScript Ecosystem"
+      },
+      {
+        "startTime": 3402,
+        "endTime": 6742,
+        "title": "The Challenge"
+      }
+    ],
+    "description": "We will take an existing React application and try to rewrite it using the Solid framework.\n\nFollow Ryan Carniato Twitter: https://twitter.com/RyanCarniato\n\nSolid Router: https://github.com/rturnq/solid-router\n\nSolid + ThreeJS example: https://codesandbox.io/s/solid-gl-boxes-lmpei\n\nSolid Hackernews Example With SSR: https://github.com/ryansolid/solid-hackernews/tree/vite-ssr"
+  }
+}

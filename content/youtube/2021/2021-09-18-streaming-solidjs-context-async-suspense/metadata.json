@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=8Ou6domKfU4",
+    "videoTitle": "Streaming SolidJS - Context, Async, & Suspense",
+    "videoPublishDate": "2021-09-18",
+    "videoThumbnail": "https://i.ytimg.com/vi/8Ou6domKfU4/sddefault.jpg?v=61453cfd",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "2:55:27",
+    "audioFileName": "Streaming_SolidJS_-_Context_Async_Suspense.wav",
+    "audioFileSize": 336872208
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo.bin | coreml:/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 551110,
+    "tokenCount": 27605
+  }
+}

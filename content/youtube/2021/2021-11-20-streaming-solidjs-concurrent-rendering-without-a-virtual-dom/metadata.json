@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=Hdc5QqPfFH8",
+    "videoTitle": "Streaming SolidJS: Concurrent Rendering without a Virtual DOM",
+    "videoPublishDate": "2021-11-20",
+    "videoThumbnail": "https://i.ytimg.com/vi/Hdc5QqPfFH8/sddefault.jpg?v=619818b5",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "1:27:23",
+    "audioFileName": "Streaming_SolidJS_-_Concurrent_Rendering_without_a_Virtual_DOM.wav",
+    "audioFileSize": 167790072
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo.bin | coreml:/Users/ajc/.local/share/whisper/models/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 301440,
+    "tokenCount": 14737
+  }
+}

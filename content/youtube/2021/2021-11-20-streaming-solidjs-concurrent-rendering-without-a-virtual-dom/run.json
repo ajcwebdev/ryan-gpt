@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Streaming SolidJS: Concurrent Rendering without a Virtual DOM",
+      "slug": "2021-11-20-streaming-solidjs-concurrent-rendering-without-a-virtual-dom",
+      "duration": "1:27:24",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Hdc5QqPfFH8",
+      "publishDate": "2021-11-20",
+      "thumbnail": "https://i.ytimg.com/vi/Hdc5QqPfFH8/sddefault.jpg?v=619818b5",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 134,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 134,
+          "endTime": 455,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 455,
+          "endTime": 776,
+          "title": "Concurrent without VDOM Doubters"
+        },
+        {
+          "startTime": 776,
+          "endTime": 1530,
+          "title": "SolidJS Concurrent Demo"
+        },
+        {
+          "startTime": 1530,
+          "endTime": 1836,
+          "title": "Glitch-free Execution"
+        },
+        {
+          "startTime": 1836,
+          "endTime": 2209,
+          "title": "Scheduling Reactivity"
+        },
+        {
+          "startTime": 2209,
+          "endTime": 2325,
+          "title": "Async Consistency"
+        },
+        {
+          "startTime": 2325,
+          "endTime": 2426,
+          "title": "Interruptable Rendering"
+        },
+        {
+          "startTime": 2426,
+          "endTime": 2918,
+          "title": "Fine-Grained Resumable Rendering"
+        },
+        {
+          "startTime": 2918,
+          "endTime": 3270,
+          "title": "Forking Reality"
+        },
+        {
+          "startTime": 3270,
+          "endTime": 3583,
+          "title": "Scheduling Internals"
+        },
+        {
+          "startTime": 3583,
+          "endTime": 4075,
+          "title": "Why Concurrent Rendering"
+        },
+        {
+          "startTime": 4075,
+          "endTime": 4274,
+          "title": "createComputed vs createRenderEffect vs createEffect"
+        },
+        {
+          "startTime": 4274,
+          "endTime": 4501,
+          "title": "Common Misconceptions"
+        },
+        {
+          "startTime": 4501,
+          "endTime": 4970,
+          "title": "Async Consistency by Default?"
+        },
+        {
+          "startTime": 4970,
+          "endTime": 5170,
+          "title": "VDOM Benefits"
+        },
+        {
+          "startTime": 5170,
+          "endTime": 5243,
+          "title": "Outro"
+        }
+      ],
+      "description": "I'm no stranger to skeptics. But today I hope to lay to rest the myth that the VDOM is the only game in town.\n\nNote.. it looks like the stream recorded choppier on the demo than it looked on my computer where it was perfectly smooth. I guess the stream couldn't handle all the moving shapes. It's unfortunate given that was sort of the point of my demo but hopefully, it still comes through. You can try it yourself here: https://codesandbox.io/s/scheduling-circles-w-slowdown-7elr7\n\n[0:00] Introduction\n[2:14] This Week in JavaScript\n[7:35] Concurrent without VDOM Doubters\n[12:56] SolidJS Concurrent Demo\n[25:30] Glitch-free Execution\n[30:36] Scheduling Reactivity\n[36:49] Async Consistency\n[38:45] Interruptable Rendering\n[40:26] Fine-Grained Resumable Rendering\n[48:38] Forking Reality\n[54:30] Scheduling Internals\n[59:43] Why Concurrent Rendering\n[1:07:55] createComputed vs createRenderEffect vs createEffect\n[1:11:14] Common Misconceptions\n[1:15:01] Async Consistency by Default?\n[1:22:50] VDOM Benefits\n[1:26:10] Outro"
+    }
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:09:32.217Z",
+  "updatedAt": "2026-09-23T08:11:03.297Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Hydrogen & React Server Components w/ Bret Little",
+          "duration": "2:36:43",
+          "channel": "Ryan Carniato",
+          "description": "Bret Little joins me on stream to talk and look at building apps with Shopify's Hydrogen and React Server Components.\n\n[0:00] Introduction\n[2:11] This Month in JavaScript\n[41:24] Welcome Bret\n[56:25] Introduction to Hydrogen\n[1:42:19] Hydrogen Hackernews \n[1:50:36] Streaming SSR\n[1:55:22] Recursive Client Wrapped Server Components\n[2:15:51] Performance\n[2:21:44] RSC Portability\n[2:27:15] Conclusion",
+          "url": "https://www.youtube.com/watch?v=bvWCyGsKOXY",
+          "publishDate": "2022-05-27",
+          "thumbnail": "https://i.ytimg.com/vi/bvWCyGsKOXY/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 131,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 131,
+              "endTime": 2484,
+              "title": "This Month in JavaScript"
+            },
+            {
+              "startTime": 2484,
+              "endTime": 3385,
+              "title": "Welcome Bret"
+            },
+            {
+              "startTime": 3385,
+              "endTime": 6139,
+              "title": "Introduction to Hydrogen"
+            },
+            {
+              "startTime": 6139,
+              "endTime": 6636,
+              "title": "Hydrogen Hackernews"
+            },
+            {
+              "startTime": 6636,
+              "endTime": 6922,
+              "title": "Streaming SSR"
+            },
+            {
+              "startTime": 6922,
+              "endTime": 8151,
+              "title": "Recursive Client Wrapped Server Components"
+            },
+            {
+              "startTime": 8151,
+              "endTime": 8504,
+              "title": "Performance"
+            },
+            {
+              "startTime": 8504,
+              "endTime": 8835,
+              "title": "RSC Portability"
+            },
+            {
+              "startTime": 8835,
+              "endTime": 9403,
+              "title": "Conclusion"
+            }
+          ],
+          "slug": "2022-05-27-hydrogen-react-server-components-w-bret-little",
+          "audioFileName": "2022-05-27-hydrogen-react-server-components-w-bret-little.m4a",
+          "audioFileSize": 117326726,
+          "durationSeconds": 9403
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 60.07472222222223,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 60.07472222222223,
+                "costMultiplier": 1,
+                "durationSeconds": 9403
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 60.07472222222223,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 60.07472222222223,
+                "costMultiplier": 1,
+                "durationSeconds": 9403
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 60.07472222222223,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 60.07472222222223,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 9403
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 1767764,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 1767764,
+                "inputMetric": "durationSeconds",
+                "inputValue": 9403,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 1767764
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 90914,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 90914,
+                "timingBreakdown": {
+                  "uploadMs": 2293,
+                  "createMs": 108,
+                  "pollMs": 3481,
+                  "pollSleepMs": 85013,
+                  "remoteProcessingMs": 85032
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 9403,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 9.669,
+                "throughputValue": 103.427,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 90912,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 2293,
+                  "createMs": 108,
+                  "createCount": 1,
+                  "pollMs": 3481,
+                  "requestCount": 13
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "3e8fcbea-7d29-4371-81dc-9fbf8361ab34",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/44e67d1b92393779cd1606f43af407cf6d18de6ec48df87295aadbf146b4891e/0ac5ad2b-d311-42f0-9c11-46c7c19ba352",
+                  "createCompletedAt": "2026-09-23T08:09:34.621Z",
+                  "lastPollAt": "2026-09-23T08:11:03.132Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 90914,
+            "tokenCount": 26338,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "3e8fcbea-7d29-4371-81dc-9fbf8361ab34",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/44e67d1b92393779cd1606f43af407cf6d18de6ec48df87295aadbf146b4891e/0ac5ad2b-d311-42f0-9c11-46c7c19ba352",
+              "createCompletedAt": "2026-09-23T08:09:34.621Z",
+              "lastPollAt": "2026-09-23T08:11:03.132Z",
+              "completedAt": "2026-09-23T08:11:03.134Z"
+            },
+            "timings": {
+              "uploadMs": 2293,
+              "createMs": 108,
+              "createCount": 1,
+              "pollMs": 3481,
+              "pollSleepMs": 85013,
+              "pollCount": 11,
+              "remoteProcessingMs": 85032,
+              "requestCount": 13
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 0,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 4,
+                  "completed": 4,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790150652199,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 0,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "assemblyai.stt.v1",
+            "request": {
+              "model": "universal-3-5-pro",
+              "diarization": {
+                "enabled": true
+              }
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Nested Routing, Parallelized Data Fetching, and SolidJS  w/ Ryan Turnquist",
+      "slug": "2022-07-15-nested-routing-parallelized-data-fetching-and-solidjs-w-ryan-turnquist",
+      "duration": "3:06:50",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=-TeXU9UZ_4w",
+      "publishDate": "2022-07-15",
+      "thumbnail": "https://i.ytimg.com/vi/-TeXU9UZ_4w/hqdefault.jpg?v=62d0967b",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 373,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 373,
+          "endTime": 2777,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 2777,
+          "endTime": 2865,
+          "title": "Welcome Ryan"
+        },
+        {
+          "startTime": 2865,
+          "endTime": 4110,
+          "title": "History of Nested Routing"
+        },
+        {
+          "startTime": 4110,
+          "endTime": 5698,
+          "title": "History of Solid Routing"
+        },
+        {
+          "startTime": 5698,
+          "endTime": 7835,
+          "title": "Data Fetching with Solid Router"
+        },
+        {
+          "startTime": 7835,
+          "endTime": 9196,
+          "title": "What's new in Solid Router"
+        },
+        {
+          "startTime": 9196,
+          "endTime": 9587,
+          "title": "Will we see Actions/Loaders?"
+        },
+        {
+          "startTime": 9587,
+          "endTime": 10714,
+          "title": "Future of Routing"
+        },
+        {
+          "startTime": 10714,
+          "endTime": 11209,
+          "title": "Q & A"
+        }
+      ],
+      "description": "This stream we will focus on all things routing. And who better to do this with me than Ryan Turnquist the co-creator of Solid's router. We'll talk about the history of Nested Routing, about the new features in Solid Router v0.4.0, and where we see this all going in the future.\n\n[0:00] Introduction\n[6:13] This Week in JavaScript\n[46:17] Welcome Ryan\n[47:45] History of Nested Routing \n[1:08:30] History of Solid Routing\n[1:34:58] Data Fetching with Solid Router\n[2:10:35] What's new in Solid Router\n[2:33:16] Will we see Actions/Loaders?\n[2:39:47] Future of Routing\n[2:58:34] Q & A"
+    }
+  }
+}

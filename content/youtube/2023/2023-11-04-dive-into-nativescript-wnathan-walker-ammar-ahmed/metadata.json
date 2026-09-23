@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=j0s8w34Xh9o",
+    "videoTitle": "Dive into NativeScript w/Nathan Walker & Ammar Ahmed",
+    "videoPublishDate": "2023-11-04",
+    "videoThumbnail": "https://i.ytimg.com/vi/j0s8w34Xh9o/maxresdefault.jpg",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "5:05:40",
+    "audioFileName": "Dive_into_NativeScript_w_Nathan_Walker_Ammar_Ahmed.wav",
+    "audioFileSize": 586892048
+  },
+  "step2": {
+    "transcriptionService": "lemonfox",
+    "transcriptionModel": "default",
+    "processingTime": 353063,
+    "tokenCount": 44477
+  }
+}

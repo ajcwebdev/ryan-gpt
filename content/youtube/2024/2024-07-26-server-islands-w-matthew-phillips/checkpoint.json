@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "kind": "provider-checkpoint",
+  "provider": "soniox",
+  "model": "stt-async-v4",
+  "metadata": {
+    "transcriptionService": "soniox",
+    "transcriptionModel": "stt-async-v4",
+    "processingTime": 896942,
+    "tokenCount": 0,
+    "timings": {
+      "uploadMs": 7213,
+      "createMs": 57,
+      "createCount": 1,
+      "pollMs": 4295,
+      "requestCount": 93
+    },
+    "runtime": {
+      "mode": "fresh",
+      "stage": "polling",
+      "remoteJobId": "29277d76-04fd-47f3-86f3-81013921a263",
+      "remoteAssetId": "bf8e795e-2599-4c86-86d2-c2595b61735f",
+      "createCompletedAt": "2026-07-21T07:55:33.016Z",
+      "lastPollAt": "2026-07-21T08:10:22.686Z"
+    }
+  }
+}

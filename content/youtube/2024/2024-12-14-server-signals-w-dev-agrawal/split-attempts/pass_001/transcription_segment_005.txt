@@ -1,0 +1,403 @@
+[02:00:00] [1] Were not the same thing. Really thing. So I sided with the RxJS side, funnily enough, and I was just like, "I'm going to call these things signals.
+[02:00:06] [1] " And now that's what "signals" means to everyone, when it has no connection to the academic baseline and, um, and basically
+[02:00:18] [1] —yeah, I don't know, it's just—we needed two different names instead of, like, this ambiguous, like, people using whatever names they wanted.
+[02:00:25] [1] Um.
+[02:00:26] [2] Mm-hm.
+[02:00:27] [1] So anyways, that's my signal story.
+[02:00:29] [2] Yeah, and I—yeah, and I—I really appreciate it, because—so that's what I thought when I looked at, like, ELM or SJS or these ways of doing, like, reactivity, or even RxJS.
+[02:00:42] [2] But if I go—if I—when I went further back into, like, where FRP even came from, there were always two primitives.
+[02:00:48] [2] There was a behavior there, and there were events.
+[02:00:51] [1] Yeah.
+[02:00:51] [2] Um, but—um—and behaviors were, like, these continuous values that, like, they change over time, or, like, you can listen to the math, like, two very small increments of time and their value can be different.
+[02:01:03] [2] Uh, and it's because they were used for animation, right? And in animation you want kind of that vector graphic thing where, like, you can scale it infinitely up and down, you can move it around.
+[02:01:13] [2] So having continuous time is very helpful. But, uh, as, like, we tried to do similar things for app development, and it kind of felt like we left one of them off.
+[02:01:25] [2] So, like, we are only going to use events. We are not going to use two primitives because we don't have any need for continuous time.
+[02:01:30] [2] We are just going to grab events and build everything on top of that. So that's how I saw, okay, that's where RxJS and ELM, uh, they get—that's where they come from.
+[02:01:41] [2] But then we started calling those things signals, and over time we evolved signals to look more like the other thing, which is what behaviors were, uh, which were these, like, continuous pull-based values, which, like, y
+[02:01:53] [2] ou don't—you don't have an exact mechanism of change. You just, like, listen to them and they might change at a different time.
+[02:02:00] [2] So it's like this one-term, uh, pendulum all the way from, like, meaning events to meaning behaviors.
+[02:02:08] [2] Uh.
+[02:02:08] [1] Right. And.
+[02:02:10] [2] And.
+[02:02:10] [1] Yeah. Behaviors is just the worst possible name anyone has ever come up with. I mean, let's face it.
+[02:02:17] [2] Yeah.
+[02:02:17] [1] Or behavior subject or subject.
+[02:02:20] [2] Mm-hm.
+[02:02:21] [1] The event means something. People understand what events are.
+[02:02:24] [2] Mm-hm.
+[02:02:24] [1] Somewhat. Behavior?
+[02:02:27] [2] Mm-hm.
+[02:02:27] [1] Subject? Those are—both names are terrible. So now we have signals. So, yay.
+[02:02:34] [2] Yeah. So we have—we have signals. Yeah. And then, like, as soon as I realized that, oh, signals represent behaviors, uh, I started thinking, okay, what—what do we have that represents events then?
+[02:02:45] [2] We don't—we really don't. Everything—like, we just have event handlers that you invoke an event handler, it might call something else and it might set into the state.
+[02:02:53] [2] And at some point you were showing off on your stream, uh, like, your new proposal for a solid 2.
+[02:02:59] [2] 0 reactivity where you split the effects. And you were trying to communicate, like, some—some sort of duality, uh, that—that showed up when you split your effects.
+[02:03:10] [2] Because now your signals return two functions, a pure and an effectful, and now your effects have, like, they take kind of, like, those—like those same functions, the pure and the effect.
+[02:03:20] [2] And that's when I kind of realized, okay, this is the other graph. This is the event graph.
+[02:03:25] [2] That's where it needs to be.
+[02:03:26] [1] Right.
+[02:03:26] [2] So that's kind of what I was trying to build, is that, okay, we have this pull-based primitive, we have signals, but we need something to represent this other side, this mutation side of the graph, or the event side of the
+[02:03:38] [2] graph. That's what this is trying to be. That was a very long-winded, uh.
+[02:03:43] [1] Okay.
+[02:03:44] [2] Intro to this.
+[02:03:45] [1] I mean, createEvent is just a basic event emitter. This looks like—like in Node, we have an event emitter, right?
+[02:03:51] [1] This is similar, right?
+[02:03:52] [2] Yeah.
+[02:03:53] [1] Um.
+[02:03:54] [2] Yeah. So at some point I even had, like, something like createEffect, so it's called createListener, where you would pass in the event itself as the first argument, and the second argument would be the side effect.
+[02:04:06] [2] Uh, I—I want to bring that back for reasons that I'll, uh, get into later. But right now, here you see that there's a console log on event, console log something, right?
+[02:04:15] [2] Uh.
+[02:04:16] [1] Yeah.
+[02:04:17] [2] You would do this using a listener because it's a side effect. You wouldn't just directly pass in a side effect into the handler.
+[02:04:23] [2] But for—for right now, we—this is how we're doing it.
+[02:04:27] [1] Okay. Okay, okay. Um, I mean, because this does look like a simple event.
+[02:04:34] [2] Mm-hm.
+[02:04:34] [1] Everyone's seen, you know, Node event emitter, right? Like, this.
+[02:04:38] [2] Mm-hm.
+[02:04:39] [1] The API is slightly different, but it's like new event emitter on—I mean, these are named, I guess, so this is like on a—with an event emitter you can have multiple named events where this is only a single one, but it's
+[02:04:51] [1] like the same kind of concept, right? Emit.
+[02:04:53] [2] Yeah.
+[02:04:54] [1] And then on this, right?
+[02:04:56] [2] Mm-hm.
+[02:04:56] [1] So, okay.
+[02:04:58] [2] Yeah. So a couple small—like, obviously I made it to look like a tuple, or I made it to look more like signals by doing a tuple.
+[02:05:05] [1] Right.
+[02:05:05] [2] And the other thing is that, uh, these subscriptions are created inside SolidJS roots.
+[02:05:12] [2] So if you dispose of root, any subscriptions, any event subscriptions that were made inside it are also removed.
+[02:05:17] [1] Nice. Nice, okay. So that's convenient.
+[02:05:20] [2] That's first thing. Oh, sorry. Mm-hm.
+[02:05:23] [1] Cool.
+[02:05:24] [2] And then the transformations is where, like, the composability comes in.
+[02:05:30] [1] On increment. So you create an event. Okay, on increment this, on message. Oh, okay.
+[02:05:38] [1] I see. Because these return—like, they don't have to be effectful. They actually return their value as a function that can also be called with the payload.
+[02:05:51] [1] So on message, um, we'll call
+[02:05:57] [1] —interesting. If you pass it a callback, it will call it with the payload that comes from here.
+[02:06:03] [1] Right, so.
+[02:06:03] [2] Yeah, it's just a map.
+[02:06:05] [1] Yeah. Okay.
+[02:06:08] [1] Disposal.
+[02:06:10] [2] This is what I talked about, that the, uh, when the root gets disposed, you dispose the subscriptions.
+[02:06:15] [1] Okay.
+[02:06:15] [2] So all of these get created inside the root. And the halt is basically how you do filtering.
+[02:06:20] [2] So you can, inside a branch, you can say, halt it right here. So now it's not going to, uh, propagate, like, on any events, like, events further down the chain.
+[02:06:31] [1] Okay, okay. So this is something else you import. Okay.
+[02:06:35] [2] Yeah. It's a—yeah, it's a little helper. Uh, I didn't want to make it an operator.
+[02:06:40] [2] I'm trying to avoid operators if I can. So just.
+[02:06:43] [1] Yeah.
+[02:06:43] [2] Use helpers like these.
+[02:06:45] [1] Yeah. Yeah, no, I—operators is one of those things. I remember at one point RxJS shipped with, like, 120 of them, and then they're like, "We're down to 45."
+[02:06:53] [2] Yeah.
+[02:06:53] [1] Like, "We're in a good place." And it's like.
+[02:06:55] [2] Mm-hm.
+[02:06:56] [1] Yeah, I mean, the—yeah, every time someone's tried to standardize, it's been a matter of trying to reduce the number of operators to get started with.
+[02:07:04] [2] Yeah.
+[02:07:05] [1] Um, okay.
+[02:07:06] [2] And there's—there's going to be, like, there's a lot of stuff that, uh, things like RxJS operators can do that you're going to need to do this in this model.
+[02:07:15] [2] Uh, sometimes they'll require a bit of complicated logic. Sometimes I'll just say that, okay, convert this into an RxObservable, bring whatever operator you want, or chain of operators.
+[02:07:26] [1] Yeah.
+[02:07:26] [2] And then convert it back to an event so that you can pipe it into signals.
+[02:07:31] [1] I see. If you return a promise from an event callback, the resulting event will wait till mid until the promise resolves.
+[02:07:36] [1] In other words, promises are automatically flattened by events. Okay. Interesting.
+[02:07:41] [1] Okay. Interesting.
+[02:07:43] [2] Yeah, so.
+[02:07:44] [1] Mm-hm.
+[02:07:44] [2] Yeah, so if you have—if you do an async operation inside the event callback, you just get an event back on the other side instead of an event of a promise of the value.
+[02:07:54] [2] Uh, this is.
+[02:07:55] [1] Okay.
+[02:07:56] [2] So this right now, um, there's like a couple different ways to do this. Um, you can do something like called merging, where all the async stuff happens immediately, um, which is okay for, like, mutations.
+[02:08:11] [2] You don't want to do data fetching this way, because with data fetching you want to cancel the previous one or avoid, like, getting its own event back, which this doesn't do.
+[02:08:20] [2] So this is—this is one of those zones where I—I would probably end up, like, uh, bringing some operators.
+[02:08:28] [2] Just because, like, async events, there's like three, four different ways you can handle them, and each of them have their own use case.
+[02:08:35] [1] Yeah. Yeah, I was thinking about the get case, because it's like.
+[02:08:40] [2] Mm-hm.
+[02:08:40] [1] You don't—like, this kind of sneaks away from, like, suspense. Like, you kind of hiding.
+[02:08:46] [2] Mm-hm.
+[02:08:47] [1] Varying the lead here a little bit. I mean, it's—it's fine when you're.
+[02:08:51] [2] Yeah.
+[02:08:52] [1] Trying to, like, as you say, do an action, like, it's part of the transformation that goes from, like.
+[02:08:56] [2] Mm-hm.
+[02:08:57] [1] Event to do the thing.
+[02:08:59] [2] Mm-hm.
+[02:08:59] [1] But when it's on the read side.
+[02:09:01] [2] Yeah.
+[02:09:01] [1] It's—it's—it's awkward. UI doesn't get to play along with this.
+[02:09:06] [2] I'm hoping this can—this can be hooked into suspense at some point, but, uh, that's.
+[02:09:11] [1] Yeah.
+[02:09:12] [2] For, like, that's two iterations in the future.
+[02:09:15] [1] Yeah. Create subject. Okay.
+[02:09:18] [2] Yeah. So this—I just borrowed this terminology from RxJS, uh, but this is basically how you combine your event streams back into signals.
+[02:09:27] [1] Right.
+[02:09:27] [2] So that you can have a UI on top of it. Um, the original FRP in, uh, the, um, its specification in Haskell, uh, they called it this a switcher, but we also know this as a reducer.
+[02:09:40] [2] Like, there's a bunch of different names, uh, that you can call this by. But basically, like, an event happens, you mutate the state.
+[02:09:46] [2] That's it.
+[02:09:48] [1] Interesting. Because this—this here is a chain, right? Like, this is actually—like, this is—the zero is the input to this, which is the input to.
+[02:09:57] [2] So it's—it's not—it's—it's more of a merge.
+[02:10:02] [1] Okay.
+[02:10:02] [2] Uh, so the zero is the default value, and these—so initially I—I had, like, you update a subject with a single event, but—and then, like, I had a different mechanism to combine a bunch of events into a single event.
+[02:10:16] [1] Right.
+[02:10:16] [2] But I realized that every time you have a piece of state, you have a bunch of different events that change it.
+[02:10:20] [2] You don't just have one event that updates that state. So I just made this, like, okay, you pass in multiple events, and each of those events has a diff—like, mutates its—or changes the state differently.
+[02:10:32] [1] Okay. Gotcha.
+[02:10:33] [2] So when there's an on increment, you take the delta, you take the current count, you add them.
+[02:10:36] [2] And when there's an on reset, you just do as—you just, uh, set it to zero.
+[02:10:40] [1] Right.
+[02:10:41] [2] So those are different events that change the state differently.
+[02:10:44] [1] Right.
+[02:10:44] [2] And the first argument is the default.
+[02:10:47] [1] Gotcha. And then we basically get a signal out on the other side.
+[02:10:50] [2] Mm-hm.
+[02:10:50] [1] Okay.
+[02:10:53] [2] This to me was, um, like, uh, as I was looking at, like, createAsync and everything that's, like, happening with reactivity, createProjection, what I realized was all we are trying to do is get rid of setters and effects.
+[02:11:05] [2] Because those are the escape hatches. It's not just that effect is an escape hatch, it's that createSignal is also kind of an escape hatch, because we are setting that signal on our own.
+[02:11:15] [2] Um, like, we—we want to avoid both of those, not just effects. So I looked at this in a sense that it—it gets rid of the setter.
+[02:11:23] [2] We don't have the setter anymore. We have a very predictable way of how signals update.
+[02:11:27] [2] All of that.
+[02:11:28] [1] Yeah.
+[02:11:28] [2] Like, all the definitions are right there.
+[02:11:31] [1] Yeah, yeah. That—that is one result of this. When we—you're right. CreateAsync not having mutate is very intentional.
+[02:11:39] [1] CreateProjection.
+[02:11:40] [2] Mm-hm.
+[02:11:40] [1] Getting away from people writing effect to store.
+[02:11:42] [2] Yeah.
+[02:11:42] [1] CreateMemo. Everything is trying to do the directionality so that the write isn't on the outside.
+[02:11:47] [2] Yeah.
+[02:11:47] [1] Uh, events let you, uh, basic event system lets you just chain write along there in a derived way.
+[02:11:53] [2] Mm-hm.
+[02:11:53] [1] Right from the
+[02:11:56] [1] —like, you enter the reactive system, like, the pipe, much sooner, essentially. Most of the time.
+[02:12:01] [2] Yeah.
+[02:12:02] [1] We enter the pipe, like, in terms of, like, an event handler, we write a bunch of imperative logic, and then we.
+[02:12:07] [2] Yeah.
+[02:12:07] [1] We—we do multiple changes, and then that's where the entry points are.
+[02:12:10] [2] Yeah.
+[02:12:10] [1] This is, like.
+[02:12:12] [2] Mm-hm.
+[02:12:12] [1] Often, like, a single event that comes in, or maybe it's multiple events, but you—you basically almost immediately.
+[02:12:18] [2] Yeah.
+[02:12:19] [1] Go in without the imperative logic. Yeah, okay. CreateSubjectStore. CreateAsyncSubjectStore.
+[02:12:25] [2] AsyncSubject is basically, like, yeah, it wraps and createAsync, which I'm probably going to remove.
+[02:12:30] [1] Right.
+[02:12:31] [2] Uh, I don't—like, I don't need to have this primitive. Uh, SubjectStore is the interesting one, though.
+[02:12:38] [1] Okay.
+[02:12:42] [2] So yeah, it's the same idea, but with each event, you don't return a new value, you mutate the current one.
+[02:12:49] [1] Right.
+[02:12:49] [2] So it's like createProjection, but you have multiple functions, one for each event that you want, uh, to mutate the—mutate the store.
+[02:12:57] [1] Yeah, I think it's almost time to talk about what I wanted to talk about with projections.
+[02:13:01] [2] Pretty much.
+[02:13:02] [1] This—this—this got me there, but let's—let's—let's keep on going in here. CreateTopic.
+[02:13:08] [2] Yeah.
+[02:13:08] [1] What's a topic?
+[02:13:09] [2] So this is less a way to combine multiple events into one. Again, I—naming, I can, like.
+[02:13:15] [1] Yeah.
+[02:13:15] [2] I can come up with probably better names. But yeah, so you have on increment, on decrement, you just want one event that emits when any of those do.
+[02:13:23] [2] So, like.
+[02:13:24] [1] Okay.
+[02:13:24] [2] Combining events into a single one.
+[02:13:26] [1] Okay, so this is like a merge. CreatePartition.
+[02:13:30] [2] And Partition is the other side where one event, and you have a condition, you want to split them.
+[02:13:35] [1] Right, okay. Merge and fork. Okay, use cases. State derived from events. Yeah. This is a classic.
+[02:13:44] [2] Yeah, this is what I was talking about, where you enter the re—where we—what you said, where you enter the reactive state or the reactive system much earlier.
+[02:13:51] [1] Yeah.
+[02:13:51] [2] So here you enter it as soon as there's a button on click.
+[02:13:53] [1] Yeah.
+[02:13:53] [2] Instead of, uh.
+[02:13:55] [1] Yeah, instead—instead of having a handler that calls the signal.
+[02:13:58] [2] Mm-hm.
+[02:13:58] [1] Here you go emit incre
+[02:14:01] [1] —increment, and then.
+[02:14:03] [2] Mm-hm.
+[02:14:04] [1] It ends up on increment, creating the subject, it does the count. Yeah, and this is also where this you—it's like the oldest—my oldest kind of joke on Twitter is, like, sometimes people on the—from the Angular side, which
+[02:14:20] [1] show, like, this really well-thought-out RxJS code that was, like.
+[02:14:24] [2] Mm-hm.
+[02:14:24] [1] Really clean, and you could see, like, all the.
+[02:14:27] [2] Yeah.
+[02:14:27] [1] The stuff piped together, and they're very proud, and they put it there, and they're, like, put on Twitter, and they're like, "Look at this.
+[02:14:33] [1] This is why Angular is the best." And then you look at it and you're like.
+[02:14:36] [2] Mm-hm.
+[02:14:37] [1] "I could write this in React in, like, one quarter of the lines of code, and it actually would seem simpler."
+[02:14:43] [2] Yeah.
+[02:14:43] [1] It's like what I showed earlier.
+[02:14:44] [2] Mm-hm.
+[02:14:45] [1] This is a basic example, and you can already start seeing the bloating. The problem is, when you need this, when you have.
+[02:14:52] [2] Mm-hm.
+[02:14:52] [1] Retry logic, when you have more complicated processing, there is a tipping point, and after that tipping point.
+[02:14:59] [2] Mm-hm.
+[02:14:59] [1] The more imperative-looking logic starts going downhill.
+[02:15:04] [2] Yeah.
+[02:15:04] [1] Really quickly.
+[02:15:04] [2] Mm-hm.
+[02:15:05] [1] Like, it's like—it's like a cliff, um, where this will scale
+[02:15:10] [1] to infinity relatively well. Um, okay.
+[02:15:13] [2] Yeah.
+[02:15:16] [1] Event composition.
+[02:15:16] [2] And this is—so this is—I—I didn't know what to call this section. Uh, this is where that kind of gets—I—I tried to highlight the exact thing that you're talking about.
+[02:15:26] [1] Right.
+[02:15:26] [2] This is the drag-and-drop logic from Trello.
+[02:15:29] [1] Yeah. Yeah, yeah. This is—yeah, drag-and-drop is actually the classic thing people always do with Rx.
+[02:15:35] [1] Yeah, so yeah, do, do, do, do, and then, then
+[02:15:40] [1] yeah.
+[02:15:42] [2] I can—I can still make this, like, probably more cleaner, the event version. Um, like, this was kind of written in a hurry because I was trying to get the submission in, uh, and this was like 2:00, 3:00 AM in the morning.
+[02:15:54] [2] But yeah, I can—I can likely, like, make this whole section, um, a lot cleaner.
+[02:16:00] [2] But here you can see that except drop, which had, like, its setter, like, all over the place.
+[02:16:05] [2] Here you can see, okay, when—when do we accept a drop on this, uh, on this element?
+[02:16:12] [1] Yeah, quickly and share when you need diagrams. Yeah, I mean, this is why RxHassels.
+[02:16:15] [2] And that's the thing, yeah.
+[02:16:16] [1] RxHassels' lovely little—what are they called?
+[02:16:19] [2] Marble diagrams.
+[02:16:19] [1] The marble diagrams. What's the current subject here? Uh.
+[02:16:23] [2] Yeah.
+[02:16:23] [1] If you're just joining in, we are—we already talked about the WebSocket stuff. We are now talking about solid events, which is the whole other side of reactivity that solid doesn't concern itself with.
+[02:16:33] [1] So DEF made a library, um,
+[02:16:38] [1] giving these capabilities. So we're looking pretty deep into the API surface of it.
+[02:16:44] [1] Optimistic UI.
+[02:16:45] [2] And the thing about needing diagrams is that you can—a—a lot of times you can generate those diagrams by either at runtime tracking what events depend on what, or even just static analysis.
+[02:16:56] [2] So that's the, uh, the other zone where, like, or, um.
+[02:17:00] [1] Yeah.
+[02:17:00] [2] Basically, statically analyzing these events and, like, knowing them at compile time.
+[02:17:05] [2] And there's a lot of optimizations that can come out of that as well, which I have not, uh, written about or thought too much yet.
+[02:17:12] [1] Yeah. It's true. Uh, it's part of the reason that things are harder to write is because all the points are explicit, like, all the switching points, all the.
+[02:17:22] [2] Mm-hm.
+[02:17:22] [1] Like, with imperative logic, you will branch just, like, conditionally in the middle of something.
+[02:17:27] [2] Mm-hm.
+[02:17:28] [1] And, you know, signals are pride themselves in only tracking the parts that matter, whatever.
+[02:17:31] [1] With Rx, you have to, like, pull all the, like, or events generally, like, conceptually you're kind of pulling all the dependencies out to the front and hoisting them.
+[02:17:40] [2] Mm-hm.
+[02:17:40] [1] So when things fork and you want to make sure that, like, only on this do you go this path and this path, and it depends on these things, you basically have to hoist it all out and split into different compositions to get
+[02:17:52] [1] that same level of granularity and do that. It's much trickier, but on the positive, you—it's literally what you see in front of you.
+[02:17:59] [1] Like, there's no—like, there's no implicitness about how.
+[02:18:02] [2] Mm-hm.
+[02:18:02] [1] Branching or forking or, you know, halting or any of that happens. Uh, so from that point of view, it—it is completely analyzable by a compiler, and.
+[02:18:15] [2] Mm-hm.
+[02:18:16] [1] Interesting problem space
+[02:18:20] [1] . Definitely.
+[02:18:20] [2] Yeah, I'm really interested in what would—what resumability can look like with, uh, with the event primitive, like, built in or something that the compiler recognizes, because resumability is all about event handlers.
+[02:18:34] [2] So if—if each event handler chain is made very explicit in the components, it's—it might be easier to, like, just pull it out
+[02:18:45] [2] .
+[02:18:45] [1] Yeah, yeah. It's—it's tricky, 'cause yeah, I mean,
+[02:18:52] [1] yeah, I—I guess we did talk about this in the HackMD, because, like, it's like where you do the
+[02:18:59] [1] —where you enter and where you do the switch in terms of consciousness. Like, in terms of, like, here's an example.
+[02:19:06] [1] The benefit of going directly to the event is you basically remove all the closures.
+[02:19:11] [1] Like, by its very nature.
+[02:19:14] [2] Mm-hm.
+[02:19:14] [1] Like, because I mean, maybe that's not completely true, but
+[02:19:21] [1] all the closures are explicit is—is—is better way to put it.
+[02:19:24] [2] Yeah.
+[02:19:24] [1] Because you're not—you're not wrapping over values, you're—you're—you're setting inputs that feed into the pipe.
+[02:19:30] [1] So in a sense, if you had a system that was completely event-based, you could maybe actually get away from the complexity of the compiler thing.
+[02:19:40] [1] Though, as I said, if you forced everyone to write their code like it all the time, you would have people.
+[02:19:46] [2] Mm-hm.
+[02:19:47] [1] Actually, and Dominic's probably not here anymore, his earliest version of Octane was kind of like this.
+[02:19:54] [2] Mm-hm.
+[02:19:54] [1] Like, he showed it to me, um, and I was like, "Man, like, this would make resumability, like, like, a non-issue.
+[02:20:02] [1] " Like, because everything—it's all state got fed through.
+[02:20:06] [2] Mm-hm.
+[02:20:06] [1] Any handler. Didn't matter if it was, like, a signal or an event or whatever. You always got the state fed through, so there was—it wasn't a closure thing.
+[02:20:13] [1] Um, so yeah. It.
+[02:20:18] [2] That—yeah, that makes sense. This still has closures, though, so if you scroll, like, a little bit up.
+[02:20:23] [1] Yeah, yeah.
+[02:20:24] [2] Uh, there is a—like, you do read from signals within these event handlers. Uh.
+[02:20:29] [1] Oh, really? Did I—did I not see that?
+[02:20:31] [2] Yeah, so actually it's right there in the on drag. It's in the drag-and-drop example, because when you're deciding, uh, uh, this is the imperative one.
+[02:20:40] [2] If you go down to the.
+[02:20:42] [1] Okay.
+[02:20:42] [2] Uh, the event version of this. Yeah, right here. So on drop note, you are—you are, like, calling except drop.
+[02:20:50] [2] So.
+[02:20:52] [1] Yeah, yeah, yeah.
+[02:20:53] [2] Yeah, so you can—you read from signals within these event handlers as well. So that—that might still be an issue for, like, you still do need closure extraction, I think.
+[02:21:02] [1] Okay, fair enough. Yeah, I—because there's always going to—yeah, okay, yeah, which is a little different than what I was talking about where all the state fed back in.
+[02:21:11] [1] Um, okay, so yeah, you have lots of examples in here, which is really cool. Um, yeah, we already saw stuff with that fine-grained mutations.
+[02:21:20] [1] I—I like that the Strello demo is used a lot in these examples, 'cause this is the double effect update that we talk about.
+[02:21:27] [2] Yeah.
+[02:21:27] [1] Fine-grained additions.
+[02:21:29] [2] Mm-hm.
+[02:21:29] [1] Versus reconciling the—the board. Um.
+[02:21:34] [2] Mm-hm.
+[02:21:35] [1] You're using SubjectStore.
+[02:21:36] [2] Yeah, this is where, uh, like, this idea of—the idea of events was, like, completely independent, but after working on Strello demo, uh, or actually, like, before I did this, uh, the optimistic implementation for Strell
+[02:21:49] [2] o, uh, right before that I realized that, okay, this events library that I have can actually—will actually be perfect for, uh, like, optimistic mutations like this.
+[02:22:00] [1] Yeah, it's actually interesting, 'cause I had this discussion. Milo actually didn't like CreateProjections API and almost
+[02:22:09] [1] wrote this API word for word. He—I—I—I—it's funny, I feel like pulling up the Discord.
+[02:22:13] [1] He wrote, like, "CreateProjection this," and then said, "On mutation." That he—I—I kid you not, I had this discussion with him yesterday, and he was like, "This would—this would be better.
+[02:22:25] [1] " And I'm like, "I'm not sure." I guess my—my concern was I was not picturing—neither of us were picturing multiple events.
+[02:22:33] [2] Mm-hm.
+[02:22:33] [1] But this actually is probably the key to it. Um, yeah, it was—it was—this is actually kind of funny seeing it in front of me right now.
+[02:22:41] [1] Um, I'm—I'm going to make a note for Milo. Um,
+[02:22:46] [1] but yeah, I—'cause here.
+[02:22:47] [2] Yeah, that was my thought as well, because the split effects and, like, the branch with has updated, uh, or the—which—which was the demo that, um, you had for with CreateProjection, or at least the snippet, not the demo.
+[02:23:00] [1] Mm-hm, yeah.
+[02:23:00] [2] And all I could see when looking at it was that there's two different branches happening here.
+[02:23:06] [1] Yes.
+[02:23:06] [2] But the relation—the condition is implicit, or it's like, we're trying to figure out the—the condition.
+[02:23:13] [1] Right.
+[02:23:13] [2] While we're inside the function. If we could just make that more explicit, we will—we can have two different functions that do this.
+[02:23:20] [1] Yeah.
+[02:23:22] [1] Yeah, it's—it's interesting to kind of push people that way, but then you're like, "Is it—is it just generalizable?
+[02:23:27] [1] " Because the whole idea for people not following is.
+[02:23:29] [2] Mm-hm.
+[02:23:29] [1] Is that there's the original thing that gets the source, and then on any of these mutations, um, it tries to do, like, the thing that's might not be obvious here is the—when you're dealing with some kind of projected stor
+[02:23:49] [1] e, um, some kind of, like, like, fine-grained thing that you want to, like, mutate or update, um, in this kind of derived way, the—the you—you—you're basically always doing a diff.
+[02:24:03] [1] Like, no matter how you look at it, even you—you—if you—you're just trying to find ways to do it more optimally.
+[02:24:09] [1] Like, in this case with these mutations.
+[02:24:11] [2] Mm-hm.
+[02:24:11] [1] We know that we can create a single node, move a single node, edit a node. These are very specific operations.
+[02:24:17] [1] But when you don't know.
+[02:24:18] [2] Mm-hm.
+[02:24:19] [1] That all you—you know, you update some data and you don't know, all you can do is diff it.
+[02:24:22] [1] You get new data from the server, all you can do is diff it. So, like, all these specific mutations are just to avoid diffs.
+[02:24:30] [1] Like, in this version up here, essentially you're like, "Okay, these are specific mutations, I can do them one by one.
+[02:24:37] [1] This here, I—you know, it's 'cause the board updated, I am going to do a diff."
+[02:24:42] [1] See Reconcile? That's do the diff. So, like, essentially there's this kind of weird, like, here's two effects that's separate, but what I was trying to do was get rid of the effects and make it into a derived value, which
+[02:24:56] [1] CreateProjection. You basically are always diffing. You actually have to worry about, um,
+[02:25:07] [1] sorry, we're going tangent for just a second here. Um.
+[02:25:10] [2] Let's go with.
+[02:25:12] [1] What I wanted to just—just kind of conceptually go here. This isn't going to be actually running code for a second, but if you saw something that was like this, CreateProjection,
+[02:25:25] [1] and let's say it gave you the store. And I'm sorry for people who aren't familiar with this API, I've been talking about it for weeks, but the idea here is this is a derived way of updating something like a store.
+[02:25:37] [1] Um, and because stores need to be granularly updated, we have to actually track the updates granularly.
+[02:25:42] [1] It's kind of like immerse, produce function, or whatever. So the thing is, if you had something like this, store.
+[02:25:47] [1] a equals, you know, signal a. You know, so, like, you're basically saying, "Whenever a changes, I'm going to update store.
+[02:25:52] [1] a." This is usually the example. But if you said store.b equal
+[02:25:59] [1] s, um, b, or, or store.b push b, okay?
+[02:26:05] [1] Do you see, like, do you see why this could be problematic?
+[02:26:12] [2] This is happening every single time.
+[02:26:14] [1] Exactly, right? Like, if—if you—if you are making a memo, let's try this again.
+[02:26:23] [1] const m equals create memo, something like derived, and you have previo
+[02:26:30] [1] us, and you're doing this. Well, what you're going to do is you're going to say, "Okay, um, I mean, I—I can one-line it actually.
+[02:26:40] [1] It's you do this. You'd go clone previous
+[02:26:46] [1] a equals a
+[02:26:51] [1] , b equals
+[02:26:56] [1] I mean, to be fair, the fact that we're recursive—maybe this problem happens with any kind of recursion, but, like, you have to be aware.
+[02:27:06] [1] Yeah, I mean, it's interesting, 'cause this also does it too, doesn't it, if you think about it?
+[02:27:11] [2] Yeah.
+[02:27:11] [1] Previous.
+[02:27:13] [2] Like, if a updates but b didn't update, you have two copies of it now.
+[02:27:16] [1] Yeah. So, like, you—you almost never write,
+[02:27:23] [1] like, "This has to diff," essentially, or.
+[02:27:26] [2] Mm-hm.
+[02:27:27] [1] "Here, this has to diff." Here, usually you just—you—you basic more than often what happens is memo always returns the next state.
+[02:27:36] [1] So, like, you just make it the state you want it to be. Here, you have to actually change it to be the state you want it to be.
+[02:27:44] [1] Here, like, I don't know, there's a slight, subtle difference between
+[02:27:50] [1] knowing the previous state and having a and b, and knowing what the next state should look like, versus, again, having the current state.
+[02:28:02] [1] Yeah, I guess it's not actually that different. I was trying to, like, think in my head if there was, like, something.
+[02:28:05] [2] We need a different example. I'm trying to think of it as well.
+[02:28:09] [1] Because, like, conceptually the—the whole problem with this is that, like, if you—if—if a updates and b doesn't update, you're still always pushing b, right?
+[02:28:25] [1] So it's kind—it's kind of awkward. I think we kind of understand this now. So I think people avoid this, um, generally speaking.
+[02:28:33] [1] They don't write code like this, but it—it is something that, like, you have to be aware of.
+[02:28:38] [1] Like, if you're creating a—like, a projection where you're updating state and stuff, you're basically doing a sort of diff.
+[02:28:44] [1] You're like, "Okay, I have this new dat
+[02:28:48] [1] a." The way Milo put it to me was he was pretending like this was an update function, like a—like a produce call, and he said to me that this update,
+[02:28:59] [1] um,
+[02:29:01] [1] update
+[02:29:05] [1] like,
+[02:29:08] [1] and I shouldn't use b, a and b, I should use, like, 1 and 2, like, different values of the same signal or set of signals.
+[02:29:16] [1] Like, assume that these are thing should equal
+[02:29:20] [1] update 2.
+[02:29:23] [1] Was—was what Milo put to me. Like, this principle has to kind of hold, and the only the which is.
+[02:29:31] [2] Interesting.
+[02:29:32] [1] Right? Because,
+[02:29:36] [1] like, this is a journey and this is a single update, but at the end.
+[02:29:40] [2] Yeah.
+[02:29:41] [1] Like, you know that when the state is in state 2, you—you want it to be in state 2.
+[02:29:48] [1] You—the journey shouldn't matter, you know?
+[02:29:51] [2] Yeah.
+[02:29:51] [1] Like, like, and the only way you can do that is if you diff of some sort in here.
+[02:29:57] [1] And I—I don't know if this is, like, obvious.

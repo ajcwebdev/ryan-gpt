@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "React: The Most Prolific JavaScript Framework",
+      "slug": "2022-09-03-react-the-most-prolific-javascript-framework",
+      "duration": "5:01:26",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=BBWA7PGJcts",
+      "publishDate": "2022-09-03",
+      "thumbnail": "https://i.ytimg.com/vi/BBWA7PGJcts/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 380,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 380,
+          "endTime": 1317,
+          "title": "My Relationship with React"
+        },
+        {
+          "startTime": 1317,
+          "endTime": 2717,
+          "title": "Before React"
+        },
+        {
+          "startTime": 2717,
+          "endTime": 3110,
+          "title": "Enter React"
+        },
+        {
+          "startTime": 3110,
+          "endTime": 3519,
+          "title": "Fixing my Audio Issues"
+        },
+        {
+          "startTime": 3519,
+          "endTime": 3677,
+          "title": "Rich Harris' Intro"
+        },
+        {
+          "startTime": 3677,
+          "endTime": 4668,
+          "title": "Early React 2013-14"
+        },
+        {
+          "startTime": 4668,
+          "endTime": 5425,
+          "title": "Performance 2015-16"
+        },
+        {
+          "startTime": 5425,
+          "endTime": 6432,
+          "title": "React's Growing Influence"
+        },
+        {
+          "startTime": 6432,
+          "endTime": 6595,
+          "title": "Function/Object/Class"
+        },
+        {
+          "startTime": 6595,
+          "endTime": 6712,
+          "title": "The Golden Era 2017"
+        },
+        {
+          "startTime": 6712,
+          "endTime": 7741,
+          "title": "Modern React 2018"
+        },
+        {
+          "startTime": 7741,
+          "endTime": 8816,
+          "title": "React Hooks Announcement"
+        },
+        {
+          "startTime": 8816,
+          "endTime": 10020,
+          "title": "useEffect: Trouble in Paradise?"
+        },
+        {
+          "startTime": 10020,
+          "endTime": 10528,
+          "title": "Diverging Paths"
+        },
+        {
+          "startTime": 10528,
+          "endTime": 12290,
+          "title": "Future of React"
+        },
+        {
+          "startTime": 12290,
+          "endTime": 13890,
+          "title": "Compilation in React"
+        },
+        {
+          "startTime": 13890,
+          "endTime": 15112,
+          "title": "Q & A"
+        },
+        {
+          "startTime": 15112,
+          "endTime": 18086,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "React did not start its life as something that I'd ever think would become one of my favorite JavaScript frameworks. Through initial dislike, begrudging respect, and eventual admiration, I'm going to take you through React's past, present, and future, from the perspective of its least likely fan.\n\n[0:00] Preamble\n[6:20] My Relationship with React\n[21:57] Before React\n[45:17] Enter React\n[51:50] Fixing my Audio Issues\n[58:39] Rich Harris' Intro\n[1:01:17] Early React 2013-14\n[1:17:48] Performance 2015-16\n[1:30:25] React's Growing Influence\n[1:47:12] Function/Object/Class\n[1:49:55] The Golden Era 2017\n[1:51:52] Modern React 2018\n[2:09:01] React Hooks Announcement\n[2:26:56] useEffect: Trouble in Paradise?\n[2:47:00] Diverging Paths\n[2:55:28] Future of React\n[3:24:50] Compilation in React\n[3:51:30] Q & A\n[4:11:52] This Week in JavaScript\n\nNotes:\nPre-React 2009-2012\n- Sarah Drasner chart https://twitter.com/juristr/status/1564999101590159368\n- Things that existed before:\n    - Declarative views\n    - Stateful rendering\n    - Classes\n    - Component like things MVVM\n\nEnter React 2013-2014\n- Jordan Walke\n    - https://github.com/jordwalke/FaxJs\n- Rich Harris: https://youtu.be/qqt6YxAZoOc?t=10\n- JSX (separation of concerns)\n- Pete Hunt: https://youtu.be/x7cQ3mrcKaY?t=507 Oct 2013 MVC\n- Modern Component model\n- Tom Occhino: https://youtu.be/XxVg_s8xAms?t=231 July 2013\n- Formalized Unidirectional Flow\n- Jing Chen: https://youtu.be/nYkdrAPrdcw?t=629 2014\n- Framework as a Philosophy\n    - https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a\n\nPerformance Narrative 2015-2016\n- Ryan Florence https://youtu.be/z5e7kWSHWTg?t=150 2015\n- https://github.com/mathieuancelin/js-repaint-perfs\n- JS Framework Benchmark Started as Gist in 2015\n    - Round 1 https://www.stefankrause.net/wp/?p=191\n- Dominic Gannaway Creator of Inferno joins React Core Team, compilers\n- This is when I started Working on SolidJS\n\nExplosion 2017\n- Vue, Angular, React Native\n\n2018 Modern React\nConcurrent Rendering - https://youtu.be/nLF0n9SACd4?t=386\n2 features Time Slicing, Parallel Rendering\n\nHooks Announcement - https://www.youtube.com/watch?v=dpw9EHDh2bM \nSunil Pai: https://twitter.com/threepointone/status/1056594421079261185\nRich Harris: https://twitter.com/rich_harris/status/1057290365395451905\nSvelte and Vue 3\n\n\n2020\nhttps://overreacted.io/making-setinterval-declarative-with-react-hooks/\nJarred Palmer: https://jaredpalmer.com/blog/react-is-becoming-a-black-box\nDavid Khoursid: https://twitter.com/DavidKPiano/status/1450814619426115588\nMe: https://twitter.com/RyanCarniato/status/1301193652606173191\n\nFuture React:Server Components: https://youtu.be/TQQPAU21ZUw?t=2597Compilation: https://www.youtube.com/watch?v=lGEMwh32soc"
+    }
+  }
+}

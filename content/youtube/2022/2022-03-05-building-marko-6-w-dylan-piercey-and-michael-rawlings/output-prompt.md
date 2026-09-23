@@ -1,0 +1,1900 @@
+---
+title: "Building Marko 6 w/ Dylan Piercey, and Michael Rawlings"
+slug: "2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings"
+duration: "3:31:53"
+channel: "Ryan Carniato"
+url: "https://www.youtube.com/watch?v=Y22xf8EjioE"
+publishDate: "2022-03-05"
+thumbnail: "https://i.ytimg.com/vi/Y22xf8EjioE/maxresdefault.jpg"
+channelURL: "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw"
+description: "I'm excited to finally bring my co-workers on stream to talk about what I feel is some of the most innovative work happening in web development. We will get a first look at Marko 6, talk about the considerations that went into designing a compiler-driven resumable sub-template partially hydratable framework, and what this means for the future of the web.
+
+[0:00] Introduction
+[2:17] This Week in JavaScript
+[13:04] Introducing the Team
+[20:40] What is Marko 6
+[27:06] Qwik Comparison
+[42:16] Talking Docs
+[46:56] Marko 6 Tags Demo
+[1:23:12] Exploring Compilation
+[1:50:16] JS Framework Benchmark
+[1:55:09] Resumability
+[2:07:20] SPA vs MPA
+[2:12:26] Future of Marko
+[2:16:51] Rethinking Routing
+[2:38:41] Challenges with Hybrid Approach
+[2:54:12] MPAplus
+[3:14:41] Q&A
+[3:30:16] Outro"
+---
+
+This is a transcript with timestamps. Do not include advertisements in the summaries or descriptions. Do not actually write the transcript.
+
+- Write a one-sentence description of the transcript.
+  - The one-sentence description shouldn't exceed 180 characters (roughly 30 words).
+
+- Write a one-paragraph summary.
+  - The one-paragraph summary should be approximately 600-1200 characters (roughly 100-200 words).
+
+- Create chapter titles and descriptions based on the topics discussed throughout.
+  - Include only starting timestamps in exact HH:MM:SS format, always using two digits each for hours, minutes, and seconds.
+  - Chapters should each cover approximately 3-6 minutes of content.
+  - Write a two-paragraph description (75+ words) for each chapter.
+  - Ensure chapters cover the entire content, clearly noting the last timestamp (HH:MM:SS), indicating total duration.
+  - Descriptions should flow naturally from the content, avoiding formulaic language.
+
+Example JSON output:
+
+{
+  "shortSummary": {
+    "episodeDescription": "A concise one-sentence description of the transcript in 180 characters or fewer."
+  },
+  "longSummary": {
+    "episodeSummary": "A single-paragraph summary of the transcript that explains the central topic, the main arguments or developments, the evidence or examples used to support them, and the broader takeaway for the audience. It should read as one cohesive paragraph rather than a list, staying informative without becoming exhaustive. The summary should mention the most important themes, clarify what changed or was learned over the course of the discussion, and note any conclusions, recommendations, or implications that would help someone understand the full conversation without reading the entire transcript. It should also preserve the flow of the discussion so the reader can follow how the ideas developed from beginning to end."
+  },
+  "longChapters": {
+    "chapters": [
+      {
+        "timestamp": "00:00:00",
+        "title": "Introduction and Overview",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      },
+      {
+        "timestamp": "00:04:30",
+        "title": "Core Ideas and Implications",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      }
+    ]
+  }
+}
+
+Transcript:
+[00:00:02] [1] Hello, um, welcome to my stream tonight. I'm very excited to be talking again about Marco—obviously, there's a little bias there, I work on the Marco team.
+[00:00:11] [1] But, you know, I would say maybe a month or so, maybe a month and a half back, I did a Marco-specific stream where I kind of introduced people to, kind of like, the basic concept behind Marco.
+[00:00:24] [1] And it kind of kicked off, like, the next several streams that I did over the following weeks.
+[00:00:29] [1] We looked into React server components, we looked into Qwik.
+[00:00:34] [1] And, yeah, I'm not going to lie, this partially was all just to kind of establish the kind of knowledge base I wanted to have to actually talk about the next version of Marco, Marco 6, which I'm very excited about because
+[00:00:48] [1] I think it brings a lot of really neat innovations beyond what Marco has already been doing.
+[00:00:53] [1] The stuff that I was talking about before was largely Marco has been doing since, I think, 2017 with Marco 4.
+[00:00:59] [1] So it's going to be really cool to kind of take a first look at—I mean, I've already given some kind of previews, but to actually look at, you know, Marco 6 in action.
+[00:01:11] [1] But, yeah, before we kind of go there, I'm going to give it a minute or so before we get into the whole "this week in JavaScript.
+[00:01:19] [1] " If you're here, how about you say hi in the chat? Let me see who's here.
+[00:01:30] [1] Hmm.
+[00:01:35] [1] Hello.
+[00:01:38] [1] Ugh, yeah, I'm actually just playing with some different banner styles this week because the old ones are taking up the whole screen, so give that kind of a little go.
+[00:01:45] [1] Okay, looking better.
+[00:01:49] [1] Hi.
+[00:01:51] [1] Thanks for joining me today. As I said, this one is
+[00:01:58] [1] a little bit special for me because we've been really working on what I think is really interesting stuff, and I've been talking about it, but, you know, I haven't been able to showcase it.
+[00:02:09] [1] So I think it's going to be a lot of fun. So we're going to get started here in a minute, but, yeah, I don't know.
+[00:02:17] [1] You know what, let's just do it. Let's get into this week in JavaScript
+[00:02:22] [1] because, honestly, it's been this last two weeks. I missed this—I skipped this stream last week, and
+[00:02:31] [1] it was for a couple reasons, but honestly, I just—I didn't want to add to the noise that was going on.
+[00:02:35] [1] Unfortunately, and it looks like it's been lasting a while, but, you know, there is that conflict going on with Russia and the Ukraine, and I really didn't feel right streaming last week when that was just unfolding.
+[00:02:48] [1] Unfortunately, it seems like the situation is only getting worse. So here we are.
+[00:02:54] [1] But, you know, we're going to
+[00:02:57] [1] do what we do, and, you know, our best wishes go out to them. Okay, so, yeah, let me show some stuff.
+[00:03:09] [1] So kind of going back about two weeks, this really kind of started—a lot of solid news.
+[00:03:14] [1] As I mentioned previously, we
+[00:03:17] [1] stated JavaScript's survey happened, and the other big thing was, right around the last stream, we actually opened the submissions to SolidHack.
+[00:03:26] [1] And we've already seen the first several submissions come in, and it's really cool to kind of see what people have been building.
+[00:03:30] [1] I've been trying to retweet stuff as people submit it, so if any of you, like, have projects, you know, go ahead, share them on Twitter, tag us, hashtag SolidHack, and I'll look for them and try and retweet them, get more
+[00:03:42] [1] visibility on them. Really cool stuff going on, different projects. What was another thing?
+[00:03:48] [1] Yeah, I mean, a lot of solid news. Vercel sponsorship. A lot of people seem really excited about that.
+[00:03:57] [1] It's definitely cool to have them. Now we have all the big cloud providers behind us: Netlify, Cloudflare, and Vercel.
+[00:04:04] [1] A lot of them—a lot of real interest in Solid. So I'm looking forward to see how I can work with them, you know, and how the team can work with them in the future to make Solid even better.
+[00:04:16] [1] You know, some teasers from Capacitor for some mobile Solid. Honestly, I'm just so stoked at all these projects coming in, and you're going to see—you're going to see a ton of these Sjakker UI and even some Web3 stuff go
+[00:04:27] [1] ing on. So a lot of really cool projects have been kind of going on with Solid.
+[00:04:37] [1] Another thing is we were on Hacker News.
+[00:04:41] [1] Our article went to number one, which was kind of a funny article, I'm going to say.
+[00:04:46] [1] I mean, it's very similar to some talks that I gave previously, but
+[00:04:51] [1] if you didn't see it, it's kind of kicked off this whole
+[00:04:56] [1] discussion again about signals versus hooks. And it's all about, like, all the pitfalls of trying to do a set interval, you know, and how much more straightforward it is with a reactive library.
+[00:05:08] [1] Like, this isn't Solid only that acts like this, but it did stir up a lot of conversations.
+[00:05:13] [1] I thought there was a lot of interesting talk on it. I was actually kind of surprised about the response from it because, like I said, it was number one on Hacker News, a lot of attention, and people were generally really
+[00:05:25] [1] positive. Like, it's even spawned people in the industry like Andrew Stoltz, creator of CycleJS, you know, comparing stuff.
+[00:05:34] [1] And even Adam Rackis had some nice stuff to say about Solid, which isn't always that common, which spawned out pretty much every single framework
+[00:05:44] [1] to, you know, give their example. And God, this meme came back again. Everyone knows how much I love this meme.
+[00:05:51] [1] Just put the script tag in, you know, if you—whatever. Make things even. You know, we got the Svelte version now.
+[00:05:59] [1] We got, you know, we just—so many people just sharing their stuff, right? I think there's a view version in here.
+[00:06:07] [1] View is almost identical to this. There's a view version, and then Rich is being cheeky as always, telling everyone how it's literally 60 more percent more characters than the Svelte version, which meant, you know what h
+[00:06:20] [1] appens whenever someone gets cocky about line numbers? I have to pull out Marco because if you want to write less code—
+[00:06:29] [1] and we'll see more of this tonight—it's difficult to write less code than Marco.
+[00:06:33] [1] In fact, you guys even made me pull out the concise mode version. I mean,
+[00:06:41] [1] you can say what you want, but Marco's tag syntax with concise mode, which is our kind of PUG syntax, is incredibly, incredibly terse.
+[00:06:51] [1] So if that's your cup of tea, I don't know if it's mine. I think I prefer the tags look.
+[00:06:57] [1] This
+[00:06:59] [1] is definitely less characters than pretty much anything out there. Just, it was an interesting little conversation.
+[00:07:06] [1] Definitely to kind of have that attention on syntax again. It's funny because usually that's not where I put my focus.
+[00:07:11] [1] I care more about performance and whatnot. But, you know, it definitely was good.
+[00:07:17] [1] You know, Solid hit 15,000 stars on GitHub due to this kind of attention. Got more likes, and I think we're at 15.
+[00:07:25] [1] 3. We're already up another 300 stars in the last couple days from that. Just continuing growing interest, and it's been really awesome to see.
+[00:07:33] [1] We also had some interesting conversations with Ryan Florence and the Remix guys.
+[00:07:39] [1] It seems that's where my conversations go this week in general recently. Just talking about the differences between routing.
+[00:07:47] [1] And I think we're going to get into that tonight because, basically, there's this whole idea of, like,
+[00:07:54] [1] he's completely right. One of the biggest problems we have in the web architecture, especially with single-page apps, is waterfalls and when to fetch.
+[00:08:01] [1] And these things are solvable even without server rendering. They're solvable without suspense to a certain degree, although that makes certain things easier.
+[00:08:09] [1] But there are lots of ways to solve these problems. But a lot of naive approaches to data fetching make them very unoptimal.
+[00:08:18] [1] So good conversation, good thoughts there.
+[00:08:23] [1] And, yeah, I mean,
+[00:08:27] [1] there's a lot of conversations. I think that's really what this week in JavaScript was about.
+[00:08:32] [1] The last one I kind of want to bring up here for a moment is this Hacker News story.
+[00:08:38] [1] This one had even more points and comments than the Solid one, which was, "Single-page apps were a mistake.
+[00:08:44] [1] "
+[00:08:46] [1] And this is a pretty crazy one because, I mean, it wasn't a badly written article, and the author was just saying that there's a time and a place, and they shouldn't be the default.
+[00:08:58] [1] But generally speaking, they kind of have become the de facto default. People do want them for building stuff.
+[00:09:05] [1] And as much as a lot of people on the MPA side want to return to that history, we're just not quite going back there.
+[00:09:14] [1] Don't get me wrong, we are going back to MPAs, but, like, I'll show you something what I mean.
+[00:09:17] [1] I'm going to search in this article and put in the word Marco. You're going to find it zero times.
+[00:09:21] [1] I'm going to put in the word Astro. You're going to find it zero times. Let's try Qwik.
+[00:09:27] [1] And the reason that you don't see any of that, even though there's freaking 580 comments, is because
+[00:09:37] [1] most of the MPA side is sort of not JavaScript on the backend. Like, that's why they want it.
+[00:09:44] [1] It isn't about because they care about MPAs necessarily. They do. But this kind of mentality that maybe JavaScript doesn't, like, belong on the server or whatnot.
+[00:09:55] [1] And that's why it's kind of interesting that even in the MPA conversation, and I mentioned this in our previous stream, Marco has kind of been the odd man out.
+[00:10:02] [1] Now there's more frameworks that are doing MPAs in JavaScript. And it's kind of unfortunate because MPAs, in my opinion, in JavaScript, are the secret to how you actually unlock sending less JavaScript.
+[00:10:14] [1] Because, yeah, sure, you can send less JavaScript with your Rails app or PHP, but you're managing two apps.
+[00:10:18] [1] It's a different thing. If you actually want a chance at getting that best-of-both-worlds experience, it's only happening today, I think, with JavaScript on the server.
+[00:10:31] [1] WebAssembly in the client is the other option, but that hasn't been really proven viable yet.
+[00:10:35] [1] We've looked into that in the past too. So I think it's interesting because
+[00:10:43] [1] they're talking past each other. And I've talked about this before in the past, but I
+[00:10:49] [1] think these arguments are going nowhere. I think we need to focus on the future, and in order to do that, we have to actually embrace the benefits and
+[00:11:01] [1] the, you know, the good parts of each side and understand what the trade-offs are.
+[00:11:05] [1] And having people go on and on about their return to their Rails backends or whatever, it's just, it's the same thing.
+[00:11:13] [1] It's not like they don't have a point, but, as I said, we're not meeting anywhere in the middle.
+[00:11:19] [1] And as I said, it's unfortunate because I think solutions that potentially offer these solutions on the JavaScript side are kind of getting overlooked by the MPA crowd that would otherwise probably be pretty into this.
+[00:11:31] [1] They've kind of aligned themselves more with web components and low build and that side.
+[00:11:36] [1] And I'm sorry, but that's probably, like, that doesn't change anything. That's just a sure way to end up being in the same mentality we were in, you know, a decade ago, right?
+[00:11:50] [1] Because, sure, we didn't have web components, but it's
+[00:11:54] [1] that same thinking of almost underwriting JavaScript. No, you got to, if you want to embrace MPAs, if you want to get away from sending too much JavaScript to the browser, your best bet is to actually embrace JavaScript.
+[00:12:07] [1] I know, crazy, but that's what we've seen. You've been exploring it with me the last several weeks on the stream, and tonight is no different.
+[00:12:15] [1] We're going to bring in the guys from Marco to actually talk about that. I'm super excited about it because you have to understand, to put this in context, I've been talking about this a lot on my stream, obviously.
+[00:12:26] [1] I'm big on, you know, partial hydration and, you know, the different technologies that we potentially have here to work with, you know, multi-page apps and whatnot.
+[00:12:40] [1] But picture the difference that is for the guys working on Marco. They've been doing this years longer than really anyone else in the field.
+[00:12:52] [1] I mean, Mishko on the last stream was telling us how he'd been looking into this stuff, you know, for quite some time, and he did a talk in 2019, basically laying out Qwik.
+[00:13:03] [1] And the thing is, Marco's been doing
+[00:13:06] [1] these sort of techniques, maybe not as advanced as we got to today, since 2014.
+[00:13:11] [1] Like, and both my guests today have been actively working on the Marco project for, I think, five years and six years, respectively.
+[00:13:21] [1] So this is some of the best expertise we have in the industry on this hydration problem and MPAs and whatnot.
+[00:13:29] [1] So it's a real treat for me to introduce both Michael Rawlings and Dylan Piercey to add them to the stream here tonight.
+[00:13:37] [1] So welcome both of you guys. I am so stoked to have you on the stream. Obviously, I get to work with you every day, so you're all the time.
+[00:13:46] [2] I'm so excited to finally be on here.
+[00:13:49] [3] Yeah, I'm excited.
+[00:13:51] [1] That's awesome. Yeah, no, this is going to be a lot of fun because
+[00:13:57] [1] I want you guys to actually, in the audience, as we go along and do this, ask your questions.
+[00:14:03] [1] Ask the controversial stuff because, honestly, these guys will give you some of the best answers you see.
+[00:14:08] [1] And honestly, they'll probably argue with each other. Like, this is how the work goes.
+[00:14:15] [1] Seriously, they work so awesome together, and a lot of that comes in the form of disagreement, which is funny because I think you guys will probably witness this a bit, but it really gives a leveled look at the whole pers
+[00:14:28] [1] pective when you have both sides of the argument coming through. And as I said, feel free to ask questions as we go along because I think this is going to be a lot of fun, and there's a lot of potential to learn here.
+[00:14:40] [1] But, yeah, before we go into that, actually, I figured the easiest way for us to actually get started on this conversation before we even talk too much more about Marco is
+[00:14:51] [1] , like, I want to ask a question. How did you both get into Marco? Like, how did you find yourselves working on Marco?
+[00:15:03] [1] So I don't know if you want to go first, Michael, but just give us a little background.
+[00:15:08] [2] Sure.
+[00:15:10] [2] So
+[00:15:12] [2] I kind of randomly found Marco. I was looking for
+[00:15:18] [2] a templating language, really, that supported streaming, and basically turned out that there was Dust and Marco for Node.
+[00:15:29] [2] js.
+[00:15:32] [2] And so I started playing around with Marco a little bit. I was on a Windows PC at the time and found a bug related to the Windows line ending, so my first PR was
+[00:15:47] [2] to fix that.
+[00:15:49] [1] It's always Windows.
+[00:15:50] [2] It's always Windows. We've had many more, especially since I switched away from Windows.
+[00:15:58] [2] And, yeah, I got talking to Patrick, who's the original author of Marco, and eventually
+[00:16:07] [2] joined the Marco team. The thing that actually I really enjoyed about Marco from the start, and I think what Patrick kind of saw and was
+[00:16:20] [2] kind of interested in, was the compiler. Because
+[00:16:26] [2] before I even jumped into any of the, like, client side aspect of it, I was trying to build, like, a visual CMS where you could kind of annotate the HTML, and then it would swap it out for, like, editable components.
+[00:16:46] [2] So you could just, like, type on, you know, as you're writing the HTML, you could annotate it, be like, this title's editable, and it would swap it out with a component that would, like, talk back to the database.
+[00:16:57] [2] And that CMS never got released, but a lot of that was done through compile time transforms that you could just put an attribute on there, and it would actually, like, do a bunch of stuff through the compiler to transform
+[00:17:10] [2] things.
+[00:17:12] [1] Cool. Cool. No, that's, and then when Patrick just poached you at that point, he's like, come work on my project, or?
+[00:17:18] [2] Yeah.
+[00:17:20] [2] It happened to be really good timing,
+[00:17:23] [2] so it worked out.
+[00:17:25] [1] That's awesome. And Dylan, how about you give a little background for yourself?
+[00:17:28] [3] Yeah, so for me, really, before I joined Marco, I was working on a different framework that was a router that was designed to essentially
+[00:17:42] [3] act as an isomorphic router, so it would pick up where the server left off, kind of thing.
+[00:17:46] [3] And my whole kick at that point in time was progressively enhance everything because I had to support older browsers, including IE9, and I really just didn't want to do that, and progressive enhancement seemed like a go
+[00:17:57] [3] od way to do it. And then the other thing is, and I was kind of on the same train as the Remix guys are today, where it's like, if the experience is progressively enhanced, who cares how much JavaScript I'm sending?
+[00:18:08] [3] I'm sending a whole router to the browser. But anyways, through that router, I ended up looking into Marco as I was adding integrations to the router.
+[00:18:17] [1] Wasn't it mostly a React framework?
+[00:18:20] [3] It was a framework-agnostic router, but I was using it with React at the time, and then I realized React was too large because I started going down the path of, like, OK, this is too much JavaScript for the browser.
+[00:18:30] [3] And then eventually kind of landed on, or learned about Marco, and tried to integrate it, and got talking with Michael and Patrick, and the rest is kind of history there.
+[00:18:40] [1] Cool. Yeah, so when was that? That was back in, what, 2016 time period? '15, '16?
+[00:18:45] [3] '17, I think.
+[00:18:48] [2] In 2016, Dylan actually sent me a message about Rill, and I totally ignored him.
+[00:18:56] [3] Rill being my router.
+[00:18:57] [2] Yeah,
+[00:18:59] [2] because I had worked on a similar project. And it was funny because I had actually used some of Dylan's open source projects even a year or two before that.
+[00:19:10] [2] So we had had this, like, kind of, like, never actually interacted with each other, but we had, like, looked at, you know, each other's projects and, like, even used some of the same ideas.
+[00:19:22] [2] So it was kind of interesting.
+[00:19:26] [3] Yeah, I was obsessed with routers at the time. In my brain, a lot of the things that were put into that router are ideas that are similar in concept to what Remix is doing today.
+[00:19:41] [3] But we've never been able to crack a router that works in the same way with Marco, so, yeah, I'm really excited to talk about that particular piece today.
+[00:19:51] [1] I hope that, yeah, we'll get to that definitely, but later on. But, I mean, where we probably should start is because hopefully some people watched the previous stream where I dug into Marco, talked about some of the ben
+[00:20:00] [1] efits. I can't remember if I showed that great partial hydration demo with Remix and Marco, where Marco's, like, twice the speed.
+[00:20:10] [1] Yeah, it was just, the partial hydration has a huge impact, not only on JavaScript execution, but it can have a huge impact on
+[00:20:21] [1] data serialization. And I think we're going to come into that a bit today. So how about we're going to talk a minute about, let's, I'm trying to think about how the order I want to do, but we probably should just kind of
+[00:20:30] [1] introduce the main topic today because we're talking about Marco 6 and how it goes in the future.
+[00:20:35] [1] So if either of you, I know you guys will probably fight for it, can you talk a little bit about Marco 6 and what the high-level goals are with it?
+[00:20:45] [3] Yeah, I can take it. Yeah, so Marco 6 is really, it's a huge release for us, but, I mean, ultimately, our two goals, kind of from the beginning, is how do we deliver, like, the best DX while maintaining the performance char
+[00:21:00] [3] acteristics of a multi-page app? That is sending, like, as little JavaScript as possible and having, you know, as fast of an experience as possible.
+[00:21:07] [3] And that's quite challenging to do, and obviously, you know, Marco's kind of in its niche.
+[00:21:12] [3] But so specifically what's gone into Marco 6 is sort of a rethinking of our API to make it so that a whole bunch of things are possible.
+[00:21:24] [3] And I think without showing it, it's hard to explain, but it allows for things like aggressive colocation and also much greater compile time static analysis, which will allow us to do crazy things like aggressive tree sh
+[00:21:37] [3] aking and a whole bunch more. So that's really what it is for us. It's a two-pronged approach of, let's make the DX as good as we can, and let's send as little JavaScript to the browser as possible.
+[00:21:49] [3] And the really interesting thing about this current iteration of Marco is that it's really, really piecemeal.
+[00:21:56] [3] Like, it's going to be splitting hairs going past this level of
+[00:22:02] [3] enhancement, which is really cool. And the architecture that we've kind of landed on has opened some other doors that I think is really interesting as well.
+[00:22:11] [1] Right. Yeah, no, that makes a lot of sense. And we've been looking on the stream about some, you know, perhaps similar technologies.
+[00:22:18] [1] And one of the, I guess, things is how we achieve that with Marco 6. I think we almost, I think we were looking at it, almost bullet-pointed it down to maybe two or three specific types of technological approaches.
+[00:22:32] [1] Can you speak to that? Maybe to Dylan or
+[00:22:37] [1] .
+[00:22:37] [3] Yeah, so you mean as far as, like, the actual optimization side of things?
+[00:22:42] [1] Yeah.
+[00:22:43] [3] Yeah, OK. So, I mean, there's really one core thing as far as Marco is concerned related to sending as little JavaScript to the browser today, which is partial hydration.
+[00:22:53] [3] Obviously, that's been talked about on this stream before. And really all it is is, you know, Marco being a compiler can look at the tree and determine what the top-level components are.
+[00:23:03] [3] And so we're able, and by top-level components, I mean those that have, you know, client-side behaviors.
+[00:23:08] [3] Anything that doesn't have a client-side behavior stays on the server. That's the goal, right?
+[00:23:14] [3] So we want to.
+[00:23:15] [1] We've been rebranding this concept islands.
+[00:23:18] [3] Yeah, so islands is a part of it. So with that, I mean, essentially what we're doing is, you know, sending these little islands, we automatically determine what they are to the browser, re-execute just those.
+[00:23:32] [3] We have the JavaScript for just those. And, you know, it's a pretty big, significant improvement.
+[00:23:36] [3] But what we're doing in Marco 6, which is pretty awesome, actually, is dividing up your application.
+[00:23:43] [3] Instead of by these, like, you know, this is a client-side component, this is a server component, and telling what that is, instead, we're splitting things up based off of the reactive graph at compile time.
+[00:23:54] [3] So looking at all of the dependencies for any expression that's within the template, and we split up the output component into all of these different functions that can be independently tree shakable.
+[00:24:04] [3] So what that ends up meaning is that instead of looking at things on a per-component basis, is this one sent to the browser?
+[00:24:09] [3] Is this one on the server? We're able to actually look at, OK, you've defined some state here.
+[00:24:14] [3] It's used over here. It's used over here. It's derived here, and it ultimately makes it into this place.
+[00:24:18] [3] And we can actually send, if it's necessary, if that part can re-render, we can send just those chunks of functions to the browser, which is actually huge because you can imagine a really simple component that, you know,
+[00:24:31] [3] has some state in it nonetheless, but maybe it has, like, some icons, some big SVGs.
+[00:24:37] [3] Like, who knows what? There's lots of static stuff in our components, and all of that can now be tree shaken automatically without you having to think about it.
+[00:24:45] [3] And that's huge. So that's one of the optimizations, is really just breaking things up into a million different pieces based off of their dependencies.
+[00:24:56] [3] And then the other piece of it is basically the resumability side of things. And so, you know, obviously, if you think about hydration, and this has been talked about in Ryan's stream before with QUIC and so on, the ide
+[00:25:09] [3] al world for hydration is pick up where the server left off. Don't redo work that the server did.
+[00:25:14] [3] So what did the server do? The server rendered a bunch of HTML. What can't the server do?
+[00:25:18] [3] The server can't add event listeners, and the server can't run your lifecycles, or your, like, effects and stuff like that.
+[00:25:24] [3] And so how do we get to a system where essentially the browser is just running the effects and attaching event handlers?
+[00:25:32] [3] And essentially, one of the other things we've done with the compiler is it has knowledge not only of their, like, all of the dependencies.
+[00:25:41] [3] It also knows which expressions should run in the browser versus can be executed only on the server.
+[00:25:48] [3] And so we split things up in that way as well. I think showing the actual, like, compiled output for that might make things make more sense.
+[00:25:54] [3] But essentially, what happens is you render on the server. Instead of, like, tracking these are the top-level components for, like, here are some functions that you need to execute once we get to the browser, and here is
+[00:26:06] [3] some serialized scope information for those functions. OK, then the browser loads, it gets that bootstrap.
+[00:26:12] [3] We've automatically just bundled the appropriate functions, and it executes them.
+[00:26:17] [3] And so instead of doing this, like, re-render dance, Marco guarantees that your components never re-render, even across the transition from server to browser, which means that, you know, time to interactive is a bunch fas
+[00:26:28] [3] ter, and we're just overall doing less work during hydration on top of this whole sending a whole bunch less code.
+[00:26:34] [3] So those are really the two pillars of our performance side of things.
+[00:26:38] [1] No, that's really cool to hear. And, I mean, some of that stuff will sound familiar to some people because it's almost like making an isomorphic version of some of the philosophy that we had with SolidWare components run
+[00:26:50] [1] only once, except this time it's on the server and on the client. And the reason you can do this is really similar idea.
+[00:26:56] [1] It's the knowledge of the reactive graph. And I think that's really powerful here.
+[00:27:01] [1] But before we we're going to demo this in a minute and just kind of play around with it.
+[00:27:05] [1] But before that, there's going to be this inevitable comparison to QUIC. And actually, as you guys know, I had Mishko on two weeks ago, and he kind of came up with this list of things that he felt were essential.
+[00:27:19] [1] And, I mean, these are important pieces of the puzzle, and they're definitely essential for the solution that QUIC has done, like, to make it resumable and progressive.
+[00:27:29] [1] Although we're talking about resumable and partial instead of necessarily progressive.
+[00:27:35] [1] Does that change this list at all in terms of what needs to happen? Does it change any kind of the rules here?
+[00:27:41] [1] Or how do you guys feel about this?
+[00:27:44] [3] Yeah, I mean, when I was looking at this list when you guys were going through it, it was like, yeah, there's some of these things that feel a little QUIC-specific, but there is, like, the overwhelming majority of these
+[00:27:54] [3] things are applicable to sort of both solves, which is cool. I think we're working on, you know, sort of similar problems.
+[00:27:59] [3] But, like, as you said, one of the things that we aren't doing out of the box is this whole, like, progressive hydration.
+[00:28:08] [3] We still will have, like, async and lazy hydration and all that stuff. But anyways, so I think it probably makes sense to just go through the list real quick.
+[00:28:16] [3] Breaking up code into chunks. I think comparing it to QUIC, you know, QUIC is breaking things up based off of those, you know, dollar sign functions, essentially, and organizing your code that way.
+[00:28:26] [3] The Marco compiler automatically breaks up your code based off of its, like, actual dependencies, which is going to be a bit smaller than what QUIC is able to do, right?
+[00:28:35] [3] You know, QUIC is going to send a template when it needs to re-render. Marco is going to send just the expressions that are related to the actual change or state that you updated.
+[00:28:45] [3] So that's one difference there. No centralized bootstrap. That's something that Marco has, you know, not had pretty much since the beginning.
+[00:28:52] [3] With partial hydration, you don't need centralized bootstrap.
+[00:28:54] [1] No software or pretty much any partial hydration.
+[00:28:56] [3] Yeah, so any partial hydration. So yeah, we've got that. Serializing event handlers is important.
+[00:29:01] [3] Like I said in my explanation of resumability, we actually need the ability for the server to say, hey, here's some functions that I need you to serialize and execute.
+[00:29:10] [3] And so the way that kind of works in our solution is all of these functions that we know are possible to make it to the browser essentially get their own ID, and the server knows what those IDs are.
+[00:29:20] [3] And so we can say, like, when we're outputting our we have a custom serializer, and when we're serializing stuff, we'll be like, OK, this is a function, and its ID is this, and this is what its scope is.
+[00:29:29] [3] So yeah, that's definitely something you have to solve. And then restoring app state definitely if you want to continue where the server left off.
+[00:29:38] [3] Validating on state change. That comes back to the reactive system, right? So yeah, definitely out-of-order rendering is important, but I don't know that it's necessarily, like, critical to it.
+[00:29:51] [1] Right, because the key to the out-of-order rendering, the importance there is because that's when you want to break up stuff in terms of, like, when it loads in the browser.
+[00:29:57] [1] Like, that's the progressive part. Like, can you load something further down the tree rather than higher up the tree?
+[00:30:02] [1] But if you one of the key differences here with the partial hydration mentality is if you know something will never run in the client.
+[00:30:11] [1] Like, if you just know that 100%, you've already eliminated such a majority of the code that, like, we've seen this at eBay where, you know, it's easy.
+[00:30:22] [1] Like, pages vary from, like, 60% to 80% code reduction. And with these new optimizations, we might even be able to eke out another 5% to 10% in some of those cases.
+[00:30:32] [1] So
+[00:30:34] [1] it does put less pressure on this. This is important if you want if you're unclear, like, stuff could be client-side.
+[00:30:44] [1] So once you get into that, like, the stateful stuff. Out-of-order is basically the key to being able to load stateful stuff, break it apart further.
+[00:30:53] [1] But if you're not as worried about that, then this might not be as important. OK?
+[00:30:57] [3] Right. And I think this is a key differentiator between QUIC and what Marco is doing because QUIC doesn't really know what server only.
+[00:31:04] [3] They have to assume that any code could potentially be loaded in the browser. And so they get around that by essentially lazy loading everything at every step of the every step of the way.
+[00:31:15] [3] So the difference with Marco is we, you know, at compile time determine what all of the things that could possibly update in the browser is.
+[00:31:22] [3] And so you're getting a much smaller subset of things. Like, the JavaScript bundle is just way smaller right out of the gate because we know there's so much that doesn't need to be sent to the browser.
+[00:31:30] [1] Right. And this rule is probably one of the most restrictive ones too because this is the reason why there's no render props or you have to eagerly evaluate.
+[00:31:41] [1] It's funny. It's interesting because Marco does analyze that, right? It can tell when something is a render prop or when it's static, so it can make a call.
+[00:31:49] [1] So Marco still breaks things out that way if it's able to, but it doesn't force the developer to write their code that way, right?
+[00:31:57] [3] Right. Yeah, and again, it's like aligning with our goals. We don't want to have necessarily this, like, crippled language that you can't do X, Y, or Z in.
+[00:32:07] [3] We really want to have a language that's like, wow, this feels like I'm writing a spa, and these optimizations just happen without, you know, having to think about it.
+[00:32:15] [3] And so, yeah, that's kind of a mentality difference. And in general, I would say as far as this out-of-order rendering thing goes, with Marco, because we're able to make the bundles so small, I think it probably makes more
+[00:32:29] [3] sense to move the control over when and how things get loaded into explicit user land.
+[00:32:36] [1] That's a philosophical difference, yeah.
+[00:32:38] [3] Yeah, and so, like, you know, if you're already at the point where you're splitting hairs as far as bundle size goes, like, you know, Mishko said, like, make 20KB bundles and all that stuff.
+[00:32:48] [3] It's like, OK, well, if our bundles are on average going to be 20KB because we're sending so little, it's like, OK, well, is there really a point in splitting it out?
+[00:32:57] [1] The biggest app I've ever proposed, like the stuff that Mishko saw at Google. I mean, I believe there are real apps out there that are in that state.
+[00:33:04] [1] But interestingly enough, maybe not even in large-scale e-commerce. I mean, even in eBay's use case, we.
+[00:33:11] [1] Not even necessarily hit that scale.
+[00:33:14] [3] Right. And so I think that it is like, we're going to have the application basically split up so much that it's going to be simpler to just be like, OK, you know, this section I'm going to hydrate independently and lazy
+[00:33:28] [3] load this section, which is going to when we get into the router, we can talk more about what that kind of looks like.
+[00:33:33] [3] But essentially, I think it's going to be small enough that it's going to be easier for the developer to reason about, like, yeah, this section could be loaded async.
+[00:33:40] [3] I know it's a bit expensive in my profiling or whatever, but the default that Marco is going to give you is an app that is literally only the things that are necessary for the browser, right?
+[00:33:51] [3] Whereas, again, QUIC by default assumes that everything could make it to the browser, and it tries to lazy load stuff.
+[00:33:57] [3] So it's a difference of mentality there.
+[00:34:00] [1] And that probably affects a few of the a couple more here we have. Observing side effects, which I think is still just reactivity.
+[00:34:08] [3] Yeah.
+[00:34:08] [1] And then idealizing bundles, right? That's a big part of the QUIC solution because it's so mix and match.
+[00:34:16] [1] And it's kind of cool because using those analytics lets them kind of shape it per the network or per the device.
+[00:34:21] [1] Like, depending on what the end user has, you have a little bit more play. But I'm gathering the because of partial hydration, there's just less pressure there.
+[00:34:31] [3] Yeah, I mean, that's kind of the way I would see it. I'm not going to say that, like, some applications would be better loaded through, you know, this analysis and all that or, like, analyzing your analytics and putting
+[00:34:43] [3] that into your build system and all that stuff. It's just in general, you know, we're taking a different approach in that we know a certain amount of stuff doesn't need to be there.
+[00:34:52] [3] And so we're just working with a smaller problem, really. And we can still give developers the tools to be able to split stuff up on top of that.
+[00:35:01] [3] And maybe in the future, it makes sense to, you know, automate some aspects of it.
+[00:35:05] [3] But in general, you know, there's different challenges that come up when you start automating lazy loading of everything, right?
+[00:35:13] [3] Because a lot of it comes down to intent and analytics is probably a good measure for it, but, like, that's still not going to be perfect for necessarily every user, right?
+[00:35:23] [3] Like, if I go and interact with some infrequently used thing, and it's like, OK, now I've got a bunch of jank because that wasn't bundled because of the analytics, because of how other people use the application, it's lik
+[00:35:34] [3] e, yeah. You know, it's not a guaranteed win, right? It's not an absolute win. Whereas with partial hydration and, you know, just looking at it from stuff that only needs to make it to the browser, that is just a straight
+[00:35:47] [3] -up there's no point to have sent that code, right? And the user experience isn't made better by having that code there eagerly.
+[00:35:56] [1] That's a good point, yeah. Partial hydration is like an absolute optimization. Like, regardless of scenario, you know 100% this code isn't going to the browser.
+[00:36:06] [1] So you know 100% no one needs to pay that cost and 100% that you've made that JavaScript smaller.
+[00:36:12] [1] So yeah, it's interesting. Obviously, that varies with the degree of dynamicism.
+[00:36:17] [1] Like, something that would be a single-page app that's dynamic all over the place maybe can't partially hydrate as much.
+[00:36:24] [1] But for a lot of things, especially like e-commerce and stuff, you know 90% of your page is static.
+[00:36:32] [3] Right.
+[00:36:33] [1] That's cool.
+[00:36:34] [2] The other thing that I would add to that and QUIC and what QUIC is doing, I think, is super interesting.
+[00:36:43] [2] And I think there's going to certainly be use cases where this level of granularity is
+[00:36:50] [2] maybe not quite this level of granularity, but having the ability to go this granular is going to be useful.
+[00:36:59] [2] But so one of the things that having the compiler analysis that does for us on, again, an absolute level
+[00:37:10] [2] is also on the hydration data that we're sending, right?
+[00:37:17] [2] Because QUIC is sending it could potentially load any component on the page, even those components that won't load necessarily.
+[00:37:30] [2] And I'm sure you could write your app in such a way that this is not the case. But you're going to need to send data for things that maybe it doesn't make sense for data to be sent for if that
+[00:37:48] [2] makes any sense at all.
+[00:37:49] [1] Yeah, yeah, yeah.
+[00:37:52] [1] The only reason I'm pulling this example out again because this is the whole reason this is so QUIC is because the Marco page is literally half the size of the Remix page.
+[00:38:00] [1] Like, the HTML is because we don't serialize the data in this scenario because we know that these comments never need to come to the browser, even though I've shown this demo a billion times.
+[00:38:09] [1] Lik
+[00:38:11] [1] e,
+[00:38:13] [1] you know, you can go in here, and you can shrink these comments and interact with them.
+[00:38:18] [1] But we know because of the type of interaction, you never need to serialize this data.
+[00:38:22] [1] And that knowledge only comes from knowing what's exactly on the server and what's.
+[00:38:27] [2] To be fair, to be fair, because the way that that is accomplished in Marco 5
+[00:38:36] [2] is not something that's reall
+[00:38:41] [2] y, you know, magic of the compiler, right? Like, the original Hacker News demo that we had actually sent all the comments, right?
+[00:38:50] [2] And we refactored it so that the components were split such that the comments were actually, like, content that were passed to a stateful component, right?
+[00:39:01] [1] Right, yeah. And reactive components can have the same optimization too, right?
+[00:39:05] [1] It's that kind of same idea of just using the.
+[00:39:08] [2] Maybe, yeah. So it should be possible to do something like that with server components.
+[00:39:14] [2] I'm not totally convinced because of the way that the diffing algorithm would have to handle that, that that actually will be the case when it comes out.
+[00:39:24] [2] But we'll have to wait and see. But something like QUIC could do the same sort of thing, that they could write their components in such a way that that data doesn't get sent.
+[00:39:36] [3] Well.
+[00:39:37] [2] Whereas with Marco 6, the analysis will actually take care of this for you.
+[00:39:43] [1] At least at one level. And at a.
+[00:39:45] [3] Right.
+[00:39:45] [1] Yeah.
+[00:39:46] [3] So you could.
+[00:39:47] [2] You could write you know, we actually had to go in and, like, change the way that we were writing the components in order to have it hydrate more efficiently, whereas Marco 6 is going to be able to do like, at least in this
+[00:39:57] [2] case, be able to do that for you automatically.
+[00:39:59] [1] That's really cool. And this all just lends to developer experience, which is that last point.
+[00:40:04] [1] The reason you do all this stuff is because you don't want to sacrifice on that developer experience.
+[00:40:09] [1] That's why relying on the compiler is a big part of it. And we've seen that be a success story in other frameworks.
+[00:40:15] [1] Svelte is notorious for its kind of developer experience. I mean, it's part of relying on that compiler.
+[00:40:23] [1] I'm excited when we actually look at Marco here because there's a lot of similarities to Svelte, not maybe in syntax necessarily, but in the way the reactive system works.
+[00:40:32] [1] It's that Marco's kind of taken that reactive compiled reactive approach and made it work cross templates and stuff.
+[00:40:40] [1] I'm really excited to dig into it. So maybe it's a maybe is it time to kind of pull out the demo and kind of see what we're dealing with?
+[00:40:49] [1] So speak yeah. No, it's yeah, it is definitely really cool stuff, right? Yeah, yeah, no, definitely.
+[00:40:57] [1] V6 is really cool. V4 in 2017 was really cool too. We've just we've seen a lot of other solutions, like, you know, do parts of it, right?
+[00:41:07] [1] Like, Astro does, you know, a bit of that same kind of tree conclusion, but it doesn't have it doesn't the data stuff, I'm not sure if they actually build that in.
+[00:41:16] [1] And, you know, reactive components have elements of it, and streaming is another one of the big things that Marco pioneered.
+[00:41:24] [1] And we're seeing different a lot of different libraries kind of go in now and add a lot of those features.
+[00:41:33] [1] I mean,
+[00:41:35] [1] I keep this around, and I've shown everyone on the stream before, but this is just this was just one of my kind of favorite old quotes here, if I can find it if I can find it again in my bookmarks, but
+[00:41:50] [1] was
+[00:41:53] [1] like, Marco's even if it hasn't directly influenced it, it's had kind of an impact in terms of,
+[00:42:02] [1] you know, the way solutions are going, where things are heading. So I'm really excited because Marco 6 this is talking about, like, Marco 4 or 5.
+[00:42:11] [1] Marco 6
+[00:42:13] [1] is taking this even further. I'm talking dev issues. You guys plan on extending the docs.
+[00:42:19] [1] I'm just going to throw this out of here. I know the small team it's quite difficult to throw it high level across this market from the docs, yeah.
+[00:42:24] [1] To be fair, there's a reason for this. We've been working on Marco 6 for, like, two years, and it was like, do you go back and like, we did clean up the docs around the time when I first started.
+[00:42:34] [1] It kind of came in because it was kind of like, what's going on? That FAST5 integration doesn't work anymore.
+[00:42:40] [1] But we would like to do more here. And I think part of it is, like, it's changing again with Marco 6, so it didn't make a ton of sense.
+[00:42:50] [1] But you're right. We've been selling it, you know, the new homepage redesign and that.
+[00:42:55] [1] You can see the you can see kind of some of the concept, but we don't really mechanically explain it too much, right?
+[00:43:01] [1] We've got this great streaming example, you know, on the homepage and the partial hydration story.
+[00:43:07] [1] But connecting to the code is a bit more effort. I expect with post 6, we're going to kind of focus on this again.
+[00:43:14] [1] The truth of the matter is most of this stuff came out around Marco 4. And to be fair, stuff hasn't changed a ton on that side.
+[00:43:21] [1] So maybe the docs were never that good. They were more on the syntax. But I feel like when we went to go do it again, we're like, you know, it's so hard when you know something big is coming around the corner.
+[00:43:32] [1] And I feel like that was similar with React. They were sitting there and like, OK, we know we need to rewrite the docs.
+[00:43:38] [1] And they worked on the beta docs, and Rachel Neighbors did a great job with that before she left.
+[00:43:42] [1] But essentially,
+[00:43:45] [1] they knew, like, with hooks and everything, like, everything's just around the corner.
+[00:43:49] [1] You keep on pushing it off because it's a lot of work, especially for a small team.
+[00:43:53] [1] And you know the next great thing is right around the corner. And things are getting closer now.
+[00:43:58] [1] So yeah, this will be a big focus, especially as we get Marco 6 beta out, hopefully sometime this summer.
+[00:44:05] [2] Yeah, there's definitely that tension there. Like, I want to go back and rewrite things, but I want to use, like, the tags API, you know, that's, you know, really just kind of in preview right now.
+[00:44:16] [2] So I don't think that makes sense for the main docs. But, like, that's what I would want to use to
+[00:44:23] [2] kind of explain some of these concepts and everything. So.
+[00:44:27] [3] Yeah. And there's a few things that say.
+[00:44:30] [2] Yeah, you know, a few places where like, here's a like, there's a split component mechanism where you can opt out of sending a template to the browser and stuff like that.
+[00:44:38] [2] But like, things like that, these optimizations just go away. Like, there's several, you know, parts of the docs that's highlighting optimizations that are going to be irrelevant because of the changes that we're making.
+[00:44:47] [2] And part of the reason we made those changes is because we know not everyone's reading the docs or not everyone's following those best practices, or sometimes they're hard to do.
+[00:44:54] [2] And I think this does come back to the DX side of things because, you know, essentially, if performance is an issue, usually the way to resolve performance ends up impacting DX.
+[00:45:06] [2] Like, I think of React hooks, actually, like, you know, the effects and memoizing and, like, all that stuff.
+[00:45:11] [2] The fact that you have to think about that and the dependencies arrays and, like, all that stuff partially comes down to performance and, like, you know, back before, like, should component update and all that stuff kind
+[00:45:20] [2] of comes down to performance. But as soon as you have a system where performance is not an issue, you can usually make the API a lot simpler as well.
+[00:45:28] [2] And I think Svelte is actually a good example of that, right? Because, you know, it's got this reactive system that makes a lot of sense.
+[00:45:34] [2] And because it's performative, like, you don't have to think about memos and stuff as much.
+[00:45:38] [2] And also, yeah, there's lots of nice characteristics of being performance first, especially when it aligns with the DX.
+[00:45:46] [2] And that's kind of what we're trying to do. So yeah, there's a number of reasons we haven't tackled the docs, but it is something that we're going to obviously have to think through a lot of.
+[00:45:56] [1] Yeah. I mean, and to be fair, we have lots of examples. If people use the CLI, I mean, it is maybe I should throw this back on the screen for just a moment.
+[00:46:06] [1] But if you go in and go to the Get Started and follow kind of the, like, installation guide or whatever, like, the Marco Create, we have lots of examples in there from, you know, Cloudflare deploys to, like, to do MVC ap
+[00:46:23] [1] ps and whatnot. So there are a ton of examples in the examples repo to play with different types of integration.
+[00:46:31] [1] So docs need work, but there are things to reference. But yeah, let's move on. Let's move on to the demo of this stuff.
+[00:46:38] [1] I think it'd be really cool to take a look at that. So I don't know, Michael, if you want to share your screen, we can kind of start looking at this stuff.
+[00:46:49] [2] All right.
+[00:46:53] [1] OK, I'm going to add that in. Here we go.
+[00:46:58] [2] All right, so this is our playground, and I've modified it so that we're able to see the compiled output
+[00:47:07] [2] from V6. We're still in an alpha phase. I do want to or pre-alpha phase, actually.
+[00:47:13] [2] I do want to stress that. And yeah, so not every feature is, like, currently handled by the compiler yet.
+[00:47:27] [2] But for those that aren't, we can talk a little bit about how it's going to work and could maybe even pull up some of the hand-compiled
+[00:47:38] [2] examples if that would be useful.
+[00:47:43] [2] But yeah, so this is the button. You click it. The number goes up.
+[00:47:48] [1] Can we talk about the tags API for a second? Because.
+[00:47:51] [2] Yeah, we can talk about the tags API. That would I think that would be good.
+[00:47:54] [1] Because you just showed this code example, and I'm looking on the screen, and some people might go, this is kind of alien.
+[00:48:01] [1] But the whole concept here, right, is that everything's a tag, right?
+[00:48:05] [2] Everything's a tag, yeah. And so
+[00:48:09] [2] that has kind of been one of our, like, driving principles of the tags API and really whatever the API for Marco 6 was going to be.
+[00:48:24] [2] We wanted you to be able to build upon the primitives in a way that allowed you to expose APIs similar to what the primitives themselves exposed.
+[00:48:38] [2] And I don't know if that makes total sense just, like.
+[00:48:43] [1] What's the term?
+[00:48:43] [2] Saying that, but.
+[00:48:44] [1] Incotent? Is that the term? It's when, like, it's possible to recreate any of the primitives.
+[00:48:51] [1] You can recreate any of the base primitives you want.
+[00:48:53] [2] Right. Like, if I want to create my own, let's say, call it mylet, right? Like, this is kind of stupid, but
+[00:49:03] [2] like, we have the ability to return
+[00:49:09] [2] a bound value here. I can't type. And then I can say
+[00:49:15] [2] mylet.
+[00:49:20] [2] I probably should receive that value there
+[00:49:25] [2] so that.
+[00:49:25] [1] Attributes, like, are is the equivalent to props or and in it, yeah. So it's like a yeah.
+[00:49:35] [2] Yeah, so
+[00:49:37] [2] we have this concept of a default attribute, and that's just kind of an unnamed attribute that comes through as default, which does mean that you have to alias it.
+[00:49:47] [2] We're hoping that that actually discourages the use of it for cases where you shouldn't be doing it because in most cases, we would recommend that you do name these.
+[00:49:57] [2] But it would be kind of, I think, annoying if, like, your let made you assign, like, value equals or initial equals for, like, every usage when this is going to be such a common tag.
+[00:50:07] [1] Well, this just works.
+[00:50:08] [2] Yeah, yeah, but this just works. Like, I've created basically just a wrapper around the let tag.
+[00:50:13] [2] But so I mean, this means I could do a lot more in here. I could sync this to local storage.
+[00:50:18] [2] I could have this be an animated value. You know, I set to 1, and I could have it, like, go by 10th.
+[00:50:26] [2] So you see
+[00:50:29] [2] 1.1, 1.2, 1.3, 1.4 up until 2, right?
+[00:50:33] [1] This is all pretty cool because this is, like, React hooks. And I know because internally, but this is, like, the compiler and stuff is very similar to Svelte, but you just made a composable hook.
+[00:50:46] [1] This is something that you can't do in Svelte on the compiler. You have to bring in, like, Svelte stores.
+[00:50:51] [1] You just simply just pulled it out of the file and pressed it.
+[00:50:54] [2] Right, and that's something that we there's trade-offs there, right? And this is
+[00:51:01] [2] we're using a compiler-based Reactive system. And what that means is that
+[00:51:11] [2] our Reactive system can't really leave the Marco tags, right? Like, with Svelte, your Reactive system isn't really bound to the components.
+[00:51:22] [2] The components work off the Reactive system, but, like, you can just, like, outside of a component, just create a signal, right, and then use it.
+[00:51:32] [2] And Svelte and the API that they have set up, you kind of feel that limitation because if you wanted to create an animated value like this, you can no longer use, like, just the let in the script tag, right?
+[00:51:47] [2] Like, you can't create your own let. You do have to reach out to stores. And the stores are just kind of, like, runtime, you know, Reactivity.
+[00:51:55] [2] But the tags API is set up in such a way that, like, yes, you can't break this out into JavaScript land.
+[00:52:03] [2] You, like, still have to, you know, write a Marco tag. But you can actually break out that logic and compose these behaviors as you're building components.
+[00:52:15] [2] And so.
+[00:52:17] [1] And you can still import JavaScript too, right? Like.
+[00:52:20] [2] Yeah, you can still import JavaScript, yeah, if I wanted to.
+[00:52:29] [2] This is stupid, but
+[00:52:33] [2] .
+[00:52:34] [3] Yeah, it's just regular JavaScript imports
+[00:52:39] [3] there.
+[00:52:43] [1] Right.
+[00:52:44] [2] I go create that.
+[00:52:48] [3] Yeah, so I mean, I think there's a few interesting things about all of this coming from a tag because, I mean, really, one of the goals for Marco is to make all of this describable in a language that feels like it's built
+[00:53:03] [3] on top of HTML. Like, we want you to be able to take some HTML and, like, add some state to it right there, right where it's needed, right?
+[00:53:11] [3] So like, if you have, you know, sort of, like, a list or something like that, and you're going through, and you decide that you want to make that list into an accordion, you can add state right inside the for loop that y
+[00:53:24] [3] ou're using to render your list and, like, toggle each thing. You can just put it right where it's needed.
+[00:53:29] [3] And then obviously, that makes it since everything's kind of colocated or able to be colocated, it makes it easier to refactor things, throw them out into separate files.
+[00:53:38] [3] Yeah. And
+[00:53:41] [3] yeah, like, here, you know, this is actually pretty interesting because Michael has essentially, in a for loop, created a whole bunch of independent states that are tied to the for loop iteration, right?
+[00:53:52] [3] Like, any other framework, pretty much.
+[00:53:54] [1] Pretty much.
+[00:53:56] [3] Is going to have, like, forced you into making a new component for something like this.
+[00:54:00] [2] I mean, it really.
+[00:54:01] [3] And these are so the example that Michael's showing is a bit contrived, and so I hope that it's coming across where this could be useful.
+[00:54:06] [3] But, like, really, the cases where you're going to run into stuff like this is, like, I've got some existing markup.
+[00:54:11] [3] I want to add some new functionality to it. How can I work with the markup that I have?
+[00:54:17] [3] Is your framework going to cause you to have to refactor before you can actually, like, you know, add state because, you know, state has to be at the top level in this use hook or something like that?
+[00:54:26] [3] With Marco, we want to make it so you can just, you know, put these tags. And, you know, we're only showing the let tag and this, like, mylet that just reflects the let tag.
+[00:54:35] [3] But these tags are a lot like hooks in other frameworks, except they're a little bit more powerful, and they're more powerful in a couple ways.
+[00:54:43] [3] One of them is, you know, that they are tree-aware, right? Like, you can put this anywhere in the tree, and it's just going to work fine.
+[00:54:50] [3] If it's under an if statement, that's fine, which means you can do the colocation and all that stuff.
+[00:54:56] [3] But it also means that you can do stuff like have a tag that tells you whether or not the element that that tag is in is in the viewport and stuff like that without having to pass around anything.
+[00:55:07] [3] And there is one other thing I was going to bring up that I'm now blanking on. But yeah, the colocation.
+[00:55:15] [3] Oh, and, you know, it makes it really easy to not just, you know, extract out really behaviors like hooks in many frameworks allow you to do, but it also allows you to, you know, extract out markup and behaviors put tog
+[00:55:30] [3] ether, right? Because it's all just in the template. So like, if you have, you know, a dialog component that wants to also expose in a hook-like way some state about the dialogue, like, that's totally possible and really
+[00:55:43] [3] easy. You don't have to.
+[00:55:45] [1] You have to yeah, you had a good example, actually, that you mentioned to me earlier.
+[00:55:48] [1] And people here might be familiar with that example because we did Remix on stream.
+[00:55:52] [1] But the forms in Remix actually were a good example, weren't they?
+[00:55:56] [3] Yeah, so like, in Remix, you know, they've got essentially APIs for, like, use form data.
+[00:56:01] [3] And then they've also got a component that's, like, capital F form, right?
+[00:56:07] [3] And these are kind of separated because presumably, you want to be able to access the form data anywhere, but it is still tied to this form.
+[00:56:14] [3] So it'd be kind of nice if you could, you know, say, this is the form data from this form that I'm writing.
+[00:56:18] [3] And with the tags API, you can literally just have your, you know, capital F form with a tag variable after it that's giving you the current form data.
+[00:56:25] [3] And so you can express it all from one place,
+[00:56:30] [3] yeah, which just makes it easier to write. You're not having to, you know, I add a new form to the page.
+[00:56:35] [3] OK, that means that I have to put the form here, and I have to scroll to the top of my function and add a use form, whatever.
+[00:56:41] [3] And so now, maybe I've got two forms on the page. So I've got two use form things.
+[00:56:44] [3] And if I want to extract out one of those forms, you know, it's the whole story that many people have probably seen with, you know, Dan's original thing on hooks.
+[00:56:51] [3] It's like, how many places do I have to go into the code to extract something out into a new component or refactor it or whatever?
+[00:56:59] [3] How many lines am I touching to add functionality? And with this API, essentially, you know, we've been trying to make it so that that is very few lines because everything is able to be essentially put into your templat
+[00:57:14] [3] e. And so you're not having to repeat things like, you know, conditions or the structure or hoist things in weird ways just so you have access to a variable.
+[00:57:21] [3] The tag variables are just there in your markup.
+[00:57:24] [1] Yeah, because like, even in this example, you could start building this giant component and adding more and more functionality, and then at some point in the future, be like, oh, I want to extract that out, and then, lik
+[00:57:35] [1] e, just cut it out. And there's, like, no imports or anything you have to worry about here.
+[00:57:39] [1] You just, like, snatch, cut it, paste it, which is really quite cool. I know that the imports from the helper was from the other thing.
+[00:57:50] [1] I mean, yes, you killed that for me because of that one thing. Although maybe the imports, like, if we want to take it all the way, we could probably nest the imports.
+[00:57:58] [1] But essentially, you can kind of already see that with this colocation, you just this frees up the editing side.
+[00:58:07] [1] They said almost earlier because they're treading carefully a little bit because they know that I'd interrupt and go, you can do that in Svelte.
+[00:58:14] [1] But that's because on the technical side, there's nothing mechanical that stops you from nesting state in Svelte because the components are nothing.
+[00:58:20] [1] They're just function calls and.
+[00:58:23] [2] Right. I mean, it really comes down to Reactivity and whether or not it's tied to the component level, right?
+[00:58:29] [2] And in a lot of frameworks, React and Svelte, it definitely is. Vue, I'm not totally clear on because it's a fine-grained Reactive system feeding into components.
+[00:58:42] [2] But then Svelte, right, like, the Reactive system is kind of outside the components.
+[00:58:48] [2] And like, the for component creates a new route that the Reactive values created under that route are assigned to.
+[00:58:56] [2] So you can do this in Svelte and actually because it uses, like, a renderer prop, it's you're already in JavaScript land, so it's not so bad to do that.
+[00:59:05] [2] It's a little bit awkward if you wanted to do, like, this under an if in Svelte because you'd need to.
+[00:59:11] [1] Use a function.
+[00:59:12] [3] Yeah.
+[00:59:13] [2] Yeah.
+[00:59:13] [3] Yeah, I mean, it's interesting because when you look at this, it's like, some frameworks just couldn't represent something like this, and other frameworks could represent something like this.
+[00:59:22] [3] But I think part and one of the things that I appreciate about the tags API is that not only can you represent this, but also it doesn't require you having to touch multiple parts of the file, right?
+[00:59:32] [3] Like, a lot like, even in Svelte, if you were to just try and, you know, create a signal inside some random div or something like that, like, you could maybe put an if-ie in there, and then you're also going to have to go
+[00:59:44] [3] and put, like, a let somewhere like above so that you have the variable. Like, it's just not something that's representable in JavaScript.
+[00:59:52] [1] The GSX doesn't.
+[00:59:53] [3] Exactly. Yeah.
+[00:59:54] [2] Yeah, so.
+[00:59:54] [3] So like, part of our goal is making it so that these primitives that we bring into what is the Marco language make sense for a templating language.
+[01:00:02] [3] And one of those things here is that the, like, the tag variables, they can actually be hoisted.
+[01:00:07] [3] So like, if you have a div so I guess we haven't shown this, but, you know, one of the ways or one of the things you probably have to do is get, you know, a ref to some element.
+[01:00:17] [3] And so any native element gives you a tag variable that gives you its ref. So like, you know, on this button, you could go /btn, and you would have a JavaScript variable that is a ref to that button.
+[01:00:28] [3] And you can add an effect that reads that ref, but the effect could be, you know, anywhere in the template.
+[01:00:34] [3] It's automatically going to get hoisted because, you know, we don't want you to have to think about the way that things are, you know, placed in the template to be able to use these variables.
+[01:00:44] [3] And there's stuff in place to handle, like, conflicts and all that stuff. But in general, we're trying to approach it from the perspective of what is the most useful from a templating language in terms of the scoping, in
+[01:00:54] [3] terms of how you can define variables and where they can be defined and all that stuff.
+[01:00:59] [3] So having the language gives us a little bit of a superpower there.
+[01:01:01] [1] Yeah, for sure. And that's the whole thing. Even if, as I said, Svelte has the mechanical ability to do to JSX is not suitable for this.
+[01:01:08] [1] Like, basically, this is part of the power here and part of the reason the templating language is this is this templating language, some people kind of look sometimes like, eh, what's going on here?
+[01:01:19] [1] But everything is built with purpose, and it has it's I've looked at a lot of SFC templates languages.
+[01:01:26] [1] You all have. It's one of the only ones that has almost it has 95% of the flexibility of JSX.
+[01:01:33] [1] Like, not there's a couple little bits, but where the restrictions are makes it more anomalyzable for the hydration case.
+[01:01:41] [1] And when you add this ability with the tag variables in here, it actually opens up a type of colocation that goes beyond, right?
+[01:01:49] [1] We saw the class components to hooks, you know, where the colors went together, like, in that old graphic.
+[01:01:54] [1] And I've talked about this before. This is, like, the next step because even with hooks, stuff is still in two locations.
+[01:02:01] [1] And now
+[01:02:03] [1] we're now we're basically in we've merged it into one. We lost Michael there for a second.
+[01:02:09] [1] Let's see if can we get Michael back? Hey, Michael.
+[01:02:12] [2] Yeah, sorry.
+[01:02:13] [3] Yeah.
+[01:02:17] [1] Yeah, your screen disappeared, so I don't know if you're.
+[01:02:21] [2] Oh, I can switch back to sharing if that's.
+[01:02:25] [1] Yeah.
+[01:02:27] [1] Yeah, let's see if we can get back to it because you pulled up Todo MBC, and I think that's.
+[01:02:32] [2] Yeah.
+[01:02:32] [1] That's a demo that people probably want to see.
+[01:02:35] [2] Yeah, the reason I had pulled this up, I don't know if we want to hop over here yet, but like, I felt like I mean, probably you don't want to write the entire Todo MBC app in one file, but, you know, that's what we're k
+[01:02:48] [2] ind of looking at here.
+[01:02:50] [1] It's not that here. It's 78 lines of code for the Todo MBC app. I mean, that's pretty curse.
+[01:02:56] [2] We're missing a little bit of functionality because this is the version that doesn't have the editing.
+[01:03:01] [1] Oh.
+[01:03:02] [2] But I thought this was a pretty
+[01:03:06] [2] reasonable use of even though it's not, like, under a for loop or in a different context or anything, you know, being able
+[01:03:14] [2] to have this filter down here in the footer because it's just used, you know, by the footer to say there's two items left, and then we want to set it to those two items when we click Clear.
+[01:03:26] [2] I mean, that's pretty nice that, you know, I'm not forced to hoist this up to the top level, like, where the Todos themselves ar
+[01:03:36] [2] e, right? Like, I can put it closer to where it's actually used. That's all.
+[01:03:39] [1] Yeah, yeah, exactly.
+[01:03:40] [2] I'm just going to show here.
+[01:03:41] [1] What's cool about this one of the challenges is, I mean, we've seen single file component files.
+[01:03:47] [1] And when you it's funny because if you tie the change management to the single file components, you don't want to break out a new file all the time, right?
+[01:03:55] [1] Like,
+[01:03:58] [1] us React users know, like, I don't say us, but also, like, Svelte users know, like, it's nice to be able to, like, have all the functions at once at one time and kind of play around with ideas and refactor.
+[01:04:07] [1] And Marco has a macro tag, which has done that forever. But I think it's actually interesting in this version.
+[01:04:13] [1] But you're just like, well, yeah, sure, you can do the macro, but forget the macro even yet.
+[01:04:17] [1] Let's just build this out where it makes sense. We're like, we've got some state down here.
+[01:04:20] [1] We'll just put some state down here. And then we're like, oh, this is too much.
+[01:04:22] [1] Then we'll cut it out. And you could probably literally highlight that section and move it into a separate file at that point.
+[01:04:30] [2] Oh, definitely. Yeah.
+[01:04:33] [1] Yeah, I've never seen editing like this in any JavaScript framework.
+[01:04:36] [3] Yeah, especially with single file components, right? Because typically, single file component, it's like, we're going to break up your styles.
+[01:04:44] [3] We're going to break up your behavior. We're going to break up, you know, the templating logic.
+[01:04:49] [3] But having it all be able to be defined, like, you can define the styles anywhere.
+[01:04:53] [3] You can, like, write a style tag. You can define your behaviors anywhere. You can have the let, the const, the facts.
+[01:04:58] [3] Like, they can be right where they're used. And that just makes so many things easier.
+[01:05:03] [3] Like, you know, a simple case is you've got something. It's conditional on the screen.
+[01:05:09] [3] And when it's visible, you want to have an effect that runs that, you know, does something.
+[01:05:14] [3] Maybe it runs an animation or whatever. If you want to have a conditional effect in a lot of frameworks, you've got to make another component, right?
+[01:05:22] [3] And in React and Svelte, that's, you know, fairly simple because you can go and create another function.
+[01:05:26] [3] Like, at least it's in the same file, right? But with the tags API, not only can you do it in the same file, but you can just do it right there.
+[01:05:34] [3] You don't have to go and, like, hoist something out and, like, think about what this refactor is going to look like, what variables I have to move, and all that stuff, right?
+[01:05:40] [3] Like, you can just put an effect, write it right next to where it's necessary, right?
+[01:05:46] [3] And when that if statement gets removed, the effect gets cleaned up. When the if statement comes back, the effect runs again, right?
+[01:05:52] [1] Yeah, so can we do something concrete here? Because we've been kind of nailing this home.
+[01:05:57] [1] And I think no one said anything yet in the comments. I don't know if people are just kind of going, OK, OK.
+[01:06:03] [1] But let's, like, this is a bit of a departure, you know, from what people are used to.
+[01:06:09] [1] So, you know, it takes a little bit.
+[01:06:11] [1] But
+[01:06:13] [1] yeah, can we do something a little bit more concrete?
+[01:06:19] [3] Yeah, I think maybe I could share my screen for a second
+[01:06:24] [3] unless Michael has something to go into.
+[01:06:27] [2] No, I mean, I'm just kind of showing what Brian was talking about or you were talking about.
+[01:06:31] [3] Right. Yeah, OK, let me take over for a sec if that's easy.
+[01:06:37] [1] You just share and I'll pop it in.
+[01:06:40] [3] Yeah, OK. Is that working?
+[01:06:44] [1] Yeah, here you go, Dylan.
+[01:06:45] [3] Yeah, so I mean, here is just some basic markup. Essentially, we've got a const that is an array of items that are in a cart.
+[01:06:54] [3] We've got a ul. We're iterating over the items, displaying a title, and then a description, right?
+[01:07:00] [3] And so this is actually I kind of brought up a bit earlier. Like, you know, you're iterating over a list.
+[01:07:07] [3] Now you've got a requirement. How do we make it so that each item in this list is toggleable?
+[01:07:10] [3] Like, we want to turn this into an accordion, right? We don't want to see we only want to see iPhone 13 and MacBook Pro here, and then we want to be able to expand it to show the other stuff.
+[01:07:19] [3] So like I said, in a lot of frameworks, it's going to cause you to have to think about, OK, well, now I've got to go and build my item component.
+[01:07:25] [3] Now I've got to create the item.jsx or whatever and all that stuff. Or I can do it, you know, in a function that's in the same file if it's JSX, which is not as bad.
+[01:07:35] [3] But with Marco, we can literally go in here and just be like, OK, is this thing closed?
+[01:07:40] [3] So we're going to default it to false. And then we want to toggle it when we click this guy.
+[01:07:46] [3] So we'll just do, you know, closed equals not closed. And then we're just going to make it so that this guy is hidden
+[01:07:57] [3] if it's not closed, right? And so there it is. Like, I added the functionality right here.
+[01:08:03] [3] And the great thing about this is now I want to go and extract this out. Like, I can just take this section, move it into a file.
+[01:08:11] [3] I have to add, like, an attribute to receive, you know, the item because I'm going to have, like, essentially, I could refactor this into, you know, item, item equals item kind of thing or whatever.
+[01:08:23] [1] Item, item, item.
+[01:08:24] [3] Item, item, item, which is, you know, great. But anyways, the key is that I didn't touch anything else here, right?
+[01:08:30] [3] Like, I didn't have to jump around this file and be like, OK, I'm going to copy this piece of state from here, and I'm going to copy, you know, x from here and whatever.
+[01:08:37] [3] And like, you could have an effect that's, like, doing something, like, closing the tab after a certain amount of time.
+[01:08:45] [3] Like, you could put the effect right here as well, right? And that's super
+[01:08:48] [3] nice as far as, you know, I'm writing this. I know exactly what needs to happen.
+[01:08:52] [3] I don't have to think about refactoring it before I finish my job, right? And in this case, it's such simple logic that we don't even need to refactor it, right?
+[01:09:00] [3] Like, there's no reason for this to require multiple components or multiple functions even.
+[01:09:06] [3] Now, if it was something that was reused across multiple templates, then sure, yeah, extract it out into another Marco file.
+[01:09:14] [3] Or if it's something that's just, like, overwhelmingly large or you want to test it independently or, like, some valid reason to extract it out into another file, then that's great.
+[01:09:23] [3] But we don't have to do that. And in this case, it doesn't make sense, right? So yeah, hopefully, that hammers home that piece.
+[01:09:29] [3] And then I've got I just threw up, like, a couple examples that maybe illustrate some of the points.
+[01:09:34] [1] Yeah.
+[01:09:34] [3] So like, you know, here I have a component that's basically inserting a node just so that I can get a reference to it so that I can give the height and width of the current container.
+[01:09:45] [3] So like, here and I could have a different API. There's a million ways to, like, implement this.
+[01:09:50] [3] But, you know, I've just got this quick little tag that's like, OK, give me the height and width of the container that I'm in.
+[01:09:55] [3] This div happens to be, you know, 110 by whatever right now. And if I add a few breakpoints to that, it gets, you know, a little bit larger.
+[01:10:03] [3] Like, it's super easy to do that stuff. And I'm able to have it colocated, right?
+[01:10:08] [3] So I can, again, just, you know, extract that out. And then to, like, a little bit more of a complex example.
+[01:10:16] [1] Can we go back to that for one second?
+[01:10:17] [3] Yeah.
+[01:10:17] [1] I just appreciate that example for a second because what if I understand it, this is kind of like you think it's like a kind of a hook, but you're actually using a ref in order to find the size of the parent.
+[01:10:30] [1] So there's actually DOM elements in this hook.
+[01:10:33] [3] Yeah, like, this thing is rendering a kind of like a WBR, which is like a word break, like, nothing element.
+[01:10:38] [3] It could be a NoScript. It could be a comment. It could be whatever. But I just did a WBR there just so that it can put something in the DOM just so that it can get a reference to the current location that we're at in the
+[01:10:47] [3] DOM so that it could return the height and width. And like, another example you could think of with this is, you know, an element that's like, am I in the viewport, right?
+[01:10:55] [3] So like, I could build something. I'm not going to build it right now. But, you know, we could have something like
+[01:11:03] [3] intersection in viewport, right? And we could just have that right here. It can know, OK, is this element in the viewport?
+[01:11:11] [3] Because it can be tree-aware. Like, that's super easy. And then we can just have an if statement here that's like, if we're in the viewport, then we're going to do something crazy.
+[01:11:19] [3] We could actually run some JavaScript, right? Like, we could run an effect here.
+[01:11:24] [3] And we have an effect that executes whenever we're in the viewport. Or we could render something whenever we're in the viewport, right?
+[01:11:32] [3] So it's super powerful to be able to colocate what is effectively hooked right into the markup because it gives you these kinds of superpowers but also just because it's easier to refactor and, like, work on existing code
+[01:11:45] [3] and that kind of stuff.
+[01:11:47] [1] OK, this came up, and we have to address it because this is everyone's favorite.
+[01:11:51] [1] Why the slash? Like, why do tag variables have a slash? Why can't we just use a space?
+[01:11:57] [1] And this actually is a bit more obvious with a different example, but go for it.
+[01:12:04] [3] Yeah, it's tricky. I mean, we thought this is probably,
+[01:12:08] [3] man, probably three years ago or more, probably more, we realized we needed something like tag variables in the language.
+[01:12:16] [3] And that's what these are. They're tag variables. And the right-hand side is a JavaScript expression, right?
+[01:12:21] [3] So like, if I have an object here and I'm, like, destructuring,
+[01:12:25] [3] you know, that's fine. Although lets can't be destructured because they're signals and whatever.
+[01:12:31] [3] But like, essentially, the left-hand side here is just any JavaScript expression.
+[01:12:35] [3] So we knew we needed something like that. Now, this symbol, so tricky. Obviously, it can't be a space because now we're in attribute land.
+[01:12:43] [1] It's an attribute, right? It could be any attribute.
+[01:12:44] [3] Yeah.
+[01:12:44] [1] You could have more attributes on it. Like, you could have close, false, key equals.
+[01:12:48] [3] Right.
+[01:12:48] [1] Like, just because it has a slash doesn't mean that you can't have other attributes after it.
+[01:12:54] [3] Yeah, and so it's tricky. I mean, there's not a lot of like, it could have been an exclamation mark.
+[01:13:00] [3] It could have been whatever. And so we kind of landed on slash. It seemed like the least off-putting.
+[01:13:08] [3] I think it's one of those things where, you know, once you're using it for a little bit, like, it's just gone.
+[01:13:13] [3] Like, it's just a syntax. You know, the power of it ends up shining above the other things.
+[01:13:19] [2] We all kind of hated it, I think, at the beginning. We were like, there's no good choice here.
+[01:13:25] [2] Let's just put slash here. Maybe we'll come up with something better. And it's one of those things that it's like, it's a character.
+[01:13:33] [2] Like, it's gotten to the point now because we've been looking at this, you know, code every day for probably a year now since we, you know, decided that it was going to be slash.
+[01:13:45] [2] And it's like, it just seems normal. This you know, and one of the things Dylan said, which I think is true, is you can make things
+[01:13:58] [2] like, correct and consistent consistent, not correct. You can make things consistent.
+[01:14:08] [2] Or you can become more familiar with things, but you can't, like, make something more consistent without, like, changing it, right?
+[01:14:16] [2] Yeah, I'm totally messing up your quote. Do you want to say it better?
+[01:14:20] [3] Oh, boy. I think I need more coffee as well. But what was it? Yeah, essentially, like, if you've got a consistent system but it's unfamiliar, you can learn it and appreciate the consistency of it, right?
+[01:14:32] [3] But if you've got this inconsistent system, even if you know it, you hate it. And that inconsistent system is JavaScript, basically.
+[01:14:40] [3] I'm just kidding. But, you know, essentially, we're trying to make it so that this is a language that is super consistent and that in the user-led side of things, you can do all of the stuff that we're exposing through the
+[01:14:52] [3] language. And then there's also things we're considering. Like, like I said before, this is a language.
+[01:14:59] [3] What is it when should you be able to see this variable? When does it make sense?
+[01:15:02] [3] Like, this so this is the tag parameter syntax. So basically, there's two ways to get data out of a tag.
+[01:15:09] [3] You can pass data into the body of the tag, or you can expose data out of the tag so it becomes available, like, you know, outside of the scope.
+[01:15:18] [1] Yeah.
+[01:15:18] [3] And so those are two scoping mechanisms that we realized were, like, necessary to implement some of the things that people are doing in other frameworks.
+[01:15:27] [3] But like, in general, they also
+[01:15:30] [3] are easier to write than in other frameworks. And you don't have limitations of like, yeah, OK, like, think about refs.
+[01:15:37] [3] I think refs, in general, in every framework are kind of annoying. Like, you have to go, OK, I'm going to scroll to the top of this function.
+[01:15:44] [3] I've got this list of all these hooks, and I've got, you know, a few other refs.
+[01:15:47] [3] And I'll put this one in here, and maybe I'll sort it right there. And then I'm going to pass that down, and we're going to, like, pass it to this element that's in the markup here.
+[01:15:56] [3] No, we have it so that tags can expose variables. And it just so happens that the native tags expose a variable that is their reference.
+[01:16:04] [3] And so it's just a lot easier to yeah, the slash, though, everyone is pointing out.
+[01:16:10] [2] And this is one of those things in Solid too. Like, technically, you don't need refs in Solid, right?
+[01:16:17] [3] Yeah, it's a let somewhere.
+[01:16:19] [2] You do need a let somewhere. That is true.
+[01:16:22] [1] Yeah, yeah, yeah. I mean, but the thing with the yeah, it's important to differentiate.
+[01:16:28] [1] We didn't focus on the for loop and these pipes around it. But it's basically like a render prop.
+[01:16:35] [1] It's like a function scope. So it is the children where the slash is for siblings.
+[01:16:42] [1] So this is just kind of a it's important that we need both syntaxes. But if you don't want to see what this looks like in svelte or view, it is nasty.
+[01:16:50] [1] I actually put a Twitter tweet. I tried to find it just now, but I wasn't going to find it fast enough.
+[01:16:54] [1] But like,
+[01:16:57] [1] there's a reason. You know, I make a big deal about JSX and composability because you could literally make that for, my for, and follow the same thing.
+[01:17:04] [1] And JSX is the same way, like, props on that. But when you go to a lot of template DSLs, you don't get to turn hashtag each into, you know, hashtag paginated list.
+[01:17:17] [1] You have to go to a completely different thing because and that different if you want to make a people just don't do it in those frameworks because if you want to make it a different thing, it's nasty.
+[01:17:28] [1] They use attributes with, like, namespaces for each thing, like bind colon this or let colon this.
+[01:17:35] [3] Yeah.
+[01:17:35] [1] And it just pollutes the whole thing, and it changes the semantics of attributes.
+[01:17:39] [1] What Marco has done here is invent a couple syntaxes for purpose but actually kept the semantic meaning of existing things instead of trying to overload them.
+[01:17:50] [1] So, you know, this is one of those funny things where people are like, oh, it's just HTML.
+[01:17:55] [1] It kind of is annoying for me when I hear that because it isn't just HTML when you use HTML attributes to change the semantics of how it executes.
+[01:18:05] [1] And then you're like, oh, but it looks like HTML. Like, people can argue about that.
+[01:18:09] [1] But like, this stuff all compiles to JavaScript anyways. So it isn't just HTML.
+[01:18:14] [1] But I mean.
+[01:18:17] [3] Yeah, I mean, Marco is like a declarative reactive framework for building trees.
+[01:18:23] [3] And, you know, like, it's got the control flow in it and all that stuff. I think going back to, you know, the fact that the for tag is something you can build in user land.
+[01:18:32] [3] Like, you can have a paginated, like Ryan said, you can have a paginated for where you're like, obviously, I'd have to change the closing there.
+[01:18:39] [3] Closing is optional in Marco. But, you know, I could have a paginated for where it's like,
+[01:18:45] [3] limit five. It's like, show five at a time, right? And look at how little code I had to change to do that.
+[01:18:52] [3] Now, if I was in svelte or something similar, you know, I'm going to have to go from my fancy little each thing to something that you don't want to show your children.
+[01:19:03] [1] Yeah.
+[01:19:04] [3] I'm just kidding.
+[01:19:05] [1] It is nasty doing that kind of those kind of projections in those.
+[01:19:09] [3] Yeah, so in a way, part of the reason and I don't know if it was highlighted at the beginning that we wanted to make it so that all of our core tags use the same syntax as something you can build yourself is to kind of ke
+[01:19:20] [3] ep us honest. Let's make that syntax nice, and let's make it easy when people decide to add functionality to these core tags, which is super common for
+[01:19:29] [3] , you know, let. There's tons of examples. And then there's for and the paginated things.
+[01:19:34] [3] Like, there's lots of types of experiences or tags that you'd want to build that iterate over stuff.
+[01:19:40] [3] And so, yeah, that's partly one of our design goals of the language is to make it so that it's, like, very easy to go from A to B.
+[01:19:49] [3] Yeah.
+[01:19:50] [1] Yeah, yeah, you just stop seeing it after a while because it just your brain connects the dots.
+[01:19:55] [1] Sorry, I'm just talking to this comment.
+[01:19:57] [2] Yeah.
+[01:19:58] [1] Yeah, so yeah, where do we want to go to next? We have a couple more examples. Did we want to talk about getting more into the hydration story and more into the compiler?
+[01:20:09] [1] People have been pretty quiet. I think they're just taking this in because it's pretty it's been pretty big it's a big difference in syntax and developer experience.
+[01:20:17] [1] But that's not the only reason we're doing this. Obviously, it's a big part of it.
+[01:20:21] [1] We actually believe that this is incredible for the refactor story and the maintainability story.
+[01:20:27] [1] But this compiler and this reactivity have other benefits.
+[01:20:34] [3] Yeah.
+[01:20:34] [2] So, Dylan, do you have the branch that I sent you?
+[01:20:38] [3] I do not. So it's probably going to make the most sense for you to show your screen.
+[01:20:42] [1] Unless you have any more examples, Dylan, but.
+[01:20:44] [3] I mean, I didn't actually show this one. But, you know, it's kind of cool that you can just take like, I built a tween tag that just takes in some state.
+[01:20:53] [3] And you say, like, how long the thing should tween for. And, you know, I'm printing out both the tween version and the actual version.
+[01:21:01] [3] And you can see, like, the actual state is updating immediately, and then the tween version is, like, catching up, right?
+[01:21:06] [3] And it's not that crazy to build that much code. Like, I have, you know, an effect that's doing a request animation frame, and it's returning the current tween value and all that stuff.
+[01:21:14] [3] But like, you can abstract out some complex things. And now, you know, this tag has the same benefits as the let tag.
+[01:21:20] [3] I can put it wherever it's needed. The colocation and all that stuff. So I just think it's cool.
+[01:21:27] [1] Cool.
+[01:21:27] [3] But yeah, go to Michael.
+[01:21:28] [1] Let me get Michael back on the screen here. You sharing something, Michael, for us?
+[01:21:34] [2] Actually, I think I just stopped by accident. So let me.
+[01:21:38] [1] But yeah, let's transition into this because it's funny. People are really stoked about, like, the unique piece of Marco, like the hydration that and we I did this kind of on purpose.
+[01:21:49] [1] I wanted to start here because I don't think people realize because people, like, get hung up.
+[01:21:54] [1] There's a lot of value that comes from the compilation and comes from the syntax, even if people kind of are perhaps want to reject it at first.
+[01:22:03] [1] This is not just because we like weird symbols.
+[01:22:08] [3] Yeah, yeah, it's literally like, you know, we're looking at common types of things that people are building.
+[01:22:14] [3] We're realizing that you're going to use a template to build those things. And how do we make the template able to express those things in a way that is easier than writing vanilla JavaScript?
+[01:22:22] [3] Like, you don't I know people initially when React first came out were like, oh, I have to use a map to or I have to use a ternary to map stuff.
+[01:22:32] [3] And obviously, we're used to that now. But, you know, Solid bringing back, like, a show tag and
+[01:22:38] [3] the mapping and all that stuff, it's like, yeah, being able to represent it as HTML is nice because it's a declarative way.
+[01:22:45] [3] You're not having to take this, you know, JavaScript imperative escape hatch to get there.
+[01:22:50] [3] I don't know.
+[01:22:51] [1] Yeah, so let's see if we can get Michael's screen here.
+[01:22:58] [2] So I'm back to are we seeing my screen now?
+[01:23:02] [3] I think it's my screen.
+[01:23:04] [1] Yeah, you have to share first, and then I share it. Michael.
+[01:23:07] [2] Oh, it says that I'm sharing my screen.
+[01:23:10] [3] OK, there we go.
+[01:23:12] [2] OK, so back to our basic button example. And we can play with this to
+[01:23:20] [2] see what happens. But so I'm going to pull up the compiled output for Marco 6. And
+[01:23:31] [2] it's not a whole lot of code.
+[01:23:33] [1] Can everyone see this? I want to make sure that the text is big enough. I know.
+[01:23:36] [3] And maybe zoom in a little bit, Michael.
+[01:23:37] [2] OK.
+[01:23:39] [1] OK, yeah, that's fine. Yeah.
+[01:23:43] [2] So because we've got a this actually doesn't scroll.
+[01:23:50] [1] Oh, OK, fine.
+[01:23:51] [3] So I'm going to go one out.
+[01:23:54] [2] You could.
+[01:23:55] [3] Oh, I could do that. That's fair. That's fair. I could do that.
+[01:23:59] [1] This is our new tried online.
+[01:24:02] [2] Yeah, this is something I hacked together, like, in
+[01:24:07] [2] a couple nights. And then, like, two nights ago, I added
+[01:24:13] [2] the Marco 6 output to it. So yeah, this still needs a little bit of work. We actually do have this kind of, like, hidden on the website.
+[01:24:21] [2] If you go to marcojs.com/playground, you can get to it. But there's no links to it anywhere yet.
+[01:24:30] [2] Anyways,
+[01:24:32] [2] so this is the
+[01:24:35] [2] like we said, we're breaking apart your template into, like, a bunch of little pieces.
+[01:24:43] [2] And that's so that we can do a number of things. One, it's what powers the fine-grained reactivity.
+[01:24:49] [2] It's all driven by the compiler. And then two, so that we can eliminate code in a more fine-grained way rather than just this component goes through the browser, and this component stays on the server.
+[01:25:05] [2] So yeah, it's not a whole lot of code. So I'm going to walk through this counter example, and then we can start changing this code.
+[01:25:13] [2] And we'll point out some things in the compiled output. But so the first thing in here besides the imports.
+[01:25:20] [1] One more thing, Michael.
+[01:25:21] [2] Yeah?
+[01:25:22] [1] You can press hide at the bottom, and it gets rid of that little StreamYard thing that's blocking.
+[01:25:26] [2] Oh, I didn't realize you all could see that. OK, yeah, yeah.
+[01:25:32] [2] So the template here is the static parts of the HTML. And so in this case, it's the button element.
+[01:25:43] [2] And then this is a marker representing where the dynamic text is going to go. We also have this walks string, which is
+[01:25:58] [2] it's a little bit interesting. But if you look at, like, the compiled output for Solid or
+[01:26:10] [2] svelte or
+[01:26:13] [2] I guess those are probably the two big ones that do this kind of thing that create the elements up front and then find them.
+[01:26:22] [2] You're actually, like, walking.
+[01:26:24] [1] Svelte.
+[01:26:25] [2] Svelte actually builds the tree manually. Solid does a similar cloning thing to what
+[01:26:33] [2] Marco is doing. But you guys do, like, a first child. And, like, actually, like, you have first child in the template
+[01:26:42] [2] in the compiled code. Whereas what we're doing here is we're actually encoding instructions to actually go find this button and go find
+[01:26:51] [2] the text node. And so
+[01:26:55] [2] I'll actually decode this real quick just for fun. So we start the walker starts on the first element.
+[01:27:03] [2] This space represents a git. And so we're using a tree walker. The D represents a next.
+[01:27:11] [2] So that actually walks into the button into its first child. This percent side represents a replace saying we're going to replace this with a text node.
+[01:27:22] [2] And then this L represents, like, leave the button and go to the next sibling of the button.
+[01:27:30] [2] And so if this is the top-level template, this actually doesn't ever get used. But this becomes important.
+[01:27:37] [2] We'll talk about components a little bit more later. But it does become important for that.
+[01:27:41] [3] Yeah, this is probably one of the less interesting things of what's being compiled.
+[01:27:47] [2] Yeah.
+[01:27:47] [3] But it is important to know that, you know, we've extracted out the static content into the template string.
+[01:27:55] [3] And then we also have these walks. And so, you know, this walk string is a little bit more dense than, you know, next sibling, next sibling, skip whatever.
+[01:28:03] [3] And we have some codes in there to make it shorter and so on. But this also is skipped or not bundled when this component isn't necessary in the browser.
+[01:28:12] [2] Right.
+[01:28:13] [3] So that's why it's its own separate sort of export. And having it be a string also makes it so that it's easier to merge with other components and so on.
+[01:28:21] [3] But yeah, not a particularly interesting thing, but.
+[01:28:25] [2] Right. And then apply is our so we apply is just kind of a random verb that we've chosen.
+[01:28:36] [2] But the base apply function is what's used to apply, like, these static values in the template.
+[01:28:43] [2] So in this case, the initial value of 0 is the only static value in the template.
+[01:28:51] [2] So we have the static nodes up here. Static values are in this apply. And then we have apply functions for every reactive value in the template as well.
+[01:29:02] [2] And so in this case, it's just apply count. And for both cases, so we don't have any static hydration logic in this case.
+[01:29:15] [2] But every value and also all the static values get split into an apply and a hydrate.
+[01:29:24] [2] And so in the apply case, and this is something that we actually are thrilled about
+[01:29:33] [2] defer that. But we'll be optimized away. But this is binding this click handler.
+[01:29:43] [2] And this actually happens every time count changes since the click handle actually is reading the value of count.
+[01:29:53] [2] Then we update the data node. And then we call hydrate count, which ensures that we have the click handler
+[01:30:02] [2] on the button.
+[01:30:05] [2] And then the click handler is right here. This actually gets hoisted out. And this is kind of one of the other interesting things.
+[01:30:12] [2] So we've closed over this value of count in the template. But we actually hoist pretty much every function out to the top level of the compiled output.
+[01:30:24] [2] So there really aren't, like, any closures that you can see in this template. And we
+[01:30:34] [2] are actually reading this value from an internal scope that, you know, is
+[01:30:43] [2] this template. It actually the scopes actually span across templates. But you kind of operate on your subsection of the scope here.
+[01:30:56] [2] And so count is stored at 2. So when we need count, we read it. And then when we're updating count, we write to
+[01:31:05] [2] that offset of 2. And then the DOM nodes that are walked to are actually also stored in this scope.
+[01:31:13] [2] So that text node is stored at 1. And the button is stored at 0. So when you see these numbers, and then the event handler shouldn't need to be stored in that scope.
+[01:31:25] [2] But currently, as it's stored at 3.
+[01:31:29] [3] Yeah, I think the kind of the simple walkthrough of what this is, and it isn't really showing that it's broken up by, you know, the sources because in this case, there's only one state, really, the count.
+[01:31:40] [3] But essentially, all the apply functions are what needs to happen to render the function, right?
+[01:31:45] [3] So the default apply is saying, OK, if I'm rendering this from scratch, I'm calling this apply.
+[01:31:51] [3] Apply count is saying, oh, if count changes, I'm doing this stuff. But that is, like, essentially work the server can do.
+[01:31:58] [3] All of these other things, like hydrate count, so there can be hydrate for any state.
+[01:32:03] [3] You see in this case, there isn't a default hydrate because there isn't anything that doesn't have dependencies that needs to be hydrated.
+[01:32:08] [3] But anyways, so all the hydrate stuff is stuff that needs to run in the browser.
+[01:32:12] [3] So when the server is rendering this template, it's going to be like, OK, yeah, I know this I rendered this thing.
+[01:32:18] [3] I know it's got a hydrate count. I'm going to call that. And so in this case, you can see when it calls that, it's going to register that click handler, which is exactly what we want to happen during the hydration process
+[01:32:29] [3] . So the interesting thing here is if we took this template, say it's at the top level, our compiler is going to know that, you know, essentially half of this template is unnecessary in the browser because the only little
+[01:32:41] [3] bit of re-rendering that can actually happen is in this apply count section. Because when the click handler, you know, is executed, which is one of those things that needs to be sent to the browser, then it's going to call
+[01:32:51] [3] apply count so that it can, you know, update that text node that's there. That's the client side rendering.
+[01:32:56] [3] But everything else doesn't need to be sent to the browser. So in this case, that means, you know, we're not sending that top-level apply function.
+[01:33:02] [3] We're not sending the template, the walks, like, all of those exports. None of that gets sent to the browser.
+[01:33:08] [3] And I mean, this is a component that looks like it's pretty much entirely reactive.
+[01:33:13] [3] And we've still been able to, like, strip out half of the code, right? So you can imagine that becoming much more pronounced
+[01:33:22] [3] in real examples.
+[01:33:23] [1] Yeah, just give me a second here, just to kind of iterate over it. Basically, when this first hydrates in the browser, it doesn't need to run anything but that hydrate function, right?
+[01:33:33] [3] Right.
+[01:33:35] [1] Essentially, the apply stuff doesn't run. Like, the only thing we actually need is the hydrate.
+[01:33:39] [1] So it comes in, and it goes, add the click handler. Hydration done.
+[01:33:43] [3] Yeah, right.
+[01:33:44] [1] Then when someone clicks it, because the click handler is on it, it then calls apply count, as you see inside the click handler.
+[01:33:53] [1] And then it runs the code in here. And that means that that's all the code you need for the component when it's as you talk and not stateful outside because essentially, you just get to tree-shake the rest of this.
+[01:34:11] [2] Right. So we don't actually have the export in here. But
+[01:34:17] [2] what would happen if this was
+[01:34:21] [2] being used for hydration? This is all running in the browser, obviously. But if this were being used for hydration, we would export this.
+[01:34:29] [2] And we would tree-shake based on exports, right? So these exports would not be used.
+[01:34:36] [2] This one would be. And so we I mean, and this isn't even we. Like, we get to rely on the, you know, the bundlers to tree-shake this for us.
+[01:34:48] [2] Like, roll up just, you know, eliminates all this code for us because from walking the one export that's used, we're like, OK, so
+[01:35:00] [2] this on click is referenced. And then this apply count is referenced from that.
+[01:35:08] [2] And so, like,
+[01:35:10] [2] we're able to just get rid of the rest of this code. So that's kind of nice.
+[01:35:16] [3] Yeah, and the other thing is, you know, Michael pointed out that essentially, there's this scope that is outside of your component here.
+[01:35:23] [3] Like, there's all these numbers that are referencing things in a scope. And that's super intentional because one of the things we need to be able to do is essentially say, OK, here are relevant things in the scope that is
+[01:35:35] [3] going to be necessary when we go to the browser, right? So in this case, let's think about what needs to happen when we run that event handler, right?
+[01:35:46] [3] So that on click, what does the browser need to have available to execute that?
+[01:35:50] [3] It actually needs to know what the current value of click is because a plus plus is really, you know, count plus one.
+[01:35:56] [3] So it's reading count. And so we know that count actually needs to be serialized in this case.
+[01:36:02] [3] So what the server would do is it would be like, OK, I'm going to serialize that count.
+[01:36:07] [3] You know, it's at scope position one. I know that's the only thing you need serialized.
+[01:36:10] [3] Maybe there's other stuff in here that's, like, const and stuff like that that only makes it to the DOM nodes.
+[01:36:14] [3] It's not used in an effector or an event handler. Those just don't get serialized.
+[01:36:18] [3] So essentially, we're able to look at the template, look at the effects and event handlers, look at the things that are referenced in those scopes, and just mark those as being serialized.
+[01:36:28] [3] Whereas, you know, if we're looking at quick, like we talked about before, it's going to be like, oh, this is a section that could maybe re-render.
+[01:36:35] [3] And so, well, it doesn't know that it can maybe re-render. It assumes everything could maybe re-render.
+[01:36:39] [3] So it's going to have to send essentially everything that is related to that. Whereas we're able to work backwards from the functions that we know we're going to execute, if that makes sense.
+[01:36:52] [3] So like, we know like, if this button here's a maybe a better example. If this button was receiving some data, like, let's imagine it was receiving, like, a multiplier or something like that as a
+[01:37:05] [3] color. Sure, it's receiving color. I don't know why it's using color. Maybe it's like a color wheel or something like that.
+[01:37:10] [3] Sure. Yeah, this is a decent example. So we've got color. It's coming in. It's going into a style.
+[01:37:16] [3] And then this is a top-level component. We know style is never going to update.
+[01:37:19] [3] We don't need to serialize style. We don't need to run any of the apply code related to color, right?
+[01:37:25] [3] Like, all of that gets to be tree-shaken. And this is across components as well.
+[01:37:30] [2] Yeah, so even though we added some code to this component, it's still just these same three functions that get serialized to the browser unless the parent is actually sending in a stateful color.
+[01:37:42] [2] And then the parent would cause that to be pulled in.
+[01:37:45] [1] Yeah, how does that work? Because this if you go up here, sorry, this apply color, who calls it?
+[01:37:52] [2] Yeah, so this is also not exported. We're still
+[01:37:58] [2] this is something that actually does not fully work yet at your computes, which is, you know, kind of a fundamental thing.
+[01:38:06] [2] That's also why a lot of our demos are all in one file right now. But this is a function that can be exported.
+[01:38:14] [2] And so the parent can just pass the color in, just like we're passing in apply count.
+[01:38:20] [2] So if you have a click handler that changes the color that's passed in, you know, you can call this function.
+[01:38:28] [2] And if that stateful and that click handler, you know, like, is calling it, then that's going to cause this to be included in the bundle.
+[01:38:35] [2] And it'll be available. If the parent just passed, you know, just used this, like, my button color red, you know, that's going to be called
+[01:38:47] [2] that would be called from its apply function, which doesn't get included. And so this apply color wouldn't get included.
+[01:38:53] [1] Because just so I follow, if they just put that static value in, the parent never needs to import the apply color function because we know that it would have already been rendered on the server.
+[01:39:04] [2] It does import it. But it would only use it from within its apply function because this is where all the static stuff goes, right?
+[01:39:12] [2] So it would call apply color from its ow
+[01:39:19] [2] n.
+[01:39:19] [1] And if it was not stateful, then its apply function wouldn't have made it to the browser, which would then tree-shake out the rest of it.
+[01:39:27] [2] Right. Well, its apply function will never make it to the browser unless it's, like, actually needing to be rendered from scratch in the browser, right?
+[01:39:37] [3] Right, which is the case if it's, like, under a stateful control flow, so under a stateful loop or under a stateful if statement, basically, because that's the only case where you need to render something from scratch in
+[01:39:51] [3] the browser with an MPA.
+[01:39:55] [3] And this isn't just, like, static values, to be clear. Like, Michael put a, you know, a string literal red there.
+[01:40:00] [3] It's not because this is a static value. It could be a dynamic value that's calculated based off of, you know, the input or calculate like, it could be new date or something like that.
+[01:40:09] [3] As long as it's not derived from state, it does not make it to the browser.
+[01:40:12] [2] Yeah, so we've kind of coined a term for this just to help us talking about it.
+[01:40:20] [2] So we have static values, which, you know, this is obviously a static value. And then we have dynamic values, like the count, which actually do change.
+[01:40:29] [2] But then we also have inert values is what we've been calling them. And they are essentially static values.
+[01:40:38] [2] But they're kind of like dynamic static values, if that makes any sense.
+[01:40:43] [3] Basically, they need to be created.
+[01:40:45] [2] Yeah, it's something that's it is dynamic on the server. Like, not every user would necessarily receive the same value.
+[01:40:52] [2] Maybe it's based on the URL. But it's something that will not change once it gets to the browser.
+[01:40:57] [2] And so both values or, you know, reactive applicators that have to do with static and inert values can be eliminated from the bundle.
+[01:41:12] [1] Yeah. It's probably a little bit, like, new terminology if people kind of.
+[01:41:16] [2] Yeah.
+[01:41:17] [1] But basically, the compiler using the Reactor graph, using the Reactive language, knows what is stateful fine-grained, like, right down to the signals and knows their dependencies.
+[01:41:29] [1] So we can trace that whole graph and go, these are the things that actually can change in the browser, and the rest of the stuff can't.
+[01:41:37] [1] And in so, you can take these components and maybe subtrees of components that look like they're pretty stateful, which would be included if you're using Astro, would be included as islands, and basically go, no, actuall
+[01:41:52] [1] y, we don't need half this code. Maybe we don't need 3/4 of this code still within these stateful-looking components simply from the fact that we know what can change.
+[01:42:05] [2] Right.
+[01:42:06] [1] So yeah, I mean, this I don't know if this is coming across. I don't know if anyone wants to throw something in the comments or the chat if this is making sense.
+[01:42:14] [1] It's a little bit technical. We knew we'd get here. And this is why the focus on the DX part.
+[01:42:20] [1] But essentially, the same thing that allows us to have really interesting, you know, powerful development experience actually informs the templating, right?
+[01:42:29] [1] Because there is a clear syntax around these tag variables, around
+[01:42:36] [1] because, like, they all derive from each other. You know, like, the fact that you can have my let has a specific syntax.
+[01:42:44] [1] So we know that it could be stateful. And Marco's compiler walks through
+[01:42:50] [1] files into other files, cross modules boundaries to figure out that.
+[01:42:56] [3] That's definitely something that's probably the most unique thing about the Marco compiler itself.
+[01:43:02] [3] I'm not aware of another framework compiler that is actually going across templates and, like, being like, OK, how is my child set up?
+[01:43:11] [3] OK, if my child is this, then I'm going to merge stuff. And, like, you know, we're actually looking across templates to produce more.
+[01:43:17] [2] Right, TypeScript looks across templates. But it actually doesn't change any of the, like, compiled code with the knowledge that it gains from that.
+[01:43:27] [3] Yeah. Like, just as an example, you know, Marco so if you're this apply color thing, so we're receiving a color attribute.
+[01:43:34] [3] The parent component needs to know that this thing receives a color attribute and that it's called apply color, right?
+[01:43:42] [3] If this thing didn't receive a color attribute, say it received no attributes, the parent would just not even call that function.
+[01:43:48] [3] It knows that the, you know, the child component has nothing to do with it. So yeah,
+[01:43:55] [3] the parent needs to also, like, there's also stuff around, like, scope merging and the data serialization that
+[01:44:02] [3] requires a little bit of analysis across components. But that's getting into the technical.
+[01:44:06] [3] And, like, ultimately, it doesn't really matter. Like, for the most part, all we want to do is guarantee that we're only sending code that is necessary for the browser.
+[01:44:18] [3] And we want you to be able to write in this nice language and not really look under the hood, right?
+[01:44:22] [3] Because in Marco 4 and 5 right now, we have a tags API preview that allows you to use, like, all the same syntax.
+[01:44:28] [3] It doesn't have the same performance characteristics. But, you know, you're able to not even think about how it's working under the hood.
+[01:44:35] [3] And that's part of the benefit of it being a language as well, right? Like, we get to optimize things for you.
+[01:44:43] [3] Yeah, so in general,
+[01:44:46] [3] like, you probably like, maybe in the future, we come up with something that's, like, 10% smaller.
+[01:44:51] [3] And it's, like, totally different or something like that. This seems like a pretty like, we're getting pretty close to the metal at this point.
+[01:44:56] [3] Like, where's the Reactive runtime here?
+[01:45:00] [3] There's a queue function that's imported.
+[01:45:02] [1] Yeah, yeah. So you guys aren't like, there isn't a Reactive the Reactive system is actually compiled a way that's worth pointing out.
+[01:45:09] [1] Even though the language is Reactive, when you see the language Reactivity, our knowledge of signals and effects and derivations, even though it's there, this like Svelte kind of compiles it away, not even into primitiv
+[01:45:25] [1] es, but literally topologically sorted functions that have dirty checking wrappers around it.
+[01:45:31] [1] If you notice in the template, there's some ifs. And that's what's going on. When it's, like, write, it's like if write.
+[01:45:38] [1] It's just saying, like, did this change, right?
+[01:45:42] [3] Yeah. I think this is a key differentiator from Svelte. Maybe I missed what you were just saying.
+[01:45:45] [3] But, like, essentially, you know, Svelte has this function of all your stuff with a whole bunch of dirty checks in it, right?
+[01:45:51] [3] Marco breaks up those functions into, you know, as many as are needed to describe the dependency graph with a single dirty check in each one, right?
+[01:46:01] [2] Yes.
+[01:46:02] [1] It's fine-grained.
+[01:46:03] [3] Yeah.
+[01:46:05] [3] Yeah, I think you said at one point what was it? Like,
+[01:46:10] [3] Svelte is like if you took a compile time React. And Marco 6 is like if you took a compile time solid, basically, right?
+[01:46:18] [1] Yeah.
+[01:46:20] [3] Yeah, so and the bundle size, I mean, we haven't
+[01:46:24] [3] mentioned it on stream. I don't know if we've even shared it publicly. But, like, right now, it's sitting around 5 KB all in.
+[01:46:33] [3] And that
+[01:46:35] [3] 's a little large compared to, like, React or something like that. But, I mean, that's literally all in with all of the features.
+[01:46:45] [1] Yeah, because if you use Preact with hooks, it's about 4.3 kilobytes. So you're not too far off that.
+[01:46:52] [1] Svelte is sitting at 2 kilobytes. But the thing is, you know, the component scale is a whole other conversation to how big it is.
+[01:46:59] [3] Right. And that's honestly, like, the 5 KB Marco right now is, like, 16 KB or something like that.
+[01:47:04] [3] Like, that's not really been our focus as far as how can we get this runtime small.
+[01:47:08] [3] It's because we have this giant other problem over here of all of the code that you're bringing into your application in general, right?
+[01:47:14] [3] Like, that's where we're going to save hundreds of kilobytes of JavaScript. And this yeah, the scaling and the way you look at the JavaScript bundle size, yeah, it's a completely different scenario when you're looking at
+[01:47:26] [3] things from this way.
+[01:47:27] [1] Yeah.
+[01:47:30] [2] Yeah, I think having these two values that intertwine might be helpful to look at
+[01:47:37] [2] as well if we want to do that real quick.
+[01:47:40] [1] Very cool.
+[01:47:40] [2] So
+[01:47:43] [2] we've got the initial values coming in and apply. But what you'll notice is that apply count and apply multiplier both queue this apply with count and multiplier.
+[01:47:54] [2] And that function is
+[01:47:59] [2] what actually updates this text node. So you can get here from both apply count and apply multiplier.
+[01:48:08] [2] And yeah, I mean, this is just, like, what you expect from fine-grained Reactivity, right?
+[01:48:13] [2] But, like, if you change count and you don't change multiplier, then just the count stuff runs.
+[01:48:20] [2] And then it calls this function and updates this. But apply multiplier never has to be called, right?
+[01:48:29] [2] And so this queue function is kind of the, like, we said, the only piece of the runtime that ensures
+[01:48:38] [2] and you see, it's actually got a queue priority here. And if we go to apply count, like, this also has a queue priority as its second argument.
+[01:48:48] [2] So, you know, this ensures that apply count is going to run before apply with count multiplier in case, like, both of these were to update at the same time.
+[01:49:01] [1] Yeah. Queueing is still important because it's like any kind of Reactive graph.
+[01:49:05] [1] At a certain point, you're going to have these diamond shapes and these, like, large, like, chains of derivations.
+[01:49:11] [1] And you want to make sure that everything runs in the right order and runs once.
+[01:49:16] [2] Right. And we went through a number of different scenarios. We're like, can we do this, you know, purely compile time?
+[01:49:24] [2] And it's like, for a lot of scenarios, yes, you can. But there's always cases that exist that, like, you have to do some kind of runtime sorting.
+[01:49:35] [2] So we do have, you know, that little bit
+[01:49:40] [2] of a priority queue in order to enable, like,
+[01:49:47] [2] cross-value, like, intersections.
+[01:49:52] [3] Yeah, we've got, like, a handful a big, big, actually a scooping handful of optimizations that we can apply on top of this model that we're going to be tackling and getting rid of queues in some cases and merging things
+[01:50:06] [3] such that the execution order is defined within the actual compiled functions is one of those.
+[01:50:11] [3] It's just not something we've tackled yet because we're trying to flush out, like, the base case unoptimized, which is kind of funny because this whole thing is, like, already quite optimized.
+[01:50:22] [1] Do you want to actually share how we've been doing so far in the JS Framework Benchmark?
+[01:50:27] [3] Sure, if Michael has the.
+[01:50:29] [1] Do you have the results?
+[01:50:30] [2] Let's see. What port is this on? I think it might be running on port 8080 already.
+[01:50:34] [1] Like, still running from earlier? Yeah, because, I mean, we this is as we mentioned, we don't have multiple components.
+[01:50:43] [1] We haven't like, there's features missing. But we have enough features to make it to do MVC.
+[01:50:47] [1] And we have enough features to make the JS Framework Benchmark. And, you know, there's still room for optimization here.
+[01:50:53] [1] This is just really preliminary. You know, this is like.
+[01:50:56] [2] We're not happy about this.
+[01:50:58] [1] Yeah, we're not happy about select row. But no one's ever happy about select row unless their framework's named solid.
+[01:51:03] [1] So
+[01:51:06] [1] it uses Reactivity in a way that some people might consider cheating. But it's legit because it's not using the DOM.
+[01:51:14] [1] It is actually using the Reactive system. But.
+[01:51:17] [2] Right.
+[01:51:17] [3] Yeah, I want to be clear that there has been basically zero tuning of this as well.
+[01:51:24] [3] It's just like, yeah. So it's something that might go a little bit in either direction because we're not totally done either, like, with the feature set.
+[01:51:34] [3] Maybe there's something we find and we need to make performance slower. But we are trying to stick to, like, within this range.
+[01:51:40] [3] So.
+[01:51:41] [1] Yeah.
+[01:51:42] [3] And if you look at I don't we have the Marco 4 on here.
+[01:51:45] [1] You can see one of the benefits of this approach. I always tell people that solid has one weakness.
+[01:51:50] [1] It's that the nodes require memory because of just, like, the Reactive system has a cost.
+[01:51:56] [1] And that's why if you look in the comparison to flirt, which is the code name for Marco 6, you can see that solid's clear rows is red compared to it because that is the one benchmark that I can't bring down.
+[01:52:09] [1] And this if you look at this, this overhead, because it's just vanilla, you've compiled out the Reactive system has basically the same clear rows or memory characteristics, very similar to Vanilla JS.
+[01:52:23] [1] It looks it's way better than any other framework in terms of clear rows and even makes solid look red in comparison.
+[01:52:31] [1] Other than that, it is significantly faster than pretty much most of the other ones here.
+[01:52:38] [1] Right now, it's sitting very similar to Inferno on performance. But we were kind of just grabbing some of the, like, the big ones.
+[01:52:44] [1] We actually grabbed this for a presentation the other day internally. And, you know, you can see the common players, like, let, svelte, view, preact, React, and old Marco.
+[01:52:53] [1] This is basically miles ahead. As I said, right now, we're sitting around Inferno level performance.
+[01:52:59] [1] And we're going to kind of figure out where we go from here. If you look at it, other than select rows is the only thing killing us here.
+[01:53:06] [1] The rest of the numbers are actually would stick other than select rows would stick flirt probably right up in the same range as solid.
+[01:53:15] [1] Like, if you look at the rest of the numbers, they are actually, like, almost identical, like, tiniest bit bigger on create, tiniest bit bigger on partial.
+[01:53:26] [1] Yeah, so my guess is this would go from a 115 down if the partial could, like, wasn't part of or select row wasn't part of the equation easily into the sub 1, the sub tens or whatever, you know, like.
+[01:53:38] [1] But yeah, we'll have to see what we can do with this approach.
+[01:53:41] [3] Yeah, but I think the, you know, the age-old, the fastest code is the code that never runs is the part that obviously we care a little bit more about and the aggressive tree shaking and all that stuff.
+[01:53:50] [3] We just don't want your JavaScript running in the browser. Like, if you have to hydrate 10,000 rows, you lost.
+[01:53:56] [1] Yeah, yeah. Like, this is the client side rendering. This is like, in ideal world, Marco isn't even going to be doing most of this work because it's a partially hydrated framework.
+[01:54:07] [1] This is like, this is just what happens when it happens to do the stateful stuff.
+[01:54:12] [1] So, you know,
+[01:54:14] [1] you know, this is pretty fast, you know?
+[01:54:17] [3] Yeah.
+[01:54:18] [3] You know, again, like, the idea is that we obviously want it to be fast and, like, within the ballpark of these things.
+[01:54:25] [3] But this is just, like, kind of a secondary benefit of the, you know, the way we're splitting stuff up and trying to make the components themselves small and tree shakable and all that stuff.
+[01:54:34] [3] It's just obviously, we care about the client side rendering performance. And, you know, maybe once we have everything else flushed out, we'll come back here.
+[01:54:42] [3] And I hope someday that we'll be able to, you know, knock solid off the throne.
+[01:54:47] [3] But it isn't really our focus.
+[01:54:49] [1] Yeah.
+[01:54:52] [3] I don't know.
+[01:54:55] [1] I don't know. Yeah, so this is just some client performance. I don't know if we want to demo on this.
+[01:54:58] [1] I want to talk a little bit about resumability. We introduced it at the beginning.
+[01:55:03] [1] But we haven't really impacted and talked about what that effect is on async data or, like, anything.
+[01:55:09] [3] Yeah.
+[01:55:10] [1] I want to talk about resumability and how it actually because it's not just about hydration.
+[01:55:16] [1] When we know what's on the server and what's on the client, it actually changes because the one thing that we haven't really highlighted here so much is we saw those lexical scopes arrays, right?
+[01:55:28] [1] When we were looking at it, like, all those read 1, read 2, read 3. And Qwik has a very similar mechanism too.
+[01:55:35] [1] That lets us hoist it, get rid of the closures, and keep break the event handlers apart from the rest of the running code.
+[01:55:43] [1] But it means that we serialize potentially. If we were naive and we thought everything could run in the browser, well, we've actually upped our serialization.
+[01:55:52] [1] We serialize everything aggressively. That actually makes our load larger potentially and our HTML even bigger.
+[01:55:58] [1] And that's actually really quite bad. Again, I could pull up that remix example where the data serialization is basically the crippling difference between remix and Marco.
+[01:56:08] [1] So I'm just kind of
+[01:56:12] [1] knowing what's on the server and what's on the client, how does that change the equation?
+[01:56:16] [3] Well, I think it's, you know, kind of like I was describing before. In an ideal world, you want to know exactly what's necessary to be serialized for the stuff that is going to run in the browser.
+[01:56:29] [3] OK, so then you have to walk back from that. What is the stuff that needs to run in the browser?
+[01:56:33] [3] And we've kind of solved that problem to these, you know, hydrate functions, right?
+[01:56:37] [3] And so we're able to look at just those hydrate functions. What are those? What do they use?
+[01:56:42] [3] Let's just serialize that,
+[01:56:46] [3] which means that anything that is used to initially render a template is never serialized.
+[01:56:53] [3] If you don't know that a template could re-render or something like that, if you're not doing this analysis, well, then, OK, maybe it could re-render.
+[01:57:02] [3] So you have to serialize its input or you have to serialize, you know, all the other things that you would need to serialize.
+[01:57:07] [3] So I think the only way you really get around that is by knowing, OK, this is the code that is going to execute in the browser.
+[01:57:14] [3] And this is, you know,
+[01:57:17] [3] and we have that. So.
+[01:57:19] [1] Yeah.
+[01:57:21] [3] I'm trying to think of I could go into other benefits to that. But as far as, like, the raw
+[01:57:25] [3] what needs to be serialized to continue in the browser, I think it does just come down to figure out what needs to run in the browser, these hydrate things that add event listeners.
+[01:57:34] [1] It's the things that need to run in effects and the things that need to run in event handlers, right?
+[01:57:39] [3] Right.
+[01:57:40] [1] Basically, you can load like, picture an example. You load a bunch of data on the server in the kind of server land where and then you go and render your page with this data.
+[01:57:52] [1] We that data could be a user with first name, last name, and an address or something, right, like, a bunch of information.
+[01:58:02] [1] And we could display all that information on the page about the user. But
+[01:58:08] [1] we also have this piece of information. We also only have one button on the page that lets you let's say it's your own profile.
+[01:58:16] [1] Let's pretend you can't edit everything. I don't know why you do this. But pretend you can just only edit the first name in this location.
+[01:58:24] [1] In that scenario, look, actually, no, that's not even a good one. A better example would be a list of users, like, a table of users where you have a for loop and you're basically showing a whole list of users.
+[01:58:36] [1] And pretend all you can do is change the first name of any user in that list. Even though we show all the users' data, because there's only an event or a click handler that interacts with that, you know, that, you know,
+[01:58:53] [1] person's first name, we can choose to only serialize the first name of every entry rather than serialize the whole list of data.
+[01:59:01] [1] And we know this because of the Reactive graph and how and where things are used.
+[01:59:06] [1] I don't know.
+[01:59:07] [2] And actually, actually, depending on how it's implemented, like, if you're just you could read that value from the, like, an input itself, right?
+[01:59:16] [2] Like, if you had server rendered and the editable input, you don't even need to serialize it in that case.
+[01:59:22] [3] Yeah. It's like you read stuff from scope.
+[01:59:24] [2] That's kind of messing up your.
+[01:59:26] [3] Yeah.
+[01:59:27] [2] That's kind of messing up your example. But.
+[01:59:29] [1] Yeah, but what I'm trying to say is it's not as simple as, like, all or nothing.
+[01:59:34] [3] Right. Right.
+[01:59:35] [1] Like, it's not like if you load a list of users and you need some data from those users, you're not just, like you're not just, like, in this, like, condition where you're like, oh, well, now I need these users.
+[01:59:47] [1] It's like literally Marco will automatically figure out which fields within that nested data need to be serialized simply from the usage.
+[01:59:56] [1] They won't send the whole user. It will only send the pieces. And you might be like, well, is that unsafe?
+[02:00:00] [1] What if the view changes to depend on that data or whatever? But it's all Reactive stateful graphs.
+[02:00:06] [1] And because you know that data is fetched outside, like, in the non-state area, like, in the server area, you know that nothing on the client could cause it to render again, like, to cause it to fetch again.
+[02:00:18] [1] So.
+[02:00:19] [2] And actually, even in the case that you could say that async fetching is something that could it's driven by a piece of state, right?
+[02:00:30] [2] Even in that case, we don't need to send it down except for where it's actually needed because what's presumably going to happen, you know, say this is all from a fetch call, right?
+[02:00:45] [2] You've got this piece of state that's, like, maybe it's a call to, like, a get user API in this instance.
+[02:00:55] [2] So when the state changes, we go make a call to that API, and we get a whole new user object, right?
+[02:01:05] [2] And so we didn't need the old user object in the browser. And we would actually it depended on how you're using it, right?
+[02:01:15] [2] Maybe we need parts of the old user object because you can, you know, do certain things with it.
+[02:01:23] [2] Maybe there's an effect that, like, logs the name.
+[02:01:26] [3] I think maybe an example would be, like.
+[02:01:28] [2] Maybe it could be sent down.
+[02:01:30] [3] If you're doing this, like, hit on the database and you didn't need to serialize any of the additional data, you're just sending in new data that's from the form, presumably, you still need, like, the user ID or something
+[02:01:39] [3] like that to actually do the fetch request to that specific user. And so that user ID is probably going to be read in your effect that does the fetch, right?
+[02:01:46] [3] And so that's what Marco is going to serialize but nothing about the user necessarily.
+[02:01:49] [3] It's just totally what you're using in the effects and event handlers. Yeah, and so I think along the same vein, I mean, it's interesting that Marco is serializing things, hopefully, the minimal amount compared to other
+[02:02:05] [3] frameworks. I think we're definitely approaching that. And it automatically dedupes stuff and whatever.
+[02:02:09] [3] But there is a developer experience side of this as well, like most kind of performance things.
+[02:02:15] [3] But so, like, you know, we said at the beginning sort of Marco's promise in Marco 6 is that we would only render your component once, be it on the server or in the browser.
+[02:02:27] [3] And that actually is huge because there's a number of cases where if you have a framework that does this, like, restart/rerender style hydration that you don't actually want to redo work.
+[02:02:40] [3] Like, sometimes it feels really bad. If you're doing, like, an async task on the server, like, say you're doing that fetch on the server, OK, well, you probably don't want to redo the fetch when you client side render, right
+[02:02:51] [3] ? So, OK, now you've got to build a cache. And you've got to serialize this cache and, like, all that stuff.
+[02:02:54] [3] But you just don't have to think about that with Marco 6, right? Like, you're able to just do the fetch.
+[02:02:58] [3] The server did the work. OK, we serialize anything that's necessary in these event handlers and effects.
+[02:03:04] [3] If the state changed and caused that fetch to happen again, OK, now we're doing the fetch in the browser.
+[02:03:08] [3] But, like, for that hydration process, it just doesn't do it again, right?
+[02:03:11] [1] Right, because yeah, because essentially, if you view that async data as, like,
+[02:03:19] [1] an async memo or computation or whatever, like, if you view it as some kind of derived state, so, like, you're fetching users by ID.
+[02:03:28] [1] And essentially, whenever the ID changes, then you fetch the user.
+[02:03:34] [3] Right.
+[02:03:36] [1] If Marco does that work on the server and gets the user and finishes that and renders it in, we know because we don't rerun any
+[02:03:48] [1] derivations on the, you know, like, any of these kind of computations on the client, we're safe.
+[02:03:53] [1] We know that we don't like, it's not going to rerun, right? I'm just reiterating what you're saying again.
+[02:03:58] [1] I just want to use the Reactive terms because simply, the fact is it looks at where we use it.
+[02:04:05] [1] So grab the couple of fields that are used, you know, in the effects. But its default because it's not in that hydrate function is not to run it again, which, yeah, as I'm just.
+[02:04:17] [3] Yeah, like a whole level of things and caching and serialization and, like, query-related stuff becomes so much simpler.
+[02:04:26] [3] It's and in general, like, those kinds of things you want to be doing on the server anyways and not repeating the work.
+[02:04:32] [3] And so you're going to end up serializing it in some way.
+[02:04:36] [3] Yeah, so it ends up just, like, eliminating a class of problems.
+[02:04:39] [1] Right, like, all the, like, special kind of query libraries, you know, that have kind of sprung out on the single-page app side where they're, like, doing SWR and, like, doing all these, like, Apollo and, like, a lot of
+[02:04:51] [1] those kind of things where the whole way the trick they have to do is when you do that initial run, you load all the data from the server into, you know, this cache on the client so that when the client replays it and do
+[02:05:05] [1] es it, it goes, oh, I don't have to hit the server again. I've already got it in the cache.
+[02:05:10] [1] And that's the process. And it's actually a pain in the ass for streaming. I mean, this is what I hit when I was working on GraphQL for Marco because everyone assumed, like, picture it.
+[02:05:18] [1] If you're sending the page in chunks and you're doing the query in, you know, queries in chunks on, like, different queries on your page, and the first section finishes, you know, like, that async fragment or suspense bo
+[02:05:30] [1] undary depending on what your viewpoint is, finishes. And
+[02:05:35] [1] you can send its data, but maybe something else hasn't finished yet. And almost all the existing solutions assume that the server's done serializes all the data into the page and that all that data is present before the
+[02:05:46] [1] client can start hydrating. And they build these whole libraries around this. Whereas what's cool about the Marco 6 approach is that part is just abstracted right out.
+[02:05:56] [1] You don't care. You just do the fetch. You don't have to let Urkel or something necessarily, like, do the serialization, especially if it's something in the server side where you're not, like, triggering the cache.
+[02:06:07] [1] But, like, essentially, what ends up happening is it just serializes Marco automatically serializes only the fields you use and what you actually need.
+[02:06:15] [1] And then it does it piecewise because it's built right into the system. You don't have to worry about these weird cache inconsistencies.
+[02:06:23] [1] It's just how it works.
+[02:06:24] [3] Right, right. Yeah, and that's key. Like, if you're doing a request with SWR, anything like that, and it's getting serialized, you have to serialize all of it because you are running all of it again in the browser.
+[02:06:35] [3] We aren't, right? And we're only attaching the stuff that is actually necessary to hydrate the page.
+[02:06:41] [3] And so we serialize what's necessary for those things and nothing more automatically, right?
+[02:06:47] [3] So it ends up serializing less, and it's automated. And you don't need these, like, crazy wrapping libraries that are doing weird things, especially, like, once React starts and some of these solutions start actually support
+[02:06:59] [3] ing streaming, they're going to hit so many roadblocks and issues. Like, it's a different challenge when you're trying to stream stuff out and also create this, like, buffered cache things that we can replace stuff back when
+[02:07:12] [3] it, like, gets to the browser and this async yeah. Anyway, so that's going to be an interesting challenge for the React ecosystem.
+[02:07:18] [1] Yeah, I mean, yeah, I mean, this is one of the interesting things here is because these pieces all start playing nicely together when you start realizing it because that knowledge for partial hydration and, you know, red
+[02:07:29] [1] uces the serialization costs, and this resumability reduces the caching. And suddenly, you're just pulling all the stuff out of the browser, which is de facto what you think you need for a single-page app.
+[02:07:40] [1] Like, when you come in and you're like, I need these libraries. And it's like, no, maybe you don't need these libraries because these just aren't even problems.
+[02:07:49] [1] And there's this sort of kind of simplification here in terms of the model there.
+[02:07:55] [1] But obviously, this is something that we enjoy because we're working here on a multi-page app.
+[02:07:59] [1] And we know, you know, I think Ryan threw it up here at one point. MPA would limit the lifetime of the components before the server would be involved again.
+[02:08:07] [1] So essentially, we just know that this stuff will never be rendered again. So, like, we can just optimize a way because we know on the next page load, well, we're starting from scratch again.
+[02:08:18] [1] And just that whole class of libraries, you know, suddenly go away. Like, Remix has been enjoying playing this game on a very light level in that they've been like, oh, look, you know, you move everything to the server.
+[02:08:28] [1] Suddenly, you remove a whole class of libraries you need to use. But the Remix story isn't the complete story because it's still assuming that everything renders the client.
+[02:08:39] [1] So there's still this song and a dance. They've solved the fetching problem. Like, the loading problem, for the most part, other than the serialization and the double data problem, which, again, is why Marco and those ex
+[02:08:49] [1] amples look good, but they've got rid of the waterfalls. But they haven't, like, for mutations, it's not like that because, like, if you mutate and then you redirect to a new location, like, you play you do this kind of in
+[02:09:01] [1] single-page apps, you do this kind of dance where you do the mutation, and then you get the result back.
+[02:09:05] [1] And then you migrate to the new place. And then you fetch the data for the new location.
+[02:09:09] [1] And then you get the result. Whereas with an MPA mentality, we are not playing around, like, updating the caches and kind of doing this dance.
+[02:09:17] [1] You just go mutate, server respond with a new location. You just you've cut out the middleman.
+[02:09:22] [1] And that's really what's kind of powerful in terms of simplifying the model. And I think this kind of ties int
+[02:09:32] [1] o, you know, other frameworks, like Astro have kind of come in and Slinkity. And they're kind of enjoying this on the static side, but they're only just getting into the dynamic parts.
+[02:09:40] [1] They haven't got to the point where they're leveraging stuff like streaming or to kind of leverage these other aspects of things.
+[02:09:48] [1] And I think it's interesting because React is actively looking into this. Like, if you've ever seen React server components, hopefully saw it on my stream maybe, it's very similar to the Marco 4 or Marco 5 mentality of how
+[02:10:02] [1] things work. It's like, it's actually a lot like Astro. People think at first that, oh, React server components is about rendering some components on the server.
+[02:10:11] [1] It's not. It's actually a complete architectural change that resembles Islands architecture, except they have a smart-ish way of rerendering the server portions.
+[02:10:22] [1] But you still route full pages. And then they, you know, do, like, the work on the server and kind of ship it back as if it's an MPA.
+[02:10:33] [1] It's just the client's smart enough not to unload the state and do some smart diffing there.
+[02:10:37] [1] And to be fair, React's looking at ways to make it not full page anyways.
+[02:10:42] [1] So it is definitely one of those things where good work is being done in this space.
+[02:10:51] [1] And but it's interesting for me mostly is because Quick and Marco are kind of like, that's not good enough.
+[02:11:00] [1] Like, we want to go beyond Marco 4 or Astro or React server components. And at first, this seems like just an optimization.
+[02:11:08] [1] But I hope from the conversation and what we've covered here, you can kind of see that this is actually a DX win because you're not going, like, dot server or dot Astro all over the place.
+[02:11:18] [1] And hopefully, you can see that it's a performance win because of the granularity of the change.
+[02:11:23] [1] And basically, and it saves on deserialization. It literally saves on every single aspect.
+[02:11:29] [1] I wrote an article a while ago about the challenges of hydration. And, you know, and it boiling down to, like, this duplication.
+[02:11:36] [1] Like, you're duplicating either view code or, sorry, you're duplicating either data or you're duplicating, like, the view code essentially, right?
+[02:11:45] [1] Like, either you're shipping your components and your HTML, and you're duplicating your data and the data serialized into that HTML.
+[02:11:53] [1] And Marco's approach here is removing that duplication across the board in a way that's performant on the client and the server.
+[02:12:00] [1] So it's very powerful. But we're still an MPA, right? So we're still, you know, some people are like, well, you know, that's, you know, my app is more interactive.
+[02:12:11] [1] I want those client-side transitions. And I think what's interesting about what we're doing here is it's opening up the ability for us to kind of look beyond the MPAs of today.
+[02:12:25] [1] And I want to I think maybe it's time we actually talk a bit about this because I know we've been talking about Marco 6.
+[02:12:31] [1] And if people have any questions about Marco 6, maybe now's a good time to kind of throw them in the chat because otherwise, I want to move on to talking about some more interesting stuff because I think Marco 6, even th
+[02:12:42] [1] ough it's the realization of work that's been going on for a couple of years now and even longer when I look at some of the articles that where Michael was, like, hinting at Reactivity in, like, with observables, like, back
+[02:12:55] [1] in 2018, like, back around the hooks were announced and stuff, even though this has been, like, you know, three, maybe three, four years in the making in terms of getting to this point, it's still a bridge to where we're
+[02:13:09] [1] heading. And I think we should talk about that because I think that vision is really powerful because, sure, Marco seems really good for its use cases.
+[02:13:18] [1] You build e-commerce. I mean, it's a no-brainer. But can Marco be the framework for the future?
+[02:13:24] [1] And I think the answer for that could definitely be yes. But we should talk about it and kind of share some of our ideas, I think.
+[02:13:31] [1] And also, as I said, anyone got any more questions in the chat, feel free to fire th
+[02:13:37] [1] em. But yeah, let's launch into this because we talked a bit about Remix, and we talked about routing, and we talked about React server components.
+[02:13:44] [1] Should we just dive right in?
+[02:13:47] [2] So we talked a little bit about how we're serializing the hydration data. Do we want to look at maybe just a simple example, like the counter example that we have in the repo just to see what that hydration data
+[02:14:05] [2] looks like?
+[02:14:06] [3] If people are interested, I would say yeah. But at the same time, it's, like, kind of it's a serialization format.
+[02:14:12] [3] And it's based off of these scopes and what you're analyzing. Like, you know, so it is kind of an implementation detail.
+[02:14:18] [3] We do think it's a pretty interesting.
+[02:14:19] [2] I think it's helpful, yeah, well, because the terms were kind of.
+[02:14:23] [3] It might be helpful to show the full vision. Yeah, so maybe have it ready to go.
+[02:14:27] [3] But I think we should ease ourselves into this a little bit.
+[02:14:30] [2] OK.
+[02:14:32] [3] So, like, to me, looking at Marco, it's always how can you strike the balance between the MPA performance and the, you know, the DX of what is now mostly Spa applications?
+[02:14:47] [3] And it's tricky. And with Marco 4, you know, I think it kind of leaned more on the DX of trying to make it so that you could write components that did client-side rendering with partial hydration.
+[02:14:57] [3] But it wasn't necessarily as performance as you could get an MPA, right? And so I think with
+[02:15:05] [3] Marco 6, we've really gotten pretty darn close to, yeah, this is nearing
+[02:15:13] [3] peak MPA performance with those interactive updates where you define a let. Like, essentially, where you define your state determines how much code gets sent to the browser, which is pretty great.
+[02:15:23] [3] But I mean, on the DX side, going back to DX, it's like, what are we missing from Spa's?
+[02:15:29] [3] Like, Ryan said, you want to be able to add an animation when you're transitioning pages.
+[02:15:33] [3] Or you just want to be able to preserve state when you're transitioning pages. Like, you know, you've got a video player, and you want it to continue playing when you go to the next page.
+[02:15:40] [3] Like, things like that are not possible with an MPA. And that's not great. You can build a Spa with Marco.
+[02:15:46] [3] And, you know, that's fine. Like, especially with Marco 6, it's going to have good performance characteristics, a good API, and all that stuff.
+[02:15:52] [3] You could build a Spa with it, but you're going to lose all of that resumability from the server and the tree shaking and all that stuff because you're going to need everything, right?
+[02:16:01] [3] And so this is our question is, how do we maintain the performance characteristics that we want while also giving that last little bit, the Spa-like behavior, and also not making it so that you have to, like, jump through
+[02:16:16] [3] hoops and feel like you're in a completely different world? And, like, this is a frame over here.
+[02:16:20] [3] That's HTML. And it, like, kind of doesn't stay in sync and, like, all that stuff.
+[02:16:22] [3] We want to have an actual solution. So that's what we've been thinking about really for years.
+[02:16:28] [3] And we think we're with the current implementation of Marco 6, we think we're on a track to get there.
+[02:16:35] [3] So yes, Ryan, what do you think is
+[02:16:40] [3] the first step in describing this future?
+[02:16:44] [1] Yeah, I mean, it's interesting because
+[02:16:49] [1] the problem
+[02:16:51] [1] well, I mean, it starts with routing. I think that is the key part there. How that routing works is complicated.
+[02:16:59] [1] And that's why Dylan's asking this question because there's a lot of elements to it.
+[02:17:04] [1] But we need a new type of router or a new type of routing.
+[02:17:07] [3] Yeah, maybe it's important to think of, like, why this starts with routing.
+[02:17:12] [3] And it's because the main thing that we're missing right now from Marco with MPA is, how do you persist state across pages, right?
+[02:17:23] [3] And if it's across pages or sections of pages, what is doing that transition, right?
+[02:17:27] [3] It's a router that's in front of that that knows that it's changed. So I think one key is that we want to, again, avoid sending everything to the browser.
+[02:17:39] [3] OK, so we want to have the server involved to some extent. And certainly, we probably don't want to send a router to the browser.
+[02:17:48] [3] Like, routers typically end up being quite a bit of
+[02:17:52] [3] code anyways. Like, you've got all your routes and how to load all these things.
+[02:17:55] [3] Like, we don't want that. We don't want to have it like, you start with Marco, and, you know, it's resumable.
+[02:18:00] [3] And then later, we download your Spa. That's not what we want, right? What we want is to have a router that lives on the server that is smart enough to give us an update that can be streamed in and preserves as much state
+[02:18:14] [3] as possible.
+[02:18:17] [3] So I could get into the details of sort of what we're imagining that looks like.
+[02:18:25] [3] Questions are also obviously welcome at any point in time. And I don't know if I should I just drive this, like, from start to finish?
+[02:18:32] [3] Or how do you want to do this, Ryan?
+[02:18:34] [1] It's fine. You can keep on talking. I'm trying to pull some stuff up in the background that'll help you with your explanation.
+[02:18:40] [1] But yeah, just.
+[02:18:41] [3] Yeah, I think showing what Michael was talking about earlier with what our scopes look like might help.
+[02:18:47] [3] But so essentially, the core idea is this. We've got a page. We've described how you can do the optimal, you know, add the hydration to the page.
+[02:19:00] [3] OK, so what happens when we go to another page?
+[02:19:04] [3] Well, if it's a brand new page full with, like, totally different content and components, it's actually going to be faster to just send the new HTML for the page and stream that in.
+[02:19:14] [3] But
+[02:19:17] [3] the case that you actually care about is when there is stuff that is similar. So imagine that we've got a router that looks kind of similar to what a Spa-like router has today, a nested router, where you've got this top
+[02:19:30] [3] -level, you know, page that has some content that's persisted across different views.
+[02:19:37] [3] Like, you know, it's got this side nav. And this is the example Ryan's showing is from Remix, which illustrates, you know, nested routing quite well.
+[02:19:44] [3] But I think looking at this from a nested router makes a lot of sense. So let's just imagine, OK, we've got this top-level page that has a router inside of it.
+[02:19:52] [3] And it's got, you know, in the outer shell of the router, it's got this nav. And then there's an inner shell one level deep that has a different nav in this case.
+[02:20:01] [3] And then there's some other another shell inside there. OK, so now let's take this as the starting point.
+[02:20:09] [3] OK, so what happens if we navigate to, you know, from sales to expenses in this case?
+[02:20:16] [3] What do we want to persist on the page? We need we want that left side nav to persist.
+[02:20:21] [3] But we're going to an entirely different component when we go to the expenses page.
+[02:20:26] [3] So what we actually want is the server to stream us the new HTML for the expenses page.
+[02:20:31] [3] OK, so.
+[02:20:32] [1] And just pause for.
+[02:20:33] [3] Yeah, yeah, yeah.
+[02:20:34] [1] The reason we want that, just to be absolutely clear, and this is something that Mishko was in complete agreement with, even if you can progressively load, is that we don't want to suddenly have to load all the JavaScri
+[02:20:47] [1] pt to render said page. When you're in a single-page app and you go to there, you need to load the whole thing.
+[02:20:54] [1] Like, it's just necessary. Whereas we want to keep our partial hydration. We want to only load we want the HTML, obviously, for the whole section.
+[02:21:04] [1] But then we only want to load the JavaScript that you can interact with. Maybe it's only maybe there's only, like, a couple of things on this page you can actually do.
+[02:21:10] [1] Like, this page looks like it has almost no interactivity that I'm looking at here on the sales page.
+[02:21:15] [1] Like, what can you do here? Like, you don't want to send all the JavaScript to render this, where any client-side single-page app, that would be exactly what you're doing.
+[02:21:24] [1] OK, sorry.
+[02:21:24] [3] Right. Yeah, so I mean, continuing, essentially, you know, if you're navigating to what is entirely new components, it is going to be more efficient to leave as much on the server as possible and just get the new HTML for
+[02:21:37] [3] those sections. And in a lot of ways, it's like, oh. Are we talking about, like, iframes and nested iframes?
+[02:21:44] [3] But no, there's the other piece of this. And this is the piece that's actually challenging because you could do what I just described, like swapping out the HTML for these nested sections using something like TurboLynx or
+[02:21:53] [3] whatever, where it's just, you know, there's a server, and you get some HTML, and you put it there.
+[02:21:56] [3] But, like, nothing's actually in sync, and there's weird DX and, like, all that stuff.
+[02:21:59] [3] But what about the part that actually persists? That's the interesting part. How can we know in this case, in the top level, I'm assuming, when you navigate from sales to expenses, it's going to change what's actually sel
+[02:22:11] [3] ected there, right? Maybe that's rendered on the server. And we're saying when we hit this page, what we actually want is the if it's a new nested route, we're going to get the HTML for that.
+[02:22:22] [3] If it's an existing route higher up in the tree, what we actually want is the server to give us essentially just
+[02:22:33] [3] the values of everything that's in the scope that should update, which is where going into Michael's thing might make more sense.
+[02:22:42] [3] But in essence, what you actually want is there's going to be, like, a class on sales and, you know, on these LIs.
+[02:22:51] [3] And that class is going to be tied to something that the server is aware of. Like, the server is going to know that this is a server-only component, and I can render this class using, like, the apply-like mechanism.
+[02:23:08] [3] And essentially, what we want is when we ask the server for the new page, OK, we knew we were on this page already.
+[02:23:15] [3] Ideally, just tell me that that class changed. And so that's kind of what we're going through.
+[02:23:20] [3] Do you want to take it over, Michael?
+[02:23:23] [2] I sent it to Ryan, so he's got it pulled up there.
+[02:23:26] [3] OK.
+[02:23:27] [1] Talk about this. This is the scope.
+[02:23:30] [3] Yeah.
+[02:23:33] [3] So I mean, again, this data format probably doesn't make tons of sense. But, like, there's a scope.
+[02:23:40] [3] There's a whole bunch of stuff that's unnecessary in the scope. That's why we have a sparse array here.
+[02:23:45] [3] So the Marco compiler figures out what's necessary to go into these scopes. But the key is that if you opt into this router, it's going to mark things that are what Michael called inert.
+[02:24:00] [3] So dynamic on the server but
+[02:24:05] [3] stateless. It's going to mark those with something that says, OK, you can update this at a specific scope.
+[02:24:12] [3] If you give me a scope in the runtime, we can go and just update that property directly.
+[02:24:17] [3] So in this case.
+[02:24:19] [1] You use the reactive graph again.
+[02:24:21] [3] Yes, yes. So essentially, on the server, we know the reactive graph of all of the things that couldn't change in the client but can change on the server.
+[02:24:31] [3] And so what we are going to do is send back a response format for subsequent requests that essentially is, OK, what are the reactive graph pinpoint updates for the stuff that was persisted across the pages?
+[02:24:46] [3] And stream me the HTML for any new nested routers that were swapped out. And
+[02:24:53] [3] in general, we believe that's going to be, like, the best of both worlds kind of thing.
+[02:24:56] [3] Because, you know, if you want to have an experience where you've got something like this video player, just move it up higher in the route hierarchy like you would do in a Spa, the authoring experience is going to be ver
+[02:25:07] [3] y, very close, if not identical, to a Spa. But now you don't need to ship the router to the browser.
+[02:25:14] [3] You don't need to ship any of these nested routes to the browser to render, like, holistically.
+[02:25:22] [3] Each of these nested routes actually becomes their own little hydration bubble where we can do this partial hydration stuff, right?
+[02:25:29] [3] Like, we tree shake the top thing. We tree shake the sales section. We tree shake this invoices section.
+[02:25:38] [3] So, like, all across the board, we're essentially saying, let's do as much work on the server as possible when we navigate.
+[02:25:44] [3] But if there's something that was already in the browser, we'll just update it for you.
+[02:25:48] [1] Yeah, so just so the visualizer because this issue or sort of this example from Remix is really awkward because they show you how they dynamically import the JS and fetch the data at the exact same time.
+[02:26:00] [1] This is not what we were talking about here. What would happen in these sort of navigations and I guess I should go back to this one is, like, the same response, you know, in a streamed format maybe, you know, where there
+[02:26:17] [1] 's a bunch of keys and values would be able to pass in JSON sorry, data and pass in HTML as needed.
+[02:26:27] [1] And essentially, because we know our location and we know where we're going to and we have some data that we can send on the initial request, we can, you know, send maybe a bit of extra data on our request to the server
+[02:26:40] [1] . And it can basically do the diff for us on the server and then return the chunks of data that need to be updated.
+[02:26:50] [1] And it's just like, OK, slot that into the reactive graph and do all the fine-grained updates, essentially, is the gist of it.
+[02:26:57] [1] So this isn't zero kilobyte components necessarily. Like, it's not like because now suddenly, because this sales highlight can change in the browser, this is no longer a zero kilobyte component.
+[02:27:12] [1] But it needs literally just the code to update the one field. So while this is technically heavier, perhaps, than a pure MPA in the slightest sense on the component scale side, what you're actually talking about here is
+[02:27:30] [1] very most of the savings still completely persisting and most of the work being done on the server, even the diff.
+[02:27:39] [1] So you don't need the full React runtime or the extra. Like, I think we were playing with the React server components demo, and we saw that it was React plus an extra 10k.
+[02:27:48] [1] This probably requires, like, I don't know how big, but my guess is, like, a 2 kilobyte maybe,
+[02:27:59] [1] like.
+[02:27:59] [3] Yeah.
+[02:27:59] [1] Like, a little bit of extra code on top of what maybe Marco's 4 kilobyte, depending what features you use, like, runtime.
+[02:28:07] [1] Like, we're talking
+[02:28:10] [1] sub 10 kilobytes. And then the components are still going to only be shipped mostly, like, based on interactivity.
+[02:28:17] [1] Like, it's not any components anymore. It's sub-grain. So we're talking, like, we're talking about the smallest amount of cost in the browser while being able to keep
+[02:28:27] [1] this single-page, like, persistence and navigation and transitions.
+[02:28:32] [3] Yeah.
+[02:28:32] [2] Right. And I think it's probably clear from what you're saying here. But, like, if for, like, updating this sales to expenses or something, like, what we're going to send is, like, that final class value that needs to be
+[02:28:49] [2] updated there. Like, maybe for some reason you decided to use, like, loDash to figure out, like, which classes need to apply.
+[02:28:57] [2] Like, none of the it's just those final, like, end values that need to be reflected in the DOM that are going to actually be serialized across the wire for these.
+[02:29:07] [3] Right. Because yeah, because there's two types of updates that you can get from a server on a section that is persisted across navigations.
+[02:29:17] [3] One is stuff for stuff that was actually rendered on the server. And for those, we would send updates that's just like, OK, walk to the like, where the sales is, basically, and update its class to this, right?
+[02:29:31] [3] Like, the upgrade or the update from the server would say that. Then the other piece is when you've got this, like, mix of client-side rendered stuff and basically some scope information that was only on the server.
+[02:29:42] [3] And so in that case, it would actually serialize and say, oh, we have an update to this scope that was sent to the browser.
+[02:29:49] [3] Like, maybe you have an effect that is
+[02:29:53] [3] well, what's a good example? Like, an effect that relies on some input that's only available from the server, like, maybe, you know, from the URL state or something like that.
+[02:30:06] [3] When you navigate, you actually want to have that effect re-execute, right?
+[02:30:11] [3] And so what would happen in that case is the server would be like, OK, I know that, you know, this section here depends on this scope index, and I serialize this value to this scope index.
+[02:30:25] [3] So I'll send this scope to the browser. And then when we receive that, we'll be like, oh, that scope changed.
+[02:30:30] [3] OK, fire the reactive graph to execute that effect ultimately again. And so, yeah, it's in a lot of ways, like, fine-grained updates over the wire with the assumption that if you're just building stuff from scratch, rece
+[02:30:46] [3] ive the raw HTML stream from the server. So.
+[02:30:51] [2] Yeah, and I mean, we have on the screen here this, like, import and fetch, right?
+[02:30:56] [2] Like, you said that's not what we're doing. But, like, there's a fetch call that needs to be happening here regardless, right?
+[02:31:05] [2] Because we're getting data from an API. What we're talking about is instead of sending that data back in the format that, like, the API chose to use and then having some JavaScript client-side to, like, get that into the
+[02:31:21] [2] UI that we actually want, just ask the server for the UI that we want, right?
+[02:31:28] [3] Right.
+[02:31:28] [2] And so the server takes on the brunt of that work. If you could cache that JSON data, you should be able to cache that HTML response as well, right?
+[02:31:38] [2] So.
+[02:31:39] [3] Yeah, I mean, to be clear, we're asking the server for two things. We're saying, give me new UI as HTML.
+[02:31:44] [3] Give me updates to old UI as this, like, scope object that knows how to propagate through the reactive system.
+[02:31:51] [1] Yeah.
+[02:31:55] [3] Yeah.
+[02:31:56] [2] Yeah.
+[02:31:57] [1] Should we show this for a moment? This is really cool.
+[02:31:59] [3] Yeah.
+[02:32:00] [1] Someone in our this is actually built on top of Solid Start as a quick demo. But it was Ryan's maybe still in the stream.
+[02:32:08] [1] He just told us to give us your secrets. But he's already aware of some of these secrets.
+[02:32:13] [1] And he was just
+[02:32:15] [1] he hasn't we haven't done the JSON part or the hydration part. But we were playing around with this idea of how to do nested routing on the server.
+[02:32:24] [1] As I said, this piece is fairly framework agnostic in understanding. I'm trying to I think it's easiest to see it here.
+[02:32:33] [1] But you can picture that there's this home component. And when we go to posts, you can see that it's just doing nested routing like you'd expect.
+[02:32:43] [1] And if we go to post number one, we're still nesting more stuff in here. And if I go post one comments, it's just changing the little bits that we need.
+[02:32:53] [1] This isn't the JSON changing. If we go to post two, then, you know, more, like, a bigger chunk of it changed.
+[02:32:59] [1] But, you know, this is just doing a really simple format. Let's see if I can I know I can't pretty-er this one.
+[02:33:05] [1] But essentially, you're just seeing the HTML being sent in kind of, like, a serialized format.
+[02:33:10] [1] So the server is actually rendering these portions of the page in a nested way.
+[02:33:15] [1] And then essentially, as we're navigating around here, it's actually the server that's rendering these.
+[02:33:21] [1] And if you want proof of this, and I was talking about size, like, let's just look at this quickly hobbled together example
+[02:33:31] [1] in terms of, like, JavaScript. Let's reload this page. See? I mean, this isn't hydrating.
+[02:33:38] [1] So if there's hydration code, you'd be in the code. This is 1.3 kilobytes. And as I'm moving around and stuff's updating, there's no more JavaScript being loaded here.
+[02:33:47] [1] Obviously, if we were partially hydrating, we would have to load a bit of JavaScript.
+[02:33:50] [1] But this is just showing that the actual routing mechanism and the rendering is just happening on the server.
+[02:33:57] [1] And this is clients this is, like, client routing. Like, we could do transitions and stuff.
+[02:34:02] [1] Like, this we're not redrawing the outer portions of the page. This root element here never gets redrawn even as we are going through here.
+[02:34:13] [1] And that's kind of a really powerful example in terms of understanding how you basically, you know, all you have to do is take I mean, this is the easy part of the equation, right?
+[02:34:26] [1] The more challenging part is updating the stuff outside of here. But you can kind of see that
+[02:34:33] [1] you've stopped it at zero. Like, you this is all the Java sorry, this was this is just the JavaScript that we have initially loaded here.
+[02:34:43] [1] Sorry, it's this one here. This is all the JavaScript that we needed to pull off this.
+[02:34:48] [1] We just need a little bit more JavaScript, obviously, like, the runtime to actually do the fine-grained updates.
+[02:34:53] [1] But you can see that you're kind of you're not taking that cost 100% for sure. Like, if you didn't go to a page, nothing interactive on it, and you didn't need to do partial hydration, well, you wouldn't load any more J
+[02:35:06] [1] avaScript there. But you would still seamlessly come in and out of that experience.
+[02:35:11] [1] And that's a huge, huge difference from how, like, static routes work today in Svelte or Remix because they're like, oh, yeah, or Next.
+[02:35:20] [1] They're like, OK, sure. You could make this page static. But then you're, like, basically opting into doing the full page reload to get into it and to do the full page reload to get out of it.
+[02:35:29] [1] Like, it's not
+[02:35:31] [1] you're suddenly in, like, temporary MPA mode. It's not this transition. It's binary.
+[02:35:36] [1] It's like no code. It's like no JS. It's moving the script tag or adding the script tag.
+[02:35:40] [1] And this is doing it, you know, incrementally as you need it. And this, as I said, this is part this nesting is part of the key here of not needing to, like it lets you reset where you're thinking.
+[02:35:55] [1] You're like, oh, we know everything below this part is rendered on the server. Generally, having Control Flow, like, switching sections of a page means that's stateful.
+[02:36:05] [1] And by using nested routing, we're kind of opting back into, like, no, this is on the server.
+[02:36:10] [1] And we get to kind of reset our islands. We get to start that again inside of, you know, another island, perhaps.
+[02:36:18] [3] Yeah, and I think the implications of it are actually pretty crazy. Like, essentially, with what we're planning, if you want to have something be client-rendered, you just use the let tag, right?
+[02:36:31] [3] Like, that's going to be a state that's going to bring in the hydration code that's going to do a client-side render.
+[02:36:35] [3] If you want something to render on the server, just don't use the let tag. Drive it through input.
+[02:36:39] [3] Drive it through the URL that you're going to get information about from the router, right?
+[02:36:44] [3] But it's you're not really going to be able to tell from the user's perspective what's rendering on the server, what's rendering in the browser.
+[02:36:51] [3] It's just up to you and how you want the code to
+[02:36:56] [3] execute.
+[02:36:56] [1] Yeah, it's really cool how automatic this is, right? Because one of the things that, you know, we've been noticing and, I mean, it's more obvious when we were talking about Marco earlier and talking about Marco's 6 API was
+[02:37:08] [1] that, like, essentially, like, there isn't, like, oh, no, you can't do render props.
+[02:37:14] [1] Or, oh, no, you need to mark this special thing. It's literally you just write the code the way like, there is nothing in any of the examples that we're doing on the user part where you're writing the code where you were
+[02:37:25] [1] worrying about the server-client thing. And sometimes today, Marco, four or five, we admit that's a trap because if you don't project data in the right way, you might be including too much on the browser and stuff.
+[02:37:36] [1] But with the smarts of Marco's 6's compiler and fine granularity, you can basically start your top-level page.
+[02:37:45] [1] And, like, you can't do this today in Marco. Today, if you put a class on the top-level page, it's like, well, that page must be rendered in the browser, and bad things happen because Marco assumes that the root is server
+[02:37:57] [1] component. But with Marco's 6, like, essentially, suddenly, you just start adding state because you want to or need to, and everything will just derive from there.
+[02:38:09] [1] I mean, to be fair with this routing paradigm, you probably have to be, like, a little bit wise.
+[02:38:14] [1] Like, you might have to be like, oh, OK, well, we're not going to introduce state here if we don't need it.
+[02:38:19] [1] We're just going to derive stuff off the URL or whatnot. But it is really cool that, like, there isn't.
+[02:38:27] [3] Yeah.
+[02:38:27] [1] No need for, like, these special kind of distinctions.
+[02:38:30] [3] Yeah, it's like, derive it from the URL, you're rendering on the server. Derive it from state, you're doing a client-side render.
+[02:38:35] [3] It's like that simple, right?
+[02:38:38] [2] Yeah, so
+[02:38:41] [2] to Ryan's point here,
+[02:38:45] [2] yeah, let's talk about the challenges with this approach because there's definitely some things that we need to figure out.
+[02:38:52] [2] I think there's two big challenges. Like, the route outlets and just sending the HTML and the hydration data for those pieces is, like, yeah,
+[02:39:05] [2] fairly straightforward. So there's the first piece that I think is kind of interesting
+[02:39:16] [2] is what Ryan's, you know, mentioning here about how do you update content that's already there.
+[02:39:23] [2] And we can come back to that in a second. And then the second piece that I think is also interesting and challenging is how do we say you have some component
+[02:39:38] [2] on the outside? So because routes are essentially, you know,
+[02:39:44] [2] an if statement, right?
+[02:39:48] [1] Or switch.
+[02:39:50] [2] Or switch, yeah. And so if you
+[02:39:56] [2] you can write the API in such a way that you can limit this. And actually, React server components is
+[02:40:04] [2] creating their API in such a way that this isn't something that you can do. But you may want to have a component
+[02:40:13] [2] or context, right, or something like that where you have some client-side state higher in the tree that then provides that data to something lower in the tree.
+[02:40:27] [2] So I guess React does actually have that with context.
+[02:40:33] [2] But so you need to wire that up such that components that already existed on the client can cause components that just recently hydrated from the server to update, right?
+[02:40:49] [2] So you've got that. And then also the how do you update these existing things that are already
+[02:40:57] [2] on the client? And
+[02:41:03] [2] we have some ideas,
+[02:41:06] [2] but I don't.
+[02:41:07] [3] Yeah, I mean, in general, we don't have any code written for this right now. But it's just, you know, since we like, the compiler does know this is a thing that is possible to change.
+[02:41:20] [3] Like, you know, in the template that was compiled, we know what's static, right?
+[02:41:23] [3] It gets hoisted out into that string. Beyond that, we know that things are dynamic, and they're either, like, dynamic in that they're derived from state, or they're something that could be rendered on the server.
+[02:41:33] [3] And we know where they slot in as well. And so at the very least, we already know when we re-render on the server a page or a section of the page that was there before, that we don't need all that static HTML again, right
+[02:41:51] [3] ? Like, we can at the very least just send, you know, this was the class that was dynamic for this node at index, whatever it was.
+[02:42:00] [3] So, I mean, that's one piece. And then the other piece, like I was saying before, is how do you get scope information into the JavaScript?
+[02:42:10] [3] And we've kind of already solved that too in that we have the scopes already outside of all of your code, and we can mutate them as we see fit and trigger things.
+[02:42:19] [3] So that piece has a vague solve as well. And then obviously, there's, like, the whole new page thing, which is the simple one, as you say.
+[02:42:31] [3] So in a sense, it all comes back to, oh, we've broken everything up such that we know that it's fine-grained and how, like, we've already, like, labeled all these things, and we can have markers on these things.
+[02:42:42] [3] And these markers can be rendered only on the servers, that we can watch them without sending the walks away.
+[02:42:46] [3] And there's all, like, these technical details of it and all that stuff that just seems to be lining up in such a way that it looks like we're going to be able to approach the server just sending you the updates to the d
+[02:42:58] [3] ynamic stuff that it rendered and also any scope information for things that are going to be re-renderable in the browser that was calculated on the server.
+[02:43:07] [1] I think lists are particularly interesting, which is probably the thing because I think conditionals and stuff are actually fairly straightforward.
+[02:43:14] [1] And people can picture that. And routing falls into that category because you're kind of like, oh, OK, well, it's this branch or this branch, and you can kind of make that call.
+[02:43:23] [1] Lists are interesting. But
+[02:43:26] [1] I guess Marco's core components do have the key-by-index or key-by-key, right? So technically, if we sent the key information along with the request to the server, then, you know, we could
+[02:43:44] [1] diff the keys on the server and know what new sections need to. And I think, I mean, pagination isn't bad because it's kind of obvious because it's like you're going to new sections.
+[02:43:54] [1] Generally, you're not reusing it. But it might be an interesting case where you're actually, like, reloading data that may or may not be the same entries and stuff.
+[02:44:04] [1] So I do think there's some interesting ability to do that. I think lists are probably actually one of the tricky ones.
+[02:44:11] [1] Most of the things I don't think you actually as long as you have basically the scopes and you have their locations in most cases, that's sufficient to know, like, oh, something changed here.
+[02:44:22] [1] And to be clear, it's not just even though we use a nested router, which is very obvious in terms of, like, here's the new section HTML, it might be partials in a sense where, like, if you I mean, if you let's pretend y
+[02:44:38] [1] ou're on a page, and you have a list of users, and then you add a new user, you know,
+[02:44:43] [1] we might be like, OK, well, here's the users that we're currently showing the list.
+[02:44:47] [1] Here's their IDs. Like, here's the key. And then we go, oh, we only needed to add this one user to the end of the list.
+[02:44:53] [1] So that one actually gets the new HTML. Like, the HTML partials aren't limited to the router level.
+[02:45:01] [1] They actually can be done at any conditional branch, which now was rendered on the server for the first time.
+[02:45:08] [3] Yeah, the big thing that the nested router gives us is a simple location to do code splitting for, you know, the different sections.
+[02:45:19] [1] Yeah, reset the partial hydration.
+[02:45:21] [3] Yeah, we've reset the partial hydration there. But as far as, like, asking the server for new data, conceptually, whenever there is something that would go through the apply stage again, that's when we want the server to
+[02:45:32] [3] send HTML. And that can be, you know, an if statement got toggled, or that can be a for loop iteration changed in some way.
+[02:45:40] [1] Right.
+[02:45:40] [3] I mean, ideally, with the for loop, we would actually even be able to do, like, like Ryan said, a diff on the server to know, oh, OK, we can just do that reconciling hard work for you on the server and send you back the
+[02:45:51] [3] reconcile if you move an item in the list and stuff like that, right?
+[02:45:56] [1] Yeah. And actually, this ties a bit into the conversation I was having with Ryan Florence earlier.
+[02:46:01] [1] I didn't dig into it because, like, you know, it kind of went on a, you know, a thing about whether Remix did this or not or whatever.
+[02:46:07] [1] And I don't want to get into that. But essentially, the whole thing about when to fetch, like, the key truth here is the router is what's driving it.
+[02:46:15] [1] Like, regardless of whatever async data or whatever other pieces come into us deciding that initial state, the route is the piece of information that gets serialized.
+[02:46:25] [1] It's the or the request. It's maybe not just the route, the request. The stuff that's sent on the request is the piece that is that source of truth.
+[02:46:33] [1] And that's how we can get away with not using a bunch of lets because we know that stuff coming from the request isn't stateful.
+[02:46:39] [1] And but it's the only place where that data can come from. There's no other source.
+[02:46:43] [1] Like, if you have a stateless backend, it's the request where all the data actually comes from.
+[02:46:48] [1] And that's where the route is the logical place because without it being reflected in the URL, there's no change.
+[02:46:55] [1] Like, essentially, all change in the website from a server-client thing has to be derived from that request.
+[02:47:03] [1] So the route is just the logical place. And making it the URL using it to nest and subdivide the page is just a really powerful way that we've enjoyed for years on the client side.
+[02:47:15] [1] So why not bring it onto the server side, right?
+[02:47:19] [1] So, like, it's just kind of a very it makes a lot of sense because it's like the route is the router is the backbone of your application.
+[02:47:29] [1] It is the it is what defines the paradigm, right? When we went from server to single-page app, it was the routing that led the way.
+[02:47:39] [1] And to whatever we're heading now into this new hybrid place, I think it's an interesting place because I'm not sure the old-school MPA people or the new, you know, single-page people, I don't know if we'll take them all
+[02:47:52] [1] with us. Even though we're trying to merge the things, I don't know if they all come with us.
+[02:47:56] [1] But the key is routing again is going to be the backbone of these mechanisms. It just it is what defines the web.
+[02:48:07] [3] Yeah, I mean, we want a spotlight routing experience with as much code running on the server as possible, essentially, or at least, like, as makes sense in terms of the way you opted into using state in your application.
+[02:48:22] [3] Yeah.
+[02:48:23] [1] Yeah, I'm just reading some comments here. Maybe filtering a table would be interesting.
+[02:48:26] [1] Having scope hoist is super convenient. Definitely seems like this is solvable, which is exciting.
+[02:48:30] [1] Yeah, there are details here to work through. And, you know, they're on the end of the list that we've been kind of working through.
+[02:48:37] [1] But it does seem like the pieces are here. I think that's really what the takeaway from this.
+[02:48:42] [1] You've already seen it when looking at Marco's six that, like, we either have the pieces or they're kind of a logical extension of what we've been doing.
+[02:48:50] [1] Like, this is just very congruent with all the pieces, the serializing scopes with the fine-grained informing how updates happen.
+[02:49:01] [1] It's all really an extension of the same stuff.
+[02:49:05] [1] Yeah, so yeah. Yeah, it's pretty interesting. Oh, hey, Pierre. How's it going?
+[02:49:12] [1] So yeah.
+[02:49:15] [3] I will say that, like, it's pretty cool to me that,
+[02:49:22] [3] like, you navigate when you're doing a navigation in most applications, like, in a lot of scenarios, if you're doing a navigation, you're probably fetching some data and all that stuff, right?
+[02:49:32] [3] But, like, there's the whole waterfall problem. Like, you don't want to
+[02:49:37] [3] like, if you're doing well, there's several things. But one issue is, you know, if you're doing all these requests from the browser, well, now the browser is having to, first of all, get, like, all the unfiltered data in
+[02:49:49] [3] some cases, depending on how you've optimized your APIs using GraphQL and, like, all that stuff.
+[02:49:53] [3] But it's also doing potentially multiple concurrent requests and all that stuff.
+[02:49:58] [3] Doing it from the server and having the server send you essentially the finalized little chunk of HTML that you actually need is typically going to be, like, you know, less bandwidth used by the user.
+[02:50:11] [3] And then your servers typically, like, if you're communicating within the same data center, have, like, faster access to whatever your underlying data stores are and stuff like that.
+[02:50:21] [3] So, like, in general, it seems like
+[02:50:25] [3] a big win. Like, I imagine scenarios that, like, if you use Marco's six with this special router and you're rendering, like, a list of users or something like that, and it's sortable, right?
+[02:50:42] [3] You could implement it such that the sorting happens in the server or the sorting happens in the browser.
+[02:50:47] [3] And if it's a million users, maybe you want to have the sorting happen in the server, right?
+[02:50:54] [3] So anyways, I just think it's going to be crazy to think about
+[02:50:59] [3] that you'll have the flexibility to be like, yeah, this is server-rendered, and that's where it makes sense.
+[02:51:04] [3] Or I can client-render the section because it's fine to send this little bit of JavaScript and so on.
+[02:51:09] [3] So yeah.
+[02:51:13] [1] Ryan's asking all the fun questions.
+[02:51:20] [1] Yeah, I mean, it does naturally go here. This is my conversation with Dan Abramoff.
+[02:51:27] [1] This is where the React guys' heads are at right now. They've been trying to figure out how to resimulate the cache behavior.
+[02:51:33] [1] That's why they're looking into caches. It's not because they're trying to make React query.
+[02:51:37] [1] It's because they're trying to get this back, which is interesting because this is one of those trade-offs that comes with this approach.
+[02:51:46] [1] And this is one of the challenges. And it's not this approach. This is single-page app approach.
+[02:51:50] [1] This is what you gave in order to get those smooth transitions.
+[02:51:54] [3] Right. Yeah, and it'll be an opt-in thing. Like, there is going to be some overhead, like Ryan said.
+[02:51:59] [3] We're going to have to serialize additional markers in the output HTML to know this is a thing that can update in the browser whereas before it could not have.
+[02:52:06] [3] So there will be, like, a little bit of overhead. But the thing is, it's not going to be much.
+[02:52:10] [3] And kind of it'll be up to you to decide the trade-offs, whether or not you want to build an MPA, which is a little bit more optimized.
+[02:52:16] [3] Maybe you don't care about those transitions or persisting state across pages. Maybe that doesn't make sense for your application.
+[02:52:21] [3] And then so MPAs is going to be the right choice. But we really want to have a solution for people who, you know, do have a SPA use case.
+[02:52:32] [1] Yeah.
+[02:52:33] [3] And I think this solution has very limited compromise compared to our MPA setup.
+[02:52:39] [1] Yeah, and this is an interesting one for me, honestly, because if you think about it for a minute, it we're talking single-page app benefits.
+[02:52:48] [1] But the minds
+[02:52:54] [1] et.
+[02:52:55] [3] Oh, did we lose Ryan?
+[02:53:00] [3] You can hear me, Michael?
+[02:53:02] [2] I can hear you, yeah.
+[02:53:03] [3] OK.
+[02:53:03] [2] I think we may have lost Ryan.
+[02:53:06] [1] I lost it for a second, sorry. I was going to say.
+[02:53:08] [3] The mindset.
+[02:53:10] [1] Yeah, yeah. Yeah, I say that the mindset is closer to that of an MPA because maybe, like, the architecture now becomes more shared route because of the nested router.
+[02:53:22] [1] You actually author the structure of your app a bit more like a single-page app.
+[02:53:26] [1] But, like, we're not like, the client
+[02:53:31] [1] caches and all the, like, this cache we're talking about here for the back-forward routing is a different type of cache.
+[02:53:36] [1] Like, that is all the type of the ecosystem libraries, like, that you need for this stuff are closer to the MPAs.
+[02:53:44] [1] They're not the client-side libraries. You know what I mean? Like, it's not like I mean, routing is the obvious one for the single-page apps.
+[02:53:52] [1] But just even, like, you're like, you could use Apollo, but you might just not use Apollo, you know, because you don't need a heavy caching query client for what you're doing.
+[02:54:07] [1] Like, it changes things dramatically. And it's interesting because, as you mentioned, it's like MPA plus.
+[02:54:15] [1] Like, it's just additive on top of the kind of MPA thing. And it makes sense. Whenever you're faced with a situation where you kind of have to reset your baseline, you tend to what you do is you go back to the beginning
+[02:54:31] [1] and the basics and build up from that foundation. It's very difficult to start from the, like, the having gone far down a road and then kind of backpedal a bit to kind of reposition.
+[02:54:44] [1] And I think this does make for frameworks that are coming out right now with this in mind, like Quick and Marco, in a very unique place.
+[02:54:52] [1] And it's funny because in some ways, even if Marco hasn't really realized no one's realized this, Marco's been sitting in this zone a little bit for ages just purely from the aspect of being a JavaScript framework that do
+[02:55:05] [1] es MPAs. Like, it's almost unheard of. And I think it's kind of interesting. I'm hoping that as people try this stuff, you know, we can learn and we can find what people like here.
+[02:55:18] [1] It's just this is very powerful because what we're saying essentially is that you can build a website like it's static HTML because Marco is just HTML.
+[02:55:33] [1] Then you can add something stateful on top of it, like some interactive form or I mean, form is a terrible example because you could have just left that form as being, you know, a server.
+[02:55:45] [2] That's true.
+[02:55:46] [1] But, you know, I made a demo the other day where I used a form for the server for, like, a blog site where, you know, I just posted it and then redirected back to the listing.
+[02:55:56] [1] But when I was on the page, I was like, OK, I've got comments here. I don't want to reload the page every time I add a comment.
+[02:56:01] [1] So let's just, you know, add that nice little bit of, you know, functionality.
+[02:56:07] [3] But now you'll still get to choose to be able to have that little, you know, the comments persist.
+[02:56:11] [1] Yeah, in our ideal world, this is all progressively enhanced or whatever. So then you just add that little bit, and you're like, OK, I'm doing that.
+[02:56:18] [1] And then at a certain point, you're like, well, now I actually want to route on the client.
+[02:56:24] [1] And then you just add that little bit again. It keeps an extension of this, and it's built on the same foundation.
+[02:56:30] [1] And from that point of view, like, what Marco's doing here makes a ton of sense because it is it's just this incremental step up to it.
+[02:56:40] [1] I mean, people have been talking about transitional apps and transitioning and stuff.
+[02:56:44] [1] But, like,
+[02:56:47] [1] as I said, it's much easier to tell a story where you're coming up from the base.
+[02:56:51] [1] I mean, if you think about it, like, React server components, like, they've kind of built a whole new framework around React, right?
+[02:57:03] [1] I mean, this might not be obvious to everyone in the ecosystem yet. Like, the server components aren't the React components we know today, right?
+[02:57:11] [1] They have a bunch of rules. Like, they can't have state. Like, essentially what I call the Marco rules, you know, like, essentially the partial hydration rules.
+[02:57:20] [1] And
+[02:57:22] [1] once you start falling through that dilemma, well, they're like, OK, well, we have React fetch DB.
+[02:57:28] [1] And, like, if you watch the video, you'll see that they introduced a bunch of libraries for data fetching that are React server component specific.
+[02:57:35] [1] Like, and if you start, like, kind of connecting the dots, you realize that
+[02:57:41] [1] in server component land, the React current ecosystem doesn't live. It doesn't exist.
+[02:57:46] [1] It exists only in the client components. It exists only in the, like, classic React now just lives in the islands in this thing.
+[02:57:53] [1] And maybe not everyone's going to adopt this mentality. But, like, it takes it seems like it takes a fairly extreme shift to actually reset the expectations of the work from it.
+[02:58:07] [1] So I think this is going to be interesting because I think, like, I think React server components, for example, are a legitimate competitor or, like, different approach to this problem that's legit.
+[02:58:16] [1] I think Quick is going to come up with something in the next year or so when they kind of get here too that's going to be legit and going to be a real, you know, kind of consideration in this sort of zone.
+[02:58:26] [1] But what's interesting for me, especially on the React side, is I think we're talking about
+[02:58:33] [1] , like, a whole different ecosystem. Like, sure, the existing React ecosystem will exist for those stateful components.
+[02:58:41] [1] But
+[02:58:43] [1] if they only make up 20% of your page, maybe even less, you're not going to pull in Redux.
+[02:58:50] [1] Or I mean, we already know what Dan Abramoff thinks of Redux. But, like, you're not going to pull in some of these other libraries that you're kind of accustomed to.
+[02:59:00] [1] Like, it's actually really interesting to think of what the implications are. And yeah, I mean, I don't know where this goes completely, but, like, it's not too far to kind of see that if this is a new paradigm, you know,
+[02:59:17] [1] based around this new routing kind of consideration, like, that we are in for something very different than just it's not single-page app plus.
+[02:59:28] [1] You know what I mean?
+[02:59:31] [1] It's something else.
+[02:59:33] [1] And I mean, yeah, I can't wait to see what that looks like, obviously, for me personally.
+[02:59:39] [1] But I just wanted to kind of establish here, like, you can already see that what we're talking about is going to be quite different.
+[02:59:48] [1] And I think it's really interesting, as I said, and why I wanted to get my coworkers here and Marco to kind of talk about this is because they've lived, worked in this MPA zone in JavaScript for ages, you know, longer than
+[03:00:01] [1] most others. And that's actually probably closer in mentality to what this looks like than basically anything that, at least on the JavaScript side, we've seen in a while.
+[03:00:13] [1] I think if we go back and we look at some of the techniques and stuff that they're doing on, you know, the Rails or, like, the PHP side of things, we might also learn, you know, there might be some secrets still from the
+[03:00:25] [1] past that can come back. But for the most part, this is relatively new ground. And I do want to separate us from some of those other technologies here because we're not talking about rendering everything on the server all
+[03:00:40] [1] the time necessarily. This isn't HTMX. This isn't, like, that situation where you're like, oh, I go back to the update panels of the '90s where or not '90s, sorry, the mid-2000s where, like, you have three cascading drop
+[03:00:56] [1] downs in a row, and you switch the first one. And then they go to the server, and they load it in.
+[03:01:01] [1] And then you switch the next one, and they go to the server and load it in. I'm not talking about full-page refreshes.
+[03:01:05] [1] During this, like, mid .NET period, we got the ability to swap out just that one section of the page.
+[03:01:11] [1] There are similarities to this. But with the JavaScript first thing, like, you could do that.
+[03:01:17] [1] You could definitely write your app that way. But you might you just might not.
+[03:01:22] [1] And because.
+[03:01:24] [3] Right.
+[03:01:24] [1] You're already in JavaScript. You're already you just have the tool. You're just like, oh, well, screw this.
+[03:01:29] [1] I'm just going to go
+[03:01:32] [1] when I load this data, I'm just going to let right there. Like.
+[03:01:36] [3] Yeah, I think it's super interesting that I mean, there's two sides of it. Yeah, you could write a let.
+[03:01:43] [3] Now it's doing client-side. Cool. You decided that makes sense for your experience.
+[03:01:46] [3] But even in the case where you didn't use a let, it's still way more efficient than, you know, doing the whole page request again and, like, getting the HTML that you didn't necessarily need because it's already there.
+[03:01:58] [3] Instead, you're hopefully going to get, you know, in that case, just a JSON format that has just the new data that came in.
+[03:02:03] [3] So in theory, even that should be more efficient. But it's up to you, like, where the processing happens.
+[03:02:10] [3] Is it on the server that this makes sense? And I mean, in my mind, it's like, are you doing some service call or a fetch or, like, data loading kind of things?
+[03:02:20] [3] Like, if you're doing that kind of stuff, probably it should live on the server because it's going to be async anyways, right?
+[03:02:26] [3] The user is going to have to see some loading indicator. The loading indicator can be client-side render.
+[03:02:30] [3] You could show that right away, right? But then it could do essentially a server-side render to get the update for stuff that was going to be async anyways, right?
+[03:02:39] [1] Yeah.
+[03:02:39] [3] Which I think is pretty cool, actually.
+[03:02:42] [1] How does streaming play into this? Because, I mean, it's a fair question. We haven't, you know, and you've done some stuff with MicroFrame, eBay's kind of, like, now micro front-end solution, which streams these panels in
+[03:02:54] [1] , but which has similarities. But, like, how does streaming play into this? Is it important or?
+[03:03:00] [3] I think it is still important. So, I mean, obviously, for the sections where it is just, like, an HTML swap, I think streaming is going to be pretty similar to the way that it works now for those sections.
+[03:03:15] [1] Right, so unblocking. Like, we can have async sections inside those sections. You can essentially have that whole suspense, like, experience where you're like, OK, I navigated to a new page.
+[03:03:25] [1] I showed the main content as soon as I could, but I'm actually still
+[03:03:30] [1] fetching and sliding in placeholders. You can still do it.
+[03:03:34] [3] Right, right. Yeah, so I imagine when you navigate to a new page that it would have
+[03:03:39] [3] basically invalidate the Marco equivalent of those suspense boundaries so that you could know, like, oh, this part of the page is actually stale.
+[03:03:46] [3] It's waiting for stuff from the server. And so you could still have, like, immediate
+[03:03:51] [3] responses to say, like, oh, yeah, this is loading. Like, I click Delete User. Maybe it doesn't delete right away.
+[03:03:57] [3] Maybe you do an optimistic update where it does delete right away. But you could show, like, it grayed out for a little bit until it goes away or something, like, once the server comes back.
+[03:04:04] [3] You have that kind of ability as well. I mean, you could do all the stuff that you could do with a spa.
+[03:04:10] [3] It's just, is the update happening from the server in a fine-grained way? Or did you control it via a let and effects and, like, client-side logic?
+[03:04:20] [3] And you get to choose that, which I think is super, super powerful.
+[03:04:24] [1] Yeah. Yeah, and actually, now that I think about it more, like, one of the reasons that we like, it's funny.
+[03:04:29] [1] I've been using streaming recently in single-page apps, obviously. Other than React Solid, I think the only one that does it on the single-page app side.
+[03:04:40] [1] And it's great because you get that initial loading thing. And if it's a fast network, you're like, this feels like Jamstack.
+[03:04:47] [1] Like, it feels like the page was statically you loaded initially, and then the data was fetched in the client.
+[03:04:52] [1] Except you know the data was fetched sooner. So the experience is just even smoother.
+[03:04:56] [1] It's so much better than blocking in that space. But if the network's slow or you have stuff, and it just comes in when it comes in, and it is, and it's no worse than doing, like, a block render like a Next or a Remix.
+[03:05:06] [1] But what's interesting is when Marco this has really felt because, like, when I switch to the next page in Hacker News, I don't notice it because I just do a transition.
+[03:05:16] [1] It's stale in my single-page app, and then it smoothly goes across. But when I do this in Marco and I go to the next page,
+[03:05:23] [1] it loads the header so fast I don't even notice that there is a navigation, like a full page unload.
+[03:05:29] [1] And then I see that loading state. So even though I'm clicking around in this MPA, I feel like I'm in a single-page app because of how the fragments and the lazy loading and the placeholders all work.
+[03:05:40] [1] So not lazy loading, the placeholders and the fragments and the async.
+[03:05:43] [3] And one of the things that's going to be different.
+[03:05:45] [1] Ye
+[03:05:48] [1] ah. Yeah, what I'm getting at is now with the client-side routing, you'll get the ability to hold the transitions the same way the single-page apps are doing.
+[03:05:56] [1] But then if you do opt into the nested suspense boundaries with the fallbacks, like, I say suspense again, but whatever the Marco equivalent is, it's going to feel very similar to that client render at the nested level bec
+[03:06:09] [1] ause you're like, oh, there's the immediate response, and here's the placeholder again.
+[03:06:13] [1] Like, it's actually it's the same thing again, except it's, like, nested. So
+[03:06:19] [1] which makes it even more. Like, I think it will be very difficult with well-architected apps with this.
+[03:06:31] [3] Oh, lost him again.
+[03:06:35] [1] My internet is dying. I'm sorry.
+[03:06:37] [3] It's OK. With well-architected apps, are you still there?
+[03:06:45] [2] I hear his fan.
+[03:06:46] [3] Yeah.
+[03:06:50] [3] Maybe his fan's competing for bandwidth or something. Smart fan.
+[03:06:55] [1] Yeah. Yeah,
+[03:06:57] [1] I am sorry about that. Yeah, sorry. Yeah, you lost me again. It seems like when my fan kicks in and the heater, it just, like, kills the internet somewhat.
+[03:07:06] [1] That's unfortunate. We'll have to get till the end. But what I was saying is, obviously, I lost my train of thought because I was just ranting on this tirade.
+[03:07:14] [1] But essentially, yeah, honestly, this is the worst when you go all in and then it disappears.
+[03:07:21] [1] Yeah, I've lost it. I'm sorry.
+[03:07:23] [3] It's fine. It's like, yeah, to me,
+[03:07:30] [3] it's when I think of transitional apps, right, and this is maybe not the right way to put it, and I really want a different word for this kind of thing.
+[03:07:38] [3] But I see how do we get, you know, how do we send as little initial JavaScript to the browser, like MPA benefits?
+[03:07:48] [3] How do we make it so that we're not redoing any of the work? Like, those are things that I kind of want to take for granted.
+[03:07:55] [3] And then, OK, so we've done all that. How do we receive the fine-grained upgrades updates for stuff that, you know, the server can render?
+[03:08:06] [3] And I think this is
+[03:08:09] [3] approximating that. And that's why I see it as transitional because you're actually, like, transitioning from the server-rendered HTML, hydrating it to a tiny little router that can receive additional updates and fine-g
+[03:08:23] [3] rained update. Or, you know, you have your manual little states that can do pure client-side rendering as well.
+[03:08:30] [3] And, like, from your code perspective, like, transitioning from client-side render to a server-side rendered thing is as simple as, like, I'm going to use the URL state or I'm going to use a let, right?
+[03:08:43] [3] And there will probably be, you know, a tag variable that's exposed that gives you the URL state in a way that you can tweak or you could use forms and, like, all that kind of stuff.
+[03:08:53] [1] Yeah, I mean, yeah, it is really incredible when you think about it that both on the authoring side and the experience side, you'd have a hard time telling the difference.
+[03:09:01] [1] That's what I was going to say when I was in that long tirade that I was basically that I don't I think it'd be very hard to tell the difference between, like, our single-page apps today experience and this, even though
+[03:09:12] [1] it's authored and mechanically in a completely different way. And we're actually saying that the authoring will also be as
+[03:09:21] [1] transitional. So yeah, this is really quite exciting stuff. And I'm interested to see, like, obviously, Marco has optimized things to the, like, nth degree here and kind of showed how this stuff is possible.
+[03:09:37] [1] I just want to see more of this. I'm, like, I'm getting so excited by this potential because the more I hear about it and think about it, like, it does seem like if it's solvable that we're that much closer to that whole
+[03:09:53] [1] concept of, like, the, you know, the universal app. Like, screw transitional. Let's call it the universal app.
+[03:10:00] [3] Yeah, something.
+[03:10:01] [1] Like, you know, that was talked about days ago when they didn't want to use isomorphic.
+[03:10:06] [1] They started using universal. I mean the actual universal app because we've had to make sacrifices or trade-offs along the way.
+[03:10:14] [1] And it seems like this is an avenue where most of those trade-offs can go away.
+[03:10:21] [1] To be fair, there are a few. I think the key ones that we have to consider is we are basically hijacking the browser still in the way that single-page apps hijack the browser.
+[03:10:31] [1] I kind of it's just so much more blatant in this sense because you are using the server that it feels like you've just reinvented a VM inside the browser.
+[03:10:41] [1] I choose React of it. Even our version here, which is much more lighter and fine-grained, like, we are definitely in this model kind of going, like, browser, we're not trusting you completely to handle navigation.
+[03:10:54] [1] We're going to handle navigation. We'll use all your protocols, but we're going to handle it.
+[03:11:00] [1] So I think that's going to be the thing here. But, I mean, we're used to that. It's been, you know.
+[03:11:07] [3] I think in general, like, a Remix-style approach where you're using web APIs that could work with or without JavaScript and the progressive enhancement and all that stuff is a key piece of this also in terms of, like, mak
+[03:11:19] [3] ing it easy to progressively enhance those experiences so that you don't feel like you're stepping into a totally different world when you bring in a let or something.
+[03:11:27] [3] You know what I mean?
+[03:11:30] [3] Because, yeah, in general, for a lot of experiences, keeping as much as possible on the server
+[03:11:36] [3] makes a lot of sense. And I think it's really one of the key strengths of the web in general, right, that you have an experience that can be delivered kind of on the fly.
+[03:11:49] [3] Like, basically, you know, the browser is just receiving raw, like, display information kind of in, like, some scripts and all that stuff.
+[03:12:00] [3] And there's always going to be the balance of trying to figure out, like, how am I sending should I be sending new view information or should I be sending the code to render that new view information?
+[03:12:12] [3] And I feel like Marco 6 and this router is giving you the ability to make those decisions, like, throughout your app.
+[03:12:20] [3] So anyways.
+[03:12:22] [1] I mean, on that note, I think we're getting close to the end here. We did go longer than I wanted to initially, but, I mean, this has been a great conversation.
+[03:12:30] [1] I think I hinted at this a little bit in some articles and some previous streams, but we haven't dug in as far as we have tonight.
+[03:12:38] [1] And honestly, this is still an area where we're working through ideas. We're getting a better understanding.
+[03:12:44] [1] But, I mean, right now is your chance. You've got Michael and Dylan here. I've said this a few times.
+[03:12:49] [1] You know, if there's any more questions, definitely shoot it our way here. You have an opportunity to kind of look and stuff.
+[03:12:56] [1] I realize we've talked about a lot of stuff today that's kind of out there. And some of you probably will, like, rewatch parts of the video and try and figure out what was, like, re-dissect what was said because admitted
+[03:13:06] [1] ly, there's a lot of content, and it's pretty thick. But yeah, if there's any questions or anything, you know, now is your chance, so to speak.
+[03:13:19] [1] But yeah, no, this has been great. I'm so stoked that you guys joined me so we could talk about this stuff because I've been, as I said, I've been hinting at this on articles for a while now and on some other streams.
+[03:13:31] [1] And it's really awesome to see Marco 6 starting to come together. There's still work to be obviously done in the compiler and whatnot, but we're actually, like, we're actually seeing, you know, that output work.
+[03:13:45] [1] We're seeing the optimizations, you know, happen.
+[03:13:49] [3] Yeah. Yeah, it's exciting on kind of two fronts in my mind. It's, you know, we're kind of, on one hand, building this, like, MPA experience that
+[03:14:02] [3] is sending that sprinkling of JavaScript that we keep promising, right? Like, finally, we're getting to that sprinkling of JavaScript, not, oh, yeah, we trimmed, you know, all the fat off the top.
+[03:14:12] [3] That's what Marco 4 and partially hydrated things are doing. This is, like, actually getting really close to sending just the necessary JavaScript.
+[03:14:20] [3] So that's one thing, and that's awesome. But the fact that this approach and the, you know, the analysis around the reactive graph and all that stuff is giving us potential solutions for solving this generic problem of how
+[03:14:34] [3] do you bridge the gap between MPAs and SPAs, I think is super exciting.
+[03:14:39] [1] Yeah, no, definitely. And actually, there's a question along sorry, there's a question along those lines.
+[03:14:43] [1] And you said that users won't feel a total difference between SPA and MPA, but there's one difference.
+[03:14:48] [1] You can't go over MPAs. SPAs, some pages load immediately. Is that but, I mean, maybe?
+[03:14:53] [1] And I could picture that.
+[03:14:54] [2] I would say that's not true. Even without this transitional app stuff, this is not true because what it the immediate loading is really about prefetching, right?
+[03:15:07] [2] So, like, if you have a code split SPA and you're navigating to a page that isn't you don't already have in cache, then you're going to have some load time there unless you prefetch, right?
+[03:15:20] [2] Or if you've already cached that page, then you're going to have immediate navigation.
+[03:15:24] [2] But you would also have the same immediate navigation if you had gotten an HTML response that was able to be cached, right?
+[03:15:33] [2] So it's to me, it's more about prefetching the pages that you can transition to, which you can do with a, you know, traditional MPA today.
+[03:15:46] [2] You would be able to do with this not traditional kind of MPA SPA hybrid. And this is something I think probably we see more in SPAs, the browser APIs for prefetching
+[03:16:06] [2] are probably usable right now. They had kind of
+[03:16:13] [2] they're more hints than anything. I think pretty much all the browsers are doing a pretty good job at respecting them.
+[03:16:23] [2] But the spec is kind of somewhat that, like, the browsers can kind of ignore this if they want to.
+[03:16:30] [1] Yeah, I was going to say the pages that a SPA can load immediately are the ones where they don't load data.
+[03:16:36] [1] And in the case where you're not loading data, then you're also could just cache static HTML.
+[03:16:43] [1] It's like, like, you preload HTML. The guys who this is the experiment that the builder guys were doing actually at first and the IELTS as well, the guy from IELTS, where they didn't even get to TurboLynx.
+[03:16:57] [1] They just started prefetching the HTML pages in their MPAs because, like, again, maybe not on the quick side, but on the well, actually, on the builder side, it's true too because they both static generation.
+[03:17:08] [1] And, you know, Astro is the same case. They do static gen. You just literally request the HTML for the next page, and then when the browser actually navigates to it, it's right there already.
+[03:17:21] [2] Right. And so, I mean, actually talking about that, there's also some specs that are, you know, coming to the browser maybe if they but there's portals.
+[03:17:35] [2] There's shared element transitions, right? And so these are going to bring to traditional MPAs the ability to do some of these things
+[03:17:45] [2] as well. And so I don't know. Maybe
+[03:17:50] [2] the future looks a little bit different than we described. I don't know. There's certainly trade-offs with all of these
+[03:18:00] [2] approaches.
+[03:18:02] [3] Yeah.
+[03:18:02] [2] But if you can preserve an element across navigation and let the browser handle that, then, like, yes, you're having to send more HTML because you're going to have to send basically a full page.
+[03:18:17] [2] But if you can tell it how to actually preserve some of those things across, like, maybe you can keep a video playing as you navigate around or some of those things.
+[03:18:26] [2] That gives you a lot of the same benefits. You still get to leverage, like, the
+[03:18:33] [2] back-forward cache that the browser has. So there may be alternative
+[03:18:40] [2] routes here. I don't know. The browser may make some of these things easier for us, but there's definitely trade-offs as well, right, because you're sending data for things that you already have in the browser, even if it
+[03:18:54] [2] 's HTML, which is probably not the greatest overhe
+[03:19:00] [2] ad. But
+[03:19:03] [2] .
+[03:19:03] [3] Yeah, I mean, there's nothing stopping us as well from having some parts, even if they update the URL, to be driven by state and do, like, a client-side update.
+[03:19:13] [3] So you could have something that is immediate driven by state. And another thing that could be interesting to explore is actually nested routing with prefetches, which I'm not 100% sure Remix might do something similar to
+[03:19:27] [3] that.
+[03:19:27] [2] I think they do some prefetching, yeah.
+[03:19:28] [3] Yeah. So, you know, with a nested route, you could say, I'm going to prefetch
+[03:19:33] [3] the next page in this set of tabs that's in this hierarchy, but I don't need to prefetch the outer stuff, right?
+[03:19:38] [3] Like, we could do that kind of thing as well, which would be pretty interesting.
+[03:19:42] [1] Yeah.
+[03:19:46] [3] Yeah. Yeah, I just saw on Twitter today that thing of Steve Jobs being like,
+[03:19:54] [3] the Safari is in the iPhone, and that is how, like, web 2.0 and Ajax, that is how apps are going to be built and all that stuff.
+[03:20:02] [3] And boy, yeah, that didn't pan out. But I think this architecture truly is going to make it possible to build performant, like, web experiences that wouldn't have been easily possible before.
+[03:20:19] [3] Like, you probably would have reached for a SPA, and now you've got this janky,
+[03:20:23] [3] you know, amount of like, especially the loading performance. So yeah, anyways, I think the future is bright for the web if this all pans out, hopefully.
+[03:20:37] [1] OK, no, that's not the one I was looking for. I was looking for this one. Did you mention when Marco 6 beta was coming out?
+[03:20:42] [1] Let me be political on that one. I'll handle this for a second. You know, we are working on stuff.
+[03:20:48] [1] Right now, we've set up a bunch of milestones. I've talked about this a bit externally, but I think only in our Discord.
+[03:20:56] [1] Essentially, our milestones are pre-alpha, alpha, beta, and then release at least.
+[03:21:02] [1] There'll probably be an RC candidate range too, but that's not we're probably going to spend the least amount of time in there.
+[03:21:08] [1] Essentially, right now, what you're seeing is what we call the pre-alpha. We wanted to make it work for to-do MVC and for JS Framework Benchmark.
+[03:21:16] [1] And that's what we're demoing today. So we just wrap that up. The next stage we call alpha is when we're going to pull in the hydration stuff.
+[03:21:26] [1] Our expectation there is that this is still going to take us a couple months to kind of work through a lot of details.
+[03:21:33] [1] This isn't the only stuff we're working on right now. We're actually also looking at TypeScript support, which I know some people care about for some reason.
+[03:21:40] [1] I haven't really figured out why, but they seem to like.
+[03:21:43] [2] It's a good thing.
+[03:21:44] [1] Yeah. So TypeScript support in the templates, obviously. So, like, there's some kind of play there in terms of time, but generally speaking, we figure it's a couple months' effort on top of where we're at right now, alt
+[03:21:57] [1] hough everything's taken longer than we expected. So take that with a grain of salt, which points us
+[03:22:04] [1] to, you know, early summertime period, you know, late I guess, yeah, early summertime period.
+[03:22:11] [1] Our hope there is that
+[03:22:14] [1] from that, we're going to kind of build out the new async model, which would be, like, our version of Suspense or whatnot.
+[03:22:21] [1] And that will hopefully kind of complete the feature set for Marco 6. And again,
+[03:22:27] [1] these things are all kind of, you know, a couple months, couple months, couple months.
+[03:22:32] [1] And then from there, stabilization, migration, documentation, everything for the release of Marco 6.
+[03:22:36] [1] So that's really rough. You can kind of project where that falls, you know, give or take an extra month here or there.
+[03:22:43] [1] But that's essentially what the timeline is. We were working on prototypes for a very long time.
+[03:22:48] [1] We were doing a lot of experiments. Now we're building for real. We're still hitting a few snags, but generally speaking, the design seems consistent.
+[03:22:55] [1] So I'm pretty optimistic about our ability to get stuff in people's hands. Even when we get to alpha, we're going to start doing some kind of closed trial stuff.
+[03:23:06] [1] And then beta should, as I said, hopefully,
+[03:23:09] [1] like, mid to end of the summer, we'll have beta that people can get their wider use and people can get their hands on.
+[03:23:21] [1] Does this new version of it all in? Yeah, I mean, I don't know if you caught the beginning of the stream.
+[03:23:26] [1] That was basically the whole focus of it because the way that the tags API and the stuff
+[03:23:36] [1] works in terms of
+[03:23:39] [1] , you know, both
+[03:23:42] [1] composition
+[03:23:44] [1] in terms of the way that it just kind of extends and augments existing HTML. And it lends to a lot of the objectives here, both the simplicity in terms of just starting from some, you know, markup and enhancing it, but also
+[03:24:02] [1] just the way that it lets us break templates apart and lets us, like, refactor.
+[03:24:06] [1] I think the refactoring story is going to be really good. I think the, I think, like, the authoring story is going to be really good.
+[03:24:12] [1] And then when we, you know, add stuff like TypeScript and ESLint, you know, we've got, you know, most of the other stuff like Prettier and Storybook and all that kind of stuff.
+[03:24:20] [1] But once we kind of finish up on the TypeScript and ESLint side, you should have kind of the completion of the story, so to speak, you know, have those auto-completions and stuff.
+[03:24:28] [1] People like, we've been using Vite a lot. That's a big part of that. We have isomorphic SSR, sorry, not HMR in that, at least with the current Marco 5.
+[03:24:40] [1] So we continue building on top of that kind of foundation. We've been using it for quick deploys of things like Cloudflare workers and, you know, FastFind integration and different stuff like that.
+[03:24:49] [1] I expect that we'll kind of build up more on top of Vite, you know, more plug-ins, more, like, built-in capabilities.
+[03:24:58] [1] Right now, our Marco server is something that we built on top of Webpack. I wouldn't be surprised in the future if we once, you know, a few more things get ironed out there that we kind of look at moving things to the V
+[03:25:10] [1] ite side as well. So, like, a lot of developer experience considerations going into this work because the key part, as you said, like, we didn't go the .
+[03:25:19] [1] server approach or the, you know, is, like, we really see a future where you can just naturally author your apps.
+[03:25:28] [1] And that kind of piece isn't too much of a consideration there. It might be, like, an advanced, a slightly more advanced topic in terms of, like, how to optimize what goes on client-server.
+[03:25:40] [1] But the base experience is just write some HTML, add some behavior, and let Marco take care of the rest.
+[03:25:54] [1] Yeah, then the router stuff probably next year. Yeah, realistically, with everything else, I'm yeah, I think this is a 2023 kind of thing.
+[03:26:01] [1] I mean, it'd be sweet to work on it and see how stuff goes while we're, you know, doing other stuff.
+[03:26:06] [1] But it's going to come down to timing and resources.
+[03:26:13] [1] I don't know if Dylan wants to.
+[03:26:15] [3] Yeah, maybe.
+[03:26:19] [1] We've been trying. Vite is very future-facing, future-thinking, which is great.
+[03:26:24] [1] And I've enjoyed it, especially on Solid. On Marco, we've hit a few other things.
+[03:26:29] [1] And it's harder for eBay too. It's just some code bases have this module format called CJAS.
+[03:26:37] [1] You may have heard of it before. And Vite kind of doesn't like, if you have some non-standard format, like a template, like a Marco or Svelte file, once you try and go back out to CJAS, everything just the world breaks.
+[03:26:53] [1] And I think it has to do with the way ES Build fits into the build system and all this stuff.
+[03:26:57] [1] But essentially, there's just some awkwardnesses. And some of the other frameworks that are newer and jumped in Vite, like Solid and even Svelte or Synergy, they're like, ah, it's fine.
+[03:27:06] [1] No one uses CJAS. That's not true for eBay. And that's not true for any large organization with a legacy code base.
+[03:27:14] [1] So we're trying to find ways to work around it. The Svelte guys, to give them credit, have actually been working on this and come up with some really interesting hacks around it to make it work.
+[03:27:23] [1] And we might be able to emulate some of that.
+[03:27:24] [2] They're doing it for different reasons, but it does have the side effect that you can use CJAS from the Svelte file.
+[03:27:31] [2] So if we're
+[03:27:34] [2] ideally, Vite would add APIs so that we could do this without all the hacks that they're doing.
+[03:27:43] [2] But yeah, it should be possible to get it working in a way that we could use it within eBay.
+[03:27:50] [2] But that is not the state of things right now.
+[03:27:53] [1] Yeah. Yeah, I mean, we would love to, to be fair. Like, as many of you know, there's Marco team actually support their own bundler, Lasso, which did
+[03:28:05] [1] , like, real-time bundling, like, on request, which is incredibly capable. And it makes great for dev environment.
+[03:28:12] [1] And it's really powerful, but it's also something that was only like, and it was used in various places, supported by the Marco team, supported by eBay.
+[03:28:21] [1] And it does a lot of eBay still uses it. The majority of eBay's Marco still uses it.
+[03:28:28] [1] And truth matters, until recently and pre-Vite, like, Webpack didn't really fit, you know, where we needed to be.
+[03:28:40] [1] We had moved to using Webpack and Webpack 5 and stuff. But generally speaking, something Vite would be very welcomed if we could figure out how to get it to work because it kind of carries on some of the ideas and legac
+[03:28:54] [1] y that Lasso had. Lasso, again, was a really, really ahead of its time technology that, you know, that you build it and then you're supporting it forever.
+[03:29:04] [3] Right. Yeah, Vite is, like, one of the first bundlers in a maybe the first bundler in a long time besides Lasso to acknowledge that there's a server, right?
+[03:29:15] [1] Yeah, I mean, absolutely.
+[03:29:17] [3] So there's a lot of nice things about it. And actually, some aspects of using it, if you didn't have to consider legacy, like, we love the developer experience of using Vite with Marco.
+[03:29:27] [3] But yeah,
+[03:29:30] [3] for because of a few issues, it makes it hard for us to bring into eBay. But eventually, we probably will.
+[03:29:37] [1] I mean, if you.
+[03:29:40] [3] If Bun gives good hooks to actually make it so that we can compile to what we want with Marco.
+[03:29:46] [3] Because, I mean, the thing with Marco is because we decide what ultimately goes in the bundles, we need control over the more control over the bundlers than a lot of other frameworks do.
+[03:29:57] [3] But if we get the right hooks in Bun, I am definitely excited to try it out.
+[03:30:01] [1] Yeah.
+[03:30:03] [1] I'm glad some questions came in. You guys were pretty quiet on the stream altogether.
+[03:30:09] [1] Maybe there's just a lot to take in. But
+[03:30:13] [1] it's good to have a little bit of conversation going. But I am I last called it before.
+[03:30:18] [1] I am last calling it right now. To people's knowledge, just so you guys understand, you know, I do my streams late because of just the work hours and stuff.
+[03:30:27] [1] And maybe I should have considered pulling this forward. But all three of us are in different time zones.
+[03:30:32] [1] Yeah, Oren just woke up. But to put this in perspective, yeah, Dylan's an hour ahead of me.
+[03:30:39] [1] And Michael is East Coast.
+[03:30:41] [2] It's 2:30 a.m. here.
+[03:30:43] [1] Yeah. So.
+[03:30:44] [2] I was tired before the stream began.
+[03:30:46] [3] Yeah, yeah.
+[03:30:47] [1] So I think we're going to call it here. I'm just chatting a bit just to give you guys that last moment to type in your question.
+[03:30:57] [1] But yeah, I think we are done here. Thank you so much for everyone who joined the stream.
+[03:31:03] [1] Thank you, Michael and Dylan, for staying up so late to talk about this stuff. I think it's really compelling stuff.
+[03:31:08] [1] And I hope people go back and rewatch parts of the stream and kind of let some of the stuff sink in.
+[03:31:14] [1] I think a lot of the hints of what the future web dev could be exist in the stream.
+[03:31:20] [1] And it's really awesome how Marco has kind of incorporated a lot of, you know, has a lot of original ideas.
+[03:31:28] [1] We, you know, we incorporated, you know, some of the other stuff that we've been seeing around the ecosystem and kind of bring it all into this cohesive package.
+[03:31:36] [1] So yeah, I think this was a really exciting one for me. And thank you all for joining.
+[03:31:43] [3] All right. Thanks, everyone. It was fun.
+[03:31:46] [1] All right.
+[03:31:47] [3] Now I need to go to bed. Goodbye.

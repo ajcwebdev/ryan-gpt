@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Components Are Pure Overhead",
+      "slug": "2022-09-08-components-are-pure-overhead",
+      "duration": "4:24:51",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=I6L29qSTaFA",
+      "publishDate": "2022-09-08",
+      "thumbnail": "https://i.ytimg.com/vi/I6L29qSTaFA/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 722,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 722,
+          "endTime": 2451,
+          "title": "Change Management"
+        },
+        {
+          "startTime": 2451,
+          "endTime": 4354,
+          "title": "MVC to Components"
+        },
+        {
+          "startTime": 4354,
+          "endTime": 4532,
+          "title": "The Overhead of Rendering"
+        },
+        {
+          "startTime": 4532,
+          "endTime": 5457,
+          "title": "The Real Costs of Components"
+        },
+        {
+          "startTime": 5457,
+          "endTime": 6147,
+          "title": "The Overhead of Reactivity"
+        },
+        {
+          "startTime": 6147,
+          "endTime": 8271,
+          "title": "List Reconcilliation"
+        },
+        {
+          "startTime": 8271,
+          "endTime": 8720,
+          "title": "VDOM + Reactivity"
+        },
+        {
+          "startTime": 8720,
+          "endTime": 10480,
+          "title": "State Libraries"
+        },
+        {
+          "startTime": 10480,
+          "endTime": 12922,
+          "title": "Preact Signals"
+        },
+        {
+          "startTime": 12922,
+          "endTime": 15891,
+          "title": "Q & A"
+        }
+      ],
+      "description": "With many starting to look at incorporating Reactivity into existing Frameworks I wanted to take a moment to look at how Frameworks evolved into using Components, the evolution of change and state management, to best understand the impact of where things are going.\n\n[0:00] Preamble\n[12:02] Change Management\n[40:51] MVC to Components\n[1:12:34] The Overhead of Rendering\n[1:15:32] The Real Costs of Components\n[1:30:57] The Overhead of Reactivity\n[1:42:27] List Reconcilliation\n[2:17:51] VDOM + Reactivity\n[2:25:20] State Libraries\n[2:54:40] Preact Signals\n[3:35:22] Q & A"
+    }
+  }
+}

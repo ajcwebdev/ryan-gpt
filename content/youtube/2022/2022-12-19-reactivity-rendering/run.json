@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Reactivity & Rendering",
+      "slug": "2022-12-19-reactivity-rendering",
+      "duration": "2:46:19",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=R5AcOtxIdMk",
+      "publishDate": "2022-12-19",
+      "thumbnail": "https://i.ytimg.com/vi/R5AcOtxIdMk/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 530,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 530,
+          "endTime": 887,
+          "title": "Laying out the Conversation"
+        },
+        {
+          "startTime": 887,
+          "endTime": 1241,
+          "title": "Fine-Grained Reactivity"
+        },
+        {
+          "startTime": 1241,
+          "endTime": 1350,
+          "title": "How it Works"
+        },
+        {
+          "startTime": 1350,
+          "endTime": 1506,
+          "title": "So like Pub/Sub?"
+        },
+        {
+          "startTime": 1506,
+          "endTime": 1722,
+          "title": "Is Reactivity simpler than React?"
+        },
+        {
+          "startTime": 1722,
+          "endTime": 1848,
+          "title": "Synchronous tracking"
+        },
+        {
+          "startTime": 1848,
+          "endTime": 1873,
+          "title": "Reactivity vs Fine-Grained Reactivity"
+        },
+        {
+          "startTime": 1873,
+          "endTime": 2035,
+          "title": "Dynamic Dependencies"
+        },
+        {
+          "startTime": 2035,
+          "endTime": 2168,
+          "title": "Why Fine-Grained Reactivity"
+        },
+        {
+          "startTime": 2168,
+          "endTime": 2267,
+          "title": "Grabbing my FedEx Package"
+        },
+        {
+          "startTime": 2267,
+          "endTime": 2351,
+          "title": "History of Reactive Programming"
+        },
+        {
+          "startTime": 2351,
+          "endTime": 2883,
+          "title": "RxJS"
+        },
+        {
+          "startTime": 2883,
+          "endTime": 3011,
+          "title": "RxJS vs Fine-Grained Code Example"
+        },
+        {
+          "startTime": 3011,
+          "endTime": 3195,
+          "title": "What about Behavior Subjects"
+        },
+        {
+          "startTime": 3195,
+          "endTime": 3374,
+          "title": "Hot vs Cold Observables"
+        },
+        {
+          "startTime": 3374,
+          "endTime": 3439,
+          "title": "Push vs Pull"
+        },
+        {
+          "startTime": 3439,
+          "endTime": 3515,
+          "title": "Immutable vs Fine-Grained Change in State libraries"
+        },
+        {
+          "startTime": 3515,
+          "endTime": 3665,
+          "title": "Use with Redux"
+        },
+        {
+          "startTime": 3665,
+          "endTime": 3749,
+          "title": "Compiled Reactivity"
+        },
+        {
+          "startTime": 3749,
+          "endTime": 3874,
+          "title": "Updates in a VDOM"
+        },
+        {
+          "startTime": 3874,
+          "endTime": 4185,
+          "title": "Unnecessary Updates with Unrelated State"
+        },
+        {
+          "startTime": 4185,
+          "endTime": 4339,
+          "title": "Solving with More Components"
+        },
+        {
+          "startTime": 4339,
+          "endTime": 4468,
+          "title": "Enter Preact Signals"
+        },
+        {
+          "startTime": 4468,
+          "endTime": 4538,
+          "title": "Updates without Component Re-render"
+        },
+        {
+          "startTime": 4538,
+          "endTime": 4640,
+          "title": "De-optimizing back to Re-render"
+        },
+        {
+          "startTime": 4640,
+          "endTime": 4703,
+          "title": "Solving with Computeds"
+        },
+        {
+          "startTime": 4703,
+          "endTime": 5058,
+          "title": "Limits of Reactivity + VDOM optimization"
+        },
+        {
+          "startTime": 5058,
+          "endTime": 5466,
+          "title": "Passing Signals as Props"
+        },
+        {
+          "startTime": 5466,
+          "endTime": 5883,
+          "title": "The Cost of being Signal Aware"
+        },
+        {
+          "startTime": 5883,
+          "endTime": 5988,
+          "title": "Jotai and Recoil"
+        },
+        {
+          "startTime": 5988,
+          "endTime": 6165,
+          "title": "SolidJS: Automatically Optimal"
+        },
+        {
+          "startTime": 6165,
+          "endTime": 6319,
+          "title": "JS Framework Benchmark"
+        },
+        {
+          "startTime": 6319,
+          "endTime": 6496,
+          "title": "VDOM + Reactivity: Worst of Both Worlds?"
+        },
+        {
+          "startTime": 6496,
+          "endTime": 6696,
+          "title": "Vue: Success Against all Odds"
+        },
+        {
+          "startTime": 6696,
+          "endTime": 6758,
+          "title": "The Real Cost of Components"
+        },
+        {
+          "startTime": 6758,
+          "endTime": 6921,
+          "title": "Why Reactivity + VDOM"
+        },
+        {
+          "startTime": 6921,
+          "endTime": 7055,
+          "title": "Fine-grained Code Saving"
+        },
+        {
+          "startTime": 7055,
+          "endTime": 7177,
+          "title": "Is a Revolution in the Cards?"
+        },
+        {
+          "startTime": 7177,
+          "endTime": 7307,
+          "title": "Svelte"
+        },
+        {
+          "startTime": 7307,
+          "endTime": 7498,
+          "title": "Svelte Compiler"
+        },
+        {
+          "startTime": 7498,
+          "endTime": 7654,
+          "title": "Svelte Composition"
+        },
+        {
+          "startTime": 7654,
+          "endTime": 7836,
+          "title": "Component Based Updates"
+        },
+        {
+          "startTime": 7836,
+          "endTime": 8176,
+          "title": "Nested Reactivity"
+        },
+        {
+          "startTime": 8176,
+          "endTime": 8326,
+          "title": "Isolated Updates in Solid"
+        },
+        {
+          "startTime": 8326,
+          "endTime": 8515,
+          "title": "Component's Really Don't Matter"
+        },
+        {
+          "startTime": 8515,
+          "endTime": 8688,
+          "title": "Conclusions"
+        },
+        {
+          "startTime": 8688,
+          "endTime": 9137,
+          "title": "Reactivity Vs React Pt. 2"
+        },
+        {
+          "startTime": 9137,
+          "endTime": 9979,
+          "title": "Q & A"
+        }
+      ],
+      "description": "Confused about reactivity? Confused about the difference between frameworks in handling Signals? Confused what the difference is between Signals and other reactivity you've seen before? I'm going to take a shot at that today.\n\n[0:00] Introduction\n[8:50] Laying out the Conversation\n[14:47] Fine-Grained Reactivity\n[20:41] How it Works\n[22:30] So like Pub/Sub?\n[25:06] Is Reactivity simpler than React?\n[28:42] Synchronous tracking\n[30:48] Reactivity vs Fine-Grained Reactivity\n[31:13] Dynamic Dependencies\n[33:55] Why Fine-Grained Reactivity\n[36:08] Grabbing my FedEx Package\n[37:47] History of Reactive Programming\n[39:11] RxJS\n[48:03] RxJS vs Fine-Grained Code Example\n[50:11] What about Behavior Subjects\n[53:15] Hot vs Cold Observables\n[56:14] Push vs Pull\n[57:19] Immutable vs Fine-Grained Change in State libraries\n[58:35] Use with Redux\n[1:01:05] Compiled Reactivity\n[1:02:29] Updates in a VDOM\n[1:04:34] Unnecessary Updates with Unrelated State\n[1:09:45] Solving with More Components\n[1:12:19] Enter Preact Signals\n[1:14:28] Updates without Component Re-render\n[1:15:38] De-optimizing back to Re-render\n[1:17:20] Solving with Computeds\n[1:18:23] Limits of Reactivity + VDOM optimization\n[1:24:18] Passing Signals as Props\n[1:31:06] The Cost of being Signal Aware\n[1:38:03] Jotai and Recoil\n[1:39:48] SolidJS: Automatically Optimal\n[1:42:45] JS Framework Benchmark\n[1:45:19] VDOM + Reactivity: Worst of Both Worlds?\n[1:48:16] Vue: Success Against all Odds\n[1:51:36] The Real Cost of Components\n[1:52:38] Why Reactivity + VDOM\n[1:55:21] Fine-grained Code Saving\n[1:57:35] Is a Revolution in the Cards?\n[1:59:37] Svelte\n[2:01:47] Svelte Compiler\n[2:04:58] Svelte Composition\n[2:07:34] Component Based Updates\n[2:10:36] Nested Reactivity\n[2:16:16] Isolated Updates in Solid\n[2:18:46] Component's Really Don't Matter\n[2:21:55] Conclusions\n[2:24:48] Reactivity Vs React Pt. 2\n[2:32:17] Q & A\n\nArticles:\nBuilding a Reactive Library from Scratch - https://dev.to/ryansolid/building-a-reactive-library-from-scratch-1i0p\nWhat the Hell is Reactive Programming, Anyway? - https://dev.to/this-is-learning/what-the-hell-is-reactive-programming-anyway-31p5\nI Changed my Mind. Angular needs a Reactive Primitive - https://dev.to/this-is-angular/i-changed-my-mind-angular-needs-a-reactive-primitive-n2g\nVirtual DOM is Pure Overhead - https://svelte.dev/blog/virtual-dom-is-pure-overhead\nComponents are Pure Overhead - https://dev.to/this-is-learning/components-are-pure-overhead-hpm"
+    }
+  }
+}

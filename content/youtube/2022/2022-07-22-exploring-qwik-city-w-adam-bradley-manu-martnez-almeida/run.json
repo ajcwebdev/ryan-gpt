@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Exploring Qwik City w/ Adam Bradley & Manu Martínez-Almeida",
+      "slug": "2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida",
+      "duration": "4:25:22",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=XoeJisRJjlo",
+      "publishDate": "2022-07-22",
+      "thumbnail": "https://i.ytimg.com/vi/XoeJisRJjlo/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 292,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 292,
+          "endTime": 666,
+          "title": "Welcome Adam & Manu"
+        },
+        {
+          "startTime": 666,
+          "endTime": 1785,
+          "title": "What is Qwik City?"
+        },
+        {
+          "startTime": 1785,
+          "endTime": 4573,
+          "title": "Getting Started with Qwik City"
+        },
+        {
+          "startTime": 4573,
+          "endTime": 6733,
+          "title": "Migrating the Hackernews Demo"
+        },
+        {
+          "startTime": 6733,
+          "endTime": 8921,
+          "title": "Making Fetch Happen"
+        },
+        {
+          "startTime": 8921,
+          "endTime": 9968,
+          "title": "Making Prefetch Happen"
+        },
+        {
+          "startTime": 9968,
+          "endTime": 15922,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "Qwik City is the new meta-framework from Builder.io, built on top of their framework Qwik. Qwik already takes a very unique approach to web applications and with the help of Adam and Manu we are going to understand what building full-stack apps looks like.\n\n[0:00] Introduction\n[4:52] Welcome Adam & Manu\n[11:06] What is Qwik City?\n[29:45] Getting Started with Qwik City\n[1:16:13] Migrating the Hackernews Demo\n[1:52:13] Making Fetch Happen\n[2:28:41] Making Prefetch Happen\n[2:46:08] This Week in JavaScript\n\nBanner credits: ©️ Original concept artwork (https://www.artstation.com/artwork/nqrYo) by Alex Feliksovich based on Ghost in the Shell."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Web Fragments: Micro-Frontends Done Right?",
+      "slug": "2025-10-24-web-fragments-micro-frontends-done-right",
+      "duration": "5:59:58",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=sneufVyPfiY",
+      "publishDate": "2025-10-24",
+      "thumbnail": "https://i.ytimg.com/vi/sneufVyPfiY/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 300,
+          "title": "Intro"
+        },
+        {
+          "startTime": 300,
+          "endTime": 3420,
+          "title": "React Server Component Performance"
+        },
+        {
+          "startTime": 3420,
+          "endTime": 5048,
+          "title": "Isomorphic First w/ Tanner Linsley"
+        },
+        {
+          "startTime": 5048,
+          "endTime": 13835,
+          "title": "Web Fragments - Micro Frontends Done Right"
+        },
+        {
+          "startTime": 13835,
+          "endTime": 15820,
+          "title": "Backlash against Directives"
+        },
+        {
+          "startTime": 15820,
+          "endTime": 19042,
+          "title": "Async First Framework"
+        },
+        {
+          "startTime": 19042,
+          "endTime": 20082,
+          "title": "State Selection Demo"
+        },
+        {
+          "startTime": 20082,
+          "endTime": 21597,
+          "title": "This Week in JavaScript"
+        }
+      ],
+      "description": "I've always been skeptical of Micro-Frontend technology. Calling it a necessary evil. But the developers from Cloudflare have been working on a radical approach, Web Fragments, that might just sway my opinion.\n\nIgor Minar and Natalia Venditto join me and special guest Tanner Linsley to talk about the realities of growing applications to the largest scale.\n\nGithub: https://github.com/web-fragments/web-fragments\nSignup for early adopters: https://forms.gle/qBHc67iuqbgXjyqm8\n\nReact Server Components Performance Article: https://www.developerway.com/posts/react-server-components-performance\n\n[0:00] Intro\n[5:00] React Server Component Performance\n[57:00] Isomorphic First w/ Tanner Linsley\n[1:24:08] Web Fragments - Micro Frontends Done Right\n[3:50:35] Backlash against Directives\n[4:23:40] Async First Framework\n[5:17:22] State Selection Demo\n[5:34:42] This Week in JavaScript"
+    }
+  }
+}

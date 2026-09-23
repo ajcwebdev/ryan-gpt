@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Breaking Down the Web /w Dan Jutan",
+      "slug": "2022-04-23-breaking-down-the-web-w-dan-jutan",
+      "duration": "2:56:29",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=REXtIuAJ3dE",
+      "publishDate": "2022-04-23",
+      "thumbnail": "https://i.ytimg.com/vi/REXtIuAJ3dE/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 230,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 230,
+          "endTime": 4277,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 4277,
+          "endTime": 5319,
+          "title": "Sketching the Page Load"
+        },
+        {
+          "startTime": 5319,
+          "endTime": 5815,
+          "title": "Looking at Timelines"
+        },
+        {
+          "startTime": 5815,
+          "endTime": 6444,
+          "title": "SSR vs CSR Timeline"
+        },
+        {
+          "startTime": 6444,
+          "endTime": 8212,
+          "title": "Comparing Rendering"
+        },
+        {
+          "startTime": 8212,
+          "endTime": 10336,
+          "title": "Comparing Routing"
+        },
+        {
+          "startTime": 10336,
+          "endTime": 10589,
+          "title": "Outro"
+        }
+      ],
+      "description": "Dan Jutan, Solid Core Team member in charge of Documentation, joins me tonight to help give context for a lot of the topics we cover on stream. We are going back to the fundamentals of Web architecture and performance answering any questions along the way. Expect lots of drawing.\n\n[0:00] Introduction\n[3:50] This Week in JavaScript\n[1:11:17] Sketching the Page Load\n[1:28:39] Looking at Timelines\n[1:36:55] SSR vs CSR Timeline\n[1:47:24] Comparing Rendering\n[2:16:52] Comparing Routing\n[2:52:16] Outro\n\nBanner credits: ©️ Wreck-It Ralph characters owned by Disney"
+    }
+  }
+}

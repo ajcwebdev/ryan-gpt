@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Making the World's Fastest Website and Other Mistakes w/ Taylor Hunt",
+      "slug": "2022-09-24-making-the-worlds-fastest-website-and-other-mistakes-w-taylor-hunt",
+      "duration": "5:47:29",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Vcq2DvkMz3k",
+      "publishDate": "2022-09-24",
+      "thumbnail": "https://i.ytimg.com/vi/Vcq2DvkMz3k/sddefault.jpg?v=632b9d50",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 570,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 570,
+          "endTime": 804,
+          "title": "Welcome Taylor"
+        },
+        {
+          "startTime": 804,
+          "endTime": 1170,
+          "title": "Introduction to Kroger"
+        },
+        {
+          "startTime": 1170,
+          "endTime": 1245,
+          "title": "The Journey to Performance"
+        },
+        {
+          "startTime": 1245,
+          "endTime": 1739,
+          "title": "UX vs DX"
+        },
+        {
+          "startTime": 1739,
+          "endTime": 1915,
+          "title": "Building an Alternate Frontend"
+        },
+        {
+          "startTime": 1915,
+          "endTime": 2365,
+          "title": "20kb of JavaScript"
+        },
+        {
+          "startTime": 2365,
+          "endTime": 3232,
+          "title": "The Lost Art of Streaming HTML"
+        },
+        {
+          "startTime": 3232,
+          "endTime": 3713,
+          "title": "Finding Marko"
+        },
+        {
+          "startTime": 3713,
+          "endTime": 4909,
+          "title": "Tackling Design"
+        },
+        {
+          "startTime": 4909,
+          "endTime": 6015,
+          "title": "SPA vs MPA"
+        },
+        {
+          "startTime": 6015,
+          "endTime": 6102,
+          "title": "Success?"
+        },
+        {
+          "startTime": 6102,
+          "endTime": 6670,
+          "title": "Killer Demo"
+        },
+        {
+          "startTime": 6670,
+          "endTime": 6921,
+          "title": "Are SPAs faster after the fact?"
+        },
+        {
+          "startTime": 6921,
+          "endTime": 7388,
+          "title": "Aftermath"
+        },
+        {
+          "startTime": 7388,
+          "endTime": 9103,
+          "title": "Q & A with Taylor"
+        },
+        {
+          "startTime": 9103,
+          "endTime": 9861,
+          "title": "Random Chat"
+        },
+        {
+          "startTime": 9861,
+          "endTime": 16515,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 16515,
+          "endTime": 20849,
+          "title": "Community and Inclusion"
+        }
+      ],
+      "description": "Taylor Hunt was tasked with the job to figure out if there was a viable way to improve his company's (Kroger) website performance. What started as a small exploration ended up being a 2-year journey through the full landscape of modern web development.\r\n\r\nToday we have him on the stream to talk about what web performance looks like in practice. How sometimes technology can make a difference while at the same time not ultimately being the decider. And all the lessons he learned along the way.\n\nArticle Series:\nhttps://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na\n\n[0:00] Preamble\n[9:30] Welcome Taylor\n[13:24] Introduction to Kroger\n[19:30] The Journey to Performance\n[20:45] UX vs DX\n[28:59] Building an Alternate Frontend\n[31:55] 20kb of JavaScript\n[39:25] The Lost Art of Streaming HTML\n[53:52] Finding Marko\n[1:01:53] Tackling Design\n[1:21:49] SPA vs MPA\n[1:40:15] Success?\n[1:41:42] Killer Demo \n[1:51:10] Are SPAs faster after the fact?\n[1:55:21] Aftermath\n[2:03:08] Q & A with Taylor\n[2:31:43] Random Chat\n[2:44:21] This Week in JavaScript\n[4:35:15] Community and Inclusion\n\r\nBanner image of Sisyphus from Classical Wisdom \"The Myth of Sisyphus and Lessons in Absurdity\" (https://classicalwisdom.com/mythology/gods/myth-sisyphus-lessons-absurdity/)."
+    }
+  }
+}

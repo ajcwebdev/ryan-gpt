@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Building JavaScript Framework Client Performance Tier List",
+      "slug": "2025-01-28-building-javascript-framework-client-performance-tier-list",
+      "duration": "1:02:29",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=E5amN0_1XyE",
+      "publishDate": "2025-01-28",
+      "thumbnail": "https://i.ytimg.com/vi/E5amN0_1XyE/sddefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 66,
+          "title": "Intro"
+        },
+        {
+          "startTime": 66,
+          "endTime": 181,
+          "title": "React"
+        },
+        {
+          "startTime": 181,
+          "endTime": 622,
+          "title": "2010-2013"
+        },
+        {
+          "startTime": 622,
+          "endTime": 1195,
+          "title": "2014-2015"
+        },
+        {
+          "startTime": 1195,
+          "endTime": 1968,
+          "title": "2016-2017"
+        },
+        {
+          "startTime": 1968,
+          "endTime": 2516,
+          "title": "2018-2019"
+        },
+        {
+          "startTime": 2516,
+          "endTime": 3227,
+          "title": "2020-2021"
+        },
+        {
+          "startTime": 3227,
+          "endTime": 3748,
+          "title": "2022-present"
+        }
+      ],
+      "description": "How performant is your favorite JavaScript Framework? I recently took a stab on stream in building a tier list, while reflecting on the history of Web development over the past 15 years.\n\nFull stream found: https://www.youtube.com/watch?v=kkUuaqDBSqA\n\n[0:00] Intro\n[1:06] React\n[3:01] 2010-2013\n[10:22] 2014-2015\n[19:55] 2016-2017\n[32:48] 2018-2019\n[41:56] 2020-2021\n[53:47] 2022-present"
+    }
+  }
+}

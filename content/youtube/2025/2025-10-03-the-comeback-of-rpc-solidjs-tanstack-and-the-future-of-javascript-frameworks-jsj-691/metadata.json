@@ -1,0 +1,12 @@
+{
+  "step1": {
+    "title": "The Comeback of RPC: SolidJS, TanStack, and the Future of JavaScript Frameworks  - JSJ 691",
+    "duration": "1:29:52",
+    "author": "Top End Devs",
+    "url": "https://www.youtube.com/watch?v=YKewvvRJTzs",
+    "publishDate": "2025-10-03",
+    "thumbnail": "https://i.ytimg.com/vi/YKewvvRJTzs/maxresdefault.jpg",
+    "channelUrl": "https://www.youtube.com/channel/UCABJEQ57MIn6X3TIHIebJUw",
+    "description": "In this episode of JavaScript Jabber, I sit down with Ryan Carniato, creator of SolidJS, and Tanner Linsley, the force behind TanStack, for a deep-dive conversation on the resurgence of Remote Procedure Calls (RPC) in modern web development. We explore why RPC is making a comeback, how frameworks like Solid, TanStack, and others are shaping the way we think about data fetching, and the technical innovations that are driving this movement forward.\n\nFrom streaming and serialization to type safety and the future of client-server communication, Ryan and Tanner share their experiences, insights, and the unique challenges they’ve faced building cutting-edge tools for developers. If you’ve been curious about where RPC fits in today’s frameworks—or just love geeking out about performance, signals, and developer experience—this is one episode you won’t want to miss.\n\nRyan Carniato\nRyan Carniato is the creator of SolidJS, a high-performance JavaScript framework built on fine-grained reactivity. He’s also a Senior Software Engineer at Sentry, where he explores new approaches to front-end architecture and developer experience. Through his open-source contributions, talks, and in-depth content, Ryan has become a trusted voice in the web development community, helping developers think differently about building fast, reactive applications.\n\nTanner Linsley\nTanner Linsley is the founder of TanStack, the home of widely adopted open-source libraries like TanStack Query (formerly React Query), TanStack Router, Table, Virtual, and more. A full-time open-source entrepreneur, Tanner has redefined how developers manage state, caching, and data fetching in modern applications. With a focus on performance, simplicity, and type safety, his tools power some of the most advanced applications on the web today."
+  }
+}

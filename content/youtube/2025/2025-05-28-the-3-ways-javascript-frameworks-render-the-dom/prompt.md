@@ -1,0 +1,284 @@
+---
+title: "0C-y59betmY"
+slug: "0C-y59betmY"
+duration: "16:51"
+channel: "Local"
+url: "file:///workspace/output/ryan-solo-host-audio/0C-y59betmY.m4a"
+---
+
+This is a transcript with timestamps. Do not include advertisements in the summaries or descriptions. Do not actually write the transcript.
+
+- Write a one-sentence description of the transcript.
+  - The one-sentence description shouldn't exceed 180 characters (roughly 30 words).
+
+- Write a one-paragraph summary.
+  - The one-paragraph summary should be approximately 600-1200 characters (roughly 100-200 words).
+
+- Create chapter titles and descriptions based on the topics discussed throughout.
+  - Include only starting timestamps in exact HH:MM:SS format, always using two digits each for hours, minutes, and seconds.
+  - Chapters should each cover approximately 3-6 minutes of content.
+  - Write a two-paragraph description (75+ words) for each chapter.
+  - Ensure chapters cover the entire content, clearly noting the last timestamp (HH:MM:SS), indicating total duration.
+  - Descriptions should flow naturally from the content, avoiding formulaic language.
+
+Example JSON output:
+
+{
+  "shortSummary": {
+    "episodeDescription": "A concise one-sentence description of the transcript in 180 characters or fewer."
+  },
+  "longSummary": {
+    "episodeSummary": "A single-paragraph summary of the transcript that explains the central topic, the main arguments or developments, the evidence or examples used to support them, and the broader takeaway for the audience. It should read as one cohesive paragraph rather than a list, staying informative without becoming exhaustive. The summary should mention the most important themes, clarify what changed or was learned over the course of the discussion, and note any conclusions, recommendations, or implications that would help someone understand the full conversation without reading the entire transcript. It should also preserve the flow of the discussion so the reader can follow how the ideas developed from beginning to end."
+  },
+  "longChapters": {
+    "chapters": [
+      {
+        "timestamp": "00:00:00",
+        "title": "Introduction and Overview",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      },
+      {
+        "timestamp": "00:04:30",
+        "title": "Core Ideas and Implications",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      }
+    ]
+  }
+}
+
+Transcript:
+[00:00:00] Hi, I'm Ryan Carniato, the creator of the JavaScript framework SolidJS.
+[00:00:03] Today, I'm going to talk about a topic that really defines JavaScript frameworks.
+[00:00:08] Rendering. That is, rendering to the DOM.
+[00:00:10] Dozens of frameworks have existed over the years.
+[00:00:15] but surprisingly very little variation on how they work. In fact, I'd say there are three approaches to rendering to the DOM and JavaScript frameworks, maybe even 2.5 really.
+[00:00:25] I'll let you decide by the end of the video.
+[00:00:28] Today, we're going to look at how that rendering works.  If you understand how rendering works in declarative JavaScript frameworks, you basically understand  the framework.
+[00:00:37] So what do I mean by declarative?
+[00:00:40] Well, I mean with templating, where it inputs state and outputs UI.
+[00:00:45] To understand what I'm talking about, I think we should probably look at the anatomy of a template in a JavaScript framework.
+[00:00:52] So I've got a JSX type template here, but really all templates kind of work the same.
+[00:00:58] The idea here is that if you look at it,
+[00:01:01] There are...
+[00:01:02] static parts like the section and h2 content things that can basically never change and
+[00:01:08] And then there's the dynamic...
+[00:01:09] parts that I'm calling holes, like this title or description, or really this whole
+[00:01:14] List.
+[00:01:15] map function here.
+[00:01:17] Now
+[00:01:18] Different rendering approaches treat these things different ways, but it's important to kind of  see your template in these terms to understand where the holes are, because like even inside  holes, you can have sub templates like this list item and inside it more holes. So templates really  are the kind of
+[00:01:34] composing of several different templates until they render the final output.
+[00:01:39] So how do we implement this?
+[00:01:41] We can start with the way they don't work today.
+[00:01:45] or at least any more, which is what Backbone did, or maybe what you used to do with jQuery.
+[00:01:52] That would be take our template,
+[00:01:54] and combine it into a string and enter HTML it.
+[00:01:59] In fact, I put together a simple example to show exactly how that works.
+[00:02:05] I will be using this example throughout this video. Basically it's a simple counter where on interval
+[00:02:11] I am setting the state which will update
+[00:02:14] the contents of a div.
+[00:02:16] I'm using an interval so we don't really have to get too much into state management and we can just focus on the rendering.
+[00:02:22] In this basic example, though,
+[00:02:24] we are just returning a string.
+[00:02:27] from our template function, which is just a div  and then the latest count.
+[00:02:32] This set state is basically the trick to us knowing when we need to trigger that template again.  And in fact, in our base class, that's what I've done.  When we initially create the app, there's an internal template function we call, this underscore T, which then applies the template.
+[00:02:47] and innerHTMLs it.
+[00:02:49] And when we call setState, same thing happens again.
+[00:02:52] So new state update.
+[00:02:54] rerender our string.
+[00:02:57] in your HTML.
+[00:02:59] This works.
+[00:03:00] as you can see.
+[00:03:01] Unfortunately, it's fairly unperformant.  It, in fact, unmounts the whole div
+[00:03:07] inside, that's why even the IDAptiv is flickering here.  Basically, the bigger your template gets,
+[00:03:14] the more DOM elements you're creating with every update.  And that is not efficient.
+[00:03:19] No modern JavaScript framework could work this way.
+[00:03:23] So how do we avoid recreating the DOM every time?
+[00:03:27] Well...
+[00:03:28] We can diff against it.
+[00:03:29] Check if an element has a value.
+[00:03:33] compare it to our new value and see if it's changed and if so we can then update it
+[00:03:38] But it turns out
+[00:03:39] that that can actually be slow too.
+[00:03:42] For example, child notes.
+[00:03:45] This is a property on a DOM node, which lets us...
+[00:03:48] iterate through the children.
+[00:03:50] It's an array.
+[00:03:51] But in the underlying engine,
+[00:03:54] It's actually a linked list.
+[00:03:55] So if you use that property, you actually realize the whole array instead of walking through it one at a time, like the underlying engine does.
+[00:04:04] This is actually expensive for memory and bad for performance.
+[00:04:08] There's actually
+[00:04:09] a number of properties on the DOM kind of like that.
+[00:04:11] Things that force paint.
+[00:04:13] or layout calculations when you read them.
+[00:04:17] This makes it kind of a landmine.
+[00:04:20] So,
+[00:04:21] We don't really...
+[00:04:23] Always want to read from the DOM either.
+[00:04:27] This is why people say the DOM is slow.
+[00:04:29] It isn't innately because, well, every JavaScript framework has to use the DOM to update the UI, but it's very easy to de-optimize.
+[00:04:38] So,
+[00:04:39] If we don't want to recreate the DOM every time,
+[00:04:42] and we don't want to read from it, what can we do?
+[00:04:47] So that brings us to our first modern method for rendering.  I'm gonna call it dirty checking.  It was pioneered by Angular,  but used by Ember and Svelte and Lit,  and basically any non-virtual DOM library historically.
+[00:05:04] Again, our example looks
+[00:05:06] Pretty similar.
+[00:05:07] We initialize some state.
+[00:05:09] We set that state on an interval
+[00:05:12] and we pass it to our template.  Except this time, it's a tag template literal.
+[00:05:17] - All right.
+[00:05:18] I'm using this approach because lit is a very modern approach to this, but
+[00:05:23] We've used different tools over time to basically accomplish the same thing.
+[00:05:29] Inside, you'll notice one key difference.
+[00:05:33] We only append now
+[00:05:35] in the constructor.
+[00:05:37] Okay.
+[00:05:38] Now, when we set state, we just call our template function and it handles everything else.
+[00:05:44] But...
+[00:05:45] The template function is not the same each time, this HTML function. We actually do something different on creation than from update.
+[00:05:54] In the case of Svelte, they actually basically pre-compile the work that needs to be done on creation, and then only worry about the updates.
+[00:06:01] But with something like Lit,
+[00:06:03] - Okay.
+[00:06:04] which is basically what I'm doing here, it will run that on the very first time a template is created.
+[00:06:10] And it works because for let tag template literals
+[00:06:14] have this cool property where the static
+[00:06:18] Nodes, basically like the string on the outside, the...
+[00:06:22] The div here...
+[00:06:23] get cached with the same reference, which means that we have this
+[00:06:28] amazing ability to
+[00:06:32] put it in a map and do lookups.  And this way we can associate the bindings.  What are bindings you're asking?  Bindings are basically
+[00:06:40] our data format that I've created here to describe the holes because our approach here
+[00:06:45] will be based on diffing the holes. We don't care about the static parts, they never change.  But the holes can change. So
+[00:06:52] we first process our template to kind of extract out where the holes are,
+[00:06:57] And then each update, we just update the holes  by comparing them.  So here, what I've done is I've actually taken our template
+[00:07:04] string here.  And I've actually...
+[00:07:08] basically joined it together with comment nodes to fill in the holes.
+[00:07:12] and instantiated our template into DOM elements.  This is how we render it the first time.
+[00:07:19] We actually use those DOM elements and crawl through them with this create binding call right here to actually find those comments. And I'm going to use a tree walker to kind of show this off. And depending on.
+[00:07:32] the context of where we find it, we might push on different types of bindings.
+[00:07:36] In our case, I kept it simple.  This is again, over the simplified,  there'd be different types of checks here,  but in our case, we're just,  we have an insert type that I've defined,  which references that comment node that we put in and,
+[00:07:49] has a value of undefined initially.  It won't have a value of undefined for long,  but this at least lets us initiate the bindings.
+[00:07:55] So...
+[00:07:57] Now, the first time we run our template literal function, we do all this processing, figure out where all the bindings are in the DOM, create our template.  And then every subsequent time we do this, we just call the diff...
+[00:08:10] function of the holes that come in against the previous bindings.
+[00:08:15] So...
+[00:08:17] How does this diff function work? Well, again, this is oversimplified. I've only created the code  to support one binding type, which is insert. But you kind of get the idea. It goes through,  and then if it finds a binding that's undefined, it'll go, "Okay, well, we need to
+[00:08:30] get the reference node, which in this case is the comment node, and insert a new text node before it with the value from the holes.
+[00:08:40] If
+[00:08:40] the value already exists,
+[00:08:43] then we can simply just take that previous element and update its node value
+[00:08:48] with the new value.
+[00:08:50] So as long as every time we call our set state up here, we rerun a template, it'll automatically diff the differences of the holes and keep the static stuff the same.
+[00:08:59] And this is, as I said, how Angular works, Svelte, Lit, Ember, a whole number of non-virtual DOM frameworks.
+[00:09:08] But I mentioned a moment ago that there are 2.5 ways to render.
+[00:09:14] Let's introduce that point five right now.  Pioneered by React, used by Vue, Inferno, Preact, Elm, Mithril...
+[00:09:21] Honestly, there's so many more. The virtual DOM.
+[00:09:24] is probably the most popular way frameworks render.
+[00:09:28] And
+[00:09:29] I'm going to show you that it's basically the same as dirty checking.  There are some key differences though, so let's take a quick look here.
+[00:09:37] This time you'll notice that instead of a tag template literal, we have a hyper script function or some frameworks call this the create element call. And you'll notice right away that
+[00:09:49] The div is just a string now.
+[00:09:51] We no longer have static parts. The whole tree is being recreated by this function call.
+[00:10:00] But other than that,
+[00:10:02] This is largely the same. We're calling our set state, which updates our count and
+[00:10:07] In our framework implementation, what you're going to see is
+[00:10:10] When we do that, we recall our template,
+[00:10:13] And we diff it.
+[00:10:15] In fact,
+[00:10:16] The probably most interesting difference here is that the diffing and the template code is basically the same from an external standpoint, both on initialization and setting the state.
+[00:10:29] It does do different operations when things are new.
+[00:10:32] you
+[00:10:33] versus when they already exist. But
+[00:10:36] the process is the same regardless of...
+[00:10:40] if it's the first time,
+[00:10:41] or it's any subsequent time.
+[00:10:46] so
+[00:10:47] First of all, what does our h function do?
+[00:10:51] In this case, I implemented a simple one that just goes through the list of arguments and essentially constructs our virtual DOM node.
+[00:11:00] In fact, let's just console.log it to see what it looks like.  Console.log in our node.
+[00:11:07] And you can see it here.
+[00:11:09] It has attributes, children, a type of div, and actually if you go to children, there's a text node in here with a value of zero.  And if I go further down, you're going to see...
+[00:11:18] that same text node,
+[00:11:20] Well, not the same because it's a different rendering, but
+[00:11:24] same place in the tree with a value of 9. So we just recreate this tree on every render that's  being triggered by that set interval.
+[00:11:33] So from there, when we diff...
+[00:11:36] Well, we can go, is it, does it not exist?  Is it a new node?  Has the type change?  And if so, you know, remove the old node  and create the appropriate types of node.  Is it a text node?  Is it an element?  And append them.
+[00:11:51] We can do some special handling here of the text node, you know, setting the text content. We can
+[00:11:56] Diff the attributes.
+[00:11:57] setting the attributes if they've changed, and diff the children.  This is basically how we propagate through our whole tree.
+[00:12:05] All in all,
+[00:12:06] This is still...
+[00:12:09] dirty checking. It's still a diff, except it happens in two passes instead of one. We're not just diffing the holes this time, we're actually constructing a structure
+[00:12:17] And then
+[00:12:18] Diffing that
+[00:12:20] Completely now that does allow for some dynamicism. It also allows a
+[00:12:26] the virtual DOM to very easily go in other environments.
+[00:12:30] let's say like mobile where there isn't a Dom because it isn't until you get to the diff
+[00:12:36] down here that you actually are dealing with Dom nodes.
+[00:12:39] or with things specific to the browser.  The virtual DOM part here is simply just a data structure.  So it gives...
+[00:12:46] virtual DOM is a lot of flexibility.
+[00:12:50] And importantly...
+[00:12:51] When we...
+[00:12:52] look here, you can see that again, we're just updating the one text node in here.  We're not redoing the whole div.
+[00:12:59] So even though we are recreating these virtual nodes, we're not recreating the DOM nodes.
+[00:13:06] So, I mentioned earlier that there was one other approach, and it's pretty different  from the others.
+[00:13:12] Popularized by Solid, we've started to see this approach getting picked up by Svelte 5 and the upcoming Vue Vapor.
+[00:13:19] And that's fine-grained rendering.
+[00:13:22] For the fine grained rendering example,
+[00:13:26] see no point keeping it a class because there's no...
+[00:13:30] state that is
+[00:13:31] belongs to the component, so to speak. There's no need for a set state. We have our own change management system. In fact, the create signal and create effect are the only thing being imported
+[00:13:42] from the quote framework.
+[00:13:44] In fact, there's kind of no framework here instead.
+[00:13:49] our template,
+[00:13:50] gets compiled to this.  Now, this does not look like a template anymore.
+[00:13:55] The Hyperscript function still kind of look like a template.  So did the tag template.
+[00:14:01] literals. But the truth is pretty much all JavaScript frameworks use a compiler these days.
+[00:14:07] So whether your JSX gets compiled to this
+[00:14:12] or your JSX gets compiled to this.
+[00:14:16] It's not really that big of a difference.
+[00:14:20] Templates generally do get compiled for performance reasons.
+[00:14:24] But...
+[00:14:26] Otherwise, this example is very similar. We create some state,
+[00:14:30] and we
+[00:14:31] Set an interval that updates that state every second.
+[00:14:35] We turn an element and then...
+[00:14:37] We call our function once and we attach it to the DOM.
+[00:14:40] So what's the framework doing?
+[00:14:43] I made again a very oversimplified version of this.
+[00:14:47] But essentially...
+[00:14:50] We have a signal.
+[00:14:51] which has observers,
+[00:14:53] And when you read from a signal, if there's an observer and this observer is...
+[00:14:58] set in the global scope, I'll show you how that works in a second, we add it to the signals observers.
+[00:15:03] Then later when we set the new value, we iterate through the list of observers and call the
+[00:15:09] each one of them to basically let them know things have changed. In our case, our observer is a fact, which is just a function here.
+[00:15:17] We call it initially when it's created, but then after the fact whenever it's called when the value updates it simply
+[00:15:24] sets itself as the observer,
+[00:15:26] calls its internal function, which will then read from some signals,  including our count in this case, which will add it to its list,
+[00:15:36] And when we're done, we just remove ourselves from that global scope.
+[00:15:40] And that's really all there is to it.
+[00:15:41] Because it just closes the loop.
+[00:15:44] and you get an update.
+[00:15:46] So in a sense, this approach
+[00:15:48] is
+[00:15:48] Very, very simple.
+[00:15:50] yet very, very efficient.
+[00:15:52] Again,
+[00:15:53] It only updates the one text node.
+[00:15:56] unsurprisingly, because that's the only code that runs. Instead of
+[00:16:00] diffing a virtual DOM or diffing the holes, it just
+[00:16:04] runs once and then just updates what has actually changed.
+[00:16:08] And that's basically rendering in JavaScript frameworks in a nutshell.
+[00:16:14] They're
+[00:16:15] Our trade-offs with each approach, to be fair,
+[00:16:18] Obviously, the virtual DOM gives a little bit more dynamicism in some cases.
+[00:16:22] uh,
+[00:16:24] you know, some approaches are more
+[00:16:27] performant or require you to opt into things like say signals as your change management system.
+[00:16:33] But
+[00:16:34] In the end,
+[00:16:37] There are really only these few ways that all JavaScript frameworks work.
+[00:16:43] If you enjoyed the content of this video and you want to see more beginner content like this,
+[00:16:47] Let me know in the comments, like and subscribe and I'll keep on making videos.

@@ -1,0 +1,142 @@
+---
+title: "VgGl9i-OBBI"
+slug: "VgGl9i-OBBI"
+duration: "10:45"
+channel: "Local"
+url: "file:///workspace/output/ryan-solo-host-audio/VgGl9i-OBBI.m4a"
+---
+
+This is a transcript with timestamps. Do not include advertisements in the summaries or descriptions. Do not actually write the transcript.
+
+- Write a one-sentence description of the transcript.
+  - The one-sentence description shouldn't exceed 180 characters (roughly 30 words).
+
+- Write a one-paragraph summary.
+  - The one-paragraph summary should be approximately 600-1200 characters (roughly 100-200 words).
+
+- Create chapter titles and descriptions based on the topics discussed throughout.
+  - Include only starting timestamps in exact HH:MM:SS format, always using two digits each for hours, minutes, and seconds.
+  - Chapters should each cover approximately 3-6 minutes of content.
+  - Write a two-paragraph description (75+ words) for each chapter.
+  - Ensure chapters cover the entire content, clearly noting the last timestamp (HH:MM:SS), indicating total duration.
+  - Descriptions should flow naturally from the content, avoiding formulaic language.
+
+Example JSON output:
+
+{
+  "shortSummary": {
+    "episodeDescription": "A concise one-sentence description of the transcript in 180 characters or fewer."
+  },
+  "longSummary": {
+    "episodeSummary": "A single-paragraph summary of the transcript that explains the central topic, the main arguments or developments, the evidence or examples used to support them, and the broader takeaway for the audience. It should read as one cohesive paragraph rather than a list, staying informative without becoming exhaustive. The summary should mention the most important themes, clarify what changed or was learned over the course of the discussion, and note any conclusions, recommendations, or implications that would help someone understand the full conversation without reading the entire transcript. It should also preserve the flow of the discussion so the reader can follow how the ideas developed from beginning to end."
+  },
+  "longChapters": {
+    "chapters": [
+      {
+        "timestamp": "00:00:00",
+        "title": "Introduction and Overview",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      },
+      {
+        "timestamp": "00:04:30",
+        "title": "Core Ideas and Implications",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      }
+    ]
+  }
+}
+
+Transcript:
+[00:00:00] Hi, I'm Ryan Carniato, the creator of the JavaScript framework SolidJS, and today I'm very happy to talk to you about my favorite subject.
+[00:00:06] signals.
+[00:00:07] This is not an intro to using signals video, I really should have recorded that by now, but I find it timely to address the biggest barriers to adoption for React developers.
+[00:00:16] It starts with understanding the history. Signals are not new.
+[00:00:20] They have their roots in reactive research going back to the late 1960s around the first electronic spreadsheets.
+[00:00:25] The term itself was coined in the late 1970s by researchers working on synchronous programming language models.
+[00:00:31] This led to developing languages we use to model digital circuits today, like Verilog or VHDL.
+[00:00:36] Throughout the 1990s, there was research into using similar techniques for user interfaces,  but it didn't really enter the web vernacular until Knockout.js in 2010 and the number of  JavaScript frameworks that followed in the early 2010s.
+[00:00:47] although those signals, called observables at the time, are a bit different than the signals we know today.
+[00:00:53] Enter React in 2013. It denounced using special data primitives and used plain objects to re-render as needed instead. This is a very simple model to think about and it hid some of the more inconsistent details from developers. Like if you have a big immutable tree, how do you update in the middle?
+[00:01:09] Or how do you persist state in there?
+[00:01:10] We'll get back to that.
+[00:01:12] By 2015 it was clear React had won.
+[00:01:15] and ever since it has clearly dominated the front end space. But strangely, 10 years later, we're in a very different state of things, with almost all major frameworks using signals to some degree except React.
+[00:01:25] There's a good chance if you've used any of Angular, Vue, Preact, Svelte, SolidJS, Lit, or Quick, you run into signals.
+[00:01:32] So what's going on?
+[00:01:35] Signals are not the same as they were 15 years ago.
+[00:01:39] Signals, at their core, are an event system. You have publishers and subscribers. However,  they are more specific than a typical event system in that their only event is their value,  and they relay events along a whole graph synchronously based on value change.
+[00:01:52] They are also more than an event system which only relies on pushing out change notifications.  They defer execution until their values are pulled.  So while a state change may schedule some value update or side effect, it's not until  you read that value or execute that side effect that the code needs to run.
+[00:02:07] This is called push-pull system. It gives us guarantees that aren't possible in a purely pushed based system like an event.  No matter the graph shape, we can ensure that each node runs only once and with the correct value.
+[00:02:20] This is called glitch-free execution as it has become common in signals libraries in JavaScript after 2015 thanks largely to the state library MobX.
+[00:02:27] This means that signals form a directed, acyclic graph, and their updates are predictable and  avoid stabilization bouncing that were common in the early 2010s.
+[00:02:37] React is also not the same as it was 10 years ago.
+[00:02:41] React may have started with plain objects, but in 2018 they introduced hooks, which in a lot of ways look a lot like signals.
+[00:02:47] They have the same base of state derived or memoized state and effects.
+[00:02:51] but they still fit into the React re-render model.  The result has been a lot of great things,  mostly granular composition pattern that works  at a finer granularity than components.  Hooks brought in a new error with React  that felt way more powerful than what came before.
+[00:03:05] However,
+[00:03:06] It required bringing in some special data pruners, and in so a lot of the selling points of early React were traded in.
+[00:03:11] more so expose the impurities of React in a more user-facing way.  React developers now need to be aware of stable references for dependency arrays.  They need to be aware that some state does persist between renders for this model to be efficient.
+[00:03:23] This was always there, but now the developer had control over it, which in a lot of ways is a great thing, but it also meant the clean rhetoric that surrounded React in its early days no longer holds.
+[00:03:32] It's a lot closer to those approaches it condemned.
+[00:03:36] Probably the biggest advantage of Signals is to leverage fine-grained rendering.  It's an approach where the rendering tree is made up of many independent effects that update the  DOM as needed.
+[00:03:45] It leads to a model where instead of having whole components re-execute, specific parts of the UI update when their dependencies change.
+[00:03:52] Now, a virtual DOM is pretty efficient at updating only the parts of the DOM that change, so there is some nuance in the actual difference in these models. It comes down to who owns the state.
+[00:04:02] In React, a component owns the state. No matter where in your code you trigger the setState call, it will cause the owning component to rerun and reconcile the differences. While you can prune branches of execution based on memoization, if that thing that relies on the change is deep in your tree, every component between where the state is owned and where it is used will rerun.
+[00:04:20] Signals own their own state and aren't even aware components exist. So they only care if something that depends on them updates. New nodes only exist where things are derived. So if a value passes through 20 components, the graph stays shallow. It scales with decisions, not with UI, and the components in between where the signal is declared and where it's used don't need to rerun.
+[00:04:39] In fact, the signal can be pushed up into context or even globally with no consequence other than
+[00:04:45] what has access to it. This results in a system that is more or less memoized by design as things don't update, won't run.  And more so can describe complicated data structures higher in the tree without scaling up the amount of work that the framework has to do, because regardless of how the state makes its way down, whether through direct reference, props, context,
+[00:05:03] A small change can directly connect to a leaf far down in the tree.
+[00:05:08] Unsurprisingly, given the way React popularized itself by promoting control flow over data flow,
+[00:05:12] There are a lot of myths that have propagated around signals that need to be addressed.
+[00:05:17] Myth #1: Signals rely on advanced compilation or magic.
+[00:05:23] Signals are completely runtime.
+[00:05:25] And work without a compiler. Signals work by injecting, tracking context into scope, and then subscribing as the code runs. When the signals update the subscribers, will be notified and eventually rerun.
+[00:05:36] It's definitely a system, but not one any more magical than something else.
+[00:05:39] While it is common to compile templates, that is not necessary. Signals work with tag template literals or even just directly with the DOM. There are nice benefits to using signals with template compiler for ergonomics, which is why you see most frameworks use compilers for that. But so does Reacts.jsx. It's just a well-known compiler adopted by more tools. It doesn't make it more or less magical.
+[00:05:58] Some solutions also compile signals themselves, like cell ruins.
+[00:06:02] for other perceived ergonomic gains, but
+[00:06:05] That's in no way necessary.
+[00:06:07] Myth #2: Signals don't scale Usually this comes down to the accusations of  two-way binding, unpredictable updates, and memory leaks.
+[00:06:14] These were real concerns for JavaScript frameworks in the early 2010s, but a lot has changed.
+[00:06:20] Two-way binding is a divisive topic even today, but
+[00:06:24] not one tied necessarily to signals. Signals make it easier, but the framer can choose not to use it.
+[00:06:29] Because signals are glitch free directed graphs, their execution is unidirectional and predictable,  so the only concern comes down to how permissive you are with updating state. In solid we use
+[00:06:37] tuple destructuring like React to enforce read/write segregation, and Svelte used their compilers so one cannot directly hold a signal in a variable. Both of these approaches remove the risk of implicit writing outside of declaration scope.  Being a version of the observer pattern, memory leaks are classically a concern because we keep references both directions between observer and observed. However, while slightly different than React's components, we can leverage nesting in the graph to create similar life cycles so that children automatically dispose of their parents.
+[00:07:03] There's no manual subscribe unsubscribe and memory is released automatically.
+[00:07:08] If anything, having only what change updates can lead to more predictable executions as part of the graphs are isolated and you aren't tracing up component trees to see what ancestor component is causing some unintentional re-render.
+[00:07:20] While there might be fewer examples out there, a lot of large-scale apps
+[00:07:23] use this architecture. Many have been built in signal frameworks over the years, including some of the most used applications in the world with the introduction of signals into the Google frameworks.
+[00:07:33] like YouTube. In other languages, signals power things like Jane Street's incremental,  which calculate prices across the stock market in real time.
+[00:07:40] Myth #3: Adding signals make frameworks faster
+[00:07:43] Huh? You thought one of the bonuses signals its performance?
+[00:07:47] Well, it is, but signals on their own
+[00:07:50] is a state management system.  You add them to an existing system, there's overhead.  While adding state management like Jotai, Zustan,  to the React application to help you write more performant code,  vanilla React will always be faster.
+[00:08:00] And the same is true here.
+[00:08:01] Even in the case where there's some optimization,  like in Preact,
+[00:08:05] Well, its class components are still more performant than using signals in most cases.  The reason is, rendering still mostly needs to go through the virtual DOM there.
+[00:08:12] And for this reason,
+[00:08:13] I don't expect to see signals in React.
+[00:08:16] What makes signals faster is what you can take away.  Complete architecture change, like fine-grained rendering, you find in SolidJS, and more recently Svelte 5 and the upcoming Vue Vapor, that's where performance comes in.
+[00:08:27] Myth #4: React compiler is equivalent to signals.  If you've watched this video to this point, you probably know enough to understand the  difference.  The React compiler is an amazing auto-memorization system, but still plays within the rules of
+[00:08:39] It still has to run components from source to use even if
+[00:08:43] can hide a lot of the complications from the end user.
+[00:08:45] This is great honestly, because memoization was something easy to get wrong, and it wasn't exactly free. The compiler uses a cheaper version of memoization than the dedicated use memo use callback hooks, and is smart enough to know in most cases where memoization isn't even necessary.
+[00:08:58] This means the React compiler is a very good tool for you to write optimal React code,  but it does nothing to change the performance ceiling of React's
+[00:09:05] It doesn't make React faster, it makes your code faster, whereas signals are just intrinsically faster because they do less work.
+[00:09:13] Myth #5: The virtual DOM can do things you can't with signals.
+[00:09:17] - Thank you.
+[00:09:18] This myth comes in a few forms, but the problem is assuming we're comparing similar things.  Signals are just a state management solution. A VDOM is more equivalent to a fine grained renderer
+[00:09:27] where it sits on the stack.  But what makes fine-grained rendering interesting  is it is just a name for doing small independent effects.  So it doesn't preclude the possibility of those effects
+[00:09:35] diffing or using a virtual DOM. For example, fine-grained rendering, like the virtual DOM,  doesn't need to be aware of the underlying platform until the last step.
+[00:09:44] So multi-platform with custom renderers  exist with the virtual DOM just as readily.  With equal effort, you can make a custom render with React
+[00:09:51] as you can with, say, solid.  There are solid renders for WebGL, Terminal, PDFs, Mobile, Desktop, Television, etc.
+[00:09:58] Concurrent rendering is something that is also implemented solid with transitions and can handle multiple realities.  We've even dabbled in time slicing, done server component prototypes and demos.
+[00:10:07] .
+[00:10:08] There are areas that if worth pursuing are options and there are areas unique
+[00:10:12] leveraged by signals that we haven't even explored yet.
+[00:10:15] So, while given the larger ecosystem of React and resources that come with it,
+[00:10:19] More directions have been explored there. It isn't due to some technical limitation of signals.
+[00:10:24] Well, I'm sure there are way more things I could tell you about signals.  I love talking about it.
+[00:10:29] But I hope that clears up some things at least.  So the next time you see them,  you might not just dismiss them outright  and be more open to hearing
+[00:10:36] more. As always, if you like this shorter content, like, comment, and subscribe, and I'll just keep  making more of these videos.
+[00:10:44] Till next time.

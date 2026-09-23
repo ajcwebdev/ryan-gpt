@@ -1,0 +1,4041 @@
+---
+title: "VdDJbrh23zo"
+slug: "VdDJbrh23zo"
+duration: "4:53:12"
+channel: "Local"
+url: "file:///workspace/output/ryan-solo-host-audio/VdDJbrh23zo.m4a"
+---
+
+This is a transcript with timestamps. Do not include advertisements in the summaries or descriptions. Do not actually write the transcript.
+
+- Write a one-sentence description of the transcript.
+  - The one-sentence description shouldn't exceed 180 characters (roughly 30 words).
+
+- Write a one-paragraph summary.
+  - The one-paragraph summary should be approximately 600-1200 characters (roughly 100-200 words).
+
+- Create chapter titles and descriptions based on the topics discussed throughout.
+  - Include only starting timestamps in exact HH:MM:SS format, always using two digits each for hours, minutes, and seconds.
+  - Chapters should each cover approximately 3-6 minutes of content.
+  - Write a two-paragraph description (75+ words) for each chapter.
+  - Ensure chapters cover the entire content, clearly noting the last timestamp (HH:MM:SS), indicating total duration.
+  - Descriptions should flow naturally from the content, avoiding formulaic language.
+
+Example JSON output:
+
+{
+  "shortSummary": {
+    "episodeDescription": "A concise one-sentence description of the transcript in 180 characters or fewer."
+  },
+  "longSummary": {
+    "episodeSummary": "A single-paragraph summary of the transcript that explains the central topic, the main arguments or developments, the evidence or examples used to support them, and the broader takeaway for the audience. It should read as one cohesive paragraph rather than a list, staying informative without becoming exhaustive. The summary should mention the most important themes, clarify what changed or was learned over the course of the discussion, and note any conclusions, recommendations, or implications that would help someone understand the full conversation without reading the entire transcript. It should also preserve the flow of the discussion so the reader can follow how the ideas developed from beginning to end."
+  },
+  "longChapters": {
+    "chapters": [
+      {
+        "timestamp": "00:00:00",
+        "title": "Introduction and Overview",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      },
+      {
+        "timestamp": "00:04:30",
+        "title": "Core Ideas and Implications",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      }
+    ]
+  }
+}
+
+Transcript:
+[00:00:02] All right. Hello, everyone. We're going to kick this old school. No intro screen or nothing.
+[00:00:10] we just can get straight to the good stuff right now straight to me sipping on this wonderful wonderful
+[00:00:18] coconut water.
+[00:00:19] How's everyone doing today?
+[00:00:22] Yeah, everyone doing good?
+[00:00:26] Mm-mm-mm.
+[00:00:27] That's some good coconut water.
+[00:00:30] Thank you.
+[00:00:32] Yeah, come say hi in the chat.
+[00:00:34] Some of you say hi really early.  It's 5.30 a.m. my time, but...
+[00:00:39] So it's cool that you can chat before the stream even starts.
+[00:00:42] Yeah, not late.
+[00:00:43] *Cough*
+[00:00:44] Yeah.
+[00:00:46] Yeah.
+[00:00:48] Thank you. Thank you. Thank you.
+[00:00:51] Hey. Hey.
+[00:00:52] Thank you.
+[00:00:54] Oh, awesome to see everyone here. Yeah, we're gonna have some fun today. I hope you know, I don't know.
+[00:00:59] I it's an interesting one because I feel like a little bit.
+[00:01:02] out of date on some stuff.
+[00:01:04] Um,
+[00:01:08] Because I haven't been keeping up.  I've been working on things that are, you know, tricky.
+[00:01:12] Um,
+[00:01:14] But on the other hand,
+[00:01:16] Okay.
+[00:01:17] Like, I feel like this stream has a real opportunity to go off the rails and where you go really deep on something, you know?
+[00:01:26] You know?
+[00:01:27] So...
+[00:01:30] Yeah, I mean, that has its own danger, right?
+[00:01:34] Yeah.
+[00:01:35] Hey.
+[00:01:37] Hey, Johnny.  Yeah.  Happy Friday.  Yeah.  How long has it been?  It's been like a month and it wasn't my intention.  I just some, you know, events, events.
+[00:01:45] Thank you.
+[00:01:46] can have happened on Fridays, you know,
+[00:01:50] Um,
+[00:01:51] My daughter had like the singing thing in one time and it just kind of turned out that way.  I was like trying to think of an idea for a stream and I could get into it.  And the thing is, I've been writing a lot of like hack MDs and working through lots of really cool ideas.  And we might find some time to talk about those today as well.  But, you know, it just...
+[00:02:08] It just...
+[00:02:09] I warned you all back in February that I wouldn't be streaming as much because trying to get, you know...
+[00:02:16] work done.
+[00:02:18] Obviously, solid start release was a big push the last little while, but
+[00:02:23] In general,
+[00:02:26] While stuff is happening at a rapid rate, it's...
+[00:02:29] Tends to happen in bursts.
+[00:02:31] I do like using the calmer times to showcase some of the really cool projects out there in the ecosystem, like talking about Lightning.js.
+[00:02:39] you know, seeing solid powering, you know,
+[00:02:41] TVs, Comcast, you know, stuff like that is really cool.
+[00:02:46] Oh God, how good does it feel? So good. The problem is when you're getting towards that last bit where you're trying to push something across the finish line, you're like, dude, you hold it up a bit longer. There's a couple bugs.
+[00:02:56] that one particularly that just been driving me nuts but i knew that like
+[00:03:02] it wasn't going to get fixed in time of like my target release window.  And it was just like,  okay,  like,
+[00:03:09] It sucks.
+[00:03:10] But it will get fixed and we just got to move forward on it.  Right. You know,
+[00:03:15] So,
+[00:03:16] I'm very glad. I started Solid Start in 2021.
+[00:03:22] I mean, technically, I was looking into stuff.
+[00:03:25] over Christmas of 2020 time period.
+[00:03:29] Um,
+[00:03:31] But like beat two came out and I was like,  okay,  they support,  I moved off snowpack.
+[00:03:36] I made a couple issues for Fred over there for a bit, but then I moved off Snowpack.
+[00:03:41] And then I was like, okay, let's do this.
+[00:03:43] And then a lot of the core ideas actually showed up in that early version.
+[00:03:49] they're a little different. I think even before solid 1.0 release, we had actions.  They weren't the compiled RPC, you know, server stuff that we have today. That's what Nikhil added  about almost a year later. But we, I like the basic patterns that I wanted to follow there were  there in that, you know, first version, you know, I'm, I used to show off streaming on the edge  for cloud flare and then,
+[00:04:13] for sale when they launched it and Netlify, right?  We were their first streaming framework on all of those platforms.
+[00:04:23] And
+[00:04:24] But to go from those awesome prototypes
+[00:04:27] to the actual like release version was actually pretty difficult.  It's I really hate
+[00:04:32] making opinionated decisions and working through this stuff.  And I think we did a pretty good job, but I mean, it's it's
+[00:04:38] It's, it's always challenging people.  A lot of people were just like, just pull the trigger, stamp it, ship it.  We'll worry about this in V2.  And I was like, okay.
+[00:04:48] Yeah, but I don't want to set the wrong expectations. So yes, it's been a lot.
+[00:04:54] Thank you.
+[00:04:55] I've been learning some just reading Twitter last week. I hope so. I think there's been some really good high level debates about a lot of topics and I want to get into them this week. That's why this can go a lot of ways depending on where you all are with me chat.
+[00:05:07] so to speak.
+[00:05:09] Thank you.
+[00:05:10] Thank you.
+[00:05:12] Yeah, very long time.
+[00:05:14] Thank you.
+[00:05:15] Oh, what's the bug?
+[00:05:17] Adding new routes.
+[00:05:19] during, basically, if you have a catch-all route,
+[00:05:23] it will serve up the old code.  So you end up in this weird place where,  um,
+[00:05:28] the new page gets added and either the client of the server serves up the 404 page  and then the hydration doesn't match.
+[00:05:36] So you get a hydration error and like it doesn't go away.  It's like cached in some weird way.  And it's nerve wracking as hell because you can actually fix it by either turning on and off the dev server or actually going in.
+[00:05:50] the browser and actually disabling uh like basically like refreshing on the cache i didn't  notice this for as much right away because i always run cache off but like it's it's it's really  frustrating because like what's the first thing you do when you get a meta framework you don't  try something you like add a new route and everybody crashing on that i just picture  all the like i'm trying solid start for the first time oh
+[00:06:12] What hydration error? It's a nightmare scenario. The bug itself isn't like when you're actually building the stuff isn't that big of a deal. But it's like literally the worst bug possible for the like, I'm a new developer, I just opened the CLI, I'm gonna start solid start today. It's like literally the worst bug.
+[00:06:28] Thank you.
+[00:06:31] Thank you.
+[00:06:35] Hello.
+[00:06:37] nice nice hype train okay yeah thanks for giving me know what's going on in twitch yeah
+[00:06:42] wow yeah level two hype train thank you very much for people who've been subscribing who  do we got here we got dev subscribe thank you hernan yvv um
+[00:06:53] Oh, Dev, 15 months.
+[00:06:56] Very appreciative.
+[00:06:58] XD was taken, subscribe with Prime.  Remember that you can always subscribe with Prime  if you have a Prime account.  It's a free sub to one of your favorite channels.
+[00:07:06] Badger Dev, 16 months. Wow.
+[00:07:10] Thank you very much for subs.
+[00:07:13] Very much appreciated.
+[00:07:18] Thank you.
+[00:07:19] Next has been changing some stuff on the caching might talk about it might not let's just keep going.
+[00:07:29] Yeah, yeah, yeah, yeah, yeah. It's just a dev bug.
+[00:07:32] We have more of those because we built this fancy dev layer with Vinci.  More bugs on the dev side, definitely.
+[00:07:43] Thank you.
+[00:07:46] Thank you.
+[00:07:48] Anyway, we got some people on the stream now. We got over 100. I guess I could get started.
+[00:07:57] Thank you.
+[00:07:58] I probably should retweet that we're live, eh?
+[00:08:01] Thank you.
+[00:08:01] Yeah, I mean, I have so much to cover today.  I'm not even 100% sure where I want to start.  I made some notes, but the notes are not...
+[00:08:11] I don't think the notes are going to get us to where we need to get to, you know, so to speak.  I think there's just, you know.
+[00:08:16] Stop.
+[00:08:17] present share screen watch this be like been so long that i won't even remember that i i
+[00:08:22] that I share my screen.
+[00:08:24] Okay, it worked.
+[00:08:26] Huh.
+[00:08:26] Good.
+[00:08:27] Okay.
+[00:08:29] Thank you.
+[00:08:30] I like putting Twitch for the live link because it's just a better interaction.
+[00:08:36] I think.  I don't know.  If you're on YouTube, please hit the like button.
+[00:08:40] button helps
+[00:08:42] a ton
+[00:08:44] Okay? Like...
+[00:08:45] an enormous amount.
+[00:08:47] Thank you.
+[00:08:48] Kind of unsettling amount, actually.  But yes, anyways.
+[00:08:55] I'm live, Twitch TV, Svarian Salt.  Is that even my right...
+[00:08:59] Yeah, it looks right. Okay, thank you.
+[00:09:03] I like seeing stuff like, and we're live, but I don't care.  I'm just lazy.
+[00:09:08] Switch is better. All right. Well, that's good to know.
+[00:09:13] All right. All right.
+[00:09:14] Okay.
+[00:09:16] Bye.
+[00:09:17] I love those approach to solid if newcomers. The thing I think I'm missing for a good glossary of all the terminology in the space, it's not well defined anywhere. Yeah, and I'm not much help here. It's funny, I just did a podcast this morning.
+[00:09:28] And,
+[00:09:29] or it was like a meetup thing where I met and it was an angular audience and  I'm like presenting my normal stuff. And I was like,
+[00:09:35] Oh.
+[00:09:37] Yeah, this is probably just missing a little bit. Like I think it takes some time to stop.  It's because Angular is a community that actually has a slightly, like some of the stuff is now kind  of uniting, but classically they've had a bit of difference in jargon. Like they use different  terminology for different stuff and certain areas haven't been as explored. So like when I, I was  like sitting there talking about like, you know how I jump between all the frameworks like rapidly.  Like I, this is my problem. I talk to people, I expect everyone to know React.
+[00:10:03] Most people don't know Svelte or Vue.
+[00:10:05] And so like
+[00:10:07] it's definitely like I was like pausing a moment.  I'm like,
+[00:10:10] Crap.  Like,  am I actually making any sense to anyone?  It might like,  like,
+[00:10:16] Yeah, Angular is a bit of a gap for me.  Adminco come on stream and teach me about dependency injection and stuff.  But I and obviously the reactivity and the signal stuff I get.  But historically, I know less about Angular than most of the friends.  Most of the other frameworks, I feel comfortable sitting with the framework  authors and a panel or something in for them to answer questions.
+[00:10:37] Angular is not one of those frameworks.
+[00:10:41] Thank you.
+[00:10:45] Thank you.
+[00:10:47] Yeah, there's an insane amount. Mm-mm.
+[00:10:51] And the train's still going?
+[00:10:54] Thank you.
+[00:10:57] Thank you. Talk today was great. Good. Okay. So,
+[00:11:00] At least I made some sense. Thank you. I appreciate that.
+[00:11:04] All right.
+[00:11:05] We got more subs coming in.
+[00:11:10] Thank you.
+[00:11:11] uh,
+[00:11:20] Oh, man.
+[00:11:23] You guys are...  Sorry, I just saw what Dev posted.  You guys are having too much fun with the memes.  I mean, I'm not surprised, but...
+[00:11:31] Like...
+[00:11:35] Thank you.
+[00:11:36] Thank you.
+[00:11:37] Yeah.
+[00:11:38] Thank you.
+[00:11:39] Oh, man.
+[00:11:47] It does feel a little mean, doesn't it?
+[00:11:50] Thank you.
+[00:11:51] I don't know.  There's been a lot of conversation about what fine-grained reactivity means this week, and we'll talk about it.
+[00:11:58] Um,
+[00:11:59] It's just...
+[00:12:06] Thank you.
+[00:12:06] Yeah.
+[00:12:11] Thank you.
+[00:12:13] Yeah.
+[00:12:16] React is reactive.  They're trying to find... I understand  why they're trying to find a place here.  It is funny that...
+[00:12:22] So the whole...
+[00:12:24] Thank you.
+[00:12:25] community kind of built out around this stuff.
+[00:12:28] To be fair, I don't know the order of these hands.  I feel like maybe Ember...
+[00:12:33] might have
+[00:12:34] and maybe out of these ones ember was probably first to have some kind of fine-grained reactive system
+[00:12:42] Probably. Anyway, it doesn't really matter.
+[00:12:46] but we'll talk a bit about what this means today.  I just,  there's been some like really,  it's hard to,  it's hard to,  I guess,  to be the popular solution.  Sometimes you invite the conversation.  You don't realize it.  Like,
+[00:13:00] I saw something the other day, like
+[00:13:03] Thank you.
+[00:13:04] Like,
+[00:13:05] this one.
+[00:13:06] Like,
+[00:13:07] Thank you.
+[00:13:08] Thank you.
+[00:13:08] Thank you.
+[00:13:10] Thank you.
+[00:13:10] you
+[00:13:12] Mmm.
+[00:13:21] I have to admit, I get the sentiment behind this.
+[00:13:26] Thank you.
+[00:13:27] it's just like, it's a little, it's a bit overkill because it's like not supposed to be the same  thing. So like, in a sense, I think the problem is we've gone to a point where the dialogue suggests  that we're comparing the same solutions. I don't know who's wholly responsible for that. I think  it might be because everyone's like signal, signal, signals. And they're like, uh, you know,  we have our own thing. Um, but we've now got to a point where
+[00:13:49] it's like,
+[00:13:51] kind of obvious these aren't quite the same things and people are like
+[00:13:56] Yeah, I don't know.
+[00:14:01] It is tricky because like almost everything in solids ethos these days and signals ethos in general has been like, let's keep things minimalist, right?  Let's, I I I've spoken very much, you know, publicly about, you know, my concern around compilers and stuff, you know, like.
+[00:14:18] Obviously, Svelte went a bit more that way or whatever.  But about layers and abstraction and all this,  and how much I valued React's early principles and stuff.  So I get...
+[00:14:30] where
+[00:14:31] there's like this audience that like sees,  I don't know what this is like,  it's supposed to say they added for 358,000 lines of code.
+[00:14:39] um for the compiler or something i mean it's not like that's the code you shipped  you know to the browser but like like it is still something right
+[00:14:48] I think I made a meme a while ago where I showed like a iceberg, like the Titanic iceberg and showed like
+[00:14:54] you know, the compiler being the thing underneath the water, so to speak.
+[00:14:58] But
+[00:14:59] Like...
+[00:15:01] It is very interesting.
+[00:15:03] you know,
+[00:15:05] Thank you.
+[00:15:10] This is Rust code, so it's clearly better.  Oh, man.
+[00:15:19] Thank you.
+[00:15:20] Yeah.
+[00:15:28] thing you learned. Yeah, the compiler  before hooks were released. Well, it was  probably on the consideration.  People have to remember, if
+[00:15:36] Immutable, anyone who's working with a mutable system,
+[00:15:39] And you don't have to look at JavaScript.  You can look at other languages,  you know, like functional language and stuff.  Immutable is...
+[00:15:48] by its nature, less efficient.  Like, it's like the physics of it.  So the tricky part and the fun part of it sometimes  is figuring out how to make the...
+[00:15:59] intent, like what you're trying to do,
+[00:16:02] obvious enough like and conveyable enough i don't know if that's a word that you can
+[00:16:09] kind of optimize under the hood, you know, take something that looks immutable, but actually like  cheat and add immutability in certain places so you can improve performance.
+[00:16:18] Right.
+[00:16:19] or, you know, persistence, you know, like think about like react doesn't actually re-render  everything, right? Right. Obviously, memorization is a classic
+[00:16:27] technique but it's it's it's like the way you use hooks and stuff it's a little bit
+[00:16:33] you know, like,
+[00:16:34] React components are not actually pure functions completely because of hooks. I mean, there's
+[00:16:41] There's a bunch of
+[00:16:42] Thank you.
+[00:16:44] gray area that you can kind of leverage here to kind of get the ultimate results you want right  they're they have a vision and a direction they want to take and i thought this was actually  uh covered pretty good we'll get to that though i that's what i said we can go all over the map  here um because there's some q a maybe we can look at from react conf we can look at dan abramas  uh conversation there maybe in a bit our sort of talk i mean one of the interesting things for me
+[00:17:14] everything.
+[00:17:15] And it was a different environment. I watched some stuff from Angular, heard some new web dev stuff.
+[00:17:23] A lot about AI.
+[00:17:25] But like in the background, React's just like dropping all the hits, you know, the new remix stuff or React router stuff. So I think for my own sake, I'm going to have to spend some time doing catch up and I hope you don't mind doing that catch up with me.
+[00:17:43] uh sorry off top of what time zone you live in i'm west coast i mean i'm in california
+[00:17:51] Thank you.
+[00:17:52] Thank you.
+[00:17:53] Thank you.
+[00:17:56] Bye.
+[00:17:57] Talk about compilers.
+[00:18:03] Thank you.
+[00:18:06] Thank you.
+[00:18:09] I'm just catching up with chat here. Sorry, give me a second.
+[00:18:13] Thank you.
+[00:18:14] Thank you.
+[00:18:17] Yeah, but forget is saying that you don't have the right code  for it not to be executed.
+[00:18:27] I can't wait to get my PhD in Reactful.
+[00:18:30] Bye.
+[00:18:31] Thank you.
+[00:18:32] If you forget about...  It's an interesting tension we have here as a framework author.  Because I...
+[00:18:39] I built solid not worrying that much about newcomers.
+[00:18:43] React is obviously popular, so they are.  And what they're trying to do here is bridge the gap between the PhD people and the newcomers in a way that is both elegant for the PhD people, but also like...
+[00:18:56] simple or easy enough for the newcomers to come in and not like shoot themselves in the foot too terribly.
+[00:19:02] it's always the gap that's interesting on that progression.  See, frameworks historically have always taken different
+[00:19:09] approaches to it. I think the problem is,
+[00:19:12] is if you take a very primitive space approach,  like react always has,  and you have all these small pieces,  so to speak,
+[00:19:20] At the beginning, it's great, but at a certain point,
+[00:19:23] you will accumulate pieces. It's unavoidable.
+[00:19:27] So like at a certain point,
+[00:19:29] abstraction,
+[00:19:32] is probably a necessary evil. It makes things less simple.
+[00:19:35] but it might make things easier. And you, you,
+[00:19:38] you don't have the luxury of being able to just shift your model or change your boundaries  all the time right so you know if react is written from scratch today
+[00:19:47] Maybe some of those early things could have been done differently, which would need would mean we'd have less pieces today, which would mean we would wouldn't need to be here yet.
+[00:19:58] I think it's natural in terms of the life cycle.
+[00:20:02] But it's also why we get new things, right?  Things evolve new, simpler things.
+[00:20:07] things come out, we shift the boundaries a bit and it's constant shifting.
+[00:20:13] Thank you.
+[00:20:22] Thank you.
+[00:20:23] Thank you.
+[00:20:25] All right, so let's look here. Enough of the silly memes.
+[00:20:35] I get it.  You know,
+[00:20:39] While I feel like this is being really mean to react on certain point, I feel like they may have, for better or worse, invited this conversation.  So...
+[00:20:49] I'm going to stay somewhat neutral on this.  It wasn't like I was like going around retweeting these things.  It is interesting to see community response.  And, you know, I'll take that with measure.  But yeah.
+[00:21:05] This stream really starts here with, funny enough, React core team member, Ricky.
+[00:21:11] dropping this bomb of a tweet saying, you know, like...
+[00:21:16] look at all that's happened in the last week or so right um some of these topics i know a lot about
+[00:21:22] or I know enough to talk about some of these topics.
+[00:21:26] I don't know as much and probably don't care as much,  but I think we can just...
+[00:21:30] Together with this, plus, you know, maybe some bookmarks that I've collected over time.  It's funny, I'm not zoomed in.  I think it's because they changed to that X finally officially.
+[00:21:42] That...
+[00:21:44] My tabs are not zoomed in enough so that...
+[00:21:48] Server-send events are another great technology you can't use if you choose serverless.
+[00:21:52] I don't think that's true. I think it depends.
+[00:21:56] You can't use it fully like a WebSocket stream for long periods of time.  But I've been thinking of some really cool stuff you can do with...
+[00:22:03] with uh so recent events okay let's let's go back in time here
+[00:22:08] When was...
+[00:22:11] The last time I streamed,
+[00:22:15] Oh yeah, that was cool too.
+[00:22:19] Thank you.
+[00:22:22] Thank you.
+[00:22:28] Thank you.
+[00:22:31] Okay, I think we caught up. Okay, so...
+[00:22:35] Thank you.
+[00:22:37] Thank you.
+[00:22:39] Thank you.
+[00:22:41] S D U I.
+[00:22:44] has a good chance to be the next big buzzword.  What is SDUI?
+[00:22:51] Yeah.
+[00:22:54] Server-Driven UI
+[00:22:57] Okay, interesting.
+[00:23:00] Yeah, I guess we could talk about that a little bit.  Yeah, I mean, there's a few things.  And actually, it's funny you mentioned the XORCs because that's,
+[00:23:06] Probably the topic out of all of them that I probably...
+[00:23:10] didn't look at and
+[00:23:12] Probably, let's see, Evan Bacon, right?  That's who's behind this.
+[00:23:18] Okay.
+[00:23:19] Thank you.
+[00:23:24] Okay.
+[00:23:25] I'm going to go.
+[00:23:27] I mean, RSCs and mobile make a ton of sense because I feel like,
+[00:23:32] I feel in a lot of ways...
+[00:23:36] We might not even be looking at RSCs if it weren't for mobile.
+[00:23:40] Like,
+[00:23:42] At eBay, and I imagine a lot of large companies have this, we had something called the Experience Service.  And it actually sends descriptions of components because...
+[00:23:49] Every company wants their design systems on mobile and web and everything all to match in their interfaces.  But we're dealing with different technologies.
+[00:23:58] So like,
+[00:24:00] It's not always easy. You know, you have different, you have specific components through the specific platform you got to deal with. And, you know,
+[00:24:08] But syncing up design changes is a pain in the, it's just a huge pain. So a lot of them have these like almost descriptive things. And in some ways, it's less efficient than just like rendering it in the first place. But
+[00:24:20] this power gives the ability to drastically simplify these kind of approaches,  because now almost like on the web, you're just serving up,
+[00:24:30] like the view, the components and whatnot.  So I'm not surprised at all to see RSCs make it to mobile.  It's a logical place for them to be.  I guess the part is that some people did not expect
+[00:24:42] it because they were like
+[00:24:44] server like web. But I mean,
+[00:24:47] And because we view, you know, applications, you know, like mobile apps generally is like application size.  But.
+[00:24:53] Um,
+[00:24:55] Everything has a backend, right?  If you want to synchronize data, right?  Even if mobile kind of usually takes an offline first type of approach,  if your site is actually based largely on web content, like,
+[00:25:05] you know, a Facebook or whatnot, like you're going...
+[00:25:08] you're going to these APIs all the time.  So like being able to control the UI that way  makes a ton of sense, you know?  Same thing with eBay auction site.  Like there's just things that are...
+[00:25:19] conceptually primarily websites instead of like productivity tools.
+[00:25:23] are going to want this. So, yeah, I, I think if that's the thing,  I think that makes a lot of sense. Um,
+[00:25:31] Thank you.
+[00:25:33] Thank you.
+[00:25:35] everybody comes to their own stupid  you're actually one of the first standards for it  unlock so much cool shit on mobile yeah yeah okay yeah exactly
+[00:25:46] Yeah, and it's an interesting...
+[00:25:50] It's an interesting thought process, right?  Because when you look at stuff like RSCs, your first...
+[00:25:56] Thank you.
+[00:25:57] your first thought is like why like to use HTML, right?  Because it's already like a serialization format, the web understands.
+[00:26:06] You know, there's a lot of like you already have the tools that generate it, presumably.
+[00:26:12] So why not use HTML?
+[00:26:15] And you can.
+[00:26:17] And you can use HTML well, actually. It's funny.
+[00:26:20] Some reasons because of the way Solids designed, you know, I had some fun looking at HTML and how to best optimize it.  But like.
+[00:26:28] Were I a VDOM framework, like Preact?
+[00:26:32] I would very much be able to easily whip together something that works like RSCs using pure HTML  and probably do a very good job at it. In fact, if I was pre-reacting, I didn't care about React's concurrent features,
+[00:26:45] I'm pretty sure you could hit the holy grail trafecta in terms of performance.
+[00:26:50] with an HTML-based solution.  I think it's possible also with stuff like Solid,  but it takes a lot more time.
+[00:26:57] It takes a little bit more work.
+[00:26:58] but
+[00:27:01] That all being said, I think
+[00:27:06] There's clearly benefits for platforms that don't understand HTML to not use HTML.  It is interesting, though, in the mobile space where...
+[00:27:14] Like even native scripts uses HTML type abstractions like dominator to mobile.  So like part of me wonders if HTML as a serialization format might just persist over into mobile anyway because of.
+[00:27:29] like how much tooling is this on web already and people might be like,
+[00:27:35] kind of inclined to go that way but I mean that's another topic
+[00:27:44] Thank you.
+[00:27:45] Yeah, there's a lot of discussion going on.  I'm having a hard time, hard time seeing it.  And in StreamYard, I actually don't get the tags, side note.  So like I, I don't.
+[00:27:56] I guess I can go back to
+[00:28:01] to, um,
+[00:28:03] Twitch and try and find a bit.  So driven UI is a very, very old idea.  Fine-grained updates, also not new ideas.  All these, these come in cycles, yeah.  Tricky not to be told by hypertransit,  and use the best purchase of the problem zone.
+[00:28:15] Yeah, I mean...
+[00:28:18] Yes. Generally, yes. The thing is,
+[00:28:22] .
+[00:28:23] Because these things are always at different points of where they are in the cycle,
+[00:28:28] it's it's not like they oh and because you build more than this like
+[00:28:32] a single application might have multiple
+[00:28:35] facets to it. Usually it's more like it's not necessarily pick the best tool for the job  completely more of like pick a tool and just hope it kind of spans across the distance well enough
+[00:28:47] Right. Which is why I have a lot of patient search tools like React, which can generally do most things generally pretty well.
+[00:28:56] Anyway, but yes, a lot of old ideas resurfacing.  Well, it's because...
+[00:29:00] A lot of times technology exists, but it's not the right time.  You know, like maybe some other change pushes it forward.
+[00:29:07] Like,
+[00:29:09] Another funny one along this lines is I sometimes think that we wouldn't have stuff like server components if we had stateful servers, like we were talking about the server sent events.
+[00:29:19] you know, serverless functions, infrastructure expanding out that way has pretty much defined
+[00:29:24] the direction of the web.
+[00:29:26] why you might not use a Phoenix Live View and why you would use a system like, say, server components are partial hydrating kind of solutions.
+[00:29:38] which are stateless.  So,
+[00:29:41] Yeah, this is this is this is there's always gonna be a lot of noise or fun around, you know, the whole these kind of topics. But funnily enough, if you look like out of order streaming is my favorite. It's been around since like 1997. And we just keep on coming back to it. You know, I think finally, it's become de facto, but it took quite a long time.
+[00:30:00] Um,
+[00:30:04] Anyway.
+[00:30:05] Yeah.
+[00:30:08] Yeah, I mean, I know there's a lot of interest in this topic, uh...
+[00:30:12] Um,
+[00:30:15] It is definitely...
+[00:30:17] of interest the tricky part obviously is
+[00:30:22] Thank you.
+[00:30:23] Okay.
+[00:30:24] trying to figure out
+[00:30:28] The impact on the web, I think AI might be ultimately the reason that server driven AI or server driven UI becomes more of a thing, right? There's always like a catalyst, which took one idea that before and it didn't quite get there.
+[00:30:49] All right. All right. Another question before I get too sidetracked here. What is it?
+[00:30:57] Here's what I asked. Current ecosystem library is found in Canadian work with an element, whereas he says it would react quite commonly cost them. What do you think about that? I don't think. I mean,
+[00:31:06] Everybody has refs. I think there's like a slight niceness when your components don't re-render so that you can kind of just like...
+[00:31:13] just write some code in your component and be like,  Oh,  I'm using some vanilla JS stuff.  And it feels easier.  Cause you're like,  I don't have to worry about it.  I'm not like,
+[00:31:20] I'm not thinking about React here. I'm just doing my thing. So I just go, okay,
+[00:31:24] Now I'm in this zone.
+[00:31:26] And
+[00:31:27] With React, you have to worry about React RenderCycle even when you're like,
+[00:31:31] outside, you know,
+[00:31:33] And it's kind of like...
+[00:31:35] But you just get a ref.  You use an effect and you're kind of done with it.  So that's why they make wrappers.  So it's like...
+[00:31:42] You don't need the wrappers, but you make the wrappers in React so that it feels like React.  Whereas in these other libraries, you'd...
+[00:31:49] kind of just don't make the rappers because
+[00:31:52] It...
+[00:31:53] doesn't feel contradictory to just go in there and just add stuff like that. So, I mean,
+[00:31:59] Is it harder to do? I don't
+[00:32:01] think so. I think it's just a preference. It's kind of
+[00:32:05] you know,
+[00:32:06] Yeah.
+[00:32:07] You know, it's like a purist thing.  It's like when you go talk to FP programmers.
+[00:32:26] Yeah, no, exactly. It's not harder to do. It's just like, I think it's a preference thing in terms of API.
+[00:32:35] It's not easy.  I mean...
+[00:32:39] Is it the life cycle then?  I feel like React gives you this tool with use effect that's just like, stick me on the outside.
+[00:32:46] Like, you have to, like...
+[00:32:49] be aware of this,  but it's like,
+[00:32:52] I guess like,
+[00:32:54] Like, I don't know.
+[00:32:57] Pain and blood, yeah.
+[00:33:02] Thank you.
+[00:33:05] Thank you.
+[00:33:06] Yeah, so anyway.
+[00:33:11] Um,
+[00:33:12] I don't know if I have much to say other than this makes a ton of sense to me.
+[00:33:20] Um,
+[00:33:22] I think it's a cool tool.
+[00:33:25] I'm still struggling with server components on the web, so
+[00:33:28] I'm, you know, I'll hold anything beyond that, which is why this topic is probably makes a lot of sense, but why I have very little to say about it.
+[00:33:39] Thank you.
+[00:33:41] Thank you.
+[00:33:42] Yeah, thank you.  Yeah.  Getting to the AI needs to wait for it.  So something like...
+[00:33:48] Thank you.
+[00:33:48] Yeah.
+[00:33:49] Yeah. AI in the background is sort of driving a lot of stuff right now, I think. I mean, that's not I think it's kind of obvious it is. I think partially even why we're talking about server issues.
+[00:34:02] persistent state and all this stuff too it's it's it's this desire of of
+[00:34:07] the current model not being interactive enough which is interesting we've been spending so much  time with our frameworks
+[00:34:13] trying to go to the left side of the spectrum.
+[00:34:15] Um,
+[00:34:18] Do you know what I mean?  You want to say the left side?  Uh,
+[00:34:21] There is that chart that Fred from Astro always talked about, even talked about on our stream.  I think he showed it on our stream, but he was too scared to post it because he thought  like everyone would hate on him where he's trying to put the frameworks into categories  based on their holotypes, like from portfolio to Figma.  And I always put like the portfolios on the left side and Figma on the right side of the  spectrum.  And yeah.
+[00:34:44] We've been working really hard to make things easy enough that people want to pick up our tools on the left side. So you can make your blog site. There's so many more customers there in the content side, marketing, advertising side. That's why RCs are the way they are. They aren't the best for apps. They're actually better for low interaction stuff. They scale up to apps, perhaps, but that's like not where you're, in my opinion, where you're making the win, which is an interesting observation.
+[00:35:08] when talking about mobile, which are very application like, but
+[00:35:12] Again, this is, I mean, it's kind of like a micro front ends, like,
+[00:35:16] The need for the component AI or the component-based AI,
+[00:35:22] server-driven UI, I don't feel like it's an optimistic choice. It's like an optimized choice. It's a choice because of need, right?
+[00:35:34] because of some requirement. And
+[00:35:38] generally what I'm kind of getting at is that we've been working so hard to go left where everything indicates that,
+[00:35:46] Over time, we all generally move right. We generally want more interaction. We all want more JavaScript, so to speak.  So, yeah, it's a very interesting tension right now.  And it helps understand why we're seeing a lot of passing shifts right now where people are just not getting these concepts.  Because it's like, why do you suddenly care about going left?
+[00:36:08] There's a whole audience that's like constantly looks right.
+[00:36:12] Thank you.
+[00:36:15] Thank you.
+[00:36:18] Thank you.
+[00:36:20] Thank you.
+[00:36:23] Yeah, so somehow we got talking about AI and I am not an AI expert. I am not at all. I've been asked on panels to talk about AI and I'm just like the only thing I know about AI is that I don't know AI. So like,
+[00:36:33] Yeah.
+[00:36:36] Yeah, you guys are going... I love the energy in chat.
+[00:36:39] Right. Like you guys are just going mad in here.
+[00:36:43] Thank you.
+[00:36:44] Anyway.
+[00:36:46] Expo.
+[00:36:47] Turbo Pack, 100%.
+[00:36:52] I don't...
+[00:36:54] Turbo Pack is like that thing you use when you don't use V, right?
+[00:36:59] Yeah, I don't really know anything about Turbo Pack.
+[00:37:01] Thank you.
+[00:37:02] I can try...
+[00:37:06] quoting this and seeing what this is.
+[00:37:08] I was now passing 100% of the test from Next.js.
+[00:37:16] I guess that's an achievement because the problem is Turbo Pack was trying to be faster and
+[00:37:21] get like webpack compatibility and next.js would be like
+[00:37:26] the webpack solution because
+[00:37:28] Everything else is on Veed. So
+[00:37:30] Um,
+[00:37:31] Yeah, I can see in some circles why this is a huge, huge, huge deal.
+[00:37:36] Okay.
+[00:37:37] Cool.
+[00:37:38] Thank you.
+[00:37:42] Turbo Repo is cool. I use Turbo Repo.
+[00:37:46] Yeah, you can skip Turbo Pack, yeah.
+[00:37:50] Yeah, Turbo Repo is awesome.
+[00:37:53] Thank you.
+[00:37:54] Thank you.
+[00:37:55] Thank you.
+[00:37:57] All right. Well, we can talk React compiler. Let's go. Let's go next in my list. 10 stack start alpha.
+[00:38:04] I've been talking to Tanner like every other day.
+[00:38:08] Because he's hitting the issues and bugs that I hit, you know,
+[00:38:14] a few months ago and we're kind of like he's like oh how did you solve this problem and like  check this out he's like oh okay you know like we're kind of working through it um he's he you
+[00:38:26] is on his new framework, which is very cool.  But now it's like, okay, I proved that it works.  It can do incredible things.  How do I get this in other people's hands, right?  Yeah.
+[00:38:37] Um, so,
+[00:38:39] Yeah, I mean, I love working with Tanner that closely.
+[00:38:43] Lots of energy.
+[00:38:46] Lots of ambition.
+[00:38:48] And the impact of his work touches so many people.
+[00:38:51] So like,
+[00:38:55] Yeah, I just love chatting with him.  We should get him back on stream one of these days soon.
+[00:39:01] basically,
+[00:39:03] he's been going hyper the last few weeks  on just pushing this forward, right?  I think once I was like,  Saul starts kind of close to 1.0.  He's like, okay, I guess everything's here.  Let's go for it, right?  I feel like I've been doing a little bit of the...
+[00:39:17] you know,  we've been doing a bit of the battle testing on this stuff.  Vinci's still got bugs.  We still working through stuff,  but,  um,
+[00:39:23] The second Vinci-powered framework coming out soon is very exciting, obviously.  This only helps that ecosystem.  And more people on Nitro.  I've been hunting down Nitro bugs the last couple of years.
+[00:39:33] uh the last week or so to leading up the solid start release so
+[00:39:38] It's like Vite. We might be starting kind of slow, but the more we get things towards the stack,
+[00:39:45] the more consolidated it gets. We see this with Vite 6. You guys are going to see a bunch of one really big Vinchy feature make it back into Vite Core, which drastically simplifies, um,
+[00:39:56] how creating something like Vintu would work in the future. For some people might not even need it. And, um,
+[00:40:03] You know, this is huge really for all the deployment providers.  They're providing this.  Vinci has this idea of routers or separate builds  that all kind of coincide and figure out  how to handle the graph and bundles between them.  Vite's now bringing that functionality together
+[00:40:15] internally with this new feature called environments in V6.
+[00:40:19] Um,
+[00:40:21] It's just incredible to see this growth. Sorry, I'm a big VeeT shill, if you can tell.
+[00:40:26] It's like the best technology that's come out in the last couple of years.
+[00:40:31] It was really cute, I suppose, to some people's perspective, as me and Evan with the solid start release.  Right. Let me see if I can find it. Had a little bit of an exchange because.
+[00:40:41] Um,
+[00:40:43] he thanked me in the release announcements for mentioning Veed.  And it's just like...
+[00:40:50] How could I not? Let me see here. Solid start.
+[00:40:55] Almost 2,000 likes.  That's good for us.  Let me see if I can find the...
+[00:41:01] the post engagement quotes
+[00:41:05] Yeah, yeah. Congrats to Solid Team, and shout out to B. Glad to see Solid Foundation.
+[00:41:11] like,
+[00:41:11] I sit here. I doubt I would have attempted this otherwise. In a time where every incentive is to build specific solutions to align with the source of funding and to ship fast, it makes building ambitious apps and libraries in the open possible. What I mean by that is, look at this. All these stars are aligning between AI, between AI.
+[00:41:27] Um,
+[00:41:29] you know, like infrastructure needed to support this, you know, between frameworks aligning with infrastructure, you know, where you have these frameworks that are literally like being built by infrastructure setups, like things like Remix at Shopify or next to Purcell or whatever. And
+[00:41:46] in the law time in those situations
+[00:41:51] you can leverage stuff easier and more
+[00:41:53] If you bring it internal, like a lot of companies have their own bundlers historically, right? Because, you know, they get exact control over what they need, they build it out, they build the stuff for their infrastructure for their hardware, and they end up with a very specific kind of custom stack. And
+[00:42:09] Vite has somehow been good enough to buck that trend.  You know, it's kind of like the trend,  you need a meta framework, right?  I was, when they were retiring to create React app,
+[00:42:20] I was like,
+[00:42:20] I was like,
+[00:42:21] Oh, you know, I, you know, Vite was a logical choice. They instead decide to push next and remix on the React core team and mention Gatsby as well, I suppose. But like,
+[00:42:35] Like, Veep, I guess, wasn't quite there on the server side of things.  There's pieces missing.  But...
+[00:42:42] Tools like Veed are what keep
+[00:42:44] us from having to go the specific tool that soon it pushes the it raises the floor for everyone i i  can't express enough how awesome vita's in in doing that and every time it adds more features pulls  more of those pieces say from nitro or vinci into the core the more capable it gets of doing this  this is the trend
+[00:43:04] to fight against getting locked into a specific provider or a specific,  you know, type of infrastructure or specific thing like,
+[00:43:14] Yeah, I, you know, otherwise you're going to find yourself, you know, deploying your apps to, you know,
+[00:43:20] because you chose a framework
+[00:43:23] And that framework has a meta framework that happens to work on one infrastructure platform that happens to use one build tool that happens to use the whole chain becomes proprietary.  And that's like.
+[00:43:34] scary, right?
+[00:43:39] Anyway.
+[00:43:40] Bye.
+[00:43:43] What?
+[00:43:45] you
+[00:43:46] Thank you.
+[00:43:46] Thank you.
+[00:43:50] uh,
+[00:43:54] On JSSO based, yeah.
+[00:43:59] Yeah, Andreas is great.
+[00:44:04] Thank you.
+[00:44:05] Thank you.
+[00:44:08] Thank you.
+[00:44:10] we were just talking about,  sorry,  is that possible?  Um,
+[00:44:16] I don't see why not.  It's just a format for doing server communication  built with router.  Yeah, if Tanner wants single flight mutations without RSCs,
+[00:44:26] Because RCs actually do single-flight mutations.  So do MPAs, if you think about it.  You just change the thing, you load the next page.  Tanner can completely get those if he wants them.
+[00:44:36] Thank you.
+[00:44:42] Yeah, I mean...
+[00:44:45] Next.js ships with a standalone mode that can work on a variety of providers.
+[00:44:51] you
+[00:44:53] Thank you.
+[00:44:54] That's the official stance.
+[00:44:57] Thank you.
+[00:44:58] Thank you.
+[00:45:00] Okay.
+[00:45:04] Thank you.
+[00:45:05] So...
+[00:45:08] Thank you.
+[00:45:12] I didn't say it.
+[00:45:13] *painful noises*
+[00:45:22] I mean...
+[00:45:24] Let's...
+[00:45:26] If you look at most JS frameworks now, every single one uses an adapter system.
+[00:45:31] Astro
+[00:45:32] Quick, solid start.
+[00:45:34] SvelteKit.
+[00:45:36] They all make work to make template remix.  They make work to make their stuff work on every single platform.
+[00:45:42] No one assumes that a single...
+[00:45:46] runtime would actually be sufficient.
+[00:45:51] I...
+[00:45:52] It's interesting, though. I mean, I wonder...
+[00:45:56] I wonder if I can actually look it up.  Maybe I'll do it later.
+[00:46:01] Netlify has some of our own adapters.  We work with the team.  So I think the Remix Netlify adapter actually is...
+[00:46:09] hosted by Netlify.  If you look at the Next.js adapter  and like the Remix adapter  or SaltKit adapter or something,  it's kind of funny.  It's like the difference between like,
+[00:46:20] Like, you know,
+[00:46:22] a single file or, you know, like a couple files and like,
+[00:46:26] Something enough that we call our adapter for Next at Netlify a runtime.
+[00:46:33] the we call it the the the next runtime.
+[00:46:38] So just to put into perspective, it starts with standalone mode and then it adds...
+[00:46:44] all the other features.
+[00:46:48] Thank you.
+[00:46:50] Thank you.
+[00:46:54] Yeah, it's interesting.
+[00:47:01] Thank you.
+[00:47:02] And in any case,
+[00:47:03] We're not talking about Next.js yet. We might talk about it later. I want to just shout out how awesome Veed is again.
+[00:47:17] All right.
+[00:47:20] Just going back and did I miss anything on the Twitch chat?  No, I do not believe I did.  Okay.
+[00:47:27] Alright, alright, alright.
+[00:47:31] Thank you.
+[00:47:34] Thank you.
+[00:47:39] I'll put this out up here.
+[00:47:42] In a sense,
+[00:47:46] If I was a React core team member, this would be my perspective.
+[00:47:51] Adapters set a high floor, but don't raise the ceiling for what's possible.  We should thank Nex for saccharine's own capability in order to actually try new things.  Every provider is still trying to catch up to ISR.  Yes.
+[00:48:01] Right.
+[00:48:02] Um,
+[00:48:03] it's kind of like standards, right?  It's always good that someone pioneers...
+[00:48:09] in a direction.
+[00:48:11] Um,
+[00:48:14] You know, I mean, like, like, you know, like, let's say the work, you know, solid with signals and then others adapt it, adopt it. And then we get to a point where we're like, okay.
+[00:48:22] let's try and make a web standard of it.  There's multiple steps in this product.  Someone at the beginning has to go against the grain  or someone at the beginning has to do the work out on the limb,  not use things that aren't available on other platforms to do it.
+[00:48:36] Right. So I'm fully, you know, and if I'm the React core team, to be able to actually
+[00:48:39] take these thought experiments and be able to implement them for real and ship them.  That's incredible because it gets to prove the model makes things possible.
+[00:48:48] I just prefer to not pretend like it's anything else other than that.
+[00:48:53] You know what I mean? Like if that's the case, then that's very cool. Right.
+[00:48:57] It's just like...
+[00:49:00] you know, then it's kind of like the open...  They got very upset about the open next thing, right?
+[00:49:07] Yeah, you know.
+[00:49:15] Yeah, I mean, the cache stuff for ISR...
+[00:49:20] with Netlify is very, very cool.  It's cool how they use just headers.  And I think the biggest limitation there  might be the difference for the PPR,  like the specific infrastructure pieces  that Vercel is using.  Like even to try and implement PPR on another platform  is actually kind of challenging.
+[00:49:38] Right?
+[00:49:41] Thank you.
+[00:49:45] Thank you.
+[00:49:46] Thank you.
+[00:49:47] All right.
+[00:49:48] right i actually i i let's skip ahead for a second because we're talking about
+[00:49:54] this stuff
+[00:49:56] Is this...
+[00:49:57] We'll come back to Ricky's post in a minute.  I saw something cool the other day.
+[00:50:02] Yeah.
+[00:50:02] Plain PPR.
+[00:50:04] Partially pre-rendering without a framework. What? Partially pre-rendering, but when that leaves platform-permitted, is this simply plain static HTML without any framework or even build system with the help of netlify edge functions?
+[00:50:15] So my guess already because of the edge functions thing, and because I know a bit about our infrastructure is this is not equivalent to what Vercel does, but I'm get but I'm but we developed this probably so we could add PPR to next.
+[00:50:28] The idea is that a static page is served from the edge as fast as possible.  The areas the page left is placed with a dynamic content.  The server will start fetching the dynamic content in parallel with the response stream  and then append the dynamic responses to the response stream from the static shell at the end.  So yeah, basically what I was describing on stream last week.
+[00:50:45] Thank you.
+[00:50:47] Thank you.
+[00:50:51] Thank you.
+[00:50:54] Yeah, okay, so it's using this a little bit low level. I think that this article feels like it's written for me. Like, Ryan, if you want to add,
+[00:51:03] PPR to Netlify, this is how you do it.
+[00:51:08] Yeah, I mean, it's just mechanically showing how you can basically do out of like stream in the content and then insert it basically using script tag.
+[00:51:16] See, innerHTML.
+[00:51:22] But...
+[00:51:23] Yeah, yeah. So I think I actually just summarized it. This was basically so we could add PPR to
+[00:51:29] to
+[00:51:30] to the next runtime, but we they published in a way that this would work on every JavaScript framework, which
+[00:51:36] Again.
+[00:51:37] I...
+[00:51:38] kind of respect for some odd reason.
+[00:51:41] Perfect.
+[00:51:42] Thank you.
+[00:51:45] Thank you.
+[00:51:46] Thank you.
+[00:51:50] Thank you.
+[00:51:53] Thank you.
+[00:51:56] Thank you.
+[00:51:57] It's also referred to as out of order streaming. Yeah. Yeah. I, I, I, this is what I was kind of,
+[00:52:03] getting at, I was kind of, it's out of order streaming with a static serve shell, basically.  It's saying like cache the shell plus out of order streaming, right?  But the difference is Vercel actually has special, to my understanding, special infrastructure  to handle this.
+[00:52:17] in in a way that allows
+[00:52:20] Um,
+[00:52:21] Um,
+[00:52:22] did not cause the,  like,  basically they have like a,  I don't know what the term is.  Like,  like,
+[00:52:28] you don't have to spin up the web, the worker.  You don't like,  they basically just have something at their CDN layer  that just goes, okay, this is the type of request.  I'm going to send this back and open up the stream  and they'll do that without...
+[00:52:42] firing any client JavaScript at the edge in order to do it.  Whereas this approach is basically, I mean,
+[00:52:52] It's like the poor man's version of it in a certain way.  It's like what you would do if you didn't have custom infrastructure infrastructure.
+[00:53:01] I mean, this is why you deploy your React apps to Vercel because no one else...
+[00:53:08] has
+[00:53:09] stuff specifically for your next steps to resolve because no one else has this specific thing.  This basically accomplishes something similar, but it, you know,
+[00:53:19] You see the slight difference, right?
+[00:53:23] Next.
+[00:53:25] Vercel tied like this delivers this sort of feature.  This approach is,
+[00:53:31] probably works with Astro, SolidStar, SvelteKit, probably works with everyone.
+[00:53:36] um
+[00:53:37] But.
+[00:53:38] Yeah.
+[00:53:45] So, anyway.
+[00:53:49] Thank you.
+[00:53:54] So I do think that's interesting.  I think it's also a difference in positioning.  Like...
+[00:54:00] I appreciate it.
+[00:54:01] As I said, the...  I'm not sure this is equivalent, which is the challenge, but it definitely caught my eye.  Because I like...
+[00:54:09] looking at things from a primitive perspective. I like looking at what these building blocks are
+[00:54:16] You know, it's funny because you think I'd be into standards then.  But it's because sometimes once you have those pieces,  your ability to redefine how, like,
+[00:54:25] your reality works just becomes so much more
+[00:54:28] more capable anyway.
+[00:54:37] Thank you.
+[00:54:38] I see there's a little bit of like next for cell fighting and I mean
+[00:54:43] there's going to be
+[00:54:47] There's going to be some, you know, stuff here.  Funnily enough, while we're here, Matt Cain, who made that post, happens to also...  I was trying to get him on the stream to talk stuff.
+[00:55:02] because he's and Rob and a few other people
+[00:55:06] at Netlify are responsible for making the next adapters or sort of runtime.
+[00:55:12] for Netlify. And I thought like having him talk about his experience would be really eye opening for a lot of people. But he is actually moving on from Netlify. So he's
+[00:55:25] He's
+[00:55:26] He has not announced what his next move is, although he says it's tied to
+[00:55:33] open source.
+[00:55:35] So I'm looking forward to it because obviously,
+[00:55:41] his work and, you know,
+[00:55:44] at on the frameworks team at Nellify has been considerable you know um and he's done several  other things at Nellify as well but I just like you you always saw his kind of comments and  association in terms of like the the you know getting next working on um a non-versal platform  you know and reverse engineering stuff so always very impressed with that so I'm sure  wherever he goes next he'll be doing very cool things
+[00:56:12] Thank you.
+[00:56:13] Anyway.
+[00:56:20] Thank you.
+[00:56:20] Let's keep on let's go back to our our list here because I'm
+[00:56:27] I don't even remember what we were talking about.  We started talking about Tanstack Start and Turbo Pack.
+[00:56:32] an expo,
+[00:56:34] Should we just talk about, I want to see what this action RFC is. Let's talk, let's talk Astro actions.
+[00:56:42] Um...
+[00:56:43] Thank you.
+[00:56:49] React 19 support for Astro Actions.  Is that what we're talking about?
+[00:56:58] -
+[00:57:02] Oh, is this just using...  Sorry, is this just using...
+[00:57:08] Oh, no, no, no, no, no.
+[00:57:10] So it's taking Astro's previous actions API and they actually
+[00:57:16] feed also into
+[00:57:19] React. That's cool.
+[00:57:22] I, I, okay, okay.
+[00:57:24] Thank you.
+[00:57:30] It's not compiler time. I'm saving the big guns a little bit later. We will get compiler time.
+[00:57:37] Um,
+[00:57:39] Okay.
+[00:57:40] Yeah, okay. I'm just, I'm getting the smaller topics off the base. This is cool. I want to quickly
+[00:57:46] Because then I...
+[00:57:47] Don't worry, there'll be lots of compiler meat to get into.  Yeah, because Astro Actions have this whole Zod interface.
+[00:57:54] um handler blah blah blah likes that likes
+[00:58:01] Bye.
+[00:58:02] Thank you.
+[00:58:04] Interesting part about their API is define action.  It reminds me of, you know, like it's back to like a,
+[00:58:12] I think it's probably, it's probably makes sense.  It's like, it's inside the used server.  It's the function call.  The function call has some benefits that I do miss.
+[00:58:20] But I wasn't going to fight the React trend.  But now at least I understand what this...
+[00:58:25] feature is
+[00:58:26] And it's cool that plugs right in.
+[00:58:30] Yeah, it's because it's native.  Yeah, I think that's one of the most interesting things  about React 19 and the work the React team is doing
+[00:58:38] Because they're comfortable pulling...
+[00:58:40] these features into core,  which is something that I'm actually not comfortable with yet.  That's why it's in start or the router.  Cause I want to,  I want to understand where these things go.  You know,  when something gets into SolJS core that it's like,  you know,  it's,  it's much more,
+[00:58:55] you know,
+[00:58:56] I like the pattern of slowly pulling stuff in. I mean, generally speaking, React does too, but I think that the stuff is just such...
+[00:59:05] fundamental and big that i can see why they're like going straight there
+[00:59:09] um we're in a different point in our cycle but in any case i i think the astro rfc is
+[00:59:17] Interesting. I think it was natural for them to want RPC functions. And the fact that it interrupts nicely natively with the frameworks is a really nice touch. Is there anything else in 4.9 that's interesting?
+[00:59:27] container API.
+[00:59:31] Thank you.
+[00:59:33] allows render Astro points outside in Astro applications.  Is there how you can render?  Okay.
+[00:59:37] Interesting. Okay.
+[00:59:40] and then stabilize experimental features.
+[00:59:42] Security, CRSF margin, I-18 to me. Okay, cool stuff. Incremental, but nice, nice. Okay.
+[00:59:50] Keep on.
+[00:59:55] *laughs*
+[00:59:58] actions.
+[01:00:00] solve the post problem now someone needs to solve the form data problem
+[01:00:04] Are you talking about like the fact that form data and the types are just
+[01:00:08] Horrendous.
+[01:00:11] Yeah.
+[01:00:14] Thank you.
+[01:00:21] oh it's the the new container yeah i i'm trying to picture the use case where i want  astro components in my non-astro project like i just start with an astro project i guess
+[01:00:33] like,
+[01:00:33] because in my head astro components are html but i guess it's like
+[01:00:37] this is like these inception things because the astral components can then  have client components.  So you can make like lakes of islands or something like you could have,
+[01:00:45] Like, can I have a React app?
+[01:00:47] which has...
+[01:00:48] Yeah, I don't even know how that would-- that doesn't make sense.
+[01:00:52] Yeah, no. You know what I mean?
+[01:01:03] you
+[01:01:04] Yeah, I mean, forms do suck in general.  Yeah.
+[01:01:07] It's unfortunate that that's like the protocol we have to use for progressive enhancement. We do like lots of tricks, you know, with server functions like binding variables or closer extraction, but it's like still sometimes the form data is actually just form data, right? Like it's, and you could try and like.
+[01:01:24] be smart about it, but it's like
+[01:01:25] then it's like magical. You know what I mean? Like sometimes your forms have form fields in them.  And then you're back to this, you know? Yeah, it just sucks.
+[01:01:34] Yeah.
+[01:01:37] Okay.
+[01:01:42] The container is good for you testing after all components, or I'm hoping to use for demoing for  any entire pages without script and style hosting.
+[01:01:50] Thank you.
+[01:01:51] Mm-hmm.
+[01:01:54] Thank you.
+[01:01:55] Yeah, I'm not familiar enough with web standards to really answer that question.
+[01:02:00] Thank you.
+[01:02:02] Oh, there might be binary. Okay, there you go.
+[01:02:06] Yeah, I guess the thing is because you can actually do way more with form data, right?
+[01:02:12] depending on like the,
+[01:02:14] the format types, right?  Like use forms to
+[01:02:17] upload things or whatever.
+[01:02:19] Yeah, files, yeah.
+[01:02:20] Thank you.
+[01:02:22] Yeah.
+[01:02:28] Yeah.
+[01:02:29] Yeah.
+[01:02:33] Okay, yeah, I mean...
+[01:02:38] I walked into that one.
+[01:02:40] Thank you.
+[01:02:43] Thank you.
+[01:02:44] All right. All right. Let's keep on going. All right. What's the last...
+[01:02:53] What do we got here? Million Lint.
+[01:02:56] Is it officially 1.0 or is it just RC?
+[01:03:00] 1-0-R-C.
+[01:03:02] Okay.
+[01:03:06] This is the thing that tells you why your React app is slow, right?
+[01:03:12] This is interesting.
+[01:03:16] This is actually a good prequel for what we're going to talk about a bit later, but it's funny.
+[01:03:20] MillionLint is to solve unnecessary re-renders in React without playing graphs.
+[01:03:25] This was kind of our frustration how difficult it is to make performant react websites.
+[01:03:31] I mean, this is a brave thing to say.  Some people would be like, skill issue.
+[01:03:36] But...
+[01:03:37] That's like the really nasty take of it.
+[01:03:42] But the truth of the matter is, if you look at Million,
+[01:03:46] and I think we might get to this later, is Million solves one type of React performance problem, the type that you can measure.
+[01:03:53] And I,
+[01:03:54] Um,
+[01:03:56] you know, micro benchmarks and stuff.  And then the React compiler, I suspect,  solves the other type of performance problems
+[01:04:02] thing. The one that
+[01:04:04] happens, but no one realizes.
+[01:04:07] you know, until it's too late. So, um,
+[01:04:11] This is very complimentary because in one side, Million can't stop your React app from rendering over and over again.
+[01:04:18] Right.
+[01:04:19] It like basically...
+[01:04:21] Aiden comes up with a super fast thing.  You know, we'll look at Jayser Raymer's benchmark.  It's front.  He's genius.
+[01:04:27] ability to like as vastly render that one component as fast as possible.  And then you stick in your react app and it's like,
+[01:04:35] you know, no one cares, you know, that, that, so this is,
+[01:04:39] This is like the other side.  What's interesting is, is this at cross...
+[01:04:43] uh purposes with a react compiler that also like did did million linter get that much harder to use  now that react has a compiler that auto memoizes so if million goes oh this is a linter this is a  thing that shouldn't be performing and react forgets like actually we got you covered
+[01:05:01] you know,
+[01:05:02] This is actually really interesting for timing.
+[01:05:06] Yeah, sell sites are bad for business.
+[01:05:09] Yeah, okay.
+[01:05:13] But it's interesting.  So it's profilers.  His approach isn't purely like linting thing, right?
+[01:05:22] So are they running profilers in the background?
+[01:05:25] That is more interesting.
+[01:05:28] So,
+[01:05:36] Thank you.
+[01:05:41] Okay, so he's talking with the rack of a lot here.
+[01:05:53] Okay, good. I'm glad he's addressing this.
+[01:06:01] Thank you.
+[01:06:02] Thank you.
+[01:06:03] Thank you.
+[01:06:05] Thank you.
+[01:06:07] Thank you.
+[01:06:07] Alien Lint is super impressive that it should exist, but the fact that it exists makes me unhappy.
+[01:06:14] I mean, it's interesting because, you know, Million, I believe now has VC money behind it and doing this stuff.  So it's interesting.
+[01:06:22] to me that, um,
+[01:06:26] that like there's basically like a company behind this kind of,
+[01:06:31] Thing.
+[01:06:32] Like the business of making React faster is worth money.
+[01:06:42] Thank you.
+[01:06:46] Thank you.
+[01:06:47] Thank you.
+[01:06:55] That's interesting.
+[01:07:02] Thank you.
+[01:07:05] Yeah.
+[01:07:07] Thank you.
+[01:07:08] So he's talking about where...
+[01:07:11] incidental automatic memorization actually groups together things that shouldn't be grouped together.
+[01:07:18] Thank you.
+[01:07:19] This is cool technology.
+[01:07:22] .
+[01:07:31] And I like the fact that it uses measurement
+[01:07:34] to make decisions. That is...
+[01:07:36] That is actually like the thing you always want.
+[01:07:41] conceptually there's like an architectural purity thing, but this is actually like, this actually matters, right? That's the thing that's hard to actually tell.
+[01:07:58] Yeah, he sent this along to me a while ago, and I didn't get a chance to test it out.
+[01:08:03] I've been very busy, as you know, but...
+[01:08:06] This is very cool.
+[01:08:09] Okay, I get it now.  I thought it was like a code analysis,  but this is actually...
+[01:08:15] Like there is, but it's actually backing it with profiling, which is interesting to me.
+[01:08:22] Thank you.
+[01:08:27] Thank you.
+[01:08:30] I'm invested in it because there's definitely money in the synchronization, build process, editor, browser, and linter.  Yeah, like the whole tooling process.
+[01:08:37] around this stuff has a lot of potential.  I've been talking a lot about this for people on the signal side,  because I feel like knowledge of the data graph,
+[01:08:46] would lead to not just those crazy visual dev tools that I've showed off that we have,
+[01:08:52] and we work on,  but picture your IDE being able to trace the data things like knowing how
+[01:08:57] What you can do with signals and the traceability potential there is so high that if there was...
+[01:09:04] similar amount of money or effort going in on that side. I can only think of what you could accomplish. Of course,
+[01:09:11] I'm going to go.
+[01:09:12] signals are not deployed enough that we have enough
+[01:09:15] maybe data or incentive for people to go that way. And people are still at an earlier stage in the project that performance is not really
+[01:09:24] a concern that people are investing that but it goes beyond performance it goes to like
+[01:09:29] Actually, I can see guiding the way you develop your code.  Anyways, let's keep on going.
+[01:09:35] All right.
+[01:09:39] Thank you.
+[01:09:40] Thank you.
+[01:09:43] All right.
+[01:09:45] Did I talk about solid star point one photo? I guess I did a bit. I mean, at the beginning,
+[01:09:50] I don't know if there's much to say.  I feel like I've written the same blog post like four times at this point.
+[01:09:55] I'll throw it up.
+[01:09:58] on the stream for a second here like
+[01:10:02] uh
+[01:10:04] Oh man, there's so much good stuff going on right now. Sorry, I'm just looking at all my bookmarks.
+[01:10:10] Um...
+[01:10:13] Okay.
+[01:10:15] Let's just go here for a moment.
+[01:10:17] Thank you.
+[01:10:19] Thank you.
+[01:10:20] Thank you.
+[01:10:21] Thank you.
+[01:10:22] Um...
+[01:10:24] Yeah, you know, it's funny because...
+[01:10:27] If I duplicate this tab across...
+[01:10:30] And then I...
+[01:10:32] Go to...
+[01:10:34] About blog.
+[01:10:37] and go to backup couple and go to Solistar Beta.
+[01:10:41] What do we got here?  Nested file system routing.
+[01:10:45] OK.
+[01:10:47] Yeah.
+[01:10:48] Server functions.
+[01:10:52] Server functions.
+[01:10:54] Okay.
+[01:10:56] Route data and actions. Oh, I didn't really talk about that. I guess I
+[01:10:59] Well, maybe single flight mutations.
+[01:11:07] Yeah.
+[01:11:08] I guess what I'm trying to say...
+[01:11:10] is that
+[01:11:13] For me, this is the most uninteresting release because we've just
+[01:11:17] We just built something that we've been building for two years and it's finally ready for prime time.  But.
+[01:11:25] you know,
+[01:11:26] Hello.
+[01:11:28] Have we talked about single flight mutations?  Probably on stream because, I mean, I showed them off.  And I talked, I theorized about them on stream.  Actually, and I showed them off in the...
+[01:11:39] in my solid stream that I did.
+[01:11:42] back in January, December, I actually showed them
+[01:11:46] going.
+[01:11:47] uh,
+[01:11:50] Yeah, I invented the term.
+[01:11:56] I wish I did some, I might as well start video on dropping it tonight. Oh, nice.
+[01:12:02] Thank you.
+[01:12:03] Yeah, I mean, I...
+[01:12:05] It's because I came up with the term,  like, basically on stream,  writing hack MDs and stuff.  Like, basically, I wanted to mimic...
+[01:12:13] This is the one waterfall that single page apps had not solved, that MPAs and React Server components solved innately.
+[01:12:21] So I was like, okay.
+[01:12:22] Can I, is there a way to make it?
+[01:12:25] other than obviously some bundle size things, but like you're already contending with say,  React right now, and you're already tending with serialization stuff. I was like,
+[01:12:32] Can I make it so that people from a...
+[01:12:36] architectural side  aren't, um,
+[01:12:39] wanting for server components in any way.  Like they had no argument from my perspective that I couldn't cover.  And I realized if I solve single flight mutations in a single page app,
+[01:12:50] Because it's funny, Theo's here, which is sweet, but I was watching his review of Dan Abramoff's talk at React Comp.
+[01:12:59] And
+[01:13:00] Um,
+[01:13:02] And there's something that
+[01:13:05] In a sense, I was thinking about covering that on the stream, not Dan's talk, but Theo's watch over Dan's talk, because...
+[01:13:12] It really, watching Dan's talk and then into Theo's analysis,  it really drove it home for me, this thing that I hadn't realized before.
+[01:13:20] this whole time. And I'm not talking about how brilliant Dan's talk is at like
+[01:13:24] getting people for server components to finally click.
+[01:13:27] because they clicked for me a long time ago.  It was understanding...
+[01:13:32] that
+[01:13:33] Like why people are so resistant to them, because if you come up.  Yeah, I almost want to I almost want to look at this for a moment.
+[01:13:43] Is Islands Router? No, because we broke everything apart, which is why I didn't talk about it. The Islands Router would have to go in the router now instead of Solid Start, which in a sense makes sense. The router is where it belongs.
+[01:13:55] But
+[01:13:57] I focused on 1.0 release rather than focusing on that.  The islands are still in solid start,  but the router needs to get into the router.
+[01:14:05] Okay.
+[01:14:06] So...
+[01:14:07] Thank you.
+[01:14:09] Yeah, I mean, I guess the first question is, can I even...
+[01:14:13] find it I don't know how much time I want to spend like looking through it um
+[01:14:19] But let's see here first. Let's go show more. Where are you?
+[01:14:23] I don't even know how...
+[01:14:25] they choose the order of people on here because...
+[01:14:30] I'm pretty sure I'm only subbed to a couple people on this list, and Theo is one of them.  So...
+[01:14:39] Oh, we're sometimes in recent broadcasts.
+[01:14:43] are
+[01:14:45] Yes, remix dead Laravel, this one.
+[01:14:48] Is this it?
+[01:14:50] Or yeah, yeah, yeah.
+[01:14:55] Okay, sorry.
+[01:14:57] You guys can't hear it like this. Give me two seconds.
+[01:15:01] Thank you.
+[01:15:02] I have to actually open this in a Chrome tab, which I have.
+[01:15:08] Oh.
+[01:15:11] Let's get here. Let's pause it. Let's full screen it.  And then I have to change how I'm presenting it in StreamYard. Give me two seconds.
+[01:15:20] Stop screen present.
+[01:15:24] Share screen, Chrome tab,
+[01:15:30] Thank you.
+[01:15:33] Also share on.
+[01:15:35] All right. Tell me if you can...
+[01:15:38] Do this video.  Do this.
+[01:15:40] Let me...
+[01:15:41] Share, start at.  So I have this link in here so I don't lose it.
+[01:15:45] Can we hear Theo talking?  Yeah, sweet.  Okay.
+[01:15:49] Thank you.
+[01:15:51] React and it's called React for two computers.
+[01:15:57] Okay.  Their feedback and thoughts.  He's given, Dan's given variations of this talk,  trying to like explain the two,  like he had the two histories of React.  He's really trying to point out this duality  and a lot of stuff.  What I want to get to is a little bit further on,
+[01:16:12] where
+[01:16:15] where
+[01:16:16] Where is it?
+[01:16:18] the hardest part about scrubbing this stuff where
+[01:16:20] where he's showing the code examples, right? Yeah, yeah, yeah.
+[01:16:24] And
+[01:16:27] There's this nice chunk here.
+[01:16:29] If we can.
+[01:16:30] Why am I just not? I suck at scrubbing right now. Let me see if I can get to...
+[01:16:35] the beginning of this code example.
+[01:16:38] Okay.
+[01:16:40] All right, let's just run this.
+[01:16:42] And that's where I think this starts to get a little magical. Say this particular interaction  has to be synchronous. Like I want the data to already be there with that screen. I don't want
+[01:16:56] And the thing...
+[01:16:58] Before Theo says anything here,  this example is he's got a fetch API that's returning, I guess, some kind of,
+[01:17:05] html or text and he's just putting it inside here so what he's got he's got a reveal button that on  click he then goes and fetches the data and he sticks it inside the like he replaces the content  of the document body so he's
+[01:17:20] He's basically doing like
+[01:17:22] This is kind of like a client, like a...
+[01:17:26] a router essentially but like not a full page uh or it's like a full page swap without doing a full  page reload it's doing ajax swapping the content of the whole page right
+[01:17:37] So things I've seen people do, despite this is often things, things are, do I do?
+[01:17:42] either with that screen. I don't want to wait for it to kind of come later. Like I want to be able to ensure low latency for specific interactions.
+[01:17:51] So how do we fix this?
+[01:17:54] Any ideas?
+[01:17:57] Right. He's complaining that he has to wait on clicking like this.
+[01:18:01] that like you don't get the data until you actually do the click.
+[01:18:07] So
+[01:18:09] It's kind of like not obvious how to approach this problem if you look from the client-centric  perspective because, well, this is all I got, right? I have this fetch call, have to await it.  There's not much I can do there. So maybe one thing we can do is we can look at the server code.  So this is my server. You can see there is an NPI endpoint that I created that reads from a file. This is my list of
+[01:18:33] got names.
+[01:18:34] I know there's going to be some web devs here that aren't as familiar with the server side stuff. So I'll do a quick explanation. It's channel. Yeah.
+[01:18:42] here. So there is a script tag here that says, here's the client code for this page, which points to this code. And just to kind of make it more visually obvious what is really happening in our program and how our program is really structured, I'm just going to copy and paste this. So I'm going to put the code of this
+[01:19:03] client code inline into the script.
+[01:19:07] So that's not necessarily like the best way to write production codes.  And there are more kind of efficient ways to do this.  Right.  Uh.
+[01:19:15] But for illustrative purposes, I think it really helps kind of explain what's going on in the code.
+[01:19:22] Yeah, sorry, Theo, the reason I want your version isn't for the part on Dan's talk. It's actually for what you do after Dan's talk. So I'm not skipping Theo's stuff to be real. Watch his video if you want his takes. It's great.
+[01:19:37] I'll get there. See, the first thing...
+[01:19:41] Um,
+[01:19:42] that you see here is this is kind of,
+[01:19:46] old school, like
+[01:19:48] I mean, also, we didn't have async functions or whatever.  But, like, back when you did HTML, you would, you know...
+[01:19:55] define any interactive behavior, almost like in a script tag like this, or maybe you import a JS file that had all your click functions in there or whatever, right?
+[01:20:07] But like we got so far away from this when we went to single page apps, but like, like even knockout makes me think of this because we used to like, I'd render ERB templates and then they would like render the JavaScript framework code in to the.
+[01:20:23] the actual markup of the HTML.
+[01:20:29] Thank you.
+[01:20:30] Thank you.
+[01:20:31] I am genuinely really curious.  So if you're watching this right now,
+[01:20:35] And...
+[01:20:36] Thank you.
+[01:20:37] you're trying to,
+[01:20:38] follow along and figure out server components i want you to comment
+[01:20:43] what timestamp it clicks for you. Because I know this talk is going to make this click for a lot  of people. So say in the comments, what timestamp in this video was the one where the server component  mindset clicked? Because I already see in chat, this is where it's starting to click for some of y'all.
+[01:20:59] But it's going to get way cooler in a second.  This is actually, I thought this was a really smart thing you did, Theo, to side note.  I thought this was genius because watching the chat react as they kind of got to it is really cool.  Because what he just did here...
+[01:21:11] Okay. - The server code and the client code as kind of two separate programs that talk to each other. They kind of pass messages to each other or like request stuff from each other.
+[01:21:20] But now I'm kind of looking at it from a different perspective. So I kind of look at it as
+[01:21:25] A single program
+[01:21:26] that spans two different devices that spans two different computers  it's like a program that's evaluated kind of
+[01:21:33] into steps.
+[01:21:36] To be clear about the two steps in case you're not following, which is understandable. This is a crazy concept that's being communicated here. The first computer is the server.
+[01:21:44] that generates HTML. Like the HTML, we think of it as a file, if it's in our public folder in our code base,
+[01:21:50] But most HTML is generated at request time. And the contents of that HTML can change based on
+[01:21:56] information that the user has specific to them it could be your auth information it could be the  route that you went to it can be what you're i'm going to assume you guys know that i mean for  example again we want to make this function synchronous we want to make the click handler  synchronous so okay which is called lifting state up where you put the state into a parent component  and then you pass it down
+[01:22:17] What if we could lift data up?  And instead of lifting it to a parent component,  we lift it up to a parent computer.  So we lift it up to the server.
+[01:22:30] So I'm gonna just copy and paste this from here.
+[01:22:33] I'm gonna put it here.
+[01:22:36] I love this.  Interesting.  I'm expecting this to be.  Do you know I love this?  Because it's just the same trick I do with signals when I show people that you can just pull the create signal out of the thing and you get global state.
+[01:22:48] That kind of...
+[01:22:51] like
+[01:22:52] moment
+[01:22:53] you live for when kind of coming up with this, these talks, right?  But I started teaching, I learned this stuff and I love it.  Well, but you have to understand the implications of this, right?  I mean,
+[01:23:03] He's not done. If we scroll, if we scrub a little bit further here while it's playing, that makes sense. How do you get the data back into your stuff? You actually have to inject it in. So he's Jason stringifying it here.
+[01:23:18] to actually get the data.  So he fetches on the server.  The key thing you have to understand about this is  he's now fetching it before your click happens,  regardless of your click.  He's just grabbing all the data up front on the server render.  He's hoisting it, you know,  like we do with route loaders, essentially.  Like you're...
+[01:23:35] He's pulling all the data out, fetching it at initial request time,
+[01:23:41] and then serializing it into the page.  This is kind of how all our SSR works today.  I mean, other than the inline click handler bit.
+[01:23:49] But you like...
+[01:23:51] we magically serialize
+[01:23:53] Actually, I don't know if this happens automatically in React.  It's all like if you make a resource, we magically serialize all your data for you.  But I know like Next Data is an example of the serialization.  And like there's serialization happening.  So...
+[01:24:05] While this seems incidental, you're making a choice here of where
+[01:24:11] the code goes.  If it was HTML here,  you're making a decision. You're suddenly going...
+[01:24:17] I want this to be something that is served as part of the initial page load.
+[01:24:22] instead of something that I fetch later.
+[01:24:25] right um there there there are performance consequences
+[01:24:30] of making this move. These are not equivalent. You're making a conscious trade-off or decision.
+[01:24:38] Right?
+[01:24:39] Like,
+[01:24:40] But it is very, it's very cool to kind of like,  sometimes people don't think of it this way,  but in a sense, when I think of SSR,
+[01:24:49] I do think of it this way for some some reason, but let's let's continue.
+[01:24:54] going to think about client and server and
+[01:24:58] i'm just gonna continue down this rabbit hole and and see see where it leads me so the other thing  i'm noticing is okay like when we hit the uh when we hit the server and we want to serve this page uh  and um
+[01:25:12] the first thing that happens is that we okay i already see a misconception in chat so i have to  statements
+[01:25:17] Because when people say rendering, they're assuming it's just the part that is interactive, is modified based on things the server does.  Other solutions to do yet, not needs, based on what the server tells you.  I'm skipping over this a little bit because...
+[01:25:32] Thank you.
+[01:25:33] Maybe I don't complete...
+[01:25:36] If you ever...
+[01:25:38] built knockout in
+[01:25:40] In like ERB.
+[01:25:43] you did actually serialize the stuff that wasn't shown, so to speak, right? Like, because you,  you, you would client render template pieces, but you needed the template for the pieces,
+[01:25:53] that you
+[01:25:55] haven't shown yet. Sometimes you'd show something without
+[01:25:58] um like you'd show something and that content wouldn't exist yet
+[01:26:02] exactly, but you still need it. And it's an interesting tension because
+[01:26:07] When we...
+[01:26:09] ship anything between the server and the client or anything. There's actually two places things can go. It can either go in the code or it can be part of the dynamic response. What a lot of these solutions we're doing right now around server rendering and stuff is just shifting where stuff goes. If stuff's in the code,
+[01:26:25] It can be cached, but it's also fixed in size.  It's not as dynamic as stuff that we can generate at runtime.  So if you put stuff into the data, the data happens on every run.  And if you look at resumability...
+[01:26:37] from that eye is basically...
+[01:26:41] making the bundling part of the data.  So based on like what's used or whatever,  or like you bundle it small and then the data drives what,
+[01:26:51] Code is...
+[01:26:53] pulled in. And in a sense, server components are driving what HVL or markup is getting pulled in.
+[01:27:00] We're moving stuff from code, which is static, to being driven by the actual data that happens at request time.
+[01:27:08] That's the way that I'm generally looking at a lot of these technologies.  But there's a trade-off for that, right?  Because innately increases bandwidth.
+[01:27:16] Right.  So like,
+[01:27:18] These are considerations.  Like, to be fair...
+[01:27:23] There's a lot of bandwidth considerations when you have to deal with hydration and having data there to hydrate and the difference between
+[01:27:30] like,
+[01:27:31] Part of it, like...
+[01:27:32] If you need to create something on the client or hydrate something to the client and the templates in the code,
+[01:27:38] The template in the code is going to be the static parts.  In order to get the dynamic parts, you also need the data.
+[01:27:43] And then the output is going to be the combined pieces.  You end up with a double data problem, right?  Because you need both...
+[01:27:50] The...
+[01:27:51] But it's not just a double data problem if you think about it, it's also the double template problem.  Because you have the template serialized in the HTML and you have the template
+[01:27:59] in the JavaScript code.
+[01:28:02] with
+[01:28:03] With React Server Components, you remove the template from the JavaScript code.
+[01:28:08] on the server component side.
+[01:28:10] right, or with islands.
+[01:28:12] So you solve the double template problem, so to speak.
+[01:28:15] But, and that's why the code gets smaller.
+[01:28:20] But the double data problem can be trickier.
+[01:28:27] you
+[01:28:28] So anyways, let's continue here for a moment because
+[01:28:33] I see a lot of parallels to my like 2000s web dev here.  And I think anyone who's a PHP developer,  Rails developer will as well.  But I think he's going a little bit further.  Let's keep going.  What's the client to do?
+[01:28:45] We, you know, we call the API, but where does that happen? Well, we hit the same server that serves this API, it returns to JSON, it returns it like this. And I'm like, do I really need an API for this?
+[01:28:59] like maybe in some cases, but probably not in this case,  because I only have one usage.  So I'm just going to paste this code here,  and I'm going to delete this API handler.
+[01:29:10] Remember when Dan tweeted, you don't need APIs anymore.  So I could clickbait it for a thumbnail.  Like he actually tweeted that with the knowledge I would abuse it.
+[01:29:18] he wasn't joking in so many cases the idea of an api is just not a necessary abstraction anymore  we don't need to expose data via urls if it's only being used to render a ui we can just do  the thing the api did and render the right ui with the right context
+[01:29:34] Yes, but what is...
+[01:29:37] I mean, if we're going to go really stepping out, what is data and what is an API?
+[01:29:41] Because, I mean, this whole thing is an API.  The HTML is the data, right?  Like, and...
+[01:29:47] I know I'm getting really meta here, but...
+[01:29:50] Okay.
+[01:29:51] Yeah, let's keep going for a minute. Let's verify that it works.
+[01:29:56] And you could say maybe
+[01:30:00] What about abstraction?  Like what about the API was not really enforcing separation concerns or anything?  Yeah, I don't care about any of the other services.  We have like a whole picture of what's really, you know, what's really happening, including both the server and the client side to send them on this computer.
+[01:30:17] But if I look at the data in line, I select the random one from them.  And I really only need one of them.  So it doesn't make sense to send all of them.  So maybe I'll just take these lines and I'll actually move them up.
+[01:30:31] And I'll extract them. I'll put them here. So this is something I can do ahead of time.  This is very smart because this is what islands kind of do because you see what you've done here.  You've reduced the amount of data you need to serialize if you only need to send one of the cats instead of all of the cats.
+[01:30:47] Right.
+[01:30:48] You basically only need, this is closure extraction in a sense, you basically only
+[01:30:53] in a funny way. This is like manual closure extraction. You only need the data that
+[01:30:59] that is sent here to be serialized.  The other data does not need to be serialized.
+[01:31:04] it's only if there is code that suggested that you could switch cats.
+[01:31:09] But instantly he's kind of solving the double data problem here.  On this computer.  And I can pass the cat name instead through JSON.
+[01:31:19] And so now if I refresh the page and I press reveal,  you know, it still works.  But if I look at the data inlined on the page,  it is only data for this one single thing.
+[01:31:31] Thank you.
+[01:31:33] This is cutting. Oh, this looks like some code I wrote in like 2003 with like PHP and, you know, interpolating strings and just like passing things kind of like a mad scientist.
+[01:31:46] But if you're kind of functionally brained, like maybe you'll think of this as, oh, this is kind of like partial application of the network.  There's this concept of applying a function in like several steps.  And this is kind of like this, except that there's also like a network step in between, which is kind of interesting.  But I think the main way I kind of look at this is that we've removed all the boundaries that are inessential to the problem.
+[01:32:14] that sentence kills me oh it's so good it's the the magic here i say this a lot and i'm  going to keep harping on it until it clicks for everybody
+[01:32:22] react broke down the idea that model view controller was the only way to have
+[01:32:27] like react challenged the idea that model view controller was the right way to yeah yeah no i i  this this is this is where we get a lot of our dx wins right theo's going on here is that like
+[01:32:41] He reacts to that these separations weren't necessary, co-locate them, and they're trying to co-locate them again. Obviously, when he jumps, we're going to jump a little bit further now because...
+[01:32:53] Um,
+[01:32:54] If I'm right, there's not as much left on this part of the example.  And then...
+[01:33:00] I didn't jump too far, did I?
+[01:33:02] Okay.
+[01:33:03] Yeah. Let's get.
+[01:33:07] Let's get back to here.
+[01:33:09] Um, where are we? This is like relay was the first step in it. You know, like a function into  other functions and like give them names that correspond to product features. Opponents.
+[01:33:21] Okay, I'm trying to get to where --  I'm going to call this one cat name generator, because that's what it does.
+[01:33:28] Okay, so he's starting to kind of rewrite this now in React, in modern React. And I'm going to need to give this thing a name.  So, and he's showing how the user's client clever. I don't actually care that much about it. Actually, this is where I actually like jumping way ahead, because...
+[01:33:44] Theo at the stream was like, okay, is this not sticky enough for you guys?  And he jumped into building his own kind of app.  You're going to delete all that for now.  Just auto-completing.  Because what we need...
+[01:33:55] is cat name.
+[01:33:58] string.
+[01:33:59] So now we need to return something here.
+[01:34:04] Button.
+[01:34:05] hi and the app itself doesn't matter all that much you specifically want the more reality set show  i'm going to change this to revealed
+[01:34:15] I want to get to the punchline because he's passed cat name as a prop.  Okay.  This is instead of fetching it from an API or embedding it manually in the script tag or doing all the other things that might get cat name to this component.
+[01:34:27] Instead, we just pass it as a prop.
+[01:34:29] the thing passing it happens to be a component that is running on the server.
+[01:34:33] But that is so much easier than fetching from an API, hoping the data comes back in the right format.
+[01:34:38] making these things reusable, all of that sucks. Let's just make sure it works before we go any further, though.
+[01:34:43] Try to make this button a little more of a button.
+[01:34:46] All right, styles with pale wind. Let's keep on going. Right. And then we return. So there's some space. These is effectively.
+[01:34:54] its own endpoint, getting its own data.
+[01:34:58] Super, super cool.
+[01:34:59] I hope that by now these patterns are starting to click  and the magic of server components is starting to be
+[01:35:04] a little bit more visible here.
+[01:35:07] it's all composable. We can just make
+[01:35:11] multiple of these.
+[01:35:13] Ready to see where things get
+[01:35:15] Real crazy, though.
+[01:35:17] Thank you.
+[01:35:18] What if we want to pass children?
+[01:35:21] What if we want to render an entirely different component
+[01:35:24] when this changes instead.
+[01:35:27] So instead of just cat name string,
+[01:35:29] We can pass it.
+[01:35:31] Children.
+[01:35:33] React.reactNode.
+[01:35:37] So now,
+[01:35:39] This is Expecting Children.
+[01:35:40] So we'll give it a...  He goes a little bit further to actually change it to where...
+[01:35:46] send a JavaScript down. - Yeah, here it is.  - You can pass data, you can pass markup,  or even pass another component.  If I wrap this with like React Confetti,
+[01:35:54] then each one of these would send a JavaScript down. If I wanted to make this a counter component too, which is everyone's favorite, let's make a quick counter.
+[01:36:03] counter.tsx, use client,
+[01:36:06] export function counter,
+[01:36:08] Yada, yada.
+[01:36:10] Typical counter, I just let autocomplete do its thing, and it seems to have done a good job.
+[01:36:15] If the reveal is instead for a counter, which I can just change the child here,
+[01:36:19] To be counter...
+[01:36:22] Now when I click reveal,
+[01:36:26] I get the counter instead.
+[01:36:29] Right.
+[01:36:31] So, and I don't know if that's going to be as big of a thing for me or for you guys as it was for me when I was watching this, but I realized...
+[01:36:40] For me, when I was watching the stream and kind of clicking on this...
+[01:36:45] That I am.  This is what server components do.  Okay.  Like.
+[01:36:50] The fact that
+[01:36:52] And if you understand,
+[01:36:54] that,
+[01:36:55] they are sending this markup. And if this is a dynamic decision at the point on the server,  they can actually decide, like, choose. Like, the thing is, if the decision,
+[01:37:06] on the server can be changed in the client, then all possible paths are rendered ahead of time.  So this is what I was talking about the choice where the hoisting is. If the decision
+[01:37:16] is made on the server that cannot be changed on the client.
+[01:37:20] then we don't have to send all the different...
+[01:37:25] only the one that is actually rendered.
+[01:37:28] And that piece is very different from,
+[01:37:32] than a client side app. However, most people are not going to bother worrying about that,  because this whole thing we were talking about composition,
+[01:37:40] This whole, you know, put this and that and that all this rules that we're like, wow, this is so powerful.
+[01:37:45] If someone just looked at this code,
+[01:37:49] and grabbed
+[01:37:50] this one read file here.
+[01:37:52] and hoisted it up here and said, use server.
+[01:37:57] Every other piece of this still is just as composable.
+[01:38:01] The difference is you end up with more JavaScript code in the client.  The template is...
+[01:38:06] Sent.
+[01:38:07] you know, for all the different permutations in the JavaScript.
+[01:38:12] Because it's like that second case where the decisions in the client, decisions in the client, you have to actually send all the possible paths.
+[01:38:19] The template might be smaller than the output HTML, but you're always taking that cost up front where server components you don't have to.
+[01:38:26] However,
+[01:38:28] all the composition properties of BOS have been the same.  So,
+[01:38:32] I started getting it.  I was like,
+[01:38:34] This is a brilliant way to show people
+[01:38:38] How?
+[01:38:39] to do
+[01:38:40] server components in a sense, like how the capabilities are mechanically. That hoisting thing was brilliant. But
+[01:38:48] For a lot of people...
+[01:38:52] And I think that's one of those questions.  The hoisting can also happen right here.
+[01:38:56] You can just go hoist
+[01:38:58] onto the server.
+[01:39:01] And then the whole rest of it doesn't necessarily have the benefits of server components.
+[01:39:06] but you don't have to change any other way of what you're thinking. So you're sandwiched between
+[01:39:12] like,
+[01:39:13] this is just PHP, this is simple, who cares?  And the classic React devs who are going,  why can't I just...
+[01:39:22] Pull this out.  Why can't this just be a loader?  Like,  like remix.  Why am I...
+[01:39:27] Why am I worried about this interweaving of composition
+[01:39:33] between client and server
+[01:39:35] And the fact that works when composition always just works in the client.
+[01:39:41] Bye.
+[01:39:41] For me, that was the ding point because I was watching this and if I was really pessimistic,
+[01:39:48] I could convince myself that I don't care about any of this.
+[01:39:51] And that's why people keep on finding it.
+[01:39:57] Because,
+[01:39:58] As cool as it is mechanically,
+[01:40:03] The difference, and people  disagree with me, the difference between
+[01:40:09] this await here and this await pulled up here.
+[01:40:15] There's a lot of consequences that come...
+[01:40:17] between that switch.
+[01:40:19] Thank you.
+[01:40:20] But it's hard for people to actually tell the difference.
+[01:40:22] And if one tells them that they can use React the way that they've always done it,
+[01:40:27] And the other one says they have to completely change their mentality.  That's a tougher order.  I know this is a weird take.  But it was...
+[01:40:35] I had to get through Dan's talk and then through Theo, like explaining all the benefits based on the talk for me to understand.
+[01:40:41] why even after this, people just might, or people who might just not see it,
+[01:40:48] Right. Like it's why, you know, the tanners, you know, and why remix router or react router or  whatever it is these days is like, when people are getting stoked about it, I actually think,
+[01:40:59] And we'll talk about React router.  I actually am not, I don't, I'm not actually that,
+[01:41:04] jowled about it.  It's a nice...
+[01:41:07] Like...
+[01:41:08] I think Remix is taking it the right direction.  I just...
+[01:41:12] don't care about doing server components that way.  I feel like it misses the point, but I understand from this why it makes a lot of sense, because
+[01:41:21] Like.
+[01:41:22] Okay.
+[01:41:24] I, you know, the fact that this returns the cats or it returns maybe some markup with the cats,
+[01:41:30] is all that most people see on their thing because they're used to that composition pattern already. Like, you know,
+[01:41:38] In a way, this is why I was able to settle with solid start and single flight mutations where it was because I was just like,
+[01:41:44] We just hoisted up into a used server and then
+[01:41:48] All the other stuff isn't what you're worried about anymore, right?
+[01:41:52] I don't think it's as efficient theoretical zone, but I don't have to fight with theoretical react efficiency.  I have to fight with actual react efficiency.  And that's the battle I feel comfortable with.  Right.
+[01:42:04] But like...
+[01:42:06] This is...
+[01:42:08] at least for the time being. But this is where the challenge comes in. Anyway.
+[01:42:17] Thank you.
+[01:42:22] I like this take. Well, I mean, it's I don't know.
+[01:42:26] I don't know if I like this, but it's interesting though.  Well, the thing is, we're constantly just moving the code,  like trying to find the balance point between moving the stuff between the code
+[01:42:36] and moving it and the data and figuring out what's the best way to optimize our bandwidth and load execution stuff like and we're coming up with nicer, more controlled ways to move stuff between the code and the data and finding what that sweet spot is because
+[01:42:51] Like once you use server components in the basic sense, you start getting advanced.  And this is so funny because I remember the Astro guys pointing at me that no one used Astro the way I used Astro because I used Astro like server components.  I was like as granular as possible, tried to minimize serialization.  Most people are just like, here's my old app as an island.
+[01:43:08] you know,
+[01:43:10] Like once you go deep down the side,
+[01:43:13] That control,
+[01:43:15] Um,
+[01:43:16] is very powerful if you can save serialization.  But the question is, do React server components actually  save serialization?
+[01:43:23] They don't because the VDOM diff that they send across.
+[01:43:27] winning
+[01:43:28] for all that effort, which is really frustrating from my perspective. But I,
+[01:43:34] like,
+[01:43:35] It...
+[01:43:36] it's one of those things where it's like,
+[01:43:40] There's so much potential here.
+[01:43:44] So,
+[01:43:45] But it's not even clear...
+[01:43:48] me completely like because people are struggling with the uh
+[01:43:53] The abstraction.
+[01:43:55] It's not clear to me necessarily that it's the right one.  You hope people over time get used to it and like it.  I'm pretty, I was pretty bullish on this very early on, especially.
+[01:44:04] But like...
+[01:44:08] there are different ways and we and it feels like the community in general is taking a lot of time just understanding
+[01:44:17] what kind of control they want or where they get it and the differences between it. Because for a lot of people,
+[01:44:23] hoisting that up.
+[01:44:25] is infinitely simpler for them from where they're standing today.
+[01:44:29] and
+[01:44:31] it's hard to argue with them when the performance type aspects might not have impact them.
+[01:44:38] like at all.
+[01:44:39] Anyway.
+[01:44:41] Thank you.
+[01:44:42] Thank you.
+[01:44:43] Thank you.
+[01:44:46] Thank you.
+[01:44:56] Thank you.
+[01:44:56] Do you guys want me to talk about... I was preparing for a conference talk. I was going to drop the bomb at the conference talk, but I actually was working on Quick a bit last week.
+[01:45:06] And,
+[01:45:08] I, I,
+[01:45:09] I'm done with this part here, but it is related to this.
+[01:45:12] I was doing some benchmarking.
+[01:45:14] You know...
+[01:45:15] You guys will get a little sneak peek of a little bit.
+[01:45:20] Um...
+[01:45:22] Thank you.
+[01:45:23] Let me pull some of this off screen so it's not...
+[01:45:27] I mean, it's no sneak peek to you guys who watch my stream all the time.
+[01:45:32] But you all know how I use Hacker News demos.
+[01:45:37] Right?
+[01:45:38] Oh, right. I got to share my screen, not my tab.
+[01:45:41] Let me give me two seconds to.
+[01:45:44] to do this present
+[01:45:47] Stop screen, present.
+[01:45:49] Sure screen.
+[01:45:50] entire screen.
+[01:45:54] Okay.
+[01:45:56] Right.
+[01:45:59] I've...
+[01:46:00] I've done this Hacker News death page in a bunch of frameworks.  You guys can all guess which frameworks are which on this page.  Some of them might surprise you.
+[01:46:11] Hey, Brandon.
+[01:46:13] Thank you.
+[01:46:14] Uh, yeah, we, we did talk about it. I think most we're going to talk a lot about react probably for the next little bit.
+[01:46:21] Right. I've done this on stream. Everyone who's been with me can kind of guess.  First good piece of news is most of the frameworks have creeped above 50.
+[01:46:29] Um,
+[01:46:31] there's um i'm not going to shame the ones that are in the 40s still  although everyone was in the 40s you know a couple months ago
+[01:46:37] But I'll give you a hint.
+[01:46:40] Solid's the last one down here at 66 because it was always slightly faster than the other ones.
+[01:46:46] and,
+[01:46:48] Next is actually 59 here. Next pages directory. For some reason, it's very good at lighthouse. There's something they do in the way that flushes, they always get the first paints faster.
+[01:46:59] These two
+[01:47:00] are the pair that are always identical to each other. They're buddies in arms.
+[01:47:06] Um,
+[01:47:08] Remix and Svelte kit.
+[01:47:10] Now, if...
+[01:47:12] We built the page in Astro. We all know what Astro looks like, right?
+[01:47:17] Thank you.
+[01:47:19] Thank you.
+[01:47:21] You know, Fred, Fred, I still remember that time Fred jumped out of his seat, right?
+[01:47:25] Right?
+[01:47:26] Thank you.
+[01:47:28] Thank you, Brandon. I appreciate it. It was a lot of work. I know you do a lot of work with analog as well.
+[01:47:33] It's just a lot.
+[01:47:35] Right. And this is Astro solid, to be fair.  I mean, if you're going to go with Astro, you might as well...
+[01:47:41] you know, take it all the way through, right?
+[01:47:44] And later on, I do it with quick.
+[01:47:47] And
+[01:47:50] Quick.
+[01:47:52] I mean, there's variation, but quick scores pretty respectably.
+[01:47:56] generally speaking.
+[01:47:59] I did the same one with React Server Components, right?
+[01:48:03] 64.
+[01:48:05] upper end, better than pages, similar to solid actually.
+[01:48:11] But something occurred to me in my Hacker News demo that I did for quick.  It's an MPA, like Astro.
+[01:48:16] So they can make a bunch of assumptions. Do you know what happens when I put a client side router on Quik?
+[01:48:22] Oh, what do you know? It scores the same as React server components.
+[01:48:26] Because the serialization had to come back.  And I will explain this more in my talk.
+[01:48:31] But...
+[01:48:32] Essentially,
+[01:48:33] It could tree shake out the data because it knew the state would never change.  But once I added a client side router,
+[01:48:38] It doesn't have use client, use server.  It doesn't have that break.  The decision points are now very high up in the tree.
+[01:48:43] Because the router is really high up in the tree.
+[01:48:46] because you have to switch the routes.  So instantly...
+[01:48:49] all that data serialization comes back.
+[01:48:52] So,
+[01:48:53] Suddenly it's just an efficient hydration solution.  And in this test,
+[01:48:59] you know, with a thousand comments,
+[01:49:01] The code size, and they're all comments, the same kind of code, the code size isn't going to kill you.
+[01:49:07] The execution cost,
+[01:49:09] You know, varies. This was a 63, could be a 64.  I'm going to assume that Next and Quick are the same  and Solid Start as well at 66.  They're all basically the same speed.  Because the code cost size is not going to kill you  on a freaking Hacker News demo.
+[01:49:21] Execution, well,
+[01:49:22] Hydrating 14-
+[01:49:25] 100 comments seems like a lot.
+[01:49:27] But...
+[01:49:28] Minimal.
+[01:49:30] This is purely serialization.
+[01:49:32] the difference between needing the data and not needing the data.
+[01:49:35] And,
+[01:49:37] Islands can trim it completely, MPAs with Quik can trim it completely, but React server components, or basically anything with client-side routing, has trouble.
+[01:49:45] Technically, Solid's Islands router was a 90 as well.
+[01:49:48] and it had client side routing, but that solution
+[01:49:51] is flawed, just like view transition API in Astro. Like it doesn't
+[01:49:55] It doesn't work for real apps in terms of actually persistent state and lazy hydration.  I think I explained it.  You have to change your approach slightly.
+[01:50:03] I talked about that in the talk, but
+[01:50:06] But generally speaking, there is a zone where you could probably solve the serialization problem, but React Server components are not it.
+[01:50:14] The Quix model isn't defined boundaries enough to actually solve it.  Maybe they need containers.  Maybe they need a different API.  Maybe they need a new router they're working on, but it doesn't exist today.
+[01:50:23] These are solvable problems. I just want to point out
+[01:50:26] that client side routing with partial hydration
+[01:50:31] No solution today exists to at least my satisfaction.  And in the end, you end up with stuff that basically...
+[01:50:38] Thank you.
+[01:50:39] when the bottleneck is on data or serialization, which is true for a lot of static, low interactive sites, the kind you'd actually be choosing these tools for.
+[01:50:47] the changes are, the differences are probably going to be pretty negligible.
+[01:50:51] There we go. That's what I have to say about it today.
+[01:50:55] uh
+[01:50:57] Hey, should I speak of devil talking about it quick?
+[01:51:01] Yeah, but it's not that. This is a fundamental architectural problem.
+[01:51:07] Like,
+[01:51:08] Like, it's not like this is you need to have clear boundaries if you want to solve the serialization problem.
+[01:51:18] Right?  Like, when it comes to client-side routing.
+[01:51:23] And funnily enough, Wiz is not too concerned with that because they're MPAs.
+[01:51:28] I think...
+[01:51:29] You know what I mean?  Generally speaking, the types of apps that a lot of people have gone quick for are highly interactive, but very important for loading, but maybe they don't care about the persistent...
+[01:51:41] stuff.
+[01:51:42] they're not going to hit the same kind of zone.
+[01:51:46] Thank you.
+[01:51:47] Thank you.
+[01:51:49] Thank you.
+[01:51:52] Thank you.
+[01:51:52] Yes, but and I actually prefix this a little earlier in the talk about this.
+[01:51:57] the this is in general people will build towards the benchmarks or like this and then you end up  not proving anything but like
+[01:52:06] this is a very quick way to to measure the cost of bandwidth or of serialization i'm not imagining
+[01:52:12] this. You're right. Is it important, data serialization? Well, it depends.
+[01:52:16] But I talked to, you know,
+[01:52:18] the Wiz people. I talked to the guys at Google, high on the performance side. I've talked to the  people at eBay about this. Serialization is an important problem. It is one of the biggest  issues. This again, about that balance between moving the code between JavaScript and data.
+[01:52:33] right static stuff that can be cached and things are not there is a
+[01:52:37] balance here.
+[01:52:39] And
+[01:52:40] This is, yeah, this is just, it was an interesting kind of,
+[01:52:44] you know, tangent, right? Like I just wanted to kind of just thrown it out there. Okay.
+[01:52:49] Um,
+[01:52:51] It's fine. I'm going to have a talk about all about the different hydration techniques when I get back to...
+[01:52:58] at React Summit this year.  But
+[01:53:01] I just kind of wanted to put that out there that this is not a solved problem by any means.
+[01:53:13] Thank you.
+[01:53:14] Thank you.
+[01:53:17] Are you guys still trying to argue with Theo in the chat?
+[01:53:33] Uh...
+[01:53:36] Okay, well...
+[01:53:38] Thank you.
+[01:53:39] Yeah, let's keep on.
+[01:53:41] Let's keep on going here.
+[01:53:44] I don't know if I'm trying to remember if I have more to say about react server components before we talk about the compiler.
+[01:53:51] Um,
+[01:53:53] Let me see here.
+[01:53:58] Yeah, React Rider V7.
+[01:54:01] was that actually released anywhere or i think i have to actually go to the react comp talk react  comp
+[01:54:07] 2024, okay?
+[01:54:09] Um...
+[01:54:11] Not day two, day one.
+[01:54:13] I love Ryan Florence does always get the prime react bump.
+[01:54:17] placements, you know, or like the primary at conference placements.
+[01:54:28] I don't want to watch this whole talk.
+[01:54:34] I want...
+[01:54:35] Huh?
+[01:54:40] I want to get to the reveal moment.
+[01:54:45] Thank you.
+[01:54:47] Thank you.
+[01:54:52] Okay, let's share the proper screen with audio so we can get here.
+[01:54:59] Present.
+[01:55:00] Share screen.
+[01:55:03] There, share.
+[01:55:07] See Ryan Fornz.  It's just moving to a different route.  So what's different?  That was dropped from about a 700 kilobyte.  So I don't need this content anymore.  This is a funny function.  This has nothing to do with it.
+[01:55:19] Let's see if I can actually find what I'm looking for.  Really similar.
+[01:55:23] Sorry, no.  The next one is the same as this.  Whatever.  All right.  So this is a single page app.  You can see we get a little loading state up there,  like loading a single page app.  If I go into my Vite config,  I'm going to go to my Vite config.
+[01:55:34] In ReactRouterV7, I can say,
+[01:55:37] SSR true.
+[01:55:40] Make that change, and then I can come back to my thing here, and I can say instead of a client loader,
+[01:55:45] Let's do a loader.  All right.  And you're not going to believe me, so I have to prove it.  So I'm going to disable JavaScript, and I'm going to reload this thing.  And it rendered.  It rendered.
+[01:55:53] Thank you.
+[01:55:56] Yeah.
+[01:55:57] I like this demo because I've been giving this demo for a couple of years, except we don't change anything on the loader side. You literally just go into the config and change SSR true false. But I this is powerful, but it's not where I want to get to it. He's got to go one step further.
+[01:56:15] pre-render,
+[01:56:17] So he's trying to show all the features.  I just want to get there.  He's right.  Everything is a router.  Like, you know what?  This bit of UI, this list of products there, these top products, we want to move that rendering to the server with RSC.
+[01:56:30] So, how do you move
+[01:56:34] Rendering.
+[01:56:35] to the server
+[01:56:37] in React Router V7? Well, you select your code that you want to move to the server,
+[01:56:43] and then you move it,
+[01:56:47] to the server, and then you,
+[01:56:51] come down here and you look at this product thing,  you're like,  what is,  what,  what is that?  Yeah.
+[01:56:55] I guess it's some stuff that I can render.
+[01:57:02] Oh, yeah, like I told you, I'm running on an experimental React router and a beta of React, so I got to restart this thing.  Oh, my goodness, look at this.
+[01:57:12] Woo!
+[01:57:16] Thank you.
+[01:57:17] I mean, this makes a fun demo.
+[01:57:21] Thank you.
+[01:57:22] The thing is,
+[01:57:26] What's happening in this example here?
+[01:57:32] Thank you.
+[01:57:33] the
+[01:57:34] div, the header...
+[01:57:38] maybe the nav bar, you know,
+[01:57:41] or whatever, are all...
+[01:57:43] Client components.
+[01:57:47] They're all stuff you're sending the JavaScript to the client.
+[01:57:51] that you don't actually need to because these are actually all static.
+[01:57:55] These are the parts that you get the most benefit from using RSCs for, and they're sitting inside the client components.
+[01:58:04] When I saw this API, I was like,
+[01:58:06] So,
+[01:58:08] I asked Jacob, I'm like, so I can put client components in here too, right?  So can I just...
+[01:58:13] Are you going to tell me that in the future, I'll start my app like this, and then I'll move the stuff up. And then at a certain point, I'm just going to all my files are just going to be export async function loader.
+[01:58:22] And that will be my entry point.
+[01:58:24] I just won't have default components anymore.
+[01:58:26] Because literally...
+[01:58:28] in every case I can possibly think of, I want this and the header to be server components, not client components.
+[01:58:38] I don't know.
+[01:58:40] I'm not sure if you can use client and import them in.  I don't have Ryan Florence here like Theo did the other day.  I can't remember what his answer was.  I'd hope so because otherwise you'd end up with lakes.  Nox server components actually work kind of like this.
+[01:58:53] But it's also kind of like...
+[01:58:57] who cares?  Like you just,  I mean,  I guess it's the unified UI aspect,  but on the other hand,  it's kind of like,
+[01:59:03] you're,
+[01:59:04] you're just sending a larger...
+[01:59:06] payload.
+[01:59:09] Right. Probably. I mean, maybe you don't need to send all the data, but if you were smart about what data you sent, probably.
+[01:59:16] you
+[01:59:17] Yeah, I mean, it's interesting. You're moving the code from the JS.
+[01:59:22] to the data.
+[01:59:24] serialization like that like that's what this move is right
+[01:59:30] It's the same hoisting that we've been talking about all stream.
+[01:59:36] It's just a RC, which means so I should be able to import client components and stick them in here, which if that's the case,
+[01:59:42] then yeah, I think this is smart from a migration standpoint, right?  Because you go client loader to loader to
+[01:59:51] every endpoint being a loader.
+[01:59:53] instead of being a
+[01:59:56] a default component.
+[02:00:05] You guys still, what are you guys arguing about?
+[02:00:14] You guys aren't talking...
+[02:00:17] I see a promise all and I've initially thought about how blocking RSCs are but
+[02:00:21] That's not what you guys are talking about, are you?
+[02:00:23] No.
+[02:00:27] i don't even know if i want to know you must compute what you must if there's 20 computation that's going to be
+[02:00:38] Yeah, I don't...
+[02:00:43] Thank you.
+[02:00:45] With the prefetching, I just used the naked link component to be fair shy.  If you want, I can...
+[02:00:50] I can share the demo. It's quick.
+[02:00:54] uh,
+[02:00:55] quick HN spa pages dev and then the actual GitHub.
+[02:01:00] for it is
+[02:01:02] probably under my profile somewhere here.
+[02:01:05] As I said, I think this is actually just fundamental...
+[02:01:09] I mean, maybe the score isn't. Maybe we can look more at the score.  But I think the architecturally, like I saw the serialization come back, which is what.
+[02:01:18] I would expect quick...
+[02:01:22] Because I picked something specifically...
+[02:01:25] Um,
+[02:01:27] Okay.
+[02:01:28] I picked something specifically...
+[02:01:31] that was expensive on serialization.
+[02:01:35] Anyways, let's...
+[02:01:37] Thank you.
+[02:01:39] I
+[02:01:40] Yeah, I...
+[02:01:41] This is a good migration story.
+[02:01:43] But I feel like it buries the lead a little bit.  But I understand...
+[02:01:48] If this is what it takes for people to get there,  I think I would be pretty happy about this  from the React perspective as well,  because then it'd be like, okay, people are adopting RSCs
+[02:01:57] even though it's kind of like upside down. Um,
+[02:02:00] So, yeah.
+[02:02:08] Thank you.
+[02:02:20] I've wondered about this.  I mean, I get that.  But...
+[02:02:25] There are...
+[02:02:26] I guess it depends on your caching approach. If you want to cache closer to the browser,
+[02:02:31] there are benefits to having separate requests  because then you can cache them independently.  This has been actually one of my biggest...
+[02:02:38] um concerns with this because it'd be very easily for me easy me
+[02:02:43] to make all our used server calls batch
+[02:02:46] on future navigations.
+[02:02:48] Like the reason I do it on the mutation part for single flight mutations is because like everyone hits that.
+[02:02:55] Right.
+[02:02:55] Like if you do a mutation on a page and the next thing is like redirect, like everybody hits that waterfall.  I wanted to get rid of it.
+[02:03:02] But if you're forward-navigating and you do a bunch of parallel requests at the same time,
+[02:03:07] or maybe changing a query URL or something minor or small.
+[02:03:11] even in these cases where you just
+[02:03:14] just like slight navigation, maybe changing one route section or, you know, one piece of it. Um,
+[02:03:21] I've struggled with deciding whether it's better to send them all as a single request.
+[02:03:27] or not.
+[02:03:30] Because sometimes you don't need to make all the requests.
+[02:03:34] First of all, I mean, that's the obvious one to me.
+[02:03:39] And sometimes they can be cached independently.
+[02:03:42] and have their own rules.
+[02:03:44] For data fetching?
+[02:03:46] So like...
+[02:03:47] I'm actually not convinced that,
+[02:03:50] necessarily.
+[02:03:52] on highly interactive apps that this is actually true. But it'd be interesting to talk about at some point.
+[02:04:00] Like generally, yes, because there's more points of failure, right?
+[02:04:04] as long as your single request is streaming,  you're not going to get bottlenecked by it, right?  So one of the classic problems  of putting everything on a single request  is then you're, you know, the...
+[02:04:12] the everything is as slow as the slowest thing. But if you're streaming back your response,  then you don't have this problem. So I like I'm cool with that. It's just more thinking like,
+[02:04:23] And this is also a place where I wasn't sure if I could make that decision. It was something came up like Danny was even kind of pushing to it. I was like, yeah, I mean, I can definitely go and I go start right now and make all the server functions micro task.
+[02:04:38] batch and automatically strip back through and
+[02:04:41] Ta-da, but do I actually want to do that?  I'm not actually sure.
+[02:04:49] Thank you.
+[02:04:53] Thank you.
+[02:04:54] Yeah, yeah, yeah. Streaming is definitely very important there. This is the kind of things that I've been thinking about. It's one of the reasons why I haven't actually...
+[02:05:05] like our single flight mutations stream back the response.
+[02:05:09] I could have all the separate requests stream back the responses to we're streaming data, not RCs, but
+[02:05:15] Who cares, right?  If the code's already in the client,  it can render it.  I mean, this is one of those,  the data versus HTML thing  is an interesting one.  I forget if I told everyone this.  At one point,
+[02:05:25] Solid streaming didn't stream, outdoor streaming didn't do HTML only to data. So we'd render the static shell really quick on the server. And then the server was done, except for sending back the data over the wire. Because a lot simpler, I didn't have to worry about handling async, resuming and suspense and stuff on the server as much there, you just hit a suspense boundary, you're like,
+[02:05:45] We're done, guys.  And...
+[02:05:48] It worked well, not done because you have to fetch through, but we didn't have to worry about sending it back or doing any kind of like stitching it in on the server timing and all the stuff. And the funniest thing is on fast connections.
+[02:06:00] doing the data approach was actually way faster.
+[02:06:03] Because the client...
+[02:06:05] getting those cache JavaScript from the CDN.
+[02:06:09] So the page would come back with a shell pretty quick.  Synchronous renders are always pretty quick.  And then it would get...  It would start...
+[02:06:17] the JavaScript up, at which point,
+[02:06:20] you know, on that same request, it's still streaming back the data.  So it starts to going to do it.  And the data is still waiting for it.  And it starts rendering the page.  It starts rendering the suspense on the client.  And it starts rendering the, like, HTML for the page that would go there.  And, of course, Consolid's non-blocking.  It keeps on rendering everything except for those, like, holes where it needs the data.  And then as the data comes in, it would fill those holes and then...
+[02:06:40] like swap them into view. But what's interesting is I found because Sol was able to start rendering  the page under the suspense boundary before the server sent it back and because we were  serializing less data over the wire compared to the HTML later, it was slightly faster.
+[02:06:56] to not serialize the HTML.
+[02:06:59] because the client actually got ahead of it.
+[02:07:02] But the problem was that I then I started around the time I started working eBay, you know, I put on a slow network request. And then yeah, it was very noticeable.
+[02:07:12] how much faster...
+[02:07:14] sending the HTML is because in that scenario, when you have slow networks, slow devices, load CPU,
+[02:07:21] The HTML can come back and swap into place and be visible.
+[02:07:25] with out-of-order streaming before solid has even loaded  or before even the hydration has happened.  In my approach where I was using data,  hydration is what put...
+[02:07:37] stuff into place.
+[02:07:39] Whereas out of order streaming like we have today and in most frameworks, that stuff content comes into place.
+[02:07:44] irrespective to the state of where the framework is. It could have already started hydrating,  it could have not hydrated. It comes in as fast as it possibly can.
+[02:07:54] But the bandwidth is more.  So on a faster connection, it was actually worse.  Yeah, just interesting.
+[02:07:59] Right.  Um,
+[02:08:02] Again, that's why I'm so focused on the data versus JS divide here.
+[02:08:10] Okay.
+[02:08:12] Thank you.
+[02:08:14] I mean, do you know, actually, here's a crazy one for you guys.  We were talking about PPR earlier.
+[02:08:20] Let's think about this for a second.
+[02:08:22] There's an... What if...
+[02:08:25] What if you...
+[02:08:27] didn't use an edge function for PPR.
+[02:08:30] you use the client.
+[02:08:32] I mean, you guys are going to love this one, right?  What if you just serve...
+[02:08:36] The static shell...
+[02:08:38] from the CDN immediately.
+[02:08:41] And then when the client loads,
+[02:08:45] It directly...
+[02:08:47] talks to the backend and gets the rest of the streaming content and inserts them into place.
+[02:08:52] It's not on a single request this way.
+[02:08:55] But the cashability, you know, like you basically just...
+[02:09:01] straight up like I guess I'm talking poor man solutions where you don't have like specified  infrastructure that can CDN and batch a stream into it automatically without like firing up a  worker. If you just had a CDN, you could just
+[02:09:13] send back the shells and then have the client initiate that. Now you're not processing,  proxying through the edge server anymore. It would look, you know, because you see all the  suspense boundary fallbacks and everything. It would look,
+[02:09:26] almost identical. The difference is
+[02:09:29] The data request would start when the client got it.
+[02:09:34] rather than when the edge function started rendering.  So it would probably be slower.  But it just...  See, in my mind, I think...  I mean, we'd have to benchmark this.  But in my mind, I think...
+[02:09:46] the the extra hop or the wait for the javascript to getting to the client in a lot of cases
+[02:09:51] Um,
+[02:09:52] would be slower than just booting up the edge worker and streaming through like typical out of order streaming but
+[02:10:00] On a fast network, like I was talking about, where the JS and the HTML is cached and static, and it comes right in, and you just start that request right away.
+[02:10:11] That would probably...
+[02:10:14] that could be faster.  I don't know.  Maybe worth measuring.  Maybe it depends on the use case,  but just,  just kind of putting it,  putting it out there that it's possible that,  that,
+[02:10:22] you know,
+[02:10:24] you know, there's an avenue there.
+[02:10:28] Right? Like, why not?
+[02:10:33] Thank you.
+[02:10:35] Thank you.
+[02:10:36] I, there was a lot of performance care. Most of my work on the framework side at eBay was around resumability. That's, we have a name for it now thanks to Misco and Quick, but we were basically working on resumable partial hydrated.
+[02:10:51] solutions.
+[02:10:52] Marco 6's resumability was compiler analyzed based,  based on a language.  So think of it kind of like,
+[02:11:01] I don't even know how to explain it.  I mean, it has weird syntax for people, but...
+[02:11:06] It's like...
+[02:11:08] a signals compiler that,
+[02:11:09] that does perfect resumability, essentially. Like,
+[02:11:14] without...
+[02:11:15] like
+[02:11:17] denoting the boundaries.
+[02:11:19] So it's just consistent.
+[02:11:21] It's...
+[02:11:23] It's going to be cool, but I'm not allowed to talk about it anymore.  I told myself that I wasn't going to talk about it until they released something.
+[02:11:34] Okay.
+[02:11:48] Ah.
+[02:11:52] You guys are...
+[02:11:54] Thank you.
+[02:11:55] Uh, sorry, there's been so much arguing in the chat, I don't even know what to do with it.
+[02:12:02] All right, anyways.
+[02:12:05] Thank you.
+[02:12:10] considering the new techniques of rendering hydrogen ppr  is there any of this that is easy  easier to implement with a vdom than with a signals based press  yeah react server components  server components are easier with a vdom  than they are with um
+[02:12:28] Because it's a diff-based approach.
+[02:12:32] Um, whereas signals is much easier.  Like it's almost necessary for resumability for true resumability.  Um,
+[02:12:39] Um,
+[02:12:41] I...
+[02:12:42] Yeah.
+[02:12:43] I, yeah.
+[02:12:48] Thank you.
+[02:12:48] Okay. I don't know if I have anything else to say. The fact that
+[02:12:54] React router is the thing.
+[02:12:56] And it's just a V plugin makes a ton of sense. As I said, me and Ryan Florence are completely aligned on that. Most of solid start was is actually in solid router. You know, like we have those features like the server functions and stuff, you know, which they are getting from react core, but like,
+[02:13:11] Other than that, Solid Start is mostly about the router.  So even though the router doesn't ship with it,
+[02:13:16] This is why I'm confident with 1.0.  I know this is going to scare people a little bit.  And because the router doesn't...
+[02:13:24] If the router doesn't ship with SolidStart, the positive is we have to make sure that the interact between the SolidStart and any future version of the router...
+[02:13:34] works, but it means so that you can keep on using whatever version of the router, but it means that the router has room to
+[02:13:41] change.
+[02:13:42] without solid start
+[02:13:44] necessarily changing.
+[02:13:46] we just update templates. You know, you can have templates of the old router versus the new router or whatever.  You know, I'm pretty happy with the router is and we already made the pretty big changes recently.
+[02:13:55] But my point is that most of what makes Solid Start, you know, when people build apps feel like Solid Start,
+[02:14:04] is actually not solid start. So that's a very interesting kind of
+[02:14:09] place to be in and why i'm more confident about 1.0
+[02:14:12] in general, because
+[02:14:14] We've got a lot of flexibility there.
+[02:14:17] Okay.
+[02:14:18] Let's keep on going.
+[02:14:24] I guess we're at React compiler time.  You guys want to talk React compiler?
+[02:14:27] Is that something people care about?
+[02:14:30] Thank you.
+[02:14:33] Thank you.
+[02:14:36] Well, Quik's been exploring into this zone,  but one of the thing is,  Quik started it with a VDOM approach to resumability.  They still re-rendered components.  Like they have to render components when it resumed.
+[02:14:49] And
+[02:14:51] If you...
+[02:14:52] Because Quick doesn't have a fine-grained render, like Solid.
+[02:14:55] They have some optimizations now, which is really cool,  but they don't have like View Vapor or Svelte 5 or Solid's Fine Grain Renderer.
+[02:15:04] If you combine that with resumability,
+[02:15:07] you like things get even crazier is the way to put it,  because even less code has to rerun.  Like the quick has that optimization.
+[02:15:18] And I guess you could say Wiz does from a manual optimization standpoint, because they're not like
+[02:15:22] a lot of that stuff is manual, you know,  a JS controller, but, like,
+[02:15:27] historically, I think Wiz had done a lot of like almost inner HTML to solve things.  Picture if you had that fine grained level of reactivity of like,
+[02:15:35] at the node level, we were making like toy demos, like to do MVC examples. Um,
+[02:15:43] where this is usually unheard of in javascript frameworks where the total bundle size
+[02:15:49] it makes sense, got smaller...
+[02:15:51] when we added server rendering.
+[02:15:54] Like most frameworks, when you add,  when you have a client render framework  and you have something that's completely interactive,  like a to-do MVC,
+[02:16:01] Adding...
+[02:16:03] adding a
+[02:16:04] server rendering to it actually makes it larger.
+[02:16:08] Um,
+[02:16:09] it was actually shrinking stuff because the tree shaking could, you know, be that effective.
+[02:16:14] you know, across the board.  Anyways, another day.
+[02:16:19] All right.
+[02:16:23] Okay, so everyone wants to know what I think about React Forget.  And the truth of the matter is...
+[02:16:29] I...
+[02:16:31] Thank you.
+[02:16:32] Let me share my screen.
+[02:16:38] I didn't really want to say much about React Forget, right? Because...
+[02:16:42] Honestly, the team has done an amazing job.  The goal is incredibly ambitious.  When everybody comes in and they're like,
+[02:16:49] doing, seeing this stuff.
+[02:16:51] Like it was kind of like, you know, let's just see how it plays out.  I think, I think there's a lot of, uh, you know,
+[02:16:57] uh,
+[02:16:59] There's a lot of interesting...
+[02:17:03] Yeah.
+[02:17:05] Thank you.
+[02:17:06] Oh, I didn't talk about this.
+[02:17:09] Thank you.
+[02:17:10] That's fine. We'll get to it later. Let's just talk. Yeah, I forget. You know, there's a lot of like...
+[02:17:16] benefit.
+[02:17:18] to
+[02:17:19] DX. We've seen this with Svelte.
+[02:17:22] Think of how much people love
+[02:17:25] belt.
+[02:17:26] three Svelte four.
+[02:17:28] The funny thing is if you go on
+[02:17:30] Go on Reddit.
+[02:17:31] there's like a contingent of people who absolutely hate Svelte 5 or like are worried about it and they keep on comparing it to to react hooks API and stuff and like,
+[02:17:41] Clearly, they're not really on the same page, but I get it.
+[02:17:46] Svelte is kind of departing from that and React is kind of going to where Svelte 3 was, you know,
+[02:17:52] So like,
+[02:17:54] It's an interesting choice and one that I didn't really care to make much of a comment about because
+[02:18:00] you know,
+[02:18:01] it has profound implications, right?
+[02:18:06] Reacts now like a compiler.  You know, people...
+[02:18:09] Every framework is a compiler, JSX compiler, but people don't realize just how much React got for free over the years, you know, because TypeScript decides, oh, JSX native, you know, we've got our own transform.
+[02:18:20] Dino just works.
+[02:18:22] You know, like...
+[02:18:23] It's no build. And I'm like, it's like, no, you're building the JSX, but
+[02:18:27] React's kind of gone in a way...
+[02:18:30] for free.
+[02:18:31] in these kind of zones, all the tooling just works for it, you know?
+[02:18:35] You don't have to worry about anything.  You know, all the IDs, everything's built for React.
+[02:18:41] And now...
+[02:18:43] there is a compiler, right? Like,
+[02:18:46] There's no denying this compiler, and it's kind of incredible.
+[02:18:51] But...
+[02:18:54] Bye.
+[02:18:56] It's not something that I personally would have wanted from React. I don't need
+[02:19:00] a compiler for my React code.
+[02:19:03] I don't think.
+[02:19:04] I don't I never cared so when someone's like oh we got the compiler
+[02:19:08] you know,  makes writing stuff easier,  blah, blah, blah.  I'd be like,  yeah,  I keep the control,  right?  You know,  someone can go write a compiler for solid that,  uh,
+[02:19:17] undestructured props, but I'm not going to use it
+[02:19:21] because I don't need to.  And it's another thing, you know,
+[02:19:26] But,
+[02:19:29] Then the silly dialogue started popping up, right?
+[02:19:33] And I don't know where it started from.  Maybe it had to do a bit with like...
+[02:19:39] Q&A things. Maybe it's people are pestering the React team too much about signals. I don't know. Maybe it's the choice of language of
+[02:19:49] In React Conf, they called it
+[02:19:52] fine grained rendering
+[02:19:54] And,
+[02:19:55] You know, I was like, okay, whatever.  I ignored it for a while.
+[02:19:59] you know,
+[02:20:00] Couple days at least. I feel like it's been a week or so. When was it like last Thursday? It was like the 16th or something was announced.
+[02:20:06] But it just kept on going.
+[02:20:08] just kept on, kept on, kept on going.  And it was kind of like,
+[02:20:13] Why are people so insistent in putting signals in React?
+[02:20:17] And why is the React team...
+[02:20:21] trying to
+[02:20:22] position like they have a similar solution.
+[02:20:32] Thank you.
+[02:20:32] Thank you.
+[02:20:34] One question I think is worth talking about is whether the compiler is necessary for React to keep the direction they have.
+[02:20:40] Well, I mean, I guess maybe it's like this is the ultimate goal.
+[02:20:44] What's the best way to lock people into a technology, but create a new language, right?  Like, yeah.
+[02:20:53] Maybe that's React's exit strategy.  They're going to create the React language and then like
+[02:21:00] I don't know. It's
+[02:21:04] I think the answer is mostly yes. Um,
+[02:21:09] compilers necessary. I hoped it wasn't necessary. I like old react. And maybe just because I'm old, old people like old things.
+[02:21:17] I...
+[02:21:18] But like,
+[02:21:21] If the answer is it's necessary...
+[02:21:24] then like,
+[02:21:28] I don't know. It's like...
+[02:21:30] check yourself before you got to wreck yourself. You know, like, I don't know.
+[02:21:35] Thank you.
+[02:21:36] I
+[02:21:39] Thank you.
+[02:21:42] Thank you.
+[02:21:47] Thank you.
+[02:21:52] Yeah, I mean, yeah, let me let me grab that.  Dan had some choice.
+[02:21:58] some choice stuff.
+[02:22:03] Thank you.
+[02:22:10] Oh, are you just sharing this tweet again?
+[02:22:12] Thank you.
+[02:22:13] Well, I...
+[02:22:20] But that's the thing.  I agree with him.  It's,
+[02:22:23] If...
+[02:22:24] Yeah.
+[02:22:26] Yeah.
+[02:22:27] You know?
+[02:22:28] Thank you.
+[02:22:30] Thank you.
+[02:22:32] Yeah, I mean...
+[02:22:36] Thank you.
+[02:22:36] Thank you.
+[02:22:37] Sorry, I thought you were going to share some of the actual...  Let me see if I can grab my stuff from my bookmarks.
+[02:22:43] Right. Everyone has something to chime in on this topic.
+[02:22:50] Thank you.
+[02:22:53] Thank you.
+[02:22:58] I admit, when they put the fine-grained thing,  I was like, this is a bit of a stretch.  Addy Esmani put a table out.
+[02:23:06] Uh...
+[02:23:08] and I probably bookmarked it here. Here it is. How to navigate JavaScript frameworks in 2024.
+[02:23:12] and
+[02:23:14] Obviously, Next.js is the only one that has everything, but they only get to have everything because they have fine grained reactivity, right?
+[02:23:21] Um,
+[02:23:23] Right?
+[02:23:24] Amen.
+[02:23:26] And like,
+[02:23:27] These charts are so hard because like, does Nuxt have server components?
+[02:23:30] They have a feature called server components.  Are they actual server components by my definition?
+[02:23:36] To my knowledge, the answer to that is actually no.
+[02:23:40] But...
+[02:23:42] You know, like...
+[02:23:43] It's good to be everything in the chart.
+[02:23:47] Right.
+[02:23:50] Thank you.
+[02:23:52] So like...
+[02:23:53] you know,  islands,  to me,  I,
+[02:23:57] It'd be a lot safer to just put these two together and just call server components partial hydration.
+[02:24:02] Kind of. And then just be like, okay.
+[02:24:04] A lot of solutions have some sort of partial hydration solution. Um,
+[02:24:09] Thank you.
+[02:24:10] But yeah, I saw this and I was just like,
+[02:24:13] I didn't, it's only after that,
+[02:24:16] And then I saw the React comp thing where they said fine-grained rendering or fine-grained reactivity or whatever the thing was.  And I was just like...
+[02:24:24] I was like, okay, this is very...
+[02:24:27] odd to me positioning  wise because
+[02:24:33] Like,
+[02:24:35] you could say that this is growth and awareness from the react side,  but it's also kind of like,
+[02:24:40] It's like when...
+[02:24:42] SvelteKit came in and dubbed transitional apps.  And all the people who are working on these partial hydrated apps
+[02:24:50] solutions like Astro were just like, what the hell, you know, I get
+[02:24:57] you want to side with us and compared to the, in the big picture,  I guess you're close enough, but you've been working in the space for a while.
+[02:25:03] you know, working on these specific solutions that are, you know,
+[02:25:08] defined as fine green reactivity and then the biggest player comes in and goes like
+[02:25:12] You know, you know, we're fine grained reactivity. It's like, no, you're not. You know, so people have that impulse even before we want to talk about the technical bits, which we will talk about.
+[02:25:22] But like it's, it's,
+[02:25:24] It's kind of hard.  You know, it's lonely at the top, so to speak.
+[02:25:28] Um,
+[02:25:30] Okay.
+[02:25:33] Yeah.
+[02:25:34] Eh.
+[02:25:37] Fine grained re-rendering.  Yeah, I mean, I know people in our community have been championing
+[02:25:42] championing this term. I think Dave might have coined this originally.
+[02:25:49] So,
+[02:25:52] My take is that fine-grained rendering is fine for React compiler if we define it relative to the framework's rendering model.
+[02:26:00] Okay.
+[02:26:01] I will...
+[02:26:02] See if I can find that link.
+[02:26:09] Thank you.
+[02:26:10] Thank you.
+[02:26:13] Yeah, I get what you're trying to say. The problem is when you have a term and it was the differentiating factor.
+[02:26:20] for the frameworks and the
+[02:26:22] thing that comes in
+[02:26:24] Okay.
+[02:26:25] that they were trying to differentiate from, tries to use the same term and doesn't actually accomplish exactly the same thing.
+[02:26:33] It's it's.
+[02:26:35] It's challenging. I understand they're just trying to say that they have something that's kind of equivalent.
+[02:26:40] But it's like,
+[02:26:44] Yeah.
+[02:26:45] The funniest thing about this one, specifically fine-grained reactivity, is fine-grained had been termed that people have used for years and years and years, and it was a thing. I actually think I have the first published article that used the term fine-grained reactivity.
+[02:27:01] in a published article. I know this is weird. We actually searched, I forget who it was,  we were searching for the term on Google, trying to find the earliest mention of the  term fine-grained reactivity. And it was from my Medium articles back in 2018.
+[02:27:14] Um,
+[02:27:16] But it's like kind of close to this one.
+[02:27:22] so to speak.
+[02:27:24] Mind2Sense, I think this is more a struggle for developing MindShare than it is a struggle over technology. React has to address signals and fine-grained rendering. If they aren't doing signals, they need an alternative to the whole community. Yeah, which speaks to the power of a lot of these ideas. It just...
+[02:27:39] you know,
+[02:27:40] It's it's tricky.
+[02:27:44] Right.  Um,
+[02:27:46] and yeah I mean people there's been a lot of conversation going on here
+[02:27:53] I like frameworks that are fast without a compiler.
+[02:27:56] So many people read that comment wrong.  FYI, he's saying that he likes frameworks that are fast without the compiler.  Not that he wants fast buildless frameworks, I think.
+[02:28:10] I think.
+[02:28:14] Yeah, I...
+[02:28:16] Why is...
+[02:28:19] Why is this guy so smart?  I always agree with almost everything he says.  Everybody seems to run it on without a compiler.  The statement was are fast without a compiler.
+[02:28:28] I didn't read this as criticism of compilers in general,  but approaches which try to address performance issues  only after the horse has already bolted from the barn.
+[02:28:35] Hmm.
+[02:28:37] This comment needs more love.
+[02:28:39] Anyways.
+[02:28:52] Right. That's what I'm saying. I was surprised we couldn't actually find the
+[02:28:57] published works. I was even trying to like go through academic papers to see if I could find
+[02:29:02] the like the the combination like I was going through like Elm signals things from 2012 and trying to find some old FRP papers.
+[02:29:12] Like I couldn't find it.
+[02:29:17] Thank you.
+[02:29:22] Yeah, I mean...
+[02:29:23] And you know what? That's...
+[02:29:26] That's good.
+[02:29:33] Thank you.
+[02:29:34] But it doesn't really matter.  It just...  This has been a term...
+[02:29:38] for us for a while.
+[02:29:41] And,
+[02:29:45] You know, there's been a lot of conversation.  I hate the way Twitter opens stuff here.  Is this...
+[02:29:51] Wow, this is just...
+[02:29:53] a law. Okay, so Danny Ramoff makes the comment down here somewhere that I already lost.
+[02:29:59] Let's go back.
+[02:30:00] and forward. In order to do fine green re-rendering, the
+[02:30:04] The library needs to be aware of, I like this,  fine green re-rendering, the library needs to be aware of data flow.  There are a few ways to do this.  One way is to wrap values and setters like Vue and MobX.  So you're not dealing with plain values anymore,  but we're playing as we react.
+[02:30:15] um two another way is just all those splitting the code into two phases non-reactive construction  and reactive template
+[02:30:21] But then you have to use...
+[02:30:22] Yeah, you can't use early returns.  There's something they said where they're talking about, they describe...
+[02:30:28] authoring stuff in solid as almost metaprogramming where you're describing the program rather than writing the program and it's
+[02:30:35] I actually like that comparison
+[02:30:38] Because React is very immediate, almost like,
+[02:30:43] like,
+[02:30:44] imperative. It's like,
+[02:30:46] when this happens, this will be running. You're describing it as it's running.
+[02:30:51] And I agree with solid.
+[02:30:52] you are saying, I'm setting a rule.
+[02:30:56] And everything from now in the future will follow this rule.  So it's like set and forget.
+[02:31:01] Whereas...
+[02:31:03] React is like,
+[02:31:05] This is the like imperative logic that you're running.  Like this is, this is like this, then this, then this, then this, and this.
+[02:31:12] To me, it's like a shift between imperative and declarative, even though React is declarative.  Like, their model is very...
+[02:31:19] This is why I always say React model always felt more imperative because it's like, it's very immediate.
+[02:31:24] Whereas we create the thing that will
+[02:31:29] go the distance. So it is an interesting thing. Dota flows when
+[02:31:40] Thank you.
+[02:31:41] you
+[02:31:45] Yeah, because if statements are more analyzable, to be fair, we could transform that if we really wanted to.  But he's showing this.  He's in.
+[02:31:56] Thank you.
+[02:31:57] The tricky part about analyzing code ahead of time is the same limitation that we had when working on Marco, um,
+[02:32:03] Marco actually, because it knew all the file, all the, I said, I wasn't going to talk about  Marco six, but it's relevant here because we knew the reactivity.
+[02:32:12] of
+[02:32:13] We weren't sure whether they call it signals originally or like fine-grained.  When we started on Marco 6, because we knew the data dependencies and you didn't have to write like signal syntax, it just looks at variables.  We knew the reactivity of the whole project is a cross file analysis.  We could kind of do this kind of analysis that he's talking about, but literally everywhere.
+[02:32:31] even cross files, right?
+[02:32:33] And, you know,
+[02:32:35] and
+[02:32:36] The funny thing is, we actually chose to do a runtime reactive system in the end in the implementation in the side, because even if you can kind of determine like the problem is it's like the dependency arrays in react.
+[02:32:49] The Rays...
+[02:32:50] don't change. So your only choice is to oversubscribe.
+[02:32:54] Because any potential path, like a compiler...
+[02:32:58] doesn't know which branch you will take.  So it has to optimize...
+[02:33:02] for the case of any possible branch, right?
+[02:33:06] So this is one of the limitations also with Svelte, right?  With a runtime system, you can have dynamic dependencies  that change at runtime.  You'd think that'd be slower,  but a lot of optimizations that have gone in  have actually addressed that.  A lot of stuff that...
+[02:33:20] that Svelte 5 has done. The newer reactive systems have kind of optimized on the cleanup step to not be as wasteful for dynamic dependencies.
+[02:33:31] Basically, the biggest thing that I actually saw as a limitation was,
+[02:33:36] Nested reactivity from a compiler analysis standpoint is almost impossible. It's very hard to track the.
+[02:33:43] properties on objects like to know like
+[02:33:47] the granularity of change, like with stores and things we use proxies for. And funnily enough,
+[02:33:53] That is where the most incredible power of fine grain comes from.  I'll show you what I'm talking about.
+[02:33:59] Right. I know you guys are really busy, you know, in the chat going crazy here.
+[02:34:03] Like, I don't care about this early return stuff.  Obviously, I had my,  passed my daemons all that ages ago.  If you've ever used a component library  that doesn't use function components,  that use, like, templates like Vue or whatever,  or Angular, you're like,
+[02:34:19] It's okay.  We can live with returning...
+[02:34:22] the a single you know a single return you know but
+[02:34:27] Yeah, uh...
+[02:34:30] Yeah, there's just so much of this conversation.  We'll hold my thought that I was getting to.  We'll get there in a minute.
+[02:34:38] What do we got here?  Granular has different levels.  View three closes.  It gets close, but vapor is where they're going to make it.  Yeah.  So, you know, he's, he, Evan's standing in our court backing us on this.
+[02:34:49] Um...
+[02:34:51] I'm not surprised he would write it.
+[02:34:54] When we got here, Dev.
+[02:34:57] What are you up to? Has the state changed? No, it's a state change.  No, this changes. Yes. Okay. Let's run some code. No, no, no.  It's a fine green reactivity.
+[02:35:04] You guys are just hostile, eh?
+[02:35:07] These are fighting words.
+[02:35:12] Thank you.
+[02:35:15] Thank you.
+[02:35:15] Thank you.
+[02:35:17] Thank you.
+[02:35:18] you
+[02:35:21] Thank you.
+[02:35:22] Oh, man.
+[02:35:25] Thank you.
+[02:35:25] The React Father is amazing, feature engineering, and it's going to sell a lot of runs of API, blah, blah, blah, blah.
+[02:35:30] Yeah, it's just it's it because this is what it is. It's a bunch of dirty checks. Can we look at ACD? Yeah, okay, fine. Let me see if I can find that one.
+[02:35:42] Thank you.
+[02:35:43] I'll take anything from Andrew Clark.
+[02:35:48] Thank you.
+[02:35:50] Thank you.
+[02:35:51] - Saw some people say that Radclubs are a mission that use memo stacks and we created a responsive fact. In reality, we had officially smart copies in mind the whole time we were working hooks and depth arrays never would have shipped otherwise. Yeah, okay.
+[02:36:03] We are always believing compilers.  React started just for pragmatic reasons.  You can start using without rewriting your existing data.  This is also why it doesn't rely on any non-js syntax.  Blah, blah, blah.  Ruthless pregnancy.  Let me actually run time compiler.  Yeah, yeah, yeah.
+[02:36:18] We're big salt fan, too.  We wrote the compiler part now works on Svalbard.  It's simply untrue.
+[02:36:24] Yeah, of course. I actually talked about this a bit earlier. I'm not surprised.
+[02:36:29] that they are always had a compiler in the plans.  It's just like it.
+[02:36:35] It also...
+[02:36:36] for me makes react less react but this i mean on the other hand this is very react so
+[02:36:43] you know,
+[02:36:44] because people see this and, you know,
+[02:36:51] Okay.
+[02:36:52] I mean, this graphic was shared with me.
+[02:36:58] Propagated change, state relationships, okay.  Fine-grained reactivity.
+[02:37:04] Thank you.
+[02:37:05] Failed diff check, yeah.
+[02:37:07] The thing is, if this diff check fails,
+[02:37:12] Depends where the state is.
+[02:37:15] comes in,
+[02:37:16] Thank you.
+[02:37:17] A lot of times you can short circuit.  If no one's...
+[02:37:22] setting state in here, which this example doesn't do,
+[02:37:25] it gets here and then it just forgets about the rest of this.
+[02:37:29] Right.
+[02:37:31] So,
+[02:37:32] This is why I'm having a hard time with a lot of the visualizations for people because...
+[02:37:39] At a shallow level, it's fine.  You can see the Svelte admiration.  Like, look here.  If we go to...  Let's go to Svelte.
+[02:37:46] Dev, right? Not rethinking reactivity. Let's just, well, I mean, that'll probably get me there, but let's go to Svelte.
+[02:37:52] And
+[02:37:53] Let's go to the REPL.
+[02:37:55] Thank you.
+[02:37:55] And let's make something that actually changes.  Let's go on click.
+[02:38:02] equals, did I get my syntax right? I don't even know.
+[02:38:05] Name...
+[02:38:08] Plus...
+[02:38:10] Exclamation mark. I probably actually have to make this a function.
+[02:38:15] This proper
+[02:38:16] Is this...
+[02:38:18] Name, name.  Sorry, I actually have to go...
+[02:38:22] actually write
+[02:38:24] Yeah, OK.
+[02:38:26] Yeah, it's not...
+[02:38:28] Fine.
+[02:38:31] Thank you Svelte for correcting my accessibility.
+[02:38:36] Yay, okay.  Working Svelte code.  Let's add a second piece of state.  Let...
+[02:38:41] other name equals
+[02:38:46] Thank you.
+[02:38:47] Chat.
+[02:38:49] Apparently I can't spell.
+[02:38:51] And let's add a second button.
+[02:38:53] that updates chat, OK?
+[02:38:56] This is Svelte 3, you know, classic Svelte.
+[02:39:00] And we'll call it other name...
+[02:39:05] And
+[02:39:06] Other name.
+[02:39:10] World chat.  Sweet.  Okay, let's look at the JS output here.  Okay, I know this is...
+[02:39:14] Super zoomed in for you all.
+[02:39:17] Um,
+[02:39:18] We have a bunch of
+[02:39:20] nicely named variables for our elements in our state on create that's what c stands for create  create an element we create some text space button okay not interesting
+[02:39:31] on mount,
+[02:39:32] we append all of these things into the DOM.  Not interesting.  Not mount it.  If we...
+[02:39:38] We add click listeners, I guess.
+[02:39:42] Okay, whatever. On update.
+[02:39:45] If dirty flag matches with one, do this and set this data. If dirty flag
+[02:39:51] matches do this set this data and if we look at t1 and t
+[02:39:55] Five.
+[02:39:57] and we've been paying attention,
+[02:39:59] T1...
+[02:40:02] is
+[02:40:03] this text node, the name, and T5 is the other name text node. It's these two text nodes. So they're
+[02:40:09] Pretty smartly here, the set data is a Dom helper that directly updates the text content nodes.
+[02:40:16] See, people used to call this fine-gained...
+[02:40:20] reactivity and I didn't because I
+[02:40:22] This process is you set state on the component, doesn't matter what set state calls, and it calls
+[02:40:27] this update function. Now, don't get me wrong. Solid does group some level of effects, and I can show the difference in the way that we group stuff, but that was an arbitrary choice that I made. It's not part of the architecture.
+[02:40:38] we could also make every single thing separate.  It's just, but Svelte's model is, you know why?  Because this whole thing that we're looking at,  this create fragment,
+[02:40:47] is basically...
+[02:40:50] Oh.
+[02:40:50] Please be still there.
+[02:40:52] Oh.
+[02:40:54] That makes me very sad. I ever do that, like swipe and actually back button.
+[02:41:00] Oh...
+[02:41:02] you
+[02:41:03] that's fine i don't need this for the rest of this this create fragment here is essentially  look class components felt has class components
+[02:41:12] that essentially on a niche create the stuff. Um,
+[02:41:16] through these life cycle functions.  My point is, basically...
+[02:41:20] There's like a dirty check diff on stuff.  Every time you run update, it runs a component function that diffs the stuff and then calls the appropriate action.  In their case, directly on the DOM rather than making a separate VDOM representation that's then laterly diff.  But generally, it's just...
+[02:41:40] dirty check. That's how Svelte works.
+[02:41:49] Right. Is everyone following so far?
+[02:41:59] Do we need a mod?  Sorry, I missed something.
+[02:42:03] Uh...
+[02:42:07] Yeah, I've made some people mods in the past, but I can't remember.  Dev, how do I make you a mod?
+[02:42:16] Yeah, okay.
+[02:42:17] That's what I thought.
+[02:42:25] You're around here enough.  Anthony's a mod, but he's not around all the time.
+[02:42:30] Cappanello.
+[02:42:33] Okay, Dev, you're in.
+[02:42:38] Thanks.
+[02:42:41] Thank you.
+[02:42:48] Does anyone else want mod privileges while we're at it?
+[02:42:55] Thank you.
+[02:42:56] Thank you.
+[02:42:59] Thank you.
+[02:43:01] Thank you.
+[02:43:03] *sniff*
+[02:43:06] Thank you.
+[02:43:06] Okay, okay.
+[02:43:07] Cool.
+[02:43:08] I'm family, you can trust me.
+[02:43:11] Okay. My point is,
+[02:43:15] We've seen this before. And in fact, when we've had the Marco compiler on stream,  it's kind of similar to one of the coolest things about
+[02:43:22] these approaches
+[02:43:24] Oh, damn it. I am going to do it again. This makes me really sad.
+[02:43:29] I mean, it only took me a minute to...
+[02:43:31] Thank you.
+[02:43:32] Thank you.
+[02:43:36] I have more here on...
+[02:43:40] Click.
+[02:43:44] Thank you.
+[02:43:50] .
+[02:43:52] The problem was I was trying to like probably just like do a scroll anyways and then
+[02:43:59] Other name.
+[02:44:03] Thank you.
+[02:44:04] Where was I wanting to get here?
+[02:44:08] I should do something more structurally different.  This is my...
+[02:44:13] There's like a context...
+[02:44:15] that
+[02:44:16] gets read from, see context zero, context one,
+[02:44:20] So they store...
+[02:44:22] these variable references and this actually helped us figuring out how to do resumability  in marco quick has a similar idea because you could serialize the data globally and then
+[02:44:32] inject context into the component and then essentially it would pick up
+[02:44:36] from basically these references from an index. Okay? But I wanted to show this because
+[02:44:44] Thank you.
+[02:44:46] Thank you.
+[02:44:47] Because of essentially, like, I could show more complicated stuff here, but I
+[02:44:52] This is just...
+[02:44:54] Yeah, let's look at the click handler.  It calls set state.  I mean, invalidate.  See, like...
+[02:45:01] When this just gets turned into that state,
+[02:45:05] index,
+[02:45:07] The new state.  Because these return...
+[02:45:12] Like they just they know that it returns the value.  They just inline it like this.  If I had something that was like name equals name plus
+[02:45:19] I mean, I can probably show you name equals
+[02:45:22] Name.
+[02:45:23] Plus, I think they might shortcut the assignment here.
+[02:45:31] like scared yes oh no they actually just inline it they don't even care okay it's fine because  they know it's a statement that it returns value anyways but like essentially svelte  kind of compiled into a smart react it's not too hard to figure out that
+[02:45:46] Other people could have for years assumed that they're become a compiler, right? They have a class component. They compile their assignments into set state functions, and then they do this dirty check. There is one key difference here. This is
+[02:46:02] updating specific DOM nodes rather than producing a VDOM. But you can see the same
+[02:46:09] sort of
+[02:46:10] and they're using bit flags here. But you can see this kind of checking thing, right?
+[02:46:15] Let's continue here for a second.  Because one of the coolest things that React did for us is...
+[02:46:22] They
+[02:46:24] Made us a playground.
+[02:46:27] to check out the compiler.
+[02:46:28] Right? So you can make...
+[02:46:30] this kind of hello world scenario here, right?
+[02:46:36] And you can see what it generates. And this is kind of cool, right?
+[02:46:39] The dollar sign is that context, right?  So this is like a hook almost like pulling the context.  TO is one of those assigned variables.  You start seeing the similarities here.
+[02:46:49] If zero...
+[02:46:51] This cache, this probably means something that's like always cached.  Like this is completely static.
+[02:46:57] then
+[02:46:59] Yeah, so here it returns the div and assigns it to
+[02:47:03] position zero. And then basically whenever this doesn't match, it just says return the previously rendered nodes.
+[02:47:10] Right. Very simple switch. Right. Things obviously get a little bit more interesting.
+[02:47:15] If we go const
+[02:47:17] count
+[02:47:19] set count
+[02:47:21] equals use state.
+[02:47:24] Thank you.
+[02:47:27] And then Hello World.
+[02:47:32] Count.
+[02:47:33] Thank you.
+[02:47:35] Thank you.
+[02:47:36] Because now we determine whether we render this all
+[02:47:40] based on
+[02:47:42] if count changed or not. I mean, and this is our first hint,
+[02:47:46] that maybe...
+[02:47:48] this isn't quite the same.  It doesn't need to be because you have a VDOM, but if we went
+[02:47:52] other
+[02:47:54] that.
+[02:47:55] Other.
+[02:47:58] And...
+[02:48:00] We put other in here, what happens?
+[02:48:03] if count or other changes
+[02:48:06] Then re-render this section.  Okay.  So basically, if anything changes, do all the work.
+[02:48:14] Otherwise,
+[02:48:15] Um,
+[02:48:17] return the previous cache notes.
+[02:48:19] Right?
+[02:48:22] seems reasonable, especially compared to this.  And this is very...
+[02:48:27] I mean, the first difference you can see between this and Svelte.  I mean, well, let's actually...
+[02:48:33] do something more similar to what I did with the Svelte example, which is
+[02:48:38] Let's
+[02:48:39] put two buttons on.
+[02:48:42] All right.
+[02:48:44] and
+[02:48:46] count
+[02:48:48] I just want to like eliminate the possibility.  Let's see.  Let's see how this does it.
+[02:48:53] Other
+[02:48:54] Count. I don't know. I haven't played with this.
+[02:48:58] See, this is actually cool now.
+[02:49:01] Let's see if making it a div makes any difference.
+[02:49:04] I doubt it will.
+[02:49:05] See, so it's only because it's in the same element.  There seems to be spaces.  Do you see this?  Count.
+[02:49:13] does this element
+[02:49:16] And then...
+[02:49:20] Oh, it's other.
+[02:49:21] Let me put this here.
+[02:49:23] See, they actually split count from others. So we are actually basically if it's within the same elements, same text area, they're going to group it together. But if it's in a separate element, they actually do split it. They go if count changes run this JSX other this JSX and our div.
+[02:49:39] is the container that contains both of them. And if either ones of these change, then we remake the div. So
+[02:49:47] you can already see that this actually...
+[02:49:51] is...
+[02:49:52] doing better than what you'd probably do typically with React.
+[02:50:00] Right. Okay. So, I mean, one thing that is interesting is this code does feel like it's exploded a little bit.
+[02:50:08] Um,
+[02:50:10] But when I was thinking about this, the very first thing that I thought about was,
+[02:50:15] I don't know if you guys remember...
+[02:50:20] Misko Hevery wrote an article about,
+[02:50:23] A year ago.
+[02:50:24] And was like,
+[02:50:25] React's upcoming compiler only solves part of the problem.
+[02:50:28] He didn't look at the compiler.  He didn't know what it was.  He just knew conceptually what it was.
+[02:50:34] That...
+[02:50:35] Thank you.
+[02:50:35] it wasn't going to,
+[02:50:37] He wasn't solving the same problem.
+[02:50:40] Right. And the reason this article is written was because he was getting very frustrated at this time.  This is right before signals week, if you notice.
+[02:50:49] And Misko and the Quick community did actually trigger signals week, like the whole big, you know,
+[02:50:57] when all the React core members from all of history came into weigh-in,  why signals were not cool.  And I wrote three articles like that that week.
+[02:51:07] Because they're trying to promote QUIC.
+[02:51:10] talking about the power of reactivity and signals. And they kept on getting these dismissive  responses from people around React being like, "Oh yeah, the compiler is going to solve that."  And he's like, "No, the compiler doesn't solve that." And they're like, "Oh yeah, compiler solves it."  For a while there, when signals are picking up, triggered a bit also by Angular adopting them,  that was the first catalyst. And then this kind of battle came on.
+[02:51:38] There was this kind of...
+[02:51:41] Thank you.
+[02:51:41] Thank you.
+[02:51:42] thing because it's every it was getting frustrating as other competitive you know framework authors  you'd be like look we're doing this work it's good work and it's producing good performance and react  team can basically just dismiss all the work we're doing and people won't you know even look
+[02:52:00] our way because...
+[02:52:02] Oh, they'll solve in the future with their super compiler.
+[02:52:05] Right. And this was like, no.
+[02:52:07] I'm not going to let them wait a year and then basically like have it failed to deliver anyways.  I'm going to write an article right now to explain why this future compiler is not going to solve your problem.
+[02:52:18] Right?
+[02:52:21] Thank you.
+[02:52:22] And he uses this example
+[02:52:25] where he's talking about
+[02:52:27] state,
+[02:52:28] separate render and mutation.
+[02:52:32] where he kind of splits the buy button from the shopping cart. Okay?
+[02:52:36] And,
+[02:52:37] Long story short, it was...
+[02:52:39] After hearing...
+[02:52:42] you know, enough about
+[02:52:44] you know,
+[02:52:46] this whole, you know, compiler thing, you know, from my perspective.
+[02:52:50] And I realized this is just a joke.  Everyone pointed out to me that this meme template is when you show the house on fire.  But I saw this and I was just like, oh man, are we trying to say that the compiler is the same as signals?  That was like the line that was a step too far for me.
+[02:53:06] I was like, okay, let's remake, let's
+[02:53:09] I mean, it's a hypothesis, but let's remake...
+[02:53:12] Misko's example,
+[02:53:14] with Forget and Solid.
+[02:53:16] So I did.
+[02:53:17] Thank you.
+[02:53:18] And...
+[02:53:20] I did something dumb here, which is add this delay. It helped the logs show properly.
+[02:53:26] I kind of regret doing it now because the React team took it out of context.  I was just trying to show...
+[02:53:32] that pretend this is console log. I just wanted to show that if I put a console log in each component here on this whole tree,
+[02:53:40] Even though React does a smart thing,
+[02:53:43] with in terms of re-rendering and stuff. But if I put a console log in every part of the tree,
+[02:53:47] A lot of people assumed...
+[02:53:49] that the compiler
+[02:53:51] would change
+[02:53:53] like what gets re-rendered perhaps.
+[02:53:55] And if you look at this,
+[02:53:58] um
+[02:54:00] Stop it. You look at this.
+[02:54:03] Seriously, is this going to just...
+[02:54:07] Is it info? Which is the annoying one?
+[02:54:10] Just like
+[02:54:12] Warnings? Okay, there we go.
+[02:54:14] Go away warnings.
+[02:54:16] OK.
+[02:54:18] But I got rid of info.
+[02:54:22] Oh, man, I'm just...
+[02:54:26] Okay, let's try this again.
+[02:54:28] Thank you.
+[02:54:31] I am just...
+[02:54:33] Okay.
+[02:54:34] Okay.
+[02:54:36] App ABCD, initial render. When I click increment, app ABCD, everything
+[02:54:42] re-renders.
+[02:54:43] Okay.
+[02:54:45] Now, I made this fake work.  It wasn't to show actual work.  It was to simulate synchronous work as in a large...
+[02:54:53] tree of components and checks.
+[02:54:56] I doubt React would ever get that big.  This is not to synchronize your application work,  like use memo, drive value.  This is to synchronize the overhead of actually just
+[02:55:07] framework style work.  React obviously doesn't have this overhead,  but I'm saying is if a component has any kind of overhead,  you know, like where a loop that calls it  from a React render cycle, loading context,  whatever, you know, making the hook state in the right place,  any kind of overhead synchronous from the framework side.  I just wanted to like show...
+[02:55:27] that it renders app ABCD and
+[02:55:30] The reason for this is
+[02:55:32] is that
+[02:55:34] We could probably see this from our forget compiler.  Why don't we just...
+[02:55:41] I mean, I could take it...
+[02:55:43] in the
+[02:55:46] Yeah, I mean, I didn't show you this app.  Let me show you what it does.  Okay.  You state...
+[02:55:51] Pass this countdown, okay?
+[02:55:53] component A.
+[02:55:55] Component C has a click handler on it,
+[02:55:58] And I put this console log clicked in so that we can see the click happening.  This sets the count by one.
+[02:56:03] A.
+[02:56:05] Calls a component B that gets a count and component B is a div with the count in it component C passes the click handler through to component D which has the click handler.
+[02:56:14] And again, the whole point of this is a show...
+[02:56:17] like this tree where one side is the buy button,
+[02:56:20] And the other side is the shopping cart, right?  With the shared state.  Now...
+[02:56:27] Yeah.
+[02:56:29] Why does the whole tree re-render?
+[02:56:35] some people might be wondering they're like i thought forget was gonna save  re-render work why oh man i am just
+[02:56:42] This is so...
+[02:56:43] Okay, let's, okay. Why is this re-rendering? Well, let's see if the compiler can give us hints.
+[02:56:51] If count changes,
+[02:56:53] render component A, that makes sense.
+[02:56:56] If count changes,
+[02:56:59] render this on click? Well, it's because set count depends on count. So it also
+[02:57:06] This also depends on it.
+[02:57:09] And then this div, look at the console static, and then we can compile it all here.  And then here's our final output.  So you can understand the count changing actually affects both branches.
+[02:57:19] Even though it's not like a live dependency, I think.
+[02:57:24] Um,
+[02:57:25] I guess it is because of the closure, right? Otherwise, it would always be the same count, right?
+[02:57:30] because it's on a getter.  So this is actually an important part, I guess,  of why that model works.  I guess if you...
+[02:57:35] Yeah. So when I built the solid version,
+[02:57:41] Thank you.
+[02:57:42] You guys can guess the difference, obviously, because...
+[02:57:47] It calls the rendering once.
+[02:57:50] Right.
+[02:57:52] and then when you press increment,
+[02:57:55] nothing but click shows up again because components don't re-render.
+[02:58:00] Now,
+[02:58:01] Obviously,
+[02:58:03] the do work doesn't impact here because this only happens on initial render.  So like the react,  like it was unfair of me to put that in there because in reality,  this is representing the,
+[02:58:14] you know, like it's,
+[02:58:15] like I was scaling this the amount of memory work which is not really
+[02:58:21] fair because if I was scaling the mount there, I should probably scale some drive thing. So ignore this. But my point is,
+[02:58:29] these components never rerun again, right?  It doesn't matter if I made a transformation  between component A, I made it, you know,  count times two or something.  So we should double the count.
+[02:58:40] it still doesn't cause it to re-render again.
+[02:58:45] This is just part of the fine-grained reactive thing.
+[02:58:53] Yeah, if you use the callback state,
+[02:58:56] With React,
+[02:58:57] I think it doesn't...  If we go count...
+[02:59:03] like this, I think it should be smart enough. When I click increment,
+[02:59:08] Yeah, it doesn't re-render CND if we use the callback state.
+[02:59:14] So interesting point, side point, when writing your new forget code,
+[02:59:20] remember that closures can kill you, so to speak.  So, I mean, this causes a whole other tree to re-render  that doesn't need to just because I use the variable directly  instead of using it.
+[02:59:35] in the callback form.
+[02:59:36] I think that's,
+[02:59:37] That's a good observation.
+[02:59:39] Anyway.
+[02:59:40] Okay.
+[02:59:44] Thank you.
+[02:59:49] Right. I'm trying to come off as these things are...
+[02:59:52] different. I mean, one of the challenges here, and we'll get to it in a second is,
+[02:59:56] Obviously, when I put this work in, it led to a constant
+[03:00:00] conversation, right? Because then suddenly
+[03:00:02] Ricky comes in later. He's like,
+[03:00:04] to do the work in the recompute, right? So,
+[03:00:07] He's like,
+[03:00:08] He made the memos.
+[03:00:10] And then both the solid, like, I'll show the solid example, just for a sec.  He, because it reacts the same, he put the work in a memo.
+[03:00:18] Or, I mean, it doesn't need to be a memo, it could even be a function call. And then,
+[03:00:22] Now we are slow-picking.
+[03:00:24] we're taking the full brunt of the thing too.
+[03:00:27] And it's re-rendering according to this.  But the reason it's re-rendering is because he's calling the render,  the update of the memo, not the call of the function.
+[03:00:38] That's fine, but
+[03:00:40] That's why I said the point was the work was unfortunate.  The difference is.
+[03:00:45] I wasn't making a situation where...
+[03:00:48] the work was like, it knows how you had to put props count here.  You know, I wasn't making a situation where
+[03:00:56] where the,  uh,
+[03:00:58] How should I put it?
+[03:01:00] Everything was derived.  I was trying to show up a situation like what Misko was showing.
+[03:01:06] um we actually went on pretty deep which was a lot of fun just for people to see he gave me an  opportunity because he showed me
+[03:01:13] use transition. You can click 10 times in a row and interrupt only the final commit value. So he  actually made this version, which is kind of cool because this is, people know about async, about  transitions, but React also does transitions even on synchronous data when it's our work,  when it's really long. So if you, if you look at this version of it, it's using the memo again, but
+[03:01:35] If you click a couple times,
+[03:01:39] Thank you.
+[03:01:39] It doesn't...
+[03:01:42] it doesn't show until the final value so it can process it all, which is which was a lot of fun because
+[03:01:49] It's been the first time in a long time that I got them use transitions in solid.  I tried our synchronous and thing and do it.  And,
+[03:01:59] You can see the thing if you click it a couple times.
+[03:02:02] You could...
+[03:02:03] It doesn't
+[03:02:04] Anyways, it was interesting because they literally in the React Conf,
+[03:02:11] that thing that Dev highlighted, they were saying that suspensive transitions, you know, we think it'd be pretty difficult to implement in the signals framework.  It was very cool to have an interaction with the core team member where we're about to actually show them it working in a signals based framework.  The really ironic part is we released it before they did because it took a while. Anyways.
+[03:02:32] It wasn't.
+[03:02:33] necessarily perfect. It was just kind of amusing to me. Anyways, that was a great interaction. But what
+[03:02:42] I mean, not everyone spends as much time looking at frameworks as I do.  So I shouldn't expect the React team to...
+[03:02:49] to make comment, like, like to know, like what Sola does or doesn't do. It is a little bit,
+[03:02:55] Frustrating at times, admittedly, because like,
+[03:02:59] like stuff gets said and people go, yeah, this is why. And it's like, no, actually not. Like I, I,
+[03:03:05] argument with Paul from like React 3 like a couple years ago and it's just I'm like  eventually I had to be like man please can you just stop saying that
+[03:03:14] that it's not like you need reacts model to do this stuff.  I literally have demos showing you otherwise can just stop spreading
+[03:03:22] that, you know,
+[03:03:24] It's...
+[03:03:26] Thank you.
+[03:03:27] It's tricky when you have bigger voices in the community and you have like,
+[03:03:33] more popular projects making these kind of statements because it keeps them on top.
+[03:03:39] So it's challenging, yeah.
+[03:03:43] Thank you.
+[03:03:44] Thank you.
+[03:03:44] Thank you.
+[03:03:47] Thank you.
+[03:03:51] Oh, what a question.
+[03:04:01] Thank you.
+[03:04:04] Thank you.
+[03:04:04] Thank you.
+[03:04:07] Okay.
+[03:04:10] Thank you.
+[03:04:12] Thank you.
+[03:04:13] Yeah, I mean...
+[03:04:16] Maybe, maybe this is not real fine-grained.  Let's be the least.  And we all know how we call things suspense.  To be fair, most suspense implementations are...
+[03:04:26] like don't do transitions and don't do the like don't do the full thing.
+[03:04:30] Um...
+[03:04:32] They aren't all the way there.
+[03:04:34] Thank you.
+[03:04:36] But I...
+[03:04:37] I would love to, you know, if they don't think that the solid implementation is up to snuff, I wouldn't mind talking to them.
+[03:04:47] It's only called fungery reactivity if it comes from the solid region of Canada.  Otherwise, it's called what's felt three years ago.
+[03:04:53] Guys.
+[03:04:57] Thank you.
+[03:04:58] Oh man, this is endless.
+[03:05:02] And it's more like what Svelte did.  When does Svelte 3 come out?
+[03:05:09] 2019?
+[03:05:11] So it's almost like five years ago.
+[03:05:15] Yeah.
+[03:05:18] Thank you.
+[03:05:21] Svelte has  async
+[03:05:25] component or weight component, which is kind of like you put a promise and then it holds it at that place. But like suspenses inversion control, I think
+[03:05:34] We have it...
+[03:05:37] I guess technically, Vue has it too.
+[03:05:41] If you have async
+[03:05:46] in your setup function, you can have similar behavior.
+[03:05:52] But it's different, like, Svelte's very much a templating concern where you put the await, like, you put the promise in the await.
+[03:06:04] Thank you.
+[03:06:06] Thank you.
+[03:06:10] Thank you.
+[03:06:16] So, yeah, anyway, this is...
+[03:06:19] I saw that my example wasn't really good enough.  And I was like, okay, well...
+[03:06:25] What if we...
+[03:06:27] Took a different example, right?
+[03:06:29] um,
+[03:06:30] Thank you.
+[03:06:32] My favorite example, I give this one all the time in my talks, which is  Huxpro original React compiler gave an example
+[03:06:39] in his original talk and
+[03:06:42] Thank you.
+[03:06:43] His example was a to-do app.  And I actually love this example because I use it in my talks because it was so illustrative.  Because if you remember...
+[03:06:52] in Huxpro's original thing,  he started with something very simple  that looked like this, you know, like, sorry, no,  like this, where there's some state  and then you update the state and there's a for loop.  And then he showed how to implement it with React  and it was like freaking...
+[03:07:05] with the memos and stuff. To get it to only log stuff in the right places was insane. He had to do a whole bunch of stuff. And then he showed the compiler output, and that just blew people's minds because it was just gigantic. But the code you wrote returned back to something simple like this. And I use it as a thing of like, you don't need a compiler with solid. Well,
+[03:07:24] It's more than not needing a compiler with solid.  I did actually, but one thing that was actually shown to me by,  I was trying to figure out, and I haven't solved this yet, is...
+[03:07:33] Let me get here.  Where is the...
+[03:07:39] Thank you.
+[03:07:40] Yeah, I'm in the right pile.
+[03:07:42] is that
+[03:07:44] How do you...  No, actually, I'm not in the right pile.  I need to go...  How do you detect...
+[03:07:48] change in
+[03:07:50] In React, uh,
+[03:07:55] in React for Git, right?
+[03:07:56] Because in Solid, I had to put the console logs...
+[03:08:00] in the checked binding.
+[03:08:03] in order to detect...
+[03:08:06] when it was created or updated, because if I put in the component,
+[03:08:09] it wouldn't actually run, right?  We already know this.  But I tried to do this with React Forget.
+[03:08:15] And,
+[03:08:17] Okay.
+[03:08:18] Unfortunately,
+[03:08:21] It didn't work the way I was hoping it to, but it makes a lot of sense why it works the way they do.
+[03:08:25] Look what they do.
+[03:08:29] Props on change, they guard on that one.  Checkbox, they guard on that one.  Shado checks, they guard on that one.  But the problem is that console log,
+[03:08:38] that I put in here.
+[03:08:41] for a checked finding.
+[03:08:44] T0, what's T0? Console log prostitute. They actually hoist it out so it goes in the component body.
+[03:08:51] because they recognize that only the last return is the part of the expression.  And because of JSX isn't lazy evaluated like us, they do run this.
+[03:08:59] every
+[03:09:01] time the component runs.  So they hoist it out.  So I can't actually isolate
+[03:09:06] So I was trying to figure out how to put something in this branch rather than have it every time the component runs, because every time the component runs is not particularly interesting in React.
+[03:09:18] Do you know what I mean? Like, it's actually like we know already that the component is going to run a whole bunch, right?
+[03:09:24] So I was having a hard time because
+[03:09:26] Let me show you why I was having a hard time because
+[03:09:30] I go here and I click the checkbox.
+[03:09:32] And I,
+[03:09:33] Todos is called, filter is called.
+[03:09:36] And three create update to do is called.
+[03:09:41] I just checked one box. Why the hell is everything freaking called?
+[03:09:47] And the answer is because of this hoisting.
+[03:09:50] What...
+[03:09:51] Because those components do get called.  They just don't...
+[03:09:56] they return the same stuff.
+[03:09:59] So this really should, in this case, be a single create call.
+[03:10:03] But the filter call is legit.
+[03:10:05] And the to-dos component...
+[03:10:07] Let me go here. I put it there just so people can see it. The todo's component running is legit.
+[03:10:14] Obviously, so you call
+[03:10:16] The reason that the filter happens is because when you have state in React,
+[03:10:23] And you set...
+[03:10:26] updated to do, it's immutable, so you actually have to update the list, and then the whole map function needs to run again, which then runs through all the components again, which then diffs down the tree. So,
+[03:10:38] Yes. I mean,
+[03:10:40] um,
+[03:10:40] checking the checkbox will make the filter be called,
+[03:10:44] Call all three of these components, although only one is actually getting updated.
+[03:10:48] I need a way of showing this.
+[03:10:50] Right.
+[03:10:52] And fortunately, when I change this,  to do's component is called,
+[03:10:56] this but nothing else is so you can see that the memorization is working this
+[03:11:01] Trick is the props have something called visibility.
+[03:11:05] that gets past
+[03:11:07] to
+[03:11:09] uh
+[03:11:11] or sorry, theme color that's passed here.  So it did go through...
+[03:11:15] this component, so todos has to run, but it didn't run the map function. So you can see that
+[03:11:20] the map function doesn't get run when you change the theme color.
+[03:11:24] But this component runs over and over again. But the challenge here is like if I add a to do, let's add four.
+[03:11:34] Um,
+[03:11:35] Again, I'm
+[03:11:37] Filter is called
+[03:11:41] which is the get filtered here, and then the four to do's.  And what's interesting is if I switch from all to active, which they're all active,
+[03:11:51] Again, I'm not.
+[03:11:52] Let me see if.
+[03:11:54] The filter is called
+[03:11:56] Because you changed it.
+[03:11:57] And,
+[03:11:58] all four to do's are created again. My guess is that in reality, none of these will be created,  and it'll be a single filter call. It's just
+[03:12:05] I don't know with the compiler how to show this.  But the reason I actually wanted...
+[03:12:11] to show this from a fine grains perspective is,
+[03:12:14] is let's go and check the box.
+[03:12:17] Okay, it adds one to do, undo one.  So we can assume that for React,
+[03:12:22] It's doing that.  But do you see the biggest difference here?  It's not calling filter.
+[03:12:26] as I'm checking the boxes.
+[03:12:30] Sure, if I switch to active, it will call filter.
+[03:12:33] Thank you.
+[03:12:33] But...
+[03:12:35] And they're...
+[03:12:36] you know,
+[03:12:38] But checking the boxes doesn't call filter.
+[03:12:41] And you might be like, okay, what?  Well, it's because...
+[03:12:49] It's because, simply speaking...
+[03:12:51] that
+[03:12:53] When we use a store and we update
+[03:12:56] the done on the to do, it's not immutable. So we don't actually end up
+[03:13:00] recreating the list. We literally update one field,
+[03:13:04] on our data and it updates one field on the UI. It does not run the map function. It does not diff
+[03:13:11] the map, this whole filter function doesn't get called again to apply the visibility. It does not  then diff with the DOM. It doesn't do any of that. It literally just updates the one place.
+[03:13:25] react forget
+[03:13:27] doesn't do that. And compilers
+[03:13:30] in general have a very hard time doing this, right?
+[03:13:36] this like we use proxies for runtime for this it's it's hard for traceability  to have something update on a single field but this
+[03:13:43] is...
+[03:13:44] one of the big superpowers here,  why it's all so good in tables and charged lists and all this stuff.  It's because we can update the stuff directly from,
+[03:13:53] hoisted upstate,
+[03:13:55] without having to re-render
+[03:13:58] all the stuff below it.
+[03:14:00] Right? Are you guys still here? Are you guys arguing about C#?
+[03:14:04] Like, do you understand the difference?  Even though this is over running,  the key part here is that every time  all this extra stuff reruns,  and it might not matter,  like this might change.
+[03:14:17] get shortcutted.
+[03:14:18] But the filter getting called, the mapping over the stuff, the...
+[03:14:23] you know, different, all of that,
+[03:14:25] is avoided.
+[03:14:27] with signals. This is different.
+[03:14:34] So, I mean...
+[03:14:36] I don't know.
+[03:14:37] Who cares, right?  Who cares?
+[03:14:42] Thank you.
+[03:14:43] Right.
+[03:14:45] Because like...
+[03:14:46] I have...
+[03:14:48] A theory, at least, right?
+[03:14:51] Right?
+[03:14:53] I do...
+[03:14:54] Like,
+[03:14:55] It's only a theory. I mean, I don't know. I understand putting heavy synchrobat. Okay. I do think that some dialogue around Forget has missed the point. It will make the average React app faster and easier to write. My suspicion is it won't significantly impact the performance ceiling in React. It won't win any benchmarks. But making the average app faster is really a good thing. If the default leads you to more success, then certain problems disappear or delayed significantly. So in that, it does have something in common with signals. Idiomatic code is the most performant.
+[03:15:19] That's the win, right?
+[03:15:22] It's just like,
+[03:15:24] So, you know...
+[03:15:26] I mean, we could leave it at that, but...
+[03:15:32] Yeah, he's talking about loading it.  Huck's...
+[03:15:36] I forget where it is, but...
+[03:15:39] Somewhere in here,
+[03:15:41] I'm supposed to really get this.  It isn't optimized component function  still gets executed top down.  Having branches that can actually skip it  instead of it was one thing.  Saying rerunning component is no longer a thing  is another.  My brain's feeling me.  Yeah, because it's definitely rerunning the components.  I think we've shown that.
+[03:15:53] It's not really React scooting top to bottom.  I guess what blocks my brain is that React already allows conditionals.  How is this different?  To be fair, the whole point of ReactMile is that devs don't have to think about something fundamentally different.  They can maintain the good old rerun component mental model, even though it's now, it actually doesn't have the actual performance controls.
+[03:16:12] Oh, and I just meant to go, I meant the performance ceiling reacts over model, not the compiler one raised performance ceiling react itself.
+[03:16:19] Thank you.
+[03:16:21] As we shared during the ReactCup, this is what we've seen in practice.  Very well, Memoies Code got faster with React compiler because the compiler can actually apply optimization so much more thoroughly than a human would think to do.
+[03:16:31] Interesting.
+[03:16:33] Thank you.
+[03:16:35] Should we test it?
+[03:16:40] I don't know. Let's test it.
+[03:16:43] They think it's actually going to make things faster.  Then let's freaking test it.
+[03:16:48] Thank you.
+[03:16:49] Thank you.
+[03:16:50] I'm going to find the most optimal existing React implementation that I can find, something that's been tested for years in terms of performance benchmarks, and see if the compiler makes any difference on it.
+[03:17:04] Let's do that.
+[03:17:06] Thank you.
+[03:17:08] Hmm.
+[03:17:11] Bye.
+[03:17:11] faster than React without the compiler.
+[03:17:18] I don't know.
+[03:17:19] What's this? Oh, it's called the JS framework benchmark.
+[03:17:23] Um,
+[03:17:24] Let's take a look here.
+[03:17:26] I mean, I don't know.  I said it was my suspicion.  I can't confirm this stuff.
+[03:17:33] you know,
+[03:17:35] And running stuff on stream live is not going to be perfectly indicated, but I'm curious, like,
+[03:17:42] Thank you.
+[03:17:43] Right.
+[03:17:44] Thank you.
+[03:17:45] Thank you.
+[03:17:45] So, I mean...
+[03:17:49] I've got React and I've got solid and I got vanilla JS. I think that's all I need.
+[03:17:54] The first question is, can we actually get React going?  I'm sorry, I actually only...
+[03:17:58] I hadn't touched this.  I only got it rerunning just before the stream  because I haven't touched this in over a year.
+[03:18:05] That's the funniest thing.  People don't realize SolidJS has been,  I think someone posted something in my bookmarks  and I actually grabbed it  because I was like, I was thinking about it.  Yeah, this one.
+[03:18:16] new JS framework benchmark graph, right? And it was showing, you know, the history of frameworks on  the JS framework benchmark, right? And the funniest thing is,
+[03:18:25] I haven't made any, I haven't touched, you can imagine, Solid's performance pretty much at all.
+[03:18:31] since before this graph starts.  If you go back to like 2019,  or that was like the last time  I was working really hard on it.  This benchmark's just been sitting here the whole time.  And in fact,  Solids kind of got worse slightly over time  because things have changed the browsers  and other frameworks have actually done work here.  I literally just haven't touched this in like five years.
+[03:18:49] So I'm a little rusty.
+[03:18:55] Right. It just...
+[03:18:57] You can see Vue, I've always been impressed with. Look what Vue's done.  They've done these waterfall level of performance improvements over the last little while.  Angular.
+[03:19:06] Look at this.
+[03:19:07] Nice.
+[03:19:08] react has kind of just gone with the flow i feel like browsers have been trying to  optimize for react so they're just getting kind of free wins
+[03:19:15] It would be interesting to go back before Hooks.
+[03:19:18] Preact, same kind of thing, just slightly below React.
+[03:19:21] Spelled?
+[03:19:22] Like solid, it's slowly gone kind of slightly worse over time, but probably mostly hasn't been changed since Svelte 3 until Svelte 5 makes a change.
+[03:19:31] Right. And this is before vapor. Right.
+[03:19:34] so
+[03:19:35] Yeah, I...
+[03:19:37] I don't know.
+[03:19:39] What do we need?  I think we should just take the stock React hooks...
+[03:19:43] implementation.
+[03:19:44] Right?
+[03:19:45] Now, I haven't done this in such a long time that I'm probably not going to remember how to do this properly.  But if we take this...
+[03:19:52] And...
+[03:19:53] Paste it.
+[03:19:55] Thank you.
+[03:19:57] The last time I think I did anything here was like when I did the Preact stream, when I made the Preact Rx thing like two years ago.
+[03:20:04] let's call this
+[03:20:06] react forget
+[03:20:08] All right, sweet.
+[03:20:11] Sure, why not?
+[03:20:14] Thank you.
+[03:20:15] Thank you.
+[03:20:18] All right, let's do this.
+[03:20:20] Sure.
+[03:20:22] All right. Luckily, this is one main JS, so it should be pretty easy to do. And it looks like  it's been updated to fairly new syntax, like create root and stuff. So this will make our life a little bit easier.
+[03:20:33] Yeah, this is already an enigmatic updated React.  What version of React is this on?
+[03:20:38] Because we need to get to the latest.  Okay.  Okay.  Let's hop on.
+[03:20:42] All right, let's look at one of my
+[03:20:45] Um...
+[03:20:47] stack blitzes and see if we can
+[03:20:50] I mean, this is VEAT, so I might not be able to get the exact thing.
+[03:20:55] Let's go here.
+[03:20:58] But I want to first get some React versions.  Let's, these look good.
+[03:21:07] Thank you.
+[03:21:07] Thank you.
+[03:21:09] Thank you.
+[03:21:11] I'm gathering we can use Webpack to build it.  And we have Babel Loader.  I think that's all we need.  There was some docs here, wasn't there?
+[03:21:18] on, uh,
+[03:21:22] on React compiler, what is it?
+[03:21:26] What's it like this?
+[03:21:29] "What you'll learn, blah, blah, blah, what's the compiler do, what's the compiler assume, strict rules, rules getting started, compiler health check."
+[03:21:37] I don't need ESLint.
+[03:21:42] Okay.
+[03:21:43] Babel.
+[03:21:46] Babel plugin React compiler.
+[03:21:49] OK.
+[03:21:53] Okay, let's get into it.
+[03:21:56] No, that's my web server.
+[03:21:58] Let's go CD dot dot CD, was it react?
+[03:22:02] Forget I called it.
+[03:22:04] Thank you.
+[03:22:07] Thank you.
+[03:22:08] Okay.
+[03:22:11] I think everything should be up to date. Yeah, okay.
+[03:22:15] All right, so now we have
+[03:22:18] Yeah, plug in react file or whatever. This probably belongs in the dev dependencies
+[03:22:23] whatever the way
+[03:22:25] I don't really.
+[03:22:28] I don't care. We're just playing.  Okay. And then...
+[03:22:32] what's in this config?
+[03:22:34] Thank you.
+[03:22:35] It's like options.  I think I just left it blank last time.
+[03:22:40] Yeah, let's just...
+[03:22:43] Let's just put an empty object in there.  It's fine.
+[03:22:46] Let's go...
+[03:22:49] Um...
+[03:22:51] Thank you.
+[03:22:55] Yeah.
+[03:22:57] This is presets and then we're going to add
+[03:23:01] Plug in.
+[03:23:06] Like that?
+[03:23:10] I haven't done this before.  Just letting you guys know.  This is just...
+[03:23:15] Yeah.
+[03:23:16] I'm surprised no one's done this yet.  Maybe people have done it themselves.  I have no clue, honestly.  We're just gonna kind of go with it.  We're gonna have to do this.  I like this example actually helped write  the original hooks implementation with some feedback  from the React core team way back in the day when
+[03:23:32] when hooks are added.
+[03:23:33] And they told me to use Reducer.  So I did.
+[03:23:36] And then there's a bunch of memoized components and stuff.
+[03:23:40] We might have to do some tweaking, but I'm hoping...
+[03:23:43] that
+[03:23:44] That is it.  Let's just start with an NPM...
+[03:23:48] Run dev?
+[03:23:51] Okay, what's wrong here?
+[03:23:57] Oh, yeah, I forgot to...
+[03:23:59] I forgot to change this back into just empty object.
+[03:24:05] I don't know if there's special compiler options we want.
+[03:24:09] Thank you.
+[03:24:15] Okay.
+[03:24:16] Let's see if I go to localhost three, no, was it 8080 for this one?
+[03:24:23] 8080?
+[03:24:25] React.
+[03:24:27] or
+[03:24:27] Get...
+[03:24:29] Thank you.
+[03:24:31] Okay, well, first part of the test works.  Whatever I'm doing isn't breaking it.  It just works, which is beautiful.  I guess the interesting question is,
+[03:24:43] is the compiler actually being
+[03:24:45] Applied.
+[03:24:46] here.
+[03:24:48] Do we see a bunch of like...
+[03:24:51] like,
+[03:24:52] It's going to be fun. It's in one
+[03:24:55] freaking bundle, uh,
+[03:24:58] I'm going to guess it's going to be near the bottom.
+[03:25:05] Okay, this looks like it, maybe.
+[03:25:10] I see a bunch of these function references.  I see a bunch of equal signs, F this, F that.
+[03:25:16] Yeah, yeah.
+[03:25:20] Thank you.
+[03:25:24] Okay.
+[03:25:27] I mean,
+[03:25:31] I think so. Yeah, if this not equals this, this looks like the compiler, right? Like I'm not being insane.
+[03:25:37] Yeah, this looks like the compiler.
+[03:25:43] Thank you.
+[03:25:45] Yeah, this not equal this. React does not normally compile that kind of stuff in.
+[03:25:49] OK, this looks like the compiler.
+[03:25:51] Yes, turn it off and see if it changes.  Thank you, obviously.
+[03:25:58] I don't think this has got hot module reloading. This is old school.
+[03:26:04] Let's look.
+[03:26:08] Let's look at a component here.
+[03:26:13] Yeah, I don't see any of those T dots. Actually, that'd be interesting. Let's just out of curiosity.
+[03:26:20] Um...
+[03:26:22] You'll find her.
+[03:26:24] Amen.
+[03:26:24] I want to see...
+[03:26:26] So this is 184 kilobytes without the compiler.  This is not GZipter.
+[03:26:32] anything. Let me see.
+[03:26:35] That's freaking huge. Okay, we'll talk about that later.
+[03:26:39] I wonder what's going on. We're in dev mode too, so that might be fair. But I'm kind of curious,
+[03:26:46] We'll do the actual measurement later, but the size might actually also give us an indicator
+[03:26:51] of how big it is.
+[03:26:53] Okay, only went up one kilobyte.
+[03:26:55] That's good. There's not that much code.
+[03:27:00] Thank you.
+[03:27:01] Thank you.
+[03:27:03] Ha!
+[03:27:04] Oh, wow.
+[03:27:10] Thank you.
+[03:27:12] - Yeah.
+[03:27:12] Welcome.
+[03:27:14] Okay.
+[03:27:16] Okay, so...
+[03:27:21] at least it's functioning, which is the first step here.
+[03:27:25] Um,
+[03:27:28] Thank you.
+[03:27:28] Thank you.
+[03:27:31] Thank you.
+[03:27:31] Now, I guess an interesting question is,
+[03:27:35] Am I supposed to just remove the memo functions?
+[03:27:39] Like,
+[03:27:40] My gut feeling here is that I'm supposed to...
+[03:27:47] If I want to go back, I should just
+[03:27:49] do this
+[03:27:56] And then...
+[03:27:59] do this
+[03:28:05] I think that last one's an easy one.  If it's always true, I think...
+[03:28:08] we can figure that out pretty easily via compilation.
+[03:28:15] Thank you.
+[03:28:16] Thank you.
+[03:28:18] Thank you.
+[03:28:19] Thank you.
+[03:28:21] Thank you.
+[03:28:22] Yeah, I mean...
+[03:28:24] I got props on how easy this was to just get working.
+[03:28:29] Um...
+[03:28:30] Okay.
+[03:28:31] Thank you.
+[03:28:33] Yeah, I think that's like...
+[03:28:36] Is it like, did I just do it? Like, is that it?
+[03:28:39] I like...
+[03:28:41] I don't think the thing is, this is already fairly heavily optimized.  Like we already hoist state ups to make sure that it doesn't do anything dumb, you know, and with the way we pass the reducers in.
+[03:28:51] are designed to prevent re-rendering.
+[03:28:56] Yeah, so anyway...
+[03:28:57] I think that's it.
+[03:29:01] Thank you.
+[03:29:02] Let's build prod.  Prod.
+[03:29:06] I mean, I guess we should actually check that all the functionality works.  I'm pretty confident given how easy this was.
+[03:29:14] that
+[03:29:15] that this all works.  Like if I go create a thousand,
+[03:29:17] clear
+[03:29:19] create append,
+[03:29:22] Thank you.
+[03:29:24] Yeah, we're in the 2000s. That worked.
+[03:29:28] Yeah, I don't know. Create 10,000?
+[03:29:32] clear
+[03:29:34] Create a thousand, update every 10th row.
+[03:29:36] Highlight.
+[03:29:38] remove
+[03:29:40] swap
+[03:29:43] OK.
+[03:29:44] Nice.
+[03:29:51] Thank you.
+[03:29:55] All right. Well...
+[03:29:58] Okay.
+[03:30:00] Uh...
+[03:30:01] Let's close a couple of these.  Actually, I'm going to keep that one over.  We don't have to show this about...
+[03:30:06] grapple anymore.
+[03:30:09] Huh?
+[03:30:11] So the next part is the boring part, you guys, because...
+[03:30:15] Um,
+[03:30:16] I'm actually going to...
+[03:30:18] Because I'm running my computer and it's hosting a live stream and we're doing this stuff, I cannot trust that.
+[03:30:25] anything
+[03:30:26] in this folder.
+[03:30:28] because people,
+[03:30:29] When I run stuff right now,
+[03:30:31] This is just...
+[03:30:32] very preliminary. So we do not want any of this stuff in this folder. So what we want to do here
+[03:30:37] is we want to
+[03:30:40] run
+[03:30:42] Thank you.
+[03:30:43] Keyed.
+[03:30:45] Vanilla...
+[03:30:47] JS.
+[03:30:48] Eid.
+[03:30:50] React,
+[03:30:51] Hooks.
+[03:30:53] and keyed
+[03:30:56] react forget.
+[03:31:00] What did I do? Am I in the wrong window? What did I do?
+[03:31:04] Oh yeah, I mean...
+[03:31:08] Wow.
+[03:31:09] I'm so lazy, I just don't want to type it again.
+[03:31:16] Oh...
+[03:31:17] Whatever.
+[03:31:25] Keyed, vanilla, JS, keyed,
+[03:31:28] React.
+[03:31:30] hooks,
+[03:31:31] Thank you.
+[03:31:31] Keyed react.
+[03:31:35] Forget.
+[03:31:37] Thank you.
+[03:31:39] And this is why this is incredibly boring part now, because it needs to actually run.
+[03:31:45] Anyway, I mean, honestly, I'm actually...
+[03:31:49] pretty
+[03:31:52] Thank you.
+[03:31:54] Thank you.
+[03:31:54] Thank you.
+[03:31:57] Thank you.
+[03:31:59] Thank you.
+[03:32:02] Oh, you're saying it's not going to... Well, if I spelt it wrong...
+[03:32:06] it's not going to
+[03:32:07] I can't see now. It's just not going to run it.
+[03:32:12] And actually, you're right.  It's not running it.  Know why?  Because it would have done Forget first, because Forget starts with...
+[03:32:20] with an F, which comes before hooks. It's fine. We'll run it right after.
+[03:32:26] It just skips it. So it's going to do hooks and vanilla now and then we'll do forget right after. Okay.
+[03:32:34] It's all good, guys.
+[03:32:37] All right.
+[03:32:38] Well, while it's doing this and I can't really do much on my computer because it kind of hijacks it.  What do you guys want to talk about?
+[03:32:49] That's not true.  I can technically...
+[03:32:54] It's going to take over my main window.  I can interact with chat here for a moment.
+[03:33:00] What's been going on with you guys?
+[03:33:03] The thing is,
+[03:33:06] I don't control which...  I don't think I control which window it shoots it to.  And the problem is,  even if I try to pull something out in the foreground,  it's going to keep on doing it.  And we don't really want to be messing much  while this is going.  So this is...
+[03:33:18] This is a good time to ask me any random questions.
+[03:33:21] while this runs.
+[03:33:23] Perfect. How long until Solid Start V2 stable release?
+[03:33:27] I'm not worrying about solid start V2 right now.  What I'm worried about...
+[03:33:33] Uh,
+[03:33:35] of
+[03:33:37] I is solid V2. I we're doing some really cool work on async.
+[03:33:41] Um,  mostly,  um,
+[03:33:43] Uh,
+[03:33:44] I'm a big fan of React's async model. I don't know if that's been obvious enough to people.
+[03:33:49] One of the coolest things about React's model is how purity extends all the way down to effects.  They have this really cool superpower in that...
+[03:34:00] They know.
+[03:34:04] Which...
+[03:34:06] Effects even depend on async values.
+[03:34:09] And that's something we don't have today in solid, which is really annoying because
+[03:34:13] Technically speaking,
+[03:34:15] reading in effects is already too late.
+[03:34:18] Like,
+[03:34:19] you don't do the effects until everything is landed.
+[03:34:22] So generally speaking,
+[03:34:24] It's fine, but we don't if if if something is async and it's read the first time in an effect,
+[03:34:32] It won't.
+[03:34:33] block, which is our problem, which is it's because essentially, like,
+[03:34:39] it doesn't realize till it's too late that it needs an async value.  Like,
+[03:34:44] if you read it anywhere else, if you read it in rendering, it's fine.
+[03:34:49] but it's user effects that are problem.  If you read it during rendering, if you read it in some kind of computer value, we know...
+[03:34:54] And we go, OK, trigger suspense.  But if you read it for the first time in an end user effect,  we don't know.  And React gets around this because--
+[03:35:02] They have the dependency array.
+[03:35:03] So they know up front that
+[03:35:06] Like if you have some async value you use, and the only place you use it is an effect.  Again, I don't know many use cases that are like this.
+[03:35:13] It will know that...
+[03:35:16] you know, this part needs to suspend.
+[03:35:19] So,
+[03:35:20] This is an interesting piece, but if you solve that problem,
+[03:35:28] In the same way you saw earlier when we were using the create memo,
+[03:35:33] you know, that Ricky put the create memo into all the components, and you can have this like additional thing.
+[03:35:41] Um,
+[03:35:42] to try and show like the work getting done in solid but if we make a kind of similar change
+[03:35:47] we can do the pure part all the way through the reactive graph without running the components.  Essentially, it will happen invisibly for you, like in the JSX,  but not obviously in your end user effects. But with that ability,
+[03:36:01] we could basically mimic reacts
+[03:36:05] promise throwing style blocking.
+[03:36:08] async where you don't have to do null checks, the colorless kind of approach.
+[03:36:12] but through the reactive graph instead of,
+[03:36:15] through the component tree, which is kind of cool because
+[03:36:20] In the same way that Solids...
+[03:36:23] signals push all the work down to the leaves.
+[03:36:28] This would push the async blocking down to the furthest leaf.
+[03:36:34] essentially, where it's finally red in the end, which, as I said, is very, very, very cool.  And it's one of the main focuses on Solid 2.0 is this kind of update to async,  because it'll make our transition type stuff a lot cleaner.
+[03:36:49] And,
+[03:36:50] you know, like these kind of edge cases I'm talking about.  Again, people don't hit this very often,  but when they do, it's kind of like,  why the hell is it doing that?  And it'll also...
+[03:36:59] Yeah, it will give us basically the...
+[03:37:02] this kind of incredible power to
+[03:37:07] block
+[03:37:08] on data without
+[03:37:10] coloring stuff, right?
+[03:37:12] which is, as I said, really powerful, because then you can write your components
+[03:37:17] without nulls. Like you can actually go, okay, this doesn't accept nullable properties.
+[03:37:22] And it's way down in the tree.
+[03:37:24] And then you can load data higher up in the tree.
+[03:37:27] And you can pass through prop drilling and without...
+[03:37:30] the components running in the middle necessarily without you,  you know,  having to do a check,  like is the data here?
+[03:37:38] A component that was authored, not expecting async data,  will be able to handle it perfectly
+[03:37:42] And it won't be blocked at a component level.  It could be blocked right at that text node.
+[03:37:46] Like that's, that's,
+[03:37:48] what i'm talking about um i i think it's
+[03:37:52] That's what I'm excited for.
+[03:38:11] uh
+[03:38:12] Do you know what I did? I was scrolling the chat and I did the exact same thing I did on the Svelte demo.
+[03:38:21] Thank you.
+[03:38:24] You know, where it went back.  So I backed out of StreamYard.
+[03:38:29] Yeah.
+[03:38:30] I'm so sorry.
+[03:38:32] Let me present my screen.
+[03:38:36] Um...
+[03:38:39] On the positive, it looks like...
+[03:38:42] The benchmark has moved on to my other window right now.
+[03:38:45] which is kind of,
+[03:38:50] Nice.
+[03:38:51] Anyways.
+[03:38:54] Thank you.
+[03:38:54] All right.
+[03:39:00] How's everyone doing? Yeah.
+[03:39:03] Yes.
+[03:39:07] Yeah, it annoys me.  I think you can disable the backup from your browser.  Yeah, I hope so, because I don't generally want to disable the motion,  but it's got to be in the browser.
+[03:39:18] No, the benchmark is doing fine.  It's still doing its own thing.  So we're good on the benchmark.  Vanilla JS is...
+[03:39:26] is well in its paces and then we'll switch to forget in a second here
+[03:39:31] Yeah, yeah, we're good.
+[03:39:34] Yeah, StreamRard has caused me some problems in the past, but...
+[03:39:38] It's also a cheap option.
+[03:39:42] You're so back. Thank you. I'm just going up to see where I missed the chat.
+[03:39:55] I actually wasn't aware of that detail, so I can't really speak much to it.
+[03:40:03] What do you pardon the DOM parts proposal, the way they help with DOM? Yeah, I mean, there's a couple proposals that people are working on now that I think could help. I think the DOM parts is really interesting. If it's performant, I think it's low enough level, hopefully that it's not the same problem.
+[03:40:18] Like I'm always concerned with,
+[03:40:21] about bringing templating into the language.
+[03:40:24] Because we might find smarter ways to
+[03:40:27] To do it? Oh, guess what?
+[03:40:29] It decided that it wanted this window again.
+[03:40:32] It's all good.
+[03:40:35] So, yeah, I mean,
+[03:40:38] There's a, the hardest thing for me on specs is you kind of got to wait for them to ship before you can even like talk about the viability of them.  Cause you got to see how they're implemented.
+[03:40:47] Do you want to talk about TCR and Thrill?  If you're a test, I missed it.  Yeah, I talked a little bit about it.
+[03:40:52] I'm happy, and I talked about it on the Signals 2.0 stream, I'm happy that the spec is coming...
+[03:40:58] I think it's challenging to be a part of the conversation.  I think it's challenging to be a part of the conversation.
+[03:41:05] The next stages might be a little bit more challenging, but if we can get this all the land, it's...
+[03:41:09] Pretty exciting.
+[03:41:10] Yeah.
+[03:41:14] I don't know if I have much else to say at this point.  I it's very cool to see so many framework authors aligned, which is really it's really cool.
+[03:41:21] from that perspective, right?
+[03:41:23] Um,
+[03:41:25] How long is this a benchmark take?
+[03:41:27] Yeah, I mean...
+[03:41:29] Earlier before, I would say generally about five minutes of framework.
+[03:41:37] But I don't know how long we've been running it for now because we're almost through two frameworks.
+[03:41:41] When did I start it?
+[03:41:48] I should have timed it, but it's about five minutes of framework.  It was...
+[03:41:53] I want to say that I was we started it about
+[03:41:57] 12 minutes ago.
+[03:42:01] Thank you.
+[03:42:04] Thank you.
+[03:42:08] Thank you.
+[03:42:09] Thank you.
+[03:42:11] Thank you.
+[03:42:12] Well, this one here that I'm running on is a MacBook Pro. It's my work computer, which funnily is not the computer I classically do most of my work on.
+[03:42:21] It jumped across windows again.  It's like whatever window I have focused at the time that the...
+[03:42:26] that it runs.
+[03:42:31] Mm.
+[03:42:35] Thank you.
+[03:42:36] you
+[03:42:39] Thank you.
+[03:42:40] Thank you.
+[03:42:41] Thank you.
+[03:42:43] Thank you.
+[03:42:44] you
+[03:42:45] Yeah, I mean, my suspicion is that we won't see much difference because basically this is...
+[03:42:53] This is super like my comment was, I think that for a lot of code bases, React compiler will make things.
+[03:42:59] a lot better, a lot faster, the defaults being faster.  That was my take and assumption.
+[03:43:08] Joe was trying to say that even highly optimized code
+[03:43:12] could see benefits.
+[03:43:14] I...
+[03:43:15] I want to know that.
+[03:43:17] Right.
+[03:43:17] Bye.
+[03:43:20] Thank you.
+[03:43:20] Thank you.
+[03:43:21] Thank you.
+[03:43:24] Thank you.
+[03:43:26] Thank you.
+[03:43:34] Yeah, I shared that tweet, Dev, a few moments ago, but yeah.
+[03:43:39] Um, okay. Did it?
+[03:43:42] I think it's done. Let's do hooks now.
+[03:43:46] Or forget. Yeah, see. So let's just
+[03:43:49] Yeah, it's.
+[03:43:50] It's slash...
+[03:43:52] keyed, and then we don't need to run
+[03:43:56] These ones, we just need to run our last one. Okay, let's run forget. Let's go.
+[03:44:00] uh
+[03:44:01] All right.
+[03:44:02] Thank you.
+[03:44:05] Thank you.
+[03:44:07] Thank you.
+[03:44:09] Well, it ran two, so that was more like 10 minutes.
+[03:44:14] Thank you.
+[03:44:16] Thank you.
+[03:44:16] Thank you.
+[03:44:21] Thank you.
+[03:44:23] Thank you.
+[03:44:24] Thank you.
+[03:44:24] Yeah, I mean, someone was asking earlier why we use use reducer and it was just easier
+[03:44:31] The interesting thing people don't always realize, and it's why use callback exists in React is that
+[03:44:36] And it's always confused.  I think this is actually one of the disjoints  between me and the React guys.  They treat functions and everything as memoizable.  So like if you make a new,  if it closes over a different version of the variable,  then you have a new version of the function.  So when they were solving a lot of solutions  and saying, oh, what's a solid version look like?
+[03:44:55] they would make these really...
+[03:44:57] their assumption was like, oh, we need a new version of the function handler passing it through.
+[03:45:04] And,
+[03:45:05] Um
+[03:45:06] And a lot of times in solid, I'd be like, no, no, no, the count, the original reference is still good.  So we don't actually need to memoize functions or worry about functions.  It's just easier to just literally read the thing.  And what that ultimately did in a lot of these conversations was the solid solution became drastically simpler than, like, they were starting where their assumption was.  And they're like, look how simple this is.  And they thought the solid solution, they'd be like, look how, you know, awkward this is.
+[03:45:36] and then it was like both solutions are simple in their own way um
+[03:45:41] And,
+[03:45:42] I think useReducer is kind of in this category here because of having the single function do the
+[03:45:49] the state propagation rather than the set state.
+[03:45:55] Thank you.
+[03:45:57] Yeah, and that's exactly what I've been trying to say.  It's just...
+[03:46:03] I think this will make a difference to...
+[03:46:05] many real code bases, ones that even think that they're very optimized. I, I,
+[03:46:11] The...
+[03:46:14] you know,
+[03:46:17] But if this does make a difference, I'm actually kind of interested, right?  Obviously, because...
+[03:46:24] Yeah, I mean...
+[03:46:26] Yeah, I'm definitely interested if this does make it's possible that this does make a difference. And I think that's pretty cool. You know, I mean, this is not the most accurate test. So if we're within, you know, five,
+[03:46:38] because I'm running all the stuff in the background right now,  if we're within five ish points of it,  I'm going to assume that they're equal and it's any given run.  But like,
+[03:46:49] Thank you.
+[03:46:50] Yeah, I mean...
+[03:46:52] This might not be completely optimal.  I think there's some React state libraries  that somehow get ahead of this,  which makes no sense to me.  So obviously there's like,
+[03:47:01] there might be places where even this implementation could be improved slightly.
+[03:47:10] Thank you.
+[03:47:14] Thank you.
+[03:47:21] So, yeah, I mean...
+[03:47:24] Thank you.
+[03:47:25] Thank you.
+[03:47:26] Okay.
+[03:47:28] This is the challenge here. Do you want to know why this is the challenge here? It's because...
+[03:47:35] Million.js...
+[03:47:38] destroys this benchmark.
+[03:47:40] Thank you.
+[03:47:41] .
+[03:47:42] Do you know what I mean? Like just...
+[03:47:43] And
+[03:47:45] Like, I can't even write the solid implementation as efficient as the Million.js implementation because the Million.js implementation doesn't even...
+[03:47:53] Like the things that make react simple is what lets million be so simple in  this benchmark.
+[03:48:00] because
+[03:48:02] it's not worrying about like state management in a way that like,
+[03:48:06] actual apps.
+[03:48:07] would, right? Like, signals do bring  an overhead. So, Million is, like,
+[03:48:11] How?
+[03:48:12] fast can we just strip everything out and just blast this one scenario don't worry  about nesting don't worry about like any kind of scenario
+[03:48:20] And,
+[03:48:21] Thank you.
+[03:48:22] It's interesting because on one hand, you have this thing that shows such incredible...
+[03:48:27] performance improvements.
+[03:48:29] in terms of, uh,
+[03:48:30] We're all benchmarks.
+[03:48:32] And then you have Forget, which...
+[03:48:34] we will, you know, may or may not have some impact here, but actually is probably more meaningful.  Like, as I was saying earlier, when we were talking about the million lint,
+[03:48:43] for as fast as million is,
+[03:48:45] it probably isn't
+[03:48:49] always going to make a huge difference on your app.  I mean, there's the old...
+[03:48:52] Inferno.
+[03:48:53] Um,
+[03:48:56] Inferno's been around, and Inferno isn't quite as fast as Million, but we've had
+[03:49:02] eight years of where people could have gone to, you know, use Inferno and essentially had some good benefit changes there. And
+[03:49:12] And meta Facebook, my understanding, did this test and they were like, no, we're going to go our way and go that direction.  And they did other types of research.
+[03:49:25] Thank you.
+[03:49:26] Thank you.
+[03:49:30] Thank you.
+[03:49:31] Thank you.
+[03:49:32] Thank you.
+[03:49:34] In this benchmark, it is million without React is kind of the thing. I don't know if adding million in
+[03:49:42] Like is million always in react? I should actually look at the implementation, but it basically sidesteps react almost immediately is what I'm getting at.
+[03:49:51] Yeah.
+[03:49:54] We got more React people in here.  Hey.
+[03:50:01] uh
+[03:50:03] Thank you.
+[03:50:04] Thank you.
+[03:50:07] Yeah, I was highlighting on the chat, so it's still running on the other side.
+[03:50:13] Oh.
+[03:50:15] Hm.
+[03:50:16] Thank you.
+[03:50:17] All right.
+[03:50:30] Thank you.
+[03:50:33] Thank you.
+[03:50:35] Hmm, web.
+[03:50:37] I can never remember.  This is a problem.  I haven't done this in such a long time.
+[03:50:43] Despite popular belief,
+[03:50:45] I even though I, you know, I used to spend a lot of time on this framework.
+[03:50:49] benchmark. It's been years.
+[03:50:51] I can't even remember where the...
+[03:50:54] the results are. I know that he does stuff like this.
+[03:51:00] Thank you.
+[03:51:02] Thank you.
+[03:51:02] Yeah, OK.
+[03:51:03] Yeah, so...
+[03:51:05] I would say in this...
+[03:51:06] benchmark,
+[03:51:09] Interesting. They're essentially the same
+[03:51:12] I don't know why there's variation on create many rows.  It is interesting that select row seems slower here.
+[03:51:21] I wonder if it's an example of where
+[03:51:23] I mean, we'd have to run a few times.  This is too close for it to be like...
+[03:51:28] statistically
+[03:51:29] significant, from my opinion.
+[03:51:32] But like,
+[03:51:33] Thank you.
+[03:51:35] This is a bit of a gap.
+[03:51:37] And it actually doesn't very much.  I wonder if there's an example where, say, memoization doesn't benefit.  I mean, as much.  This is a stupid test.
+[03:51:46] to be fair, this is the shortest test in the whole benchmark and it has to be  super slowed down to even see the difference because we're literally talking
+[03:51:54] the speed of clicking a row.  So this one is the most wonky one on the whole benchmark,  but it's also the one that shows the benefits  of fine-grained updates more than others  because literally you don't have to run
+[03:52:08] The for loop.
+[03:52:09] Like, you know,
+[03:52:10] if you have a fine grained system,
+[03:52:12] like solid...
+[03:52:14] and you update
+[03:52:16] one to do in a big data store,  and you update the one ID,  it's going to update the one row.  It's not going to go,  okay, mutable data,  clone the...
+[03:52:27] array, which doesn't matter, but
+[03:52:29] insert the same
+[03:52:30] items except for the one that's changed, you know, like now go through
+[03:52:35] you know, map
+[03:52:37] over that. Notice that  that it's the same.  So don't recreate all the other ones.  Create the one new one for that.  That whole process  just gets skipped when you have like
+[03:52:50] true fine-grained rendering, but  like, um...
+[03:52:53] E.
+[03:52:54] I like...
+[03:52:57] Thank you.
+[03:52:58] Yeah, it's interesting.  Swap rows is basically the same.  Remove rows.  Create many rows got faster, but it could be variable run.  We could run like this, but I can't trust the results too much  because of the setup we're running under.
+[03:53:12] but yeah,
+[03:53:13] Um,
+[03:53:15] Yeah, I mean,
+[03:53:18] This suggests, according to this average, it gets negatively slower because of this one test.
+[03:53:24] Um,
+[03:53:27] I don't know how much time I want to sit on it.  I could rerun this one test for both and see if there's any change here.
+[03:53:33] I'm curious enough that I'm going to just run the one test.  This will be a lot faster. We just go dot, dot.
+[03:53:39] Bench.
+[03:53:41] And we actually have put them both in here.  We want to go keyed.
+[03:53:45] react,
+[03:53:47] Hooks.
+[03:53:49] and we want
+[03:53:50] benchmark,
+[03:53:51] oh four underscore i think i'm pretty sure it's all four it's always all four because this is the
+[03:53:57] Let's just
+[03:53:58] Let's just run those two again.
+[03:54:00] Thank you.
+[03:54:02] Thank you.
+[03:54:05] Thank you.
+[03:54:07] Thank you.
+[03:54:08] Thank you.
+[03:54:10] Thank you.
+[03:54:11] Thank you.
+[03:54:12] Thank you.
+[03:54:17] Thank you.
+[03:54:17] Okay, yeah, sorry. I'll blow up the results after this one. Sorry.
+[03:54:27] Thank you.
+[03:54:28] Thank you.
+[03:54:28] Thank you.
+[03:54:29] This bench art is very cool. I just read the preferences, the dev tools, and parts of the JSON you do.
+[03:54:34] Yeah, this is...
+[03:54:36] In terms of public benchmarks, this is probably the...
+[03:54:42] I...
+[03:54:42] it's,
+[03:54:43] So it's stand out in terms of the community effort, in terms of the people involved.  If you go back, you'll see PRs from many...
+[03:54:51] Framework authors, you'll see
+[03:54:53] Edmund Yu and Rich Harris and, you know, lots of people, you know, contributing to this over the years.
+[03:55:00] Stefan has always tried to keep things pretty fair. There's categorization. At one point,  when I was more involved, I went through every... That's how I learned a lot about the JavaScript  frameworks. I went through every framework to see if they were cheating, essentially,  because Solid cheated initially. Our first post, we came in at the top, and people were like,  no, no, no. And I was like, oh, I didn't realize that. So I kind of went back in that. And over  time, I helped by scanning all the frameworks there.
+[03:55:26] done. Much, much faster to run one test for two frameworks.
+[03:55:30] Um,
+[03:55:33] you know,
+[03:55:35] Thank you.
+[03:55:37] Thank you.
+[03:55:39] Not yet.
+[03:55:42] Okay. I...
+[03:55:44] Thank you.
+[03:55:46] it
+[03:55:47] It got a little faster, and this one was a couple points faster.  It could change run to run, but I think this actually suggests that
+[03:55:54] The forget version here is actually slightly slower.
+[03:55:58] Um,
+[03:55:59] Let me let me plus it up for you guys.
+[03:56:02] Right.
+[03:56:03] Thank you.
+[03:56:04] partial update,
+[03:56:07] I kind of want to look at all these micro ones.
+[03:56:10] the C, it might be the forgets just like
+[03:56:13] tiny bit slower because it's like this is so optimized structurally that maybe the overhead  of doing the checks is enough to show up even though like
+[03:56:21] like versus not doing checks that aren't necessary i don't know i think we'd have to spend more time  here um to say anything conclusive anything else interesting here um
+[03:56:29] Memory usage slightly higher.
+[03:56:33] Oh, it's my hooks.  Do you know what it is also?
+[03:56:35] This isn't fair, I'm using React 18.
+[03:56:37] Welcome.
+[03:56:39] We don't want to do this again.
+[03:56:42] Bye.
+[03:56:43] that
+[03:56:44] I should have used React 19 on the hooks version.
+[03:56:48] This is React 18. This is...
+[03:56:52] Bye.
+[03:56:53] Thank you.
+[03:56:56] Thank you.
+[03:56:58] It's fine.
+[03:56:59] It's fine, it's fine.
+[03:57:00] It's all fine.
+[03:57:04] Thank you.
+[03:57:09] Thank you.
+[03:57:24] Sorry, it's just not fair if you don't compare against the same version of React.
+[03:57:29] Right.
+[03:57:32] Thank you.
+[03:57:33] Thank you.
+[03:57:35] So I'm going to have to run the hooks version again.
+[03:57:42] It's only one framework this time instead of three frameworks. It's just,
+[03:57:48] uh,
+[03:57:49] Thank you.
+[03:57:51] Okay.
+[03:57:56] Anyway.
+[03:58:00] Yeah.
+[03:58:02] Thank you.
+[03:58:14] Yeah, sorry, there's a lot going on chat.
+[03:58:24] Thank you.
+[03:58:25] Thank you.
+[03:58:26] Thank you.
+[03:58:29] Thank you.
+[03:58:30] All right, I still have to zoom the results, don't I?
+[03:58:34] Did I zoom them?
+[03:58:39] How much more do I have to zoom in?
+[03:58:43] um
+[03:58:45] Yeah.
+[03:58:46] It's running right now.  It's fine.
+[03:58:51] I did zoom them a bit, I feel like, but maybe I can zoom them more.
+[03:58:57] Thank you.
+[03:58:59] Thank you.
+[03:58:59] Thank you.
+[03:59:00] Thank you.
+[03:59:03] All right.
+[03:59:06] Thank you.
+[03:59:07] Thank you.
+[03:59:11] Yeah, this tests memory, it tests output size, it tests everything. So that's why that's why 19 was important to me because I wanted to make sure that we were testing.
+[03:59:24] Yeah.
+[03:59:25] I can switch layouts so it does the overlay, but I thought I might be blocking something.
+[03:59:32] I think it's actually better for what I'm doing to do it like this.
+[03:59:34] Sorry.
+[03:59:47] Okay.
+[03:59:49] Because see 18 here, you can see that forget is...
+[03:59:54] the compressed size is like different.  But I think this is mostly going to be just the difference between React 18
+[04:00:00] react 19.
+[04:00:00] It's 40 versus 49.
+[04:00:03] And, you know,
+[04:00:05] I don't first paint, I guess, is impacted by that.
+[04:00:17] Yeah, comparing against React 18 is just not fair.
+[04:00:22] You guys are asking sushi or pizza.  I'm pretty sure it's leftover pasta.  I made, what is it, just like, facila, um...
+[04:00:30] Ipicele, the like the P one, you know,
+[04:00:34] With broth?
+[04:00:36] I've actually made it before.  Little freshman from the garden, too.  Pretty good.
+[04:00:43] Thank you.
+[04:00:45] Thank you.
+[04:00:45] Thank you.
+[04:00:47] Thank you.
+[04:00:48] Thank you.
+[04:00:55] I'm sorry.
+[04:00:56] All right.
+[04:00:58] See you.
+[04:00:59] Sorry guys.
+[04:01:01] I just, if I'm going to do this, I want to do it right.
+[04:01:06] Always need three points, right? This is why I run three frameworks. You need the control, which is vanilla.
+[04:01:13] like the triangulate you need and then you need the two things you're  comparison if you ever do a benchmark and it's just two things
+[04:01:20] You don't have like you need.
+[04:01:22] the baseline always, it just,
+[04:01:24] Otherwise, you don't know what you're comparing.  Something could be 20 times.  You can always find a way to blow something up  so it's like 20 times faster or whatever.
+[04:01:48] All right.
+[04:01:52] forget slower. It might be a tiny bit in this example, but it's again, we're talking about probably the most
+[04:01:58] one of the most scrutinized, optimized benchmarks out there.
+[04:02:08] Oh, is it just called the React compiler?
+[04:02:12] I...
+[04:02:13] I like calling it forget.
+[04:02:16] But that's good.  Then we can take it back.  You know, if they're going to call their stuff fine-grained rendering, I could call solid set and forget.
+[04:02:30] Thank you.
+[04:02:32] All right.
+[04:02:34] Okay, didn't really...
+[04:02:41] The...
+[04:02:42] Yeah.
+[04:02:44] Thank you.
+[04:02:48] I mean, there's a lot of things that make different benchmarks reliable. I, I,
+[04:02:53] Part of it is you have to be...
+[04:02:57] You have to scrutinize
+[04:03:00] like what is being tested is actually being tested i'm less it is hard
+[04:03:04] to make benchmarks like actually real world or fair from that perspective. But the best you can  do is make sure that like you're testing the thing that you're trying to test, right? Even if it's  important or not important.
+[04:03:16] Um,
+[04:03:18] It's hard to find a perfect balance between...
+[04:03:21] things to test that are actually valuable versus not.
+[04:03:25] Thank you.
+[04:03:27] Um,
+[04:03:30] Thank you.
+[04:03:36] Wait, is this real? Was it ever called useAction?
+[04:03:42] You would know. I didn't see the action.  I didn't see the proposal until like...
+[04:03:48] Maybe a week, a couple of weeks before it was released.
+[04:03:52] I think you were on the inner circle on that.
+[04:04:03] Ah, okay.
+[04:04:13] Thank you.
+[04:04:14] Thank you.
+[04:04:15] Okay.
+[04:04:21] It's done. It is done.
+[04:04:26] Thank you.
+[04:04:29] All right.
+[04:04:34] Ha! Ha ha ha ha ha!
+[04:04:37] Hahaha.
+[04:04:38] Ha ha ha.
+[04:04:40] It's because 19 is slightly...
+[04:04:44] Yeah, yeah. 19 is where the slowdown is coming in, not from Forget.
+[04:04:49] Thank you.
+[04:04:51] Yeah, you called it.
+[04:04:56] Some things are faster with forget. Some things are slower slightly.
+[04:05:01] Um...
+[04:05:02] We still see create rows being slightly faster and swap rows being faster.
+[04:05:06] Um,
+[04:05:08] But select is still slower, right?
+[04:05:10] I think this is the only test that's as granular enough.
+[04:05:15] I always call this one the fine grain test.  This is the one that all knock out
+[04:05:21] like if we knock out beats react on on this one like you know what i mean like
+[04:05:26] Like, this is the...
+[04:05:28] And,
+[04:05:29] I think this is the one where memorization costs would show up the most where if it wasn't necessary.
+[04:05:35] Um,
+[04:05:38] Thank you.
+[04:05:39] 7, 6, 4, 6, 9, 6, 8, 7, 8, 8, 9, 10.
+[04:05:42] 35, yeah.
+[04:05:47] Yeah.
+[04:05:48] So bigger difference between React 18 and 19 than the difference here between forget and non-forget.
+[04:05:55] Which is cool because we were able to do some memos.  Forget...
+[04:05:58] has higher run memory,
+[04:06:00] It looks like.
+[04:06:02] Except interesting, this crate cleaning cycle
+[04:06:05] was improved. Maybe the cost of the memo function
+[04:06:10] has impact there.
+[04:06:12] run memory,
+[04:06:14] And then...
+[04:06:16] Yeah, we see the size grow. It was not forget size, but React 19 size increase that actually made this giant difference.
+[04:06:25] The forget code...
+[04:06:26] uncompressed,
+[04:06:28] is to
+[04:06:29] kilobytes bigger.
+[04:06:30] But it's half a kilobyte difference in the end here.
+[04:06:35] And everything else is
+[04:06:37] basically...
+[04:06:39] equivalent. So I mean, I'm just going to say that
+[04:06:43] These are identical, as you predicted, parasocial.
+[04:06:54] Right.
+[04:06:57] Thank you.
+[04:06:59] I mean, sometimes extra...  Like, Dan wrote a great article a while ago about when to use memo.  And he's saying, like, memoization itself isn't always...
+[04:07:09] good. Although it turns out that
+[04:07:12] I think it's good more often the times than we realized, as long as the mechanism is lightweight enough.  And that's what forget has proven.
+[04:07:18] Um, but,
+[04:07:19] Yeah, if you have the most optimal code and then you add memoization, just like if you have the most optimal code and you add signals,
+[04:07:26] Signals are not making it any faster. Memoization is not making it any faster.
+[04:07:31] I would just consider this a wash, which is good.  Do you know why?  Do you know why I'm saying this is good?
+[04:07:36] Because some features that are good from a performance standpoint ultimately actually have a cost when it comes to raw performance. Like,
+[04:07:45] If we go here and we look at
+[04:07:48] Um...
+[04:07:50] something like
+[04:07:53] where we were doing
+[04:07:55] oh god if where the hell i'm in class react so i've gone too far
+[04:08:00] Preact classes.
+[04:08:03] where
+[04:08:04] Is class react faster than hooks again?  It never used to be.  Oh, it is.
+[04:08:09] No, React Hooks is here.
+[04:08:13] React classes is here. Ooh, classes got faster. Interesting. Okay.  Hooks when they were released were faster than classes for quite a while.
+[04:08:20] Um,
+[04:08:22] Where are we quicks over here? Where my hooks use transition?
+[04:08:26] Going from...
+[04:08:28] use transition, like using the concurrent APIs,
+[04:08:32] for React, just turning them on in a test where it probably doesn't apply,
+[04:08:37] has a bigger slowdown than turning on forget. Forget is at least basically invisible if you  don't benefit from it.
+[04:08:43] So it's like kind of a free win.  I mean, it's kind of like, why not?
+[04:08:46] You know, so...
+[04:08:49] Yeah.
+[04:08:50] Thank you.
+[04:08:51] Yeah, yeah, yeah, yeah.
+[04:08:54] Yeah.
+[04:08:57] you know, it, it,
+[04:08:59] In the best case scenario, it does nothing.
+[04:09:02] Yeah.
+[04:09:04] Or worst case scenario, does nothing basically.
+[04:09:07] Maybe make your bundle a little bit bigger.
+[04:09:10] But...
+[04:09:11] probably. I don't know if it's going to make that big of a difference. Sorry, I'm just trying to get back to
+[04:09:16] to stuff. Yeah.
+[04:09:19] Looks like we're getting more and more people up at the front here, you know.
+[04:09:23] This crowd gets bigger every day.
+[04:09:26] Us and Svelter...
+[04:09:28] Yeah, what's happened? This run is changing its head. Inferno got in front of us and Svelte, which is
+[04:09:34] odd because nothing has changed.
+[04:09:37] Thank you.
+[04:09:39] Yeah.
+[04:09:40] yeah no what i was gonna i did it again what i was gonna say is that the select row
+[04:09:46] metric
+[04:09:50] is
+[04:09:54] is one where
+[04:09:55] you'll generally see
+[04:09:57] reactive libraries,
+[04:10:00] Um,
+[04:10:01] At the front of the list.
+[04:10:04] And then
+[04:10:06] Block Dom and Million are impressive that they get this far up on the select road tests.
+[04:10:12] They actually beat out solid, which is impressive.
+[04:10:14] Inferno.
+[04:10:17] But
+[04:10:18] Salt Classic.
+[04:10:21] view.
+[04:10:22] Svelte 5 next.
+[04:10:25] What's the difference in Svelte 5 next and Svelte 5?
+[04:10:28] Is there two Svelte 5s?
+[04:10:32] I guess that's old Svelte. Oh, well, whatever.
+[04:10:36] Enough looking at this.
+[04:10:38] Solid's worst metric is garbage collection, it's clear rows.
+[04:10:43] Let me go back to
+[04:10:45] here.
+[04:10:50] Yeah, where is it? Let's go back to
+[04:10:55] Where's it's funny. It's like, where do I? Yeah, let's go back to sorting my geometric. If you look at solid,
+[04:11:02] the thing that's holding it down the most
+[04:11:04] Um,
+[04:11:06] And Svelte 5 is memory.  It's not memory because our memory is actually fairly low.  If you look here.
+[04:11:13] Not compared to like...
+[04:11:15] Um,
+[04:11:17] like block doms type stuff.
+[04:11:21] Let me see here.  No, memory is still pretty comparable.  But for some reason, I think the memory release of the signals, I think it's related to memory.  Something about cleanup.
+[04:11:30] is our worst metric here. It's a thing keeping us down. If you look at this,
+[04:11:35] If we were to take something solid and something like
+[04:11:39] Uh...
+[04:11:41] million
+[04:11:42] you'll see that most of the scores are almost identical,  except this one is a killer, right?  13 versus 15.5 or 16.
+[04:11:50] See, 3.6 is comparable, 4.14.  How's blockdown doing there?
+[04:11:55] or 1,400,000. Like, yeah, it's mainly
+[04:11:59] this clear rose thing.
+[04:12:02] Soled's best metric.
+[04:12:06] Now doesn't,  isn't that stand up anymore because I,
+[04:12:10] It used to be select row and partial update used to be really good for us.  I think this is a poor run.  I don't know why this is so high right now, but...
+[04:12:19] Um,
+[04:12:21] This run looks like it's just poor in general, but...
+[04:12:26] something this is not what I'm accustomed to, but I don't think we have a particularly best metric.
+[04:12:31] were pretty good all around.  That's how we got in front of the BDOM libraries,  was that it was very good all around.
+[04:12:36] Um,
+[04:12:42] Thank you.
+[04:12:47] *sniff*
+[04:12:49] Thank you.
+[04:12:49] Yeah, and Svelte 5 Next is the right one. And then there's Svelte 5 Classic, which is pretty cool. This is impressive improvement, to say the least.
+[04:13:03] Um,
+[04:13:04] But anyways.
+[04:13:06] uh enough of this um let's let's let's continue going i think we kind of showed at least from like a pure raw
+[04:13:14] DOM kind of benchmark, you know,
+[04:13:18] like,
+[04:13:19] Yeah, I mean, I wasn't expecting any difference.  I'm glad we went back and tested React 19.
+[04:13:25] because
+[04:13:26] That made a bigger difference, essentially.  Okay, let's keep them going.
+[04:13:33] Thank you.
+[04:13:34] All right.
+[04:13:37] And just clarify, I mean the performance of the React's overall model in comparison with signals, not that the compiler won't raise the performance of the React itself.
+[04:13:44] Yeah, I'm not sure if it does. Yeah.
+[04:13:49] Thank you.
+[04:13:53] but
+[04:13:56] As I said, it doesn't have to. Okay. Let's go.
+[04:14:01] Let's see if there's, let's see if we pick up any. There's a few other things for this week in JavaScript I wanted to kind of talk about. We're not doing this week in JavaScript. The whole thing is this week in JavaScript.
+[04:14:11] Um,
+[04:14:16] Yeah.
+[04:14:19] I don't even feel like getting into this.
+[04:14:21] This was prime baiting.
+[04:14:24] I just I flagged both of these because it's funny that you ask the same question, you switch the thing.
+[04:14:29] And I was amused reading some of the responses because at first,
+[04:14:32] everyone on,  I watch you solid over next.  And it was all like,
+[04:14:37] I care.
+[04:14:39] Other than DAX being...
+[04:14:41] Funny.
+[04:14:43] you know, people are people clarifying that next is like solid start.  Most people are like some performance comment.  And then when you go to the next side, why do you choose next over solid?
+[04:14:54] everything is ecosystem, ecosystem, ecosystem.
+[04:14:59] All right.
+[04:15:03] So...
+[04:15:06] I... it...
+[04:15:08] Yeah, it's funny because when people got the more detailed responses, the solid over next reason was almost always technical. And the next over solid reason was almost always non-technical.
+[04:15:19] So, yeah.
+[04:15:21] E
+[04:15:21] I thought that was interesting at the time.
+[04:15:30] Thank you.
+[04:15:32] Hmm, what's here?
+[04:15:38] I don't know if you guys saw this.
+[04:15:40] They have this new API that they're working on the DOM.  I haven't had a chance to review it yet, but it's moved before API.  That basically, my understanding is it allows...
+[04:15:51] the, like,
+[04:15:52] move reparenting elements without losing, um,
+[04:15:56] without losing the context on it, which is kind of,
+[04:16:00] actually
+[04:16:01] huge
+[04:16:02] I don't know how frameworks will use it, but it's
+[04:16:05] if the performance is good, it's kind of really cool.
+[04:16:11] Let's see what else.
+[04:16:15] I don't know if we need to talk about the compiler stuff anymore.
+[04:16:19] Um...
+[04:16:22] I want to give a little shout out to Dev on this stuff.
+[04:16:25] the
+[04:16:27] Oh, no, not this one.  See, I did have the tweet that showed the remix one.  That's not the one that I was looking for.  It's fine.
+[04:16:34] Let's see here.
+[04:16:38] Do you know what's kind of funny? Let's talk about this for a second, because it came from the Soul Start article.
+[04:16:43] How many people hate
+[04:16:46] File system routing, like just absolutely hate file system routing. Like,
+[04:16:51] I think almost everyone actually dislikes file system routing.
+[04:16:57] Right?
+[04:16:58] Some people have come around to it, but there's this thing where this guy posts this after article.  And like a lot of people are like, why would I ever want this thing?
+[04:17:08] Right.
+[04:17:09] Right. And
+[04:17:12] Thank you.
+[04:17:13] PHP did file system routing right. There you go.
+[04:17:19] It just makes sense.
+[04:17:21] It looks gross, but you don't know it's for some reason.  I think a lot of people don't understand why it even exists, right?
+[04:17:26] And I actually replied, do you want the actual answer?  File-based routing removes a huge amount of complexity  in linking bundling to the concept of pages.  Important for generating lazy bundles, preload tags, and asset management.  It's why every meta framework has it and basically impossible...
+[04:17:39] to avoid.
+[04:17:40] The Altair is...
+[04:17:41] so much worse it's untenable. To date, I've never seen a config-based system deliver everything in  a manual way. Now there's some people who respond to me saying, "Oh, what if you did this?" And  there's some potential here, but like
+[04:17:52] holistically looking at what the system has to do.
+[04:17:56] So like...
+[04:17:57] One of the things I'm saying, like, even if Solstart lets you not use the FS routing, I wouldn't recommend it.  Swap your router library, but keep the file system is what I'm saying.
+[04:18:06] Um,
+[04:18:09] And
+[04:18:11] The...
+[04:18:13] The original poster actually had some really great questions here.  I've been waiting for this comment, very interesting point of view.  Just to make sure I'm not taking a version specifically of a general concept,  I have recently learned that there are actually multiple different concepts  applied to file-based routing.  From viewing alt-hand stack, one seemed much more accessible to me
+[04:18:28] So if for some reason I couldn't use Angular config based writing, I would lean towards that one. I heard that next is opt in, opt out, can you config based file and mix and match, right? And solid starters as well. But,
+[04:18:38] What I was going to say is most of these concerns arose around
+[04:18:40] SSR and smart lazy loading plus preload stuff like can stack actually doesn't do it without file system routing tenors asked me yesterday if you any ideas how to accomplish it without frameworks that have often often generally are opting out of more than just
+[04:18:52] more things and people don't realize like generally it still works and only impacts  initial page flow performance so you might not notice it
+[04:18:59] But like,
+[04:19:00] When you don't use the FS routing, you give the framework less information.
+[04:19:05] I do think this is potentially solvable in other ways, but I'm not sure those other ways are an improvement and I have yet to see them, which is a sizzle lock given that FS routing isn't ideal.
+[04:19:13] but at least the boundaries of analysis are clear and the syntax is cleanly defined.
+[04:19:17] And it's so funny, like the day before I post this, Tanner actually dropped this one.  I haven't liked it yet.
+[04:19:23] After being very bullish on code-based routing, I've come back the other way pretty hard. Any route convention is way better than most random systems I've seen emerge without it.  There's pushback against file-based routing on the idea that you must build everything or even the significant portion of the feature for location in the actual file for the route.  If it fits there, then do all of it in the route. If it doesn't, why not just build it into the feature TSX and render feature, whatever.  Scrabability, convention, flexible, creative. Rigid on the parts you don't want to screw up the others.
+[04:19:48] Yeah, so...
+[04:19:51] Yeah, anyways.
+[04:19:52] I think this is interesting.  I think this is because he's working on Tanstack Start,  and he started being like, man...
+[04:19:59] to try and solve this stuff
+[04:20:01] well, it's really hard to do it without FS routing.
+[04:20:05] So,
+[04:20:06] Just wanted to kind of put that out there.  It's people see this,  like obviously the,
+[04:20:11] these conventions drive people crazy i had fun
+[04:20:14] with designing this because
+[04:20:16] My choice for this is a weird one, perhaps, but it's consistent.
+[04:20:21] We only have...
+[04:20:24] three rules, I think, for routing.  And I know there's a lot of file name conventions and stuff.
+[04:20:29] But our rules are simple.
+[04:20:30] Wild cards.
+[04:20:32] Go in...
+[04:20:35] Brackets.
+[04:20:36] And the other role is like...
+[04:20:40] sorry, params, brackets, wildcards, or dot, dot, dot, right?  And then anything...
+[04:20:45] with a parentheses around it.
+[04:20:48] I guess there's four rules.
+[04:20:50] Anything with parentheses around it.
+[04:20:53] is just removed.
+[04:20:54] from the road.
+[04:20:55] It just doesn't exist.  It's structural to allow children to go in or children not to go in.
+[04:21:03] Because we have the rule that
+[04:21:06] Files named the same rules as the folder produce a layout.
+[04:21:09] But what it does is it...
+[04:21:13] All those use cases, whether you want to have named index routes, whether you want to have group routes, whether you want to...
+[04:21:19] get out of routing all use the exact same convention which is just
+[04:21:23] It's the same mechanism, which is just remove the stuff beside.  It's basically comments.
+[04:21:28] The parentheses are route comments.
+[04:21:30] I think this is interesting because no file needs to be named the same and, you know,
+[04:21:35] this is the only thing that it's fighting you. It's basically saying,
+[04:21:39] that you enter annotations.
+[04:21:41] Like you could...
+[04:21:43] Yeah, I don't know. It's interesting. I like what we built.
+[04:21:45] in terms of options, but yeah.
+[04:21:47] Thank you.
+[04:21:48] There's a RFC or there's a proposal for this in the works.  I'm not sure I love it, but I think it's probably fine.  I'm still struggling with it because most things you can do with parallel routes, you can do a different way.
+[04:22:01] And there's a lot of implications here. I was talking to Tanner about this too, and I forget if he finished implanting parallel routes, but he said the TypeScript for it was just horrendous.
+[04:22:17] Thank you.
+[04:22:23] Thank you.
+[04:22:23] Thank you.
+[04:22:24] One thing that's always possible here with FS routing is we could like,
+[04:22:28] expose like write your own route convention.  I think Vinci does a really good job here.  So it's not actually that hard.  Like as long as,
+[04:22:36] as long as you the challenges
+[04:22:39] the input into the router
+[04:22:45] Yeah, I mean, it's probably fine. The one thing that's kind of interesting about Start is because of the structural nature of these things,
+[04:22:51] the
+[04:22:52] While we convert these properly, the parens actually make it
+[04:22:57] into the route config that comes out the other side.
+[04:23:01] I don't think people using other routes and solids start yet.
+[04:23:04] And
+[04:23:05] This is probably one of those things where, you know,  before 1.0, I had to walk down.  So we're kind of where we're at.  But it is interesting that the ignoring the friends bit
+[04:23:14] is part of, I guess technically not our output out the other side that you get in file routes. So
+[04:23:21] Yeah, I don't know.
+[04:23:22] basically what I'm saying is if someone wrote their own FS router  for SolidStar so they could use their own  conventions, they would have to
+[04:23:30] target an output format that isn't the final output format that they see in file routes. So we'd have to like explain what that output format is.
+[04:23:37] But I guess I could refine that before publishing it because it's not a feature we currently have today.
+[04:23:47] Yes.
+[04:23:49] Anyway.
+[04:23:52] I thought this one was interesting.
+[04:23:54] Thank you.
+[04:23:58] because FS routing is controversial, but it's kind of actually also
+[04:24:03] you know,
+[04:24:08] like necessary, unfortunately.
+[04:24:14] Ready to return RCs from use query use mutation.  Caching is still going to dispense with them.
+[04:24:19] the
+[04:24:20] Yeah.
+[04:24:21] Yeah, Tanner, this kind of interesting idea is like, instead of putting them in loaders, what Tanner is doing here, which is kind of cool, is it's I think it's like solid start where you can have use function. You saw the release article for solid start where we show the use server inside the use query or create query.
+[04:24:39] Mm.
+[04:24:41] Why not return RCs from there too?  Well, the answer is structural considerations, I think.
+[04:24:47] But it's...
+[04:24:49] Interesting.
+[04:24:54] Well, the problem is that I don't picture is...
+[04:24:58] use query doesn't feel like a route level consideration.
+[04:25:02] Like it feels like it's,
+[04:25:04] independent
+[04:25:05] points.
+[04:25:06] So like I use mutation is fine.
+[04:25:09] But you actually...
+[04:25:13] like,
+[04:25:14] How do you scope...
+[04:25:16] what the output is coming back for the page. Like I know that I that
+[04:25:19] I guess if you call it out and treat it like it's an action and that it will always re-render the whole page, then yeah, I mean...
+[04:25:25] And yes, Tanner could definitely do that.
+[04:25:28] But I think it changes semantics.  Like...
+[04:25:30] a bit. Like when we use use mutation use query,
+[04:25:35] Thank you.
+[04:25:36] Yeah, it's like with user server, we keep Tanner semantics of the granularity of the updates, whereas use action is very like a hammer, you know, it's like a lot wider.
+[04:25:54] Thank you.
+[04:25:55] Thank you.
+[04:25:56] I mean, I think it could be done, though.  It's just questions whether he wants to mess with this.
+[04:26:04] I was fine because I was designing a new system, essentially, with working on Start.
+[04:26:15] What was this one?
+[04:26:17] I kind of remember Rich Harris wrote something.
+[04:26:21] Someone needs to invent Svelte, but with JSX.
+[04:26:25] you
+[04:26:27] Initially, it was because I was copying API from an earlier project, so my co-workers would have an easier time adopting it, B, because I believed it would be impossible to get the same performance characteristics with GSX.  The latter point was shown mostly on TrueBitre.
+[04:26:38] Dominic and myself.
+[04:26:40] But there are still some advantages in terms that can be statically analyzed. Mostly though, it's a matter of preference for me and Timo. Okay, so he's just talking about choosing JSX or not.
+[04:26:49] I don't mind that. That's a little bit of a...
+[04:26:52] afterthought.
+[04:26:55] Um...
+[04:27:00] Okay.
+[04:27:02] Thank you.
+[04:27:06] Thank you.
+[04:27:07] *laughs*
+[04:27:08] Yeah, this is an interesting thought.  They're basically selling...  This is about server components.  Basically, Seb is suggesting that...
+[04:27:17] cashing
+[04:27:18] is
+[04:27:19] or dynamic versus static,
+[04:27:23] is like a fundamental idea.
+[04:27:29] Thank you.
+[04:27:29] React is actually pure functions, not just that happened to be rendered.  That's why concurrent mode, all these things are built on the same API.  Similarly, next has dynamic or static, which isn't the default on the page.  It also allows creating PPR, expressing dependency is okay.
+[04:27:41] Yeah.
+[04:27:45] It's funny because...
+[04:27:47] Reactive libraries actually really focus on the difference between dynamic and static.
+[04:27:54] Yeah. I don't know if I have anything more to say on this. I, I,
+[04:27:57] I think...
+[04:28:01] I see someone just using server use client focus today's implemented reuse kids rather than the concept they unlock in the future.
+[04:28:07] Yeah, I actually think that is an interesting. We talk about concepts unlocked in the future. I actually want to talk about one of my hack MDs here just a second. Let's let's sign in with GitHub.
+[04:28:17] We got a few more minutes left.
+[04:28:19] Um,
+[04:28:20] Uh,
+[04:28:24] Because I think I already talked about reactivity in a previous stream.  What I want to talk about here is...
+[04:28:31] Let's go back to my profile. There's a few things I didn't talk about on my profile.  We talked about this, talked about this, didn't talk about this, React Summit.
+[04:28:39] that
+[04:28:41] that, that, that, that, that, that, that, that, that.
+[04:28:44] This is fun, by the way.  If you want to be sold on Solid Start, check that out.
+[04:28:49] But what I wanted to go here,
+[04:28:52] is this is a pain in the ass.  So our public service announcement
+[04:28:57] Why is clone node...
+[04:28:59] broken compared to import node. This is like something only framework authors appreciate, but seriously
+[04:29:04] We use clone node in solid.
+[04:29:07] because it's 30% faster. And then all these things started breaking the last like little while it  wasn't always that way, but new features and stuff. And so and the Firefox team claims that  that's how the features work. In some cases, it's very frustrating, like lazy on image elements,
+[04:29:22] don't
+[04:29:23] doesn't work properly when you clone it instead of import like it just  i feel like they should just fix this i don't know if it's hard but
+[04:29:30] Anyway, okay.
+[04:29:32] Okay, so this is what I was looking for.
+[04:29:34] Yo, dog, I heard you like servers and you like signals.  What if you had signals on the server?  So this is kind of like...
+[04:29:43] an idea, I guess, kind of like live view.
+[04:29:46] where my understanding is,
+[04:29:49] you could set the reactivity up on the on the server.
+[04:29:53] And then like,
+[04:29:55] I mean, I don't even know what this does.  Maybe I just have to dev on at some point and you can actually tell me what this is
+[04:30:00] because when I look at this and I'm thinking this whole thing is client,
+[04:30:02] I'm like, do I send the JavaScript for him?  I get the whole thing where it's creating signals and it's using those signals so that like the live connection keeps it live.  But is this client updating? I'm not sure. It's an interesting idea, right?
+[04:30:13] Um,
+[04:30:14] you know,
+[04:30:15] because you know obviously you get synchronization all this stuff we've
+[04:30:18] And
+[04:30:22] You know, I...
+[04:30:24] I think this is a, if you can get past, you know,
+[04:30:28] stateless. I think this is interesting. I was very impressed when I had live view JS on the stream,  you know, a while back because of how simple the model was.
+[04:30:38] It was as simple as like a single page app simple, like basically,
+[04:30:42] On the extremes of models, very simple.  When you get in the middle of the hydration and all that stuff, things get really tough.
+[04:30:46] And, um,
+[04:30:48] I,
+[04:30:51] I actually, two weeks ago,
+[04:30:54] wrote my thoughts on, on this. Um, another one of these, um,
+[04:31:01] articles, I think I might have shared this one somewhere.
+[04:31:03] But when Seb was talking about using...
+[04:31:07] Um,
+[04:31:09] use server for more. I started thinking about this
+[04:31:12] like myself, I guess it was before he actually said that.  I'd already been kind of thinking along these lines.
+[04:31:17] But, you know,
+[04:31:19] there's different types of solutions, like server only signals, like live view equivalent,  where you can basically send the minimal to the client and just have the signals update.
+[04:31:28] and do pinpoint updates.
+[04:31:30] Right now, most of them use like MorphDom and do like these like diffs.
+[04:31:34] But what if you could restrict it not at a super sub-component level, like have fine-grained rendering on the server?
+[04:31:41] That's all it does. And then just send the updates over the wire.
+[04:31:46] you know, in a granular way might be might be pretty cool.
+[04:31:50] Obviously, client only signals.
+[04:31:52] This is kind of like what Solid does today where we can just use server
+[04:31:56] in places.
+[04:31:57] And I can't.
+[04:31:59] And then what if you want to shift the thing, kind of like move stuff back and forth? What if you have both?
+[04:32:06] you know,
+[04:32:06] Because the cool thing about this is,
+[04:32:08] Um,
+[04:32:10] Yeah, I...
+[04:32:11] I started having this idea.
+[04:32:13] What if Create Async, which I've been talking about for weeks on the stream,
+[04:32:17] as like a new async permit? What if it didn't only support promises? What if it supported async iterables?
+[04:32:23] People who don't know what async iterables are, it shows up on a symbol, on a return type. But if you ever have an async generator function, like a generator function that yields iterables,
+[04:32:34] Await statements.
+[04:32:36] you get what you get back is an async iterable. Readable streams are async iterables. RxJS  observables are actually async iterables. They can be pulled in the same way. So if an async primitive
+[04:32:50] supported async iterables.
+[04:32:53] you basically, that each time the data comes here, it just updates, you'd basically have a built-in  mechanism. And you could say that the only like the initial run here is when it's suspending  until it gets the first data back. And then it just has a stream of data to the backend, right?  This is what I mean by an async generator function, right? It's like yield await,  promise resolve this, promise resolve B. And the funniest thing is,
+[04:33:15] And here's a readable stream that's also...
+[04:33:19] And maybe a server-side signal access there.  I was like, maybe if you sit a signal with an asynchalable, I mean, that's a stretch.  But the funny thing is you might be...
+[04:33:28] familiar with solid and I showed it here is
+[04:33:33] You can do this with our used server. We support async intervals with our server functions.
+[04:33:39] because that's how we stream back stuff.  It's like a readable stream.  So you could picture that you could have
+[04:33:46] you know,
+[04:33:47] create async, subscribe to like a user or something, user ID, and then
+[04:33:53] the use server here with that ID sets up this thing.  And as long as this is open, it just continues
+[04:34:01] to send it. And this is just using fetch. I mean, we could talk about service and events and Web  Sockets, but it's interesting that even today in Solstart, we don't have this create async support  for async iterables. But if you did, you would almost immediately get streaming support,
+[04:34:14] as a primitive into reactivity.  And because this side is guaranteed to be handled  by my super asynchronous that I've been shouting about for solid 2.0,  everything downstream of sync would just work beautifully, right?
+[04:34:28] The thing is,
+[04:34:30] Thank you.
+[04:34:31] service and events are one way and the fetch is one way.  I mean, to be fair, actually, I was,  I was thinking it was actually kind of funny.  Like what, what if,
+[04:34:41] Thank you.
+[04:34:41] I'm explaining one way here with you, Server, because I'm still picturing that you'd update data
+[04:34:48] you know, using like an action.
+[04:34:50] or something like a server function and then
+[04:34:52] once you've set the state, it would get picked up by these things awaiting data and then
+[04:34:59] kind of send them back out. But, you know, I started thinking, okay, well, can we do it with two-way? Well, maybe because...
+[04:35:05] if you can put
+[04:35:06] a readable stream as a request body to.  It's not just the response being readable stream,  but if you could serialize a readable stream,
+[04:35:14] outwards, then maybe you could actually use fetch even for two ways.  Like, don't get me wrong.  You could just say, like,
+[04:35:22] configuration wise, like use server, use fetch or use web or web sockets or something like it's probably possible to like configure the protocol.
+[04:35:30] of the communication behind this, right?  'Cause use server is just a reference.  It's just a way to tell the bundler how to split the package.  The actual implementation could be configurable.  But I started thinking about like crazy stuff like,
+[04:35:42] What if...
+[04:35:45] you want it to be able to pass signal over the wire.  So then you could have memos on the server  that listen to signals that you pass through.  I think this is extreme.  You see the difference of what I did up here.  Sorry, when I get to those original examples,  every time the user ID goes, it creates a new fetch request.
+[04:36:03] But usually you're going to subscribe to one user and then you get the stream.  And then it's like,
+[04:36:07] Swap again.
+[04:36:08] tear down, get a new stream.
+[04:36:10] So it makes another request. And when that happens, that's when they async, you know, they're like, we're entering suspense or transition. But what if
+[04:36:18] Thank you.
+[04:36:19] What if...
+[04:36:20] You could kind of, sorry, where is it?  Two-way communication right here.  What if you could like send...
+[04:36:25] the signal over the wire somehow. See how I'm passing user ID, I'm not calling as a function.
+[04:36:30] And then...
+[04:36:32] it doesn't actually cause create async to run again. It just causes this memo on the server
+[04:36:38] to run again, which then its update value
+[04:36:43] through here triggers.  I don't know if there's a use case for it,  but I just started...
+[04:36:48] thinking, okay, that's pretty cool.
+[04:36:53] Thank you.
+[04:36:54] Yeah. Right. I mean, people could use different underlying technologies, but I was like, maybe you could do it with fetch. Kind of interesting.
+[04:37:03] Thank you.
+[04:37:04] Right.
+[04:37:05] real-time presence. Well, I'm saying, but the difference between this
+[04:37:09] And, you know,
+[04:37:11] I guess, yeah, I'm looking only at getters, like create async.  I don't know if there's a...
+[04:37:17] use case for two way in this way that I'm talking about, like,
+[04:37:22] Direct signal is probably more interesting.  I don't know if, like, use server is the right syntax for it,  but I started thinking, like, what if you could, like...
+[04:37:30] Say if you exported a signal or an async iterable from a file,  what if importing it automatically did it for you?  I think I explained why that's probably isn't going to work nicely  because we can't tell the difference between server functions.  So I was like toying around with syntaxes,  but it would be interesting if you could essentially just be like,
+[04:37:49] use server, export a signal, and then import it
+[04:37:52] And then essentially, like, I don't know how useful this one is, because usually you want to subscribe to something.
+[04:37:58] Like it's, it's,
+[04:38:00] if you have a database, you need to subscribe to a specific model, you know, not every change in the database.  So how do you I don't know how how to pass input into this one. Right.
+[04:38:12] So
+[04:38:13] like
+[04:38:15] It's kind of interesting, you know,
+[04:38:18] Thank you.
+[04:38:20] Yeah, I'm not actually sure if this is a great pattern, but...
+[04:38:25] I think that because of AI...
+[04:38:28] And because of
+[04:38:29] you know,  it's kind of stuff we were talking about earlier for why people are looking at  like,  um,
+[04:38:36] like the server sent UIs. I think
+[04:38:40] I think...
+[04:38:41] there's a lot more potential...
+[04:38:43] space here if you're talking about solutions that are not completely stateless. Maybe the state just needs to be serializable. Maybe you have durable objects. I don't know. I think there's something interesting here.
+[04:38:56] Um,
+[04:38:57] I will drop this.  I already dropped this in Solids chat a while ago,  but I'll drop this in here in case anyone cares to read it.
+[04:39:05] you know,
+[04:39:10] Server dollar and quick at switching. If you use it as an initial function, you can make it work the same way. Just
+[04:39:18] You do.
+[04:39:18] You just check the content type.
+[04:39:20] Yeah, I mean, are you server...
+[04:39:25] does do async iterables.  I was more commenting on like,
+[04:39:32] This trick here is a compiler.
+[04:39:38] trick like
+[04:39:39] Like, so...
+[04:39:41] like the syntax difference here.  I don't know.  Maybe you commented this much earlier.  Yeah.  It's like, it's like the, like,
+[04:39:49] it's because I can't differentiate from the...
+[04:39:54] Like whether...
+[04:39:57] Like,
+[04:39:58] My idea here was like using a proxy essentially and then going, okay, yeah, this is a signal because like,
+[04:40:03] I want TypeScript to work.
+[04:40:05] Um,
+[04:40:06] I guess,
+[04:40:08] this would have the right types yeah so actually typescript would work for this it's more of like
+[04:40:12] I had a reason. I have to read this again.
+[04:40:14] The tricky part is the client doesn't know what sort of reference it's getting, so you'd have to tell it somehow.
+[04:40:19] Funny enough.
+[04:40:20] It's kind of like the problem I have  why the get API is designed the way it is  in Solid Start Server functions.  We need to, even though the reference is a proxy,  we still need to know
+[04:40:31] what
+[04:40:32] how to call it.
+[04:40:33] so to speak. Like I can make it that all destructuring is automatically it, but what if you have like a memo?
+[04:40:40] Like we need some way when we have this reference and know what we're
+[04:40:44] dealing with
+[04:40:45] before we even make a call.
+[04:40:48] Is what I was trying to say.
+[04:40:54] Thank you.
+[04:40:55] I don't know if that makes any sense.
+[04:41:00] Thank you.
+[04:41:01] Yeah, I mean, you could use a different directive.  There's different thoughts here.  I'm just not sure yet.
+[04:41:07] Use socket. Yeah, but I think the biggest thing you have to be careful of and part of the reason why react does not use use action is you don't want to make a billion of these.
+[04:41:16] You don't want like...
+[04:41:18] it's actually one of the reasons I moved away from server dollar sign is  because I realized that it would lead to like,
+[04:41:24] Everything dollar sign.
+[04:41:26] And
+[04:41:28] Okay.
+[04:41:29] That's less powerful.
+[04:41:31] then, you know, we have to be very particular about the characteristics of the reference, I think I want to say it doesn't necessarily have to represent a single technology, it has to
+[04:41:40] it has to represent a specific type of identity.
+[04:41:44] Dear.
+[04:41:45] Anyway.
+[04:41:47] Okay.
+[04:41:48] Bling, bling, bling, bling, bling. Yeah. I mean,
+[04:41:52] Yeah, it was one of the ultimate deciders  beside the fact that React has pretty much  kind of strong-armed us here.  It's just, you don't...
+[04:42:00] It's very tempting and way too easy to make like a billion of these.
+[04:42:04] But the scariest thing about a billion of these is like RxJS.  Like, look at how many operators we have.  Like, that's not a good thing.  You know, it is, but it's not like...
+[04:42:15] It's scary.
+[04:42:21] Yeah, well, you have to choose what you want those composable things to be, right?
+[04:42:25] Um,
+[04:42:27] Thank you.
+[04:42:28] Hooks, reactive primitives are fine because their extension of the same...
+[04:42:35] concept they're all the thing like the dollar sign for the most part and quick is all the same
+[04:42:41] I guess Quick has a generalizable dollar sign version where you can make a dollar sign function out of anything.
+[04:42:47] So,
+[04:42:48] they have a way of defining the rules at runtime, which I think is probably
+[04:42:52] I think that's fair, but like I'm talking about, I guess,  you servers challenge here is like the kind of magic,  like what does it mean for an import?
+[04:42:59] or an export to be used server?  What is it actually exporting
+[04:43:04] to
+[04:43:06] to the client or whatever. The consistent behavior there or the references is more important, I think, than anything.
+[04:43:16] Anyways, he's PHP.  Yeah, I know everyone...
+[04:43:19] yeah yeah yeah okay okay anyway um
+[04:43:24] Yeah, I think there's a lot of potential here. I was very excited to see Dev's post. And obviously, I've been thinking about this recently, and he's been bugging me forever anyways, like not bugging, but kind of like, hey, you know,
+[04:43:38] Um...
+[04:43:40] you know,
+[04:43:43] It's Google I/O.
+[04:43:47] Yeah, I'm just going back in time.
+[04:43:50] Apparently AWS streaming didn't work properly until DAX fixed it.
+[04:43:55] Um...
+[04:43:57] I don't know if everyone saw this.  I'm going to post this one just because it's so good.  We need references.  We've been handing this one out a bit to people with React teams trying to say, hey, do you want to try Solid?  This is one of our success cases.
+[04:44:12] for a startup that decided
+[04:44:14] to,
+[04:44:14] take a chance with solid and build a kind of Google doc style, um,
+[04:44:20] thing.
+[04:44:21] Anyway.
+[04:44:25] Yeah, I think
+[04:44:27] Thank you.
+[04:44:29] Yeah, I don't when was the last time I streamed? I think I think I think we're at the end here.
+[04:44:33] Um,
+[04:44:35] I want to quickly...
+[04:44:37] look here, but I think
+[04:44:40] I streamed with
+[04:44:42] Thank you.
+[04:44:44] you
+[04:44:46] Wow, April 19th.  It's been over a month.
+[04:44:49] So I haven't even told you guys about the awesome new fellowship program.  You know what?  I'm going to take a minute on this stuff just to kind of wrap up here.
+[04:44:57] We added two new fellowships recently, and they're actually...
+[04:45:03] It's funny. Everyone, I told you about that thread where people are saying, oh, ecosystem, ecosystem. But like,
+[04:45:09] We're investing in our biggest component libraries.  So we're putting money towards the maintenance and upkeep and maintenance.
+[04:45:18] improvement of both Cobalt and Corvu.
+[04:45:21] which are very, very cool component libraries.
+[04:45:25] in our ecosystem.  If you haven't checked them out,
+[04:45:28] You should.
+[04:45:29] Because I hear people all day long talking about these amazing libraries in React. I think...
+[04:45:36] We've got some good options here.  Corvue is a collection of open source UI permits for solid.js that are unstyled,  accessible and aimed to be highly customizable.
+[04:45:45] So,
+[04:45:47] Yeah.
+[04:45:48] I don't know. I'm pretty sure if we look, we'll find an equivalent react library that is exceptionally popular that takes this level. I don't know anything about component libraries. It's gone way too complex for me to figure out what the difference is between all the different ones. But all I know is
+[04:46:04] This stuff is...
+[04:46:06] Yeah, pretty good.  Yeah, Corvu plus Cobalt Sol UI.  I don't even know what that means.  It sounds like an equation of some kind.
+[04:46:15] yeah so it's very awesome to be able to support these kind of things because now  a days and you'll see this dave jumping in on the threads and people are like oh ecosystem ecosystem  he's like okay what are you looking for because legitimately we can answer the simple like  ecosystem means a different thing now than it meant
+[04:46:35] a year ago even. When people say, you know, comparing solid ecosystems to React, it's not about  not being able to find solutions that they need. It's about like,
+[04:46:44] the number of maybe,  maybe it's not even the number solution.  It's training.  It's,  it's,
+[04:46:52] It's it means a much more extended thing than simply like, can you do this in solid and do those things exist?  Because the answer is typically yes.
+[04:47:01] Ecosystem means gatekeeping.
+[04:47:05] A little bit, doesn't it?
+[04:47:09] I...
+[04:47:11] uh he phrased it he's phrased it so well
+[04:47:15] Oh, sorry. What's solidui.com? Solid...
+[04:47:19] UI.com.
+[04:47:23] Thank you.
+[04:47:26] Yeah, I'll take that. Build your component library.
+[04:47:32] Thank you.
+[04:47:33] Did I put the right one in?
+[04:47:36] Beautifully designed components that let you copy and paste accessible custom open search.
+[04:47:42] Thank you.
+[04:47:43] Thank you.
+[04:47:46] Okay.
+[04:47:47] Thank you.
+[04:47:48] Thank you.
+[04:47:49] Thank you.
+[04:47:51] Thank you.
+[04:47:53] I don't even...
+[04:47:57] Thank you.
+[04:47:58] Thank you.
+[04:48:00] Thank you.
+[04:48:01] Yeah, I don't know anything about this, but I'm sure people who are looking at this are like, wow, this is exactly what I was looking for.
+[04:48:09] Thank you.
+[04:48:11] So,
+[04:48:12] Yeah.
+[04:48:14] Solid UI is like shad CDM built on top of Cobalt and Corvue. Yeah. So this is, I guess this is the hot stuff. This is what everyone's like.
+[04:48:21] Nikhil, I asked him at one point,  I'm like, why are you building your stuff in React? And he's like,
+[04:48:26] I can't build start a project without ShadCVN.
+[04:48:29] That's what he said to me.
+[04:48:30] And I was like,
+[04:48:31] Okay, I have no clue what you're talking about.  And I looked it up.  I'm like, it's been around for four months.  Like, this was like almost a year ago.  And I'm like, how...
+[04:48:40] how can you not start any project without it? It's been out for like no time.
+[04:48:46] Um...
+[04:48:47] Well, it led to Vinci, so it's all good anyway.
+[04:48:54] Thank you.
+[04:48:55] Thank you.
+[04:48:58] Thank you.
+[04:48:59] Thank you.
+[04:49:01] Thank you.
+[04:49:01] Anyway, um...
+[04:49:05] Oh, yeah. Shad CN versus Shad CDN. What does this even what what does this even mean? I, I'm just I'm not cool anymore.
+[04:49:14] Thank you.
+[04:49:15] .
+[04:49:16] Milky Stream was fun.
+[04:49:20] JS Party was...
+[04:49:21] This was actually relatively really good,  talking about the future of Solid and stuff.  My first time on JS Party,
+[04:49:29] This one is actually one of the best podcasts that I've done all year.
+[04:49:34] Um,
+[04:49:38] People comparing signals to go to statements.  And I said, they're backlinked.  I don't even want to argue about this anymore.  Yeah, here's the last one.
+[04:49:45] Old programming jokes.  Yeah, I don't know.  I feel like last stream I was talking about how...
+[04:49:51] GoTo is always considered the worst thing.
+[04:49:54] And people you say like the tradeoff of signals is like that kind of
+[04:49:59] you know,
+[04:50:00] linking but the truth of the matter is like
+[04:50:03] signals do backlink, which is why we can build stuff like dev tools. Yeah, I don't know. I don't even want to get into it. I feel like
+[04:50:09] I feel like that's old news and I feel like we're up to date.
+[04:50:11] Unfortunately, it's going to be a while before I'm streaming again because I have...
+[04:50:19] family vacation and i'm at react summit the next couple weeks but um i'm just really happy to have seen all
+[04:50:29] the growth around the solid ecosystem the last little bit. Um,
+[04:50:33] both leaching solid start and now like,
+[04:50:37] you know,
+[04:50:40] Yeah, no...
+[04:50:42] Now just like seeing like we release stuff and like people, you know, I mean, I was involved in this, but it's just cool to have content just flow.
+[04:50:50] without having to like build it all ourselves. So very cool. I don't even know what use wallet is.
+[04:50:58] But...
+[04:50:59] I'm stoked to see that solid getting shortlisted as like,
+[04:51:04] you know,
+[04:51:05] second or third major framework supporting a lot of libraries
+[04:51:08] Um,
+[04:51:09] So yeah, I don't know.
+[04:51:12] Anyway.
+[04:51:14] just
+[04:51:15] Signals everywhere.
+[04:51:18] Okay, I'm good. I'm done. I don't have anything more this week.
+[04:51:22] I, it'll be in another few weeks till I'm back again, but, um,
+[04:51:29] It was very awesome to hang out with all of you.
+[04:51:33] Honestly, to get a bit of a grip on what...
+[04:51:37] you know, the React forget stuff.  I, it, it,
+[04:51:40] I think it would end up being fairly predictable, kind of what we expected.
+[04:51:44] But, you know,
+[04:51:47] now we know we can we we don't have to say  suspicion we we went and we looked at it and we tested it and we
+[04:51:54] Understood it.
+[04:51:55] We see the differences.
+[04:51:57] we see some impact on performance.
+[04:52:01] And now we can say we know.
+[04:52:05] Thank you.
+[04:52:10] Thank you.
+[04:52:11] Thank you.
+[04:52:14] Thank you.
+[04:52:15] Thank you.
+[04:52:19] Thank you.
+[04:52:21] Thank you.
+[04:52:23] Oh, chocolate Easter bunny mentioned.  Do I actually have that anywhere?
+[04:52:29] uh,
+[04:52:29] Like looking, oh, the
+[04:52:33] Uh,
+[04:52:35] the old sign, we used to hang this in our practice place.
+[04:52:40] Anyways.
+[04:52:43] It's almost five hours.
+[04:52:46] I am hungry. I'm thirsty. I'm not out of water yet.
+[04:52:52] I don't think there's anyone to rate at this time.
+[04:52:57] Thank you.
+[04:52:59] Thank you.
+[04:53:00] I don't know.
+[04:53:02] Yeah, I think I think I think we're just going to call it an evening.
+[04:53:06] All right, everyone have a good one. Until next time.

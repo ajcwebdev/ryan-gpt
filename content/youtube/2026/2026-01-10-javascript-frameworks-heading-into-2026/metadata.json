@@ -1,0 +1,97 @@
+{
+  "step1": {
+    "videoUrl": "https://www.youtube.com/watch?v=Z54keB0QKEU",
+    "videoTitle": "JavaScript Frameworks - Heading into 2026",
+    "videoPublishDate": "2026-01-10",
+    "videoThumbnail": "https://i.ytimg.com/vi/Z54keB0QKEU/sddefault.jpg?v=69600975",
+    "channelTitle": "Ryan Carniato",
+    "channelUrl": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+    "duration": "6:39:09",
+    "videoDescription": "It's that time of year again. Let's review the past year in JavaScript Frameworks and look towards the future.\n\n0:01:05 Intro, AI domination and lack of impact on Ryan\n0:20:50 Intro to the article, previous articles, npm trends\n1:15:34 Start discussing the article (still intro), chat answers\n1:39:50 AI-First, Solid conference (chat sidetrack)\n2:04:50 AI-First, Embracing Re-Design\n2:38:10 Isomorphic-First\n3:02:40 Async-First\n3:39:40 The Future of JS Frameworks\n3:53:52 Conclusion\n3:59:55 Tailwind, open source, monetization models\n4:28:15 createAsync death, async problem thoughts, refresh()\n5:11:55 WIP: AsyncIterable, additive generator problem\n5:57:20 async examples and chat questions\n6:38:12 Solid2 this year promise\n\nThanks to @dmydx for the timestamps",
+    "videoChapters": [
+      {
+        "startTime": 0,
+        "endTime": 65,
+        "title": "<Untitled Chapter 1>"
+      },
+      {
+        "startTime": 65,
+        "endTime": 1250,
+        "title": "Intro, AI domination and lack of impact on Ryan"
+      },
+      {
+        "startTime": 1250,
+        "endTime": 4534,
+        "title": "Intro to the article, previous articles, npm trends"
+      },
+      {
+        "startTime": 4534,
+        "endTime": 5990,
+        "title": "Start discussing the article (still intro), chat answers"
+      },
+      {
+        "startTime": 5990,
+        "endTime": 7490,
+        "title": "AI-First, Solid conference (chat sidetrack)"
+      },
+      {
+        "startTime": 7490,
+        "endTime": 9490,
+        "title": "AI-First, Embracing Re-Design"
+      },
+      {
+        "startTime": 9490,
+        "endTime": 10960,
+        "title": "Isomorphic-First"
+      },
+      {
+        "startTime": 10960,
+        "endTime": 13180,
+        "title": "Async-First"
+      },
+      {
+        "startTime": 13180,
+        "endTime": 14032,
+        "title": "The Future of JS Frameworks"
+      },
+      {
+        "startTime": 14032,
+        "endTime": 14395,
+        "title": "Conclusion"
+      },
+      {
+        "startTime": 14395,
+        "endTime": 16095,
+        "title": "Tailwind, open source, monetization models"
+      },
+      {
+        "startTime": 16095,
+        "endTime": 18715,
+        "title": "createAsync death, async problem thoughts, refresh()"
+      },
+      {
+        "startTime": 18715,
+        "endTime": 21440,
+        "title": "WIP: AsyncIterable, additive generator problem"
+      },
+      {
+        "startTime": 21440,
+        "endTime": 23892,
+        "title": "async examples and chat questions"
+      },
+      {
+        "startTime": 23892,
+        "endTime": 23949,
+        "title": "Solid2 this year promise"
+      }
+    ],
+    "audioFileName": "JavaScript_Frameworks_-_Heading_into_2026.wav",
+    "audioFileSize": 766370780
+  },
+  "step2": {
+    "transcriptionService": "whisper",
+    "transcriptionModel": "/Users/ajc/c/as/autoshow-cli-bun/runtime/models/whisper/ggml-large-v3-turbo.bin | coreml:/Users/ajc/c/as/autoshow-cli-bun/runtime/models/whisper/ggml-large-v3-turbo-encoder.mlmodelc",
+    "processingTime": 1607112,
+    "tokenCount": 59436
+  }
+}

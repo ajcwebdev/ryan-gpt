@@ -1,0 +1,83 @@
+[00:00:00.000] Hi, I'm Ryan Carnietto, the creator of the JavaScript framework SolidJS.
+[00:00:03.420] As an author of a JavaScript framework, I've seen many intro comparison videos over the years. Some great, some not so much.
+[00:00:10.830] but even the best ones always tend to get a few things wrong.  So I thought I'd try my hand at one.
+[00:00:15.030] I'm going to focus today on a few popular render frameworks, which I'm differentiating from the more involved meta frameworks which are built on top of them, and that I look at by different criteria. So no Next.js, SvelteKit, Nuxt, or Astro today.
+[00:00:26.730] For me, looking at a render framer comes down to looking at a few key points.
+[00:00:30.600] First, authoring.
+[00:00:32.370] So style, templating.  Second, change management.
+[00:00:37.050] This includes reactivity.
+[00:00:39.000] And finally, overall vibe philosophy.
+[00:00:43.020] All three of these play a key role in what makes these tools unique, not just in what they currently offer but in how they fit into the bigger picture now and in the future.
+[00:00:51.060] Let's start with the most popular framework, React.
+[00:00:54.540] React is the library for web and native user interfaces, which doesn't say much, but also says everything.
+[00:01:00.090] It is the de facto solution when building applications on the web and has had great success even in other environments like native or mobile.
+[00:01:06.600] Created by Jordan Walk somewhere around 2010 and open sourced by Facebook back in May 2013,  it changed the way most people looked.
+[00:01:15.660] at web development.
+[00:01:17.670] So let's talk about the authoring. React takes a very compositional based approach, building UIs from a bunch of functions. A component in React is just a function that returns JSX, which is an XML like syntax that sits right in your JavaScript. You define your state inline and use it immediately in your template. You can have as many components as you want in a single file and really structure your project pretty much however you would like.
+[00:01:38.640] As a templating language, ReactJSX attempts to be pretty minimal with control flow being done using JavaScript expressions like ternary operators or map functions. There are a few special attributes only, things like ref and key, which is used to gather DOM elements or to inform diffing, respectively.
+[00:01:56.130] Speaking of diffing, let's talk about how React manages change. React compiles its JSX down to functions that produce objects that describe the UI. This is known as the virtual DOM.
+[00:02:05.490] Whenever a change is triggered, the component that owns that state will re-execute itself and its children, creating a new virtual DOM that is then diffed against the previous version of the virtual DOM to determine what changes need to happen in the actual DOM that you see in the browser.
+[00:02:19.050] This means that even though you are recreating the virtual DOM on change, the overall overhead is much smaller as it only
+[00:02:24.810] expensive rendering happens on the parts that have changed.
+[00:02:27.750] This keeps React's model simple in the sense that at any given time you can just rerun everything without
+[00:02:32.790] doing any heavy lifting, but it does mean the abstraction is a little further away from  how the underlying DOM itself works.
+[00:02:38.910] This pure re-rendering really plays into React's overall philosophy and vibe. React really prides itself in its correctness and cleanliness of design. It borrows a lot from functional programming and is guided more by first principles than practical outcomes at times. It is unrelenting in bringing its vision to the forefront and continues to push innovation in this space.
+[00:02:57.030] However well, highly opinionated,
+[00:02:59.040] It is minimalist and really believes in the power that comes from building up from simple primitives. In its case, it's components, which encompass all functionality of React.
+[00:03:09.030] So on one hand, React can be quite approachable as it keeps things simple
+[00:03:13.530] It is also minimal, meaning you have to look outwards for most common things that you'll need to make a full application.  Fortunately, it has the largest ecosystem, job pool, and training materials out there, so it's not hard to find a way to get started with React.
+[00:03:25.140] Angular was originally created by Misko Hevery in 2009 for a startup before he ended up getting  hired by Google. It was open sourced in October 2010 and worked its way into becoming Google's  web framework. It's evolved a lot over the years, but what hasn't changed is it is built to scale and is
+[00:03:42.450] behind many enterprise products.
+[00:03:44.430] Angular takes an interesting approach to development by enhancing native elements with directives.  Each component is a class that defines a template, selector, and dependencies. The templates are  strings with control flow syntax. Additional behavior can be added via additional directives.  What makes Angular a bit unique is its anchoring on element selectors allowing the same DOM  node to have different behaviors located
+[00:04:04.980] from different code blocks.
+[00:04:07.470] For change detection historically it has used zone.js which intercepts events, timers, async, and uses that to check if anything has changed. This allows it to use plain objects to describe its state.
+[00:04:19.110] in its components without any special setters or wrappers.
+[00:04:22.200] No.
+[00:04:22.860] When it detects change, it uses an incremental diffing strategy that compares the current values in the template against the DOM and updates it where needed.
+[00:04:31.320] However, similar to the virtual DOM from React, it is a fairly coarse-grained approach as it needs to diff to understand what has actually changed.
+[00:04:39.090] Angular has the option for additional change detection models like onPush and most recently Signals, which gives a bit more control over when they do their diffing.
+[00:04:48.180] Angular is very much the batteries included framework. They have solutions to most things you need built in or officially blessed by the project. They have an extensive set of built in directives, services, module system, build tools, multiple chain management strategies, and the list keeps going on. Historically, this had made Angular very comfortable for the enterprise developer, but a lot to get into for the novice.
+[00:05:10.290] In the past several years we've seen a lot of effort being made to simplify things in Angular to make it more approachable.
+[00:05:17.760] Vue is the progressive JavaScript framework, and it took a slightly different approach to its predecessors while clearly being influenced by them. Created by Evan Yu in 2013 and first open source February 2014, Vue had a clear focus on developer experience.
+[00:05:31.710] Having seen React and Angular occupy these two extremes in terms of being minimalist  and batteries included, Evan wanted to create a framework that people could actually just use.
+[00:05:39.930] Vue is one of the projects that popularize the single file component.
+[00:05:42.540] A format where instead of JavaScript being top level, markup is.  All your JavaScript, templating, and CSS are packaged together as a single file.
+[00:05:49.020] Control flow and templating was inspired by early Angular with the use of v4 and vif to define dynamic points as attributes.
+[00:05:57.330] However, Vue's change detection is quite a bit different. It has a virtual DOM like React but triggers those changes based on reactive data. While on the surface it might look like a slightly slimmed down syntax from calling setState with React, it also means Vue is a bit better at knowing which components changed because unlike React, which looks at the source of the state, Vue tracks where it's actually being used and only reruns those templates. It's a bit more like using an external state library with React.
+[00:06:21.240] - Yeah.
+[00:06:21.750] In 2020, Vue moved from its proxy-based reactivity to its composition API based on signals to make it easier to compose more complicated behavior, and is currently in the process of introducing a new fine-grained renderer with Vue Vapor to better leverage those signals. We'll talk more about fine-grained rendering later when we get to Solid.
+[00:06:37.050] In terms of philosophy, Vue embodies progressiveness. It is easy to start and the framework scales with you. It will be there for every step of the journey in that sense. Vue is a batteries included framework but it isn't overwhelming to approach. They tend to offer multiple options to fit your needs instead of just one way.
+[00:06:52.500] don't like single file components, well they support JSX, etc.  The team is very dedicated to developer experience and this echoes throughout its ecosystem.  Projects like Nuxt prioritize things like auto imports.  Evan is also behind the popular bundler Vite, which is created initially to improve developer  experience for Vue users.
+[00:07:10.710] Svelte came from a very different use case than the previous frameworks. Rich Harris had a job to do and that was news.
+[00:07:16.470] He needed to build media projects fast and easily that could last a short period of time to maybe months, but they needed to be up quickly and be approachable.
+[00:07:23.490] Svelte was not his first JavaScript framework, but sometime in 2016 Rich decided that the capabilities of the compilation were too great to ignore to reach his goal and built a framework to best leverage that. He open sourced it almost immediately in November 2016.
+[00:07:38.070] Like Vue, Svelte uses single file components, but its templating was more influenced by Mustache than earlier JavaScript frameworks. Some of the more string template characteristics like quotes to delimit are gone here as Svelte never was going to be used without a compiler. This reduction of syntax carries over even to its state management as it used plain looking variables with a few dollar signs to inform the compiler to generate its output. And so Svelte lives up to its name in terms of having very slim syntax.
+[00:08:01.350] Mechanically, Svelte has worked off using its compiler to generate more optimal code for updates. It transforms its declarative syntax into class components with life cycles that rerun on change. Unlike Reactor View,
+[00:08:10.740] They do not create a virtual DOM and instead check the current value of the components against the real DOM, but unlike Angular, it's much more precise on what updates because of the compiler optimization.
+[00:08:19.650] However, as of October 2024, Svelte has completely changed its approach with Svelte 5, which  uses signals, which they call runes, to do fine grained rendering for better control  and performance.  We'll talk more about fine grained rendering when we get to solid.
+[00:08:32.730] To understand Svelte's philosophy, you need to understand Rich a little bit. He said people choose frameworks based on vibes.
+[00:08:39.120] And when it comes to vibes, Svelte delivers in spades. It has minimal syntax, which is almost to the point of being sexy. It is arguably the most approachable for beginners, while maybe not quite as batteries included in the base as Angular view, it provides more than minimal frameworks. The trade-off has been its almost antithesis to React.
+[00:08:57.600] It doesn't care about purity or correctness and just wants to be the framework that catches your eye.  Historically, this has made Svelte the perfect choice for smaller hobby projects, but with Svelte 5 it has grown up.
+[00:09:07.020] but it still hasn't forgotten their benefits to being good looking.
+[00:09:11.610] Solid is the definitive signals framework. Every part of it was created on signals and nothing but  signals. I created it back in 2016 but it took me almost two years to open source it in April 2018  because of the midst of JavaScript fatigue and I didn't
+[00:09:24.120] think anyone was in the market for a new JavaScript framework.
+[00:09:26.940] especially one that unapologetically went against best practices while not offering a novel developer experience.
+[00:09:32.700] This was a departure from the past few years of View and Svelte which really focused on DX.
+[00:09:37.020] Sala didn't really care about that and just aimed to re-examine the foundations.
+[00:09:41.610] Solid's authoring experience on the surface looks a lot like React. It has function components  that declare state and return JSX. There are a few more function calls thanks to signals,  and it does use components for control flow like for and show.
+[00:09:52.560] Elements in JSX are their native elements, so a div in JSX is really just an HTML div element.
+[00:09:58.260] More importantly, state management by signals live inside and outside the components.  The same solution works both for local and global state.  There's no hook rules because components do not rerun, and the mental model is more
+[00:10:09.780] the hooks or the primitives as we call them, rerun, not the components.
+[00:10:14.310] Unlike Reacts.js, Solid does not compile down to virtual DOM nodes, but instead into clonable DOM templates and fine-grained reactive effects, a combination that is both highly performant for creation and update.
+[00:10:25.110] Whenever signal updates installs only a thing that changes updates.
+[00:10:28.740] Unlike the frameworks before, there's no component re-execution, no virtual DOM and no
+[00:10:33.570] well, minimal need for diffing.
+[00:10:36.180] The creation is done in bulk via cloning instead of making elements one by one.  This makes Solid a performant by default approach and removes a lot of the noise from end user  code as components don't re-execute.
+[00:10:47.040] Philosophically, solid borrows a lot from early React.
+[00:10:50.100] It's minimal and it believes in composition above all else.  However, Solid's approach favors power and transparency, wishing to keep abstractions  and compiler interference at a minimum.  It wants its users to understand how it works and embrace the primitives it provides, or
+[00:11:03.150] or that are already present on the platform it runs on.
+[00:11:06.510] because one day the framework won't be able to do everything you need and you need to have the tools to do the best by your users.  This is made solid, have slightly higher learning curve for minimalist offering, not because of the technology, but because of the design ethic.  It is pragmatic driven and innovative at its core and attracts developers who care about the quality of software,
+[00:11:23.250] they release.
+[00:11:24.660] It's good.
+[00:11:25.230] And that wraps it up for frameworks I'm covering today. I hope you found something useful in this video. I don't typically do more beginner focused content like this. So if you enjoyed it or have any feedback, please comment, like and subscribe.
+[00:11:36.630] and maybe we'll see more content like this in the future.

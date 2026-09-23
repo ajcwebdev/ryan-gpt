@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Introducing Vinxi w/ Nikhil Saraf",
+      "slug": "2023-09-23-introducing-vinxi-w-nikhil-saraf",
+      "duration": "5:50:49",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=WBH7Ewa--Qg",
+      "publishDate": "2023-09-23",
+      "thumbnail": "https://i.ytimg.com/vi/WBH7Ewa--Qg/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 915,
+          "title": "Preamble"
+        },
+        {
+          "startTime": 915,
+          "endTime": 1350,
+          "title": "Welcome Nikhil & Reviewing His Past Contributions"
+        },
+        {
+          "startTime": 1350,
+          "endTime": 2010,
+          "title": "What Has Nikhil Been Up To?"
+        },
+        {
+          "startTime": 2010,
+          "endTime": 2700,
+          "title": "What is Vinxi? How Is It Different?"
+        },
+        {
+          "startTime": 2700,
+          "endTime": 3465,
+          "title": "The Inspiration Behind Vinxi"
+        },
+        {
+          "startTime": 3465,
+          "endTime": 3825,
+          "title": "The Vinxi Docs & Setting Up a Project"
+        },
+        {
+          "startTime": 3825,
+          "endTime": 4320,
+          "title": "Vinxi Demo From Scratch - A Solid SPA"
+        },
+        {
+          "startTime": 4320,
+          "endTime": 4665,
+          "title": "Vinxi Demo From Scratch - Vinxi Config"
+        },
+        {
+          "startTime": 4665,
+          "endTime": 5250,
+          "title": "Vinxi Demo From Scratch - API Handlers"
+        },
+        {
+          "startTime": 5250,
+          "endTime": 6180,
+          "title": "Vinxi Demo From Scratch - File System Routing"
+        },
+        {
+          "startTime": 6180,
+          "endTime": 6480,
+          "title": "Q & A - Routing Resolution? Benefits?"
+        },
+        {
+          "startTime": 6480,
+          "endTime": 7185,
+          "title": "Other Vinxi Demos - Routing & CSS"
+        },
+        {
+          "startTime": 7185,
+          "endTime": 7890,
+          "title": "use server"
+        },
+        {
+          "startTime": 7890,
+          "endTime": 8580,
+          "title": "How Vinxi Helps SolidStart"
+        },
+        {
+          "startTime": 8580,
+          "endTime": 9000,
+          "title": "Q & A - Help? Integrations? Low-Level Control?"
+        },
+        {
+          "startTime": 9000,
+          "endTime": 9420,
+          "title": "Q & A - A Router? Layers of Complexity? Name?"
+        },
+        {
+          "startTime": 9420,
+          "endTime": 10245,
+          "title": "Q & A - Solid-Start? Testing?"
+        },
+        {
+          "startTime": 10245,
+          "endTime": 10650,
+          "title": "Q & A - What's Next? JSDoc? Learning Path?"
+        },
+        {
+          "startTime": 10650,
+          "endTime": 11340,
+          "title": "Conclusion - Nikhil's Words of Wisdom & Farewell"
+        },
+        {
+          "startTime": 11340,
+          "endTime": 11745,
+          "title": "Intermission"
+        },
+        {
+          "startTime": 11745,
+          "endTime": 12495,
+          "title": "This Week in JavaScript - Solid News & Self-Promotion"
+        },
+        {
+          "startTime": 12495,
+          "endTime": 12795,
+          "title": "TWiJ - Issue Bankruptcy"
+        },
+        {
+          "startTime": 12795,
+          "endTime": 13410,
+          "title": "TWiJ - Dev Communities & Sarah Drasner's Promotion"
+        },
+        {
+          "startTime": 13410,
+          "endTime": 14040,
+          "title": "TWiJ - Jacob Ebey, Remix RSC's, and async/await"
+        },
+        {
+          "startTime": 14040,
+          "endTime": 14430,
+          "title": "TWiJ - More Solid News & TypeScript Documentary"
+        },
+        {
+          "startTime": 14430,
+          "endTime": 15000,
+          "title": "Svelte Runes - Introduction"
+        },
+        {
+          "startTime": 15000,
+          "endTime": 15660,
+          "title": "Svelte Runes - Evolution of Reactivity Syntax"
+        },
+        {
+          "startTime": 15660,
+          "endTime": 16080,
+          "title": "Svelte Runes - Signals as Implementation Detail?"
+        },
+        {
+          "startTime": 16080,
+          "endTime": 16530,
+          "title": "Svelte Runes - Inspecting Compilation Output"
+        },
+        {
+          "startTime": 16530,
+          "endTime": 17340,
+          "title": "Svelte Runes - Solid's Influence & Vue"
+        },
+        {
+          "startTime": 17340,
+          "endTime": 17805,
+          "title": "Svelte Runes - Marketing a Framework"
+        },
+        {
+          "startTime": 17805,
+          "endTime": 18300,
+          "title": "Svelte Runes - React & Signals"
+        },
+        {
+          "startTime": 18300,
+          "endTime": 19110,
+          "title": "Svelte Runes - Hooks, Wrappers & Compilation"
+        },
+        {
+          "startTime": 19110,
+          "endTime": 19410,
+          "title": "Svelte Runes - Signals as a Language Primitive"
+        },
+        {
+          "startTime": 19410,
+          "endTime": 19740,
+          "title": "Svelte Runes - Conclusion (Optimized for Vibes)"
+        },
+        {
+          "startTime": 19740,
+          "endTime": 20160,
+          "title": "Q & A - Can You Make a Language?"
+        },
+        {
+          "startTime": 20160,
+          "endTime": 21048,
+          "title": "Wrapping Up & Ryan Discusses HTMX (Yes, Again.)"
+        }
+      ],
+      "description": "Some people think that there are too many JS Frameworks. But this is even more compounded by the fact they often spawn several Metaframeworks. Each with different opinions and approaches. But at their core are they all the same? \r\n\r\nNikhil Saraf joins the stream once again to show off his latest project, Vinxi, which  closes the gap between bundler and framework. There have been several attempts at agnostic tools in the space. Has he finally found the solution?\n\n[0:00] Preamble \n[15:15] Welcome Nikhil & Reviewing His Past Contributions \n[22:30] What Has Nikhil Been Up To? \n[33:30] What is Vinxi? How Is It Different?\n[45:00] The Inspiration Behind Vinxi\n[57:45] The Vinxi Docs & Setting Up a Project\n[1:03:45] Vinxi Demo From Scratch - A Solid SPA\n[1:12:00] Vinxi Demo From Scratch - Vinxi Config\n[1:17:45] Vinxi Demo From Scratch - API Handlers\n[1:27:30] Vinxi Demo From Scratch - File System Routing\n[1:43:00] Q & A - Routing Resolution? Benefits?\n[1:48:00] Other Vinxi Demos - Routing & CSS \n[1:59:45] \"use server\"\n[2:11:30] How Vinxi Helps SolidStart  \n[2:23:00] Q & A - Help? Integrations? Low-Level Control?  \n[2:30:00] Q & A - A Router? Layers of Complexity? Name? \n[2:37:00] Q & A - Solid-Start? Testing? \n[2:50:45] Q & A - What's Next? JSDoc? Learning Path?    \n[2:57:30] Conclusion - Nikhil's Words of Wisdom & Farewell \n[3:09:00] Intermission \n[3:15:45] This Week in JavaScript - Solid News & Self-Promotion \n[3:28:15] TWiJ - Issue Bankruptcy  \n[3:33:15] TWiJ - Dev Communities & Sarah Drasner's Promotion\n[3:43:30] TWiJ - Jacob Ebey, Remix RSC's, and async/await \n[3:54:00] TWiJ - More Solid News & TypeScript Documentary  \n[4:00:30] Svelte Runes - Introduction \n[4:10:00] Svelte Runes - Evolution of Reactivity Syntax \n[4:21:00] Svelte Runes - Signals as Implementation Detail? \n[4:28:00] Svelte Runes - Inspecting Compilation Output \n[4:35:30] Svelte Runes - Solid's Influence & Vue \n[4:49:00] Svelte Runes - Marketing a Framework \n[4:56:45] Svelte Runes - React & Signals \n[5:05:00] Svelte Runes - Hooks, Wrappers & Compilation \n[5:18:30] Svelte Runes - Signals as a Language Primitive \n[5:23:30] Svelte Runes - Conclusion (Optimized for Vibes) \n[5:29:00] Q & A - Can You Make a Language?  \n[5:36:00] Wrapping Up & Ryan Discusses HTMX (Yes, Again.)\n\nThank you @zombiefacesupreme for the timestamps. Almost 6 hour stream, you are a hero."
+    }
+  }
+}

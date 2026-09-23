@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "We Should Probably Talk about Web Components",
+      "slug": "2024-10-12-we-should-probably-talk-about-web-components",
+      "duration": "5:29:21",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=0F9t_WeJ5p4",
+      "publishDate": "2024-10-12",
+      "thumbnail": "https://i.ytimg.com/vi/0F9t_WeJ5p4/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 75,
+          "title": "This Is Fine: Ryan Enjoys His Fancy Drink"
+        },
+        {
+          "startTime": 75,
+          "endTime": 690,
+          "title": "Preamble & Introduction"
+        },
+        {
+          "startTime": 690,
+          "endTime": 1050,
+          "title": "Q&A: History? Spicy? Are They Real?"
+        },
+        {
+          "startTime": 1050,
+          "endTime": 1500,
+          "title": "Q&A: The Future? No-Build?"
+        },
+        {
+          "startTime": 1500,
+          "endTime": 1890,
+          "title": "Reading an Old Article from 2018"
+        },
+        {
+          "startTime": 1890,
+          "endTime": 2610,
+          "title": "Changing Perspective & Gathering Resources"
+        },
+        {
+          "startTime": 2610,
+          "endTime": 3045,
+          "title": "Framing the Conversation: What Are Web Components?"
+        },
+        {
+          "startTime": 3045,
+          "endTime": 3510,
+          "title": "Looking Through Framework Glasses"
+        },
+        {
+          "startTime": 3510,
+          "endTime": 4050,
+          "title": "Large Teams, Heterogenous Tech, & Micro Front-Ends"
+        },
+        {
+          "startTime": 4050,
+          "endTime": 4620,
+          "title": "Rewrites, Bridges, & Performance"
+        },
+        {
+          "startTime": 4620,
+          "endTime": 5370,
+          "title": "The Framework Mentality & Compromise"
+        },
+        {
+          "startTime": 5370,
+          "endTime": 5670,
+          "title": "Web Components Are The Present: WTF's A Component?"
+        },
+        {
+          "startTime": 5670,
+          "endTime": 6390,
+          "title": "WCATP: The Duality of Frameworks & Standards"
+        },
+        {
+          "startTime": 6390,
+          "endTime": 6960,
+          "title": "WCATP: It's Ok To Be Shiny & The Right Direction"
+        },
+        {
+          "startTime": 6960,
+          "endTime": 7470,
+          "title": "WCATP: Composition, Slots, & Eager vs. Lazy"
+        },
+        {
+          "startTime": 7470,
+          "endTime": 7935,
+          "title": "WCATP: Building Composable Primitives"
+        },
+        {
+          "startTime": 7935,
+          "endTime": 8415,
+          "title": "WCATP: Living Dangerously (Locking In Users?)"
+        },
+        {
+          "startTime": 8415,
+          "endTime": 8970,
+          "title": "WCATP: Standardizing A Templating API & Signals"
+        },
+        {
+          "startTime": 8970,
+          "endTime": 9375,
+          "title": "WCATP: Conclusion - Longevity Supersedes Ingenuity"
+        },
+        {
+          "startTime": 9375,
+          "endTime": 10080,
+          "title": "Web Components Are Not The Future: Recap"
+        },
+        {
+          "startTime": 10080,
+          "endTime": 10800,
+          "title": "Web Components Are Okay"
+        },
+        {
+          "startTime": 10800,
+          "endTime": 11445,
+          "title": "Web Components Are Not The Future Part 2: Attributes & Properties"
+        },
+        {
+          "startTime": 11445,
+          "endTime": 11820,
+          "title": "WCANTF2: A&P - Explicit Convention (. / ? / @)"
+        },
+        {
+          "startTime": 11820,
+          "endTime": 12195,
+          "title": "WCANTF2: A&P - Takeaway"
+        },
+        {
+          "startTime": 12195,
+          "endTime": 12930,
+          "title": "WCANTF2: Lifecycles - Performance"
+        },
+        {
+          "startTime": 12930,
+          "endTime": 13440,
+          "title": "WCANTF2: Lifecycles - The People Part of The Problem"
+        },
+        {
+          "startTime": 13440,
+          "endTime": 14055,
+          "title": "WCANTF2: Lifecycles - Reactivity & Context APIs"
+        },
+        {
+          "startTime": 14055,
+          "endTime": 14400,
+          "title": "WCANTF2: Events - The Importance of Delegation"
+        },
+        {
+          "startTime": 14400,
+          "endTime": 14955,
+          "title": "WCANTF2: Events - Retargeting, Bubbling, & ComposedPath"
+        },
+        {
+          "startTime": 14955,
+          "endTime": 15390,
+          "title": "WCANTF2: Events - Encapsulation & Escape Hatches"
+        },
+        {
+          "startTime": 15390,
+          "endTime": 15990,
+          "title": "WCANTF2: Conclusion - The Cost of Abstraction"
+        },
+        {
+          "startTime": 15990,
+          "endTime": 16545,
+          "title": "Lit Is Not A Framework?"
+        },
+        {
+          "startTime": 16545,
+          "endTime": 17325,
+          "title": "Framework vs. Library Is A Mindset"
+        },
+        {
+          "startTime": 17325,
+          "endTime": 17460,
+          "title": "This Week in JavaScript: Intro"
+        },
+        {
+          "startTime": 17460,
+          "endTime": 17790,
+          "title": "TWiJ: @lit-labs/signals"
+        },
+        {
+          "startTime": 17790,
+          "endTime": 18000,
+          "title": "TWiJ: Solid News - Solid 1.9 & SolidHack!"
+        },
+        {
+          "startTime": 18000,
+          "endTime": 18240,
+          "title": "TWiJ: Solid News - Docs, Tito, ViteConf, Quantum"
+        },
+        {
+          "startTime": 18240,
+          "endTime": 18660,
+          "title": "TWiJ: Brisa"
+        },
+        {
+          "startTime": 18660,
+          "endTime": 19080,
+          "title": "TWiJ: TC39 Signals & Performance"
+        },
+        {
+          "startTime": 19080,
+          "endTime": 19245,
+          "title": "TWiJ: LCP Graph & Svelte Migration Tool"
+        },
+        {
+          "startTime": 19245,
+          "endTime": 19761,
+          "title": "TWiJ: TC39 Presentation on Language Evolution"
+        }
+      ],
+      "description": "I wrote an article a couple of weeks back about my view on Web Components that got some people's attention. Both sides of the debate came out in full force but still seem to be talking past each other. I'm going to dive into what I was trying to get across in the article and respond to some of the responses I saw.\n\n[00:00] This Is Fine: Ryan Enjoys His Fancy Drink\n[01:15] Preamble & Introduction\n[11:30] Q&A: History? Spicy? Are They Real?\n[17:30] Q&A: The Future? No-Build?\n[25:00] Reading an Old Article from 2018\n[31:30] Changing Perspective & Gathering Resources\n[43:30] Framing the Conversation: What Are Web Components?\n[50:45] Looking Through Framework Glasses\n[58:30] Large Teams, Heterogenous Tech, & Micro Front-Ends\n[1:07:30] Rewrites, Bridges, & Performance\n[1:17:00] The Framework Mentality & Compromise \n[1:29:30] Web Components Are The Present: WTF's A Component?\n[1:34:30] WCATP: The Duality of Frameworks & Standards\n[1:46:30] WCATP: It's Ok To Be Shiny & The Right Direction\n[1:56:00] WCATP: Composition, Slots, & Eager vs. Lazy\n[2:04:30] WCATP: Building Composable Primitives\n[2:12:15] WCATP: Living Dangerously (Locking In Users?)\n[2:20:15] WCATP: Standardizing A Templating API & Signals\n[2:29:30] WCATP: Conclusion - Longevity Supersedes Ingenuity\n[2:36:15] Web Components Are Not The Future: Recap\n[2:48:00] Web Components Are Okay\n[3:00:00] Web Components Are Not The Future Part 2: Attributes & Properties\n[3:10:45] WCANTF2: A&P - Explicit Convention (. / ? / @)\n[3:17:00] WCANTF2: A&P - Takeaway\n[3:23:15] WCANTF2: Lifecycles - Performance\n[3:35:30] WCANTF2: Lifecycles - The People Part of The Problem\n[3:44:00] WCANTF2: Lifecycles - Reactivity & Context APIs\n[3:54:15] WCANTF2: Events - The Importance of Delegation\n[4:00:00] WCANTF2: Events - Retargeting, Bubbling, & ComposedPath\n[4:09:15] WCANTF2: Events - Encapsulation & Escape Hatches\n[4:16:30] WCANTF2: Conclusion - The Cost of Abstraction\n[4:26:30] Lit Is Not A Framework?\n[4:35:45] Framework vs. Library Is A Mindset \n[4:48:45] This Week in JavaScript: Intro\n[4:51:00] TWiJ: @lit-labs/signals\n[4:56:30] TWiJ: Solid News - Solid 1.9 & SolidHack!\n[5:00:00] TWiJ: Solid News - Docs, Tito, ViteConf, Quantum\n[5:04:00] TWiJ: Brisa\n[5:11:00] TWiJ: TC39 Signals & Performance\n[5:18:00] TWiJ: LCP Graph & Svelte Migration Tool\n[5:20:45] TWiJ: TC39 Presentation on Language Evolution\n\nThank you @zombiefacesupreme for the timestamps!"
+    }
+  }
+}

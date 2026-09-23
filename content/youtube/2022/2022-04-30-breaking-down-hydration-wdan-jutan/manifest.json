@@ -1,0 +1,344 @@
+{
+  "command": "extract",
+  "scope": "single",
+  "createdAt": "2026-09-23T08:11:04.453Z",
+  "updatedAt": "2026-09-23T08:13:28.172Z",
+  "items": [
+    {
+      "extractRoute": "media",
+      "outputDir": ".",
+      "status": "full",
+      "metadata": {
+        "step1": {
+          "title": "Breaking Down Hydration w/Dan Jutan",
+          "duration": "3:31:18",
+          "channel": "Ryan Carniato",
+          "description": "Want to know what Partial, Progressive, and Resumable means? Solid Core Documentor, Dan Jutan, joins me again as this time we get into the core concepts and approaches to JavaScript Frameworks' hardest problem, Hydration.\n\n[0:00] Introduction\n[5:01] This Week in JavaScript\n[46:33] Defining Hydration\n[55:20] The Duplication Problem\n[1:00:03] The Render Tree\n[1:10:04] Hydrating SPAs\n[1:24:55] Static Routes\n[1:33:30] 3 Axes of Hydration\n[1:41:36] Eager vs Progressive\n[1:46:27] Full vs Partial\n[2:10:35] Replayable vs Resumable\n[2:29:40] Combatting Serialization Cost\n[2:37:13] Component vs Fine-Grained\n[2:45:26] Frameworks vs VanillaJS\n[2:51:23] Performance Comparison\n[3:12:38] Summary/Conclusion\n\nBanner credits: ©️ Wreck-It Ralph characters owned by Disney",
+          "url": "https://www.youtube.com/watch?v=iR5T2HefqKk",
+          "publishDate": "2022-04-30",
+          "thumbnail": "https://i.ytimg.com/vi/iR5T2HefqKk/maxresdefault.jpg",
+          "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+          "chapters": [
+            {
+              "startTime": 0,
+              "endTime": 301,
+              "title": "Introduction"
+            },
+            {
+              "startTime": 301,
+              "endTime": 2793,
+              "title": "This Week in JavaScript"
+            },
+            {
+              "startTime": 2793,
+              "endTime": 3320,
+              "title": "Defining Hydration"
+            },
+            {
+              "startTime": 3320,
+              "endTime": 3603,
+              "title": "The Duplication Problem"
+            },
+            {
+              "startTime": 3603,
+              "endTime": 4204,
+              "title": "The Render Tree"
+            },
+            {
+              "startTime": 4204,
+              "endTime": 5095,
+              "title": "Hydrating SPAs"
+            },
+            {
+              "startTime": 5095,
+              "endTime": 5610,
+              "title": "Static Routes"
+            },
+            {
+              "startTime": 5610,
+              "endTime": 6096,
+              "title": "3 Axes of Hydration"
+            },
+            {
+              "startTime": 6096,
+              "endTime": 6387,
+              "title": "Eager vs Progressive"
+            },
+            {
+              "startTime": 6387,
+              "endTime": 7835,
+              "title": "Full vs Partial"
+            },
+            {
+              "startTime": 7835,
+              "endTime": 8980,
+              "title": "Replayable vs Resumable"
+            },
+            {
+              "startTime": 8980,
+              "endTime": 9433,
+              "title": "Combatting Serialization Cost"
+            },
+            {
+              "startTime": 9433,
+              "endTime": 9926,
+              "title": "Component vs Fine-Grained"
+            },
+            {
+              "startTime": 9926,
+              "endTime": 10283,
+              "title": "Frameworks vs VanillaJS"
+            },
+            {
+              "startTime": 10283,
+              "endTime": 11558,
+              "title": "Performance Comparison"
+            },
+            {
+              "startTime": 11558,
+              "endTime": 12678,
+              "title": "Summary/Conclusion"
+            }
+          ],
+          "slug": "2022-04-30-breaking-down-hydration-wdan-jutan",
+          "audioFileName": "2022-04-30-breaking-down-hydration-wdan-jutan.m4a",
+          "audioFileSize": 158498095,
+          "durationSeconds": 12678
+        },
+        "resolvedStep2": {
+          "route": "stt",
+          "sourceKind": "media",
+          "providers": [
+            {
+              "service": "assemblyai",
+              "model": "universal-3-5-pro",
+              "origin": "explicit"
+            }
+          ]
+        },
+        "cost": {
+          "estimated": {
+            "totalCost": 80.99833333333333,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 80.99833333333333,
+                "costMultiplier": 1,
+                "durationSeconds": 12678
+              }
+            ]
+          },
+          "observedEstimate": {
+            "totalCost": 80.99833333333333,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 80.99833333333333,
+                "costMultiplier": 1,
+                "durationSeconds": 12678
+              }
+            ]
+          },
+          "actual": {
+            "totalCost": 80.99833333333333,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "cost": 80.99833333333333,
+                "costSource": "computed_usage",
+                "inputMetric": "durationSeconds",
+                "inputValue": 12678
+              }
+            ]
+          }
+        },
+        "timing": {
+          "estimated": {
+            "totalProcessingTimeMs": 2383464,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2383464,
+                "inputMetric": "durationSeconds",
+                "inputValue": 12678,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 188,
+                "throughputValue": 5.319,
+                "throughputUnit": "x",
+                "timingScope": "estimated"
+              }
+            ],
+            "estimateConfidence": "registry",
+            "likelyGatingTargets": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 2383464
+              }
+            ]
+          },
+          "actual": {
+            "totalProcessingTimeMs": 143476,
+            "steps": [
+              {
+                "step": "stt",
+                "provider": "assemblyai",
+                "model": "universal-3-5-pro",
+                "processingTimeMs": 143476,
+                "timingBreakdown": {
+                  "uploadMs": 3333,
+                  "createMs": 117,
+                  "pollMs": 4879,
+                  "pollSleepMs": 135079,
+                  "remoteProcessingMs": 135147
+                },
+                "inputMetric": "durationSeconds",
+                "inputValue": 12678,
+                "rateBasis": "durationSecond",
+                "msPerUnit": 11.317,
+                "throughputValue": 88.363,
+                "throughputUnit": "x",
+                "timingScope": "wall"
+              }
+            ]
+          }
+        }
+      },
+      "providers": [
+        {
+          "service": "assemblyai",
+          "model": "universal-3-5-pro",
+          "local": false,
+          "artifactDir": ".",
+          "status": "succeeded",
+          "attempts": 1,
+          "options": {
+            "diarizationOptions": {
+              "enabled": true
+            }
+          },
+          "metadata": {
+            "asyncSttProgress": {
+              "whole": {
+                "transcriptionService": "assemblyai",
+                "transcriptionModel": "universal-3-5-pro",
+                "processingTime": 143474,
+                "tokenCount": 0,
+                "timings": {
+                  "uploadMs": 3333,
+                  "createMs": 117,
+                  "createCount": 1,
+                  "pollMs": 4879,
+                  "requestCount": 18
+                },
+                "runtime": {
+                  "mode": "fresh",
+                  "stage": "polling",
+                  "remoteJobId": "70fcb569-b6ed-4a7b-91be-bc2d7f289643",
+                  "remoteAssetUrl": "https://cdn.assemblyai.com/upload/b2503ac7a47304a8cc5813b0c2ae3439b2ad84f38240fc833bc52d6dbbb2f9df/406897ba-c9f2-416b-b46e-63ab63f2b023",
+                  "createCompletedAt": "2026-09-23T08:11:07.905Z",
+                  "lastPollAt": "2026-09-23T08:13:27.929Z"
+                }
+              }
+            },
+            "transcriptionService": "assemblyai",
+            "transcriptionModel": "universal-3-5-pro",
+            "processingTime": 143476,
+            "tokenCount": 35680,
+            "runtime": {
+              "mode": "fresh",
+              "stage": "completed",
+              "remoteJobId": "70fcb569-b6ed-4a7b-91be-bc2d7f289643",
+              "remoteAssetUrl": "https://cdn.assemblyai.com/upload/b2503ac7a47304a8cc5813b0c2ae3439b2ad84f38240fc833bc52d6dbbb2f9df/406897ba-c9f2-416b-b46e-63ab63f2b023",
+              "createCompletedAt": "2026-09-23T08:11:07.905Z",
+              "lastPollAt": "2026-09-23T08:13:27.929Z",
+              "completedAt": "2026-09-23T08:13:27.931Z"
+            },
+            "timings": {
+              "uploadMs": 3333,
+              "createMs": 117,
+              "createCount": 1,
+              "pollMs": 4879,
+              "pollSleepMs": 135079,
+              "pollCount": 16,
+              "remoteProcessingMs": 135147,
+              "requestCount": 18
+            },
+            "diarizationOptions": {
+              "enabled": true
+            },
+            "hostedConcurrency": {
+              "version": 1,
+              "mode": "ramp",
+              "lanes": [
+                {
+                  "lane": {
+                    "service": "assemblyai",
+                    "scopeLabel": "configured-account",
+                    "laneKey": "assemblyai:configured-account"
+                  },
+                  "configuredLimit": 7,
+                  "currentLimit": 2,
+                  "active": 1,
+                  "activePeak": 2,
+                  "queuedWork": 0,
+                  "queuedPeak": 1,
+                  "admitted": 6,
+                  "completed": 5,
+                  "failed": 0,
+                  "canceled": 0,
+                  "rampTransitions": [
+                    {
+                      "atMs": 1790150652199,
+                      "previousLimit": 1,
+                      "nextLimit": 2,
+                      "reason": "startup-ramp"
+                    }
+                  ],
+                  "pressureEvents": [],
+                  "pauseDurationMs": 0,
+                  "recoveryProbes": 0,
+                  "recoveryFailures": 0,
+                  "classes": [
+                    {
+                      "workClass": "provider-target",
+                      "configuredLimit": 7,
+                      "active": 1,
+                      "activePeak": 2,
+                      "queued": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "settings": {
+            "schemaVersion": 1,
+            "settingsSchema": "assemblyai.stt.v1",
+            "request": {
+              "model": "universal-3-5-pro",
+              "diarization": {
+                "enabled": true
+              }
+            },
+            "local": {
+              "local": false,
+              "audioProfile": "default",
+              "split": false,
+              "youtubeCaptions": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5083 @@
+---
+title: "ori9xZhvNlc"
+slug: "ori9xZhvNlc"
+duration: "6:30:26"
+channel: "Local"
+url: "file:///workspace/output/ryan-solo-host-audio/ori9xZhvNlc.m4a"
+---
+
+This is a transcript with timestamps. Do not include advertisements in the summaries or descriptions. Do not actually write the transcript.
+
+- Write a one-sentence description of the transcript.
+  - The one-sentence description shouldn't exceed 180 characters (roughly 30 words).
+
+- Write a one-paragraph summary.
+  - The one-paragraph summary should be approximately 600-1200 characters (roughly 100-200 words).
+
+- Create chapter titles and descriptions based on the topics discussed throughout.
+  - Include only starting timestamps in exact HH:MM:SS format, always using two digits each for hours, minutes, and seconds.
+  - Chapters should each cover approximately 3-6 minutes of content.
+  - Write a two-paragraph description (75+ words) for each chapter.
+  - Ensure chapters cover the entire content, clearly noting the last timestamp (HH:MM:SS), indicating total duration.
+  - Descriptions should flow naturally from the content, avoiding formulaic language.
+
+Example JSON output:
+
+{
+  "shortSummary": {
+    "episodeDescription": "A concise one-sentence description of the transcript in 180 characters or fewer."
+  },
+  "longSummary": {
+    "episodeSummary": "A single-paragraph summary of the transcript that explains the central topic, the main arguments or developments, the evidence or examples used to support them, and the broader takeaway for the audience. It should read as one cohesive paragraph rather than a list, staying informative without becoming exhaustive. The summary should mention the most important themes, clarify what changed or was learned over the course of the discussion, and note any conclusions, recommendations, or implications that would help someone understand the full conversation without reading the entire transcript. It should also preserve the flow of the discussion so the reader can follow how the ideas developed from beginning to end."
+  },
+  "longChapters": {
+    "chapters": [
+      {
+        "timestamp": "00:00:00",
+        "title": "Introduction and Overview",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      },
+      {
+        "timestamp": "00:04:30",
+        "title": "Core Ideas and Implications",
+        "description": "Introduces the episode's central themes, outlines the main questions guiding the discussion, and explains why the topic matters in practical terms. The chapter gives the audience enough context to follow the conversation, surfaces the core tension or opportunity, and establishes the language that will be revisited in later sections.\n\nIt also signals how the discussion will unfold, connecting the opening ideas to the examples, methods, or case studies that follow. By the end of the chapter, the listener understands the scope of the conversation and the stakes behind the next set of arguments."
+      }
+    ]
+  }
+}
+
+Transcript:
+[00:00:01] All right. Hello and welcome to my stream today.
+[00:00:05] Sorry, I'm running a little bit late. Let's get that mic up.
+[00:00:10] All right. Check, check. All right.
+[00:00:13] How's everyone doing today?
+[00:00:17] Thank you.
+[00:00:18] Alright, alright.
+[00:00:21] I think...
+[00:00:24] the stream today might be a little bit--  quite a few controversial topics, actually.
+[00:00:31] I'm curious.
+[00:00:34] Where things go, hoping we can close this all 2.0 and and
+[00:00:37] I mean, you guys aren't going to love, love, love, love.
+[00:00:39] what I'd say in that regard, because I was very, very close to where we needed to be for solid 2.0. And at least on the client side, I was about ready to move it into like,
+[00:00:49] alpha stage and then i realized some things that needed caused me to rethink things about three  weeks ago and that's kind of where we are today um and yeah there's some there's some controversial  stuff um
+[00:01:03] Really, honestly.
+[00:01:05] I don't think everyone is going to like what I have to say today.
+[00:01:12] Which is okay.
+[00:01:13] It's kind of like when we talked about splitting effects, but I want
+[00:01:18] I think it's important that we talk about it because
+[00:01:21] from my perspective.
+[00:01:24] what I'm talking about
+[00:01:26] isn't really like
+[00:01:28] we can always say that this trade-off is not worth that trade-off.
+[00:01:33] But.
+[00:01:35] I think once we make certain assumptions or look down a certain path,  there is a certain underlying physics to how things work.  You know,  like I often say that we discover stuff,  we don't invent it.  That's what it feels like.  Um,
+[00:01:48] I think there's some
+[00:01:50] truth underlying everything so
+[00:01:53] Um,
+[00:01:54] Maybe our compasses are misaligned, but.
+[00:01:58] Maybe we misinterpret what we see.
+[00:02:01] But...
+[00:02:03] Generally speaking, we take scientific method and approach this stuff logically.  We will find that we often all come to similar conclusions.
+[00:02:13] Ultimately, so I just want to put that out there. But yes, I've been I've been working like crazy on stuff. And I'm really excited to update everyone what I've been talking about on the line a bit what I've been looking at.
+[00:02:26] Yeah, hi everyone. How are you doing?
+[00:02:32] Thank you.
+[00:02:33] I'm doing okay.
+[00:02:37] I've, uh...
+[00:02:39] Definitely, it's been a little while.  At this point, I've been so far down R&D place.  It's kind of funny when I go to a conference, like I was at JS Nation US last week.
+[00:02:54] Was it the beginning of the week?  Yeah.  And I was like giving a talk on stuff that I've already like...
+[00:02:59] Moot.
+[00:03:00] beyond a little bit.
+[00:03:03] So it is surreal when you're kind of like really...
+[00:03:08] Like I feel almost detached when I get really far down these R&D things.  But on the positive now, I feel like I know a bit more now.  I've...
+[00:03:16] I feel like I've implemented like
+[00:03:20] how many different reactive signal systems and how many different...
+[00:03:24] uh...
+[00:03:26] Bye.
+[00:03:27] concurrency models now. I've done it at least three or four times  over the last five years. So I feel like  I'm learning something each time.
+[00:03:37] Thank you.
+[00:03:38] Hi everyone.
+[00:03:40] All coming in. Let's go, Buzzy. Yeah.
+[00:03:45] - Thank you.
+[00:03:47] Yeah, arguably that bad.
+[00:03:52] Maybe.
+[00:03:54] Hey, hello.
+[00:03:58] Thank you.
+[00:03:59] So, no, no, nothing like that.
+[00:04:05] No.
+[00:04:06] I think,
+[00:04:07] We'll get into it. I made some notes for today so that we can cover everything because there's a lot of stuff. But I think something you have to understand about like the truth and the reality is.
+[00:04:17] I will
+[00:04:18] sometimes give flack to React in terms of assumptions they make because their implementations
+[00:04:23] differ from the way that I view implementation and I'm like, okay, well, we can actually tip the model on its head and we can get benefits. So you can't get other ways. And this can change the trade off slightly. But
+[00:04:32] The one thing that I have a hard time faulting React, and this is something very odd,
+[00:04:37] for people when they look at alternative frameworks is,  is their API design.  I think React's API design is
+[00:04:44] top notch in terms of like going, okay, this is the problem.  How do I design something to fit the shape of the problem? Right?  I think every I think a lot of times it's tempting to cut corners.  I think a lot of times it's like we try and like,
+[00:04:59] get around things. And it's funny because API is what people interface with. So it's also the thing that people
+[00:05:06] like dislike when they when they use react.  Like, why do I have to do this?  Why do you make me do this?  Why do you make me type these extra characters?  Like all this kind of stuff.
+[00:05:13] And
+[00:05:15] I mean, sometimes a framework author, it's hard not to be like, you know, treat people who complain like that like little children.
+[00:05:21] you know, who are complaining that you're giving them the vegetables. But
+[00:05:26] Like...
+[00:05:30] It's...
+[00:05:31] there's usually a very good reason for this. And,
+[00:05:35] Maybe that reason isn't completely understood, but that's not where we're going to start today.  I just wanted, I'm just calling shots and letting you guys know that today's stream might be a little controversial.
+[00:05:46] Placing signals with this.update.
+[00:05:48] I mean, not really, but I think this thought update
+[00:05:53] is something worth talking about today as well. I mean, yeah,  we're going to pull into stuff from remix three from that perspective when we  talk about timing and examples that I'm going to talk about today. Um,
+[00:06:03] I think today's the day that we finally look at Josephana's talk from React Comp, because it's actually it all relates in into this.
+[00:06:16] Thank you.
+[00:06:18] Thank you.
+[00:06:18] Thank you.
+[00:06:19] I...
+[00:06:23] I mean, to be fair, the tuples that came back from from hooks was very like it was like what I was looking for.  I think the one challenging thing is like from my perspective, it's so funny because like,
+[00:06:36] Mm.
+[00:06:37] like big frameworks like Vue and like, um,
+[00:06:42] Yeah, like you actually only want to move...
+[00:06:45] And Angular doesn't have really the equivalent. Like hooks was like from my perspective, hooks were not the front of the they were like at the end of the chain, like other frameworks has had things that look like hooks way before reacted and not just like a couple like many. It's actually like they had those and then kind of got rid of them because of react. So
+[00:07:08] But from my perspective, the tuple in React to get the read write segregation is like one of those like
+[00:07:14] nuanced things that are just masterful stroke, even if like the hooks themselves,
+[00:07:19] or field derivative, even if they didn't really give them credit.
+[00:07:23] But like, generally the tuple is just genius. But it's a that is the exact kind of API nuance that I'm that I talk about. So that's fair.
+[00:07:37] Thank you.
+[00:07:39] Okay, yeah, I mean, and just, we're going to get to this in more detail as we go, but the idea here is...
+[00:07:46] Um...
+[00:07:48] Thank you.
+[00:07:50] We want it. This is almost as core as why signals are different from observables. Right. We want to. I'm going to use this opportunity right now to.
+[00:07:59] to pull up my
+[00:08:02] X and some other stuff in the background here.
+[00:08:07] It
+[00:08:10] It's that like Rx is an event system, essentially.  Like there are different versions of reactivity, you know, and there's very thing, but Rx is generally an event system.  It's actually more similar to Remix 3 of all things, funnily enough.  It's like you just feed these channels of events through and you make sure that like you get some eventual consistency that way.  But that's the guarantee.  They can be synchronous, they can be asynchronous.
+[00:08:40] like the reactivity is really an enforcement of a certain type of guarantees around consistency. The idea is that
+[00:08:47] I
+[00:08:48] You can only trust your...
+[00:08:51] UI if you believe it to be consistent. Otherwise, you're going to have to like people won't trust in on the refresh the page. So you have you want to give
+[00:09:00] the end user sense of
+[00:09:02] trust by being consistent, by making sure that whatever they do looks consistent, seems, you know, doesn't give them like, oh, is this really updated, you know, kind of mentality. And then secondly,
+[00:09:16] And
+[00:09:17] developers
+[00:09:18] also kind of fit into this that if they don't see that they might not trust their tools or their  frameworks so like signals are about consistency so when i talk about async often it's
+[00:09:32] It's not...
+[00:09:33] like,
+[00:09:34] it's not about transformation, but synchronization.  And I think this, even with async inside signals themselves, keeps this property alive where, um, my, my idea here, and this will be much later we get to this, is that signals, um,
+[00:09:49] are this mechanism to provide
+[00:09:53] synchronization guarantees.
+[00:09:55] Um,
+[00:09:56] Rx.
+[00:09:57] doesn't worry about. Rx cares if something fails and you retry it three times and do this and fork this. It's procedural. It's a process that you go through where
+[00:10:08] signals are like
+[00:10:10] It just is like it's like this is the rules of the universe.  At any time I look at it.
+[00:10:16] I must be seeing something that I can trust and believe.
+[00:10:21] I don't know if it's a good explanation. It's the weirdest part about
+[00:10:25] being where I am like deep down the rabbit hole.
+[00:10:30] No, as usual, this is stuff that I am literally inventing
+[00:10:35] or discovering as I said much more thing, apt description on the spot. So when some people  when they're looking at my content and stuff they'll be like they'll be like oh where can  I read up on this stuff and I do have some HackMDs that I've been penciling out but
+[00:10:49] In terms of the scale of where we are in terms of the process here, when I stream stuff,
+[00:10:54] It is literally a week or two since I've had the revelation myself. It's within that first kind of gap time. When someone writes an article on Dev2 or something consumable, you know, or medium or whatever, that minimum, they probably been working on something for two or three months. And like, you know, it takes I take that content out and it'll be like six months till the conference talk.
+[00:11:18] and then maybe like a year to the short to the point video like basically this is as cutting edge  bleeding edge as it gets on this topic if you join the stream and i apologize i my communication is  not as refined as it could be because i'm literally researching this stuff right now this is this is  stuff that is about as you know breaking news so to speak as it can be um i've been covering stuff
+[00:11:48] signals 2.0 of future of async and a lot of the fundamentals and foundations are there  that I'm going to talk about today.
+[00:11:53] what I...
+[00:11:54] I've had some major revelations the last...
+[00:11:58] week couple weeks and I want to kind of
+[00:12:01] talk about what I think that means and what it inspired me to do.
+[00:12:07] Thank you.
+[00:12:10] isn't that a description of immediate mode QE's I don't
+[00:12:16] I don't.
+[00:12:17] It doesn't have to be immediate mode.
+[00:12:19] Right. Like.
+[00:12:21] It's I mean, immediate mode
+[00:12:23] For those who don't know, immediate mode is like when you like re-render the whole page.  Like when you like basically like game engines are often that.  It's often easy to produce synchronization when you rebuild everything because then you know like there's nothing weird artifacts are going to creep in.  You're just going to go wipe it out.
+[00:12:42] Fortunately, not always very performant.
+[00:12:45] But the mechanism that actually makes things stay in sync is I view it as a reactivity system, whether it's the harness around the immediate mode renderer or a very sophisticated synchronization system around a retained mode renderer.
+[00:12:59] Retain mode is the alternative, that's like the DOM. It's things that persist and you just mutate or change parts of it.
+[00:13:06] Um...
+[00:13:07] But the approach here doesn't matter that much.  It's actually very interesting because you could say that React has been approaching this from an immediate mode perspective.  Well, I've been approaching it from a retained mode perspective, but generally to similar...
+[00:13:22] goals or results. Right. And there's always the thing that's always funny is because of performance, immediate mode rarely stays from immediate mode. Like there's always like some kind of exception, some kind of persisted thing like hooks themselves, for example, in the component model in React, like you, you don't just blow everything away, even in immediate mode. Like even theoretical, because performance will always take you back. Right. I'm trying to think of like other examples, like in game engines, like Vulkan,
+[00:13:52] - Bye-bye.
+[00:13:53] I was talking to this guy a while back at a conference and he was explaining to me how they were actually looking at techniques of retaining
+[00:14:04] parts of the render graph and it wasn't just throwing everything away every time. Which is really interesting to me because I see parallels there between UI research. I mean, this is probably more relevant to people like working on the React side where they're looking at how to
+[00:14:18] bring more performance into basically immediate mode rendering but
+[00:14:22] It's still very interesting stuff anyways.
+[00:14:25] Thank you.
+[00:14:25] Um...
+[00:14:27] Thank you.
+[00:14:31] Thank you.
+[00:14:32] Did I though? Did I ditch transitions? That's the thing. We'll talk about that.
+[00:14:37] I love getting you guys all warmed up on this.
+[00:14:42] Thank you.
+[00:14:42] Thank you.
+[00:14:44] Okay, so let me pull up my notes here for a second so I can remember what I wanted to talk about.
+[00:14:50] Okay.
+[00:14:52] Yeah, we should actually start with...
+[00:14:57] Thank you.
+[00:14:59] Thank you.
+[00:15:00] Yeah, yeah. Sorry, I love this. Yeah, double buffering video games is basically VDOM. Yeah, I mean,
+[00:15:10] Yeah, got it. It takes me back.
+[00:15:13] I sorry for those of you who don't know, I got into programming because I want to make video games.
+[00:15:19] So,
+[00:15:20] It's kind of an interesting thing because you think like, and you find this a lot of, a
+[00:15:25] like people who are really...
+[00:15:26] invested in these realms, especially in graphics, quite often are immediate, very functional programming, immediate mode kind of people. And I think that would have been my, my positioning, you know, arguably, but then I realized that
+[00:15:41] The Dom.
+[00:15:43] isn't
+[00:15:44] I realized two things.  First of all,  the DOM isn't immediate mode,  which meant that like trying to enforce my abstraction on top of it was  never going to be the like most,
+[00:15:52] optimal at least from my perspective and the second thing is I found something that I liked
+[00:15:57] even better than video games.  And that was
+[00:16:02] It's so funny.
+[00:16:04] It felt like a Sudoku or like a puzzle. Digital circuit logic. And I actually went into computer engineering and and
+[00:16:12] Programming like
+[00:16:14] Like,
+[00:16:15] almost like old style arcade games with like circuit boards rather than like a conventional programming language is the
+[00:16:23] Funnest thing that I, I, I, I,
+[00:16:25] I don't know how else to put it. I just found it so incredibly fun.
+[00:16:29] the like
+[00:16:31] I'm a weird person who thinks like, I don't think Verilog or VHDL is beautiful, but I think that the systems...
+[00:16:40] that work like that. There's some kind of, it feels very powerful or some kind of truth when, when you describe things as like a state of being rather than a grocery list.
+[00:16:50] Um...
+[00:16:50] Anyway.
+[00:16:54] Thank you.
+[00:17:09] Okay, so... Classic, you want to make videos in front end, yeah. Well, I mean, it was video games or music. You can see the guitars in the back, but I, you know, I was... Those are things that probably appeal to a certain type of...
+[00:17:24] young person into nerdy kind of stuff, you know, go one way or the other.
+[00:17:29] But...
+[00:17:30] Then I ended up in frontend.
+[00:17:33] Thank you.
+[00:17:33] Which, I mean, wasn't unrelated. I started building websites to promote my band. So, yeah.
+[00:17:40] Okay, sorry.
+[00:17:42] Um.
+[00:17:45] Why is my screen flickering so much? I'm going to have to do something about my cable. At least it's not impacting you guys. Okay, so...
+[00:17:52] Where do I want to start? I'm going to start by first just sharing my entire screen here for a moment, even though that's probably not
+[00:18:01] going to be too relevant right now um
+[00:18:05] But
+[00:18:07] Thank you.
+[00:18:09] I feel like for me, this journey starts by talking about
+[00:18:15] async in UI frameworks just in general, right?
+[00:18:19] Yeah, sorry, I just wanted to get that in there. Let's talk about that for a second.
+[00:18:24] JavaScript itself,
+[00:18:26] is a language that's very unique in that
+[00:18:30] Um,
+[00:18:32] *sniff*
+[00:18:33] is single-pride.
+[00:18:34] Right. Like essentially single thread. I know there's
+[00:18:38] There's exceptions and you can make workers and all this.  And it was basically designed to work in the browser.
+[00:18:46] And what's interesting to me is,
+[00:18:49] that the model like JavaScript started as something which was a weird
+[00:18:55] amalgamation of a bunch of stuff, you know, like it had like, you know,
+[00:18:59] like functional programming pieces with like a sort of
+[00:19:05] object-oriented inheritance, like prototype typical inheritance. It's a weird language. And the addition of asynchronous features to it,
+[00:19:15] you know, didn't follow what a lot of other languages are doing at the time as well. Like, instead of
+[00:19:19] Like, you know, going, okay, let's make...
+[00:19:22] a new thread or something.
+[00:19:24] It was like, no, we'll just have a really...
+[00:19:27] powerful scheduler, right? And which makes sense, like with the browser, you only have one user  you're catering to. So like, while you want to be concurrent, while you want to be able to  have multiple things on the fly, you don't actually necessarily need to be parallel.  I mean, that's at least the logic to it. And you could be like, okay, well,  that seems reasonable in the browser. But then Ryan Dahl went and created a node and
+[00:19:50] interestingly enough
+[00:19:51] also took this model, you know, because it was using JavaScript. And as it turns out, I mean, JavaScript is not actually the slowest language on the server. It might not be one of the faster ones, but the way that it could
+[00:20:04] handle concurrency in terms of multiple requests because let's face it on a server a lot of times  you are waiting on io it's not like straight processing it's like you know you're like okay  request comes in this comes in you know then go fetch that data from the database well while it's  fed from the database you don't need to be like saying like doing anything you're just like twiddling  your thumbs so like you can go okay you go back and do something else so javascript actually built a
+[00:20:29] performant way of switching contexts really rapidly between the different things and a scheduler that supported that.
+[00:20:35] Obviously,
+[00:20:36] Ryan had to do some work himself early days to make sure that it could work on a server. There was a lot of things that weren't in the JavaScript spec. You know, you need stuff like set immediate and ways like more control of that scheduling. But we've seen that in the browser over time. Even after that, we've started getting a lot of those kind of tools make their way back out. You know, the concept of like micro tasks queuing and, you know, which came with promises and
+[00:20:59] Um...
+[00:21:00] you know, and whatnot, like this basic work towards a very comprehensive approach to scheduling.
+[00:21:09] It's not like...
+[00:21:11] multi-threaded it's not go routines it's not like but it's
+[00:21:15] something that's very
+[00:21:17] built in and almost automatic. You don't have to
+[00:21:20] Think about it much.
+[00:21:21] I mean, you have to understand the timing because, you know,
+[00:21:24] Promises, resolve at different times, async await, you know, stuff that got built on top over time. But generally speaking, you could just set a bunch of timers and your code will just kind of schedule in a reasonable way. And
+[00:21:35] That was it. If you've ever used multi-threaded code and thread locking and like, I think everyone's done this. At least if you've gone to college or whatever, you know, what semaphores and like the whole like,
+[00:21:51] It's been so long I can't even remember the terminology, but you know what I mean, where you go through those classic problems.
+[00:21:58] like dinner table or whatever. I'm butchering the names of these things now, but
+[00:22:04] There's a whole category and you have to remember part of this also for me is my timing coming into this stuff.
+[00:22:14] Um...
+[00:22:15] I went to college, university, whatever, around...
+[00:22:20] 2001, 2002, and that was right around the time that they were first adding multi-core processors to computers. So it was a very hot topic, this idea of how can we properly parallelize workflows. And interestingly enough, obviously stuff in graphics was fairly easy to parallelize and that's why they ramped up to even more cores. But there's a lot of processes that we weren't readily, really easily able to see how to parallelize right away. And
+[00:22:47] without going like way too crazy down this kind of tangent the thing to know is that javascript actually does a
+[00:22:53] fairly decent job of just handling the base cases in a way that is
+[00:22:57] fairly simplistic, but just kind of just works. It might not give you all the control mechanisms you find in other languages, but it is built with a synchronously in mind, probably just from the basis of being, you know, client server model in the first place, like a lot of your resources are not going to be in the browser.
+[00:23:15] Okay.
+[00:23:17] How are you doing, Chad? With me so far?
+[00:23:22] I hear the song "Basket Case" is more...
+[00:23:25] Uh.
+[00:23:27] Thank you.
+[00:23:29] Yeah, no, I've seen some people make games of solid, which is cool.
+[00:23:35] Yeah, there's a lot of talk about how it's not like a single scale here.
+[00:23:41] Yeah, talking about how... I mean, it's kind of like you cache the VDON nodes in a lot of... or find ways to make block nodes like Inferno's performance techniques. It's not so black or white. At this point, a lot of it comes down to mental model. And a lot of cases, people will argue that... and I think it's fair that the mini-mode mental model is a lot simpler.
+[00:24:05] Um,
+[00:24:07] But on the other hand, I feel it doesn't give you necessarily as much control.  And I like control, if you noticed anything.  But it is an interesting thing.  I think classically, if you look at this stepping all the way back...
+[00:24:19] you should probably think that a lot of
+[00:24:21] Um,
+[00:24:23] innovation should happen on retain mode first and then with better abstraction make its way to a media mode like that should the process things which makes in a sense.
+[00:24:33] certain industries,
+[00:24:35] like game industries or even like maybe just because the complexity of UI is so hard that  it was easier to actually go immediate first and then kind of work backwards is that like
+[00:24:47] that doesn't make a lot of sense in terms of like
+[00:24:51] the mechanics that need to happen behind the scenes. If you're finding ways to optimize
+[00:24:56] and actually do more stuff like like sort of do less work.  You probably start with retain mode and then figure out better  abstractions on top of that.  But we've kind of been the other way around, which, as I said,
+[00:25:07] It feels sometimes crazy because when you're working on the web and the DOM, it's retain mode. It's this thing that stays around. So having React being the most popular UI framework is kind of crazy. I don't think people appreciate how crazy that is. And I'm not saying this in a negative way. It props to React. It's kind of bonkers in my mind that...
+[00:25:30] that kind of approach could be the most
+[00:25:33] prominent one. I think it's good to have alternatives, but the fact that it's like so much more prominent than the other ones, themes
+[00:25:40] like somebody dropped the ball um
+[00:25:43] collectively, maybe we drop the ball. Like, uh, I,
+[00:25:47] I could pick your world where React wasn't.
+[00:25:50] the most popular UI framework, and I was a huge fan of it.
+[00:25:54] As I said,
+[00:25:55] Um,
+[00:25:56] Thank you.
+[00:25:56] you know, like for doing something really interesting.
+[00:25:59] Instead, it's the forerunner, which is like, as I said, it just doesn't make sense from my engineering brain standpoint.
+[00:26:08] Thank you.
+[00:26:11] How are we doing chat? You guys are talking faster than I can keep up with what we get here.
+[00:26:17] Thank you.
+[00:26:22] Thank you.
+[00:26:23] You haven't missed anything.
+[00:26:28] Okay, so I'm just establishing right now, like JavaScript is a weird language. Okay, so
+[00:26:35] Um...
+[00:26:38] I don't know how many frameworks actually took thought, took much consideration into async early days.  That's all I'm trying to say. It's just because like the JavaScript model can like handle it for you.  It's like, okay, well, I will set a...
+[00:26:50] time out or what not
+[00:26:52] You know, like and I have to give a lot of credit here.  React seemed to be one of the earliest frameworks that actually were like, hey,  we're going to actually make mechanisms for this.  Right.  Suspense comes to mind.  Transitions come to mind.  And I was very, very influenced by those.  They both got announced like 2018 ish.  I think if we go back and look at it, maybe 2017 for suspense,  there is a talk in React Comp Iceland and then like
+[00:27:21] Um...
+[00:27:22] you know,
+[00:27:23] Yeah, I think it was the Iceland talk. Anyways.
+[00:27:26] The...
+[00:27:27] What I'm trying to get at is,
+[00:27:31] You get the sense that React for a long time has actually been thinking about these problems.
+[00:27:35] Um,
+[00:27:36] They, as I said,
+[00:27:38] Something we might not appreciate at first, like early on, I might have, you know, been like,
+[00:27:43] worried about like it's very easy when building front end libraries to kind of like focus on like how do I make sure my UI is fast and all my user interactions are buttery smooth so to speak and that is a synchronous synchronization problem.  And I'm like I'm going to call right now like there if you're looking at performance in that and like fine grain rendering signals it's hard to beat that kind of situation if that's your whole world.  But as I mentioned before react started you know
+[00:28:12] Fax.js back in the day. Did we ever pull that up? I can't remember. I like Fax.js. Let's see if I can find it.
+[00:28:20] Jordan Walk. Yeah. Okay. Let's just pull this up for fun. Um,
+[00:28:26] Okay.
+[00:28:28] Not that one, this one.
+[00:28:30] I mean, this is 14 years ago.
+[00:28:33] This is an old experimental project, Rack is much better in every way and you should use that instead. But basically he was just trying to copy stuff from the server
+[00:28:41] into the client.  And this is kind of where the starting of the whole VDOM  experiment started from.  Because I'm gathering we're talking about diffing HTML  strings in this thing.
+[00:28:50] They didn't quite have JSX, they had
+[00:28:53] You know, like all the some of the pieces are here.  You start understanding the model.
+[00:28:59] This is...
+[00:29:00] Probably not.
+[00:29:03] Okay.
+[00:29:05] you know,
+[00:29:06] I'm just going to post it here just for fun.
+[00:29:08] But...
+[00:29:09] It is interesting, nonetheless.
+[00:29:15] Thank you.
+[00:29:16] So, I'm going to go ahead and see you next time.
+[00:29:18] Thank you.
+[00:29:19] Yeah, it's fine.  It's a historical note.  But...
+[00:29:23] What I'm getting at is,
+[00:29:25] Sometime around 2015-16, React was like,
+[00:29:30] we're going to plan for the future and async was part of that future.  And I think it's important to understand that because a lot of,
+[00:29:37] certain like
+[00:29:38] decisions were made
+[00:29:40] from that point on that people might not be able to justify until the final picture kind of start showing up, which literally took till about this year.  Like, I feel like it's been like 10 years, but like.
+[00:29:50] There was things they did that was controversial and I think we're going to see as we go through the meaning of it, like why they made those decisions. But
+[00:29:59] Um,
+[00:30:01] We should fast forward.
+[00:30:03] a little bit.
+[00:30:05] I mean, are you...
+[00:30:07] Are many of you familiar with
+[00:30:10] with these features at all. I feel like if I just pull up like
+[00:30:15] I'm going to pull up my stack bullets right now.
+[00:30:17] Of course I'm not signed in on this computer.
+[00:30:19] Watch it, I won't be signing to GitHub either.
+[00:30:24] *sigh*
+[00:30:25] Okay.
+[00:30:26] It's been a while since
+[00:30:28] I've streamed.
+[00:30:31] Sorry, give me two seconds.
+[00:30:42] Baxi.
+[00:30:44] Okay, we're in. Okay, we're in.
+[00:30:47] I'm just going to pick one of my...
+[00:30:53] random examples that just really basically show the kind of features
+[00:30:58] I'm talking about.
+[00:31:01] Thank you.
+[00:31:03] Mmm.
+[00:31:07] Is it switching tabs?
+[00:31:10] Thank you.
+[00:31:11] Let's do, where is it?
+[00:31:13] Sorry, I've got so many. Solid to experiments tabs.
+[00:31:18] This is probably the one I'm looking for. Now this is a solid example, solid 2.0 to be precise, but
+[00:31:25] This was very inspired by React for me.
+[00:31:30] Main.
+[00:31:31] source.
+[00:31:32] and very...
+[00:31:36] like you can kind of see some of these things in action the idea is that there's a couple
+[00:31:45] I'm going to actually remove the transition here just for
+[00:31:49] for sake here the first feature that was added
+[00:31:53] is suspense. And at this point,
+[00:31:55] Suspense.
+[00:31:57] is
+[00:31:59] available in a number of frameworks.
+[00:32:02] The idea is
+[00:32:05] You have some app state or whatever. Some of it might be synchronous, but the
+[00:32:11] Sometimes you have this child component, which...
+[00:32:15] kind of fetched some data, right?
+[00:32:18] I'm going to use solid syntax here because I'm using solid, but the idea here is you
+[00:32:22] Great, I'm just making a delay, but it's random. But essentially, I'm just going to fetch some data when I go to this page.
+[00:32:30] Essentially, if you don't have the data, how do you render the component? There's this kind of thing.
+[00:32:36] you know, problem, you can't render something beforehand.  But maybe you still want to render part of the page.  So when I refresh this page, what you can see,
+[00:32:43] very briefly is this loading indicator where you see the tab bar but then the  loading comes in. I think everyone can kind of see this and
+[00:32:51] Um...
+[00:32:53] Mm-hmm.
+[00:32:54] This is...
+[00:32:56] pretty standard
+[00:32:58] in a lot of primers. You have suspense in view
+[00:33:01] you've had I think an await component in Svelte back in the day.  We also have our suspense here and I'm showing this loader. So basically
+[00:33:12] There's some semantical difference with solid because, um,
+[00:33:15] Suspense is a really cool technology because it inverts control.
+[00:33:19] essentially. It says that
+[00:33:21] unlike, say, a wait component,  which is basically like
+[00:33:26] don't show this until this promise resolves like you could you could picture you could do that with  almost any state right like if you have a conditional like uh
+[00:33:33] Like, um...
+[00:33:35] Thank you.
+[00:33:36] Ternary like
+[00:33:38] show this data
+[00:33:40] like if data show this you UI, you could always basically just have some state
+[00:33:46] And then go like...
+[00:33:47] fetch data and then set state and then continue like that kind of stop pause mechanism, you know, maybe fetching a user factor, create a factor, whatever was always possible to a certain degree. But what's interesting about
+[00:34:02] suspense is it lets the children render
+[00:34:06] basically off screen, which means it discovers it. Like the child isn't until we're down here.
+[00:34:11] Right?
+[00:34:12] So we fetch this data below the suspense boundary.  We don't know.
+[00:34:17] that there's even going to be anything to fetch. If there isn't, we could probably just show the page right away.
+[00:34:24] But this was a masterful stroke in the fact that it was like conversion control.  It's like, look, I'm designing my layout in my UI.  I want to know where.
+[00:34:34] This is where the loading of forms, this is where the natural page boundary is. These are things that make sense in terms of the design aspect of my page.
+[00:34:44] If people add async later, this is where we fall back to.  This way you can reduce like a bunch of intermediate states.  We were kind of in this problem early where it was like if everything was managing its own loading state,  you'd kind of have like a dozen different spinners.  And this was like, no, okay.
+[00:34:58] Look.
+[00:34:59] "I will handle the stuff that's not available,
+[00:35:02] You know, you can always nest suspense and make more.
+[00:35:05] of these states, but the idea
+[00:35:07] behind suspense is that
+[00:35:09] you can kind of set a natural boundary like
+[00:35:12] child
+[00:35:13] could be a lazy component that you don't have the code for yet, too.  It could be something to fetch data.  All these aspects don't really matter to suspense.
+[00:35:21] It just...
+[00:35:24] puts the loading indicator until it's available.
+[00:35:27] Thank you.
+[00:35:35] Thank you.
+[00:35:39] Hey, Mark. You didn't miss very much. I was just talking about why JavaScript is a weird language. Yeah, and you're right. I can put some of these experiments in as I go. This one, I had the butcher a little bit because I had to remove. This exact example is actually, if you go to solchance.com,
+[00:35:59] and go to our tutorial.
+[00:36:02] And again, this is like way down.  I want to point out that async is like way down on the list.  We get to an example here.
+[00:36:10] Um,
+[00:36:11] Like the first example of suspense is really easy. It's just like, hey,
+[00:36:16] Give me a promise, right?  And then it's like,
+[00:36:19] greeting and then what's greeting? Oh, it's a lazy component.
+[00:36:23] Right.
+[00:36:24] So I'm like faking lazy here.
+[00:36:27] Thank you.
+[00:36:28] through the import.
+[00:36:29] and making a delay.
+[00:36:31] But and that's how actually react released in the first place to they actually released it by a way of doing lazy code loading basically that way they can show something if the code isn't there this code splitting makes it a lot more performant you don't have to load all the JavaScript for the whole application up front you can do it a page at a time you know.
+[00:36:50] Thank you.
+[00:36:50] But the example that I want to get into is Transitions, which is this example, exact example.  I've been making this forever essentially where you click on a tab, you update the tab,  and then you have suspense wrapping it, right? So
+[00:37:04] I'm going to.
+[00:37:05] I'm gonna... this...
+[00:37:07] Like we've had the transitions. It's funny. I looked at
+[00:37:11] React's work, and we actually released a few of the features
+[00:37:14] before them because I was like so into it.  Once I saw that first Dan Abramoff demo, not the I didn't care about the stupid radar thing.  It wasn't about performance. People, a lot of people dismiss this stuff because of performance.  Like, oh, this is a reacts way of solving its own problems. No, no.
+[00:37:29] I was interested in this because it was immediately obvious to me how difficult it is to solve
+[00:37:35] these concurrency type problems in a consistent way, which we're going to get into detail on what I mean by that. But yeah, I'm
+[00:37:42] This tutorial on the Solid site is
+[00:37:45] is an example of this example.
+[00:37:49] It's the same thing. The reason I like the tutorial and I share that one is because it actually has a before and after. But the key part about suspense is that
+[00:37:58] Um,
+[00:37:59] It just doesn't care. So when I go here, guess what? Loading. Go back, loading. Every time I switch, it just drops it out. And for situations like this, it's pretty normal. You're kind of used to seeing this. And as I said, nested suspense.
+[00:38:10] What if I...
+[00:38:14] put another suspense in here.
+[00:38:16] because I have this counter and this counter is here for a very important technical reason that we'll get to a bit later.
+[00:38:23] You know, this count is global. It comes in through props count. So all these components have the same counter on them, essentially, that goes through that's just getting driven from the app. Right. And if anyone knows solid, it's not a big deal. Look, the components don't rerun. So we just have a signal that's updating, you know, the RH3. But what's interesting is what if
+[00:38:41] We wanted...
+[00:38:42] to be able to show some of the content sooner than some of the other content. So
+[00:38:46] If you notice my child component here,
+[00:38:49] typically is just, you know,
+[00:38:51] fetch them data,
+[00:38:52] Display it.
+[00:38:54] But then
+[00:38:55] with the child with suspense example
+[00:38:59] I've wrapped in an additional suspense wrapper around where we actually use that
+[00:39:05] fetched data, so to speak. So it can actually render more of the page before it hits it because suspense always goes back to the nearest fallback. So what I'm going to show here is like if I go here,
+[00:39:16] loading, loading, but on this one
+[00:39:19] what you're going to see is
+[00:39:20] the count
+[00:39:22] the you know let me go here the count is still there because i put the suspense boundary below  it doesn't trigger the outer suspense
+[00:39:29] So this one's just loading. This one's loading.
+[00:39:31] So,
+[00:39:34] Thank you.
+[00:39:35] loading trials, so to speak, right? So like
+[00:39:39] Or Trey, what am I saying? Whatever. Am I French or Spanish today? I don't know. Doesn't matter.
+[00:39:44] But you see it's actually a different loading indicator.
+[00:39:48] See the specific one? So this inversion is really really really powerful. It means that
+[00:39:54] the application developer can decide where to put
+[00:39:59] the loading indicators. It's not about
+[00:40:03] like component. I actually don't think suspense belongs in reusable components.
+[00:40:07] Maybe people disagree with me, but like, conceptually, it's a way for the application developer to go like, this is how I want to lay out my page.  And I want to make sure that, you know, I can show stuff in a reasonable way, put skeletons in, do what I want.  And...
+[00:40:21] I don't care...
+[00:40:23] where the async is, as long as it shows it in a consistent way. It basically removes all the  complexity around coordinating these things. And it has a second really important use. It gives us  a boundary for streaming. You can basically go like, look, these are the blocks that we can  hydrate synchronously as they come in. And, you know, we can basically stream. And this was  something that was very much in React's mind right from the beginning of introducing this API.
+[00:40:53] 2014, ASIC fragments. I sometimes joke that Marco invented suspense back in 2014.
+[00:41:01] But if you look at actually what he's talking about in this classic article, he's talking about streaming, but it's a very similar idea. Like essentially, he's showing like the sections of the page and then he gets here async fragment.
+[00:41:15] provider data search. Now this doesn't have the inverse of results. This is not a weight. This is literally
+[00:41:21] you know,
+[00:41:22] the away tag, so to speak. So it's not quite the same, but the idea that you can section up parts of your app based mostly on like layout considerations, like there's data loading considerations, you can't separate those things, but you like it isn't about
+[00:41:39] What makes the spend so powerful here is it isn't necessarily about
+[00:41:45] just like awaiting this data, you know, so to speak, even though that's like effectively what it does. It's about
+[00:41:51] a layout thing. There's a reason it's a component. It's something like a designer kind of thing. Like, um,
+[00:42:00] I'm actually considering renaming this in the future in Solid, just because I think Suspense is kind of like a...
+[00:42:07] doesn't convey
+[00:42:08] that enough. Just an aside note, I know it's become the term, but as you see today, we're  going to change the behavior of suspense enough that I don't think it might not be suspense  anymore. So I think it's worth putting out there. But I'm hoping you're understanding  how we get into the async solutions here.
+[00:42:26] Thank you.
+[00:42:28] So, we've seen these examples.
+[00:42:34] The challenge here and I'm going to actually pull up one of my my talks because I talk about this stuff a lot and leaves.
+[00:42:42] Sorry, I'm just going to grab my beyond signals talk that I just gave because there's a great slide in here and.
+[00:42:51] I'm kind of getting ahead of myself a little bit, but...
+[00:42:55] We're going to come back to this slide.
+[00:42:57] When you're dealing with async, there's really, we've talked about this on stream, there's really like four different scenarios you have to consider in terms of how you can handle things.
+[00:43:08] I
+[00:43:09] or you don't handle them and tear, which is kind of like the default.
+[00:43:12] but what i suspense is show the placeholder
+[00:43:16] generally speaking. And that's kind of like the starting point.
+[00:43:20] The problem with the placeholder is
+[00:43:22] Not all
+[00:43:24] experiences.
+[00:43:25] Want.
+[00:43:26] Like picture if there's some async on the page, like you can cause this to refresh or parts of this to refresh, you know,
+[00:43:33] after the fact, it's kind of jarring that like you're doing stuff and then
+[00:43:38] I mean, I can make an example that does that.
+[00:43:40] very easily.
+[00:43:42] And the reason is
+[00:43:44] Suspense is...
+[00:43:47] show placeholder, but it's basically bailout. It's like, look, the thing to show is not ready, so
+[00:43:54] we're just going to fall back up to wherever...
+[00:43:58] wherever we know we're safe to show.  It's consistent by the method of bailing out.
+[00:44:06] Realistically, we have to consider
+[00:44:09] that
+[00:44:09] Aspects of all four of these are actually important to us, okay?
+[00:44:13] So there's other mechanisms here.  Just to summarize, even though I want to get into the details of it a bit more as we continue, but show placeholder is basically suspense.
+[00:44:25] hold in the past,
+[00:44:26] is
+[00:44:27] a transition, it's something that we'll show.  Show the future is optimistic UI or optimistic updates.
+[00:44:34] and don't tear is what happens when you don't use these features.  But I think one of the biggest challenges is
+[00:44:42] If you start opting into these features like suspense,
+[00:44:45] how do you opt out of them?  Like if suspense is this whole boundary and you're like,  I don't,
+[00:44:49] I actually don't want to go to the fallback. I want to tear.  Classically for React, this was use deferred value and solid we had something called latest.
+[00:44:59] Um...
+[00:45:00] which lets us get out and lets us tear.  But what I'm getting at is all four of these are things that...
+[00:45:08] you need to consider when looking at an async solution. Okay. So why are we talking about this today? Because
+[00:45:18] That's fine.
+[00:45:20] I've shown this stuff before in stream.
+[00:45:22] I'm going to actually return the transition back in here.
+[00:45:26] There we go, transitions back.  And just to show you really quickly,  it loads because it has no data.  But now after the fact,
+[00:45:32] as we switch,
+[00:45:33] you can see that it doesn't actually remove it.  It might gray out if it takes a while, but we're actually
+[00:45:39] holding stuff in the past while we do the next page. This is what a transition is. I'll explain
+[00:45:43] in detail how this works in a little bit. We've actually done a stream on this before, but
+[00:45:49] What I wanted to kind of just highlight here is
+[00:45:53] here's a feature that allows one of those other modes.
+[00:45:57] So I was pretty happy. I actually implemented
+[00:46:00] a solution
+[00:46:01] for all of the above.  And that's why I started giving that talk, because I literally  saw it has a solution for all of the above.  It looks a lot like the React solution, unsurprisingly.  There's some detailed differences because of the fine grain  graph and stuff.  But generally speaking,
+[00:46:16] You know, these are the same modes.  I talked about stuff being discovered.
+[00:46:20] Um,
+[00:46:22] it makes sense that we would, you know, like even even if I could like
+[00:46:28] think of slightly different ways to do stuff,  we kind of end up at the same place.  You know what I mean?  Like,
+[00:46:33] I mean...
+[00:46:35] renamed Suspense component to Placeholder component.
+[00:46:38] call transition hold, like, you know what I mean?  Like these things almost line up one for one with concepts.  You know, you just name the feature, right?  And then come up with the API that's suitable  for the feature, right?
+[00:46:54] That's a very
+[00:46:56] Thank you.
+[00:46:58] Thank you.
+[00:46:59] Thank you.
+[00:47:00] Yeah, yeah, like a weight. Yeah, yeah, exactly. And Svelte used to have a weight as well. So I think Suspense is like really, really powerful because the inversion of control, like that it's read based.
+[00:47:11] Um,
+[00:47:13] Thank you.
+[00:47:16] Yeah, looking at the code, we talk at this high level because looking at the code of this stuff is
+[00:47:20] Freaking tricky.
+[00:47:25] Thank you.
+[00:47:27] Okay, so it's not quite the same? Okay.
+[00:47:31] Fair enough. People hit the same problems.
+[00:47:36] You use a wait with suspense. Yeah, yeah, we're talking about remakes too, because they basically need a way to do streaming and react having given them
+[00:47:43] all the tools yet so they started building stuff like halfway through
+[00:47:51] yeah i mean transition is a hard one the problem is i was calling them transactions for a while but  they're not actually transactions
+[00:47:56] Transactions suggest a discrete
+[00:48:00] like action within time and the cancelable and roll back.  And maybe somebody when these become parallel could.  But what this actually is, is
+[00:48:10] a gradual progression to an eventual future.
+[00:48:13] We'll talk about exactly what transitions are in a little bit.
+[00:48:18] Angular's defer to my understanding
+[00:48:21] has a lot of similarities. I know the use under specifically lazy,
+[00:48:27] I feel like the fur,
+[00:48:29] Is a bit if you took...
+[00:48:31] like an await.
+[00:48:33] and like lazy.
+[00:48:34] from
+[00:48:36] React, sort of like, took an await, which is kind of like suspense and lazy and just kind of jammed it together in the same thing. And then you're like, this block is something that's lazy and...
+[00:48:46] does that. The interesting thing is we've kind of split these into two different concepts, at least on the React side, that like there's both the bounds in which you want the UI to care about it.
+[00:48:57] like in terms of a design standpoint, which is expenses.  And then there's like the mechanism for...
+[00:49:04] signaling off a block to be loaded later or to be hydrated later, which is what lazy does.
+[00:49:11] Yeah, it's lazy loading components. Exactly. Yeah, exactly.
+[00:49:21] Thank you.
+[00:49:24] Thank you.
+[00:49:30] yeah the fur could be generalized on both ways loading data fetching but they haven't said anything
+[00:49:37] Mostly it's for incremental hydration, which is fine.  I mean, that was something I was always tempted to add, like add like an option  to lazy to do incremental hydration.  I just incremental hydration is
+[00:49:47] challenging and
+[00:49:49] I think it's a whole other topic. I think
+[00:49:52] I haven't figured out how to make it safe because the problem is state is shared.
+[00:49:56] And
+[00:49:58] If steak can change outside, you can't hydrate it again. It no longer matches.
+[00:50:03] I don't actually know 100% what Angular is doing there.  They probably should look at it.  Maybe because they can use signals, they can go like,  okay, I'm going to wake it up anyways, kind of like Quick does.  Basically, they just void that because, you know,  I think that's the direction they're going at least  because like Wiz and Quick need to do similar stuff.
+[00:50:23] Yeah.
+[00:50:24] So it's a little bit
+[00:50:27] It's the same problem I have with islands. It's very easy with islands, if you have them communicating to each other, for them to
+[00:50:37] basically do some cleanups, which allows them not to hydrate anymore, which is the reason that React Server Components
+[00:50:45] hydrate eagerly
+[00:50:47] if possible, and after the fact, only render on the client.
+[00:50:51] not the server components, but the used client. It can do SSR initially, but after the fact, all bets are off. You have to run them on the client because some shared state might have been updated and
+[00:51:03] you can't trust the server anymore.
+[00:51:05] The server doesn't have the information unless you want to serialize the whole thing and then we're back to ASP.NET.  And trust me, ASP.NET is not where anyone wants to be.
+[00:51:13] Okay.
+[00:51:15] So,
+[00:51:18] See, it's so easy to get kind of tangented in here, but...
+[00:51:21] I just wanted to kind of like
+[00:51:23] highlight
+[00:51:24] It seemed pretty straightforward because from conceptual thing we had this and then you know what happened?
+[00:51:30] "Svelte happened."
+[00:51:32] I mean, the same week that I went and did my stream,
+[00:51:37] Uh,
+[00:51:38] Maybe it's because I did the stream and Dominic Ganaway comes like knocking on the discord and is like,
+[00:51:44] I want to show you something we've been working on.  This is while he was still working on the Svalte theme.
+[00:51:50] And he's like,
+[00:51:51] I think.
+[00:51:52] we figured out the model for async.
+[00:51:56] And he's like, I don't, we don't want people to worry about like suspense and to...
+[00:52:00] worry about
+[00:52:03] you know, transitions. Obviously we need something like suspense, but we don't want people to worry about the rip away feeling. I'm like, I agree too. We made a model that doesn't rip away either. And he's like, no, no, no. But...
+[00:52:15] Like this will never rip away and there's no transitions and you just do the thing.  And let me see if I can pull up an example to kind of.
+[00:52:25] Show what I'm talking about.
+[00:52:30] Let me grab one off X. I think I had some
+[00:52:34] Uh...
+[00:52:37] I think Rich Harris's original example is probably the best one here.
+[00:52:42] Uh...
+[00:52:46] Async holding, yeah. Let's pull up this example from this film.
+[00:52:52] Thank you.
+[00:52:53] I talked to Dom.  Dominic was, yeah, he was a little bit
+[00:52:58] frustrated at the time because he thought he had this really cool model and they weren't like, the rest of the team wasn't sold on it. He said over time that they basically ended up to where he wanted it to be.
+[00:53:09] He said it just took a little bit of time.  Because I asked him this the other day, because I thought that too.  When I saw this model come out, I was like, OK, maybe this isn't what Dominic was--
+[00:53:18] after but he's like it's basically got to where i i wanted it to be so um
+[00:53:24] Okay.
+[00:53:26] Well,
+[00:53:27] This example
+[00:53:29] Um...
+[00:53:32] I don't have a solid version right now.
+[00:53:34] But the classic example of this
+[00:53:37] And this is salt syntax. You have to take a moment to get used to it with the new stuff. But essentially you have state.
+[00:53:43] And then you have derived...
+[00:53:45] Async
+[00:53:46] computes or memos depending on it, like the drive values and essentially.
+[00:53:56] There's a counter and then we await a multiply which is faked out to be async. It's like half a second, up to half a second. But essentially it's just calculating this function.
+[00:54:09] And
+[00:54:10] And...
+[00:54:11] Each one gets inserted in the DOM.
+[00:54:15] If you had a naive tearing approach, I mean,
+[00:54:19] We can probably just build this example in a solid playground really
+[00:54:25] quickly.
+[00:54:29] Hmm...
+[00:54:32] I kind of want to do the old solid 2.0. I think most people
+[00:54:38] I don't have it right now.
+[00:54:42] to be fair, pre-built, and I probably should have.
+[00:54:46] But when you look at this code,
+[00:54:48] where you're just like,
+[00:54:50] Clicking a number.
+[00:54:51] doing some async stuff.
+[00:54:53] And that's it.
+[00:54:55] Um,
+[00:54:56] For the most part,
+[00:54:58] I actually added this part into this demo. Rich's demo originally didn't have this.
+[00:55:03] We can delete it for a second.
+[00:55:05] Rich's demo was like this, and you'd click the button,
+[00:55:11] And it wouldn't update right away. It wouldn't update until even though these are random.
+[00:55:16] It wouldn't update until
+[00:55:20] all of these
+[00:55:21] kind of
+[00:55:22] Amen.
+[00:55:23] Right.
+[00:55:26] Whereas if you see this demo, I feel like, actually, you know what? Maybe I should just remake it.
+[00:55:32] like really quickly.  I think it's really illustrative.
+[00:55:36] Hmm.
+[00:55:38] Um...
+[00:55:40] The best way to do it though.
+[00:55:45] The best way to do it is take one of my previous solid
+[00:55:54] Um,
+[00:55:55] 2.0 examples.
+[00:55:57] that I did on the playground, which means I might have to go back a little bit.
+[00:56:03] Um,
+[00:56:05] Thank you.
+[00:56:06] It's funny, I probably posted something very similar to this before on the loose guy, I'm just not going to find it right now, unfortunately.
+[00:56:13] Um...
+[00:56:17] Yeah, I'd have to go digging through Discord. This is so frustrating. I don't feel like doing it right now. This is too much of a tangent.
+[00:56:24] The thing is,
+[00:56:27] It's hard to show in a system that protects against it, but the naive approach
+[00:56:35] I can just do it in solid 1.0. It's not going to be as satisfying, but it's fine.
+[00:56:42] Because I don't have create async, so let's just drop the Svelte code in here for a second and look at how we translate this.
+[00:56:50] I don't feel like doing it in a stack blitz.
+[00:56:54] Thank you.
+[00:56:57] Alright, so we're gonna go function.
+[00:57:02] excellent to have down here yeah
+[00:57:04] Okay.
+[00:57:06] Never mind, let's do this.
+[00:57:12] put this in a fragment.
+[00:57:15] Thank you.
+[00:57:17] Thank you.
+[00:57:18] I'm using solid, but conceptually, this would be the same in pretty much any framework.
+[00:57:23] historically if I just
+[00:57:25] Take this.
+[00:57:28] Put this here.
+[00:57:31] format no too much stuff going on okay so then
+[00:57:36] What else do we want here? N is going to be a signal.
+[00:57:41] So we're going to make these all into signals. Can I do...
+[00:57:46] Command D use.
+[00:57:49] Thank you.
+[00:57:50] Okay.
+[00:57:54] Missed one, it's fine.
+[00:57:57] Thank you.
+[00:57:58] And these are going to be all signal...
+[00:58:05] Thank you.
+[00:58:07] Thank you.
+[00:58:08] And then this will be set n, n plus one, n plus one.
+[00:58:16] Thank you.
+[00:58:18] And then this is going to be n.
+[00:58:22] Set end.
+[00:58:24] I could probably just have used the increment
+[00:58:28] It doesn't matter.
+[00:58:30] And then,
+[00:58:31] we need to create the rest of the graph. We're going to keep this function out here.
+[00:58:37] Thank you.
+[00:58:37] And then we need to make the rest of the graph.
+[00:58:41] Which...
+[00:58:47] Can I format this yet? Yeah, thank you. And then...
+[00:58:54] And then these are going to be
+[00:58:57] in solid today, it's been a while since I used those, it's going to be create resource.
+[00:59:03] And then...
+[00:59:06] Just trying to think of what each one looks like. It's going to be like create resource.
+[00:59:11] It's going to be based on
+[00:59:12] And
+[00:59:14] And then it's going to be
+[00:59:16] Thank you.
+[00:59:18] multiply
+[00:59:22] and
+[00:59:24] one example, right?
+[00:59:26] Yeah.
+[00:59:28] And then...
+[00:59:34] Thank you.
+[00:59:35] Thank you.
+[00:59:36] Bye.
+[00:59:38] All right, I need to actually pass the value in. All right, then we need to do that.
+[00:59:44] Multiple times.
+[00:59:49] a  e
+[00:59:55] The
+[00:59:58] the
+[01:00:00] E.
+[01:00:04] And then...
+[01:00:06] Uh, what am I doing wrong here?
+[01:00:14] to
+[01:00:15] 3
+[01:00:17] four, five.  There's going to be something that I'm
+[01:00:21] missing
+[01:00:30] It's funny, there's like object to object on the end of it.
+[01:00:33] But it looks like...
+[01:00:36] It's doing what I wanted it to do.  I just don't.  I'm trying to think of what the object object is on the end.  Am I?
+[01:00:41] There's something that I'm just...
+[01:00:43] Because I don't
+[01:00:47] Oh, right, create resources at Tupple, isn't it?
+[01:00:51] Thank you.
+[01:00:51] My bad.
+[01:00:55] I've been so used to using creative async, it's so nice.
+[01:00:59] All right.
+[01:01:00] Yay, okay, sweet.
+[01:01:02] I remade the demo. Now,
+[01:01:05] Thank you.
+[01:01:06] Yeah, I'm going to create async. Okay, my point is, look what happens when I click this.
+[01:01:11] Thank you.
+[01:01:13] They all kind of just like flicker in as they feel like it all over the place.  If I click it like three or four times, it's just kind of like, ooh, yeah.
+[01:01:22] And you can picture
+[01:01:24] If...
+[01:01:24] I mean, this is guarded because rate resource has cancellation, but you could picture like in a lot of solutions if you're doing this naively, like even sometimes like if requests take different periods of time, like later ones might come first and like.
+[01:01:36] it.
+[01:01:37] Thank you.
+[01:01:39] Like, is this the UI you want? Whereas, you know, for example, if I click it multiple times, I mean, it does.
+[01:01:48] jumble a bit. So I mean, I'm not completely happy with that.
+[01:01:51] But...
+[01:01:52] Generally speaking, I click it once.
+[01:01:56] it ties this all together in a more consistent way.  And the important part that you have to understand here is,
+[01:02:06] I click this.
+[01:02:08] it doesn't change the 18 right away, even though
+[01:02:11] Even though I
+[01:02:13] I'm incrementing it.
+[01:02:15] Like if you look at the solid example here, when I click it, it's 33 right away. Like we can, we let's, let's make the, the base longer. Let's go like, look, this has to be plus 200 at least. Right. If I do that, look what happens.
+[01:02:31] This updates right away, but this, you know, whenever. Whereas if I do the same thing over here and go,
+[01:02:39] plus 200 on this new Svelte version.
+[01:02:44] it doesn't do it until everything's finished
+[01:02:49] So it's a bit like a transition, except there's no transitions here.
+[01:02:53] And I was like,
+[01:02:55] My first thought was like, this is kind of confusing because there's no importance. You think your UI is just slow. Like, why is your...
+[01:03:01] Why is this taking forever?
+[01:03:03] Right.
+[01:03:04] Like you click it and then it's like, oh, there it is.
+[01:03:08] Right.
+[01:03:09] I was worried. I mean, the truth is when you have transition, you get a pending state back.
+[01:03:13] And Svelte actually
+[01:03:16] Um,
+[01:03:17] does they have this effect dot pending it's kind of like a global and then this way you can kind of see right away dot dot dot and then goes it so that easy solve I just wanted to kind of show that I saw this model and it's interesting because it kind of looked like transitions
+[01:03:31] But
+[01:03:32] Um,
+[01:03:33] Thank you.
+[01:03:34] It wasn't. But this isn't the hard part about
+[01:03:38] transitions. The hard part about transitions is actually loading things off screen and not releasing what's on screen.
+[01:03:46] That's actually the hard part. Like when we had our example here, like
+[01:03:50] How is it that when I move over here,
+[01:03:54] I still have the counter counting up
+[01:03:58] like still reactive while it's literally loading stuff on this other page like.
+[01:04:02] If you look at this from a pure conceptual standpoint,
+[01:04:07] there's a decision here.
+[01:04:09] And usually,
+[01:04:10] When you switch from one, like in a reactive system with ownership, if you switch from one place to the other place, you have to dispose of the old stuff.
+[01:04:19] Right?
+[01:04:21] Um,
+[01:04:22] So even if we do some fancy stuff, you know, it's like not enough.
+[01:04:30] you
+[01:04:32] It is kind of like promise all.
+[01:04:40] Thank you.
+[01:04:42] But...
+[01:04:47] The important part is the consistency here, right? You don't like this.
+[01:04:54] is tearing.
+[01:04:56] This is all 1.0 that I'm showing here, but this is tearing. You've seen this before. Sometimes tearing is okay, but there were some studies that went into trust. We were talking about trust, right?
+[01:05:11] What if
+[01:05:12] A classic example, is the Movies app still up?
+[01:05:17] Movies app
+[01:05:20] solid movies at, but I don't want the solid one. I want the
+[01:05:25] Bye.
+[01:05:26] Who made it?
+[01:05:27] Okay.
+[01:05:27] taste.
+[01:05:31] Thank you.
+[01:05:33] Taste.js, was it?
+[01:05:35] movies out.
+[01:05:38] Thank you.
+[01:05:39] I'm only going to be able to do this once.
+[01:05:41] But the Angular example had tearing, and I started using this as an example of tearing, because as you click
+[01:05:47] Look at popular here.
+[01:05:48] If you look at popular movies, right? If I go to action,
+[01:05:54] Some of them are the same, so it didn't matter.  But it's going to show action before
+[01:05:59] or adventure here before it actually updates the movies.  We'll be looking at adventure and then the movies come in later.  This is a classic example of tearing.  Now you might say that this example is fine, but there's other places  where like you don't want to tear.  You'd rather show the correct header with the correct content.
+[01:06:17] Um,
+[01:06:18] You could argue that this is better than having a placeholder like like, you know,
+[01:06:23] It could have been
+[01:06:25] This scenario, right, where if I remove the transition again, how do I remove the transition?
+[01:06:32] Yeah, remove the transition.
+[01:06:33] It's better than like every time we move, sorry.
+[01:06:37] Thank you.
+[01:06:38] yoinking it out from under ourselves, right? Like,
+[01:06:42] You've seen apps like that.
+[01:06:43] you know,
+[01:06:44] Yeah.
+[01:06:45] me switching to animation didn't yank it out.  It just showed the old stuff a bit longer.  So this could be an intentional design.
+[01:06:53] But if I look at the solid one and the view one, what you'll see is as we change categories here,
+[01:07:01] We show a loading indicator.
+[01:07:04] And
+[01:07:05] we actually delay
+[01:07:08] switching until
+[01:07:10] Like,
+[01:07:10] the whole
+[01:07:12] content is available.
+[01:07:14] You can decide whether that's better or not.  The browser does this a bit internally called paint holding.  But this is like,
+[01:07:24] Thank you.
+[01:07:25] an example of like transitions.
+[01:07:28] This is a funny example because this is actually our server component example that never got released.
+[01:07:35] I think Nux does the same thing.
+[01:07:39] When I go here,
+[01:07:42] Yeah.
+[01:07:45] Yeah, these are not full page navigation, even though they look like that, intentionally so, because they use a form of
+[01:07:51] of basically holding.
+[01:07:54] Anyway, um...
+[01:08:00] well exactly what this is the question
+[01:08:04] that people ask. Like, what if, what if we do something a little bit more extreme, like,
+[01:08:11] make this, you know, let's make this three seconds.
+[01:08:21] Okay, here we go. Okay, we're in, right? That was actually really long, longer than three seconds.
+[01:08:27] But now when I click on it,
+[01:08:31] What saved us is that dot dot dot.
+[01:08:35] The pending indicator. Pending indicator gives us an idea of what's going on.
+[01:08:40] If I didn't have a pending indicator and I just
+[01:08:43] Just did this.
+[01:08:46] Thank you.
+[01:08:47] What is...
+[01:08:49] Okay, that just seemed longer than three seconds. You're like, did I get it? You're like clicking,  you're like, wait, did it work? Click it again? Did it work? Click it again? And then next thing you know,
+[01:09:00] What?
+[01:09:02] You...
+[01:09:03] So like...
+[01:09:05] You need the pending indicators, which is hard to default to holding. These are all reasons that I wasn't so sure about this as a default, right?
+[01:09:15] Right? Let's pick this apart here.
+[01:09:22] It's longer than three seconds Christians blocking. Yeah. Yeah. Like,
+[01:09:26] Svelte actually can do that tab demo with this model, which confused the hell out of me because I kind of understood what they're doing. They're just locking up the.
+[01:09:35] the reactivity, how the hell could they keep
+[01:09:38] the counter counting.
+[01:09:40] right? This was something that confused me. And I realized
+[01:09:44] only recently how they did it.
+[01:09:47] is that you need-- Svelte actually had an async Svelte
+[01:09:56] to get a discussion back in April.
+[01:10:01] And
+[01:10:03] Here, let's take a look here.
+[01:10:05] I think I get quoted in here.
+[01:10:08] Ryan.
+[01:10:10] According to Ryan in a stream, this is unsolvable issue  without explicit dependencies.
+[01:10:15] How do effects not run until all Async as drives are updated?  How do they do this smart stuff?
+[01:10:21] And Rich's answer is hilarious. We don't run them.
+[01:10:26] I haven't seen the stream, so I'm not sure why it should be impossible.
+[01:10:30] It's impossible from a
+[01:10:32] from a discovery standpoint, you don't know
+[01:10:35] what you depend on until you actually run it once, which is why I've been big on splitting effects because then you can
+[01:10:42] And it's the advantage of React's model with a separate dependency rate.
+[01:10:46] Right? Like if they get rid of the dependency arrays in React, they're just compiling them in essentially. They're not removing them. Do you understand what I'm saying?
+[01:10:56] They still happen before. There's two different phases. React renders your component.
+[01:11:01] and then it runs your effects after. So when it runs, renders your component, it actually knows  what the dependencies are because you told it. Compiled dependencies have a whole bunch of  shortcomings, as we know, like what if they use functions? What if the stuff's out of scope?  Of course, React answer to that is memoize the function itself, which  I think once you're down that path, you're like,
+[01:11:19] cuckoo or cocoa puffs, so to speak.  But if the compiler does it for you and you don't have to worry about it, maybe that's OK.
+[01:11:26] My point is that, like...
+[01:11:29] like,
+[01:11:31] Thank you.
+[01:11:33] they know the dependencies up front.
+[01:11:37] how
+[01:11:38] the Svelte node, well its compiler does, they basically look at the block, they look at it  within local scope and they actually associate it with like some kind of block concept whether it's  a DOM or whatever you want to think about it but it's it goes beyond the reactive system and they  use it to really smart effect because they identify these zones almost like from the UI framework from  the component level and they were like okay this is a zone that we can associate and schedule  these things with. They don't have to rely purely on runtime reactivities.
+[01:12:04] So I understand it's confusing because he's like,
+[01:12:08] we just don't run them because they are already collecting them in a place outside of the reactive system. Like they're already like in sense we had our queue, but like the work that I've done solid has been
+[01:12:18] *pff*
+[01:12:19] pretend nothing in the universe exists except signals.  This solution requires a compiler.  It requires a different scope context.  Like it requires...
+[01:12:29] some frameworky stuff to work.  But once you have it, it's kind of like an obvious answer.  You're like, just don't run them, right?
+[01:12:36] But it's important to kind of understand this distinction, which is why I'm bringing out
+[01:12:42] Thank you.
+[01:12:46] Thank you.
+[01:12:48] - The thing, what I've been trying to say this whole time is,
+[01:12:52] Different affordances are good for different use cases.
+[01:13:00] The thing is,
+[01:13:02] Routing resolving
+[01:13:04] can is a perfect example of where these async features come into play because you have pages  that you're looking at pages in the future pages that require data asynchronicity this is one of  the key places solid you've been using trans if you're a solid user you've been using transitions  for five years
+[01:13:20] they've been just baked into the router.
+[01:13:22] The only is pending indicator was is routing that comes out of the router. You guys just
+[01:13:27] maybe didn't realize it. Some of you did. I get issues every week. Do you want to see?
+[01:13:32] I bet you there's one right now. Solid router.
+[01:13:37] I try and put it in the readme, try and put it in the docs.
+[01:13:40] Let me look at here.
+[01:13:44] Defer stream false not working with anchor. Create a sync store deferred false works with page refresh which does not work with solid routers. Anchor command. When clicking anchor the entire page holds until the call completes.
+[01:13:54] This is a bug. It's not. But essentially,
+[01:13:58] This confuses the freaking hell out of people on a weekly basis.
+[01:14:03] I still think it's the right default.
+[01:14:06] I was okay with this. I built it into the design system, but I have some experience now seeing what the results of actually building this stuff is. And we've been doing this for years.
+[01:14:20] Thank you.
+[01:14:22] I mean, suspense is kind of like a promise all, but it's a non-blocking promise all.  You know what the problem with promise all is?  Whatever point that you put the promise all, you go, oh, wait, you're kind of like, stop.
+[01:14:33] Suspense lets you collect all the stuff independently,
+[01:14:36] and then figure out how to kind of
+[01:14:38] filter down. Obviously when you're
+[01:14:39] like,
+[01:14:40] Boolean show, don't show doesn't make a big difference. But I think it's important to understand that the non-blocking nature, which is important for SolidWitch renders once, you'll see like if I console log inside stuff that has suspense, you're not going to see
+[01:14:54] like,
+[01:14:55] The stuff that renders off screen, we keep.
+[01:14:58] when we insert it back into the page so like
+[01:15:03] our ability to actually, like, our ability to actually, um,
+[01:15:07] Uh...
+[01:15:10] how should I put it? It's like our ability to be non-blocking behind the scenes is actually to our benefit.
+[01:15:15] Obviously, if you have cascading fetches,
+[01:15:18] blocking is bad because if you await and then you fetch again, guess what? Waterfall. But more so,
+[01:15:26] like
+[01:15:27] you could you literally can render the whole shell of the stuff like and not repeat that work ahead  of time and what else are you doing twiddling your thumbs waiting for async work you know it's  the classic javascript problem so um
+[01:15:40] It's a little bit more complicated than promise all. It's the same reason why you don't put a weight in client-side components because different state updates can happen. You don't want to like block.
+[01:15:48] This is a fluid...
+[01:15:50] zone like async components.
+[01:15:53] can make sense in something like server rendering, which runs once. You know, generators actually make a lot of sense if you think about the way streaming works. But
+[01:16:02] Generally speaking, async components
+[01:16:04] make no sense.
+[01:16:05] Like there's too many different sources.  You don't want to get at all entangled in the same...
+[01:16:10] thing, right?
+[01:16:17] Yeah, looking at query clients is really, really quite like SWR or React query is really useful for understanding the mentality here.  When I showed Tanner the stuff that I'm trying to show today, he was just like,
+[01:16:28] He's like, it's like he got the primitives right away because he already had designed them himself from building query. Again, this is
+[01:16:37] Science, discover, you know.
+[01:16:40] But as I said, every so often someone surprises you, like Svelte did.
+[01:16:44] which really sent me kind of off.  Like they've had this for months.  I didn't really care much, honestly, though.  And we should talk about why my perspective changed here.
+[01:16:55] I mean, suspense used to have a timeout
+[01:16:58] you know,
+[01:16:59] The truth is,
+[01:17:00] I mean, yes, you could do something like that.  It's fine.  It's just...
+[01:17:06] You kind of never want to go back if possible.  I think obviously the affordances might not be strong enough,  but as long as you give people the tools for affordances,  I think it's okay.
+[01:17:22] Feels like state machines. I mean...
+[01:17:27] State machines are a great solution to managing lots of states.
+[01:17:32] Date machines are like a very way of, I think, you know, I call it the grocery list shopping, you know, like,
+[01:17:39] When you have a bunch of procedures and you're like, look, I need to categorize these procedures and understand what the state should look like at the end of each one.  State machines give you a very descriptive way of writing that, which is fine.  I just think they are verbose for...
+[01:17:55] simpler problems when you're like, I'm just
+[01:17:57] freaking updating some UI. Now we can say that everything is a state machine, you know, you can get metaphysical and we can go out there and it's true. I'm just saying like, kind of like RxJS it's.
+[01:18:08] it's one of those zones that
+[01:18:10] Thank you.
+[01:18:10] you know when you need it.
+[01:18:13] You know what I mean? Like you will get to that point.
+[01:18:15] But not every problem gets to that point.
+[01:18:18] And
+[01:18:19] It's funny, they solve very different types of problems.  State machines are really good.
+[01:18:24] you know, like RxJs and events are very good at solving a lot of transformational stuff over time.  And state machines are very good for reeling in all the random
+[01:18:34] the random like
+[01:18:36] state. The problem is
+[01:18:40] we're creating too much stain in the first place.  Like if we actually...
+[01:18:44] looked at state in a different way. And I actually had like a Twitter post about this, but
+[01:18:50] Um,
+[01:18:51] I mean,
+[01:18:53] Thank you.
+[01:18:54] Or was it?
+[01:18:57] *click*
+[01:18:58] Thank you.
+[01:19:00] I was saying that it was one of my use effect rants. I can't remember if it was after my last stream or not.
+[01:19:06] Hmm. Hmm. Hmm. Hmm.
+[01:19:13] Yeah, because that's isomerfic first, which we talked about with Tanner.
+[01:19:18] Yeah, here. Besides being
+[01:19:20] The perfect use of the meme, I know a lot of comments playing the firmware, sometimes the shape of the solution verification is less obvious than synchronization, but that doesn't mean synchronization shouldn't exist. We should all...
+[01:19:29] derive more.
+[01:19:31] Um...
+[01:19:34] Damn it, why can't I find it? There should be
+[01:19:40] Thank you.
+[01:19:41] It doesn't matter. My point is that
+[01:19:46] Thank you.
+[01:19:47] It's too many...
+[01:19:49] I know it's like right around here.  I basically blame useState for the problem with effects.
+[01:19:58] Yeah.
+[01:20:05] Thank you.
+[01:20:08] Yeah, I'm just like not finding it right now.
+[01:20:13] Why am I so bad at this?
+[01:20:18] *sigh*
+[01:20:20] It's been too long since I streamed.
+[01:20:22] I think that's the gist of the problem here.
+[01:20:25] I'm probably scrolling right past it.
+[01:20:30] Oh yeah, here it is. It's like literally the next stream. People give useEffect a bad rap
+[01:20:36] Thank you.
+[01:20:39] Let me drop this in here. People give use effect a bad rap, but it isn't usually the source of the problem. The real problem is too many use states. It doesn't fail to see how the data is connected and model it too discreetly. As those connections appear, it's easier to synchronize and refactor because basically instead of like changing how these things connect, you're just like, okay, I'll just like
+[01:20:55] call a set statement effect.  And once you start down the path, it's harder to refactor,  because you can no longer see what the dependencies are.  So because you wrote this one, and then you wrote this one,  it kind of just cascades out.
+[01:21:05] You can't look at data declarations and be like, oh, it depends on this.  You will have to find all the places you write to it.  And those locations depend on what writes to those.
+[01:21:12] And this isn't a React only problem. Some tools are better encouraged derived state, but none are immune. Yeah. And what I was getting at is state machines are like when you have too much state.
+[01:21:19] If you remember on the Remix 3 stream, I'm like,
+[01:21:22] I said something along the lines of Remix Tree and...
+[01:21:26] Um...
+[01:21:28] X-State we're going to be best friends and the reason for this is because I think their pattern even though it removes
+[01:21:35] Um,
+[01:21:36] stuff that shouldn't be state from a react standpoint like it removes like
+[01:21:40] temporary calculations because they're based on events. I think the pattern still, because it's not based on derivation actually creates
+[01:21:47] more state than you actually want.
+[01:21:50] because
+[01:21:52] you start writing to it from all the locations rather than deriving it. And for that simple reason, you will accumulate more state quicker and
+[01:22:00] um,
+[01:22:01] X-State will look very nice to you.
+[01:22:04] It doesn't matter if it's user factor or not. The problem is not deriving. That's the problem here, the core problem. It's not that...
+[01:22:14] that you're using Use Effect.
+[01:22:16] Anyway.
+[01:22:17] Come on.
+[01:22:36] Yeah, I like this vendor, you know there's not another vendor. You can easily opt out by two separate states, one for the counter, one for the derived, yes.
+[01:22:43] So yeah, I'm actually not criticizing Svelte since Svelte was actually incredibly
+[01:22:48] like illuminating the thing is i just the behavior was not what i liked
+[01:22:53] And the way they solved it was one that just
+[01:22:55] wasn't interesting to me because it literally relied on a compiler and it was i was just like  okay whatever and thirdly there's actually a third reason i looked at this stuff and i was like
+[01:23:05] You know, when I want to transition, I'll put in a router or something, or a specific use case like an action. I'll wrap it in our action query helper, who cares.
+[01:23:14] And then...
+[01:23:17] Unfortunately, or fortunately depending on how you look at it,
+[01:23:20] I had Ricky Hanlon
+[01:23:23] on
+[01:23:24] on stream and
+[01:23:26] He
+[01:23:27] convinced me that Svelte was right.
+[01:23:31] Which is a funny thing. You probably didn't realize he did.
+[01:23:34] Like,
+[01:23:36] All those critics aside, I had Ricky come on and
+[01:23:42] First of all, we all know how hard transitions are.
+[01:23:46] But having now...
+[01:23:49] watched
+[01:23:51] and work through the stuff on stream.
+[01:23:53] having
+[01:23:54] Watch the React Comp Talks.
+[01:23:58] talks, plural,
+[01:23:59] And
+[01:24:00] and learn with Jason.
+[01:24:03] I was like...
+[01:24:04] This is so hard.
+[01:24:07] It's the kind of thing that
+[01:24:08] like I find myself making mistakes on like forgetting to call the second star transition. Like I've done this on stream. I've done this like live. He's done it. We've all done it. And
+[01:24:19] I do it on stream so you guys are educated.
+[01:24:24] at a certain point you're just like Svelte doesn't freaking tell you what a transition is.  It just kind of works.  Um,
+[01:24:31] Um...
+[01:24:32] Maybe not exactly the way I want it to work, but...
+[01:24:35] Close.
+[01:24:37] And
+[01:24:39] The final breaking point for me was actually, let me...
+[01:24:43] Go back here. OK, let's bring back this. OK, yes. So we're in a good place. We're back to where we started.
+[01:24:49] OK, let's go to the dashboard.
+[01:24:55] It's funny how we pull away different stuff from the same examples. Where is it? React 19,
+[01:25:01] Async.
+[01:25:02] Me and Rick.
+[01:25:04] Made.
+[01:25:06] made it to do zap on stream.  And I was kind of baiting it a bit because I came up with this way to basically take the client app in solid
+[01:25:16] and not change it very much to
+[01:25:20] To make it async.  I basically had just wrapped the stuff in the actions in a transition, kept the same state updates for optimistic and everything just worked beautifully.
+[01:25:33] Obviously, it was a little more verbose because we had to figure out how to continue.  So I was like using generators like with yield.  I showed this actually on my talk.  Yeah.
+[01:25:42] uh,
+[01:25:43] Let me actually...
+[01:25:45] get that in here too why not
+[01:25:48] I'll show you.
+[01:25:49] Collection...
+[01:25:51] the onSignals talk. So sync to async complete. I'm going to drop this in the chat.
+[01:25:57] First, let me go to source main here.
+[01:26:04] Let's just drop this in the chat.
+[01:26:07] Thank you.
+[01:26:12] Thank you.
+[01:26:14] Thank you.
+[01:26:17] Thank you.
+[01:26:21] So, okay. I was proud of this example originally because I literally just took
+[01:26:30] the same client-side code. Like if you're just building the to-do app, you just like
+[01:26:33] remove to do, you just call this toggle, you just call this and just wrapped it in a transition.
+[01:26:38] And then
+[01:26:40] did the server action and refresh the data like i was like look without touching any of the other  code this just works that was what i was like hoping to show like and i was like pretty proud  of myself this has been something i've been working on a lot with with solid like server  functions we came up with server functions because we didn't want you to change your code  like change your client-side mentality we like that was the whole design like back in i originally  had proxies in 2021 when i was first working on this kind of like automatic rpc thing and then by
+[01:27:10] Heel came in and was like, let's use the compiler, right?
+[01:27:13] But that is basically why we came up with server functions.
+[01:27:17] and
+[01:27:19] I wanted to slot them into tan stack query.  I wanted to slot them into any existing library that existed.  I felt I was doing the same thing here.
+[01:27:27] Um,
+[01:27:28] Except, I mean,
+[01:27:30] Generator.
+[01:27:32] Who here knows what a generator is?  I mean, maybe people in the stream, but like--  and the problem is if you do an async function,  then you have this stupid resume.
+[01:27:39] thing or like because we wanted to connect them or you have to call start transition again, you know, like it just it is not
+[01:27:46] Nice.
+[01:27:47] Um...
+[01:27:48] Thank you.
+[01:27:49] I know that Ricky knows that. I built it into the router for that reason.
+[01:27:55] But
+[01:27:57] What Ricky did, I did not see coming. He knows people didn't want to call transition themselves. So he's like, what if you build transitions into the data fetching, which is like what we do if you look at solid router and our action query things, there's transitions in there.
+[01:28:13] And he's like,
+[01:28:14] What if the trigger
+[01:28:17] is built
+[01:28:18] into
+[01:28:19] the
+[01:28:20] event handler in the base component.
+[01:28:23] What he ended up doing in our example as we built it is at the top of the page where we have our stuff.  Yeah, we have an add to do action where we just await and refresh remove.  I mean, this looks like simple, easy to follow code.
+[01:28:35] And then...
+[01:28:36] If we trace this down to find where we call that, our to-do input has an add
+[01:28:42] to do action.
+[01:28:44] And if I follow that down,
+[01:28:46] we'll see that in here we start our transition.
+[01:28:50] Right.
+[01:28:51] And similarly...
+[01:28:54] Um,
+[01:28:55] If we go...
+[01:28:57] into each of these to do list. We have a toggle action and remove action.
+[01:29:01] And we even
+[01:29:03] Um,
+[01:29:04] I'll go into to do even further. Here we go. Toggle remove often. And we handle our optimistic state here locally as we needed and
+[01:29:12] We manage the transition with it.
+[01:29:18] What's cool about this is if these
+[01:29:20] components already exist, the developer
+[01:29:24] Um...
+[01:29:27] has pretty easy APIs to work with, right? They just await the thing. It seems pretty straightforward. But we started playing and composing and
+[01:29:36] We used Ryan Florence's select demo
+[01:29:40] as the basis
+[01:29:41] of this. For those who have not seen this demo,
+[01:29:45] Um,
+[01:29:47] It's,
+[01:29:48] It's just a cascading drop down.  It's the silliest thing ever, to be fair.
+[01:29:55] But we were like...
+[01:29:57] Thank you.
+[01:29:58] It's funny how
+[01:30:00] any
+[01:30:01] things just keep on coming back
+[01:30:03] to the stupid example. It's not stupid, it's a great example. It's just, it's
+[01:30:08] There it is.
+[01:30:12] Just to kind of show you this example.
+[01:30:17] Oh, I made a new version that added an extra level to it.
+[01:30:21] Okay.
+[01:30:22] The original demo didn't have a country selector, but it basically worked like this.
+[01:30:27] Right.
+[01:30:30] And
+[01:30:33] As you change the states, they would reload the cities and auto select the cities essentially and show the loading state and handle this. And this is like surprisingly
+[01:30:42] interesting problem because
+[01:30:44] The state.
+[01:30:45] that you update
+[01:30:47] impacts a different component, so to speak, right?
+[01:30:51] So this was a good test.  And as we played with the composition patterns,  we started noticing interesting things.
+[01:30:56] wanting to force suspense into the child components.
+[01:31:00] It was funny, I was working on a version and there was a guy in our Discord who really wanted to test Ricky's thing. So he just kept building examples in React. Tons and tons of examples of composition in React to see where we would land and compare them to what I was working on solid. He kind of almost like NerdSnipe because I was just doing my work and he's just like,
+[01:31:18] Why doesn't this work? Why didn't this work? I'm like, well, does it make sense for this to work? Should it work that way? Like, no, that doesn't make sense. So like, I got just dragged right into spending like a week playing on the versions of this, the, this demo.
+[01:31:31] Um,
+[01:31:35] Thank you.
+[01:31:40] Thank you.
+[01:31:44] Guys, don't turn around.
+[01:31:49] Yeah, yeah, exactly. Thank you.
+[01:31:53] It was very helpful.  That's how we ended up coming to basically producing what I'm very happy with.
+[01:32:02] in terms of like optimistic updates and the whole thing.
+[01:32:06] But.
+[01:32:07] During this process,
+[01:32:10] During this process of working through this demo,
+[01:32:14] Two things happened.
+[01:32:18] Let's see if I can find the original.
+[01:32:23] I've used this demo so much
+[01:32:30] It's actually kind of funny.
+[01:32:34] Let me go here to do.
+[01:32:40] Yeah, yeah, yeah, yeah, yeah. Look,
+[01:32:44] design async select like he's
+[01:32:48] This is how
+[01:32:50] they're pitching you consuming this stuff.
+[01:32:52] But.
+[01:32:54] you know, like where you have like action, action, right?
+[01:32:58] But
+[01:32:59] Thank you.
+[01:32:59] The one thing that came through this
+[01:33:02] was the Svelte version.
+[01:33:05] And
+[01:33:06] Thank you, Simon.
+[01:33:08] And I looked at it and I was like,
+[01:33:11] Mad.
+[01:33:13] Like,
+[01:33:15] Now,
+[01:33:17] This isn't generalized.
+[01:33:20] At the time, there's a solution to this now,  but at the time that they made this demo,  if you made this a general component,
+[01:33:25] you would have to do this too.
+[01:33:28] And that's a little awkward because when you change it, they both freeze, where you really only want the second one to freeze. The salt solution, I said, isn't
+[01:33:35] Global pending is not sufficient. It's not quite good enough.
+[01:33:38] But
+[01:33:39] The key part that I want you to look at here is,
+[01:33:42] Like the solid example, he literally has a stack of states that are derived.  If you look at, I don't have the exact solid example open right now.
+[01:33:50] This one is a little bit more complicated because it's got the third drop down.  But to add the extra drop down, all I had to do was add an extra select and add the similar state.  So it's just states derived at the top.
+[01:34:00] Fairly straightforward.  Exact same logic.  And then he just bound the data, bound the setter.
+[01:34:08] The end.
+[01:34:09] No transition, I think you just set the value.
+[01:34:12] And like,
+[01:34:14] I mean, props. I mean, it doesn't get slimmer than this.
+[01:34:19] To be fair,
+[01:34:21] I would be fine even if it didn't have the data mining. I don't like data mining.
+[01:34:24] But like just conceptually just being able to pass set state in right now.  Ricky's version has set state in passing because literally it's async design component and this is value action or something.  Right. Like we saw.  Right.
+[01:34:42] you
+[01:34:43] We saw in the...
+[01:34:46] tweet that I was showing Ricky showed. Yeah, like, you know, I mean, like,
+[01:34:51] this, right?
+[01:34:52] He is just passing, I think, where is it?
+[01:34:58] Oh, he's putting the data fetching in line. Okay, whatever.
+[01:35:01] That's weird. Anyway,
+[01:35:04] I can picture a very similar type of solution  because you've masked this away in the design components.  But then I started thinking, I'm like,
+[01:35:15] If I'm
+[01:35:17] Inside.
+[01:35:20] If instead of on click now, I'm using action.  So I'm inside this react thing, right? Sorry where we are.
+[01:35:28] Add to do action here, I'm inside here.
+[01:35:32] And forget that it's adding to do's in a way, but if I do anything in here,
+[01:35:37] If I add, if I set any state or do anything,
+[01:35:40] you know,
+[01:35:41] It could be related to what I'm doing, not related to what I'm doing, like kind of related.
+[01:35:48] You are in the transition.
+[01:35:51] You have felt behavior.
+[01:35:54] If, if, if, if.
+[01:35:56] Like essentially like not the same.  I like reacts behavior slightly better,  but like you have basically the same zone where you're,  everything's like walked up,  you know,  um,
+[01:36:05] If...
+[01:36:06] Like that's your baseline.
+[01:36:09] challenges,
+[01:36:10] Every single component in your ecosystem needs to migrate to this now to to actually benefit this in a clean way.  Now, this can be a slow process, a gradual process, but if this is the future and the writing's on the wall,
+[01:36:23] Obviously, if I'm React, I can't just pull the carpet on people.
+[01:36:27] Belts like surprisingly pulled the carpet on people multiple times and no one really cares, but, um,
+[01:36:33] who
+[01:36:35] like,
+[01:36:36] Thank you.
+[01:36:37] You know, I'm small, small, solid small too, you know?
+[01:36:41] And
+[01:36:43] I just looked at this and I was just like,
+[01:36:46] Well, it bugged me that if I could...
+[01:36:48] like update two different states and it all get tangled together in the Svelte version and like, like why, like,
+[01:36:54] like,
+[01:36:55] Like...
+[01:36:57] I actually have an example I'll show you in a minute what I'm talking about. It just occurred to me that I was just like,
+[01:37:03] If this is the future, if we're just
+[01:37:06] using this instead of on click,
+[01:37:10] then we're already in this Svelte world anyway.
+[01:37:15] So I had to stop and I was like,
+[01:37:19] the last if we're going to go this way the last thing i want to do
+[01:37:22] is
+[01:37:23] is force people to figure out when they have to call transition again.
+[01:37:29] like,
+[01:37:30] The problem is you're essentially introducing modes
+[01:37:33] You know, like you have
+[01:37:35] like even if this hides the transition, I'm still thinking about transitions because
+[01:37:42] If I put it in on click versus action, I actually have two completely separate modes of behavior.
+[01:37:49] Right?
+[01:37:50] There's no world that even if I hide the transition keyword,
+[01:37:54] that I'm not thinking about transitions here.
+[01:38:02] Thank you.
+[01:38:16] What's the JS output between slow and slow one?
+[01:38:19] Um, I,
+[01:38:22] Thank you.
+[01:38:23] I mean, if you want to see...
+[01:38:26] It's funny, not that example, this example.
+[01:38:30] So,
+[01:38:31] GS output.
+[01:38:32] What you're going to see is a bunch of compiled async. Yeah, look, promise all right here.
+[01:38:37] It's not, it's promise run.
+[01:38:39] But like,
+[01:38:40] They're compiling in
+[01:38:44] stop in organizing your code based on your async.
+[01:38:48] behavior, right? And then $async promises get this and then they like, it's very much into the system, right? If I find the solid version of the this original demo here,
+[01:39:01] Um...
+[01:39:03] Not the more advanced one with the triple. Sorry, we're just...
+[01:39:08] Yeah, whatever. I'm going to have to keep track of tabs here in a minute. Yeah, this is the triple one.
+[01:39:12] I love the triple one, just on the side.
+[01:39:15] It this is but
+[01:39:18] If I look at this one and we look at the dist here,
+[01:39:22] This is all the library code as well, so I can't quite playground it.  Let's start from where our actual component starts.
+[01:39:29] - Tch.
+[01:39:30] here.
+[01:39:32] Template code, okay, that's fine.
+[01:39:35] If you notice, the stuff above the JSX has not changed at all.
+[01:39:39] It's just create a sync signal, sync signal,
+[01:39:42] then create component, suspense, loading, children, do, do, do, do, do.  You won't see anything related to async.  So basically the reason it's a solid version is completely runtime.
+[01:39:51] There's no compiler augmentation, there's no blocks, no promise all.  Like it's completely like it's not analyzing your code in any special way.  It's just the classic, you know, create some render effects.
+[01:40:04] create some components kind of thing.
+[01:40:15] Thank you.
+[01:40:16] So find a family cell 0% converted, is that a word? Well, I'm not, I want,
+[01:40:21] Converted to what?  Like you, I'm just putting the,  I guess the question is people are,
+[01:40:29] I haven't really gotten to whether the async features are worth it.  And I'm probably not going to get into it in the stream.  Because this is one of the hardest things to show.  Because...
+[01:40:40] Thank you.
+[01:40:42] Oh, you don't find it controversial. Okay.
+[01:40:45] That's fine. We haven't got to the controversial stuff yet.
+[01:40:50] I mean, there's a little bit of controversy here,  but you can kind of see Svelte and Reactor agreeing about something.
+[01:40:57] And
+[01:40:59] by doing a little bit of a shift,
+[01:41:03] of mentality of what's first,
+[01:41:07] you end up in a fairly different place, which is interesting. It's similar, but it's different.  I was talking about how in this example,
+[01:41:17] Um,
+[01:41:18] in the React example here, once you're in here,
+[01:41:21] you're in the transition. Well, React has a solution for that. They have special optimistic state, and I think that's still a great solution because basically,
+[01:41:30] You define the quality on the state itself.  You have use state and you have like optimistic.
+[01:41:34] date, right? And depending on that, it behaves differently so that you can just call the setters you want in here. So everything can live in the world. That's your that's your trick. Like before they used to have used deferred value and stuff. You do these. It was actually more complicated and you do these things where you'd have to write something outside.
+[01:41:53] the transition and inside the transition, essentially, if you wanted to do like a typehead or tearing or something, create optimistic or use optimistic, the beauty of it.
+[01:42:00] is you can do the set in the transition, which lets them compose it like this.
+[01:42:04] So it completely works.  There's no shortcoming of just making everything like a transition like this.  The only shortcoming is the refactor cost.
+[01:42:12] which is something that you have to do as React,  but something a smaller framework would have to.  But like, it'd be more expensive probably on the, like,  because people haven't really opted too much into all our async features.  It'd be more expensive for people to probably
+[01:42:27] refactor cost than it is to change the behavior here. Someone asked earlier if I saw a bunch of breaking changes. The challenge is, it's not API changes, it's behavior changes. It's like when React changed to calling set state after. We can keep the exact same API except for splitting effects, essentially.
+[01:42:49] But...
+[01:42:51] But the timing changes, which I think is arguably...
+[01:42:54] harder to detect it and actually very breaking. So it's just the but all the simple demos will like  the 90% case will all just work the same as it always has. Do you know what I mean?
+[01:43:05] like,
+[01:43:06] It's just the last 10 become really hard to narrow down, which is scary.
+[01:43:13] But you won't need to refactor most code if it's written in a good way, which is an interesting dilemma.
+[01:43:23] Thank you.
+[01:43:24] Thank you.
+[01:43:26] The thing is, yeah, sorry, dev response 10 seconds in the component.
+[01:43:35] Most of the things here are about async entering the system.
+[01:43:41] How should I put it?
+[01:43:42] Our systems still are set up to be mostly synchronous perceptually,  but like how you have async await,  which gives you that illusion that you have a continuous flow,  that's what we're looking at here.
+[01:43:53] Um,
+[01:43:54] But we haven't got to the solid solution yet, to be fair.  So I need to continue, I guess.
+[01:44:06] Thank you.
+[01:44:12] Yeah, I mean, caching can be part of the solution, but mechanically at a fundamental level, in order to get these features, you know, like stuff like Tanstack should actually be tapping into React's render model.  It's hard because of like they have their own storage considerations.  But this is why stuff like transitions and suspense exists so that third party libraries can just tap into it and streaming just work.
+[01:44:42] and use that as your data layer instead of like our other stuff.
+[01:44:47] And essentially streaming just worked instantly because
+[01:44:50] It was built on a premise which handled the serialization.
+[01:44:54] We had the building blocks already there. It was literally just like no thought.
+[01:44:59] And I think that like,
+[01:45:01] That's why even with local personalities things,
+[01:45:04] The async permits in the framework are incredibly important because that's the interfacing point.
+[01:45:09] like tan stack query like how does how does it get from promise to state
+[01:45:15] We help it.
+[01:45:17] Thank you.
+[01:45:18] Thank you.
+[01:45:19] Thank you.
+[01:45:20] Thank you.
+[01:45:22] Right, that's on us.
+[01:45:25] Okay, so like so far,
+[01:45:27] Like you now you're kind of like at my starting point and I'm sorry it took.
+[01:45:31] almost freaking two hours to get there.  But,  um,
+[01:45:35] Like...
+[01:45:36] - Thank you.
+[01:45:37] I was,
+[01:45:40] pretty convinced here I was like I have to drop everything I'm doing to look at this
+[01:45:45] Like, if this is the future, how could we look at this any other way?
+[01:45:51] like,
+[01:45:53] Tricky.
+[01:45:56] I knew there's parts about the Svelte solution that wouldn't apply to us.  I'm not going to rely on a compiler.  Someone actually came to Solid Discord and was like,
+[01:46:03] you know, today or was like talking about compiler stuff. And I was like, no, not, not going to rely on a compiler.
+[01:46:10] But can we do something different than what React's doing here?  That was my kind of baseline.  Let me look at my notes and see where we are on it, because we kind of jumped around a bit.
+[01:46:19] Okay.
+[01:46:22] Okay, I know where I want to go next.
+[01:46:24] Okay.
+[01:46:26] Um,
+[01:46:28] We did talk about what transitions are and why they exist. Does anyone have
+[01:46:34] questions about why they exist.  Like...
+[01:46:38] why it's valuable to be able to
+[01:46:40] hold in the past.
+[01:46:43] Um...
+[01:46:45] I'll leave this one
+[01:46:51] You know, like,
+[01:46:53] I think it's easy.  We understand optimistic in showing the future.
+[01:46:58] But that only really works on mutations, because you know what you're going to change.
+[01:47:03] We all understand Taryn because we've done this
+[01:47:06] a bunch, right?
+[01:47:07] Like it's just kind of the default you fetch it and you use effect, right? Like
+[01:47:12] Here, terror.
+[01:47:15] 3 times 16 is not 45, but it's going to show that for a second.
+[01:47:21] You know?
+[01:47:22] Let's see if I slow this down more.
+[01:47:28] Right.
+[01:47:29] 3 times 3 is not 6.
+[01:47:32] But sometimes we do want to tear, right? So that we can have a loading affordance.
+[01:47:38] We understand
+[01:47:39] Placeholders, suspense is easy.
+[01:47:41] the hardest one to understand is Hold in the past and why it requires such complicated solutions like transitions.
+[01:47:49] Like,
+[01:47:51] Do you fundamentally understand, hopefully,
+[01:47:56] what I was not this example.
+[01:47:59] Um,
+[01:48:02] What I, oh, did I already close the tab example down?
+[01:48:06] It's fine.
+[01:48:07] I'll do one here. Like why?
+[01:48:12] I'll solve it, yeah.
+[01:48:13] why transitions
+[01:48:16] are important here if we want to continue to have... I don't have the counter on this example,
+[01:48:22] But why we want to continue to have this page alive and updating while we load the next page off the other side of the screen. Right. This is not easy to do. Somewhere there's a conditional.
+[01:48:31] that literally discards the one side and renders the other side.
+[01:48:36] Having both exist at the same time requires consideration.
+[01:48:45] Thank you.
+[01:48:48] Thank you.
+[01:48:50] Thank you.
+[01:48:52] Yeah, I mean, it depends. The problem is this is a trivial
+[01:48:57] Silly demo.
+[01:48:58] Picture this was like a shopping cart with prices and line items and like an invoice.
+[01:49:05] and that stuff took slightly longer to update.
+[01:49:09] You
+[01:49:11] This is not what you want.
+[01:49:14] There are cases where you want tearing, but this is not one of them.
+[01:49:19] Ricky has some great examples that he showed like a few weeks back on Twitter. I cover them in
+[01:49:27] when you kind of put them side by side, you're just like,
+[01:49:30] you realize, for me, this realization actually happened when I was working on React Native back in
+[01:49:36] 2016 time period as building a production app in React Native and
+[01:49:42] Um,
+[01:49:43] It was just kind of like,
+[01:49:44] The difference, I was looking at our existing native app, and I needed to get the performance, so I spent a lot of time performance tuning. But it wasn't just that, it was when I was looking at
+[01:49:56] like the affordances and the way it worked, this holding kind of pattern and last jittery state was super common. I was used to the web like
+[01:50:03] Like,
+[01:50:04] I don't know if I can see it on Twitter right now, but I was using to the like,
+[01:50:08] like all these like spinners and stuff on the web, right?  Like you just saw the Twitter spinner.  And native wasn't like that.  Everything was smooth and animated in.  Like, I think the thing is once...
+[01:50:19] you get the holding stuff.
+[01:50:22] See, when you have a spinning, it's fine to have placeholder stuff like spinners and stuff. But when you have that, you can't really transition the UI as much. It's very common in native to have content to content, which means that you get the smooth looking animations.
+[01:50:36] So holding is actually kind of like part of the equation to get that, like an animations in terms of transfer.  It was just when I started seeing those kind of things and then when I did the kind of like transition test with people and their perception of performance and speed,
+[01:50:50] Actually, even if it was the same speed or slower, they thought it was faster because of the way that it was like less intermediate states.
+[01:50:57] Like there are times and places for tearing, but I, I, I think.
+[01:51:02] I was okay with it being an often feature, to be fair, for the longest time.
+[01:51:07] But
+[01:51:08] It's freaking, it's really confusing because I think the reason it's confusing is because the  decide, like where to stick it in the chain is really hard. Do you stick it at the
+[01:51:18] the route, but then it's not your decision. Or does every place that you want this kind of behavior need to be opted in and then like,
+[01:51:26] What if something else comes related to it? It gets like what mode you're working in become like at least with the API that.
+[01:51:33] that
+[01:51:34] Ricky put forward, you're like, I am in an action. I know that I am in this zone. Like there's a mode switch.
+[01:51:41] Um,
+[01:51:43] Preforall is kind of scary.
+[01:51:45] Right. And the problem is you think, okay, well, what if I just zone the UI? Like, say, like, this is consistency zone, like the way we do suspense. This is something that I considered for a while too, especially when we were working on the Marco team.
+[01:51:56] And it was like,
+[01:51:57] The problem is transitions are global. It's like it's like inverse kind of situation like
+[01:52:04] It's the things that don't get caught by suspense.
+[01:52:06] You know what I mean? Like it's like,
+[01:52:09] Like technically what we there's like a mechanism in here where new suspense actually
+[01:52:17] It goes to fall back.
+[01:52:19] And so you can break out of transitions by using suspense.
+[01:52:24] Um,
+[01:52:26] But like...
+[01:52:28] And
+[01:52:29] It's the topmost level, so zoning it doesn't make a ton of sense because
+[01:52:36] You can't
+[01:52:38] you have to be able to provide the guarantees at the top level.  If someone wants something to be consistent, that is a global thing.
+[01:52:46] Um,
+[01:52:47] You could opt into tearing, but opting
+[01:52:50] into consistency doesn't really work.
+[01:52:52] Like,
+[01:52:53] from a zone style. You opt into consistently with the transition by wrapping the whole action from right all the way to end, not from a zone of the UI.
+[01:53:03] Yeah.
+[01:53:07] Thank you.
+[01:53:08] Hopefully that makes sense.
+[01:53:11] Um,
+[01:53:12] Where was I?
+[01:53:18] Sorry, let me grab my notes again. I kind of...
+[01:53:21] got on an impassioned
+[01:53:24] thing there
+[01:53:25] Okay, yeah, so I think
+[01:53:29] Thank you.
+[01:53:31] I think we talked about transitions and why. Yeah, I'm hoping people kind of get it. But that's a great question. I'm glad you asked because
+[01:53:43] I spent so much time thinking of every random way.  Like, okay, we don't need transitions if we bake stuff only into the router.
+[01:53:50] But even when I was trying to bake stuff into the router, this
+[01:53:54] room
+[01:53:55] Even if you like
+[01:53:56] Kind of.
+[01:53:57] manually manage the fork yourself of the next page, you need it to go from being like special version to being the version and like swapping it in.
+[01:54:07] And then everything ends up flowing through like
+[01:54:10] this top level API interface. Like it just didn't work.
+[01:54:14] with any level of nesting.
+[01:54:16] Like,
+[01:54:17] So I tried to avoid transitions for like a year because they're in one solid one.
+[01:54:23] and I was like man these are complicated they're buggy even it's all one they're buggy I'm like I  didn't want to go there again.
+[01:54:29] and then I implemented them completely
+[01:54:32] one way using forking of the graph, which is like my ideal form that I thought, like what I'd learned.
+[01:54:38] In Solid 1.0, when I first released it, we had transitions, which kind of just added some extra
+[01:54:45] transition fields onto the signals.
+[01:54:47] But the graph shape
+[01:54:49] kind of stayed the same, which was awkward because then I had to like make this custom code to around disposal and like trying to figure out what I was doing. And around 1.3, like the three months after Solid 1 came out, I started working on like a better approach that actually cloned the nodes and did forking. I got like,
+[01:55:07] *fart*
+[01:55:08] Decent place.
+[01:55:10] And then Milo kind of took over and I kind of moved on to work on like other features that I needed to do for solid.  And then Milo.
+[01:55:18] disappeared for a bit.
+[01:55:19] To be fair, he was in school.
+[01:55:23] But when he came back, I'm like, so how did the transition stuff go? And he's like,
+[01:55:26] Oh, I stopped working on that and I built a different signal library called Reactively that does everything lazily and blah, blah, blah, like which.
+[01:55:35] was good because that kind of
+[01:55:37] Triggered the whole like signals thing in 2021 like the or I guess for the 2021 or 2022 like when preact and all that came out, it was like right after Milo was doing all that work.
+[01:55:50] And
+[01:55:51] uh,
+[01:55:54] Essentially,
+[01:55:58] that solution never worked. And then I just remade one of that design that actually worked.
+[01:56:04] And now I'm
+[01:56:06] talking about, as I said, a fourth version to these transitions.
+[01:56:11] Thank you.
+[01:56:13] The thing that doesn't make sense to me is if you have a state graph that can be independent of the view, React can't. Why not have the view be the thing that's holding optimistic, etc?
+[01:56:22] consistency of data flow and cascade of like,
+[01:56:26] Like...
+[01:56:28] To be fair, we don't...
+[01:56:30] You're right. And in a sense, it is the view that handles it in the latest model that I'm working on.
+[01:56:40] We need
+[01:56:42] the blocking behavior to prevent waterfalls.  But if you actually look, when we get into my new solution,  it's only the render effects that are special.
+[01:56:54] So, yes.
+[01:57:00] oh come on
+[01:57:04] There we go. Sorry. StreamYard sometimes freezes up. So I'm going to have an independent state graph. So I think there's actually a different path here. It sounds kind of like zoning you mentioned. I don't fully get the issue here.
+[01:57:14] Thank you.
+[01:57:16] Thank you.
+[01:57:17] It's because for something to be consistent, it has to be universally consistent is kind of like the problem.
+[01:57:26] Well, transitions don't need async local storage, but...
+[01:57:35] And to be fair,
+[01:57:36] actions.
+[01:57:37] still have the same problem like like when you're doing in a mutation because it's not tied to the graph.
+[01:57:42] But we'll get there, okay.  So this is good 'cause this, let's,
+[01:57:46] Let's talk about consistency for a bit because
+[01:57:50] We've already talked a bit.  One of the key parts for transitions  was splitting the effects because I wanted to be able to run  and know the dependencies up front.
+[01:57:58] so that we can make decisions, especially in the case of lazy systems, be able to pull and know, you know, that you've hit all the async stuff and that it actually is because because.
+[01:58:07] your effect could be under a suspense boundary and not trigger the transition.
+[01:58:11] Like there's ways that you can opt out.  You actually have to wait until it propagates down to the effect,  which means you have to run the effect to actually know and then
+[01:58:18] by then kind of
+[01:58:20] It's too late if you push it off. That's why it's split effects have become a thing.
+[01:58:27] Um...
+[01:58:28] What I wanted to actually talk about is about consistency in general and
+[01:58:33] and we should
+[01:58:35] I wrote an article a while ago. Let's see if I can find it. Consistency.
+[01:58:40] cost of consistency in UI frameworks. Maybe not nearly as popular as it should have been, but who knows.
+[01:58:48] This is a...
+[01:58:52] Thank you.
+[01:58:53] Thank you.
+[01:58:54] I made a very simple example.
+[01:58:57] In React.
+[01:58:58] We've seen this before. State,
+[01:59:01] Memo.
+[01:59:02] Right.
+[01:59:03] And then I set some state and I went,
+[01:59:06] Log, log, log, log.
+[01:59:08] And I made this example in Vue, I made it in Svelte 3, and I made it in Solid.
+[01:59:14] And
+[01:59:16] We all got different answers.
+[01:59:18] React was 000 because it doesn't update it right away. View was 120 because it updated, you got the most recent count and the most recent double count, but
+[01:59:28] The DOM hadn't updated. Svelte was 1 0 0. Svelte updated the count, but this is before it had signals.  So no way of having the drive stay until it ran the component again. Svelte used to be almost like a VDOM.
+[01:59:39] until version 5.
+[01:59:41] And then solid had all the dates up, all the numbers up to date, because it was the same.  It was it actually just flushed right away when you did count it.  Just unless you opted into batching solid.
+[01:59:51] I basically made a hedge when I made solid that because we were fine-grained enough, like...
+[01:59:57] the updates won't be that expensive.
+[02:00:01] And if you cared about it, you could dispatch. Now,
+[02:00:07] This is an interesting
+[02:00:08] thing because over time
+[02:00:12] solutions have changed.
+[02:00:14] Belt now is the same as view.
+[02:00:17] here with Svelte 5. And Solid 2.0, what I was working on until
+[02:00:22] Um...
+[02:00:23] you know, a few days ago,
+[02:00:26] is actually
+[02:00:28] the same view as well.
+[02:00:30] We all collided. We're like, it's OK, we understand.
+[02:00:33] we had to acknowledge that there was like an inside and outside the system.
+[02:00:37] which is something that is worth kind of talking about. As much as I love
+[02:00:42] One, two, two, two.
+[02:00:43] and zero zero zero because they're both consistent.  Zero zero zero causes people to throw, pull their hair out, apparently, you know,  because they're like, I set the count.  Why is the count not updated? Right.
+[02:00:55] And
+[02:00:58] One zero zero is just weird.  Although at one point in this article, I'm like, maybe we just go with it because it's like,
+[02:01:04] It's like...
+[02:01:05] the kind of native you set the count, you see the count, but then you keep the other stuff in the past.
+[02:01:09] But I was really debating through this because in solid batches, we worked like react.  Essentially, if you used a batch, you got zero, zero, zero.
+[02:01:18] Um,
+[02:01:19] And my conclusion for SOLID 1.5 when I finished with this article
+[02:01:24] Sorry, did I post this in chat? Did I forget to post this article in chat? Let me see if I...
+[02:01:31] Oh, no, I did, I did.  I posted in chat.  Never mind.
+[02:01:34] My conclusion in the end was that
+[02:01:37] Solid after this changed was 1222, and when you're inside the batch, it's the same as you, 120. We would do early work,
+[02:01:44] If you read like basically if you never read double count,
+[02:01:47] you know, here, we would defer the work until the end of the batch and do it then. But if you didn't early read, we knew from the notification of the signals that it was dirty. So we could we could do the work ahead of time. That's that's kind of essentially where we landed.
+[02:02:02] um,
+[02:02:03] Because batch in solid used to be like this and it used to drive people crazy.  Do you know what else was like this?
+[02:02:08] transitions.
+[02:02:10] because
+[02:02:12] there's a reason for this because of like async but generally speaking um
+[02:02:18] Thank you.
+[02:02:19] The signal world has moved to Views model 120 and React is state of 000.
+[02:02:24] Right.
+[02:02:26] And I talk about this, like there's ways to get the other numbers in the other systems and
+[02:02:34] people have their different opinion
+[02:02:36] Some people were like,
+[02:02:38] Temporarily invisible changes X consistent with lazy recount like this gin who made a
+[02:02:43] mall or whatever.
+[02:02:46] Um...
+[02:02:48] uh was like views the only right way and i think a lot of signals people felt it that way
+[02:02:52] But
+[02:02:54] Yeah, he said solid's consistent, but instant recalc is an optimal.  Like there's no winning this battle. I mean,
+[02:03:02] temporary invisible changes is that a problem i don't know it depends  this really put into emphasis that in all these cases the reactive system
+[02:03:12] because of the smart, like how it renders and how it runs in order,
+[02:03:17] Always saw the same thing.
+[02:03:18] In all our systems, the reactive system always got ran once and got the most update to date values. By the time you get to doing the DOM, you have all the right values in place and like there's no problem there. This only matters inside your click handler.
+[02:03:32] or maybe inside of your useEffect callback.
+[02:03:37] but
+[02:03:38] essentially because the reason that that's the reason why this article came up
+[02:03:42] solid batched RFX.
+[02:03:44] automatically because we didn't want to like freaking it doesn't work to be all jittery when you're in the process of queuing, running your effects queue. And we had this zero zero zero behavior, which basically
+[02:03:56] drove a lot of people nuts because they'd be they'd set the signal and then they read the signal  like why is this not updated and it was really confusing for them
+[02:04:03] Pardon me.
+[02:04:05] Knew that making this decision might be a mistake sometime down the road, but this was like,
+[02:04:11] It was like an OK concession.
+[02:04:13] you know,
+[02:04:17] Thank you.
+[02:04:19] Thank you.
+[02:04:21] Thank you.
+[02:04:26] I mean, 1.20 is easy.
+[02:04:30] like it's the most obvious thing to do with signals.
+[02:04:34] The problem is 120
+[02:04:37] Um,
+[02:04:42] The problem isn't that 120 is easy. The problem is that
+[02:04:47] And not even that it's inconsistent.
+[02:04:49] It's that when you add async, it can no longer be guaranteed, which I'm going to get into this in a second because...
+[02:04:55] I...
+[02:04:56] I...
+[02:04:59] Let me show you... so we're now all 1, 2, 0.
+[02:05:04] And then let's look at this.  I'm going to show this example.
+[02:05:10] I remade our example in Svelte and let's add the console in here too.
+[02:05:15] I didn't do the DOM ref, we all know the DOM is going to drag behind, we don't care. So when I click this, 1, 2, console log 1, 2.
+[02:05:22] Not surprising.
+[02:05:24] Yay, 510.
+[02:05:25] We get it, right?
+[02:05:28] Now, the most logical thing for a signals library is
+[02:05:33] to have this behavior. We're used to it.
+[02:05:35] And then
+[02:05:36] But let's throw a wrench in here.
+[02:05:41] Let's make double count derived.  It's now awaiting
+[02:05:47] to do it.
+[02:05:48] Now,
+[02:05:49] I'm going to hide the console for a second.
+[02:05:52] We know...
+[02:05:53] that Svelte will hold it, so we're going to see
+[02:05:56] a second, half second, and then it's going to show the stop.
+[02:05:59] Like as you expect, right?
+[02:06:02] Sweet.
+[02:06:03] That makes sense.
+[02:06:04] But look at our logs here.
+[02:06:06] We're back to 1-0.
+[02:06:07] like we had before.
+[02:06:09] Um,
+[02:06:11] Let me just...
+[02:06:12] I got this again, okay.
+[02:06:14] And what happens if I click really fast?
+[02:06:18] Oh, 102030.
+[02:06:21] I mean, it makes sense. We don't have the async value.
+[02:06:24] We can only show
+[02:06:28] what we have.
+[02:06:33] Thank you.
+[02:06:37] Right? So, and the point is, this is pretty obvious that this delay is happening here, but we already saw...
+[02:06:49] from our other example, because we're holding state or other drive state.
+[02:06:57] if there was an async triple count, like drive count,  like if there was a chain, they would all get held as well.  I mean, maybe that's a better...
+[02:07:08] like maybe that's a better example let's let's try this double count
+[02:07:15] QuadCount, let's do this.
+[02:07:19] Thank you.
+[02:07:21] Thank you.
+[02:07:27] Thank you.
+[02:07:27] Thank you.
+[02:07:31] Did I screw something up?
+[02:07:34] Thank you.
+[02:07:35] Oh, they're warning me that there's an async waterfall.
+[02:07:39] Does that make any sense? There's no waterfall, there's only one await.
+[02:07:42] Thank you.
+[02:07:46] Thank you.
+[02:07:49] Let's put quad count in here.
+[02:07:54] Thank you.
+[02:07:57] Thank you.
+[02:08:07] Okay, so this derives as far as it can go.  I suppose if I move...
+[02:08:12] Or if I move.
+[02:08:14] I guess the better example is if I moved it here.
+[02:08:20] And then I remove this here.
+[02:08:27] Thank you.
+[02:08:28] And let's pretend our event is not aware of double count.  Someone-- like, you know what I mean?  Like, I'm just saying we added a weight somewhere.
+[02:08:35] And now,
+[02:08:37] We're not aware...
+[02:08:39] of
+[02:08:40] Double count in our component. We only got quad count. Okay.
+[02:08:45] We click and we're like, oh, what happened?
+[02:08:50] My point is if you depend on this behavior of derived inside your event handler or whatnot,
+[02:08:57] like pretend it's not adding a number. Pretend you derived
+[02:09:02] something's like
+[02:09:04] length and you removed an item, you removed the last item.
+[02:09:08] So then you look at derived pages length and you try and index a value that's missing in an array and it actually crashes on you.
+[02:09:18] This is possible.
+[02:09:19] Right? Because...
+[02:09:21] Because...
+[02:09:24] Adding async
+[02:09:26] compromises your ability to show derived values early.
+[02:09:29] And it could be somewhere downstream.  It could be like-- it's hard with a simple example  to do this because it's like--
+[02:09:38] You know, like, it's right in front of you.  It's a simple example.  But, like...
+[02:09:43] It's possible.
+[02:09:45] that
+[02:09:46] The difference between this.
+[02:09:48] This thing...
+[02:09:49] Double count.
+[02:09:51] and count.
+[02:09:53] is the difference between
+[02:09:57] Thank you.
+[02:10:00] you getting zero for your number you care about,  or you getting the correct result.
+[02:10:06] And it's especially confusing when...
+[02:10:09] Count is updated too. So like...
+[02:10:13] There's only really one way to think about this.
+[02:10:16] It's that
+[02:10:19] there's a difference between being inside the system and the reactivity and the rendering and the components and being in
+[02:10:25] an effect callback or an event handler.  These are different zones, so it's not different modes.
+[02:10:31] different zones.
+[02:10:36] Thank you.
+[02:10:37] Thank you.
+[02:10:38] Thank you.
+[02:10:39] Right, I mean, what you end up doing is you, I don't know, does Sveltehub have an OnSettled or like a...
+[02:10:45] a weight tick or something like that you end up you the only thing guarantee that you that you you  basically go um
+[02:10:54] I'm just gonna let it resolve out and then I'm gonna do it, right?
+[02:10:57] There's another mechanism Svelte has where you can ask for eager, but you can never get what you don't have.
+[02:11:05] This is just the reality of async.
+[02:11:11] This would happen with solid today.
+[02:11:14] But if you added a resource in between.
+[02:11:18] It would.
+[02:11:19] Yes, I'm not picking on salt here.  I just want to comment here so you kind of start understanding that.
+[02:11:26] how
+[02:11:27] async
+[02:11:28] Um,
+[02:11:30] sort of throws a wrench on your expectations.
+[02:11:32] Now, don't get me wrong.
+[02:11:34] It does not impact any of this logic in here. Your component, your actual like way you wire the graph, the way you build out like your UI is not impacted by this. You have perfect guarantees. Everything runs exactly as you expect. It only impacts stuff.
+[02:11:50] outside the system.
+[02:11:53] Right? And I think this is important to understand because
+[02:11:59] Thank you.
+[02:12:00] Like there's consequences. Do you know what I mean? Like you, you,
+[02:12:04] Adding async somewhere...
+[02:12:06] Thank you.
+[02:12:07] If you don't account for that,
+[02:12:09] here,
+[02:12:12] King Cause Code 2.
+[02:12:14] error to crash.
+[02:12:17] You could separate this in space, have the async somewhere else.
+[02:12:22] And
+[02:12:23] this code can error.
+[02:12:24] because someone changed a dependency or added a dependency or did something.
+[02:12:31] Thank you.
+[02:12:33] Signal isn't the place for async. Well, it...
+[02:12:37] I mean, I'm not saying that I'm just saying like this async
+[02:12:43] E-
+[02:12:44] If you have inconsistency, you can cause stuff to break.  Do you want to know like.
+[02:12:50] One another example.
+[02:12:53] Sorry, give me a second here. No, not in here.
+[02:12:58] Um...
+[02:12:59] Thank you.
+[02:13:00] Let's see what it, oh yeah, I copied some code.
+[02:13:04] Thank you.
+[02:13:06] This is just illustrative here.  So let's not like, I'm just gonna copy this  into an empty playground so we can just look at this code.
+[02:13:15] This was dropped on me when I was in...
+[02:13:19] Yeah.
+[02:13:19] on the discord and you can see what i'm talking about
+[02:13:22] This is some solid code.
+[02:13:24] Don't worry too much about what this is.  But the idea is you got signal,  you got some async, you fetch some value,  and then you choose to show the button,
+[02:13:34] Thank you.
+[02:13:35] based on
+[02:13:38] whether
+[02:13:40] the value is set. So initially it's zero. So value is zero. So there's a button that lets you do something with the value.
+[02:13:47] Otherwise not. Now, my question is,
+[02:13:50] person clicks the button.
+[02:13:52] right, sets it to one.
+[02:13:54] And this takes some...
+[02:13:55] Async time.
+[02:13:57] Now, we're in this universal transition world where the stuff is all still present and alive.
+[02:14:05] So this is still true.
+[02:14:06] even though this is no longer true, and someone
+[02:14:09] calls this
+[02:14:12] button. They click the button inside.
+[02:14:14] What is, what should value be? Should value be
+[02:14:18] 1 or should value be 0?
+[02:14:24] Thank you.
+[02:14:31] - You're asking the right question.
+[02:14:39] Thank you.
+[02:14:40] Thank you.
+[02:14:42] Yeah, these are all fine.
+[02:14:49] things. You could say, wait for it. I'm saying, but your existing code
+[02:14:54] has to
+[02:14:55] be aware if someone goes in this, this has been one of the most interesting challenges with doing this is we're creating seamless async.
+[02:15:04] Yet
+[02:15:06] That only works if people don't have to refactor their existing code.
+[02:15:11] generally or it's not that they might have to refactor and this is your fair on your point  well you should you know put the weight or whatever it's they might need to refactor their existing  code but if they build with best practices the addition of async should not cause a
+[02:15:26] code to have to change.
+[02:15:28] That is because it's too permissive within the graph.
+[02:15:35] You can sync with the resolve helper.
+[02:15:37] But yeah.
+[02:15:39] I just wanted to throw this example. I want you guys thinking about this.
+[02:15:46] Now, single wrapping promises is an option, because then you could always force the waste in, but that also has
+[02:15:56] some interesting consequences in terms of API shape, because now you're taking signal of
+[02:16:02] value or promise of value, like generically from a component composition. To be fair, I've been seeing a lot of that happen in React. But you all know, I mean, this is my own constraint I'm putting on here. I want it, I want,
+[02:16:18] I've been working on a system where async is colorless.
+[02:16:22] That is one solve.
+[02:16:24] But.
+[02:16:26] Thank you.
+[02:16:26] But, you know,
+[02:16:30] In this version, this could be async or not async.
+[02:16:36] you know,
+[02:16:40] Thank you.
+[02:16:42] But you have to know to do that. Yeah.
+[02:16:50] But the TypeScript tells you, yeah.
+[02:16:53] Thank you.
+[02:16:56] The trickiest thing is you can do that inside the reactive system.  That's why the reactive system has no problem, but in an event handler...
+[02:17:02] you're no longer tracking, you don't rerun
+[02:17:05] events. They're not expected to be reactive. They're kind of outside the system. I'm doing  this on purpose because I want people to see that there is a definite inside and outside the system.  There's a zone in which...
+[02:17:18] the inside the system which works seamlessly beautiful the decisions on the outside are all messy because
+[02:17:25] the
+[02:17:25] The reality is
+[02:17:27] we live in an actual, like the JavaScript is a different world than what is inside our frameworks.
+[02:17:34] Now, React has always been very simple. It's like, it's our components.
+[02:17:39] That's our magic zone.
+[02:17:41] where we control and have different rules.
+[02:17:45] In our case, it's our reactive graph.
+[02:17:48] In Svelte's case, it's wherever we choose the compiler to touch.
+[02:17:55] Um, but like,
+[02:17:59] I just wanted to kind of like
+[02:18:04] I'm not necessarily saying what the right answer is, although I suspect that this should say zero here. That's my gut feeling.
+[02:18:11] But...
+[02:18:12] Like,
+[02:18:13] This is the kind of consistency thing.  And for this to be zero,
+[02:18:18] Traditionally?
+[02:18:20] or at least as a default.
+[02:18:22] then
+[02:18:23] you really have to think back to
+[02:18:27] The only way this is zero is if this is zero.
+[02:18:29] Right?
+[02:18:31] Which means...
+[02:18:33] I mean,
+[02:18:34] Surprise, do you think React thought of this issue 10 years ago?
+[02:18:39] I'm willing to bet they did.
+[02:18:44] Thank you.
+[02:18:47] We'll end up with manual fine-grained reactivity. Well, I mean, this is the thing, right? If you really, really need this capability, you're going to be calling flush.
+[02:18:56] You know?
+[02:18:57] or a wait flush, right?  I told you that Remix would come up on here.  You'd be calling update.
+[02:19:04] you know,
+[02:19:05] if you really need to know you'll be like my gut is
+[02:19:10] If you write code in a certain way, you shouldn't have to worry about derived values.  The thing is, whatever you set,
+[02:19:15] you have right here
+[02:19:17] Like wherever you do the set, you have the value set.
+[02:19:20] So you don't need to read from the signal again, in most cases.  There are a couple exceptions, especially around controlled inputs and stuff.
+[02:19:26] And there's a solution for reading the latest value without having to wait on it.  But for most things...
+[02:19:32] you are
+[02:19:34] If you really need to see the result of your work, you're going to call flush or call update.
+[02:19:45] Thank you.
+[02:19:48] Rick Hanlon not here confirm yeah I don't I don't know he said he'd check it out but maybe he'll check it out later
+[02:19:59] So transitions of forking. Well, I haven't got into that. The interesting thing is
+[02:20:04] Svelte doesn't fork.
+[02:20:06] you
+[02:20:08] I mean, they have a fork feature that they just showed off on Blue Sky the other day, but Svelte's transition of behavior doesn't fork. They literally just
+[02:20:16] hold the effects based on the compiler with the DOM zone and they
+[02:20:21] they must handle their cleanup in a different way because I think it's because their conditionals are built into the templating language like if blocks and
+[02:20:28] aren't
+[02:20:29] a generic reactive
+[02:20:31] mechanism. They're literally...
+[02:20:34] like their if and each are literally like blocks within their like UI framework.  So they hold based on blocks and Svelte basically uses the fact  that it knows that it's rendering UI and using its advanced compilation  techniques to accomplish this, which I said isn't very helpful because
+[02:20:52] Solid...
+[02:20:53] doesn't really care what you do with the signals.
+[02:21:00] Thank you.
+[02:21:04] Yeah, I'm not sure.
+[02:21:12] Amen.
+[02:21:14] so
+[02:21:15] Yeah, he's...
+[02:21:22] Well, the interesting thing is, I am actually arguing that that is the case.
+[02:21:30] Inside the system it doesn't matter because inside the system if something's not ready it throws.
+[02:21:35] So when you're
+[02:21:36] like, and it doesn't throw the whole component.  It just throws inside the graph.  That's if you've ever seen my,
+[02:21:42] Let me see if I can move this site.
+[02:21:46] You see my beyond signals like nested fetching example.
+[02:21:50] in solid.
+[02:21:52] Okay.
+[02:21:53] I literally just...
+[02:21:56] have a component,
+[02:21:57] A, render component B and fetches its own data.  B, fetches its own data and renders C. And C,
+[02:22:02] fetch its own data and renders its own information.  And these all happen in parallel because it's not blocking.  We only block the expression where it's read.
+[02:22:10] So bfetches
+[02:22:13] It renders...
+[02:22:14] throws in here but still can render the rest.  C fetches, throws in here, renders the rest.  This is native to the solution.  It's funny, Svelte recently released the same demo,
+[02:22:24] And I was like,
+[02:22:26] Again, I was like, he called it out of order rendering or something like fancy name.  And I'm like, isn't.
+[02:22:33] I was confused by it because I was like,
+[02:22:35] Like for us, it's just a property or reactive system because we're fine grained.  It's felt because they tie their async to the blocks.  They actually had to come up with a really clever solution using their compiler to actually accomplish the same kind of parallel behavior by analyzing and figuring out how to slot it.  For this, if we look at the actual...
+[02:22:54] generated code.
+[02:22:57] you get what you're going to see
+[02:22:59] is...
+[02:23:00] Like...
+[02:23:01] Create async.
+[02:23:03] Read it down here.
+[02:23:06] Create async, read it down here. Yeah, there's some like element walking, but literally no special case code. This is literally just how the reactivity works.
+[02:23:13] and
+[02:23:20] It's all called a time travel. No, I didn't.
+[02:23:34] This your version not svelte. And while we're in a sort of syncing a signature this
+[02:23:40] is probably the smallest it can get. Yeah.
+[02:23:53] Are there visualization how the graph lives while updates? Solid DevTools does that. It actually shows the signals and then you can see. I would love to see if we could link in the IDE. It would be really cool to like, when you like,
+[02:24:08] Trace like
+[02:24:09] What causes this the update or whatever?  It'd be cool.  Anyway, um...
+[02:24:14] What I'm, yeah, what I'm trying to, where are we still? We're talking about, yeah, talking about this consistency example, ultimately.
+[02:24:24] And
+[02:24:27] This is where the controversial part is, right?
+[02:24:29] because
+[02:24:31] Essentially,
+[02:24:33] I was saying that
+[02:24:36] like splitting the effects,
+[02:24:38] Maybe React was on to something.
+[02:24:43] Thank you.
+[02:24:46] Thank you.
+[02:24:47] Thank you.
+[02:24:48] There are cases where the async still blocks the compiler can't help there. Yeah, I believe so. I haven't created those yet, but it's just like this is kind of difference with building into the React system. It's so fundamental that it can't work any other way where if you use a compiler, it's a best effort optimization.
+[02:25:11] -
+[02:25:13] - Sure.
+[02:25:15] But man, who wants to write them? Yeah.
+[02:25:18] Okay.
+[02:25:19] So,
+[02:25:23] Yeah.
+[02:25:24] I became very aware of this.
+[02:25:28] when I was working on...
+[02:25:33] When I was working on
+[02:25:35] on some of the, when I was playing around with this new async signal stuff and I still haven't even gotten to showing you all yet.
+[02:25:41] But
+[02:25:44] Thank you.
+[02:25:45] Yeah.
+[02:25:46] *Duh duh duh duh duh*
+[02:25:52] Isomorphic, we'll talk about that in a minute.
+[02:25:57] Sorry, I have to jump a little bit in time.
+[02:26:03] The worst part of API design is when the answer is the one your users will hate.
+[02:26:08] They will never thank you for it. They will misunderstand it until the end of time, but there's some comfort in them never knowing the pain they may have faced.
+[02:26:15] And people actually ask me for example, so I gave two examples of splitting tracking from  depths and their side effects not applying the value immediately after set state.
+[02:26:23] I've always been able to argue the correctness for these, but chose differently for convenience.  But what happens when ambition grows and convenience turns liability?
+[02:26:30] This was me talking about this because...
+[02:26:34] The truth is,
+[02:26:36] With async involved, the only way you have any guarantee is to delay the way React does.
+[02:26:44] All right.
+[02:26:47] It's kind of just one of those unfortunate truths.  I don't think it's actually debatable.
+[02:26:55] I'm only talking about outside the system.
+[02:26:56] Outside the system can have different rules. We could technically, you could do like
+[02:27:02] like what Svelte 3 did and only update the initial state and not update the drives.  But you have to understand that the drives
+[02:27:08] States may not update.
+[02:27:10] And
+[02:27:11] This example that I showed here really, really suggests that as a default, you probably...
+[02:27:20] should
+[02:27:23] also keep the set state in the past as well.
+[02:27:27] Because this is what happened in transitions.  If you remember, if you have a transition  and you set some state inside it, if you try and read
+[02:27:32] that state outside the transition, it's still the value was before it changed.  It like this is intrinsic.  So if you remove the transition wrappers, remove the boundaries, then you
+[02:27:41] you're basically always in a transition.
+[02:27:44] It makes sense it has to operate that way.
+[02:27:53] Thank you.
+[02:27:56] Thank you.
+[02:27:59] While deferred updates can stop some of the throwing issues,  even in handlers, it's still possible someone reads from an async value  that isn't a view that's not ready yet.
+[02:28:06] outside of the system.
+[02:28:12] See, like, in effect, the dependencies are tracked.
+[02:28:16] So you're not outside of the system.
+[02:28:18] It's only if someone triggers an event handler that's off screen.
+[02:28:23] Basically.
+[02:28:30] Thank you.
+[02:28:32] Thank you.
+[02:28:34] Thank you.
+[02:28:37] Thank you.
+[02:28:38] Thank you.
+[02:28:44] Convenience Turns Liability is the name of the Svelte 4-5 album. Yeah, definitely.
+[02:28:49] I mean,
+[02:28:50] I think React is definitely sitting there and going like,
+[02:28:54] told you so a bit, especially when Svelte changed a bit.  The funniest thing is it's not so simple.  React compiler has a lot of similarities to Svelte 3.
+[02:29:06] Thank you.
+[02:29:06] So like,
+[02:29:09] But, see, React doesn't really have to worry about a told-you-so moment unless someone convinces them to switch the signals.
+[02:29:14] which I don't think is going to happen and we'll look at it in a bit.
+[02:29:23] Thank you.
+[02:29:26] No, this is the same model that I've been talking about for ages with the throwing. The thing is, initially,
+[02:29:34] Thank you.
+[02:29:35] Initially, when you're rendering the UI,
+[02:29:38] and you throw.
+[02:29:41] It doesn't have value. Afterwards, we can treat everything as in the past.  It's only initially that this is a problem.
+[02:29:47] And
+[02:29:51] I'm kind of banking that in the majority case, the data that you would read in an event handler is the same data that you would have in your view.
+[02:30:00] Like...
+[02:30:01] Show this thing.
+[02:30:03] with this data and then it's like do something to that data i mean it's not the 100 case
+[02:30:08] I understand, but it's something that I'm okay with. I know we've been debating this for ages, but
+[02:30:13] Um,
+[02:30:16] As I go farther, I become even more convinced.
+[02:30:19] Thank you.
+[02:30:23] You can start coloring the async everywhere, but
+[02:30:29] It...
+[02:30:30] It doesn't.
+[02:30:32] The cost of that migration is huge.  Even React, even though they're talking about passing promises, to a certain degree, the reason you have these mechanisms is because...
+[02:30:42] we don't want to be awaiting everywhere.
+[02:30:45] Now, it's possible outside the system that you have no choice, right?
+[02:30:49] But inside the system, you don't want that.
+[02:30:52] Thank you.
+[02:30:58] You saw the error in Swell when you didn't read the async data in the template, it crashed rendering.
+[02:31:04] Oh, really?
+[02:31:06] Oh.
+[02:31:07] That's what happened.
+[02:31:09] Huh, yeah, I don't know.
+[02:31:12] Yeah.
+[02:31:14] Yeah.
+[02:31:15] Okay, so...
+[02:31:18] I told you this is going to be controversial because...
+[02:31:21] Because obviously I'm saying...
+[02:31:23] From an API standpoint, maybe React was right.
+[02:31:26] I knew that people weren't paying attention to this post, even though it got 120.
+[02:31:30] So I did a poll.
+[02:31:32] I was like,
+[02:31:34] If I had an approach that requires no wrappers, no compilers, no nonblocking render, no coloration, just works, but it requires set single and derived values to stay in the past until Flash like React, would you take it?
+[02:31:43] And don't get me wrong, this was a bit of a litmus test.
+[02:31:47] Basically, there's only one wrong answer to this poll.
+[02:31:51] Um...
+[02:31:53] you know,
+[02:31:54] I think saying no async is not worth it is perfectly legitimate.
+[02:31:58] I respect you for having that thing.
+[02:32:02] And I think if you're this person,
+[02:32:05] It means a lot less React users responded than I would have thought.
+[02:32:10] Thank you.
+[02:32:11] Yes seems good means that a lot of you guys
+[02:32:15] Just trust me, which makes me feel good.
+[02:32:20] No React is the worst is really the only wrong answer. So this was a test.
+[02:32:26] Fortunately for you all, it was anonymous, but...
+[02:32:29] It's interesting. Do you want to see the same on blue sky?
+[02:32:34] Thank you.
+[02:32:37] Where was it? Here's my profile here. Profile, yeah.
+[02:32:41] I did the same thing on Blue Sky.
+[02:32:48] People in blue sky seem to like React more. There's less votes, but it was interesting.
+[02:32:55] There's a lot of react hostility on Twitter, maybe it's...
+[02:32:59] It's just kind of funny.  Anyway.
+[02:33:02] Um...
+[02:33:04] almost exact same ratio of people who trust
+[02:33:07] me
+[02:33:09] And yes, used it. More people say async isn't worth it. I just thought it was interesting.
+[02:33:15] React is the worst is always right, no.
+[02:33:18] No, that is not always right.
+[02:33:22] Dan, even around talking a bunch.
+[02:33:24] Thank you.
+[02:33:29] Yes, yeah, I think it's, but the people are dramatic with the bias here, but even the real answer is async isn't worth it, yeah. So I do have to consider that. I think saying async isn't worth it is a very respectable position to be in.
+[02:33:40] I just...
+[02:33:42] It is very interesting...
+[02:33:44] when React and Svelte think async is worth it.  Then again, I don't expect Vue to come around here,  but Vue is hard.
+[02:33:51] Views hard to judge because they're rarely like,
+[02:33:55] on the cutting edge of innovation so to speak like
+[02:33:58] DX stuff, happy users, Angular 2, very good at taking care of their developers.
+[02:34:05] but not where I usually look for for ideas.
+[02:34:10] Thank you.
+[02:34:13] React, very driven to the future.  And so it's spelled as of recently.  So definitely worth taking notice.
+[02:34:23] What do I mean by setSignal? I mean this setSignal.
+[02:34:29] I mean, like if I call this,
+[02:34:33] and then I go console log,
+[02:34:36] Thank you.
+[02:34:40] Right, so if I go here and then I go console.log
+[02:34:45] value. What
+[02:34:48] is this.
+[02:34:52] Thank you.
+[02:34:53] If the answer is zero,
+[02:34:56] That means it's staying in the past.
+[02:35:02] But if you stay in the past, that's bad too.  You click on a new page and act like you're on the old page.  Well, internally, it doesn't stay in the past.  It's only...
+[02:35:15] Basically, the user interacts with what they see.
+[02:35:20] is the way to look at it. Internally, the system can get ahead of itself.
+[02:35:25] It's just that
+[02:35:26] if you if you're showing the past because you're like holding or in a transition
+[02:35:31] what you interact with is also in the past.
+[02:35:40] Oh yeah, I'm missing a second. It's fine. It's not a working demo, but yeah, I'm missing a second. Thanks.
+[02:35:49] Thank you.
+[02:35:52] Thank you.
+[02:35:57] Thank you.
+[02:36:04] Right. The immediate...
+[02:36:08] Yeah, the immediate thing is easy and often...
+[02:36:14] We don't see ya.
+[02:36:16] No...
+[02:36:18] Getting the future value is easy too though.
+[02:36:22] Yeah.
+[02:36:24] Do you know what I mean?
+[02:36:27] Thank you.
+[02:36:30] You can do the same thing.
+[02:36:32] const new equals two
+[02:36:37] set value new
+[02:36:40] Console log.
+[02:36:42] Thank you.
+[02:36:43] You know, I mean, new is a JavaScript keyword, so I can't use it, but you
+[02:36:46] You get...
+[02:36:48] Yeah.
+[02:36:50] Getting either value is easy.
+[02:36:52] in the scope. What matters is when you're no longer in that scope.
+[02:36:57] like in this example.
+[02:37:00] Like when you're over here.
+[02:37:08] Right. And I don't think like generically,
+[02:37:11] Thank you.
+[02:37:12] We...
+[02:37:14] I mean, you could do trying to be really fancy based on what flash it was on and like say like this click handler comes at a different time. So like this is part of this like it's possible.
+[02:37:27] Thank you.
+[02:37:30] Thank you.
+[02:37:34] A little bit, yes.
+[02:37:41] Thank you.
+[02:37:42] Yeah, you need to be able to say, like, do this when I'm done.  But again, it's OK because it's outside the system.  Inside the system, everything's seamless.  Outside the system, you just need a way of saying, like, hey, when this is done,
+[02:37:52] I'm going to set this stop and then when it's done.
+[02:37:56] I don't know how many cases are actually where that's actually necessary.
+[02:38:03] Because you have two options.  You can basically do the stuff...
+[02:38:09] All up front.
+[02:38:10] and use your intermediate values that you have on hand,
+[02:38:14] and then you don't have to wait till it's done?
+[02:38:15] The only time you need the wait done is like when you're like reading from the Dom or like controlled inputs like there's there's situations where I can I can see it but.
+[02:38:26] Thank you.
+[02:38:27] transitions don't have isolation levels.
+[02:38:34] Now, yeah, I mean, we can talk APIs in a minute, but you can actually get that.
+[02:38:41] I'm really trying to double down on this outside inside the system thing.
+[02:38:45] Okay, so where am I next?
+[02:38:50] Yeah.
+[02:38:53] Okay, well then I'm actually ready to actually get into the main topic now.
+[02:39:00] Thank you.
+[02:39:02] I mean, have you seen any... I mean, maybe this is a good refresher.  The demos that I've been doing for the last little while actually
+[02:39:12] show this off quite well, GraphPower.
+[02:39:17] Just a quick refresher on create async before we get into the new APIs.
+[02:39:22] Um, cause this is
+[02:39:24] because you're creating a graph,
+[02:39:27] we can still use stuff like error boundaries,
+[02:39:29] to catch
+[02:39:30] errors,
+[02:39:33] So like,
+[02:39:36] it propagates along the graph because the whole thing's a graph so like if you
+[02:39:41] If create async errors,
+[02:39:43] In the same way that async propagates, errors propagate and then phrase errors
+[02:39:48] So phrase errors and upper phrase errors.
+[02:39:50] We don't care if these things error.
+[02:39:54] So much.
+[02:39:55] unless we're reading them in an effect.
+[02:39:58] unless we actually were reading from them.  If you read from them in a render effect,  an error boundary will catch them.  Every so many clicks, this is going to error out.
+[02:40:07] It's random, so give me a minute.
+[02:40:12] There, air it out, right?
+[02:40:15] What the cool thing is, because we are familiar with the graph,
+[02:40:19] This is kind of crazy to React developers because this only renders once.  It's possible for us.
+[02:40:25] to like obviously when I click again,  we can update the signal and it might not error the next time.  And then
+[02:40:31] that signal will get all the way down here and render the right thing.  Right.  But what's really cool is this retry button, which literally is just a reset  coming from the fallback, no clue what's going on.  It just knows it's erred.
+[02:40:42] Well, when it resets, it actually tries to
+[02:40:44] pull out the nodes it kind of goes okay well this node's erred what what's going on so you click retry
+[02:40:49] And oh, it's aired again. Click retry. Oh, it succeeded. Because
+[02:40:54] It was able to trace the error graph and go, "Okay, you're error, so I'm going to recalculate your parent. You're error, you're going to recalculate your parent. Oh, you're async and you're error. Well,
+[02:41:03] There's no solving that. Let's fetch it again.
+[02:41:07] So we're able to use the Reactor Graph to inform
+[02:41:12] uh,
+[02:41:13] based on the error.
+[02:41:19] Thank you.
+[02:41:19] Thank you.
+[02:41:20] Simple. I mean, we have the committed...
+[02:41:26] the pending value. So in the case of writes, you're inside a setter. Inside the setter,
+[02:41:33] we will give you the...
+[02:41:36] eager or pending value because you need it for like mutation. You need to be able to like push  something then add something and do that. So inside the setter you will have full access to the eager value. Now you might be like
+[02:41:47] What if like,
+[02:41:50] What if it's
+[02:41:52] dependent on
+[02:41:56] it's tricky because what if it's dependent?  There's a certain point where like,
+[02:42:02] You could be writing to
+[02:42:05] Um...
+[02:42:07] Like it can't give you the eager value if it doesn't exist yet.
+[02:42:10] Do you know what I mean?  Like, it can give you the eagorous value it has,  but it can't give you the...
+[02:42:17] It's possible that if something's in flight and you write to it,
+[02:42:21] while it's in flight, that the thing that comes...
+[02:42:24] when it finishes, overwrites what you did.
+[02:42:27] Right.
+[02:42:29] It can only grab the value that's latest available to it, but it will try inside the setter to grab the latest value.  And that way, if you have multiple mutations, like you're pushing or adding like something in store, that will still work.  It'd be very weird if you push to a store and then access an index.
+[02:42:45] that should be there and isn't there.
+[02:42:52] Thank you.
+[02:42:54] I mean, this is create async signal, create async.  It's derived.  I mean, unless you mean like,
+[02:43:01] Thank you.
+[02:43:02] E.
+[02:43:02] You can always drive from it to make it mutable, but
+[02:43:06] There's no real point to
+[02:43:12] Okay, but anyways, what I'm getting at is  errors are just handled naturally through the graph,  to their source where either you have a user effect  where we can have like an error handler,
+[02:43:22] um,
+[02:43:23] as a callback, or a render effect, which gets caught by an error boundary. Just sort of aside, but
+[02:43:30] This basis hasn't changed in the last several months. I'm very happy with the way the graph translation goes.
+[02:43:38] Let me pull my hack into here. We did cover this on the last stream.
+[02:43:43] It's been so long.
+[02:43:44] on GitHub.
+[02:43:49] Okay, sweet.
+[02:43:53] Yeah, I covered this in the last stream, but I want to refresh people on this a little bit.
+[02:43:58] All of this led me to saying,  what happens if we design an async first framework?
+[02:44:04] This started as an idea, but I had to drop what I was doing to test this idea. First of all, we talked about this. Everything would be a transition. Transitions would be implicit, not requiring API. You'd opt out of async into tearing like we do with createoptimistic, but the default would be always on. This means no click action. OnClick would just be a transition and even the backside of create effect.
+[02:44:23] What I'm saying is if you want to have tearing in this world, you might need specialized state.
+[02:44:29] But
+[02:44:31] What was interesting for me is a couple of realizations.
+[02:44:35] You only need an optimistic state for data you don't have yet.
+[02:44:40] Um,
+[02:44:42] Because this was the breakpoint when I figured this out.  You can determine what's pending state by just asking.  Is pending wouldn't apply
+[02:44:49] to things downstream from the async portion of the change but anything from the start of the change  that hasn't settled set the next tab but can't see the change yet is pending would return true for it  so what i'm saying is
+[02:45:01] is pending just means you haven't committed a value. It could be because it's async,  it could be because it triggered something async.
+[02:45:07] And once I realized that this was the case,  it became very, very unifying from an API standpoint.  Like I started already seeing this in my...
+[02:45:16] my other examples, but
+[02:45:19] Um...
+[02:45:22] Let me see if I can...
+[02:45:25] find an example of this probably in my
+[02:45:32] Solid2Experience might even be in the tab example. I don't think I have it open anymore.
+[02:45:40] Experiments tab.
+[02:45:43] How do I show the pending in this example?
+[02:45:50] Because I'm using global transition here.  See that? I'm not using use transition.  I'm using isPending.  And look where isPending is.  IsPendingTab.
+[02:45:58] I'm literally, I'm not asking about the data that you're fetching.  I just know that when I set this tab,
+[02:46:04] Like, I'm like, if this tab is pending,
+[02:46:06] then the like
+[02:46:09] This is always the problem, right? I created this pending originally to be like, "Oh, is this data awaiting? Is the graph blocked?" You know? And that was cool because you could ask about it anywhere, especially it would allow us to not go back up to suspense, you know, and we could just tear and ask this question. But the problem is like, how do you show is pending for something that's off screen?
+[02:46:30] The data is fetching off screen.
+[02:46:33] How do you make that decision?
+[02:46:35] And what I realized was...
+[02:46:38] when I did this async first thought thing is,
+[02:46:42] As long as the value isn't committed, like you're in a transition, then you also know that you're pending. Right. And I changed solids transitions to be able to ask that question. So it's not just the stuff downstream from the data, the stuff that triggers it. Part of that kind of unit you can ask is pending about, which means that now you have a unified API. You can say like, look, you could be in your component and go, look, is this pending? You don't care whether it's locked in a transition. You don't.
+[02:47:08] care whether it's because literally the data isn't there yet.  You'd literally just go, it's not ready.
+[02:47:14] you can defer, you know, you can handle the loads indicator,  which is really cool for Ryan Florence's demo,  which we will get to and again.
+[02:47:25] The Trichta is pending and
+[02:47:30] Yeah, no more set pending. The trick that is pending is it's a graph question.
+[02:47:34] This is...
+[02:47:35] I love this because it's not
+[02:47:39] on each signal. I mean, technically in the latest implementation there is an under the hood that's  on each signal that gets read under this context and shallowly.
+[02:47:47] Um, I, but this implementation is done differently.  That doesn't do that.  Like it depends on the implementation.  That part is not important to deal.  You couldn't ask it about a bunch of things it's pending this.
+[02:47:58] Or it's not like and doesn't matter because they don't.
+[02:48:01] Or this.
+[02:48:04] you know, data
+[02:48:05] Like you can ask this about any expression in a typical solid manner.  We don't want is signal.
+[02:48:12] I don't want signals to have a special API. I don't want you to feel like you need to wrap something in a memo or computer signal to be able to ask a question about it. I very, very much dislike...
+[02:48:23] making signals special. You should be able to ask it about props coming in, right?
+[02:48:29] you know,
+[02:48:30] props.options is appending.
+[02:48:33] You know?
+[02:48:34] Yes, you can ask this question.
+[02:48:37] Okay.
+[02:48:40] I just shortcutted it because it was already a function.
+[02:48:44] Thank you.
+[02:48:45] Thank you.
+[02:48:46] Thank you.
+[02:48:52] Would there be a special node like, no, no.  Right?  So I'm literally just asking this about any expression.  You can go, is this pending?
+[02:49:01] Now,
+[02:49:02] I'd already kind of gone down this path, but when I was designing this, I was like,
+[02:49:07] This is the key. This is the key. Svelte's local thing doesn't work for composition.  They need this. They will probably add it. I'm not surprised. Effect pending
+[02:49:16] If they could have just gone,
+[02:49:19] disabled pending
+[02:49:22] Um...
+[02:49:23] Thitties.
+[02:49:24] Disabled Pending States. If they could just ask it about the specific
+[02:49:29] thing that they cared about, you wouldn't have
+[02:49:32] this problem, right?
+[02:49:34] You don't want...
+[02:49:35] to lock this up. Right now, this is the only choice, right? When you change it,  guess what? You can't keep changing it. If this takes a long time, you can't change your mind.
+[02:49:44] Thank you.
+[02:49:46] Thank you.
+[02:49:47] No, why?
+[02:49:50] What do you mean "is signal"? This is not "is signal", it's literally the opposite of "is signal".
+[02:49:55] Signal is saying that something requires a specific
+[02:50:00] Mm.
+[02:50:01] I guess your concern is that people will be checking for async,
+[02:50:06] you will be checking for async
+[02:50:08] anyway because you like disabled like you you you look
+[02:50:14] If you build it,
+[02:50:15] Okay. I mean...
+[02:50:17] We can look at this as first principles.  I built this API.
+[02:50:22] Thank you.
+[02:50:23] If you build an API, I'm going to think, is this one a better example?
+[02:50:29] Yes, this one's a better example.  I built this API.
+[02:50:33] And I just did the default thing. I didn't put pending state. I just built this API.
+[02:50:37] And
+[02:50:37] Let's go down a little bit from this.
+[02:50:42] And...
+[02:50:44] I click on it.
+[02:50:46] And I'm like, geez, this is taking really long to update.  What the hell is going on?
+[02:50:50] And you're like, oh, it's async.  Of course.
+[02:50:53] What's the first thing you do? You go like, "Oh crap, I should show a loading indicator."
+[02:50:58] So then you go and you show a loading indicator, right?  That's the first thing you do.
+[02:51:03] And
+[02:51:04] In my opinion, in your head you go, "Oh, I should...
+[02:51:07] Thank you.
+[02:51:08] it's not the initial load, but the update loading thing. So, you're like,  oh, effect.pending. You're going to go, okay, how do I show that it's pending?
+[02:51:17] It's like the first thing you reach for, and it's usually tied to that disabled button or something. The default is, you're like, you know, if you miss something, you're like, oh, this is weird. Oh, right, it's loading. And then you just...
+[02:51:29] It's not an identity question. It's like you do it for a purpose to show an affordance.
+[02:51:38] It doesn't look the same. To be the same, it would need to not be a wrapper function. You put a wrapper function in between, it wouldn't work, right? To do isSignal, you would need to, like...
+[02:51:51] you need to be able to pass something directly into it without a wrapper function.  So you could like look at it like this.  This API is not a signal, right?  Because it's signal.
+[02:52:02] Um,
+[02:52:05] I mean, I don't even know how you get a signal out of this.
+[02:52:08] I guess you would...
+[02:52:09] like internally
+[02:52:11] intercept all signal reads and then
+[02:52:14] Like...
+[02:52:15] But like it.
+[02:52:18] it doesn't even make sense, right?  Because his signal would be
+[02:52:22] a single thing are you saying is they are they all signals does there exist a signal in this  this whole api doesn't work for is signal
+[02:52:30] Bye.
+[02:52:32] Thank you.
+[02:52:33] Yes, and props.count wouldn't work unless this was literally a signal on the end. A getter wouldn't work.
+[02:52:46] Yeah, kind of like that. Depends on the implementation. I've done two completely different implementations, but yes.
+[02:52:55] Yeah, we do tag it on and we're like, you're part of this transition and then yeah.
+[02:52:59] In any case,
+[02:53:03] For composition, place, and localization, I think it's super important to be able to ask the specific question, like,
+[02:53:10] like,
+[02:53:10] Is it
+[02:53:11] are you waiting on-- like, if you're making a select component,
+[02:53:15] It's very obvious you're like,
+[02:53:17] you the thing that you might care you're like disable the select list if if or make sure loading indicator if I don't have my options to choose.  But that seems like something that's very generic that you could just add to a select component.
+[02:53:30] Anyway.
+[02:53:32] Latest isn't a thing anymore. You need the opposite. Every value is the equivalent of  latest helper in this world. So you might
+[02:53:39] actually want the opposite, a way of showing the proposed value before it's finally applied.
+[02:53:43] Svelte is proposing an eager help to do this. Makes sense.
+[02:53:47] In my solid examples I'm going to show today, I didn't
+[02:53:51] really have a name for it, I call it pending. So you have is pending and pending.
+[02:53:55] One gets you the pending value, one asks if it is pending. Same API.
+[02:54:00] works, you know, pending also
+[02:54:03] Um,
+[02:54:04] is...
+[02:54:06] an expression,
+[02:54:07] It's not, you can go pending props.count.  You know, it's, it's, it's the same thing.
+[02:54:17] Can it be a third function in the well, that's what I'm saying. I I
+[02:54:22] because you're asking about the graph, not about async.  You could be asking about
+[02:54:26] upper phrase, which is derived from phrase.  You know what I mean?  Like this shouldn't be something that you put on
+[02:54:33] the primitive itself. It's very important because otherwise people will do weird things like wrap their async with other async so they can like get their hands on it or something like it's
+[02:54:46] Yeah, I mean, yes, but I mean, it's a naming thing. I mentioned eager and people like that's weird. And I'm like, okay, whatever. So I just called it pending props account.
+[02:54:59] We have that as well. So there's is pending and pending, but it's possible that people think pending means true false.
+[02:55:05] It's at a pending value, so I'm OK.  We can debate what to call it.  I called it latest for a couple of days.  I wasn't really sure what to call it.  But yes, there is one that returns
+[02:55:16] count, and there's one that returns...
+[02:55:19] True.
+[02:55:22] But yes, it's the same idea.
+[02:55:24] Stay.
+[02:55:25] changes would apply async.
+[02:55:27] Yes, React behavior. Since derived values take time to propagate and you wouldn't want to witness torn state, it makes no sense to commit state immediately. More state changes could occur before synchronous block ended that could cause async to entangle, so you could never know at the time of write that you could commit it right away unless optimistic.
+[02:55:43] And.
+[02:55:44] Keep in mind, I wrote this before I even had any idea if I could solve this.
+[02:55:49] I love starting with an idea.
+[02:55:52] But I did recognize that if you weren't going to update state right away,
+[02:55:57] Milo's R3 looks really interesting.  And for those who aren't familiar,  I talked about this on stream a while ago,
+[02:56:04] Uh, Milo.
+[02:56:07] Thank you.
+[02:56:09] Keep wrote reactively, where's R3? It's funny, all commits are probably on R3.
+[02:56:15] But...
+[02:56:19] Oh, he's doing some dev tool work. Where is R3?
+[02:56:24] Pause it, Perkins.
+[02:56:26] Tori...
+[02:56:28] R3.
+[02:56:29] 19 hours ago.
+[02:56:31] Thank you.
+[02:56:36] Optimistic is different. Optimistic is a state that doesn't exist. In React these days they're  using it for all the cases, but I think we should keep optimistic to refer to stuff like
+[02:56:50] when you
+[02:56:51] It's not like it's like stuff that doesn't exist, like you manufacture, like when you're saying like,
+[02:56:56] when you add a to-do, Optimistic lets you add a new to-do to the list  before you actually get the to-dos from the server,  where this is more of like,
+[02:57:05] if you change the tab,
+[02:57:08] from A to B, a way of getting B even though you're still showing A.
+[02:57:16] Optimistic, as I said, that's a very, very different...
+[02:57:19] Like...
+[02:57:20] purpose in terms of like it's
+[02:57:22] It's not like hiding something that's under the hood.  It's literally like it's the react uses for both, but that's why in a lot of react examples, you have to call set state twice.
+[02:57:31] You're like set pending true.
+[02:57:34] And...
+[02:57:36] Set whatever right?
+[02:57:37] like you have to set both, sometimes like you end up setting doing double setters, where here you don't actually have to do double setter.
+[02:57:46] you could use optimistic i'm not getting rid of optimistic but you almost just don't need it
+[02:57:51] for these basic data fetching cases.  It's, you probably only need optimistic  when you're actually performing actions.
+[02:58:06] Oh yeah, good question about errors, yeah.
+[02:58:12] State updates aren't really rolled back.  Yeah, it's about eventual future. If something errors, the new state is shown with the error boundary.
+[02:58:18] But don't you roll back the signals. No.
+[02:58:22] Like if you change the tab 2 and fetching 2 fails, you just show tab 2 with an error, not roll back to tab 1, yes.
+[02:58:34] Optimistic state gets rolled back. Yes, yes, that's the difference.
+[02:58:44] Okay, so if we're going all in, and we're not going to do updates right away, see I rejected R3 originally.
+[02:58:53] because...
+[02:58:55] It's...
+[02:58:56] eager like solid is today.
+[02:59:00] and we're all lazy but the funny thing is while i was working through solid 2.0  like 90 of the stuff was eager anyways
+[02:59:06] Um,
+[02:59:07] But what inspired this was modern single implementation JavaScript are implanted using push, pull, push, try coloring.
+[02:59:12] However, this approach requires over-eager marking of all recursive dependency, making impossible to be an O1 implementation of createSelector or createProjection.
+[02:59:22] derived granular updates.
+[02:59:25] which requires marking only a subset of the children based on the return value of a computation. This library implements a different approach to reactivity using topological execution height ordering to allow for nodes to dynamically change sources of the height. We fall back to push, pull, push algorithm. Okay, but I'll explain what that means in a second. But essentially,
+[02:59:43] What this means is
+[02:59:45] he's created an O to the one reactivity
+[02:59:49] algorithm, which
+[02:59:50] I benchmarked it.  I mean, it's...
+[02:59:53] Similar to alien signals on most tests and actually faster than others, you might have created the fastest
+[03:00:00] reactivity system to date, but it didn't fit our use case, so I kind of rejected it.
+[03:00:11] Thank you.
+[03:00:12] Yes, I already have examples with optimistic. The to-do example that I was showing
+[03:00:18] Earlier
+[03:00:19] I mean, this one's in React, but yes, I have a version of it.
+[03:00:27] collections, solitude experiments,
+[03:00:31] No, not that long. Collections.
+[03:00:33] beyond Singles Talk async to complete,
+[03:00:36] What you're going to see actually is an optimistic store, which is really
+[03:00:39] a cool little thing because I was able to take the same logic I had in the original store and  make an optimistic store and then the way this works is it's derived from the async data so  whenever the server refreshes the data it just automatically does a reconcile dip  on the store on the optimistic store here because this is actually a projection
+[03:00:56] with the read write because it's a function.  I'm kind of hiding it, but in the same way that we can do derived signals,  we can do derived stores.
+[03:01:04] that are projections on their hood.  So this is actually this, technically speaking.
+[03:01:10] And I made it so that
+[03:01:12] um
+[03:01:13] Diffing is the automatic default for returning data.  If you want to do mutation, you don't diff. Anyway.  So then basically you have create async,
+[03:01:22] And then you have the store, which is writable.  So for ephemeral here changes, it tries to do these changes.  If it fails, then it will not apply them.  And, you know, you can, like, the transit, like, basically, it...
+[03:01:35] These always reset back to the base value. So if it fails, your data refresh won't have the new data, which means that it will be diffed out of the final solution.  But if it passes, the diff won't find any changes and therefore do no additional work.  But the optimistic state generally gets reset back to what it's derived from at the end.
+[03:01:56] And in the meanwhile, you can do fine grained updates like
+[03:01:59] push or
+[03:02:01] filter or
+[03:02:03] update one of the two. So you get fine grained updates on the optimistic state.
+[03:02:07] and then diff on the way back that hopefully matches the optimistic updates and no changes.  This is like how you do the Strello demo with minimal code.
+[03:02:17] Thank you.
+[03:02:21] Yeah, you missed that part. For actions, we could have a different API, but generators are
+[03:02:29] You either have to use a generator to reintroduce the transition context, or you need to have async context. We talked about this earlier in the stream and I talked about it in previous streams as well.
+[03:02:41] Yeah. It's one of those nastiness.  React right now you call transition and then you call transition again to wrap the data refresh.
+[03:02:49] It's just...
+[03:02:50] Amen.
+[03:02:51] And.
+[03:02:52] We can build APIs on top of this, like the current query and action APIs in the router. So developers don't need to worry about that. And this after the await literally happens inside the logic of the router action, you know, with the server functions doing the validation automatically. But this is the low level API, which is really cool because it's generic. It literally works.
+[03:03:13] by basis. If you were to build a nicer wrapper over this, it's literally this code, way simpler than what we have to do today.
+[03:03:20] part of the basic.
+[03:03:21] system.
+[03:03:23] Okay, sorry, got tangented a little bit.
+[03:03:27] I want to talk about R3 for a bit.
+[03:03:31] Just a second here, just so you can understand what's going on here because.
+[03:03:36] Um...
+[03:03:39] I mean, I did talk about it a little bit before.  If you see this from the stream, I was talking about...
+[03:03:45] Um,
+[03:03:46] one of the challenges I hit, because I did talk about this article last stream.  But essentially, with a push-pull system, when you write to the signal, you have to notify.
+[03:03:56] And then when you access a pure computation on demand,  it'll calculate the value or it'll basically run everything when it's
+[03:04:03] when it's running the scheduled side effects, it'll pull, at which point it will calculate the value.
+[03:04:07] In React, you call setState, nothing applies.
+[03:04:10] And then
+[03:04:11] you commit the state and do the pure computations,
+[03:04:15] at
+[03:04:17] and the
+[03:04:18] at the same scheduled time you do the side effects.
+[03:04:21] It's scheduled and R3 is kind of the same.
+[03:04:24] where they don't have to notify up front because it's a single pass algorithm, which means that
+[03:04:31] it can basically just do this in a single run, which is really interesting. You might be asking yourself, like, how the hell
+[03:04:39] does it do this? And
+[03:04:44] Yes, it's funny, we've talked about a lot of this stuff before.
+[03:04:47] Um...
+[03:04:50] did I actually talk about
+[03:04:53] I'm actually kind of interesting if I talked about
+[03:04:57] If I talked about part three before, let me see if I can zoom any further out.
+[03:05:02] No, no, no.
+[03:05:11] No, it doesn't look like I've talked about R3. Interesting. I wanted to have Milo on and talk about R3, but it's kind of...
+[03:05:17] Kind of interesting, the gist of R3 is it uses height ordering. Whenever you create
+[03:05:24] A dependency.
+[03:05:26] your height becomes, so as you create the graph,
+[03:05:30] your height becomes one plus your dependency.  So it just...
+[03:05:34] as it runs the function, it goes, okay, this dependency is level one, this is level two, level three.  And then it goes, okay, so my biggest dependency is level three, I must be level four.
+[03:05:44] And then when you go to insert, instead of it just being like a
+[03:05:49] pushed to the end of an array, you actually put it in at the height. So stuff
+[03:05:53] tends to run in the order that it was created in from a dependency standpoint.  Now, obviously with dynamic dependencies, it's possible for stuff to get out of order.  But what Milo realized is if you ever come across
+[03:06:05] a value that has a height
+[03:06:08] that is
+[03:06:09] Um...
+[03:06:11] lower than your height. So if you're level 4 and you hit an if statement and you read a level 6,
+[03:06:18] Well, and then you're like, oh crap, this hasn't been processed yet.
+[03:06:22] All you need to do
+[03:06:25] is mark the nodes from
+[03:06:28] from your current height because you've already run through everything
+[03:06:31] Like you've already run through level one, level two, level three, you're on four.  You can just mark the remaining nodes that are already queued in the heap.
+[03:06:40] with the classic push-pull algorithm, and then
+[03:06:44] color them and then then you go six
+[03:06:47] Are you dirty? Like so you can fall back and then once it's finished and he goes six goes. Oh, um,
+[03:06:53] Yeah, I am dirty, in fact, so I do need to recalculate my value.
+[03:06:56] then you are no longer four, you're now seven.
+[03:07:00] and the next time you run,
+[03:07:02] You'll be seven.
+[03:07:03] And even if that dependency changes...
+[03:07:05] And, um...
+[03:07:07] there's no more six, like three is your highest dependency. You'll still run at seven. It doesn't really matter as long as you run after your dependencies. So it's kind of a clever way that it deops in the specific case one time in order to make sure that stuff's up to date.
+[03:07:23] with the marking. So at worst, it's basically like, worst case, it works like alien signals,  but best case, it can work better.
+[03:07:31] So like
+[03:07:33] it's very very cool approach but the downside is because it's lazy you can't just  ask a value anytime you could but then you'd have to recompute the whole heap graph
+[03:07:41] Which, to be fair, is not that different than what Solid does today when you call set state and run the whole thing.
+[03:07:46] but
+[03:07:47] Um...
+[03:07:51] You can understand why it starts looking more appealing in a world
+[03:07:55] Where, um...
+[03:07:58] where you're like React and your state changes are in the past, because then you don't have to. Sorry, this is a good time to show that that Excalibur.
+[03:08:06] then you don't have to worry about
+[03:08:08] about this. There's a second reason why this is really attractive, and that is
+[03:08:13] The way we do transitions today is cloning.  We clone the reactor graph and think of it like Git.  We literally go,
+[03:08:20] I think I tried to
+[03:08:22] Maybe not in here. It wasn't on stream. I didn't do it. It doesn't matter. I tried to
+[03:08:28] to show what this looks like. I think Dev tried to show what this looked like. It's very hard to show in space. I think I wrote an article explaining how the solve transitions that I covered on the screen before I showed cloning part of the graph and committing it back in.
+[03:08:40] And
+[03:08:42] Thank you.
+[03:08:43] That's expensive. Can you picture if every time you set state,
+[03:08:46] you had to clone the graph.
+[03:08:49] Especially when you have to consider like we make real DOM nodes, not just virtual DOM nodes.
+[03:08:54] It would be very expensive.
+[03:08:56] Um,
+[03:08:58] Like, we don't have the clone.  The cloning doesn't make new DOM nodes. The rerun does. So that's like not exactly fair. But  if every time you set state, you're gonna have that overhead of cloning and then merging it back in.
+[03:09:08] It's okay when it's isolated to a transition, but literally every operation would be bad. It'd be expensive. JS framework benchmark.
+[03:09:17] I think there's a version in here of react with transitions, which again is completely useless in this example. It's literally just a run through, but if we go transitions.
+[03:09:29] React cooks with transitions, 1.93. We're talking like
+[03:09:35] not quite knock out in this example where are we looking at like
+[03:09:42] Uh...
+[03:09:43] Incremental DOM. Is there anyone else in this? Are we? No, we're better than Ember, but
+[03:09:50] Yeah, Ember's here, Knockout's there.
+[03:09:55] Like this is not a happy place to be when you consider that React itself
+[03:10:00] is...
+[03:10:02] There's the .
+[03:10:06] That's so funny.
+[03:10:08] Why can't I scroll? Okay, React itself
+[03:10:11] is
+[03:10:13] Should be ahead of PREACT, right?  REACT 2x0 faster than PREACT.
+[03:10:18] Yeah.
+[03:10:20] Where is React?
+[03:10:25] Oh, yeah, no, I'm still seeing React libraries.
+[03:10:28] Yeah, React Hooks is over here.
+[03:10:34] Yeah, and React classes. Base level React is here.
+[03:10:39] hand optimized. I say base but hand optimized. The compiler is right here basically beside it.
+[03:10:43] basically the same speed.
+[03:10:45] compiler hooks right here.
+[03:10:46] Yeah, it's like 0.01.
+[03:10:48] add transitions needlessly on every operation, and you're like way off the deep end. Like it's not what you want to do.
+[03:10:57] So how do you add transitions essentially without
+[03:11:02] Paying the cost because you don't want to fork right and this is the challenge.
+[03:11:07] If you notify,
+[03:11:08] You have to fork at that point because you have a different state.  You're basically like.
+[03:11:12] I mean, maybe there's a way you don't have to fork, but that's the point at which my transition thing I forked because at that point, the nodes are entering a new state. They know that, hey, I need to be updated. Reality, you don't want, you don't want them merged because like,
+[03:11:28] what if something that's not in the transition updates and then you know like then it's like in the wrong state or what if
+[03:11:35] something outside the transition sees that it updates and tries to recalculate it and it calculates without the transition value in mind and then clears that state and then the next thing the transition sees it and it doesn't see it like.
+[03:11:47] This is when you fork.
+[03:11:49] Whereas
+[03:11:50] If you have something that doesn't notify,
+[03:11:54] you can
+[03:11:56] basically defer forking until you when you actually run the thing.
+[03:12:01] Right.
+[03:12:03] Thank you.
+[03:12:08] Brain hurts. Sorry.
+[03:12:12] yeah height is how many times no it's the height so it's it's it's like
+[03:12:18] Um...
+[03:12:21] Thank you.
+[03:12:21] It's like we could pick a graph shape.
+[03:12:25] Maybe this is the one where I did it before.
+[03:12:29] Let's pick a graph shape.
+[03:12:30] Yeah, here we go.
+[03:12:32] I did talk about-- this is it right here.
+[03:12:35] height zero,
+[03:12:36] height one height one height two height three it's based on the shape of the graph
+[03:12:41] your height is always one plus
+[03:12:44] Um,
+[03:12:45] thing you depend on at least. So like it's possible
+[03:12:49] When this starts with zero,
+[03:12:51] When this one gets created, it goes, OK, I'm bigger than this.  I'm one.  This one gets created, let's say,
+[03:12:57] And then he goes, I'm bigger than one.  He becomes...
+[03:12:59] - Yeah. - Yeah.
+[03:13:01] Like, I guess that wouldn't be the order.  When you do creation order, you don't run three before two anyway.  So creation order almost always works.  Like, because generally...
+[03:13:12] you
+[03:13:13] You might have created these out of order,
+[03:13:16] And these might be created in a different order than this,  but you're not going to run this one until you have both depths.  So--
+[03:13:23] That's actually fairly straightforward.
+[03:13:25] But this could be create signal, this could be memo, this could be memo, this could be memo, this could be an effect that reads from both of these.
+[03:13:32] That's what I mean by height ordering.
+[03:13:35] Does that make more sense?
+[03:13:38] And then in the future, when you cue it,
+[03:13:42] You queue this at zero, you queue these at one, you queue this at two, and you queue this at three.  And then when you run through the graph, you run it in this order. Zero, one, one, two, three.
+[03:13:53] And you did this all without having to do like a multicolors thing, like a...
+[03:14:00] yeah
+[03:14:01] Like, if you've ever seen...
+[03:14:04] Supercharging Reactive Performance, which is Milo's article.
+[03:14:12] *sigh*
+[03:14:13] Um, go away.
+[03:14:16] Oh, right, I forgot the stupid images all disappeared. I got to remember Milo, which is unfortunate. This is the only one that's still here. But like this coloration algorithm.
+[03:14:25] where it kind of walks through and figures out what has changed or could have changed.
+[03:14:29] Generally, it starts with
+[03:14:31] you do an update and you
+[03:14:32] Flickr everything like
+[03:14:34] these red and these green,
+[03:14:36] as in these have definitely changed, these might have changed, and then as you walk through
+[03:14:41] you kind of flicker the state, but you end up like if you notify everything like this,
+[03:14:47] And then...
+[03:14:48] you cue the effects and you do it lazy from pulled, you actually start...  I mean, I don't have all the images here, but you actually start
+[03:14:55] from the bottom, essentially, and then you go,
+[03:14:58] You go, "Okay, am I dirty?" Maybe.
+[03:15:01] Am I, check E, am I dirty?
+[03:15:03] Maybe check C, definitely dirty. Run C,
+[03:15:07] which causes E to run.
+[03:15:10] and then F continues on.
+[03:15:12] Now F knows that it's dirty, so F starts running.
+[03:15:16] Um,
+[03:15:17] And it's got...
+[03:15:18] It's got E and then it sees D.
+[03:15:20] And then D is like, "Oh, I don't know if I'm dirty, but I could be." Checks B.
+[03:15:25] B runs, then D runs.
+[03:15:28] and then frem. So that's the state of the art in
+[03:15:31] signals frameworks these days. That's not how Solid 1.0 works. Solid 1.0 was really simple. You literally just push these all on a stack,
+[03:15:39] run these ones before the effect at the end.
+[03:15:43] You just push me...
+[03:15:44] It was always eager. These were always scheduled.
+[03:15:47] So in a sense R3 is a return to solid 1.0's simplicity in terms of propagation.
+[03:15:53] Um,
+[03:15:54] but it's smarter. So like it doesn't like in solid 1.0
+[03:15:58] it was possible.
+[03:16:00] Sorry, my...
+[03:16:01] My little baby has just managed to open the office door. I have no clue how we did it. You didn't close it up.
+[03:16:08] Okay.
+[03:16:09] Very impressive, Luca.
+[03:16:12] - Daddy, very proud of you.
+[03:16:14] Thank you.
+[03:16:15] Okay. You can find the complete model. Do you have the link for that?
+[03:16:23] Let's see, Milo.
+[03:16:26] I guess you can't post it on YouTube.
+[03:16:29] Milo
+[03:16:31] I actually don't know.
+[03:16:37] Thank you.
+[03:16:40] One.  The boat.
+[03:16:43] Projects playing on time be with.
+[03:16:50] Thank you.
+[03:16:52] Oh, yeah, nice. He has all the images here. Okay. This is the version that we should be using from now on.
+[03:17:00] Thank you.
+[03:17:01] Luca did a little set open true there. Yeah, I have no clue.
+[03:17:07] how he got in, but...
+[03:17:09] He's crawling around now.
+[03:17:11] Yeah.
+[03:17:16] Thank you.
+[03:17:19] Thank you.
+[03:17:21] Well, yeah, you are jumping ahead a little bit. Let's look at what I realized.
+[03:17:28] R3 seems more...
+[03:17:31] more attractive now in this kind of world where you can
+[03:17:36] you know,
+[03:17:38] Thank you.
+[03:17:38] Um,
+[03:17:39] Anyway, let's continue.
+[03:17:42] So like, because you don't have to flush early.  That's, that's basically the thing.  And then, um,
+[03:17:49] actions need to be different, blah, blah, blah.
+[03:17:53] I talk about deferred set signal and saying how everyone would hate it.  And is pending is a good idea.  And we should do that.
+[03:18:00] That's where I left it last stream.
+[03:18:02] And I kind of walked away and I was like, whatever, right?
+[03:18:05] And then I had
+[03:18:07] a kind of
+[03:18:09] breakthrough, like a
+[03:18:13] It occurred to me that we could just take a completely different approach. Now I've shared this article on Twitter, but I want to cover it on stream here.
+[03:18:22] Thank you.
+[03:18:28] No, he's literally working on something right now. He's kind of dis unveiling it to the world.
+[03:18:38] Yeah, I mean, is it true that the over-get-to-push-pull thing is sometimes more simply
+[03:18:43] them pushing?
+[03:18:44] Yes, it would be, right?  You know what?  Maybe this is a good time...
+[03:18:51] to take a quick side
+[03:18:53] tangent before we go into this.
+[03:18:59] Because
+[03:19:04] No, no, let's finish this thought and then we'll...
+[03:19:08] Yeah, I want to watch Josephana's talk on stream and talk about it a bit, which is completely relevant to this.
+[03:19:16] Um...
+[03:19:18] But yes.
+[03:19:21] The push-pull ultimately reduces the amount of work on the end, so it reduces the user code.
+[03:19:28] Essentially, it means that less user code runs,
+[03:19:31] Which makes a lot of sense, right? Because like everyone, you know, you hear people complain and they're all, you know, they're always like talking about react and performance and stuff and and.
+[03:19:40] And, uh,
+[03:19:45] And like...
+[03:19:47] Thank you.
+[03:19:49] I think it's kind of funny because like
+[03:19:52] the React team is like, "Oh, this kind of performance, frame of performance doesn't matter, it's your end user code that bogs you down." Well, it's actually
+[03:19:59] Push-pull is what reduces the end user code that actually runs.  The React compiler does it as well, but I want to point out that...
+[03:20:07] But the cost of the push-pull,
+[03:20:09] isn't
+[03:20:10] that expensive, but if you do like a very myopic, like, like the JS reactivity benchmark, you're probably going to see the cost of that push pull, like where you there's no load on the end, no actual work, and you're just measuring how fast reactivity propagates, something that propagates once.
+[03:20:25] is going to propagate faster than something that basically does 2.5.
+[03:20:29] So,
+[03:20:31] compared to any actual work on the end. This is why I usually ignore those benchmarks.
+[03:20:36] Um,
+[03:20:37] Obviously,
+[03:20:38] there's like a nice benefit to knowing that your system is generally simpler and faster.
+[03:20:43] But
+[03:20:45] It doesn't matter, but the reactivity benchmarks don't matter nearly as much as the JS framework benchmark. And even that has like a limited scope of use.
+[03:20:56] The problem is if you don't do it smart,
+[03:21:00] push like
+[03:21:01] push without having this kind of smartness in terms of scheduling like signals do like like  rxjs or events can lead to tons of wasted work at the end.
+[03:21:12] Tons of wasted work.
+[03:21:14] Because they like create cycles and you know,
+[03:21:18] diamond problem and all that kind of stuff.
+[03:21:23] you if there's definite benefits to push pull over push
+[03:21:28] in terms of like making sure because it's like it's push
+[03:21:34] knows what's updated but doesn't know
+[03:21:37] doesn't know
+[03:21:39] what you care about.
+[03:21:41] pull knows what you care about, but has no clue what's updated. Right. So like,
+[03:21:46] These are the two extremes. If you have RxJS and you push out these things, you have no clue if you're going to need all that. You're going to recalculate everything and then find out that you might not need everything.
+[03:21:58] Um,
+[03:21:59] And...
+[03:22:00] And this is the danger of a push-based system.
+[03:22:05] If it doesn't know that it needs...
+[03:22:07] stuff. This is why we do like
+[03:22:09] push ball.
+[03:22:10] pull like react
+[03:22:12] has no clue what's updated, it has to literally dip everything every time, right?  It knows that what you care about, like the part that's in the view.  So a lot of techniques that we've been working on is kind of combining that knowledge,  like using the knowledge of like what's subscribed to in the graph
+[03:22:27] Um,
+[03:22:29] along with
+[03:22:30] you know,
+[03:22:31] like the kind of push pull thing now you might be thinking well then doesn't
+[03:22:36] R3 have this problem that push has of doing extra work and it does
+[03:22:40] Technically speaking, you will calculate memos that might never be consumed.
+[03:22:44] like computing, which is the same as solid today.
+[03:22:47] The thing is, because we're focusing on UI graphs,
+[03:22:50] and context and ownership.
+[03:22:53] It doesn't actually matter that much outside of like large global store type scenarios where you have lots of derived work.
+[03:23:02] So
+[03:23:04] We were working on lazy memos, obviously, for that reason.  But I think there's a better abstraction specifically for the lazy stuff.
+[03:23:11] because with inside the components and things,  generally your components will render
+[03:23:18] Um...
+[03:23:20] Um.
+[03:23:23] Like you'll create what you need as part of the hierarchy of the tree.  So like, yeah, don't get me wrong. I'm just saying
+[03:23:30] On one hand, you could be like, oh yeah, lazy is way better, right? Because it doesn't do the extra work. But on the other hand, what you could say is that this is no worse than solid is today. In fact, it's better.
+[03:23:42] So like
+[03:23:43] it's already an improvement maybe not as improved in one dimension
+[03:23:47] it's already better than what we do today.
+[03:23:54] R3 makes sure that it runs in order so that those effects only run once.
+[03:24:01] That's the thing, the algorithm using height mapping of the dependencies informs it.
+[03:24:08] Thank you.
+[03:24:11] Thank you.
+[03:24:14] Right. So that's the magic of this R3 system.
+[03:24:18] Um,
+[03:24:19] repo approach is it's they he basically figured out how to use an
+[03:24:25] 01.
+[03:24:27] like propagation to get the guarantees
+[03:24:30] of a push-pull system.
+[03:24:33] It's the only thing is it runs eager, not lazy.
+[03:24:43] Yes. Overhead of checking during is the depths of the pull is often, which is why React's common knowledge is like, don't overuse memoization because the checks are actually more expensive than just running in most cases. React compiler is pretty liberal in not applying memoization to a lot of simple cases.
+[03:25:00] It means you can miss some and you sometimes still have to
+[03:25:03] Use memo.
+[03:25:05] But generally speaking,
+[03:25:07] This is why it's dangerous to overuse memos.
+[03:25:15] Okay, so R3, pretty cool.
+[03:25:24] so this this i was like let's let's let's take a gamble let's build
+[03:25:30] a future, I was sitting there, not to catch a name, should I?  I just had a brainstorm, like an epiphany at one moment that I was like,
+[03:25:38] I can do this without a compiler.
+[03:25:40] I can do what Svelte does without a compiler with the React guarantees.
+[03:25:45] And then I was like, let's just pick up R3 and see if I can use it, because R3 actually fits the pattern. I rejected R3 like,
+[03:25:51] not rejected, but kept pushed it back like four months ago. I was like, now's the time. Let's just build, take R3 and build a new reactive system from scratch. I know it was brutal because I literally just put the stamp on and I was like about a month ago and I was like, sweet. I think we're done client side. I think we're ready to go to the next phase of solid 2.0 alpha. I've transitions working, optimistic states. Everything seems to be good. It seems to bug. Thanks everybody in the discord helping testing. This is ready to go forward. And then
+[03:26:19] You know, I saw Svelte, I saw Ricky's stuff.
+[03:26:23] And I was like,
+[03:26:25] And I was like,
+[03:26:27] It occurred to me
+[03:26:29] Like I already knew we'd have to defer the commits, like the values, but it occurred to me that we could defer disposal. And this is the crazy, crazy part.
+[03:26:40] Right.
+[03:26:42] I wanted to kind of show this so people can understand I'm using solid
+[03:26:45] Um...
+[03:26:46] split effects here to kind of show it but
+[03:26:50] But.
+[03:26:54] I mean, this is actually talking about the problems. I don't know if I want to get into the problems too much, but...
+[03:26:59] essentially
+[03:27:01] Thank you.
+[03:27:02] The core basis of it is
+[03:27:05] Any decision in a reactive framework, like, or at least a pure reactive framework, like an if statement is a memo.
+[03:27:11] you essentially
+[03:27:14] Uh,
+[03:27:16] you essentially have like a,
+[03:27:19] I think actually I have
+[03:27:21] No, I didn't. So when I changed it that I actually updated it.
+[03:27:26] Yeah, I don't have that example at the moment, so forget about it.  But essentially, it's a memo.
+[03:27:32] if condition go one branch and the other,
+[03:27:35] branch and I can draw it. Let's just go here. But at the very base, a show component,
+[03:27:44] is
+[03:27:45] is essentially create memo,
+[03:27:49] You can think of it like, it shows more complicated than this.
+[03:27:52] But
+[03:27:54] like,
+[03:27:54] at the basis of show component is
+[03:27:57] Great memo.
+[03:27:59] Return create mellow.
+[03:28:03] All right.
+[03:28:05] Um.
+[03:28:07] if condition
+[03:28:10] Which...
+[03:28:12] what was like so show it what was show it's uh show when yeah so if props dot when
+[03:28:20] This is way over simplification, but what I'm getting at...
+[03:28:25] Um...
+[03:28:28] Thank you.
+[03:28:29] Props.children.
+[03:28:32] call it as a function, let's pretend... actually no, it doesn't need to be a function.
+[03:28:37] So,
+[03:28:41] On track.
+[03:28:43] It looks like this.
+[03:28:45] Thank you.
+[03:28:46] Untrack, because you don't want the children's top-level reads, you want to keep the component rules working.
+[03:28:54] otherwise basically returning.
+[03:28:57] No. This
+[03:28:59] is basically
+[03:29:00] what a reactive--
+[03:29:02] decision looks like right and it's it's simple whenever when changes now you might want to have  a blue like what we do in show is we actually make it so that like it's truthy because this would be  like when two three four it would just keep on recreating this thing every time so technically it's more like
+[03:29:22] It's more like const condition.
+[03:29:26] Thank you.
+[03:29:26] And then you go like,
+[03:29:29] There's different modes, but it's more like this.
+[03:29:32] Because you want to isolate--
+[03:29:37] Equals create memo.
+[03:29:44] And then essentially
+[03:29:48] What this does
+[03:29:50] is whenever props changes, it checks its truthiness, and only if it changes from true or false,
+[03:29:56] then it will trigger this memo.
+[03:29:59] which then
+[03:30:00] We'll re-render the children. Okay, so there's a show component.
+[03:30:03] Yeah, whatever. Our show component doesn't have PropStop fallback right now.
+[03:30:07] I mean, you're right, it takes two seconds to add props up, pullback, and trash.
+[03:30:12] - Okay. - Start.
+[03:30:13] fallback. Okay, there we go. We added --
+[03:30:16] we added a fallback to our component. There we go. Sweet. Now we've just built the show component  from scratch. Now,
+[03:30:24] Thank you.
+[03:30:25] That's the gist of it.
+[03:30:28] The challenge is,
+[03:30:30] The way that
+[03:30:32] SolidWorks is it has automatic disposal.
+[03:30:35] Thank you.
+[03:30:37] Thank you.
+[03:30:40] Thank you.
+[03:30:43] The problem is people, we don't know the answers until we try.
+[03:30:58] I don't know how else to put it.
+[03:31:02] I think it's better to
+[03:31:05] do the work up front,
+[03:31:07] and make decisions on that.
+[03:31:09] and be open about it than to release something and then change our mind every couple months.
+[03:31:17] right solid 1.0 has been stable for years because i spent this kind of work up front before i released it
+[03:31:25] SolidStart took a while because we spent the work to make sure the right patterns.  I'm convinced on those patterns by the time I was at the end. We waited longer and look what happened.
+[03:31:37] Now it's both SvelteKit,
+[03:31:38] And Tanstack start basically almost straight up adopted our patterns.  Like, sure, there's some syntaxual differences, but we arrived at the right place.
+[03:31:49] Sometimes the stuff takes time, and that's just the reality of it.
+[03:31:56] Thank you.
+[03:31:57] You can call it a research project, but there is definitely research involved.
+[03:32:04] Right? Like,
+[03:32:06] Thank you.
+[03:32:07] Thank you.
+[03:32:08] Thank you.
+[03:32:09] Thank you.
+[03:32:09] I don't know how...
+[03:32:11] How else to explain it?
+[03:32:17] Thank you.
+[03:32:18] Right. Hopefully the next we will have faster majors after this because the way we're reorganizing and stuff going. But I want to be confident on the foundations we set here.
+[03:32:28] This is like our React 15, React 16 moment, you know, where we have to decide the fate.  This is the last time we get to kind of like...
+[03:32:37] even though the API is probably breaking.  But this last time there's a few.  This is the last time we really get to
+[03:32:45] I think things just go up from here.
+[03:32:47] Um,
+[03:32:51] I feel like people want a major version increase yet around Sasset when they're breaking.  I mean, what can you do, right?  I mean, keep on using solid...
+[03:33:01] Yeah.
+[03:33:02] 1.0 for a long time.
+[03:33:04] Yes.
+[03:33:07] And the funniest thing is, this has been going full circle.  I don't know if you guys are picking up on this.
+[03:33:11] I haven't talked about the solution yet, but
+[03:33:14] Both the eager reactivity and the way that I do transitions are more like solid 1.0 than the stuff that I've been doing on 2.0 the last year.
+[03:33:23] It's actually kind of crazy how we've come full circle.
+[03:33:27] Um...
+[03:33:28] We were right about a lot of the stuff in 1.0.
+[03:33:32] Anyway, my point here of showing this simple control flow
+[03:33:39] Then you get why this is here. This is the force true or false so that like when it stays true, it doesn't cause it to undo the challenges.
+[03:33:47] inside this props of children you're going to create other signals and memos and stuff or fall  back and the way solid manages everything so wonderfully is whenever this function reruns
+[03:33:58] we discard of everything in between. Like what will happen is this memo will get
+[03:34:02] sent into a render effect somewhere that will actually insert it in the DOM down the line.
+[03:34:08] But...
+[03:34:09] Essentially,
+[03:34:10] You don't want this to rerun unless...
+[03:34:14] this changes from true or false. You don't want, you know, like,
+[03:34:18] Stuff inside can change. You can change data, but you don't want to re-render the whole branch just because count went from one to two. Unless you do.
+[03:34:26] It's like sometimes like that's what a keyed update is, right?
+[03:34:29] But like...
+[03:34:31] for the most part, and I want to bring this up because every time this runs, it throws away the old stuff.
+[03:34:38] Which is the whole problem.
+[03:34:39] Right.  If now...
+[03:34:42] This is showing a switch between tab one and tab two.  Tab one, tab two, right? Pretend it's not chill and fallback. We're tab one and tab two.  We have a problem because the second we switch to tab two to look
+[03:34:54] and fetch our data.
+[03:34:57] you
+[03:34:57] we threw away tab one.
+[03:35:00] Thank you.
+[03:35:01] And then it occurred to me, I'm like, what if we didn't?
+[03:35:04] What if we didn't throw away tab one?
+[03:35:07] In theory,
+[03:35:09] Memos are pure.
+[03:35:11] computations, right?
+[03:35:12] Do you get what I'm saying? These don't have side effects.
+[03:35:16] Like,
+[03:35:17] Yes, it might build a bunch of DOM nodes.
+[03:35:20] It might...
+[03:35:22] It might do a bunch of...
+[03:35:24] you know, work,
+[03:35:25] inside its own scope.  But it's over here where you're like create render effect.
+[03:35:32] where you read the results of this show, you know, whatever show,
+[03:35:37] Component.
+[03:35:39] I'm just doing this for whatever purposes.  When you get back whatever the children is,  it's in here on the other side of the effect here when you're like,
+[03:35:47] children, whatever they are, that you do the actual insert work where you're actually parent,
+[03:35:56] you know,
+[03:35:58] children
+[03:36:01] you know, do whatever stuff. This is where all the work actually happens down here.
+[03:36:05] So,
+[03:36:07] And...
+[03:36:09] It occurred to me that
+[03:36:11] If.
+[03:36:12] As long as
+[03:36:15] You know...
+[03:36:17] it probably doesn't matter that we dispose this right away.  That was my thinking. Because you use an effect,  like when you want to make a side effect in the DOM,
+[03:36:27] And in the new solid API for CreateEffect,
+[03:36:33] where you have your dApps
+[03:36:35] and then you have your callback function,
+[03:36:37] Thank you.
+[03:36:38] You can do the good old react.
+[03:36:41] return
+[03:36:43] clean up, right? And you clean up your stuff, right?
+[03:36:47] You actually get depths back through here.
+[03:36:49] the way we're doing it. But the point that I'm trying to make with this is that like,
+[03:36:56] Um...
+[03:36:58] this is where your side effects happen, right? On mount, in fact, this is where you're doing most of your work. Yes, there is technically an on cleanup that can run in here, but
+[03:37:08] If we don't dispose of this right away,
+[03:37:14] It's possible.
+[03:37:16] that we can have both realities existing at the same time.  Or at least version of Transitions in Solid to Go.  I have a Medium article on this stuff.
+[03:37:27] Medium Calm,
+[03:37:28] suspense.
+[03:37:31] Solid.js.
+[03:37:34] the
+[03:37:36] Maybe I should just go to my Medium page. Let me see it. I've been working on these problems for a long time.
+[03:37:44] Where's my stories, my stories?
+[03:37:46] Is this just like a fake thing where they like...
+[03:37:49] Okay, got it. Yeah, thank you.
+[03:37:52] Actually, I didn't get it. What did it say? Did it tell me that they moved it? Yeah, they didn't move it. Okay.
+[03:37:58] Okay.
+[03:38:00] Where was it?
+[03:38:03] Designing solidjs subtraction, designing solidjs
+[03:38:08] One of these designing solid.js suspense.
+[03:38:12] .
+[03:38:14] When did I write this article? Sorry, just December 3rd, 2019. Okay.
+[03:38:22] Thank you.
+[03:38:23] Concurrent mode, okay.
+[03:38:26] Thank you.
+[03:38:31] Thank you.
+[03:38:34] I was showing suspense off here, okay. Transitions, how did I do transitions back in 2019?
+[03:38:42] Use transition, okay?
+[03:38:46] Oh yeah, I did it.
+[03:38:47] Okay, so...
+[03:38:54] Yeah, you know what?
+[03:38:55] Maybe I updated this article.
+[03:38:58] This looks like it's already up to date. Yeah.
+[03:39:01] Suspense list. Okay, never mind.
+[03:39:04] I had an earlier version.
+[03:39:06] before the 2019 version that apparently
+[03:39:09] works perfectly fine.
+[03:39:13] Crazy. I didn't realize I did it that early.
+[03:39:16] Um,
+[03:39:19] Nevermind, which actually hijacked the control flow  and you'd pass the transition as an argument  into the control flow component  so that it could actually just opt into this behavior.
+[03:39:28] But the gist of what I'm trying to get out here is the idea is
+[03:39:34] What if
+[03:39:36] Instead of disposing what's on the page, you keep it around.  And if you detect by the end of this update that there's async involved, that it's a transition essentially,
+[03:39:47] Well, then.
+[03:39:49] we don't throw it away and we keep it around and we keep on updating it but if we get to the end
+[03:39:53] and there's no A-sync involved and it's not a transition,
+[03:39:55] We just dispose of it then.
+[03:39:59] And basically, we don't fork anything.
+[03:40:03] We just
+[03:40:05] defer disposal. So we don't create anything new that we didn't need to create. If you're doing an update from condition one to condition two, you're definitely going to
+[03:40:13] you know, tab A, tab B, you're definitely going to create tab B, you know?
+[03:40:18] Thank you.
+[03:40:18] But it's not like we're wasting work.
+[03:40:22] we're just upping the memory temporarily a little longer.  So instead of releasing A right away and then creating B,
+[03:40:30] um we we keep a and b around simultaneously synchronously till the end of the flush
+[03:40:35] Now, to be fair, synchronously, I don't even know if GC would even have time to operate.  Like this might not even be a noticeable overhead.  We still need the benchmarker, but I did benchmark this in the reactivity benchmark.
+[03:40:47] and it had almost no, it had minimal overhead over R3.  It basically brought R3 back up to Alien Signals levels in terms of performance.  Like, we actually didn't.
+[03:40:57] get hit. Now I'm sure the performance would degrade a little bit further as I add more solid features  on top, just kind of how it is. But the reality was
+[03:41:05] This is the fastest version of the reactivity that I've ever worked with, even with
+[03:41:10] this behavior built in. Now,
+[03:41:12] They're not testing this behavior in the Reactivity demo.  They don't even have ownership.  They don't even have depth.  So like, I don't know of the cost of this, but the important part is for people not using these features,
+[03:41:26] It's you're not paying a penalty. You're it's
+[03:41:30] the fact that it's transitions everywhere
+[03:41:32] doesn't have a performance overhead.
+[03:41:34] This was the critical
+[03:41:37] Thank you.
+[03:41:38] Why would you want to keep A around?
+[03:41:40] Right.
+[03:41:42] Ear.
+[03:41:44] So that A is still working. I need to go. It's so that when you go to tab B here,
+[03:41:51] and fetch in the background that A is still live.  It's the holding behavior that we were talking about.  See how this counter is still going?
+[03:41:59] released it, we might be able to do something smart where we like left it on the screen, but this counter would stop. This is why I use this demo in every example. This is a live
+[03:42:08] part of the graph.
+[03:42:10] while this async is in flight. Now, not everything is a tab switch, so to speak. This is a more general concept.
+[03:42:15] um
+[03:42:18] I wanted to...
+[03:42:21] Yeah, that's right.
+[03:42:23] Yeah, I can save this. I just wanted to kind of show this as an example. Let's see. Can I increase the delay here?
+[03:42:29] Let's go plus 380. Okay, let's do this.
+[03:42:36] See, it's so that these are both existing in time. It's basically a transition, but there's no transition. There's no forking. It's just the fact that we use a combination of keeping the values in the past and deferring pure disposal, i.e. non-side-effect full disposal, that we essentially accomplish transitions with no extra cost.
+[03:42:56] Thank you.
+[03:42:58] - Still a few minutes, but thank you, Mark.  Do the research, make sure you're absolutely convinced  you're happy with architecture design,  much better than delay and get it right in the first time.  - Yeah.
+[03:43:08] So then you can switch to children without rerunning the callback again.
+[03:43:13] Well, the thing is, if there was no transition involved,
+[03:43:16] you would be switching
+[03:43:18] Like,
+[03:43:18] Do you know what I mean? Like if you're going from A to B
+[03:43:22] Like,
+[03:43:24] you're definitely going to go to B and render something differently.
+[03:43:26] Like that part never changes. You're going to run A once and you run B once.
+[03:43:30] But.
+[03:43:32] you're going to have it run A and then we switch to B and run B again. But what's cool about
+[03:43:38] about this approach is we can have them both existing in parallel
+[03:43:43] while that transit transition is happening, so to speak.
+[03:43:47] and we didn't need to fork it.  Like before, the problem was I would keep A where it is  and then fork it and then test it out on B  and then merge it back in.
+[03:43:57] This is way simpler. In fact, I don't have all the features in, but SolidSignals implementation was getting to about 2100 lines of code built.
+[03:44:07] And yeah, I don't have all the features in the current one. It's about 900. I've like half the size of the code complexity with this new approach.
+[03:44:14] even though the reactive system with R3 is probably a tiny bit bigger,
+[03:44:17] But yeah.
+[03:44:19] In the sync case, the disposal happens after creating the next state of UI.  Traditionally, it would happen before. Yeah, exactly.
+[03:44:26] We defer it. So it's more like if you do, there's a bunch of cues. There's a pure cue.
+[03:44:31] And then there's like
+[03:44:33] a renderEffectQ and a userEffectQ. One, two, three. Usually as you run we do cleanup. So you hit a node, you go clean it up, run it again, clean it up, run it again, clean it up, run it again. What this does, it goes
+[03:44:45] run all the PureQ,
+[03:44:47] collect all the cleanups,
+[03:44:49] Then it goes, okay, I know because we'd split the effects, we know if we hit all the async at this point.  We run all the front halves, we run all the pure queues, and we're like, okay, now, yeah, this is a transition.
+[03:44:59] then we go, "Okay, don't dispose of that stuff. Let's keep it around and keep it going until that transition ends."  But if it gets the end and there's like, "No, no async, we're not a transition, whatever."  It just disposes it at that point and then runs the render effects and continues on.
+[03:45:17] Couldn't the counter be in a global-- yeah, but it doesn't matter if it's in global state, if you're rendering it inside the component.
+[03:45:25] because
+[03:45:27] If you release it,
+[03:45:28] you're releasing the reactivity like it just
+[03:45:32] Ed?
+[03:45:33] like it's like
+[03:45:37] Even if I keep a reference to it,
+[03:45:40] If I...
+[03:45:41] If I create a mem- the way solid works is when you want automatic disposal, right?  If I create a memo inside a memo,
+[03:45:51] you know you're going to create a new memo so there's no point keeping this memo around you  have a memory leak this is the classic problem with these reactive systems is the leaky observer  problem uh if the if the thing they subscribe to lasts significantly longer than its own life cycle  it just stays there connected to that signal in the global scope so what we do is we register any children
+[03:46:12] with the parent. So when the parent reruns, it disposes them automatically.  There's ways you can get around that.  Like we use inside for components and control flow, like for like control flow,  because we can release a row at a time.  But generally speaking, the base behavior is you just release it.
+[03:46:26] So even if you have the signal in global state and you release it, but you're still just
+[03:46:31] holding there because you haven't inserted it yet. It's going to not update because
+[03:46:37] You... the memo has been released. It's no longer connected to the signal.
+[03:46:46] Thank you.
+[03:46:48] Yes, although I'm going to the technical side.
+[03:46:52] Let me get to the actual examples.
+[03:46:57] You might feel what behavior is unwanted?
+[03:47:03] Yes.
+[03:47:03] sorry i'm not quite following like the the ownership model of automatic removal is just
+[03:47:09] It's a base thing, otherwise you could create tons and tons of memory leaks.
+[03:47:14] Right? Like it's literally
+[03:47:17] Whoa.
+[03:47:18] keeping the state around. I mean, the question is,
+[03:47:23] Do you believe
+[03:47:26] that
+[03:47:29] Like,
+[03:47:30] Do you believe that or you just mean like keeping the page live while the other page is loading? I mean, it's really, you know, the tabs going away. So like,
+[03:47:38] It being live is kind of like a
+[03:47:41] like, who cares maybe moment.
+[03:47:43] But,
+[03:47:44] There's cases where you're doing mutations on screen itself, where the whole tab isn't going away or part of it is going away or things are changing. You don't want the UI to suddenly freeze up momentarily because you're doing this action necessarily. You know what I mean? Animations or other kind of stuff. The idea is to keep both things live. That's the whole thing.
+[03:48:06] idea with the whole transition thing in the first place.
+[03:48:09] Right? Two branches.
+[03:48:12] That's the whole thing the whole time, right?
+[03:48:17] Thank you.
+[03:48:18] Thank you.
+[03:48:19] It might be noticeable if there's a reference outside being mutated inside the cleanup.  Yeah, if it's not pure, then you have a problem.  It's like the React-Shrick mode problem.  See, the funniest thing is...
+[03:48:28] So many parallels here.  React is like if you just follow the chain inside our create memos.
+[03:48:35] Almost all the things that React realized that it needed,
+[03:48:38] are true about the reactivity graph. We're just one dimension outside. We have our reactivity  running through the component system. React, the component system is the reactivity. But  conceptually, it's the same thing. They throw their components, they throw their UI. We throw,  we throw along a data graph that runs through our UI. This lets us run the UI once, which is,
+[03:49:00] incredibly powerful in terms of performance and in terms of like
+[03:49:04] just like, okay, there's a thing. But the actual behaviors of the graph are very, very similar to what
+[03:49:10] React is a certain thing. We just have a world that lives outside the components, which they don't.
+[03:49:16] Thank you.
+[03:49:19] yeah well no effects are fine effects are fine the effect cleanup
+[03:49:27] is going to happen in order. It's only the pure side that matters.
+[03:49:32] Effects are fine. It's only inside memos.
+[03:49:35] effects will run 1212 1212. It's just on the, we defer pure disposal because the effect
+[03:49:42] The part that I haven't showed is the secret part is the fact that
+[03:49:46] can read the render effects, read the old values.
+[03:49:50] Normal effects read
+[03:49:53] the updated value when they throw and they get caught up and they don't update. RenderFX
+[03:49:59] can read the old values,
+[03:50:02] So they might run
+[03:50:04] Because what happens if you're in the same, they might need to run
+[03:50:08] Um,
+[03:50:10] With...
+[03:50:12] like while something's holding and something's updating, like that counter.
+[03:50:15] they might need to run at the same time, where you have both pending value, non-pending value. So render effects actually
+[03:50:21] They don't.
+[03:50:23] They kind of tear in a different sense of the word tearing.
+[03:50:27] So it's the UI that does
+[03:50:30] Like...
+[03:50:31] the actual like holding of values in the past in a sense even though it's like represented in the effect
+[03:50:40] Thank you.
+[03:50:41] I believe there are ways to keep the counter alive, but still cannot get problem with return cleanup. There's no problem with return cleanup. The return cleanup here is fine. This is perfectly fine because it's in an effect. You do the side effect. I'm saying that if someone inside here was doing on cleanup.
+[03:51:01] Thank you.
+[03:51:02] like inside this memo, if you keep it around,
+[03:51:05] it's possible like
+[03:51:07] This won't run right away.
+[03:51:09] This is fine. Your effects, most developers put their cleanups
+[03:51:15] in effects.
+[03:51:17] Or they should be. Or on mount.  Or, like, like...
+[03:51:21] Like,
+[03:51:25] Thank you.
+[03:51:27] And even if your cleanup's here and it's just temporarily delayed, it's probably not a huge...
+[03:51:32] Deal. Do you know what I mean? Like
+[03:51:36] E.
+[03:51:38] Usually when it's a resource subscription thing, it's happening
+[03:51:42] here, not
+[03:51:44] Ear.
+[03:51:47] Thank you.
+[03:51:50] Thank you.
+[03:51:51] Yeah, well that's what I'm getting at. Memos are pure, right?
+[03:51:56] Like that's what the assumption is of this system.
+[03:52:00] you know,
+[03:52:02] that memos are pure.
+[03:52:04] which they've kind of been this whole time, right?  It's the reason SolidOne has Crate computed.  I didn't want people writing to stay inside Crate Memo.
+[03:52:14] We haven't enforced as much as we could, but we literally gave people a primitive for it so that they wouldn't use memos like that.
+[03:52:22] Of course, they can use use effect or create effect as well. But my point is,
+[03:52:27] This
+[03:52:29] Deferred disposal doesn't actually cause any extra work to happen
+[03:52:33] You're not forking. It just...
+[03:52:35] It is...
+[03:52:36] a change of timing
+[03:52:39] on the pure part,
+[03:52:41] essentially allows for us to avoid forking.  And my guess is it's felt
+[03:52:47] kind of does the same thing because their control flow is special they probably associate with the  blocks and defer disposal until the asynx resolve on the blocks this is happening at purely a  reactive level that was my idea i was like what if i could do this literally in the reactive system  now it's tricky because you have to queue them separately because if you queue if you take the  pending nodes you just stick them in the normal queue at the you don't always want to run the
+[03:53:17] - Yeah.
+[03:53:17] Like I had a test in in the repo where it was like it ran the inside one one time too many because on that last time you don't want to you want to dispose and not run the pending ones. But.
+[03:53:29] Thank you.
+[03:53:29] I realized if I mark disposal and isolated queuing, so you have a normal queue and the to be disposed queue, we could basically manage this.
+[03:53:39] And then I just went through a bunch of different scenarios to think about how the merging would work.
+[03:53:47] You know what?
+[03:53:49] But my takeaway was that since this would work, I would be able to mark our existing notes and just give them pending values, pending dispose and pending dispose.
+[03:53:59] pending children dispose. And in a sense, if anyone's seen solid's current implementation,  we have something called T value that's very similar, where we just hold the transition. This
+[03:54:11] I realized that this approach is basically solid 1.0's transition algorithm just done
+[03:54:17] cleaner around disposal so that it's actually guaranteed, like it's actually systematic instead of like
+[03:54:23] 1.0 transitions have bugs in them, if you get complicated. Where this approach, systematically,  I can make sense of and explain, doesn't have the same level of bugs. If you look at the disposal code  in 1.0, it's crazy. If you're a transition, do this and do this. This logic is much more clear  that you just have a queue of the dispose with marked dispose nodes.
+[03:54:46] Anyway.
+[03:54:47] Uh.
+[03:54:49] Um,
+[03:54:50] - Uh.
+[03:54:51] Because I want to get to the examples here in a second.
+[03:54:58] Thank you.
+[03:55:00] Yeah, I think I ended up just codifying this stuff more over time, but
+[03:55:06] um
+[03:55:08] Now, you know what? I think this article is actually newer...
+[03:55:12] than the
+[03:55:15] Yeah.
+[03:55:16] Yeah.
+[03:55:20] Yeah, this article, I'm not going into too much. It's just talking about the fact that actions are still required. I think that's beyond the scope because they're not covering actions today. I do want to pull up one more svelte playground, though, to play with, because this is this. This is the one where I realized that I'm like, I don't want svelte behavior. So let's let's talk about it. The idea is what if you have two states?
+[03:55:39] Like I couldn't figure out for the life of me how salt.
+[03:55:42] entangle the transition, but it's so obvious in hindsight.
+[03:55:46] Because I was like,
+[03:55:48] I came up with three buttons and two states. One state triggers derived and the other state
+[03:55:54] has nothing to do with it and can update right away. So, this non-async value, if I click it, it updates immediately. This async value, if I click it,
+[03:56:04] there's like a delay to when it updates, right?
+[03:56:08] And if I do it together, it's a delay to when they both update.
+[03:56:12] But what's interesting about this example is like when I press together and then press non-async,
+[03:56:19] There's like an interesting jump where it goes from
+[03:56:23] Like, okay, now they're 2020. Now I hit them together, okay?
+[03:56:27] which should be 2121, right?  But then I'm going to hit this one,  and what it's going to do is it's going to show 22 before the other one
+[03:56:34] which is
+[03:56:36] weird because in a sense,
+[03:56:41] You you
+[03:56:42] You would think these were entangled, but Svelte doesn't have the same idea of entanglement. It's weird that you can see the update
+[03:56:48] from the Together button press before Together resolves.
+[03:56:52] Um, and,
+[03:56:54] uh...
+[03:56:55] And it occurred to me that it was so simple. They weren't using the reactive graph to make  their decision completely. They were literally looking at the synchronous timing. I was like,  what, how do I know these go together? It's literally
+[03:57:07] Sorry, I keep saying literally, but it's just the fact that in within the same event handler, same synchronous frame that gets.
+[03:57:13] part of the transition, but it's not a transition because if I click this 10 times, you're going to see 10 updates on the screen.  They don't entangle the same thing. You probably have to handle cancellation yourself, you know.
+[03:57:23] which is something that you don't in React or Solid.
+[03:57:26] So it's like, okay.
+[03:57:29] This is more complicated, but
+[03:57:31] It should be doable.
+[03:57:33] So let's look, let's,
+[03:57:36] That kind of realization here in terms of these behaviors
+[03:57:42] led me to
+[03:57:44] the solution space that we
+[03:57:46] internally model something very similar to a transition,
+[03:57:50] but externally you don't have the wrapper for it.  So how does this look like?  Okay, I know I've been going
+[03:57:56] kind of
+[03:57:58] deep here, but let's actually look at some actual examples now.
+[03:58:04] Thank you.
+[03:58:05] And I'm actually going to do them in the opposite order. I want to start with
+[03:58:10] the async holding example. Okay, and I'm going to clear out
+[03:58:14] a few of these
+[03:58:16] Actually, perfect. I have this felt one right here.
+[03:58:21] Sorry, actually, that's funny. I just saw one. I want my version.
+[03:58:26] Leave.
+[03:58:27] I want...
+[03:58:30] this version.
+[03:58:32] Okay.
+[03:58:34] Now,
+[03:58:36] Thank you.
+[03:58:38] This is the same example. I've done it
+[03:58:41] with
+[03:58:42] with just
+[03:58:44] handwritten Node.jsx because I haven't employed the JSX, but I want you to notice that
+[03:58:49] These are kind of
+[03:58:50] group together, they're part of the same effect.
+[03:58:53] like essentially
+[03:58:55] the one
+[03:58:57] the one
+[03:58:58] the multiple
+[03:59:01] Was it the value and the...
+[03:59:04] and the result are part of the same effect. So like there's this one actually doesn't that aspect doesn't matter.
+[03:59:11] in the next example it will matter.
+[03:59:16] If you look at the difference between these examples, they're very similar. They have derived a weight,
+[03:59:19] and we have create async, but it's the same idea. You call multiply on the thing. Every time you  click the button, you just go n plus one.
+[03:59:28] Okay?
+[03:59:29] It is not...
+[03:59:30] Um,
+[03:59:32] It's not like
+[03:59:34] any kind of difference in terms of concept. It's just there's no transition.
+[03:59:39] and you go isPendingN.
+[03:59:41] Right. You can just ask that about the value. So.
+[03:59:44] When I click this,
+[03:59:45] It delays, and you see the dot-to-dot, and then it shows the value like you expect, even though these all have
+[03:59:51] random timers, they all get tied together. And what's more interesting is if I click this four times,
+[03:59:56] It only shows it when it's done.
+[03:59:59] Click it twice.
+[04:00:01] There's no jitter state. This is like React transitions.  We're actually stabilizing them. Whereas in this example,
+[04:00:09] I clicked it a bunch of times.
+[04:00:11] Does...
+[04:00:13] That, right? So this was kind of like the first behavior consideration, right?
+[04:00:18] So this would be like the base default, right?
+[04:00:23] It's hard to see this without seeing the JSX, and I think it'll be easier when people see it. But what this example is showing is with no transitions and just introducing async, we get the holding behavior and the entanglement.
+[04:00:33] automatically and the obviously the ability to ask the question of is pending.
+[04:00:39] Deferred disposal allows not to kill some nodes.  It allows us to keep both branches live.
+[04:00:45] at the same time without forking them.
+[04:00:47] It's kind of like the reverse.
+[04:00:50] And once you realize that you're working towards a single feature anyways, the transitions don't really roll back.
+[04:00:56] then this is actually a fair assumption. You can basically do zero extra work, just defer some of the work and it actually just works.
+[04:01:04] Um,
+[04:01:07] So
+[04:01:11] What's cool about this is this basic example doesn't show very much, but it just starts getting you an idea of like,
+[04:01:19] how the behavior should be, right?
+[04:01:22] Next example.
+[04:01:25] Actually, I should probably share this example in the chat, just in case anyone wants to check it out.
+[04:01:32] Thank you.
+[04:01:34] Next example that I want to show here and kind of explain it. As I said, people feel free to ask questions as we go, but this parallel async example.
+[04:01:47] Thank you.
+[04:01:48] which I also made in Svelte.
+[04:01:53] This one...
+[04:01:54] Thank you.
+[04:01:56] is important because what you're seeing here is,  there's a single render effect that literally has
+[04:02:01] all the stuff. It has the ID,
+[04:02:04] that we're going to increment.
+[04:02:05] that we're going to use to fetch our data.  And it's going to have our data.  It's going to have a count, which is just literally a counter  that's going off in the background.  And then it's going to show--
+[04:02:14] pending like what the ID we are fetching it looks like.  And then I have a second render effect, which sets the div opacities while it's pending.
+[04:02:22] Again,
+[04:02:25] The UI itself is just setting
+[04:02:29] ID, right? We're literally just going ID plus one. So there's no transition, no nothing. This is just the base behavior. What you're going to see here is as I click this,
+[04:02:38] it's, you know, doing dot dot dot loading one, loading two, and if I click it twice,
+[04:02:43] three, four, five, six, and then jump straight to six being loaded. So we have the ability to inspect
+[04:02:50] what will happen before it happens as well. So we have both capabilities of showing the loading while it's happening. The reason I show this example is because I can kick it four times without it and it only
+[04:03:00] drops in when it's done.
+[04:03:02] And also I can have these running in parallel.
+[04:03:06] without impacting each other. So even though these are entangling, because the graph doesn't overlap,
+[04:03:11] There's actually
+[04:03:13] no, um,
+[04:03:15] Like these are independent updates. Now, like obviously if I force the graph to overlap, like right now this is rendering two components, data one, data two, right?
+[04:03:25] did the old
+[04:03:26] Let's make local state global state. I'm pretending it's a component. Hoist it up. Obviously, these are going to be the same thing.
+[04:03:33] tie together, right?
+[04:03:35] that doesn't take a genius to understand that
+[04:03:37] Thank you.
+[04:03:38] You know what I mean?
+[04:03:40] that when I update these, they're the same thing and they get entangled. But
+[04:03:45] It means that purely...
+[04:03:47] non-entangled async has the potential to run independently, which I think is important in this model because if you can't
+[04:03:55] If you're not going to be setting the transitions, you want it to be possible for people to have multiple updates in flight on the same thing.
+[04:04:04] Right. So like,
+[04:04:06] the the what's felt doesn't have
+[04:04:10] entanglement, so obviously parallel works.
+[04:04:14] But it does do 3, 4, 5, 6.
+[04:04:21] 4, 5, 6, 7, 8. Like...
+[04:04:24] Um,
+[04:04:26] So yeah, it's interesting. I guess I can't do the global state example as easily
+[04:04:33] I'd have to pass it in as a prop.
+[04:04:37] Um,
+[04:04:40] It doesn't really matter.
+[04:04:42] I'm pretty sure Salt will behave the same other than it doesn't entangle the stuff.
+[04:04:49] Generally speaking,
+[04:04:51] This was very helpful to understand this. And this was actually the example that I was working with Tanner that he got excited with because he realized something when he looked at this.
+[04:05:02] There's no transition here.
+[04:05:05] Right.
+[04:05:06] It's just
+[04:05:07] you build something and if you forget to
+[04:05:11] put a loading indicator on it,
+[04:05:13] You know.
+[04:05:16] It's funny because I actually have the pending data in here, but so there is a loading indicator.  But like if you forget this stuff.
+[04:05:23] it still works in a reasonable way. You just, you know, you, it's almost like the language that's describing the thing you're like, okay, wait,
+[04:05:32] It's working, but it's delayed. How do I show
+[04:05:35] you know, a loading indicator, ask for is pending, you know, like it's,
+[04:05:40] It's something very natural about just
+[04:05:44] like the basic...
+[04:05:46] the base version, the way it works, and then just being able to ask this information. Now, obviously,
+[04:05:51] if I do a console log here,
+[04:05:54] for this to work,
+[04:05:57] Thank you.
+[04:05:58] you know what you're going to get.
+[04:06:00] Um,
+[04:06:04] When I click on this, you're going to see zero, even though...
+[04:06:08] Thank you.
+[04:06:09] One right three?
+[04:06:11] Now, I click it three times, you throw it one three times. Now, of course, if I do
+[04:06:16] pending.
+[04:06:17] Did I do?
+[04:06:19] Thank you.
+[04:06:21] then we will get all the numbers 1, 2, 3, 4, right?
+[04:06:26] But...
+[04:06:31] Though it's starting at zero, which is interesting.
+[04:06:33] So maybe I don't have that working...
+[04:06:35] Quite perfectly yet. Oh, right. It's because right now pending is deferred a micro task.
+[04:06:42] I'm going to have to...
+[04:06:43] I'm going to have to look at my implementation again on that.  Okay, that's fine.
+[04:06:48] It's because I needed the knot and tangle, but I probably have a different solution to that.
+[04:06:53] Anyways.
+[04:06:55] Thank you.
+[04:06:57] I don't know if it's obvious to people how dope this is.
+[04:07:01] so to speak.  I,
+[04:07:03] Because
+[04:07:04] I mean, it's really obvious, like you've got to pretend this is JSX and stuff, but it's really obvious when you're literally just using the reactivity system and it just works like this.
+[04:07:14] There's no transition. There's like all you're asking is is pending.
+[04:07:17] or give me the pending value.
+[04:07:19] Otherwise, you just use the graph like normal and it's and it's and it's just like,
+[04:07:25] It just works.
+[04:07:27] It...
+[04:07:28] Thank you.
+[04:07:29] I don't know. I think this is really cool that there's no transition wrapper. There's no...
+[04:07:35] you like,
+[04:07:37] There's no...
+[04:07:38] like framework aspect here like this is your compile code you know some people  like show me the compile code this is your compile code there's no compiler here this is
+[04:07:46] This is literally, I just made it,
+[04:07:48] uh a component and then
+[04:07:50] Um,
+[04:07:52] Just...
+[04:07:53] you know, appended some div elements together, you know? It's... it's...
+[04:07:59] It's literally just the reactive system doing this by its very nature of being async first.
+[04:08:09] Yeah, I mean, in terms of splitting out the depth is the same, because it has the difference is this runs during the pure phase, and this runs on the not pure phase, which is important.
+[04:08:21] because you want to be able to know about your async dependencies and figure out how to handle stuff.  Now, you could compile it in.
+[04:08:28] You could...
+[04:08:30] But then you have other issues.
+[04:08:33] define another block scope to tie async to that's not based on the reactivity react, you know, but then you need a way of identifying that was like Svelte does with its compiler. But
+[04:08:44] Yeah, those are the trade-offs, unfortunately.
+[04:08:48] Once you have that ability,
+[04:08:51] And it's hard to explain like or showcase like I think this is something where we
+[04:08:57] Like you ask someone to create an app.
+[04:09:01] the way they think they would create it and the with using the tools they do today and then
+[04:09:07] I think Ricky actually did this on LearnerJson. And then you just delete
+[04:09:11] like all the problems, this deletes so much of the code, like to create this exact behavior.
+[04:09:17] in
+[04:09:18] in
+[04:09:20] a framework without the async features requires considerably more--  like it's way, way more complicated.
+[04:09:28] compared to just like this.  I think the select example,  Ryan Florence is going to be at
+[04:09:34] Yeah, no, no suspense, no transitions. Yeah, exactly. I mean, suspense is still important because right now I'm faking suspense.
+[04:09:42] uh sort of i mean you don't need suspense but this like loading state i'm doing right now by
+[04:09:48] Literally, how am I, where's the dot dot loading, the initial one?
+[04:09:52] Mm-hmm.
+[04:09:53] I'm sending the text content when I first build it.
+[04:09:56] Ideally what you'd do is you'd have suspense around this and it would just handle the loading initially and then after that like you will never go back to suspense again.
+[04:10:05] Because the way this works, suspense will never trigger after the first go. It's because you're automatically in that transition zone. But yes, suspense is not necessary, arguably, unless you're streaming.
+[04:10:20] um i think it's still probably good thing but you can there's a difference i'm thinking of renaming  the suspense component to loading component we'll have error component and loading component a very  kind of clear thing like suspense is just for that initial load like when you don't have the data yet  and then after that
+[04:10:37] You just ask the question. You're like, OK, now that I've loaded,
+[04:10:40] your affordances are going to be like,
+[04:10:42] is is a pending
+[04:10:44] That's basically the question. You just put that everywhere. So you view suspense as like a
+[04:10:48] how you lay out your page, like where you're loading indicators are like for initial load. And then once you're doing stuff and you're doing all the small affordance work, you just use this pending everywhere and then you're good to go. You know what I mean? You don't have to worry about suspense. It's never going to jump back on you. A lot of people were worried about suspense and they never, they never use solids features like async features because they're like, oh, suspense just keeps on ripping out under me. And I'm like, oh, then you use a transition and they're like, oh, fuck.
+[04:11:13] What's the transition?  And then you're like, or you can use latest.  And they're like, OK, screw it.  I'll just use latest.
+[04:11:18] you know, which is,
+[04:11:18] kind of like almost like this pending value and i was like yeah but then now you're
+[04:11:23] like not...
+[04:11:24] leveraging any of this stuff.
+[04:11:26] You know, like
+[04:11:28] Now they don't have to worry about this. With this API and a position,
+[04:11:33] Suspense will never yank out of you.
+[04:11:36] And it's...
+[04:11:37] Like, you know,
+[04:11:38] Step will work and if you want to show a loading indicator, you just show your loading indicator or your pending indicator.
+[04:11:49] Yes. That's the thing. Switching back
+[04:11:55] you lose it and to be fair solid 1.0 solid 2.0 every version of transitions that i've ever done
+[04:12:01] Switching back.
+[04:12:02] loses it.
+[04:12:04] React switching back loses it too, except it's a virtual DOM. Switching back has never been
+[04:12:09] Like there's no cancellation.  It's eventual future.  So if that eventual future switches back,  if you go one place and then come back again,  you've moved through time.  You basically...
+[04:12:19] What would happen if no transition was involved?
+[04:12:22] You went to one place and you went back to the same place. You would recreate it. This is no different.
+[04:12:33] Thank you.
+[04:12:33] Yes. Not for going back to the old one.
+[04:12:39] yeah there's no like suspense doesn't go away like we still have suspense suspense  lets us render stuff off screen like the thing with suspense is
+[04:12:47] And this is like full tab swapping.  Suspense, when you're tab swapping,  is not gonna make a difference.  The thing what suspense lets you do is like,
+[04:12:55] when it rips it out of the screen, it's still live and it comes back and it comes back again, like and you don't throw it away in the middle.
+[04:13:01] But that's not this use case.
+[04:13:03] We never go back to suspense, so you never
+[04:13:06] have that ripping case, do you know what I mean?
+[04:13:09] This is like going to a whole different page.
+[04:13:12] Even under suspense, that would
+[04:13:14] Yeah.
+[04:13:16] I do think they're probably very cool and better than previous solid 2.0 model.
+[04:13:21] Okay.
+[04:13:24] Thank you.
+[04:13:26] Spence doesn't do this, it never disposes the main branch, yeah.
+[04:13:32] Yes. Yes. Yes. Yes. I mean, to be fair in the JSX, you're not writing that event dependency rate.
+[04:13:41] Um,
+[04:13:42] But yes, and it doesn't have to be dependency array, it can be dependency object. It literally
+[04:13:47] does it's it's I erase is the easiest way of accessing it through.
+[04:13:52] Um,
+[04:13:53] It's literally, this is a function. It could be a single signal.
+[04:13:57] It's just an expression.
+[04:13:59] using array was just like the way that like compiler actually uses an object, I think, and gives each one a unique key.
+[04:14:08] Yeah, like our JSX compiler, but...
+[04:14:11] it doesn't it it's it's more it's less like we're using it like an array because we pass the value  through but it's more like uh
+[04:14:19] views
+[04:14:21] watch
+[04:14:22] Watch, use watch, watchers.
+[04:14:29] watch question new question old question this is the api for it essentially
+[04:14:33] I said I never got anything from Vue. Here we go. Got it from Vue.
+[04:14:36] There we go.
+[04:14:37] Honestly, it was just pure coincidence, but...
+[04:14:41] See? Watch X as I sum this.  It is literally...  Making an array makes sense.  The only difference is we don't do this on thing  where we put the array on the outside.  This drives me nuts.  I know it can make it shorter sometimes  when you have straight signals and stuff,  but...
+[04:14:57] Honestly,
+[04:14:59] then you get into like
+[04:15:01] more complicated cases, you might as well just make it always accept a function.  Because when you accept an array, you actually have to iterate over the array internally.  It's like slower. It's just,
+[04:15:10] There's just no point. But generally it is just watch, which means that we also have to support the deep keyword for stores, which has a lot of optimizations baked in. I spent a whole stream talking about how I was working on that anyway.
+[04:15:24] And
+[04:15:25] Yes, it's basically like Views Watch. It doesn't have to be an array, but yeah.
+[04:15:34] Thank you.
+[04:15:36] It's very similar to Svelte's new model, except it provides the guarantees thing. I've been actually been showing Svelte examples inside the solid one. Like this is the same example in Svelte using state eager here. I had to do something because they didn't have pending. I had to do eager not eager, but I mean, it's fine. But like,
+[04:15:59] The only difference was felt, the biggest difference is the way this
+[04:16:03] this goes 16, 17, 18, like I click a bunch of times and then it goes like this. I mean, this is such a minor thing, perhaps, but
+[04:16:09] The other difference is...
+[04:16:13] so like in the solid version when i do this what you're going to see is it's just going to load in  once it has the same parallelism where i can do this one and this one at the same time but it's
+[04:16:20] when it's finished. Like eager is this thing at the end here that as I click it, you'll see count up.
+[04:16:25] 13, 14, 15, 16, 17.
+[04:16:27] But
+[04:16:28] It is very similar to the self model, except it has the same integrity guarantees that you find in React that built before. And it doesn't require a compiler.
+[04:16:38] As you can see, I'm using a DOM here. There's no compiler involved. This is purely built into the reactive system.
+[04:16:49] Yeah, you don't write V0, V1 usually. Usually people use objects and...
+[04:16:55] like
+[04:16:57] a lot of times people do independent effects.
+[04:16:59] Um,
+[04:17:01] To be fair, I was using v0, v1. Do you know what most people do in these cases?
+[04:17:09] They just destructure.
+[04:17:14] Thank you.
+[04:17:17] Thank you.
+[04:17:18] And then they just...
+[04:17:20] Do this.
+[04:17:24] Thank you.
+[04:17:26] Thank you.
+[04:17:26] Bye.
+[04:17:29] What's this one count?
+[04:17:36] And it's way more easy to read it. Data ID.
+[04:17:42] not equal
+[04:17:43] pending data.
+[04:17:46] Whatever.
+[04:17:52] Like those, like...
+[04:17:55] Thank you.
+[04:17:55] I have a B somewhere still.
+[04:18:03] Thank you.
+[04:18:04] Anyway, I, sorry, I, to be fair, this is more of like what the,
+[04:18:13] Thank you.
+[04:18:15] Yeah.
+[04:18:18] Thank you.
+[04:18:20] Yeah, this is mostly compiler output. I'm literally writing
+[04:18:25] And as I said, if people did stuff,
+[04:18:28] Usually,
+[04:18:30] You...
+[04:18:31] they would
+[04:18:32] make an array and destruct the array or make an object
+[04:18:35] and do p.data. You know what I mean? Like there's lots of ways to do this. Don't get me wrong, I'm not like absolutely stoked about the result of this, but I'm kind of, you know,
+[04:18:48] Thank you.
+[04:18:52] Yeah, no, it's true.  This is one of those things where like,
+[04:18:58] Hmm.
+[04:19:00] And I made an on helper.
+[04:19:04] so that you could put on anyone, but it doesn't make sense on the pure side to have on.
+[04:19:09] as much. So like
+[04:19:11] Yeah, this is a bit of full circle going here.
+[04:19:18] Yeah, I mean, we're catching up. We could also do a dependency object. Yeah.
+[04:19:23] Yeah, or destructuring it.
+[04:19:29] Well, in the way that effects work,
+[04:19:33] Um...
+[04:19:35] Yes, to basically
+[04:19:37] Render effects are interesting because
+[04:19:40] How am I updating the count right now while it's,
+[04:19:43] Well, it's...
+[04:19:45] while it's loading. Look, count is right here. I'm clearly running this effect. Console.log
+[04:19:55] Hey, if I put hey in here, what you're gonna see
+[04:20:00] is
+[04:20:01] "Hey" running over and over again. And then when I click here, "Hey" is still running.
+[04:20:07] Thank you.
+[04:20:08] It's that because we don't commit the values, we know that when we're not currently under the act of transition, so to speak,
+[04:20:15] that we can show the stale values for things that are think or that are like when we're under an  active trend like under the a flush that's actually been working on the async like which  is usually really easy to detect after the fact because usually you're coming back in because some  async resolved which means you can immediately be like oh this async resolved we're back in  transition mode you know before you get here right in the height graph um because you know then you  can always use the latest values and most time when you're doing reactivity you can do the latest
+[04:20:45] and you're not part of that transition,  that you show the old values.
+[04:20:49] when you're in a render effect. Every other place you always intern inside the graph is always the latest values. So this is basically like
+[04:20:59] the one exception is to every rule is the render effect.  So there is like a framework aspect, not framework, but like a render UI aspect  part that make render effects special, but other effects like user effects don't
+[04:21:12] get brought into this. They don't affect, uh, they don't affect, um,
+[04:21:19] you
+[04:21:19] transitions, they don't affect suspense, they don't really care. They're just literally, when their depth are stable, they run.
+[04:21:27] They won't trigger suspense, they don't care about that, they don't trigger error boundaries.  Normal user effects are kind of independent of the rendering.
+[04:21:34] So which I've shown in other examples, it's a very, very powerful thing because then you can like,
+[04:21:40] even though they won't run, like they'll be held when they're off screen, like if they haven't been rendered on.
+[04:21:46] they won't be the thing responsible for stopping things from being rendered to the screen.
+[04:21:53] Thank you.
+[04:21:55] Thank you.
+[04:21:57] Thank you.
+[04:21:59] Thank you.
+[04:22:00] We use objects, actually, because it was better than using the array.  So we use objects with the...
+[04:22:09] With things that I might be destructuring.  Yeah, I'm not sure.
+[04:22:15] *laughs*
+[04:22:17] *laughs*
+[04:22:18] Thank you.
+[04:22:19] Thank you.
+[04:22:20] uh oh sorry it's just funny you can't like throw a rock two inches
+[04:22:27] Um,
+[04:22:28] Yeah, they're relatively easy. I think they'll be easier in 2.0 too because we were more aligning with HTML standards in terms of most of our conventions. But yeah, I mean, straightforward. I have my own opinion on web components you should watch.
+[04:22:42] just google me and web components and you'll see
+[04:22:45] Thank you.
+[04:22:53] Thank you.
+[04:22:55] Thank you.
+[04:22:57] Thank you.
+[04:22:58] Does this mean no generators are presumed?  No, we're basic...
+[04:23:04] You do need
+[04:23:05] something
+[04:23:07] Four actions.
+[04:23:09] What's cool about this, as you can see, is in any case in which you
+[04:23:12] are updating, like these pending things, like where you're just like doing the stuff for on the fetch side, not on the post side.  You don't need it.
+[04:23:22] optimistic.
+[04:23:24] You don't need transitions. You don't need any of these other mechanisms.  Like you're literally just going, Hey, am I waiting or not?  Like, that's the question you're asking when you're doing async.
+[04:23:32] There's only two questions I actually covered in my talk.  It's like, can I render this?  And is it out of date?
+[04:23:40] That's what like, can I render this is suspense essentially or the loading component? And is it out of date is depending like or is pending like that that's basically
+[04:23:52] That part.
+[04:23:54] Now, once you get to a place where you actually have to, the problem is mutations don't have a dependency graph.
+[04:24:00] Like they don't have anything to tie them.  So if you have multiple things in flight,  you need a way of like deciding that they're complete.  And you do want to cook the updates together.  I've talked about this before in Pass the Stream  because if you have multiple things in flight,  you want them to entangle when they affect the same state,  but you don't know.  Optimistic can help.
+[04:24:17] guide you to tell you like if they share optimistic state then they probably they're  entangled as well but it means we still need after the await a way of connecting the like data  refresh or like the set state after mutation mechanism back to the thing so this problem  does not go away it's possible that instead of having a transition we have an action helper  similar way but the difference with the action helpers is very very deliberate like when you're  performing an action we we already have apis like this in the router so you wrappers where you can
+[04:24:47] I haven't completely landed on it, but the core part is with this sort of API design,
+[04:24:53] No one should be thinking I should go into my design system and make
+[04:24:58] Select
+[04:25:00] action design thing, you know, like that we were on that path, right?
+[04:25:04] But now, since everything's a transition, you don't need to go update it. Like the router just works this way. We don't need the router to go do wrap stuff in transitions. Your input components don't need to go like you don't need to go through your whole ecosystem and be like, okay, component authors, Cobalt guys, come here, go update all your stuff to use transitions. Like the, the, you,
+[04:25:28] The end user will go like, okay, I have an action I want to do.
+[04:25:33] with optimistic usually it's those two things you'll be like
+[04:25:36] Because you could technically,
+[04:25:38] If you don't have optimistic state, you're probably not going to notice the entanglement problem.
+[04:25:43] So most people who come in and do something naive will just in a click handler, do the thing. And yes, it's
+[04:25:49] If they click it a bunch of times, it's possible the timing happens that the transition doesn't start until it comes back from the action. And they might miss each other or they might overlap and entangle.
+[04:26:01] they'll generally be okay.
+[04:26:03] The second that you go, OK, I need an action is when you go, I need optimistic state.  At that point, there's a real start and end.  And in that case, you do need a way of removing the optimistic state,  which means you do need a rapper and you need to do it.  But what I'm saying is people will get
+[04:26:21] 80% of the way, even further, before they ever realize that they need the Action API. And
+[04:26:26] And I think that's okay.
+[04:26:29] You know what I mean?
+[04:26:31] Thank you.
+[04:26:33] Does that make sense?  Like...
+[04:26:37] Because
+[04:26:39] If you don't use an action,
+[04:26:40] it will just view the stuff before the action and after the action as separate transitions, which is fine. If the graph overlaps,
+[04:26:51] At some point, it will entangle them, but...
+[04:26:53] I think it's only the optimistic state that really gets us in trouble.  So...
+[04:27:00] That's when, you know,
+[04:27:03] When you get to that point where you're like, I need to
+[04:27:06] check the box ahead or when because you know or I I mean even checking the box ahead is not
+[04:27:12] that bad because it's
+[04:27:14] Well, no, it is because you can tell.
+[04:27:16] You can tell the difference between an action and stuff because...
+[04:27:20] when you do
+[04:27:21] something on the get side, it's usually triggered from setting state.
+[04:27:25] Right?
+[04:27:27] Whereas an action is not triggered from setting state. An action is triggered from doing something async,
+[04:27:34] up first, like doing a post. So like
+[04:27:37] If you
+[04:27:39] if you had something where you want to save it to do whenever you checked it done, right?
+[04:27:46] there's two things you do there, right? You check the to-do,
+[04:27:50] And then you if you want it to be optimistic and then you go save to the server. Right.  You can tell right away that that's an action because the fact that there is a separate
+[04:27:58] action, the actual saving it to the server. If all you had to do is check the to-do and there's no saving to the server, then you don't need an action.
+[04:28:06] Because...
+[04:28:06] you could just use the eager checkbox or something, but then, you know, if there's some downstream async that you wanted to do. Right. And the thing is, I haven't actually showed the next example, which is, um,
+[04:28:18] The Ryan Florence demo.
+[04:28:20] Because solid doesn't have controlled inputs by default,
+[04:28:24] Um,
+[04:28:27] This demo lets the inputs get ahead. Like if you check a box, we don't reset it on you.
+[04:28:34] You don't need to worry about...
+[04:28:38] setting it to eager, you know, it's felt the same way. So if I go to Florida here,  it's going to change to Florida before the UI gets consistent. See, look,
+[04:28:47] Florida, but now it's Miami, Florida.  So it didn't change the UI until it could show Houston, Texas.
+[04:28:53] And while it's waiting, it's graying this out.
+[04:28:56] But
+[04:28:57] This shows California briefly while this is graying out. So
+[04:29:01] Generally speaking, you want your inputs to tear.  It's because that's the best affordance.
+[04:29:06] for them. Having
+[04:29:08] So having inputs, terrified defaults, cool.  And this example is exactly the same as what we've been seeing.  I'm going to close these ones down for a moment.
+[04:29:19] What I like now is it's like the Svelte example. We don't have two-way binding, but
+[04:29:23] I have a select component now.
+[04:29:25] where I've generalized it.
+[04:29:27] And
+[04:29:28] you know,
+[04:29:29] State, state, set state on change. See, I'm just literally passing the setter. Now, if this was data binding, I could do this in the same property, but who cares? And then
+[04:29:40] Create async, get the states.
+[04:29:43] then the state 0 is the state,
+[04:29:46] And again,
+[04:29:47] Yeah, just...
+[04:29:48] beautiful kind of
+[04:29:50] logic graph here of just explaining how
+[04:29:53] whenever the state changes,
+[04:29:55] fetch the cities for that state, and then whenever the cities changes,
+[04:30:00] The selected city becomes the first city in the list, right? Like it just chains down and
+[04:30:05] If you want to add a third one, you just add a third one. That is how I did the country example. But what is cool again is in here,
+[04:30:12] And then I showed the selection with a render effect that shows state in this. Let's put this example.
+[04:30:17] in the chat.
+[04:30:21] Yeah, yeah, yeah. Sorry, this is true. I've been calling it latest, pending, eager. I just, yeah.
+[04:30:35] Well, um...
+[04:30:38] The way it works essentially is create async,
+[04:30:42] turns async into a promise.
+[04:30:44] Um,
+[04:30:45] which means a git state here is a promise of string, right? From string. But states here,
+[04:30:51] Oh, right, TypeScript isn't.
+[04:30:54] States here is just going to be
+[04:30:56] a string array.
+[04:30:58] It just literally knows that it's a function of string array.
+[04:31:02] I don't have the types in this playground. Sorry, it's just called a ts file, but it's not actually the js output from the build.
+[04:31:11] but essentially it's not nullable the way it works.  What happens is when it hits a value like this that it can't read, it throws.
+[04:31:18] But it only throws with inside this expression.  And then this one goes, OK, well, I'm async and I can't resolve.  So I throw.  So when I read this,
+[04:31:24] This throws again to this expression, this throws to this expression. And then in the UI,
+[04:31:29] we don't throw away the whole thing. We just, again,
+[04:31:32] throw
+[04:31:34] within the scope of where we read at each place, like here or here or, you know,
+[04:31:40] here. We only throw, it doesn't cause us to re-render again, we only throw within the specific effect or the specific reactive context.
+[04:31:51] But what's cool about this is it means that
+[04:31:53] the graph is kind of blocking
+[04:31:55] Um,
+[04:31:56] as data resolves, but the rendering is not blocking.
+[04:32:01] Um,
+[04:32:02] And it makes it colorless because your component here has no clue the value or like this component.
+[04:32:08] has no clue really if value or options or any of these things are async.
+[04:32:13] but you know it just has to make a decision based on like
+[04:32:16] Bye.
+[04:32:17] From a forward standpoint, it's like, okay, well, if options are loading,
+[04:32:20] pending, then I'm going to show loading.  This is how I fake suspense here, because it would throw here, and then we went--
+[04:32:27] Get it.
+[04:32:28] Right.
+[04:32:29] There's a, it's pending has a, like a default value that's used very rarely, but.
+[04:32:34] So this means that initially when it throws, it returns true, which is how when I refresh this page, it's actually loading.
+[04:32:43] Not an important detail, but my point is that like,
+[04:32:47] Um,
+[04:32:50] Uh.
+[04:32:51] What is my point?  My point is that essentially you consume the async at the edges  of the system where it comes into the system,
+[04:32:58] and make them part of the reactivity graph so that your components don't need to worry about that detail. They just basically are only asking a couple questions, which is,
+[04:33:06] Show me the value.
+[04:33:09] Is this the most up to date version of that value?
+[04:33:11] That's basically the gist of it.
+[04:33:21] So, yeah, I mean, some people saw this example and they're like, is it weird that it waits?  So the whole point is the consistency.  You don't want someone to see Miami, New York.
+[04:33:34] Right. If I go here,
+[04:33:36] Or sorry, let me...
+[04:33:38] Yeah, see if I'm here.
+[04:33:39] Miami, Florida. You don't want it
+[04:33:41] to be when i switched to new york to be miami new york here which is what the default a lot of  frameworks would do um
+[04:33:50] without a transition type mechanism. But this just works, as I said, built into reactivity. And
+[04:33:55] What's so cool about this example is the select component literally just
+[04:33:59] There's no suspense or anything. It's just like basically if this true wasn't here, it's not its responsibility.
+[04:34:05] If I was creating this for real, I would not have this true here.
+[04:34:09] When it originally loaded, select would be like, I can't render, and it would throw.
+[04:34:14] and suspense above it would trigger and show the loading state but after that point
+[04:34:19] And
+[04:34:20] it's capable of showing if it's ever out of date by this simple is pending wrapper here inside the  select and what's cool is because it's asking about its own options doesn't care about anything else
+[04:34:31] You could also be like,
+[04:34:32] Um,
+[04:34:34] Thank you.
+[04:34:36] Sorry, I mean, you could also listen to other things, maybe value, I don't know. But because it only cares about its own options.
+[04:34:43] It's generalized, right?
+[04:34:46] This first select list
+[04:34:48] has that same as pending check, but because its options are never only pending at the beginning here,
+[04:34:54] Never afterwards.  Um...
+[04:34:57] It doesn't trigger, it only triggers this select to be loading, which is
+[04:35:01] one of the beautiful things about the modularity of this approach. Anyways,
+[04:35:08] If it throws, how does it know when to retry?  Does it wait to signal that through?  Yes, it's essentially--
+[04:35:14] not the not ready error
+[04:35:20] Yeah.
+[04:35:21] I mean, the way I'm doing it right now is
+[04:35:24] It.
+[04:35:24] throws, it actually has a link to the node, or the promise if you want. So
+[04:35:30] It...
+[04:35:32] We just...
+[04:35:34] What happens is the create async,
+[04:35:37] primitive.
+[04:35:39] when it resolves,
+[04:35:42] it actually sets the signal again, which propagates the change down the map.  So it's like initially it's like I'm not ready.  So anyone who reads it throws and then when it finishes,
+[04:35:52] It sets a value, clears the error, propagates that through the graph.
+[04:36:05] Create a sync result.
+[04:36:14] If Create Async gets a different...
+[04:36:19] promise than
+[04:36:22] Yeah, I mean,
+[04:36:23] I'm trying to
+[04:36:26] Thank you.
+[04:36:27] Yes, actually, they're...
+[04:36:29] I actually had to fix this bug.
+[04:36:32] It's solid...
+[04:36:32] the lazy version because the way it pulled didn't matter.  But in this version, I actually had to look and see if I got a new not ready error,  I had to compare them and make sure
+[04:36:43] Because when I didn't, it actually didn't update properly.  Because it was already set at that status and it wouldn't propagate properly.  So, yeah.
+[04:36:50] I know that's more of a mechanical question, but
+[04:36:52] Yeah.
+[04:36:55] Would love to see Miami, New York only because of deferred disposal.
+[04:36:59] As a city depends on state, so in theory it shouldn't happen.
+[04:37:02] That would see me at Miami, New York.  No, no, no.  Because there's no deferred disposal in this  'cause we're not releasing anything.  There's no condition here.
+[04:37:12] Well, the thing is, the reality is,
+[04:37:15] Okay.
+[04:37:16] When we switched to Florida here,
+[04:37:21] We have Florida and unknown.
+[04:37:24] So continuing to show Miami here briefly,
+[04:37:29] Um,
+[04:37:31] Thank you.
+[04:37:32] in that, you know, like in here is us holding the value in the past.
+[04:37:39] But like, and like here, Florida, here.
+[04:37:44] like showing Texas, even though we changed the floor to still show in the valley in the past.  My hope is, and I don't know if we get this right away, is if this behavior is intuitive enough,  I'm never going to have to explain transition to anyone ever.
+[04:37:56] Do you know what I mean? Like, it's just like, this is async.
+[04:38:00] Is it pending or is it not? I think that's the kind of takeaway.
+[04:38:10] Yeah, yeah, no, this is the gist of it. I'm just going to go into this week in JavaScript, I think, now, if there's not any more questions.
+[04:38:19] you
+[04:38:20] Thank you.
+[04:38:21] A lot of cool stuff happened the last few weeks, but
+[04:38:25] I'm going to continue my work on this, get the...
+[04:38:29] get the JSX compilation working.  It's the same output of the JSX. I just need to
+[04:38:35] I need to finish the rest of the implementation of the features in the signals library to actually have it, you know, feel the slot written to solid right now.  I've only, I like, I haven't even done four component internals yet.  So it's, I literally just have...
+[04:38:49] the async and
+[04:38:51] sort of transition-esque model working. Just lovely because
+[04:38:56] There's no transitions, you know.
+[04:38:58] It is a transition, it has the same behavior, but there's no transitions.
+[04:39:07] Yeah, yeah, I mean, as a concept, I think so.
+[04:39:13] I think Svelte is very much onto something here.  I just think that the behavior just needs a little bit of tweaking
+[04:39:19] It's hard. I spent so much time recreating
+[04:39:23] reacts behavior in a more granular way or parallel way.  But I spend enough time to understand the reason for it.
+[04:39:30] And
+[04:39:31] I think that...
+[04:39:32] I think...
+[04:39:33] Reacts nailed that part. I think it's just we just need to kind of blend both aspects together. I think it's really, really compelling. And the fact that this is just the reactive system is really cool.
+[04:39:42] Good.
+[04:39:49] Very promising, yeah.
+[04:39:51] Yeah, I mean, as I said, Tanner saw this and he was like, man, this is a freaking game changer. He wanted to sell it before I was even finished providing it. He was already like telling people and I was like, how do people do that? Like, how do they go on Twitter and be like, I got something really cool.
+[04:40:07] And there's like 500 likes.
+[04:40:10] I literally post the thing
+[04:40:14] showing it and it's like, oh yeah, 100 maybe.  No one gets the mechanical stuff.  I think when I make the actual demo, it'll be different.  But with the JSX and actually working  and people can play with it fully working, it'll be different.  But it's just like...
+[04:40:26] it's just like there's a there's a technical accomplishment here as well um and
+[04:40:32] It's important to talk about this in the U.
+[04:40:35] tradeoffs and implications of this kind of designs up front so people understand. For example, the set state thing
+[04:40:40] pretty upsetting for some people but
+[04:40:44] What's the difference if you're going to call flush anyways, you know what I mean? Or this.update, whatever.
+[04:40:55] Thank you.
+[04:40:57] Thinking of all the recent ACF, I find this API to cover all my use cases,  giving me flexibly doing what I want with UI while I'm reading a default experience.
+[04:41:06] Singo Tanner
+[04:41:08] I already saw this and I can't wait.
+[04:41:10] musician of ours.
+[04:41:15] Well...
+[04:41:16] I mean,
+[04:41:19] Their implementation RSCs is actually RSCs.  Different architectures based on my article,  like I covered that in my last stream.  Tanner was actually snuck in there  before we did the micro frontend things  and we actually talked about it a little bit.
+[04:41:33] Um...
+[04:41:34] No one noticed, which is the hilarious part about it.  Like all the stuff went on Twitter blew up, but we actually,  I had Tanner on the previous week actually talking about it. Um, and you know,  cause he got really excited again. I wrote up something. I'm like,  this is how you can do it in Tanner's like, yes, this is it. This is it.  And I was like, okay. Um,
+[04:41:51] But they're not making the generic serializer underneath the hood
+[04:41:57] I was hoping they'd use Cereval, so realistically, it's not until Solid Kits the feature that you're going to see these things together.
+[04:42:06] Thank you.
+[04:42:08] Thank you.
+[04:42:10] Transitions were the hardest thing when you started using Sol.  I think there's one gotcha here.  It's the same issue that I see on SolidRouter all the time.  You know that issue? Someone's gonna go in,
+[04:42:19] and the router is going to work like this by default because all solid works like this.  And they're going to put some async on the page and they can be like,
+[04:42:26] Why, when I navigate to the next page, does it hold on the current page and it doesn't show it till it's finished loading?
+[04:42:32] And
+[04:42:33] And...
+[04:42:35] and you're going to be like look you can use is pending and or like is routing or something we'll  have something equivalent from the router but that confusion is still going to exist or actually the  other solutions you can nest a suspense boundary and that will isolate it that the the nested  suspense i'm keeping the same transition behavior so ness is suspense boundaries  will bail out like if you if you have like some global transitioning type thing happening if you  click to go to the next tab but you the next tab has a suspense boundary
+[04:43:02] we will opt out of the transition and just show that loading state and so which means it will  navigate instantly there are ways to opt out in the same way we opt out of transitions today
+[04:43:12] So I think that like...
+[04:43:15] um,
+[04:43:18] I think while you won't have to think about
+[04:43:22] "Oh, is this a transition? How do I do this? When do I transition?" All that, like that whole category goes away.
+[04:43:27] there will be a new baseline here where it's like, "Oh, that's how async works."
+[04:43:33] Do you know what I mean? Like it is a, it is a shift. It's just like,  you're not going to be like when to transition is not going to be a question.
+[04:43:44] Yeah, maybe post links in our place, I just think.
+[04:43:46] No, links to playgrounds, yeah.
+[04:43:51] Thank you.
+[04:43:52] Maybe you had to go through creating that React like chance to get this right. Yeah, no, I mean, it's, it's,
+[04:43:57] It's true. I mean, the Be Fair earlier versions of Solid were
+[04:44:01] like that already but this version that i did was like the most extensive version  and it's a lot of work took me several months
+[04:44:11] Thank you.
+[04:44:15] Solid needs better marketers, I agree. We'll get there.
+[04:44:19] Henry always says, "Solid hasn't been released yet," which is kind of a smack in the face,
+[04:44:25] I get what he means.
+[04:44:28] Thank you.
+[04:44:37] It's kind of the other way around. Transitions are global.
+[04:44:42] So it's more of like
+[04:44:47] Transitions, actually, this is the hardest part about it, modeling it, they actually
+[04:44:54] It's like the tree falls in the woods kind of problem. Same problem with suspense.
+[04:44:58] It's the, you have to, you do propagate down the graph, but it's the effects that actually, the render effects that actually decide what the behavior is. So.
+[04:45:08] Whenever a new suspense boundary is created, it takes priority.
+[04:45:13] And it will and when you get to the effect and it goes, hey,
+[04:45:17] I'm not good, I may think.
+[04:45:19] you know, our throw or whatever, whatever the situation is,  it's going to communicate that up to the nearest new suspense boundary.
+[04:45:27] If there's no new suspense boundary, we're not going back to fallback.  We just pass it right through it, straight through.  But if it hits a new suspense boundary, the new suspense boundary goes, okay, I got you.
+[04:45:37] I'm going to show your fallback and I'm not going to communicate it up.
+[04:45:41] It's going to stop with me.
+[04:45:43] If you have multiple new suspense boundaries, then it's the nearest one. It'll stop and be like, okay, we're good.
+[04:45:48] You know?
+[04:45:49] Now,
+[04:45:50] If it gets past all the suspense boundaries,
+[04:45:54] then that's when it hits the transition.  And at that point, the transition is like, okay, I'm holding.  So if you have a bunch of sources that are only read under new suspense boundary,  there will be no transition.  It will just switch to the next thing and show the loading fallback.
+[04:46:09] but
+[04:46:10] If any source gets through or is a Bobbit or whatever, then it will register the transition until it finishes.
+[04:46:19] the suspense boundary may or may not be still visible.
+[04:46:21] at that point.
+[04:46:28] The real transitions with the APIs we lost along the way. Yeah. I mean, can we simplify this further? This is one of the questions I had in my head.
+[04:46:36] Like, do we even need create async?  Now, I like create async because it gives me very fundamental markers,  but there's no argument really
+[04:46:43] when you have a graph like this, that literally every single signal, like, what if you didn't have create async and it was literally just
+[04:46:51] Create memo.
+[04:46:53] Because these are eager. The reason we had CreateAsync partially was because they needed to be eager.
+[04:46:58] because we didn't want to cause weird cascading problems where you lazily read the first async  and then waited for it to read the second which caused the fetch. We didn't want that.  These are eager. So technically speaking, we could get rid of create async in this world and  literally make every single signal async. If you return a promise, then it's just participating in the graph.
+[04:47:20] like it just doesn't problem with stores stores are tricky because
+[04:47:25] you don't want anyone to be able to write to them anywhere so usually the way i handle that is have  a proxy that says like while we're in the writer have special behavior the problem is
+[04:47:33] Async context.
+[04:47:34] After they wait, we lose that context and we don't know if we should be writing it anymore or whatnot, and there's no way to restore it. Same problem is we use a generator function because if you support async anywhere, create async also supports generators, async generators.
+[04:47:47] So,
+[04:47:48] Technically, if every signal could support async or async generators, again, it's not bad with a signal because you just return the value through. So then like the but so then like you just keep on yielding and you're fine. But with a store, you're gonna be doing fine grain updates.
+[04:48:00] You almost want to call this like you almost have to call the setter every time.
+[04:48:05] Like if we had async context, there's a world in which we could unify all the...
+[04:48:11] all the APIs so that
+[04:48:13] Both.
+[04:48:15] Async functions and async generators
+[04:48:17] just worked in all reactive expressions.
+[04:48:22] We wouldn't actually need create async.
+[04:48:27] The one reason that made me stay with createasync was because for SSR I wanted to make it pull-based.
+[04:48:34] interesting thing is even though this is push-based, SSR was easier in the model run once with pull-based.
+[04:48:45] Create Async, you kind of need it because you still need to make the promises eager. So it's kind of like a pseudo push-pull. So I needed a marker to be like, this is something we care about actively rerunning. So I kept Create Async in.
+[04:48:57] Um,
+[04:49:00] We'll see how it goes as I get into hydration and finish up the SSR stuff. But there is, I think async context is a blocker, but there is a world in which you do not need a specific create async primitive and literally it's just the behavior of the graph.
+[04:49:18] Thank you.
+[04:49:22] Thank you.
+[04:49:23] Thanks.
+[04:49:29] Thank you.
+[04:49:30] Thank you.
+[04:49:32] Thank you.
+[04:49:36] Thank you.
+[04:49:38] How do we support Swim Swim on the update? It's not going to be a built-in feature. You don't.
+[04:49:43] I mean, there is a way. You wrap it in a keyed show. Again, this is not your happy thing,  because if it's a keyed show, you know everything below gets rendered. You make it a new suspense boundary.
+[04:49:54] That's how you do it.  But I just don't.
+[04:49:57] Why? Like, why?
+[04:49:58] Thank you.
+[04:50:01] Yeah, keyed, yeah, exactly.
+[04:50:13] Thank you.
+[04:50:14] Yeah, I mean, the problem is who's expert enough to actually do this?
+[04:50:20] And secondly,
+[04:50:24] Without the depth, what are people going to get away, take away from it?  Just the topics themselves are hard.  Like if I had like a nice polished thing that I was like coming in to do, then like maybe we could pull that off.  But like today, like.
+[04:50:35] What?
+[04:50:36] I tried to edit down my stream sometimes to make videos and it's like
+[04:50:40] Instead of five hours, which let's say three and a half hours on a topic, I cut like an hour out.
+[04:50:48] Like the biggest problems when I'm into the stuff that's like the real like whoa moments.
+[04:50:55] It's pretty difficult. I'm not as good at selling it. I know I watch a lot of live streaming, so I know one of the best ones is speedruns. I watch and they play the same thing over and over again. It's almost like they cut the streamer's content while they're talking.
+[04:51:10] To the point that it's more like the dialogue they have through the talking and less the gameplay, except for when they make
+[04:51:15] big progress forward. And
+[04:51:18] Because they're doing this repetitive task.  Like, what do you cut?
+[04:51:21] I mean, it's possible, but I,
+[04:51:24] So
+[04:51:24] People have in the past come to me trying to suggest this.  Like the content today does not make a bunch of short videos either.  It's not like Theo. Theo is on point when he comes in, he's like, OK, next topic.
+[04:51:33] Bang, bang, bang, bang, bang, bang.  Sometimes it takes 45, sometimes it takes an hour and a half,  and then he cuts it down to about an hour or 45 minutes, and he's good to go.  You don't get to do that with this, I don't think.
+[04:51:46] Yes. So it means that they sync contacts, create, fetch, and can actually support streams. Yes, you're right.
+[04:51:55] Thank you.
+[04:51:59] Thank you.
+[04:52:00] Thank you.
+[04:52:07] You'd still be willing to give it a try.
+[04:52:12] I have made this longer because I don't have time to make it shorter.  That's true.  Yeah, the thing with shortening these deeptizes out of the contest tips  are loo meaning more where I need a lot of contests generalized  from previous streams, yeah.
+[04:52:26] Yeah, I mean, I can make a video of it, but like it's also not in.  I don't know if it's in video form yet.  Like I would have to I feel like I would have to record things differently, like be like go time.  Like I did that for a while with this week in JavaScript.  I actually have short, I actually separate off the videos for this week in JavaScript for a while.  And then I realized I was like, whatever, and I didn't bother publishing them, but I actually broke them out because I'm on when I go there.  I know the topics I'm going to go through and I'm going to give my take and I'm going to do that.
+[04:52:52] This is not the same sort of thing.
+[04:52:55] Um,
+[04:52:55] That's why I watched back at 10X Expedia.
+[04:52:58] Yeah.
+[04:53:00] Anyway, today was long on a lot of stuff.  Let's let's let's let's get out of here.  I think you guys are good on.
+[04:53:08] on the topics here. Let's do this. We can JavaScript as fast as we humanly possibly can,  which is still going to be long because so much stuff has happened. I'm just going to close down a bunch of these.
+[04:53:18] Keep on looking, it's like, what did I change?
+[04:53:22] It's fine.
+[04:53:24] I changed them
+[04:53:27] Amen.
+[04:53:28] You want these examples still to work when you go get that conference talk next year.
+[04:53:34] All right, just cleaning up.
+[04:53:37] bookkeeping
+[04:53:39] Thank you.
+[04:53:43] Thank you.
+[04:53:44] Thank you.
+[04:53:47] Let me look at my notes to see if I missed anything that I wanted to talk about.
+[04:53:52] No.
+[04:53:53] Oh, you know what I didn't do? We didn't talk about Joseph on his talk.
+[04:53:58] It's fine.
+[04:54:00] It's not that big of a deal.
+[04:54:02] I wanted to do that, but
+[04:54:04] Maybe I can just find the excerpt that I'm looking for.
+[04:54:09] Let's do that briefly right now and then move into this week in January.
+[04:54:20] Thank you.
+[04:54:29] Yeah, I mean, it's possible to do something with like a timeout, but like...
+[04:54:33] It's odd to...
+[04:54:37] I guess it could be controlled because technically like the arbitrary,  like it's new could be toggled.  So it is possible to opt in.  The problem is it just has such profound downstream impact that like now you  have to,
+[04:54:53] Like it's always going to rip out. I don't know.
+[04:54:55] It's tricky.
+[04:54:58] Uh, yeah, no.
+[04:55:01] Um...
+[04:55:03] Oh, let me see what I wanted. Yeah, let's see if I got my notes here.
+[04:55:09] Let's look at this video for a little bit.
+[04:55:11] I'm going to...
+[04:55:14] I
+[04:55:16] Because I have some relevance with it that I didn't have before, so I wanted to look at this video. But I have to change the way I'm sharing my screen.
+[04:55:25] Give me a second.
+[04:55:27] Because in order to do that, I need to share a screen.
+[04:55:31] And we're going to watch it fast.
+[04:55:33] Chrome also shared
+[04:55:36] Audio. Sweet.
+[04:55:40] Just by thinking about it, meet base 44.
+[04:55:45] Imagine being able to build an app with your name on it.  Just by thinking about it, meet base 44, a complete AI creation platform.  Seriously, what was that?  They literally...
+[04:55:57] Played the ad and then played it again.
+[04:56:02] Thank you.
+[04:56:06] Okay, let's go playback speed like 1.5 and then
+[04:56:11] Can I move my position so I'm like...
+[04:56:14] Yeah.
+[04:56:19] Thank you.
+[04:56:22] Thank you.
+[04:56:25] Thank you.
+[04:56:27] All right, let's go.  I'm Joseph Onna, I'm on the React team at Meta, and I do not have a UI equals function  of state in this talk.
+[04:56:35] So I've got to do the next best thing.
+[04:56:37] Good idea. In this talk, I'm going to do a deep dive into the world of React performance.  On the React team, we take a holistic approach to performance, looking at the big picture  of where time is spent in applications.
+[04:56:50] And then we develop features and APIs accordingly.
+[04:56:53] This is why, as Rick discussed in his talk, we added support for concurrency.
+[04:56:56] Concurrency helps optimize our apps, whether they're I/O bound, CPU bound, or both.
+[04:57:00] Okay.
+[04:57:01] But in this talk, I'd like to zoom in a little bit more.
+[04:57:03] on rendering performance specifically.
+[04:57:06] As part of developing React compiler, we wanted to thoroughly understand
+[04:57:08] exactly how well React is doing on rendering performance. You hear a lot of things online,
+[04:57:12] And as we all know, a lot of things we hear online are not necessarily true.
+[04:57:15] So we wanted to get a really solid understanding for ourselves.
+[04:57:17] So we kicked off what has turned into a multi-year exploration
+[04:57:22] React rendering performance, and that has meant diving into the world of incremental computation.
+[04:57:27] For those who aren't familiar, incremental computation is an umbrella term.
+[04:57:29] for software systems that can efficiently update their outputs when their inputs change.
+[04:57:33] Common examples are things like spreadsheets.  You change one cell, only the cells that actually use that update.
+[04:57:38] Build systems.
+[04:57:39] And UI. React is an incremental UI system.
+[04:57:42] Despite what some of...
+[04:57:45] No, that's Ricky's talk. This is a different talk.
+[04:57:54] This is the React will never have signals talk.
+[04:57:58] But there are some important insights from this.
+[04:58:03] My claim. Now our approach on this was to create a series of benchmarks that are representative of different real-world scenarios.
+[04:58:09] One of the challenges with benchmarks is obviously that you kind of end up focusing on one specific case, and we don't want to over optimize because that's not representative, that one case isn't representative of all apps. So we've got a whole bunch of different benchmarks.
+[04:58:18] For this talk, I'm going to focus on just one, but I'll share some of the broader results at the end.
+[04:58:23] The draw benchmark that I'm going to focus on here  is a highly, highly, highly simplified--  can't emphasize the word "highly simplified" enough--  prototyping app.  I don't know why we didn't call it Prototyper.  We called it Draw.  Anyway, we're not good at naming things.  It supports creating text labels and boxes, and that's about it.
+[04:58:38] And the UI is very simple. It's designed to be automated.
+[04:58:41] And right away, there's a very, very important thing we can take away from this.
+[04:58:45] Yeah.
+[04:58:47] So, for this benchmark, we have a script, like I said, designed to be automated. We have a script that drives all the interactions
+[04:58:52] to create the React logo.  My colleague, Jan Kassens, actually took the SVG file,  and was able to extract out the commands from that,  to actually write this.  Yeah, it just keeps on going.  So we're going to skip ahead a little bit.  You get the idea.
+[04:59:02] Now,
+[04:59:04] Might be hard to tell in there, that was actually, to create the full logo at that resolution, is 5,000 interactions.
+[04:59:09] simulating clicks, simulating typing in the width and height fields.
+[04:59:13] Changing the X and Y position. 5,000 interactions to create that logo.
+[04:59:16] Now, the way the benchmark is set up is that each interaction  synchronously updates the DOM, but we don't yield to the browser.  So there's no layout or paint happening.  So when you actually run it-- so I was kind of running it in emojis  to let you see what's happening.  When you actually run it, you click Run.
+[04:59:27] and the browser appears to hang for a second, and then you just see the finished logo. We're just going to do layout and paint once.
+[04:59:32] This is an important distinction here. I just want to throw out here because
+[04:59:39] Okay.
+[04:59:40] Thank you.
+[04:59:41] There are benchmarks that just test the synchronous time, which is the easiest thing to measure.
+[04:59:47] JS Framework Benchmark actually looks for the full paint, which is actually kind of really interesting. UI bench from the creator EV, you can actually toggle the mode whether it counts paint or not, which was really valuable early on.
+[05:00:00] For me.
+[05:00:00] because
+[05:00:01] On one hand,
+[05:00:03] the
+[05:00:04] If you think about it, if you remove paint out of the equation, it's a lot more stable and it should be the overhead of the framework. But the weirdest thing when I was working with solid was
+[05:00:13] For some reason, we did better
+[05:00:16] when we had the painting compared to like it doesn't make any sense.
+[05:00:20] But how could...
+[05:00:21] like a framework get worse.  Like you think you just kind of scale relatively or like, you know, but like,
+[05:00:29] Solid surprisingly did better on benchmarks in which included paint stuff.  And you think, well, you know, that dirties everything up, but it's like,
+[05:00:38] What are we doing that somehow and this wasn't a fluke this is consistently
+[05:00:42] Um...
+[05:00:44] I don't know. Are DOM updates more...
+[05:00:47] performant? Like, is this something that could be changed in these other libraries? I'm not sure.  But it was just an interesting side effect. Is the memory allocation  actually having a bigger impact when, like, under, like,  is there a pressure under higher memory
+[05:01:01] allocation. Do you know what I mean? Like,
+[05:01:04] that causes things to scale worse when you add the paint to the layout. I'm not sure.  Not too important. I just, it is interesting that most
+[05:01:11] benchmarks actually include layout or paint in some way or they don't include them. And then people cheat it by using like a request animation frame or something like or like, like they set their timer on some way. This is like a classic way to cheat benchmarks. They're removing this aspect of the equation, which is very respectable. It's just sometimes I do wonder if it removes the full story. Just just just kind of throwing that out there. In other words,
+[05:01:35] This is measuring pure framework performance, right? That's that's the whole point of this is we just want to see how much how fast can we make those  those updates
+[05:01:42] Okay, so we're computer scientists.
+[05:01:44] We can set up an experiment.
+[05:01:45] Don't start your day with a gross piece of plastic in your hand.  Adding to the 4 billion plastic toothbrushes that get thrown away.  And the one thing I remember about experiments is that I'm supposed to change one variable at a time.  So let's change one thing at a time.  Well, what are the variables to choose from?
+[05:01:59] In an incremental system, there are kind of two key architectural choices, the data model and the update algorithm. So for the draw benchmark,
+[05:02:06] honestly the channel has the choice whether the show adds on the video
+[05:02:12] This is an interesting choice.
+[05:02:14] for your conference. Don't get me wrong, I do put ads on my long stream content.
+[05:02:19] But
+[05:02:20] Like...
+[05:02:21] My conference talk recordings, I don't.
+[05:02:25] Like, if I could. Because, like,
+[05:02:27] Thank you.
+[05:02:28] Yeah, I don't know. It's an interesting choice.
+[05:02:33] We chose a data model approach that a lot of folks in the community have asked about. We stored all the state
+[05:02:39] all the data for the app in a single state value,
+[05:02:42] and then pass that down via context.
+[05:02:43] So each component reads the data for its entity from context and then accesses whatever properties
+[05:02:50] You might have heard about context data, context selectors, or things like that. This is kind of the rough idea, right? We're just going to have this giant pack of data in context, and we'll kind of pluck out at each component.  The one thing that I'm worried about about this...
+[05:02:59] is
+[05:03:00] This doesn't say anything about the different solutions. Context is a container.
+[05:03:07] You can use it as a dependency injection or you can use it to set state and re-render the whole tree.  But it doesn't actually say much.
+[05:03:14] set this context, and then just pass down the ID to each entity, so that it can in turn go and actually read this data from the context. And again, this is just a giant hash map
+[05:03:25] Sort and state.
+[05:03:25] and then okay and then they literally just so that's our data model
+[05:03:29] It's one state variable for the whole thing. And then they trigger everything.
+[05:03:39] Thank you.
+[05:03:43] Been a while since I watched this, I thought the takeaway was they can speed things up far greater optimizing data models, but they never tested signals with optimized data model.
+[05:03:51] never showed those results yeah i mean that that was the takeaway but there's a couple of things i
+[05:03:56] take from this just
+[05:03:58] as fellow data, fellow UI web UI scientists. As you can see, this is basically a giant stress test  for state and context as the representation. Is it a giant stress test? To me, this feels like a giant stress test
+[05:04:12] for
+[05:04:13] Um...
+[05:04:14] React stiffing capability because if you put everything in a
+[05:04:18] a single giant use state. Did I get that right?
+[05:04:25] use state new map entity set in.  Like, if...
+[05:04:30] This doesn't seem like a test of the data. It seems like a test of React's ability to diff.
+[05:04:36] more than anything, because every time you change it, then it needs to dip the whole freaking tree.
+[05:04:41] And cache map, stored in state, and then set as a value in context. Okay, so that's our data model. As we can see, this is basically a giant stress test for state and context as the representation for all your data in an app.
+[05:04:52] How fast can we make it?
+[05:04:55] So this is the variable part of our experiment.  So we chose to experiment with different update algorithms,  given the same data model.
+[05:05:00] React.
+[05:05:01] React compiler, and-- well, we'll get the good ones in a second.  Let's look at the first-- let's just look at the results of these two first.
+[05:05:05] So our hypothesis was that React compiler should hopefully-- fingers crossed, we spent a lot of time on this thing-- be faster.
+[05:05:12] But it could only be so much faster, right?  Because we're changing the context,  and every single component pulls from that context.  So how much faster can we really get when every component has  to update, at least somehow?
+[05:05:21] If this is your data model, a lot actually.
+[05:05:24] because
+[05:05:25] React compiler, by memoizing, is going to be able to
+[05:05:33] Um...
+[05:05:34] Like compared to the naive re-rent, like this is like, this is like kind of terrible. It's like re-render everything baseline. So if you can add memoization, you're going to see significant. Like now, if someone went through and hand memoized, even that would be challenging here because the data structure itself is one use state. Do you know what I mean? Like.
+[05:05:55] So your expectation here is actually, this is one place where the React compiler should  actually have a positive benefit.  Okay.  So baseline first, the results for React.  Now this version has minimal manual memoization.  Yeah.  And remember, this is 5,000 interactions taking just shy of four seconds.  Yeah.  So this is the best case scenario for the compiler.  Yeah.  Right.  Yeah.  Not bad, right?  We're pretty happy.  Like, whew, okay.  We could probably keep our jobs.
+[05:06:19] Yeah, I mean, this is really the best case scenario for the compiler because
+[05:06:26] essentially non-memoized React. I did in the JS Framework benchmark,  a similar thing where I took like, it wasn't even non-memoized. Like I had to like
+[05:06:36] because structurally it was smart, we did hoisting and stuff, but I just removed all the memo calls and compared the compiler to not compiler. And yeah, it went from two, it was actually slower, slightly slower, naively than the transitions version that was hand optimized. And then the compiler brought it, as you can see, back down to where, you know, almost where, as we showed earlier in the stream, almost down to where the hand compiled thing was, which my conclusion was the compiler doesn't make code faster than hand memoization, or it's about the same.
+[05:07:06] But
+[05:07:07] definitely makes your code faster. So I think this is confirming that the compiler
+[05:07:12] does
+[05:07:14] memoization reasonably well.
+[05:07:17] Right. Sorry. I didn't pick it up the first time  I watched the talk that they literally jam into one new state.  That almost makes like
+[05:07:23] all of this mute. Anyways, let's keep on going. So that's awesome. How though? What exactly is  happening? I just said every component has to update with this new context, so how did it actually get faster?
+[05:07:33] In React, when we render our UI, React creates a tree of what we call fiber nodes.
+[05:07:38] The fibers correspond to components.  So you've probably seen diagrams like this in the past.
+[05:07:41] And our mental model is that, oh, the component is re-rendering.
+[05:07:45] right so if draw updates then we have to propagate that value down and that means updating yes yeah  yeah right they use a mutable map rather than a plain object must be copying the map on each  update yeah yeah exactly like it's good it's basically immutable at that point because it needs
+[05:07:58] check everything anyway.
+[05:08:02] E
+[05:08:03] Yeah, I mean,
+[05:08:04] Well, okay. The benefit of a
+[05:08:08] of the mutable map, there is one slight benefit.
+[05:08:12] is
+[05:08:13] I'm although not on this, I think, because it's going to be primitive values, it is possible to keep
+[05:08:17] references, I guess, like, do you deep clone or shallow clone? You'd shallow clone anyways. Yeah. Who am I kidding? You'd
+[05:08:24] You would shallow clone.  So yeah, you're right.  This is odd.  I mean, it saves you from shallow cloning.  I think you can set the same...
+[05:08:34] I think you can set the same map each time and still trigger.  Actually, I don't know if the compiler will catch it.  That's a good question. I don't know.
+[05:08:41] But yes, it seems the fact that it's a map might be like a small optimization or basically weird non
+[05:08:48] Thank you.
+[05:08:49] Okay, so let's continue.
+[05:08:51] Everything. Well, with React compiler, that's not really what's happening. For example,  we only have to rerun the map if the entities change. If some other property of context  changes, we don't have to rerun the map operation.
+[05:09:03] The compiler is actually splitting up this component  into smaller pieces of logic.
+[05:09:07] And actually, we do the same thing on the item, too, right?  Breaking it up.
+[05:09:10] So, for example, we only have to update the style property, maybe, if the width and height of that entity have changed.
+[05:09:15] And then of course we do this for all the other components.  - The funny thing is if anyone's seen my talk,
+[05:09:20] Um,
+[05:09:21] this talk.
+[05:09:22] uh,
+[05:09:23] I actually do this via slides where I'm showing like naively,  if you have a shopping cart and you have stayed up in the app,
+[05:09:29] and you have a button down here in the shopping cart here, you know, through the header user main, and you do a mutation here,
+[05:09:35] and the state's kind of shared up high,  so it's in both places, like in the context,  you end up re-rendering everything.
+[05:09:40] And then the compiler lets you
+[05:09:43] or your memoization lets you follow one path, because even if you click here and trigger it up, you don't need to re-render down this way because there's like nothing changed on the buy button side. It's only on the cart side.
+[05:09:52] So there's like a, there's a, it's, there's like a,
+[05:09:56] parallel here oh sorry you guys can't see my my talk right um sorry i forgot that i'm only sharing this one
+[05:10:04] this one screen.
+[05:10:06] Never mind.
+[05:10:09] The context value itself has to be recreated, and I think the map was a field in that value rather than the value itself. Fair enough, yeah. Okay.
+[05:10:18] So, in the benchmark, if we've updated a single entity, sure, the context invalidates, the entities invalidate, we have to rerun our map, but then most of these entities are just going to be a no-off, and things basically kind of stop there.
+[05:10:29] What I love though, this is showing like going down the one
+[05:10:33] path, right?
+[05:10:34] essentially.
+[05:10:36] Like that's what I was trying to highlight.  Like you can memoize out things that don't need to change,  but you still go down the one path.  - And we actually spend time updating here.  So as you can see, as the number of entities grows,
+[05:10:47] we're just mostly skipping the work for all those entities, and just focusing on where we need to.  So this is how React compiler is able to make this type of application faster.
+[05:10:55] So this is the best case. Yeah. React compiler can significantly improve the performance of context based apps.
+[05:11:01] Now,
+[05:11:02] or it can significantly improve the performance of
+[05:11:07] all your state in one state variable hoisted high apps.
+[05:11:14] Right. Like context is no one bothers with prop drilling.  So context is the most common way of doing it.  But the actual takeaway is that like if your state is hoisted high,
+[05:11:25] React ends up having to do more work
+[05:11:27] Memoization allows you to
+[05:11:30] follow the branches.
+[05:11:34] Yes.  She's cheated.  You saw the dry run.  Doesn't count.  There's been a lot of noise about signals in the community.
+[05:11:43] What if we use signals? I heard they're fast.
+[05:11:46] Thank you.
+[05:11:46] The world's first titanium nonstick pan.  Blow your hair back. I'm Mike Pigalle.  So we built a prototype, a brand new approach to react, ground up rewrite of the runtime using signals. Or well...
+[05:11:58] But I know the answer to this question because I already talked to them.
+[05:12:03] They did the same thing. They used one signal, just like one used state.
+[05:12:09] Let's continue.
+[05:12:12] Not quite signals, close. Pull based or lazy incremental computation graph. We extended  React compiler to commit to code for this, translating existing React components and  hooks to use this new runtime.
+[05:12:22] Pretty cool, right?
+[05:12:23] Talk about how this works in a moment.
+[05:12:25] We've heard so much about signals. I'm sure you are all really, really excited. Are you excited?
+[05:12:29] Thank you.
+[05:12:31] He's playing it up so much, but it...  - See the results? Want to see the results? Okay. Yeah.  I'm just as excited to show them to you and not for the reason you're expecting.  - Well, let's think here. If I had signals,
+[05:12:44] one signal update the state, and I didn't have the React compiler,
+[05:12:48] My expectation is the performance would be the same as baseline.
+[05:12:53] React.
+[05:12:54] Because I'm updating one state and then I have to go freaking diff everything, basically.
+[05:13:00] Oh yeah, no deep tracking.  Yeah, yeah.
+[05:13:03] Yeah, so my expectation is
+[05:13:06] is that it would be relatively the same performance as normal React. If it's faster than normal React,
+[05:13:13] Without the compiler, that's actually very impressive.
+[05:13:16] Our results so far.
+[05:13:20] That's impressive.
+[05:13:22] Yeah. So this is when we started to question our life choices.
+[05:13:26] Maybe we're just not cut out for this.
+[05:13:29] And then we regained our senses.
+[05:13:31] And we double checked.
+[05:13:32] Okay.
+[05:13:32] What if we just made a mistake? Because, you know, that happens.  So we took a signals-based virtual DOM-less library that scores well on popular benchmarks.
+[05:13:39] Thank you.
+[05:13:40] Solid.js, in case anyone was wondering.
+[05:13:46] Again, this is an experiment, so we're changing one variable at a time.  We're going to change the rendering algorithm.  He is being honest here.
+[05:13:53] Difficult to tell because what's happening is
+[05:13:57] Um...
+[05:13:59] He didn't want to change the shape of the solution. If you have one use state, you'd have one signal, right?
+[05:14:05] The library doesn't matter. I mean, in fact, if anything,
+[05:14:09] Um,
+[05:14:11] The fact that their React Forest was so much more performant than I would have expected suggests that they did a lot of optimization.
+[05:14:20] in the way that they propagated their change there.
+[05:14:24] Which is pretty impressive, actually.  Because, like...
+[05:14:27] It should be the same speed as normal React, not the compiler.
+[05:14:34] Thank you.
+[05:14:35] Right?
+[05:14:40] We asked ourselves if we made a mistake while ignoring the biggest mistake. Well, I mean, it's...
+[05:14:44] It's...
+[05:14:45] It's...
+[05:14:46] From a very...
+[05:14:48] Like...
+[05:14:50] procedural thing there. The problem is you can't, when things are different enough, comparing apples to apples doesn't make sense.
+[05:14:57] But...
+[05:15:00] But like,
+[05:15:01] I think they did...
+[05:15:03] Pretty good.
+[05:15:04] job here, right? Like from the perspective of like getting that much performance of by literally just switching from use state to use signal is
+[05:15:13] actually kind of incredible.  Like, I don't know what their signal implementation is,  but I am very impressed because...
+[05:15:20] you they didn't get any of the architectural gains right they didn't
+[05:15:23] They didn't get the...
+[05:15:24] drill straight into the thing that changed.  They literally are still re-rendering the whole tree.
+[05:15:29] Um,
+[05:15:31] I mean, okay.
+[05:15:33] I...
+[05:15:34] I wonder if they're using...
+[05:15:37] something other than .map, like if they were maybe using like a smart reactive map function, and that kind of brought back some of the memoization and that explains the difference. Like that's my guess. I wonder if they use something like our for component. So they had one signal and a for component.
+[05:15:51] And
+[05:15:53] That would actually check from my head.
+[05:15:57] That might get you in the right kind of zone.  So which means keeping the data model the same.  So we use the same approach, state, passed down via context.  And I want to call out, if you were to go and use a signals-based library, this isn't how they'd recommend storing your data.
+[05:16:09] And so you might say, oh, this is an unfair comparison.  But the whole point is, we're doing an experiment to compare.  Given this data model--
+[05:16:16] Right, yeah. So he knows what he's doing. He just doesn't
+[05:16:20] like it doesn't quite highlight
+[05:16:24] Um,
+[05:16:26] like how absurd this is like you know what this is like
+[05:16:29] Have you ever seen DB Mon?
+[05:16:33] It's there, which is like the Ryan Florence demo.
+[05:16:36] where they do the stuff on the screen and react like killed ember and angular. If you ever look at the knockout implementation, we should do that for fun sometime on stream. It's literally one signal and it makes no sense but whoever implemented it couldn't.
+[05:16:49] care less like I guess right like you would never
+[05:16:52] ever do this, like ever.
+[05:16:56] in 10 years like this so it's it is an odd thing because the whole point is signals are to be  fine-grained and this is not fine-grained
+[05:17:07] So it's like you almost go like, is there any like the fact that they saw the other improvement is confusing, actually.  Like maybe that's why they thought they needed to do another comparison because of their singles.
+[05:17:18] Like,
+[05:17:20] One signal should be identical to one used state in React. They're both atomic, they're both immutable, they're the exact same thing.
+[05:17:31] add a fancy compiler to react, should be faster.  Add maybe a simple for component,  should be slightly faster than the signal.  But it's essentially just
+[05:17:43] One has more memoization and one has less memoization when you have a single signal.
+[05:17:50] Thank you.
+[05:17:51] Because this isn't about... Yeah, I mean it's interesting. This isn't about idiomatic usage in other libraries.
+[05:18:00] The problem is
+[05:18:01] The problem is
+[05:18:03] It's difficult...
+[05:18:05] to talk about it because it's like, here, we have a solution that works like this and then be like,
+[05:18:11] For the sake of being consistent with what we already do,  we're not actually going to use it the way anyone would consider using it.  So it's like, it's kind of like,
+[05:18:20] you're not really giving it a fair try, but
+[05:18:25] Let's continue.
+[05:18:30] Thank you.
+[05:18:36] Thank you.
+[05:18:40] He knows what he's doing, he just doesn't want you to take that part as a takeaway.
+[05:18:45] Thank you.
+[05:18:47] Yeah, I'm gathering that they used memoization in the for loop, like in just the loop, essentially, like the math function.  That's the only place that really makes sense to add it.
+[05:19:03] Thank you.
+[05:19:04] It does, which is why we built stores. Really, people got to see my latest conference talk.
+[05:19:14] We do it today in Solid too.  If you use create async store from the router,  it handles it in a smart way.
+[05:19:25] Okay, let's keep on going. What performance do we see given for this rendering model?
+[05:19:32] How does it look?  OK, maybe they're really fast, right?  Signals are fast.
+[05:19:37] All right, our results so far?
+[05:19:39] Yeah, they did a good job with their minimal system.
+[05:19:43] Huh.
+[05:19:44] .
+[05:19:44] So what's happening here?  Well, in both our incremental prototype  and in a typical signals graph, you end up with something
+[05:19:50] Very vaguely like that. I got tired of drawing boxes and aligning them, so I'm sorry. That's
+[05:19:56] On the left, we have our
+[05:19:57] which really there's a state going into the context,  but you get the idea.  There's one giant input, and then we have a whole lot  of derived computation.  And then over here on the right,
+[05:20:04] We have our places where we're going to use these values. These nodes in the middle, we only want to compute them once. If a node has two inputs, we don't want to compute it twice.
+[05:20:10] first with only half of the inputs updated, and then again when all the inputs are updated.
+[05:20:17] So there's a very specific set of nodes in this case, I'm going to pay close attention to this, that are affected when this context changes.
+[05:20:22] So watch closely.
+[05:20:24] All of them.
+[05:20:25] Um.
+[05:20:27] Okay, okay, okay, it's doing notification stage.
+[05:20:34] And so we'll actually pull back.
+[05:20:35] along this tree.
+[05:20:37] And so if there's a fancy algorithm here, you actually want to go depth first. And then if one  of the nodes doesn't change, you kind of stop and it's fancy. You can look it up on blog posts and  stuff. Okay. See, this suggests though that he has multiple nodes, not one signal.
+[05:20:48] Which is interesting. So we don't actually know this for it's funny.  When I talked to Joe, he made it sound like it was basically just like one thing.
+[05:20:54] But this suggests that it's not one thing.
+[05:20:57] Um...
+[05:20:59] I mean, this is true, but...
+[05:21:01] which is the reason this is relevant,
+[05:21:04] is because this is what R3 solves.
+[05:21:07] um the
+[05:21:09] because it actually doesn't do the double-coloring.  But let's continue.  Maybe ChatGPT can explain it to you.  We're just going to skip over to the high level here.  But the point is,
+[05:21:17] We're actually visiting the graph again.
+[05:21:19] So we're visiting the whole graph once the mark things have changed and then once to recompute.  The biggest problem is he literally marks the whole graph, which makes me think it is like one signal.  It's like he is derived. It's basically one signal.
+[05:21:31] that derives, right? It can't fork. It's not like projections, essentially, or store. It's one signal and everything's derived from that signal. So you end up doing all the work again, right?
+[05:21:40] Um...
+[05:21:42] So, once you start thinking about it, you're like, that actually doesn't sound fast, does
+[05:21:47] Thank you.
+[05:21:47] Okay.
+[05:21:48] So the signal style pull based approach wasn't giving us the performance that we wanted.
+[05:21:52] We do notify because there's the potential.  We actually got to the point that I just described a couple years ago.
+[05:21:58] Before we even shared React compiler at the conference last year. The existing incremental computation literature wasn't getting us faster,
+[05:22:03] But we have a lot of experience with incremental systems at Meta.
+[05:22:06] In my 11 years at Meta, I've worked on Relay, which is an incremental in-memory database, Relay compiler, and incremental compiler for GraphQL. Skip, which was an entire programming language for incremental computation.
+[05:22:15] The compiler for Skip was, guess what, written in Skip as an incremental compiler, and now also working on this.  And in addition, I've had the privilege to look closely at other incremental systems at Meta, like Hack and Flow.
+[05:22:25] And one thing that I stood out across all that experience is,
+[05:22:28] Domain-specific approaches can often outperform generic incremental approaches.
+[05:22:32] Signals are a very general purpose algorithm for incremental computation, but we can do  something a bit more fancy.
+[05:22:38] So, fast forward.
+[05:22:40] at least a year. Numerous prototypes created and thrown away with, I've got to say, amazing  engineering work, incredibly clever designs that just did not pan out until we hit upon
+[05:22:48] a variant that we're calling ReactFIR
+[05:22:50] It's a novel approach to incremental rendering that uses a hybrid, eagerly as the algorithm.
+[05:22:54] Now, it's important to note this prototype is
+[05:22:56] Fibered eager lazy algorithm.
+[05:23:03] As I said, it makes me think of a
+[05:23:08] He's describing something like push-pull, but I'm gathering it's not...
+[05:23:12] Um,
+[05:23:13] it's not marking all the nodes the same way. As I said, I would not be surprised if the work on R3 is actually very similar to this, where you have...
+[05:23:23] local
+[05:23:24] push-pull, but mostly work off some kind of height graph.
+[05:23:30] - Not support all the features of React, but it does support a lot of common patterns, more than enough to render the draw bench.  - Honestly, I don't think signals are general purpose. They aren't super general purpose because the consistency guarantees are uncommon.
+[05:23:44] But...
+[05:23:45] It is possible
+[05:23:49] their general purpose and like
+[05:23:52] they didn't like, it's not like you're walking specifically like a BDOM node or something like that. You can apply them anywhere, right?
+[05:24:01] So,
+[05:24:03] Yeah. That said, before you get too excited, this is a constrained prototype.  It is a long way away from shipping.
+[05:24:07] Right. This is, which is something you always have to remember when, when, when you build the prototypes, they're always faster. Like I use in this, in the benchmarks in solids repo, you'll see, I actually have a version of solid ones algorithm without all the extra features. So I can test it to benchmark against other things. And then inside solid, I have a fully version because it's slower. There's constraints, there's limits, there's things that I couldn't do, but I still needed the pure version. So I could actually benchmark those signals reactivity against other libraries because, you know, without the other thing, I can't do it.
+[05:24:37] the extra features so I could know that the algorithm is fast. So a lot of times with these  kind of like limited things, the real performance you get out of the production version will be slower.
+[05:24:46] But we wanted to see, if we do kind of strip things down to the core, how fast can we make it? That was the idea here.
+[05:24:52] This time, you're probably excited for the right reason.
+[05:24:57] Yeah. Yeah. Couple years of work to get there. We were pretty impressed. Pretty happy.
+[05:25:02] If your workout still looks like this, you need to start training with AI. This is AMP.  Now, a new React code name, a novel incremental algorithm. You probably have a lot of questions.  You have questions?
+[05:25:14] Yeah, yeah. Okay. I don't see the one you're. This is the same thing as the data star guy.
+[05:25:20] He has the fastest single demonstration because it doesn't do dynamic tracking. I bet you that is exactly what this is.
+[05:25:26] I would not be surprised.
+[05:25:29] Because the problem is if you can't change the shape of the dependencies, then you can basically fix graphic. And then you can basically...
+[05:25:38] a whole bunch of questions around like what happens at runtime can reduce.
+[05:25:44] Which can...
+[05:25:45] You're so on the money, Dev. I bet you that's what that is.
+[05:25:52] Okay.
+[05:25:54] Still very impressive to see this kind of improvement.
+[05:25:58] But yes, I think you're right.
+[05:26:02] yeah sounds like I've done this  based on height stuff I have computer Zeeger and derives lazy hand
+[05:26:08] Thank you.
+[05:26:10] If they're in the mindset of come out besides the depths, then why bother with runtime tracking?  Well, Marco had the same question and they actually ended up with runtime tracking.
+[05:26:19] But they didn't want to. The biggest thing is, it's difficult to do things with mutable reactivity in stores.
+[05:26:28] with runtime tracking. It's harder.
+[05:26:33] You can shrink the graph down to news here if you don't do dynamic traffic.  I my guess is that's what it is.  I that is so freaking yeah.
+[05:26:39] Yes.
+[05:26:41] The overhead you're seeing at this point is just like reacts on overhead.  Yeah, I think you're right.  Let's keep on going. We don't know.  We're speculating, but I think you're right.  I think that makes a lot of sense.
+[05:26:51] It's not like we haven't tested some of these things ourselves. So let's keep on going.  What you're thinking of is not this. That's right, we're just going to move right along. We've got to make things fast, people. We've got to keep going.
+[05:27:01] So up until this point, we've kept the data model the same, and experimented with just the different approaches to propagating updates.
+[05:27:06] But what if we change the data model?
+[05:27:07] So throw it all away, back to the basics.
+[05:27:10] React.
+[05:27:11] React compiler, a simple external store.
+[05:27:14] What do I mean by that?  Well, we'll define a store that looks something like this.  It's got a get function to look up the current value of a drawing entity, a function to subscribe  for updates to that value.
+[05:27:21] and a way to publish updates to a few records at a time.
+[05:27:24] and then we'll write a little hook that lets us read and subscribe to the store.
+[05:27:31] All right, so again, our results so far.
+[05:27:35] And now, oh wait, that's right, I forgot.  So note, this is a comparison now.  We've broken the experiment, right?  'Cause the whole point of the experiment is we change one variable at a time.  We're changing the wrong variable now.  So this is not an experiment, this is just a comparison.
+[05:27:44] But still, what are the results?
+[05:27:45] Thank you.
+[05:27:48] Thank you.
+[05:27:50] So is this just like it's funny that they decided to share this because if this is what I realized, that this was my conclusion here.
+[05:28:01] I wouldn't have concluded that I don't need signals. I would have concluded that I was doing the wrong experiment.
+[05:28:07] Well, isn't that the conclusion here?
+[05:28:10] If literally you could just pull an external store into React and beat every possible thing you've done,
+[05:28:16] then you're probably looking at the wrong thing.
+[05:28:19] Right.
+[05:28:20] Like...
+[05:28:23] Oh.
+[05:28:24] Because
+[05:28:27] I'd love to see React with just external store versus without the compiler here.  But the gist of this is,
+[05:28:33] If you aren't re-running the tree because you're literally not
+[05:28:38] using context or using a single signal to propagate everything derived. You're literally not running the tree and instead you just enter the react components and
+[05:28:46] you know, the 5000 different locations or whatever, then
+[05:28:50] that is going to be faster than any...
+[05:28:53] of the propagation stuff. Basically the propagation doesn't matter here whether you're using one use  state, one use signal or whatever. In the scheme of things
+[05:29:02] Go pick up Jotai or something and...
+[05:29:06] And
+[05:29:07] some kind of external storage thing and
+[05:29:09] All of this...
+[05:29:11] doesn't matter.
+[05:29:12] Right?
+[05:29:15] Yeah, pick up Redux, why not?
+[05:29:21] Yeah, yeah, yeah. Perfect. Thanks, Mark. Yeah. Even in Redux, the cost of running ends callback selectors to figure out the components to rerender. Less than the cost of rerunning all the components, yes.
+[05:29:35] I know the Legend State guy.  Yeah, because now he's like, yeah, yeah, yeah, yeah.
+[05:29:42] Does an external store still not work properly because of concurrent mode?  Yeah, I mean, this is what Tanner asks at, like, literally every chance he can publicly on stage.
+[05:29:50] But you know what I mean?
+[05:29:52] The funny thing is,
+[05:29:53] Me and Joe are in a lot of agreement when I look at this talk so far.  He basically said that there's a more optimal way to do signal.
+[05:30:00] Which I agree, we've been working on it.
+[05:30:02] And
+[05:30:03] that
+[05:30:04] This propagation, kind of like the reactivity benchmarks, doesn't really matter all that much compared to just being able to pull the stuff out into a store.
+[05:30:13] So let's continue.
+[05:30:15] Oh, yeah.  And we didn't -- we barely -- we just slightly rewrote things to use a store, but we're not,  like, dramatically rewriting the code.
+[05:30:21] And in particular, because of the subscribe function, we can do very targeted updates in
+[05:30:25] OK.  So why is this so fast?  Well, if we go back to the incremental computation graph  that we looked at for the signal style graph,
+[05:30:32] The issue was that the context was kind of upstream of everything, and so when that changed, too much work downstream got invalidated.
+[05:30:38] When we shift to a store, it's kind of like we can see inside that context.
+[05:30:41] And so now, when one entity changes,  we're just evaluating way less work,  and we're doing a lot less downstream.
+[05:30:48] But,
+[05:30:48] You know what I'm going to say next. Can we make it faster? Yeah, there we go. All right. In particular, what if we combine these ideas? I just said we changed the rendering algorithm and the data model. Can't you do both?
+[05:30:59] You can.
+[05:31:00] So, ReactFur, similar external store, here's where we are so far.
+[05:31:05] Yeah. I did not believe that number when I saw it.
+[05:31:11] See, I do because here's the thing.
+[05:31:18] Thank you.
+[05:31:19] He's created an optimal
+[05:31:22] Signals implementation.
+[05:31:25] And...
+[05:31:26] he's
+[05:31:28] And he's doing
+[05:31:29] Looks like some kind of.
+[05:31:32] finer grained, like I don't even know what his external store fine-grained update things, but
+[05:31:37] When I look at this,
+[05:31:41] The real crazy part is
+[05:31:46] If you get a store, like a proxy store in like Solon, it is already granular. Each property even nested
+[05:31:52] is a separate signal essentially.
+[05:31:55] automatically. So when you update
+[05:31:58] The thing, only the thing updates, right?
+[05:32:00] And what's crazy about this is,
+[05:32:03] In order to get to this,
+[05:32:06] they needed to externalize the data structure.  When they say they use a different data structure, they actually, architect, they need to externalize it,  so that it wasn't in React's component render model, and then they had to make the render model
+[05:32:19] Um...
+[05:32:20] essentially
+[05:32:22] Be smarter so it doesn't dip as much use like kind of almost like a push-pull something similar to signals and
+[05:32:29] We'll never see the results of this,  but my guess is that
+[05:32:33] solid with a store,
+[05:32:35] or felt with their state.
+[05:32:38] or whatever reactive system
+[05:32:41] Today, if you just went, walked over, picked up those solutions, is going to get numbers like the best one in this chart today with zero effort.  That's just like where we are today.
+[05:32:53] Um...
+[05:32:55] Maybe slightly slower than this, maybe a tiny bit, because they've super optimized this.
+[05:33:00] But generally,
+[05:33:05] I don't see an argument against signals here so much as like,
+[05:33:11] This is an argument for singles. The biggest difference between
+[05:33:17] between
+[05:33:18] a fine-grained renderer, and React,
+[05:33:20] is that whether you pass the signals through the components like props,
+[05:33:24] or you put them in an external file like a store, none of the components re-render.
+[05:33:28] Like it's literally the same...
+[05:33:30] thing like you can go like okay i mean maybe there's a couple extra getter calls  but like the the difference between say putting it in context or putting an external store
+[05:33:40] There's no difference.
+[05:33:42] Right. The problem wasn't that it was in context. The problem was that there was one use state instead of like,
+[05:33:49] you know, a thousand new states.
+[05:33:51] So like,
+[05:33:54] I don't know, is that a weird takeaway to have from looking at this that basically
+[05:34:01] separating the rendering from the state, basically the React anti-pattern, is actually the solution to their problem.
+[05:34:09] basically not being React as the solution to the problem.
+[05:34:14] Thank you.
+[05:34:18] Like,
+[05:34:24] I'm checking chat here.
+[05:34:33] The future that's talking about is how signals have worked for eight years. Yeah.
+[05:34:37] Maybe minus the dependency tracking for an...
+[05:34:40] Good Axiospedia!
+[05:34:42] It's an argument for using signals for state management.
+[05:34:46] But it's more than that.
+[05:34:49] That's why the LegendState guys are excited.  But that's in the React ecosystem.  It's an argument not to use React because you get this benefit
+[05:34:57] by not even using
+[05:34:59] like just natively using a signals-based framework. Like this is, this whole thing is just a non-issue. It's like,
+[05:35:06] Is it an external store? Is it your component state? Same thing.
+[05:35:10] Like the whole concept category of problem just doesn't exist.
+[05:35:15] It's kind of crazy. I mean, I'm not saying React's bad model or anything, generally speaking, like it's different. And there's benefits of having this like re-render kind of thing. It makes things simple.
+[05:35:26] But like,
+[05:35:28] This is not the conclusion that I was expecting, right?  Like this is like,
+[05:35:33] like if stopped at react for like you know but then
+[05:35:38] It's almost like everything from here invalidated everything that happened before.  As you said, it went from experiment to comparison.  And this makes you start going, well...
+[05:35:45] Does this like...
+[05:35:47] It means that, okay.
+[05:35:50] It means that React is going to change its identity over the next few years if this is the future.  If this future is to isolate...
+[05:35:57] data from rendering, which has never been the React approach,  it's not going to use "signals", but this is a direction
+[05:36:06] that suggests
+[05:36:07] that the compiler is probably going to be the one masking over it a bit.
+[05:36:11] Maybe, but this is a suggestion that
+[05:36:15] Reacts rethinking their fundamental render model internally, at least, you know, like that will give you the one appearance on the outside, but internally, it's actually working in a completely different way because
+[05:36:27] Like isn't the whole benefit
+[05:36:30] If the whole benefit comes from externalizing the stores,
+[05:36:33] and you don't want people to have to write everything as an external store,
+[05:36:37] Well, first of all, if they're writing it all as an external store, then
+[05:36:40] That's very different.
+[05:36:42] It's outside of the component.  And if you come up with a way to make people write it as if it were an external store, then you're kind of like,
+[05:36:50] choosing the physics.
+[05:36:52] Yeah.
+[05:36:56] This is a real name of the... It's a transitor, so it's kind of scary. I'm going to do it from the slides.
+[05:37:01] I think it's also worth noting that the most odd contexts
+[05:37:04] of this talk is about the traditional hoist upstate pattern in React.
+[05:37:08] Yeah, it's interesting.
+[05:37:14] And also, the React team is an athlete deadset that the only valid state management solution is React itself.  They agree external state is used, but they want it.
+[05:37:21] to acknowledge it. Well, it's because they want to control the async. They want the features to work. Don't get me wrong.
+[05:37:28] I'm just as greedy.
+[05:37:31] It's just like,  like from like a solid perspective,  we,  we,
+[05:37:35] The difference is when React came out, they were like, here, use whatever state management you want, whatever models you want, we're just a render library.
+[05:37:43] Solid's like, we're a state library, fundamentally. So when you use Solid, you're using our state.  You can use it in the component, you can use it outside the component, you can use it wherever the hell you want.
+[05:37:53] you know,
+[05:37:54] But when you use solid, I mean, there's like a trick where you can like sync it with an external source. We do have a mechanism so you can use like MobX instead of solid signals. But generally speaking,
+[05:38:04] Like,
+[05:38:05] and it works actually pretty natively.  But what I was trying to get at is like,
+[05:38:08] when you use anything in solid, you're using our reactivity. That's the gotcha. That's the  coloration. You need to be using signals. They might be hidden behind proxies or other stuff.  Like if you make a state solution, a lot of the state solution people,  stuff like Redux isn't bad because it's literally a single immutable thing. And then we just
+[05:38:26] have it at the edges and then it
+[05:38:28] becomes one of our stores and then we do fine-grained updates off it. But like people like Jyotai, the Jyotai guys were like, let's make Jyotai for Solid and then they're like, yeah, that's not going to happen. Like atomic state management like that makes no sense in Solid because
+[05:38:45] you'd just be mapping one-to-one with signals.  Like you get no benefit,  like zero benefit from that kind of,
+[05:38:51] You could make a model that look like Jyotai's APIs,  but you'd be better just to wrap our signals
+[05:38:58] in their API shape than actually use anything that they do.
+[05:39:01] Right. And I think.
+[05:39:03] I I think.
+[05:39:04] Like, so in a sense, right from the beginning, we said we own the state and not just your global component. We own all your state.
+[05:39:12] And
+[05:39:13] That's why we have no problem walking into this async world and performance, where this is like,
+[05:39:20] Don't get me wrong, there's a conflict with that. If you're coming in,
+[05:39:25] and you're like, I have my own state update and I want to integrate with your system, there's like a little bit more of a
+[05:39:30] of like an issue. Like, you know, I did work a bit with Tanner at one point in terms of like bridging that gap and, you know, you need specific solutions perhaps. And I've been working on making those easier with our diffing functionality and stuff. But
+[05:39:42] But it means that more likely if you're someone like Tanner and you come in and you're looking at stuff, you just take your APIs and wrap our stuff with it.  Essentially, it's all solid, like solid.  Solid.
+[05:39:53] Query uses create async or create resource today, but you get what I'm saying like it's literally a
+[05:39:59] you're using our state, which is not the case in React.  And I think they're realizing that they have to
+[05:40:06] have a solution here so that third parties can just like use their state and have it being concurrent safe. See, it was really easy for us to be concurrent safe or whatever, because literally every library that uses solid essentially is using solid like they're already using our state.
+[05:40:22] So this is this is all ties together and makes sense. But it's also kind of like,
+[05:40:29] If the data, now we're in a place where React is
+[05:40:34] the render framework, the compiler, they have their own state solution, like for external states or like,
+[05:40:41] I mean, it's fine.  It's just...
+[05:40:44] Thank you.
+[05:40:45] How much has the, like, what React is identity changed over time because of this?  Like, I mean, it's tricky.  The fact that we're able to persist and continue to evolve is obviously an amazing thing.  But it's also kind of like you're like...
+[05:41:00] We've had enough time now to see that maybe there's more directed solutions that accomplish
+[05:41:05] like similar things, but we're already built this way to begin with.
+[05:41:11] Thank you.
+[05:41:14] Might as well just say "fur plus store emitting React altogether." Maybe.
+[05:41:21] The only way React can manage concurrent running is if it owns the state, that's why it uses, has its limitations, so the external state is faster, it's a big deal. Yeah, yeah, yeah, no, this is huge.
+[05:41:32] Now they want to, but my guess is they'll want to control that external state. So I don't see it as a change of random button.
+[05:41:38] In React components. Yes, yes, yes, exactly. I'm just catching up. You probably said that while I was spilling off five minutes ago.
+[05:41:46] Thank you.
+[05:41:47] Yeah, you...
+[05:41:49] Mark knows what's up.
+[05:41:51] Yeah, links don't work in YouTube chat.  Yeah, that's unfortunate.
+[05:41:57] Top PR, there we go. There's the info you need.
+[05:42:01] They did show diapers all they call it nano stores. Okay.
+[05:42:04] Thank you.
+[05:42:05] Thank you.
+[05:42:06] Thank you.
+[05:42:08] I talked to Mark about this and my guess is they're going to create something kind of almost similar to one of our stores where if you if you the way.
+[05:42:18] I talked about the stream today, the way that I handle concurrency
+[05:42:22] of managing both the pending and committed values  on a per field or per signal level in our stores, essentially,  is how I imagine them doing this.  And then they can basically...
+[05:42:36] associate these states with some in-flight transitions and basically have multiple realities kind of sitting on top of each other. And then as long as they provide the interface, like the getter setter interface, it should work. Conceptually, I don't know how the subscription aspect would work in terms of updating for granularity, but conceptually, I think
+[05:42:59] I see something along those lines.
+[05:43:03] The difference is when we approach it with solid, we're doing it at a single signal at a time, and then storage is just a composition of that.
+[05:43:12] Yeah, they already have a...  Yeah, I'm not surprised.
+[05:43:16] has an international de-opt a full sync render, but because it is a concurrent store, it's now a prototype that does work concurrent. Nice. Okay.
+[05:43:27] And Varen said the prototype is essentially an async signal if you squint at it. Yeah, which is probably why Mark is here today.
+[05:43:33] Thank you.
+[05:43:34] you know, I didn't get too much into the code implementation, but essentially
+[05:43:38] These are
+[05:43:40] kind of like an individual reactive or I mean, maybe not the tracking bit, but like, like,
+[05:43:47] Like, I don't know how the subscriptions happen, but essentially from like the right side of having basically.
+[05:43:53] kind of like
+[05:43:54] multi committed versus pending value piece that can be, you know,
+[05:43:59] exist at the same time. Anyways, let's finish this out.
+[05:44:03] Really hope it's right. Okay, now this is the point where we have to go back. Remember how I emphasized the highly, highly, highly, like,
+[05:44:11] triple highly super simplified at the beginning of the talk, this is a highly, highly simplified
+[05:44:16] That makes it really great for optimizing the innermost workings of the rendering algorithm,  but also makes it less representative of real-world scenarios.
+[05:44:23] So we also created other benchmarks that have a richer set of components and a more realistic data model. The draw was basically a key value store as we saw.
+[05:44:29] Now, these other benchmarks are, again, not all the way to a real app, but they're much more representative, and the results there were not quite as good.
+[05:44:36] So this is a different benchmark, again,  with React compiler in a store, and then React Fur in a store.  And we can see that it is still a performance improvement,  but not quite the same magnitude as we were seeing on the Draw app.  This is just as we increase the complexity of our app,
+[05:44:47] the rendering algorithm just becomes less critical to the performance.  And there's only so much we can actually make faster. And there's another aspect too.
+[05:44:53] Yes, it's faster, but it's not the full React.
+[05:44:55] And from a couple of years of experiments, we know that adding back some features that  people rely on every day with React would...  Slow down.  ...eat into these wins.
+[05:45:04] All right.
+[05:45:05] but yeah i mean basically they what they're saying is they may or may not ever do react for which i  think is fair
+[05:45:11] Like they're saying the compiler is close enough and that the store is the full win.  But my now's next.
+[05:45:15] No, no, no, no. It's time for a break. There's so much more that I wish we had time to get into. The data model is just as important, maybe more so, than the particular incremental algorithm we choose.
+[05:45:26] Second, our results suggest that domain-specific approaches to incremental computation can be substantially faster than traditional incremental algorithms.
+[05:45:34] This I'm not as sure about.
+[05:45:38] Because he showed that
+[05:45:41] But then they're saying fur is domain specific.
+[05:45:45] But...
+[05:45:46] Then he went on to say that fur probably doesn't make actually that big of a difference.
+[05:45:51] So...
+[05:45:53] In my head, this makes sense, but I'm not sure how much it applies in this case.
+[05:45:59] like signals, which are pull-based or generally lazy.
+[05:46:01] Thank you.
+[05:46:01] But also, as we saw with that last slide,
+[05:46:04] Improvements on one benchmark don't necessarily translate to other benchmarks, or even if they do, they don't translate to the same magnitude. The draw benchmark is almost too simple and a richer set of benchmarks stresses more cases.
+[05:46:14] Worse, during those couple years of experiments, we had actually identified a few different ideas that looked really promising on benchmarks.
+[05:46:20] When we ported them to real apps, the windows just disappeared.
+[05:46:23] And so,
+[05:46:24] Ultimately, these numbers, we really have to actually push them further to get into a real app and see how things are going to play out.
+[05:46:29] Thank you.
+[05:46:30] So,
+[05:46:31] What is all this music?
+[05:46:32] All right, I can't take another ad. We're just going to close this one down.
+[05:46:39] All right, let's go back to sharing my screen.
+[05:46:44] Thank you.
+[05:46:47] uh
+[05:46:50] Yeah.
+[05:46:51] Funny thing is he called key value store peak. Yeah, really on key value observables. Yeah,  the benchmark might be simpler, but it sounds like enterprise way for react. Yeah, I mean, that's the, that's, that's the game that always plays it. It's fine. If I had the most popular solution, I would definitely keep on telling people like one day embedding on the future because honestly, it's the hardest thing to do in the world is
+[05:47:17] to change or migrate or do something new,  you know?  So as long as,  you know,  react will do it one day,  you know,  or almost do it one day or whatever,  it's enough for most people.  So yeah,  I mean,  hold the wine,  you know,
+[05:47:30] Do what you gotta do. I think that's fine.
+[05:47:34] Thank you.
+[05:47:38] He said the omnivet adjustment didn't relapse, he actually got so. I don't know if that's what he said. I think he just meant that the difference wasn't as understood.
+[05:47:49] Anyways.
+[05:47:52] Yeah.
+[05:47:54] I wanted to do that. Let's see if I got a couple more things to look at here before we head out.
+[05:48:00] Let's see, what have we got?
+[05:48:02] Let's do a quick This Week in JavaScript.
+[05:48:07] Om.
+[05:48:10] Profile. Give me a second. I'm just going to actually switch to my head here while I get a couple tabs open.
+[05:48:18] Thank you.
+[05:48:19] It's been a sweet minute since we did a stream. I went and did a conference talk.
+[05:48:26] Did a few other things. I think the last stream we did was on October
+[05:48:33] 24th.
+[05:48:35] So that's our threshold.
+[05:48:40] Thank you.
+[05:48:42] Thank you.
+[05:48:43] Alright.
+[05:48:46] Let me scroll back to October 24th.
+[05:48:49] Thank you.
+[05:48:51] Thank you.
+[05:48:52] Alright, it looks like solid stuff is good to begin with and then one more duplicate.
+[05:49:01] One more section. Bookmarks.
+[05:49:08] Thank you.
+[05:49:13] Thank you.
+[05:49:20] Oh, wow. That's funny. We talked about the directives thing on stream, but then it blew up
+[05:49:27] Like,
+[05:49:28] after the stream. So that's actually where we start from, but I'm going to start with solid. Let's do this.
+[05:49:33] Thank you.
+[05:49:35] and talk about this week in JavaScript, okay?
+[05:49:40] Thank you.
+[05:49:44] Thank you.
+[05:49:46] Alright, so let's go.
+[05:49:52] Thank you.
+[05:49:53] Let's go.
+[05:49:54] Um,
+[05:49:56] Yeah, I'm going to start with some solid stuff because it's probably the easiest stuff.  It just...
+[05:50:00] First, big solid news.
+[05:50:02] We hit...
+[05:50:03] 1 million downloads a week.
+[05:50:05] which is huge for us.  Hopefully, we're still doing that right now.  Let's see, npm, solid.js.
+[05:50:13] We really sat if we hit that threshold and then...
+[05:50:17] It just dropped right off.
+[05:50:20] OK, no, we're still climbing on this really beautiful trajectory here in the last six months.  So we're almost at 1.1 now.
+[05:50:28] I...
+[05:50:29] We were at 300,000...
+[05:50:32] a year ago
+[05:50:34] Um,
+[05:50:35] It's been incredible growth, especially in a year where we haven't released anything like
+[05:50:40] major, just been doing fixes on solid, doing, you know, small bug fixes and solid start.  I've been very deep into my research.  I'm hoping, you know, people are just realizing the the power of using solid.  I know the common pattern I'm seeing is solid is getting used a lot in react tooling where people want lightweight stuff to use around react.
+[05:51:01] The Tanstack DevTools, Tanstack Router DevTools are big examples of this. I think Aiden from Million just made another tool using Solid.
+[05:51:14] But...
+[05:51:15] Yeah.
+[05:51:20] Sorry, is my screen sharing working okay? Yeah, okay, just double checking.
+[05:51:28] Thank you.
+[05:51:30] I it depends well react grab look the real question is
+[05:51:38] Thank you.
+[05:51:42] Thank you.
+[05:51:44] Oh, nice. I mean, React grabs only 7,000.
+[05:51:50] downloads a week, but
+[05:51:53] That's because we're a direct dependency, that's 7000 new downloads for a solid a week.
+[05:52:01] So...
+[05:52:02] Props. Yeah.
+[05:52:06] It's the use of the web components in React apps, that too.
+[05:52:11] Thank you.
+[05:52:15] But yeah, I mean for whatever reason I
+[05:52:20] I think more people use solo than they realize.  And I think this is...
+[05:52:25] It's funny, we're in this weird place where I feel like we're way less known than Svelte.
+[05:52:30] for example, even the next closest one, because like
+[05:52:33] I mean, what's NPM trends at?  How are we doing these days?  NPM trends.
+[05:52:37] salt.js
+[05:52:40] I'm pretty sure the next biggest library is spelt after us.
+[05:52:45] Thank you.
+[05:52:47] Yeah, yeah, Svelte's around 2 million.  So we're like half of Svelte's downloads.  But I feel like...
+[05:52:54] We're also like...
+[05:52:56] Less than half of Svelte's get up stars. So like way more people know about Svelte than they know about Solid. You know, you see that on popularity polls and stuff like where it's like how many people have heard of us. Not many people have heard of us. So, um,
+[05:53:10] This is a good saturation for us, like versus I think the number of people who know about solid versus the number of people who use it. That being said,
+[05:53:17] We're just peons, all of us together compared to React.
+[05:53:23] I like that there's a white space below the line now.
+[05:53:26] But you know,
+[05:53:28] What's interesting, people don't realize this,
+[05:53:31] Preact is actually the second most downloaded framework according to this, I think. Like if...
+[05:53:37] I know everyone knows about Angular and Vue, but was it Angular at Angular Core?
+[05:53:42] Thank you.
+[05:53:45] Core.
+[05:53:49] - Yeah, look at the scope of things.  Angular is like here.
+[05:53:54] Let's do what's view?
+[05:53:58] Thank you.
+[05:53:59] Yeah, Preact passed View recently.
+[05:54:03] So let's remove react because it's just freaking depressing.
+[05:54:08] And
+[05:54:09] Look at this stuff again like
+[05:54:14] Thank you.
+[05:54:14] I mean, I don't even know how to explain React's growth over time recently, maybe AI. It's just, we're getting to such a weird place where like,
+[05:54:22] Like Preact saw Spike because of the remix announcement around here, but otherwise you can see it is still on a rather good trajectory.
+[05:54:30] So to speak.
+[05:54:31] Um,
+[05:54:32] Thank you.
+[05:54:33] It's just interesting. Downloads aren't everything, obviously. It's just...
+[05:54:37] It's like...
+[05:54:39] This spread has preacted 8 million or 9 million
+[05:54:43] and solid at the bottom here at about 1 million.  So they're about ten times more downloaded. But like,
+[05:54:50] then you go to React. This wasn't always this way. If we go back past a year and React is like,
+[05:54:55] Fifty-two.
+[05:54:57] so 50 times right see if you go back
+[05:55:00] five years,
+[05:55:02] And
+[05:55:04] Let's go back farther. Ball time.
+[05:55:07] Thank you.
+[05:55:07] No, application error.  We killed it.
+[05:55:12] No, yeah, it literally can't handle it.
+[05:55:16] It's because of React data. Okay, whatever.
+[05:55:19] If we go back in time, what you will see is that Vue and Angular used to be about five years ago, about half of React's downloads.
+[05:55:26] But now React has gone 10 times higher on downloads.  As I say, downloads aren't everything, but it's like...
+[05:55:35] Thank you.
+[05:55:35] all of us are like
+[05:55:38] Like this compared to react. So it's kind of funny.
+[05:55:43] Yeah.
+[05:55:45] Thank you.
+[05:55:48] Thank you.
+[05:55:51] Salt is huge at this point.
+[05:55:59] spelled  Krohtham
+[05:56:04] Thank you.
+[05:56:06] What happened to December 24th? A Christmas miracle. I'm not really worried about that, but most of the time during Christmas break
+[05:56:12] framework downloads dip. Apparently last year we had a spike. I guess people were interested.
+[05:56:18] Yeah, then compare React to WordPress and it's like not even close. Yeah, I know it's all matters. Go ad lit. You want me to ad lit? Sure, let's ad lit.
+[05:56:25] Lid's actually surprisingly more used than people realize.
+[05:56:29] Lit actually slides in there nicely between
+[05:56:33] Angular and Svelte.
+[05:56:36] So,
+[05:56:37] you know,
+[05:56:37] Props to them there.
+[05:56:38] This here, by the way, was the weird spike.
+[05:56:41] like there is a
+[05:56:43] I don't-- there was a weird spike a couple of years ago
+[05:56:46] that happened on a bunch of frameworks. Oh, no, they they did they take them out?
+[05:56:51] The weird spike?
+[05:56:52] Oh no, they're back here.
+[05:56:53] Okay, no, this must have been the Svelte 5 release then, that Spike.
+[05:56:57] There was like a...
+[05:56:58] Okay, that makes sense.
+[05:56:59] Was this around December, not August? What?
+[05:57:03] That's an interesting spike.
+[05:57:04] August 2025.
+[05:57:07] Yeah, I don't know what that spike is.
+[05:57:08] Anyways, it doesn't really matter.
+[05:57:11] But yeah, lit is nice in here around 4 mil.
+[05:57:16] Both double svelte, a little bit under Angular.
+[05:57:18] Core, yeah.
+[05:57:21] It's not even the big three anymore. Yeah. I mean, it's like React and literally everyone else.
+[05:57:34] Yeah, yeah. This is the world that Remix 3. I mean, it's harder every day. Like,
+[05:57:44] I love my buddies over here.
+[05:57:47] That's not it. Over...
+[05:57:50] But getting ground is so...
+[05:57:55] Hard.
+[05:57:57] Thank you.
+[05:57:58] Thank you.
+[05:57:59] It's so hard.
+[05:58:03] Let's remove react because it's taking up too much of space. Let's remove view.
+[05:58:10] Let's remove...
+[05:58:12] What's the next one, Angular?
+[05:58:16] Let's remove lit.
+[05:58:19] I think it removes salt.  It's just, it's...
+[05:58:23] Yeah, it's so freaking hard.
+[05:58:28] Is this the right package? No, I mean it's still going up slightly. It's 10,000, 12,000. It's just...
+[05:58:34] I'm going to go.
+[05:58:35] Huh?
+[05:58:37] Is Remix 3 something we can download yet?
+[05:58:41] Thank you.
+[05:58:42] Probably not.
+[05:58:53] Yeah, no, it's just... I mean, we have to get over the training bias at some point. I'm not...
+[05:59:01] worried about that as much, but like,
+[05:59:03] It's just so propagated.
+[05:59:07] Stencil? Is stencil still a thing?
+[05:59:12] I didn't even realize stencil was still around.
+[05:59:15] Stencil core.
+[05:59:23] Okay. Stencil is still -- Stencil -- I didn't realize Stencil was that used.
+[05:59:29] Props.
+[05:59:32] They took off quicker because they were React-like for the virtual DOM, but it looks like we've finally
+[05:59:38] We finally caught up to them. Nice.
+[05:59:41] The one that I often look at is my buddy.  It's over here.
+[05:59:45] Astro.
+[05:59:48] We're very close. We've always been very close to Astro. Yeah, our curve is almost identical.
+[05:59:54] It's like we just sit right on top of each other. They're great to use together and
+[05:59:58] - Yeah.
+[06:00:01] This is part of my whole theory about the time that you come out having a huge impact, like the way the curves line up.  Astro and us have like almost the...
+[06:00:10] Solid was a slow start.
+[06:00:11] because no one really paid attention to us before 1.0.
+[06:00:15] But...
+[06:00:17] Yeah, anyway.
+[06:00:23] Thank you.
+[06:00:26] Okay.
+[06:00:29] Thank you.
+[06:00:31] Thank you.
+[06:00:34] I mean, we already showed Lit, so Stencil is way lower.  Because Stencil is about 1 million, a little under solid, maybe  like 800,000, and Lit's like 4 million.
+[06:00:45] Thank you.
+[06:00:46] Um...
+[06:00:47] Yeah.
+[06:00:48] This makes sense I use them together. Yeah, I mean, this must be why this graph is. This is
+[06:00:53] This is Jay Larkey's usage graph right here.
+[06:00:56] Thank you.
+[06:00:57] But no, no, I mean, it's a good combination.
+[06:01:00] Okay.
+[06:01:02] Um...
+[06:01:04] Hackathon.
+[06:01:06] tanstack start hackathon means you can use solid.
+[06:01:10] I didn't realize this at first.
+[06:01:11] But
+[06:01:13] And I was like, Tanner, why don't you give me a heads up?  Well, apparently the comics guys just basically just went ahead with themselves and everyone jumped on.
+[06:01:18] of CodeRabbit, Sentry, Cloudflare,
+[06:01:21] Look, 640,000 in prizes.
+[06:01:27] Yeah.
+[06:01:29] Just everyone wants to be part of this. But what's cool and big props is full stack framework powered by 10 stack router for React and solid.
+[06:01:38] Second class citizen makes me very excited.  Show that solid love out there.
+[06:01:44] Awesome.
+[06:01:45] Awesome, awesome, awesome.
+[06:01:46] Very cool.
+[06:01:52] -
+[06:01:53] Yeah.
+[06:01:54] Thank you.
+[06:01:58] Just throwing that out there.
+[06:02:01] I was like stoked when we got like 15,000 or 20,000 or whatever for our last hack.  It's on six hundred and four.
+[06:02:07] Yeah.
+[06:02:08] I...
+[06:02:09] All right, guys.
+[06:02:13] Yeah, did you know that 10s I start with SolidJS? I build a live hockey draft. Very, very cool.
+[06:02:19] Did I not like this one already?
+[06:02:21] native script. I like highlighting when people do solid for like
+[06:02:25] stuff that's like
+[06:02:27] People don't realize you can do native development with it, you know, stuff like that.
+[06:02:30] Um,
+[06:02:31] conference talk.
+[06:02:35] Yeah, here we go. React grab written with solid. It turns out having to see the reactive page can cause errors, blah, blah, blah.
+[06:02:41] A lot of signals here, but at least there's more than one.
+[06:02:44] Um,
+[06:02:46] Very cool though.
+[06:02:49] Love Aiden's work, so.
+[06:02:52] TANSTACK DevTools feature as long as having a V plugin, even for friends of solid. Yeah, this is a side note. People, the dev tools for TANSTACK START have
+[06:03:01] this cool live component view that it works even for Solid as well. So very cool seeing this stuff evolve in the space, having a framework that cares that much about DX working so seamlessly with us. Formage was valid, but it's so cool to be put on that list
+[06:03:18] You know, like...
+[06:03:21] You know, when new libraries come up, they're thinking of us now, which is a big...
+[06:03:27] big change before, you know, there might not be the big three, but
+[06:03:32] You know, there's the...
+[06:03:33] There's React and then the
+[06:03:35] the small seven, you know, so.
+[06:03:37] Yeah.
+[06:03:42] I don't know. It's funny. But...
+[06:03:46] Awesome. Okay, let's keep on going.
+[06:03:48] What else do we got here?
+[06:03:50] Uh, bookmarks.
+[06:03:54] you
+[06:03:56] Oh yeah, it's funny. I didn't talk about this before, but this is actually general software product advice. Never name a feature X mode. The word mode denotes there are multiple. You are telling yourself that there are multiple ways that you use your product. We must all learn. At least lie and pretend that's not the case. Don't use that word ever.
+[06:04:12] Thank you.
+[06:04:13] I don't know, he wasn't probably talking about concurrent mode, but it made me think of concurrent mode and it made me think about the async features. This is what earlier on that when I was talking about the mode thing, I was just like, he is so right.
+[06:04:27] Like the fact that the same thing, like we do have modes.
+[06:04:31] Definitely, you know, like we have, uh,
+[06:04:33] Like SSR or hydration versus not, you know, like there are things that operate under different pretenses.
+[06:04:41] But
+[06:04:42] Yeah, definitely.
+[06:04:44] Sorry, Deb, this is great. I appreciate the idea.
+[06:04:47] We will regret reinventing RPC.  Yeah, it's so funny.  A lot of chatter about reacts, our source felt remote functions,  and how amazing they are.  And don't get me wrong, they are definitely amazing.
+[06:05:01] when we
+[06:05:02] basically unveiled the same thing. There's details, but Rich was not a big fan originally. He actually had a whole conference talk where he kind of picked apart why he didn't like it. I understand that he addressed a lot of those with the design of Svelte, but make
+[06:05:15] You know that was never the case, the thing that I was worried about.  It's all about the mechanics of how the thing needs to work, and I'm glad that he...
+[06:05:23] kind of we got to the same place.
+[06:05:25] But it is sometimes interesting
+[06:05:29] You know, we might still regret reinventing RPCs.  I'm not saying there isn't a possibility there,  but I just bookmarked this because it reminded me of that talk  that was very brutal about server functions and whatnot.
+[06:05:41] I
+[06:05:45] Thank you.
+[06:05:47] Maybe more court formers to literally every library for your act. Yeah.
+[06:05:51] you
+[06:05:52] That's...
+[06:05:53] That's probably how it goes. It's nice.
+[06:05:57] -
+[06:05:59] Oh, yeah. And then
+[06:06:02] Yeah, I don't even want to talk about directives.
+[06:06:05] Did we talk about them last time?  Let's pretend we talked about them last time.
+[06:06:10] Yeah, we're going to pretend we talked about them last time.
+[06:06:12] Um,
+[06:06:14] Just look at my other bookmarks here.
+[06:06:18] This about remix.
+[06:06:21] Thank you.
+[06:06:22] Oh yeah, this was an interesting interaction. You probably heard Remix3 doesn't use React, it uses GX, but not React. This means that you cannot use any React library with
+[06:06:29] It's 99.9% of them use hooks which won't run in R3. I thought it was the hugest advantage until I realized one thing, one simple trick. It's simpler to integrate vanilla libraries in R3.
+[06:06:39] Remix 3 than it has ever been with React. It's funny, R3 and Remix 3 is going to confuse me.  We're talking super early, part of Remix 3 is going to improve easier. Why? Because Remix 3 feels and is just JavaScript. It turns out pairing JS with JS is rather nice, given how focused is on events. All you need to do is define specific events in your library, integrating a subscribe. Let's say the team takes a new remix.
+[06:06:58] And my response is, to be fair, this is true of any run component body wants frameworks, especially non-vdom ones like Sol and Spell.  I think Vue even is relatively easy to integrate because of the component body runs...
+[06:07:10] thing more often vanilla libraries are dealing with direct dom refs and wiring subscribers will  generally fit into reactivity of the given solution so while it's been my experience that this is true  it's nothing new outside of react and people have still generally will make wrappers albeit simpler  ones simply get the component interface right you want to like absorb it as a component rather than  just like write a bunch of ref wiring code yourself the real obstacle is the fact that alone doesn't  stop people from targeting react specifically so even if all generic solutions work out of the box  someone will always be able to point out some library that just came out three months ago that
+[06:07:40] and only React. Then you will get your own port a couple months after, but by then everyone  has moved on. Repeat. I mean, that's a very...
+[06:07:47] pessimistic view, but it has been my experience.  I just thought it was interesting, you know, like
+[06:07:51] It's the remix kind of like a community discovering something that's been like true of Svelte and Solid for years. Like literally you just
+[06:07:59] you know,
+[06:08:00] vanilla just kind of pops right in your lap.
+[06:08:03] I
+[06:08:04] Um,
+[06:08:06] Suppose we're just exist, but you know, he's talking about like generic like tan stack is good. Yeah, signals are why people like solid more than react. It's the component closure.
+[06:08:14] I suppose it's more obvious in Remix 3 to say this is the integration point for everything, though. In my ignorance, I imagine you'd have to turn everything to a signal to get solved to update when integrating.
+[06:08:23] I love Dev's response, this is so cheeky. You're not wrong, all it does is your card turning things to single so that update changed.
+[06:08:31] Change it to signal, do something, set the date.
+[06:08:35] Let's stay single, let's stay.
+[06:08:37] I this is such a funny thing.  He's showing that it's the calling the set state versus calling the state and then calling updated like obviously you.
+[06:08:45] It's one less line of code.
+[06:08:48] This is an oversimplification. I just think it's
+[06:08:50] Sorry, it's funny.
+[06:08:52] Um,
+[06:08:55] Yeah.
+[06:08:57] Buddy.
+[06:08:58] Yeah, turning something as a signal isn't
+[06:09:01] a big deal and it's not the end of the story. You should actually be driving data. But just
+[06:09:06] humorous a little bit. Let me look here.
+[06:09:10] Yeah...
+[06:09:14] Why did I bookmark my own post? I'll get back to that.
+[06:09:18] That's funny.
+[06:09:20] Thank you.
+[06:09:23] Do I want to talk about this right now? Let's leave that to later. Keep on going.
+[06:09:29] Yeah, we're going to skip directives.
+[06:09:36] Did I not talk about this on stream?
+[06:09:38] I guess not.
+[06:09:40] the post about building
+[06:09:42] stuff in 10 different frameworks.
+[06:09:47] I guess I never talked about this.  This article is a little long and hard to read because there's a lot of repetition.
+[06:09:53] The takeaways, I think, are mentioned multiple, but I think this is
+[06:09:57] Basically, this...
+[06:10:00] Did we not talk about this?
+[06:10:03] I don't know. Basically,
+[06:10:06] I was tapped on the shoulder to see if they were doing the right things.  And then I was worried about like store performance.  And I know I idea that they were going to do loading performance.
+[06:10:14] Um,
+[06:10:16] What's interesting here is that
+[06:10:18] Um,
+[06:10:20] Compress wise,
+[06:10:22] I don't know why Svelte doesn't compress as well as we do, and for some reason they're ordering what's non-compressed. I generally always...
+[06:10:29] Or it's per pay...
+[06:10:32] Yeah, SvelteKit 54, Solid 41.
+[06:10:35] So if you actually use compressed size instead of non-compressed size, we're actually like
+[06:10:43] probably the third
+[06:10:45] It basically goes Marco Astro Solid.
+[06:10:48] start in terms of code size, which is interesting when you have a framework like QUIC. But QUIC doesn't hydrate, but its code size is a little bit larger, but it scales better over time. So it makes sense why a simple demo
+[06:11:00] Um,
+[06:11:01] But it was interesting. Salt Start performed really well in this comparison.
+[06:11:08] both in code size and loading speed. I think it was
+[06:11:11] It was... the only takeaway... I don't know if they...
+[06:11:16] I thought there was more graphs. I thought there was, I thought there, like there's one that
+[06:11:22] Maybe this one.
+[06:11:23] Thank you.
+[06:11:25] That's a bundle size. I thought there was one about loading size.
+[06:11:29] It's an article.
+[06:11:31] The article get gutted?
+[06:11:33] Yeah, I think maybe the article got gutted.
+[06:11:35] Because there's one that originally had like...
+[06:11:38] first Contentful Paint and stuff.
+[06:11:41] Thank you.
+[06:11:43] Yeah, that's weird. I don't know what happened to it. Anyways, it doesn't really matter.
+[06:11:47] Solid started very well. HandStack start with solid did decently well, which is interesting because you could compare it with React and see the difference, not just in size, but on loading time. But it looks like all the loading times are...
+[06:11:58] gone. So I don't know.
+[06:12:00] In either case, I think the only loser here was Next.js, which...
+[06:12:06] Yeah.
+[06:12:07] I mean...
+[06:12:10] Yeah.
+[06:12:11] It's not too surprising.
+[06:12:15] Not much to say on this one.
+[06:12:19] It just...
+[06:12:22] Yeah, I don't know.
+[06:12:23] This has been one of those things where it's like, you're looking for the right kind of comparison and you just, I'm just not finding...
+[06:12:30] It's challenging now to really differentiate a lot of the solutions.  Even if there's like a performance difference, you're kind of like,
+[06:12:35] Yeah, I don't know.
+[06:12:39] Joe did this, yeah.
+[06:12:41] This is the only, okay, yeah.  A thing you can do when seeing a technical choice you disagree with, pause, take a breath, be curious, ask yourself why they might have done that, and ask the officers why they did that and in what context did they do they don't.
+[06:12:51] Yeah.
+[06:12:52] This has been...
+[06:12:53] really helpful for me. This whole stream was me analyzing why React and Svelte did what they did. This has been very helpful to me. I do this a lot. I really have to thank my time with Marco for influencing that because Marco originally made me really challenge my assumptions. I'd have to put on a different hat when designing for Marco and designing for Solid.
+[06:13:15] Yeah, I think it's important that we always kind of step back and think about the reason why
+[06:13:20] different decisions and what you think you'd make would happen. We talked about React APIs today. Why do they look the way they do? They start making a lot more sense when you think of async, stuff like that.
+[06:13:39] - Should be archived on your YouTube, yeah.
+[06:13:43] He said there's a bug in the benchmark. Okay, well, whatever.
+[06:13:48] We already talked about the hackathon.
+[06:13:51] Do we want to talk about isomorphic first? We can talk about briefly. We talked about this last stream.
+[06:13:56] So I don't need to go over to the article very much, but...
+[06:13:59] There's a different approach to server components that I think is kind of interesting that I kind of designed out and Tanner's going ahead and implementing.
+[06:14:09] To help people understand why it's important, I think this is an approach to server components that actually doesn't
+[06:14:15] make
+[06:14:16] things far on the right here, like apps actually feel the pain.  It's the way I think I would approach it.  If I, you know, was trying to add it, I do see a huge benefit to this approach.  Like the typical RSC approach, it just, I understand why there's
+[06:14:29] friction on this side of the graph. And I really was trying my hardest to figure out if I could extend this the whole way and I just didn't
+[06:14:37] Ever succeed and I think this mechanism that I kind of came up with well, it doesn't I
+[06:14:42] It's not as nice over here. I think
+[06:14:45] I think it's interesting and it will be interesting to see how it works in Tanstack.
+[06:14:50] But
+[06:14:51] As someone kind of thinking spa first, spa possessor, sorry, it's the next kind of natural step here, so.
+[06:14:57] Um,
+[06:14:59] We talked about last stream, so I don't need to get into it again.  If you're interested, check out my segment with Tanner right before the...
+[06:15:08] micro front end stuff. I think the more interesting thing here is that
+[06:15:12] is that we're kind of building...
+[06:15:14] this idea of like a almost client first, but isomorphic first framework.  I've talked about this on my previous like, uh,
+[06:15:22] Like,
+[06:15:23] where frameworks are heading streams every year, where I was talking about this big divide between like stuff that's working like server components or islands and things that are spa first, like, you know, typical SSR, like SvelteKit, Tansac, Dart, or even Quick, like, there is a split architecturally on the mentality. And I feel like
+[06:15:40] Um,
+[06:15:42] Funnily enough, ReactServe components and islands are on one side, and like ourselves, TanStack, SpeltKit, and Quik are kind of like on the other side, and Nuxt also on this side.
+[06:15:53] So,
+[06:15:54] It's interesting to see how both sides kind of develop, because I think they're both viable approaches. But this was like kind of making a manifesto.
+[06:16:02] Almost, which we talked about last stream.
+[06:16:06] DevTools, cool.
+[06:16:09] This one cracks me up. Let's talk about this for a minute.
+[06:16:13] The HMX guy was like, there will never be another version, basically.  He's like, there will no be...
+[06:16:18] But no, it's not.
+[06:16:20] They're apparently releasing a new version of HTMX.
+[06:16:23] I thought it was so...  I got why...
+[06:16:27] they he thought that he wouldn't need to and he was trying to build stuff into the browser.
+[06:16:32] But
+[06:16:33] I said this at the time, you can probably go back and find one when they released the whole thing, where there won't be another version of H2MX, blah, blah, blah.
+[06:16:40] I said that was the cockiest position one could basically take ever.  That's like that's like saying that.
+[06:16:45] I did it the first time and I 100% got it right.  Like, that is like...
+[06:16:50] You have to have some balls to come out and say that.  And, you know, maybe he does.
+[06:16:57] But like...
+[06:17:00] We're all just human after all, you know, like,
+[06:17:04] I think change is a constant, so this is
+[06:17:08] This shouldn't have been a surprise to anyone.
+[06:17:10] Um...
+[06:17:11] you know,
+[06:17:12] Part of me was like, we shouldn't revel in stagnation.
+[06:17:16] But this is realistic here. He's not saying stagnation. Something came about that was worth changing and worth updating, and they're going to do it. So it's not about stagnation.
+[06:17:28] But it's about humility, I think.  That's only my perspective, obviously.
+[06:17:33] you know,
+[06:17:34] Thank you.
+[06:17:39] Yeah. Yeah, I mean, that's perfectly fine. It doesn't matter what it is. It's the fact that
+[06:17:47] It could be the most trivial thing. It's just...
+[06:17:56] Thank you.
+[06:17:57] Thank you.
+[06:17:59] There will be more changes, yeah, there will be.
+[06:18:05] Thank you.
+[06:18:06] Yeah, if you didn't watch a previous stream,  there's a whole roadmap for Solid Start B2,  built on Solid 2.0.  They're already in progress.  We're going to...
+[06:18:15] building these things out in parallel. There's an update to solid start pre 2.0 that's getting set up getting off inchy. And then the final bit will be with 2.0. So like, there's already a plan in place in a roadmap. If you go to the solid start repo, you will find it.
+[06:18:29] And actually Attila's talk at Beat Comp this year was the plan for this.  Actually, he did a whole conference talk on it.
+[06:18:40] So
+[06:18:41] Thank you.
+[06:18:43] Of course, it doesn't matter what the change is. It's the fact if you just were like, I'm never doing another version, that is so like,
+[06:18:53] Like, I don't I don't care who you are.  You know, it doesn't matter.
+[06:18:58] like or never like another major version that's that's like it doesn't matter what the change is  that's just like
+[06:19:04] the peak of
+[06:19:12] A bunch of breaking changes. Yeah, I mean, things get better.
+[06:19:15] Things change. It's tricky when your positioning is like,
+[06:19:20] Web's too complicated. Things should never change. And then you're like,
+[06:19:23] then you're like, but I do need to change my cell.
+[06:19:28] Hmm.
+[06:19:30] Okay.
+[06:19:33] You know, it's like,
+[06:19:35] Yeah.
+[06:19:36] *gasp*
+[06:19:38] I love this meme. Sorry, just moving on.
+[06:19:42] the use effect problem.
+[06:19:45] Thank you.
+[06:19:47] It's just because people are wired this way. I think everyone's seen this meme by this point.
+[06:19:52] You know, the fact that like everything fits in the square hole.
+[06:19:56] Whose fault is that?
+[06:19:58] You can say it's a design.
+[06:20:00] in this unit and I could agree with that.
+[06:20:04] But sometimes the square is the right shape hole and
+[06:20:09] we need to realize that there's more specific solutions that fit better.
+[06:20:18] Anyway...
+[06:20:21] there's so many people  it's funny, again on Blue Sky  people are like, haha, that's a funny meme  on here, it was just like tons  of people just being like
+[06:20:34] React is the worst, react is the worst, react is the worst, react is the worst.
+[06:20:41] or people being like it works why should anyone be bothered
+[06:20:45] That's scary too.
+[06:20:48] Thank you.
+[06:20:49] Thank you.
+[06:20:50] - Oh.
+[06:20:52] But yeah, I mean...
+[06:20:56] It's fine.
+[06:20:57] Let's keep on going.
+[06:20:59] We talked about use effect.
+[06:21:02] I want to show this quick little clip here.
+[06:21:06] We talked about RxJS a bit at the beginning,
+[06:21:09] This...
+[06:21:11] Look at this answer originally. It was from July 22, 2011. This was so fundamental to my understanding of why Knockout.js was great.
+[06:21:19] And
+[06:21:20] Um...
+[06:21:21] I just I'm going to love this.  I found it again.  I figured I was looking around and this was like
+[06:21:27] what makes knockout or signals special.  They call them observables because, which is confusing because Rx also had observables  and then there's this whole, that's why they got a thing.  But this explanation perfectly explains
+[06:21:39] to me why like signals exist and why it's stuff like solid exists versus just using RxJS.
+[06:21:45] I'm very familiar with Rx2JavaScript, having recently used it heavily in a big project, and aspects of the design and knockout are made with my Rx experience in mind. The key difference between knockout implementation and observer pattern in Rx is that knockout automatically infers the association and dependencies between observables from regular procedural code without you having to specify them up front through special functional API. I want knockout to use regular procedural imperative style code as it's more familiar and approachable for most developers. Another difference is Rx is optimized for composing streams and events without the state. At first I was enthusiastic about this and its functional purity, but after time it felt
+[06:22:15] increasingly like I was jumping through awkward hoops and had to invent extra ways to simulate  state to manage UI commands efficiently. That's why in Knockout all the variables can be treated  as stateful. For example, you can always read their latest value, which is cache by the way,  it doesn't read compute until the underlying data changes. Rx goes further in Knockout into advanced  ways of composing event streams, whereas Knockout goes further into Rx into UI development, letting  you bind its observables to HTML DOM events and templates and manipulate them in any way you want.  Rx is great at what it does.
+[06:22:42] which turned out not exactly what I wanted to build rich UIs, hence I designed Knockout.
+[06:22:46] This was great.
+[06:22:49] Thank you.
+[06:22:50] I don't know, just...
+[06:22:54] I feel like when I read that, it was like the same thing, you know, like years later. I think I had to read that multiple times. I knew it at the beginning. And then I think when I tried to build solid at one point on top of Rx observables and just expand them because they're going to be built into the browser as one of those guys who thought like standards, you know, trying to
+[06:23:14] do standard stuff back then, about 10 years ago.  I think I had to read that again to remind myself why they weren't the best fit.
+[06:23:21] It's funny, you know.
+[06:23:25] But this is the first suggestion, like how it's a very unique or distinct thing. It took some time for us to change the name from observables to like Rx to keep them and then we can view signals, but essentially it's the same kind of mentality behind it.
+[06:23:40] We talked about API designs, we talked about all this. Have we caught up?
+[06:23:46] Yeah, we have caught up.
+[06:23:48] Um, yeah.
+[06:23:52] Thank you.
+[06:23:54] No, but browser events aren't stable or is this a remix job, isn't it?
+[06:24:01] Of course. Too slow sometimes.
+[06:24:04] Thank you.
+[06:24:06] Thank you.
+[06:24:11] It would have been awesome to square cube in a different hole, but.
+[06:24:14] uh
+[06:24:17] Okay. Do I have anything else? I think the...
+[06:24:22] I think I'm fine with this now.
+[06:24:26] Thank you.
+[06:24:28] There was just this brief moment in time where I
+[06:24:31] where I saw a bunch of
+[06:24:34] I only flagged this one, but I saw a bunch of Vercel related.  Like, I think Guillermo was one and Malta was another one.  Both being like, wanting to remind people that they funded initial, like Tanner on his initial work when he started 10 stack starters, 10 stack router.  He wasn't really using...
+[06:24:50] start I think as much time he was doing router mostly at the time but at the beginning of it like about a year and a bit ago
+[06:24:58] Vercel actually was was a major partner. It was just I think there was an interesting tension here on the politics  um
+[06:25:06] Because I was like,
+[06:25:08] Eh.
+[06:25:09] A.
+[06:25:10] Bye.
+[06:25:11] Yeah.
+[06:25:14] Was it view post engagement? Let's see what this is.
+[06:25:19] National Philomenon. See, all these people are like,
+[06:25:22] is Vercel going to buy Tanstack? And it's like, no.
+[06:25:25] NUX since Felt now start. It's not now. This was like two years ago. People have no clue.
+[06:25:31] But then there's like this whole political angle.
+[06:25:33] This kind of feels like a friend who lends you money when you're down on your luck and brings it up every chance he gets. I've
+[06:25:39] Seeing we're funded to HandStack
+[06:25:41] a million times but I don't see other people who have done the same say this at every chance they get odd.
+[06:25:47] That's fair. That's why I bookmarked it. There was something that felt really weird around that time period.
+[06:25:54] But,
+[06:25:55] Whatever.
+[06:25:57] I can't be bothered to care too much on the other end.  In either case, I'm...
+[06:26:03] Maybe it's best that we all kind of stay away from the political aspects.
+[06:26:09] Thank you.
+[06:26:10] Okay.
+[06:26:11] Thank you.
+[06:26:12] Thank you.
+[06:26:13] Oh, oh yeah, yeah, Tanstack? Yeah.
+[06:26:18] Bursell share is 5%.  So compared to what others have contributed since,  it's not that big.  But yeah, you can see by the Bursell fans' reactions to this  where people are like,
+[06:26:32] bend the knee like people are treating this like
+[06:26:35] And I saw Tanner actually
+[06:26:39] at you a thing. It's like, it's not like we, people aren't appreciative of the funding and stuff. And it makes a huge difference, like super appreciative. It was just,
+[06:26:50] Um,
+[06:26:51] You know, sometimes like because of some of the like hype kind of thing around this, I remember when Purcell first funded Solid.
+[06:26:58] $100 a month.
+[06:26:59] which is
+[06:27:00] Pretty small compared to pretty much everyone else they've ever...
+[06:27:03] funded.
+[06:27:04] But, you know, they gave us a small amount, which for us at the time was actually a decent chunk for us.  You know, it wasn't.
+[06:27:11] you know, they and they paid that they gave us that for over two years.  So it was it was a really thing.  But I remember like the gauntlets like the like Thanos gauntlets, like,  you know, Vercel and Guillermo on this and like the hype thing.  And it was just so funny because the announcement looked better than the like the reality of the of the stuff.  Right. Like
+[06:27:31] It was just kind of weird how these narratives start popping up.
+[06:27:39] Um,
+[06:27:40] Yeah, I don't know. It's funny.
+[06:27:45] -
+[06:27:46] Yeah, yeah, it's...
+[06:27:48] Yeah, it's fine. I've seen that
+[06:27:51] I've seen this before and
+[06:27:52] Yeah, it's handsack is very widely, you know, there's
+[06:27:58] Sponsors, I need to do a better job of getting sponsors for solid.  I, it's funny every time I talk to people, I'm like, you guys, you guys realize like if we actually had developers
+[06:28:08] the future would be here that much sooner.
+[06:28:10] The biggest contributors we've had over time, obviously, Netlify and Sentry paying wages, but also from the outside.
+[06:28:17] perspective um
+[06:28:18] Google, the money they put into, that they gave us from the whole, that...
+[06:28:24] program they did that went to the research into our server components and into like which basically created Cerevel, which is the serializer behind solid and solid start and 10 stack start. And I think they're even using an astro now. I double checked that was actually from originally from Google funding, getting on Alexis on there. So like these things make a difference.
+[06:28:45] It's so funny, like the server component thing that Tanner's talking about,
+[06:28:49] you know, I've been sitting on that for like a year, you know, like,  and I had other approaches, like there's,  I just didn't have the means to finish it at the time in solid because I had  to do other work in solid. And I feel like, um,
+[06:29:03] There's so many things that if we had the same kind of funding or capability, we'd be able to do.  Like, it's not from a lack of direction or ideas or...
+[06:29:12] you know, a whole bunch of other things which is
+[06:29:14] It's just where we are.  Anyway...
+[06:29:20] Thank you.
+[06:29:28] Anyway, I think we're done.
+[06:29:31] It was a long stream today, six and a half hours.
+[06:29:34] But, uh...
+[06:29:36] I'm not going to be streaming for the next couple weeks.  There's like Thanksgiving and then some,  I think my daughter's first,  uh,
+[06:29:42] Ballet performance for her Nutcracker this year. So, um, I'm gonna be away for a little bit, but, uh
+[06:29:51] I'm glad I got to show what I'm working on.  I'm sure by the next time I'll have this all implemented in the JSX and we'll have some  really sweet demos to show, but I think, I think it's a really interesting direction
+[06:30:00] async that we've been taking. And I think
+[06:30:03] I think when you see the pieces together, I think it's, I finally feel like it's
+[06:30:07] It's
+[06:30:08] gelling like
+[06:30:09] There's a lot of trade, there's more trade-offs than I would have
+[06:30:12] wanted at the onset, but the end result is much cleaner.  And I think this is gonna be really,  really powerful moving forward.
+[06:30:22] All right.
+[06:30:23] Anyways, y'all have a great one.
+[06:30:25] Till next time.

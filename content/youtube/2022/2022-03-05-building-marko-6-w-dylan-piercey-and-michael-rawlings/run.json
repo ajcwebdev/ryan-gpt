@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 2,
+  "kind": "extract",
+  "metadata": {
+    "step1": {
+      "title": "Building Marko 6 w/ Dylan Piercey, and Michael Rawlings",
+      "slug": "2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings",
+      "duration": "3:31:53",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=Y22xf8EjioE",
+      "publishDate": "2022-03-05",
+      "thumbnail": "https://i.ytimg.com/vi/Y22xf8EjioE/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 137,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 137,
+          "endTime": 784,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 784,
+          "endTime": 1240,
+          "title": "Introducing the Team"
+        },
+        {
+          "startTime": 1240,
+          "endTime": 1626,
+          "title": "What is Marko 6"
+        },
+        {
+          "startTime": 1626,
+          "endTime": 2536,
+          "title": "Qwik Comparison"
+        },
+        {
+          "startTime": 2536,
+          "endTime": 2816,
+          "title": "Talking Docs"
+        },
+        {
+          "startTime": 2816,
+          "endTime": 4992,
+          "title": "Marko 6 Tags Demo"
+        },
+        {
+          "startTime": 4992,
+          "endTime": 6616,
+          "title": "Exploring Compilation"
+        },
+        {
+          "startTime": 6616,
+          "endTime": 6909,
+          "title": "JS Framework Benchmark"
+        },
+        {
+          "startTime": 6909,
+          "endTime": 7640,
+          "title": "Resumability"
+        },
+        {
+          "startTime": 7640,
+          "endTime": 7946,
+          "title": "SPA vs MPA"
+        },
+        {
+          "startTime": 7946,
+          "endTime": 8211,
+          "title": "Future of Marko"
+        },
+        {
+          "startTime": 8211,
+          "endTime": 9521,
+          "title": "Rethinking Routing"
+        },
+        {
+          "startTime": 9521,
+          "endTime": 10452,
+          "title": "Challenges with Hybrid Approach"
+        },
+        {
+          "startTime": 10452,
+          "endTime": 11681,
+          "title": "MPAplus"
+        },
+        {
+          "startTime": 11681,
+          "endTime": 12616,
+          "title": "Q&A"
+        },
+        {
+          "startTime": 12616,
+          "endTime": 12713,
+          "title": "Outro"
+        }
+      ],
+      "description": "I'm excited to finally bring my co-workers on stream to talk about what I feel is some of the most innovative work happening in web development. We will get a first look at Marko 6, talk about the considerations that went into designing a compiler-driven resumable sub-template partially hydratable framework, and what this means for the future of the web.\n\n[0:00] Introduction\n[2:17] This Week in JavaScript\n[13:04] Introducing the Team\n[20:40] What is Marko 6\n[27:06] Qwik Comparison\n[42:16] Talking Docs\n[46:56] Marko 6 Tags Demo\n[1:23:12] Exploring Compilation\n[1:50:16] JS Framework Benchmark\n[1:55:09] Resumability\n[2:07:20] SPA vs MPA\n[2:12:26] Future of Marko\n[2:16:51] Rethinking Routing\n[2:38:41] Challenges with Hybrid Approach\n[2:54:12] MPAplus\n[3:14:41] Q&A\n[3:30:16] Outro",
+      "audioFileName": "2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings.m4a",
+      "audioFileSize": 159554958,
+      "durationSeconds": 12713
+    },
+    "step2": {
+      "transcriptionService": "soniox",
+      "transcriptionModel": "stt-async-v4",
+      "processingTime": 847653,
+      "tokenCount": 36855,
+      "runtime": {
+        "mode": "fresh",
+        "stage": "cleanup-complete",
+        "remoteJobId": "f2ed3b54-29c2-42c8-8ee0-ebb442ca9816",
+        "remoteAssetId": "94596447-74f8-47b3-8af0-2540e93251d5",
+        "createCompletedAt": "2026-07-21T07:48:11.945Z",
+        "lastPollAt": "2026-07-21T08:02:11.171Z",
+        "completedAt": "2026-07-21T08:02:15.671Z",
+        "cleanupCompletedAt": "2026-07-21T08:02:15.837Z",
+        "cleanup": {
+          "remoteJobDeleted": true,
+          "remoteAssetDeleted": true
+        }
+      },
+      "timings": {
+        "uploadMs": 3869,
+        "createMs": 58,
+        "createCount": 1,
+        "pollMs": 3978,
+        "pollSleepMs": 835118,
+        "pollCount": 86,
+        "transcriptMs": 4461,
+        "remoteProcessingMs": 835123,
+        "requestCount": 89,
+        "cleanupMs": 164
+      }
+    },
+    "resolvedStep2": {
+      "route": "stt",
+      "sourceKind": "media",
+      "providers": [
+        {
+          "service": "soniox",
+          "model": "stt-async-v4",
+          "origin": "explicit"
+        }
+      ]
+    },
+    "completionStatus": "full",
+    "requestedProviders": [
+      {
+        "service": "soniox",
+        "model": "stt-async-v4",
+        "local": false,
+        "diarizationOptions": {
+          "enabled": true
+        }
+      }
+    ],
+    "providerStates": [
+      {
+        "service": "soniox",
+        "model": "stt-async-v4",
+        "local": false,
+        "artifactDir": ".",
+        "status": "succeeded",
+        "attempts": 1
+      }
+    ],
+    "missingProviders": [],
+    "cost": {
+      "estimated": {
+        "totalCost": 35.31388888888889,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 35.31388888888889,
+            "costMultiplier": 1,
+            "durationSeconds": 12713
+          }
+        ]
+      },
+      "observedEstimate": {
+        "totalCost": 35.31388888888889,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 35.31388888888889,
+            "costMultiplier": 1,
+            "durationSeconds": 12713
+          }
+        ]
+      },
+      "actual": {
+        "totalCost": 35.31388888888889,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "cost": 35.31388888888889,
+            "costSource": "computed_usage",
+            "inputMetric": "durationSeconds",
+            "inputValue": 12713
+          }
+        ]
+      }
+    },
+    "timing": {
+      "estimated": {
+        "totalProcessingTimeMs": 1767107,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 1767107,
+            "inputMetric": "durationSeconds",
+            "inputValue": 12713,
+            "rateBasis": "durationSecond",
+            "msPerUnit": 139,
+            "throughputValue": 7.194,
+            "throughputUnit": "x",
+            "timingScope": "estimated"
+          }
+        ],
+        "estimateConfidence": "registry",
+        "likelyGatingTargets": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 1767107
+          }
+        ]
+      },
+      "actual": {
+        "totalProcessingTimeMs": 847653,
+        "steps": [
+          {
+            "step": "stt",
+            "provider": "soniox",
+            "model": "stt-async-v4",
+            "processingTimeMs": 847653,
+            "timingBreakdown": {
+              "uploadMs": 3869,
+              "createMs": 58,
+              "pollMs": 3978,
+              "pollSleepMs": 835118,
+              "transcriptMs": 4461,
+              "remoteProcessingMs": 835123,
+              "cleanupMs": 164
+            },
+            "inputMetric": "durationSeconds",
+            "inputValue": 12713,
+            "rateBasis": "durationSecond",
+            "msPerUnit": 66.676,
+            "throughputValue": 14.998,
+            "throughputUnit": "x",
+            "timingScope": "wall"
+          }
+        ]
+      }
+    },
+    "extractRoute": "media"
+  }
+}

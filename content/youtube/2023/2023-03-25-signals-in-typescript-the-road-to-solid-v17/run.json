@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "Signals in TypeScript: The Road to Solid v1.7",
+      "slug": "2023-03-25-signals-in-typescript-the-road-to-solid-v17",
+      "duration": "5:27:08",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=2fW6JaJHoCE",
+      "publishDate": "2023-03-25",
+      "thumbnail": "https://i.ytimg.com/vi/2fW6JaJHoCE/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 795,
+          "title": "Preamble Q & A"
+        },
+        {
+          "startTime": 795,
+          "endTime": 1425,
+          "title": "The Value of Linting"
+        },
+        {
+          "startTime": 1425,
+          "endTime": 1950,
+          "title": "From 1.0 to 1.7"
+        },
+        {
+          "startTime": 1950,
+          "endTime": 3195,
+          "title": "Empty Thunks / \"JSX isn't perfect, but it's free\""
+        },
+        {
+          "startTime": 3195,
+          "endTime": 4560,
+          "title": "Stricter JSX elements"
+        },
+        {
+          "startTime": 4560,
+          "endTime": 5445,
+          "title": "Pass Values not Functions"
+        },
+        {
+          "startTime": 5445,
+          "endTime": 6690,
+          "title": "Better Event Types for Input Elements"
+        },
+        {
+          "startTime": 6690,
+          "endTime": 7590,
+          "title": "Null-Asserted Control Flow"
+        },
+        {
+          "startTime": 7590,
+          "endTime": 8295,
+          "title": "The Timeout Examples"
+        },
+        {
+          "startTime": 8295,
+          "endTime": 9180,
+          "title": "TypeScript Playground Demos"
+        },
+        {
+          "startTime": 9180,
+          "endTime": 9900,
+          "title": "Quick TypeScript Q & A"
+        },
+        {
+          "startTime": 9900,
+          "endTime": 10590,
+          "title": "Better Errors, props, attr & seroval"
+        },
+        {
+          "startTime": 10590,
+          "endTime": 11490,
+          "title": "Vue Vapor & Unclosed Tags"
+        },
+        {
+          "startTime": 11490,
+          "endTime": 12855,
+          "title": "Treeshaking, Transitions & Ternaries"
+        },
+        {
+          "startTime": 12855,
+          "endTime": 14070,
+          "title": "Hydration Improvements and Outro"
+        },
+        {
+          "startTime": 14070,
+          "endTime": 14325,
+          "title": "TWiJ - Intro and SolidJS News"
+        },
+        {
+          "startTime": 14325,
+          "endTime": 14580,
+          "title": "TWiJ - React Labs: Blog Post Intro, Assets & Metadata"
+        },
+        {
+          "startTime": 14580,
+          "endTime": 15555,
+          "title": "TWiJ - React Labs: Optimizing Compiler / React Forget"
+        },
+        {
+          "startTime": 15555,
+          "endTime": 16035,
+          "title": "TWiJ - React Labs: Offscreen Rendering"
+        },
+        {
+          "startTime": 16035,
+          "endTime": 16530,
+          "title": "TWiJ - Client-Side Routing in Astro & Ryan's SC document"
+        },
+        {
+          "startTime": 16530,
+          "endTime": 17310,
+          "title": "TWiJ - Guillermo Rauch & Michael Jackson: \"Fully with React\""
+        },
+        {
+          "startTime": 17310,
+          "endTime": 18360,
+          "title": "TWiJ - Dan Jutan: Twitter Space Summary"
+        },
+        {
+          "startTime": 18360,
+          "endTime": 19320,
+          "title": "TWiJ - Routing and Server Components"
+        },
+        {
+          "startTime": 19320,
+          "endTime": 19627,
+          "title": "Outro Q & A"
+        }
+      ],
+      "description": "I've had quite a time the past few weeks reviewing how we approach TypeScript in SolidJS. Improvements to our TypeScript support are a big part of Solid 1.7. And to be honest it hasn't been easy. Join me tomorrow as we go through all the thinking that goes into making a reactive JavaScript framework \"type safe\".\n\n[0:00] Preamble Q & A\n[13:15] The Value of Linting\n[23:45] From 1.0 to 1.7\n[32:30] Empty Thunks / \"JSX isn't perfect, but it's free\" \n[53:15] Stricter JSX elements\n[1:16:00] Pass Values not Functions\n[1:30:45] Better Event Types for Input Elements  \n[1:51:30] Null-Asserted Control Flow \n[2:06:30] The Timeout Examples\n[2:18:15] TypeScript Playground Demos \n[2:33:00] Quick TypeScript Q & A\n[2:45:00] Better Errors, props, attr & seroval\n[2:56:30] Vue Vapor & Unclosed Tags\n[3:11:30] Treeshaking, Transitions & Ternaries\n[3:34:15] Hydration Improvements and Outro\n\nThis Week in JavaScript\n\n[3:54:30] TWiJ - Intro and SolidJS News\n[3:58:45] TWiJ - React Labs: Blog Post Intro, Assets & Metadata\n[4:03:00] TWiJ - React Labs: Optimizing Compiler / React Forget \n[4:19:15] TWiJ - React Labs: Offscreen Rendering\n[4:27:15] TWiJ - Client-Side Routing in Astro & Ryan's SC document\n[4:35:30] TWiJ - Guillermo Rauch & Michael Jackson: \"Fully with React\"\n[4:48:30] TWiJ - Dan Jutan: Twitter Space Summary \n[5:06:00] TWiJ - Routing and Server Components\n[5:22:00] Outro Q & A\n\nThank you @zombiefacesupreme for providing the timestamps."
+    }
+  }
+}

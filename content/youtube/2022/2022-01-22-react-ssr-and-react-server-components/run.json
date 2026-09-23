@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "kind": "metadata",
+  "metadata": {
+    "step1": {
+      "title": "React SSR and React Server Components",
+      "slug": "2022-01-22-react-ssr-and-react-server-components",
+      "duration": "3:01:13",
+      "channel": "Ryan Carniato",
+      "url": "https://www.youtube.com/watch?v=dnuh-jKuDpk",
+      "publishDate": "2022-01-22",
+      "thumbnail": "https://i.ytimg.com/vi/dnuh-jKuDpk/maxresdefault.jpg",
+      "channelURL": "https://www.youtube.com/channel/UCLLVlcmcCP4CUe7xSqVEnxw",
+      "chapters": [
+        {
+          "startTime": 0,
+          "endTime": 135,
+          "title": "Introduction"
+        },
+        {
+          "startTime": 135,
+          "endTime": 1858,
+          "title": "This Week in JavaScript"
+        },
+        {
+          "startTime": 1858,
+          "endTime": 3420,
+          "title": "Benchmarking Hackernews Again"
+        },
+        {
+          "startTime": 3420,
+          "endTime": 5985,
+          "title": "Server Components Introduction"
+        },
+        {
+          "startTime": 5985,
+          "endTime": 7215,
+          "title": "Server Components Demo"
+        },
+        {
+          "startTime": 7215,
+          "endTime": 8335,
+          "title": "Mutations with Server Components"
+        },
+        {
+          "startTime": 8335,
+          "endTime": 9129,
+          "title": "Analysis"
+        },
+        {
+          "startTime": 9129,
+          "endTime": 9782,
+          "title": "Server Components vs Partial Hydration vs Lazy Loading"
+        },
+        {
+          "startTime": 9782,
+          "endTime": 10030,
+          "title": "What about Turbo Links?"
+        },
+        {
+          "startTime": 10030,
+          "endTime": 10460,
+          "title": "Non-VDOM implementation?"
+        },
+        {
+          "startTime": 10460,
+          "endTime": 10680,
+          "title": "What's the Takeaway?"
+        },
+        {
+          "startTime": 10680,
+          "endTime": 10872,
+          "title": "Outro"
+        }
+      ],
+      "description": "Today's a React stream. Let's talk Remix, Next, Edge deployment, and Server Components.\r\n\r\nIt's been over a year since the React Server Component announcement but I still haven't had the chance to dig into the demo. That changes today. There are a lot of different solutions in this space but I think React Server Components have a really unique take.\n\n[0:00] Introduction\n[2:15] This Week in JavaScript\n[30:58] Benchmarking Hackernews Again\n[57:00] Server Components Introduction\n[1:39:45] Server Components Demo\n[2:00:15] Mutations with Server Components\n[2:18:55] Analysis\n[2:32:09] Server Components vs Partial Hydration vs Lazy Loading\n[2:43:02] What about Turbo Links?\n[2:47:10] Non-VDOM implementation?\n[2:54:20] What's the Takeaway?\n[2:58:00] Outro"
+    }
+  }
+}

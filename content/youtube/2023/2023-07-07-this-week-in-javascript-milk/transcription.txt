@@ -1,0 +1,1967 @@
+[00:00:01.770] All right, and we're live.
+[00:00:06.030] Hi everyone, it's been...
+[00:00:08.550] quite a while.
+[00:00:11.070] Yeah, I mean, when was my last dream?
+[00:00:13.410] In May?
+[00:00:15.660] I think it was mid-May and before that it was even like three weeks before that.
+[00:00:19.920] So, um...
+[00:00:21.780] I'm very happy to be back.
+[00:00:26.040] We'll give everybody a couple minutes to join up here. It's been a while, so I don't know if I
+[00:00:31.500] People kind of lost that routine of coming out here Friday afternoon.
+[00:00:35.310] Well, I guess Pacific Time or Evening East Coast or...
+[00:00:39.750] I don't even want to think about Europe.
+[00:00:42.450] Thank you.
+[00:00:46.270] Hi
+[00:00:47.850] Yeah, come say hi in the chat.
+[00:00:49.710] Thank you.
+[00:00:51.900] Okay.
+[00:00:56.820] Hey, Kelvin. Yeah, yeah, yeah, no, it's good to be back. Although it was interesting. Sometimes like when you're away from something long enough, you can like...
+[00:01:05.820] find a new sort of appreciation
+[00:01:08.820] I think that's the way I'm going to put it. Or maybe lack of appreciation of certain things.
+[00:01:15.630] And I feel like nothing could be more apparent to me on that side is because I completely like I would as you most you knew I was doing conferences for a while. So I was pretty busy. I was like, you know, poking in and out of stuff. But when I went on vacation afterwards, I went to Utah.
+[00:01:32.760] I went to Zion, went to Bryce Canyon, went to Antelope Canyon, did a whole bunch of hiking, all that stuff.  I just, like, it was a road trip, like...
+[00:01:41.100] Went with my family, my wife and my two kids and
+[00:01:46.440] I just was not...
+[00:01:48.990] I did not look at discord. I did not look at Twitter. I did not look at  um
+[00:01:55.140] Actually, for me, that's the main two.  I didn't look at GitHub.
+[00:01:57.690] Really? I did not look at
+[00:02:01.830] Pretty much.
+[00:02:02.910] anything during that time period and um
+[00:02:07.650] It was about two weeks, I guess.
+[00:02:10.320] And...
+[00:02:13.710] Yeah, I don't know. It felt like longer, because I feel like maybe even a bit longer than that.
+[00:02:19.910] Basically...
+[00:02:20.940] After a few weeks of barely being present with all the traveling, and then two weeks of nothing, I came back and I was like, wow.
+[00:02:31.230] This isn't like how I remembered it.
+[00:02:33.270] Especially on Twitter.
+[00:02:37.590] just watching some of the discussions around RSCs and all this stuff, and I was just like...
+[00:02:41.850] I remember this used to like really...
+[00:02:44.130] get to me but like looking at this I'm just like
+[00:02:46.380] Huh.
+[00:02:48.000] But we'll talk a bit more about that.
+[00:02:53.160] you know, through the course of this.  Today's not going to be a long stream.  And by not long, you know, probably longer than most people stream, but still not.  There's no five hours today.  Is this lemonade?  Okay.  No, this is, I think it's called Tsuji.  It's like a, it is lemon.  It is lemon.
+[00:03:12.750] But it's got like cayenne and...
+[00:03:16.890] Yeah, it's a spicy drink.
+[00:03:19.620] Okay.
+[00:03:22.050] ginger
+[00:03:24.000] yeah it's
+[00:03:26.010] It's good.
+[00:03:28.860] Yeah.
+[00:03:29.760] Yeah, I, "Sameest Man in JavaScript." I think that's what it felt like. I'm like,
+[00:03:37.350] Everybody needs...
+[00:03:38.880] a little break, you know? Everybody needs like a little bit of time.
+[00:03:42.660] Um...
+[00:03:44.880] there's a whole bunch of talk about burnout and stuff  and I was like
+[00:03:50.880] It's so funny. I came back just as everyone was talking about how burnt out they were, and I was just like...
+[00:03:55.800] Hmm.
+[00:03:59.850] But yeah, talk about that a little bit too, probably. But yeah, I think what's happened is for the first time in a while, like the React team has really pushed. They're like, look, we got something new, cool. And they really pushed on it.
+[00:04:13.380] And, you know, sometimes when you push on new technology ideas, it's kind of thankless. People don't give you any respect. We've been there, right? And, you know, people complain, especially if you already have customers. No one wants anything to ever change. So it's like, it's really hard. And it's like, after a while, I'm just like, why the hell am I doing this? But yeah, we'll talk about that a bit too.
+[00:04:43.380] But, actually I should just second it.
+[00:04:46.590] I should say, and we are live, um...
+[00:04:50.580] What's my Twitch again? Twitch.
+[00:04:52.200] I'm just...
+[00:04:53.070] Just one sec, I'm gonna
+[00:04:54.930] What are we?
+[00:04:56.430] Twitch...
+[00:04:57.870] Twitch TV, Ryan's solid, yeah.
+[00:05:02.280] Twitch.
+[00:05:03.780] TV
+[00:05:04.920] Ryan's solid.
+[00:05:07.350] Let's tweet this.
+[00:05:10.260] um
+[00:05:15.330] Okay, um
+[00:05:18.210] The reason, let me see here.
+[00:05:21.510] This...
+[00:05:22.530] is
+[00:05:23.520] actually
+[00:05:24.900] at Scout's Lookout. It's literally right before Angel's Landing. If you followed the camera off,  you know, this way, it starts the steep climb basically along a ridge, which is, you know, and
+[00:05:40.350] Thank you.
+[00:05:40.920] It drops off on either side, but it keeps on going off off the side here, so to speak.  About another, I don't know, 200 feet.
+[00:05:50.310] 300 feet
+[00:05:52.170] um
+[00:05:52.920] but
+[00:05:53.700] This is the viewpoint right before that. We came up...
+[00:05:58.710] My daughter actually took this shot
+[00:06:03.000] she's seven but um we we came up right before like the sun had gone high it was  like behind the mountains so it's kind of it's really cool walking up uh the kind of
+[00:06:15.180] switchbacks
+[00:06:16.800] Anyways, it's a good hike.
+[00:06:19.140] Little four-year-old did it, um...
+[00:06:21.330] which is amazing.
+[00:06:24.660] I mean, he's done probably... I'm trying to remember if he's actually done...
+[00:06:29.340] the higher elevation hikes.
+[00:06:31.500] I think--
+[00:06:33.000] Yeah, I think this one's actually only about 1200 feet, but anyway it elevation gain, but yeah
+[00:06:38.700] In any case, um...
+[00:06:40.380] Thank you.
+[00:06:41.820] It was definitely a cool trip and definitely very cool, uh...
+[00:06:47.760] to do all this hiking
+[00:06:53.160] uh,
+[00:07:00.720] Can Nikhil join too?  We could talk a bit about what Nikhil's been up to maybe if we find some time.  He'll come back.  I'm positive to tell us what he's been working on pretty soon.
+[00:07:09.150] He's got a...
+[00:07:10.920] He's got another new project.  I mean,  surprise,  surprise.  Um,
+[00:07:14.160] So we can see who he's up to.
+[00:07:16.500] Hey, Damien.
+[00:07:18.660] Yeah, no, my vacation was very nice.
+[00:07:22.680] Yeah, I honestly don't know what to...
+[00:07:26.160] This is all about me.  I was hoping the milk thing I actually just put in the cover as bait to hope to get people to actually tell me what the hell is going on with it.
+[00:07:33.210] I have no clue like seriously I I come back and everyone's like taking pictures of themselves with milk jugs and I was like what the
+[00:07:39.750] What are you guys doing?
+[00:07:42.990] *laughs*
+[00:07:49.350] Yeah, but yeah, generally, I'm doing pretty good.  I feel...
+[00:07:55.950] pretty rested and energized. It was really good. I mean, I had some really good news happen in terms of the Solid Star Project right before I went on vacation. I haven't shared it with you guys. The big announcement's coming out either next, probably next week, maybe the week after. But, um,
+[00:08:12.420] But we got some good news on it.  And I don't mean like Solid Star is suddenly out of beta.  I mean...
+[00:08:21.660] We've managed to...
+[00:08:24.240] - Thank you.
+[00:08:25.080] find some more supporters um in it and uh we're gonna we're gonna lay out the plan for solid start  in the coming weeks um so i'm very excited about that uh
+[00:08:36.270] Thank you.
+[00:08:37.620] I don't understand the milk thing. Okay, so no one actually knows, right? Is this the thing? Because like, I mean, I turned over where I saw it first, right? I was...
+[00:08:46.890] I didn't actually bookmark any of the milk tweets because I was just like, what's going on? I think I saw Adam post a bunch of milk tweets and I was just like, okay, what's going on?
+[00:08:59.550] And then...
+[00:09:00.570] Next thing I know, people start talking about
+[00:09:03.150] uh,
+[00:09:04.560] racism or something yeah yeah
+[00:09:08.610] He was like this.  Like, picture being gone for, like, almost a month and being...  I'd be like, what the hell is...  Like, this...
+[00:09:16.800] Bye.
+[00:09:22.320] Okay, it's trash, trash and milky started. Okay, well there you go. So...
+[00:09:27.540] I--
+[00:09:28.170] Thank you.
+[00:09:32.250] Sorry, which Prime video?
+[00:09:41.400] Okay, okay.
+[00:09:42.990] *sad music*
+[00:09:46.530] *chip*
+[00:09:47.340] because I remember Theo mentioning somewhere  maybe some chat about how it was done
+[00:09:54.030] the milk thing.
+[00:09:57.690] I...
+[00:09:58.740] Thank you.
+[00:09:59.700] I swear...
+[00:10:02.040] I...
+[00:10:02.880] Okay. See, this is a lot of clarity. Like, I was trying to make a thumbnail and I was like,
+[00:10:14.700] I was like,
+[00:10:15.930] What?  Like...
+[00:10:17.820] *shrie*
+[00:10:18.960] It was pretty much like...  Coming back to Twitter was just like, what's going on?  It was all these comments of people burning out and...
+[00:10:27.060] people like fighting over RSCs and then there's milk and I was just like what what what what is going on
+[00:10:38.790] But, yeah.
+[00:10:44.750] Okay.
+[00:10:45.810] So this is all about vitamin D well I
+[00:10:49.080] That's good to know.
+[00:10:50.730] -
+[00:10:51.900] I...
+[00:10:52.800] These things are always silly like that. I imagine it's by the time that other people find out about it. It's over. So I'm gathering that's the end of that. I mean, honestly...
+[00:11:04.140] Um
+[00:11:06.450] Yeah, I'm used to scan back for a moment here because I
+[00:11:10.920] - Yeah.
+[00:11:12.210] Like, around the time before I went on vacation...  Yeah, let's just...
+[00:11:17.460] I guess I actually have a few things to talk about
+[00:11:20.520] You know, beforehand, but...
+[00:11:23.940] Hmm
+[00:11:26.190] The video, okay.
+[00:11:29.970] Yeah, let me see if I can grab the video.
+[00:11:32.970] What is this?
+[00:11:34.170] Thank you.
+[00:11:35.850] Okay.
+[00:11:45.240] Oh, okay.
+[00:11:51.390] What the...
+[00:11:56.760] Right. This is July 1st, though, right?  This stuff started at the end of June, I feel like, like June 26th time period.
+[00:12:05.520] But yeah
+[00:12:07.020] Amen.
+[00:12:08.100] Thank you.
+[00:12:13.650] Oh man.
+[00:12:16.140] This is...
+[00:12:17.940] Prime had a lot of fun with this, so I can tell. Anyway.
+[00:12:22.530] Good times.
+[00:12:28.620] Why am I looking at Tears of the Kingdom?
+[00:12:30.360] Sorry.
+[00:12:32.910] Uh...
+[00:12:35.040] Yeah, it's all good.  I don't think everything is supposed to make sense.
+[00:12:41.100] Thank you.
+[00:12:42.060] oh man no thanks thanks everyone for coming and joining me here as i said uh
+[00:12:48.540] *coughs*
+[00:12:50.190] I...
+[00:12:51.300] It's...
+[00:12:52.260] It's very interesting to kind of be really into something, like spending a lot of time every day.
+[00:12:58.980] you know,
+[00:13:00.270] And then being away from it for a while and then coming back and kind of seeing things a little differently.  Because, yeah, I mean, if we go back...
+[00:13:07.320] the conferences.
+[00:13:09.360] I think last time we did a stream, it was right before I went to Chicago.
+[00:13:18.210] And then I went to Amsterdam.
+[00:13:20.400] So
+[00:13:21.390] Portugal
+[00:13:22.860] and Finland
+[00:13:24.450] And
+[00:13:27.180] Those...
+[00:13:29.130] All of those conferences are really, really cool.  Chicago, I've always wanted to do a go-to.
+[00:13:34.410] The keynotes at a GoToConference are next level.
+[00:13:39.630] I mean, sometimes they're not even directly about development.  There was a story about a guy who...
+[00:13:45.330] sailed around the world, essentially.  Like, one man sailing.  They have a competition, apparently.  And I guess because, like, there's an event that happened back in the 60s,  they're, like, rehashing it.  He couldn't use any modern equipment.  And it's a solo sail around the world.  Yeah.
+[00:14:01.890] And
+[00:14:02.610] he got caught in a storm and it was like crazy story.  Um,
+[00:14:07.590] But
+[00:14:09.510] Thank you.
+[00:14:11.190] Then obviously went to Amsterdam.
+[00:14:15.150] - Thank you.
+[00:14:16.260] I gotta give it to Mishko Hevery. Every time I went to a place, he had a meetup.
+[00:14:21.750] at that location where he was speaking at.  And that's the way to do it.  That's bloody genius.  It's obvious, but it's like something that...
+[00:14:30.120] that I have not
+[00:14:31.740] taking advantage of it all.
+[00:14:35.220] Mmm.
+[00:14:39.450] Thank you.
+[00:14:40.680] Yeah, BJS was right before I did the last stream, I thought.
+[00:14:47.100] Actually, you know what? Let's look it up. When was the last stream?
+[00:14:50.070] I thought it was right. I thought it was...
+[00:14:53.130] Mmm.
+[00:14:57.780] What do we got here?
+[00:14:59.730] What was the date on this?
+[00:15:01.260] Set!
+[00:15:04.650] One month ago. That's not very helpful. May 19th. Yeah, yeah, yeah. BJS was over.  Yeah, this was right before Chicago.
+[00:15:11.250] Google.
+[00:15:15.870] -Mmm.
+[00:15:21.450] maybe when bling was hot yeah i mean it's interesting we can talk about that a bit too if you want um
+[00:15:29.610] But bling...
+[00:15:32.280] - Thank you.
+[00:15:33.330] I think
+[00:15:34.800] It's tricky because there's a bundler consideration and it's about the permutation of ideas like...
+[00:15:42.060] Like how many ways like
+[00:15:45.390] Yeah, I'll talk about bling in a minute. I'm going to keep on the conference thing for a moment before moving on, just because it helped me get my bearings.
+[00:15:55.770] Because like
+[00:15:57.870] This was actually kind of a cool meetup.
+[00:16:00.750] Um,
+[00:16:01.590] the one, the quick Amsterdam meetup, both me and Michko talked at it and there was like
+[00:16:07.620] Oh.
+[00:16:08.310] Over, I'd say like over 100, maybe 120 percent.
+[00:16:11.520] people at this meetup.  And it was...
+[00:16:15.060] Yeah, it was actually a really good meetup. But it actually showed me something that was interesting.
+[00:16:21.480] Because I've been giving this talk for a while now, the World Beyond Components talk, and I keep on using this Taste Movies app, right?
+[00:16:30.810] And you've all seen this Taste Movies demo, right? The solid version being that experimental technology that everyone sees and they're like, "Oh, I want to use that with Salt Star." And I'm like, "No, no, no, it's experimental."
+[00:16:43.230] Yeah.
+[00:16:44.400] Okay, actually someone shared the actual first milk tweet.
+[00:16:48.990] I need to...
+[00:16:49.950] I need a look at this.
+[00:16:53.820] This helps me a bit.
+[00:17:00.390] This is the same live big outside that's been pushing
+[00:17:03.570] for years, something about eating vitamin D, if she might as well, drinking a gallon of milk.
+[00:17:08.310] Okay.
+[00:17:11.340] Thank you.
+[00:17:17.250] Okay.
+[00:17:21.090] I see. Yeah. So it was June 26th. Yeah. It happened very, very fast.
+[00:17:25.710] I think actually, you know, I thought I saw something that was kind of cool. It was from Richie or...
+[00:17:31.050] Henlon...
+[00:17:32.880] Rich, why can't I never get his...
+[00:17:35.580] The guy from React...
+[00:17:37.920] What's--
+[00:17:38.820] Point.
+[00:17:42.060] Rick?
+[00:17:43.590] Yeah, Ricky. Sorry, not Richie. Ricky.
+[00:17:47.170] He actually...
+[00:17:49.110] Where was it now? I gotta like go back in time and
+[00:17:52.980] Tchoo!
+[00:17:55.770] Uh...
+[00:17:56.910] Yeah, here we go. JavaScript Framework says milk.
+[00:17:59.370] Right?
+[00:18:01.740] - Thank you.
+[00:18:03.960] jQuery...
+[00:18:07.260] Angular.
+[00:18:09.000] React.
+[00:18:09.990] I'm pretty sure Solid's not on this list, but...
+[00:18:13.830] Still very cool to see.
+[00:18:16.530] Oh no, there we are.
+[00:18:17.700] Fair life.
+[00:18:19.140] - Yeah.
+[00:18:20.610] Oh, wow.
+[00:18:24.660] So there we are. All the JavaScript frameworks is milk. This is what I miss when I'm traveling.
+[00:18:31.230] Thank you.
+[00:18:32.520] Okay.
+[00:18:34.470] Yeah.
+[00:18:36.450] -
+[00:18:37.410] Whole milk.
+[00:18:38.760] Low-fat milk, okay.
+[00:18:40.560] Fat free.
+[00:18:41.550] fat-free. Yeah, is there some kind of subtext on how much fat the milk has?
+[00:18:47.460] Okay.
+[00:18:49.080] No.
+[00:18:50.250] Chocolate milk.
+[00:18:52.800] Okay.
+[00:18:53.580] I don't even know what this is.
+[00:18:58.320] That's a pretty scary looking milk jug.
+[00:19:01.860] It's like the Darth Vader of milk jugs.
+[00:19:05.430] Anyway.
+[00:19:08.520] Thank you.
+[00:19:14.160] Very... yeah, there's just too many milk references.
+[00:19:20.160] Oh, man.
+[00:19:21.870] Everyone's just posting their milk memes now.
+[00:19:25.350] Here we go.
+[00:19:28.860] Thank you, Anthony. What do we got here?
+[00:19:31.230] Yeah.
+[00:19:32.040] milk really depends on personal  see I knew as soon as I talked about something else  people would bring it back to milk again right
+[00:19:39.690] Okay.
+[00:19:41.340] Mm.
+[00:19:49.470] There we go.
+[00:19:52.110] Yeah, I mean, this is something we consider in our household as well.  I do drink...
+[00:19:57.480] cow's milk, generally speaking, but my youngest has a lactose allergy. So we are obviously
+[00:20:09.720] We have alternative milk products as well for the most part.
+[00:20:16.560] The answer is oat milk, okay.
+[00:20:20.880] Anyway.
+[00:20:21.720] *sigh*
+[00:20:23.280] I don't...
+[00:20:24.450] *crying*
+[00:20:27.930] Ooh, Hype Train. Nice.
+[00:20:30.750] And thanks, Dev, for the shout so I could actually pay attention to it.  This is always my problem.  I have to go my way.  It's the StreamYard curse, right?
+[00:20:39.900] *sad music*
+[00:20:43.920] Solid milk should just be cheese. Yeah, there we go.
+[00:20:46.950] All right.
+[00:20:49.170] Thank you.
+[00:20:50.970] *cough*
+[00:20:53.430] Some people are just intolerant, you know.
+[00:20:55.140] All right.
+[00:20:58.350] All right, all right, all right. But yeah, so
+[00:21:03.060] And...
+[00:21:06.990] Yeah, should we just start talking?
+[00:21:10.830] The RSC thing?  I mean, I was just like...  I don't think there's actually...
+[00:21:15.840] much
+[00:21:16.890] I want to actually add on the conference. I mean, there's some cool moments. I don't have everything posted like in Portugal. They did like a fake Street Fighter battle where they had like even someone in the background like pitching fake fireballs across and...
+[00:21:30.510] Um...
+[00:21:31.680] in Amsterdam.
+[00:21:35.640] Uh,
+[00:21:36.600] This is hilarious, but there was a question session afterwards and it took me, if you go around the corner, again off the screen a little bit and up the stairwells, the speaker room, it took me two hours to walk from here.
+[00:21:51.120] to like around the corner because of just like the amount of people who are interested and want to talk about solid, solid start. It was, it was really cool. There's like over 1000 people at JS Nation. I think there's 15 people, 15,000 or 1500 people.
+[00:22:05.280] at...
+[00:22:06.990] React Summit the next day like it was just packed full of people at that conference and um
+[00:22:13.770] There's so many cool conversations. There's a future frameworks conversation where I was sitting at a table with, you know, a bunch of people, including Mishko and Malte.
+[00:22:26.340] and uh oh man i i don't i i don't think it got like i think it got up to the discord like i  don't think i recorded properly but it was it was amusing because it was like  there was a bit of a back and forth going on between resumability and rscs um
+[00:22:41.430] And it was like...
+[00:22:43.380] Yeah.  Yeah.
+[00:22:44.280] I, I, to be fair, um, yeah, I, I would actually love to have like a Twitter space with that again.
+[00:22:52.140] I mean, maybe it was just silly in the sense that, like...
+[00:22:55.410] Both sides are talking about how they're making improvements to the way
+[00:22:59.970] we develop apps and handle things like hydration,  but both sides acting like the other side isn't solving the problem.  It's,  it's,
+[00:23:06.720] - Thank you.
+[00:23:08.250] Yeah.
+[00:23:20.850] Yeah, I don't think it's going to happen, and not at least in a civil way. I mean, I have to admit,
+[00:23:27.780] I've been in spaces talking RSCs with Dan.
+[00:23:30.630] And I've also obviously talked tons reasonably with Michiko and
+[00:23:35.130] Even myself, who I consider on that scale sort of in the middle, neutral...
+[00:23:54.060] If you want to hear two people talk past each other, I think that's the space you want, Anthony.  I think you're going to have a hard time having a conversation where they're actually talking the same language.
+[00:24:06.060] Yeah, no, now we're... a little bit. See, I have been... yes and no...
+[00:24:12.510] Ehh...
+[00:24:13.710] Auto RSC is Marco.
+[00:24:15.990] Old Marco.
+[00:24:18.150] But you're right there is and the thing is auto makes like oh, it's just auto but like it actually has bigger  Implications I've actually been thinking recently. I like started writing on another one of my like hack MD docs or I'm like  What if Marco was right all along?
+[00:24:31.620] And you guys are like, obviously he's going to write that.  But no, no, I'm serious.
+[00:24:36.060] but  Maybe more of that and later
+[00:24:43.200] Yeah, I mean, yeah.
+[00:24:45.630] .
+[00:24:48.240] They...
+[00:24:49.740] It's not that there's two super...
+[00:24:51.900] Yeah, I mean, there are different things in that
+[00:24:55.590] well, didn't I read an article about this?  You know, I mean, this is the ultimate cop-out, right?  But, like...
+[00:25:03.420] Wait, you didn't see that?
+[00:25:05.310] um
+[00:25:07.320] I may have spoiled something there.
+[00:25:10.950] Mm.
+[00:25:11.580] Um...
+[00:25:13.080] No one saw anything, right?
+[00:25:15.860] Where was I looking at?  JavaScript framework setting into 2023.
+[00:25:21.450] Like checking chat to see if anyone actually said saw what I put there. No good. Okay. I
+[00:25:30.870] - Yeah.
+[00:25:31.680] No, it's not that one, dammit. It's the other one. It's the patterns.
+[00:25:36.360] fucking...
+[00:25:38.670] Not...
+[00:25:39.510] the building patterns.  If you,  if the,  the best way I can put it on it is,
+[00:25:46.590] I don't even put
+[00:25:47.850] RSCs and
+[00:25:49.710] I broke everything into three categories.  I said there's routing...
+[00:25:54.720] There's rendering...
+[00:25:57.360] And there's
+[00:25:59.700] like hydration or whatever. I don't even put
+[00:26:03.720] Like...
+[00:26:04.380] -
+[00:26:05.880] RSCs aren't in the same category as Runes of New Ability to even compare them. That's why they don't just solve each other, right?
+[00:26:12.960] RSCs are primarily a routing concern. I know people will tell you otherwise,
+[00:26:17.910] But if you boil it down, it's a routing concern.
+[00:26:21.270] It's why
+[00:26:23.040] resumability, like purely resumability  or whatever Quick does,
+[00:26:27.420] does not solve what RSCs do.  And similarly, RSCs don't do resumability.  That's why they're not the same thing, because they literally
+[00:26:33.810] solve the same problem.
+[00:26:35.250] Like, they...  One...
+[00:26:36.720] eliminates the hydration that you have.
+[00:26:39.660] or one reduces the amount of hydratable space, so to speak,  in the sense it reduces the amount of-- it says, this is always server.
+[00:26:51.030] So like it's an absolute cutout of the size of your application.
+[00:26:56.610] And then the other one is like,
+[00:26:58.920] What if the stuff that you do have doesn't hydrate?
+[00:27:02.640] So it's like, it's...
+[00:27:04.800] It's like different...
+[00:27:08.220] pieces. Like one is concerned with
+[00:27:10.620] isolating the code that runs in the browser, and the other one's concerned with having that code not run at hydration time.
+[00:27:17.580] You could actually put them together.
+[00:27:22.440] but they don't solve each other's problem.
+[00:27:24.600] Thank you.
+[00:27:32.070] So I'm there as a moderator. Yeah, well, it's I mean, yeah, I guess you do I was in some Dan  It was like me Dan and Theo and
+[00:27:40.050] like
+[00:27:42.720] Do you know what the hardest part is?  Dan is brilliant, and when he speaks, he likes to get back to first principles, because for him, it's all a deriving equation.  It's all like, okay, if I have these inputs, I get these outputs.  But in order to establish this, I need to actually...
+[00:27:58.350] show you the inputs
+[00:28:00.120] then show you all my work,  and then go, look, this is this, then this, and then this.  And then at the end, you're like, okay, and this is the conclusion.  The problem is...
+[00:28:10.740] And this is a very challenging task for any moderators.  Like, how do you cut them off?
+[00:28:14.430] Like if you need to like keep the conversation rolling.
+[00:28:16.980] Because like...
+[00:28:18.960] If you don't, he will go for like 10-15 minutes straight.
+[00:28:23.130] Um...
+[00:28:24.840] And the question was something that seemed very
+[00:28:28.710] you know,
+[00:28:29.760] Basic.
+[00:28:30.630] so
+[00:28:32.880] Yeah, I think that's the challenge of the space format for this. Because even when I was trying to like devil's advocate a little bit, because like, I'm a huge fan of what RCs do and they approach, like conceptually, it was like still like...
+[00:28:45.480] Get your point in and then wait like 20 minutes. It's fine. I mean my responses were probably pretty long too, but if you start getting yourself in the place where everyone's like, okay, I'm gonna speak for 10 minutes now speak for 10 minutes, you know, and
+[00:28:58.350] it's i think it was almost impossible it was like valuable for me but almost impossible for the  audience to follow
+[00:29:03.390] anyways um sorry i'm jumping back i need to catch up with chat
+[00:29:09.660] Is there theoretical middle ground where pre-rendering RC and Hatsburg's in the latest?  Well, yeah, I mean, certainly.  The thing is...
+[00:29:16.170] The...
+[00:29:17.580] React's perspective on the Resumable stuff was like, we didn't think it was worth
+[00:29:22.530] like prioritizing.  I have to kind of agree with them from my perspective,  the routing problems more like in your face,  whereas like hydration is something,  but like,  you can also like,
+[00:29:32.700] if you have a way of eliminating a lot of hydration,  then like you've already like solved a good chunk of your problem.  Maybe like let's,
+[00:29:40.110] Pick up a number, 60%.
+[00:29:41.730] Okay.
+[00:29:42.780] you know, let's say you've just reduced cost by 60, 70%, whatever. And then it's like,
+[00:29:48.720] And you get to keep all the things you like.  Resume building itself doesn't make client-side routing work.  I think I talked about this before.  There's a reason when I wrote the article about the...
+[00:29:58.980] um,
+[00:30:00.840] What do you call it?  The, uh...
+[00:30:03.150] client-side routing solid thing.  Uh...
+[00:30:08.550] that I didn't include quick on the comparison, right?  What's it called?  Client side routing without...
+[00:30:16.260] the JavaScript or something.  Yeah.  Um,
+[00:30:19.950] I didn't include... I originally included Quick, but I didn't include Quick on this comparison,  not because I was concerned with their numbers, which is actually zero...
+[00:30:29.070] uh,
+[00:30:30.120] for this little app. Same Astro should technically be Zero too, I think. It's because they did it as an MPA.
+[00:30:40.350] Um...
+[00:30:41.820] They didn't do it as a client-side Reddit app because in Quick today, to do a client-side Reddit app, you...
+[00:30:50.100] you have to pull all the code in the next page you navigate to.  In the original version of the quick demo did actually
+[00:30:56.910] do that. So when I put them in the table, they were like 60 kilobytes or something because, um,
+[00:31:02.430] Like, even though there's that initial page benefit,  the second you went to the next page,
+[00:31:07.980] like
+[00:31:09.300] they had no, like, the page gets client rendered, so you suddenly need all the JavaScript code.
+[00:31:14.310] Right. And because quick has that isomorphic mentality, um,
+[00:31:19.800] all the code would chip, right?  Like with RCs or islands, you're like, this is server only.  It means it is always on the server.  With the resumability thing, it's like, yeah, whenever you need it,  whenever you need it, or at least with quick.  Resumability doesn't have to lend to that.  But with quick, whatever its combination of features is called,  because I don't like just calling that resumability.  Resumability is simply the ability to not hydrate.  It's nothing to do with the lazy loading or all the other stuff quick does.
+[00:31:46.950] um
+[00:31:48.330] And...
+[00:31:49.710] So like you couldn't actually do like when, when Dan had his list of like, do you pass the RSC test resuming?  Like, or if so quick does not pass the RSC test.
+[00:32:02.250] Thank you.
+[00:32:03.360] So from like a prioritization standpoint, I could
+[00:32:06.420] see why
+[00:32:08.340] I would go that way and I've actually taken the same direction generally with solid but
+[00:32:12.780] from the  Like this is why it's hard to compare these things directly because it's like they're gonna just talk past each other and
+[00:32:34.080] I'm just catching up on chat. Sorry. Give me a second.
+[00:32:38.400] *Click*
+[00:32:41.100] Bye.
+[00:32:42.030] -
+[00:32:43.200] *clicks*
+[00:32:44.190] *click*
+[00:32:44.730] *sad music*
+[00:32:50.760] So
+[00:32:51.510] Yeah, I mean I didn't have to say it.
+[00:32:54.840] This is this is generally how it goes. He'll he'll try and sell you on it and Mitch will try and sell you on resumability. I'm I
+[00:33:02.820] Thank you.
+[00:33:03.660] Yeah, I mean, it is.
+[00:33:09.120] Thank you.
+[00:33:12.900] Yeah, and the thing is though, if it was just a deep, yeah, I mean, I've got so much to say about this stuff. I think the challenges are...
+[00:33:21.030] And we're looking at the numbers here.
+[00:33:24.360] I this X gives us full circle to where I was here when I'm what I was looking at this and I was looking at the the
+[00:33:30.540] the quick
+[00:33:33.780] And the reason this came to mind is
+[00:33:35.880] When I was in Amsterdam...
+[00:33:38.190] I
+[00:33:39.420] And it might have...  Maybe it was a...
+[00:33:42.300] Maybe whether it was in Portugal. I can't remember. I was giving a
+[00:33:46.680] I did this talk and I was in the middle of doing the talk where I show, you know, the demo and show this information.  And I went back.
+[00:33:53.790] Right?
+[00:33:54.720] at, where was it?  Sorry, was it? Taste Movies.  And I realized, I was like, oh my god, boom.
+[00:34:00.930] I've looked at Next, but look at this. Next 13.
+[00:34:03.840] They've added...
+[00:34:05.370] The RSC.
+[00:34:07.410] Demo.
+[00:34:08.760] Amen.
+[00:34:10.080] Thank you.
+[00:34:10.800] to the taste movies app someone's made the rsc demo and i'm like oh man i gotta see the quick  ones right here i've got to be quiet now because i like i can't talk about like i made this some  you know like i need to update this right because i felt really conscious i was in the middle of the  talk and i'm like oh like i was like oh this is next 12 if there's next you know uh 13 or whatever  it'd probably be better or something or let's let's you know
+[00:34:36.210] you know, and then I looked, I'm like, oh, there's Next 13 there.  So, like, do I have to throw away everything that I've talked about?  Because right now, you know, obviously the solid version looks really impressive in this Manscaped.  So I was like, oh...
+[00:34:48.480] So I was doing the demo again for, I think it was for a company. Uh, uh, I was doing this, they were just interested in solid. So I was giving the same talk and I was like, you know what? Screw this.
+[00:34:58.500] Let's just...
+[00:34:59.550] open the next...
+[00:35:02.880] RSC demo
+[00:35:04.800] And, and,
+[00:35:06.690] and just do it live and see what's going on, right?  And obviously you can't...  Actually, this is unfair because I'm not in an...  Let's open a incognito window, right?  And I was like, okay, let's do this.  Where was it?
+[00:35:21.360] Sorry, I should have grabbed the link first.
+[00:35:24.000] This is a good...
+[00:35:27.270] Probably indicator that this was not built by Vercel, which I think is kind of the problem here  I think I think this chrome
+[00:35:34.440] Demo needs to
+[00:35:36.600] - Okay.
+[00:35:37.860] Needs to...
+[00:35:39.330] Thank you.
+[00:35:40.440] Oh, what's...
+[00:35:41.340] Come on.
+[00:35:42.690] Is it like not gonna load now? It's so funny. This was working. Okay.
+[00:35:49.200] Yeah, now the site's broken.  Yeah, so there you go.  Yeah, maybe they changed something.
+[00:35:55.770] I...
+[00:35:56.280] I did it live and it was all perfectly working and I was just like, okay.
+[00:36:01.530] What is going on here?
+[00:36:05.340] the demo was larger than the next 12 version.  I was just like,
+[00:36:10.680] Like I was just I think this is the reason I'm getting to this. I think this is kind of a
+[00:36:16.950] First of all, it meant that I had nothing to change on my talk,  but I think this is what's confusing people a lot about the server component stuff is  it's very hard to find examples...
+[00:36:26.220] where it doesn't just look strictly worse than
+[00:36:29.850] what was there before.
+[00:36:31.350] And Jack Harrington did a bunch of videos on it. And it's like, I know conceptually and I've tested hydrogen and stuff like that.
+[00:36:39.090] we should be seeing some benefits,  but like,
+[00:36:41.910] People
+[00:36:42.930] are not
+[00:36:44.280] And like all the examples don't make it look good.  And it's really hard because you're like trying to push something,  a technology that people think have to do with performance.  So like...
+[00:36:56.940] The interesting thing that I've noticed is when I came back and I started watching the in-defense of RSCs kind of stuff, people started...
+[00:37:05.250] not
+[00:37:07.200] pointing at the performance angle.  Like, I think...  Which was really interesting to me.
+[00:37:21.600] Yeah, sorry, I'm catching up. People like you.
+[00:37:27.990] Yeah, okay, you're talking about going offline first? Yeah. Yeah, it is old news, right? That was the thing. I'm getting there. Even though I'm talking a ton about RSCs, like, I have to admit...
+[00:37:38.940] I was kind of tempted not to talk about the RSC stuff.  And you guys are probably tired of it because you guys are around and I wasn't around for this when this conversation was happening, right?
+[00:37:48.990] Right?
+[00:37:56.040] Arcee's
+[00:37:59.100] HGMAX now
+[00:38:00.450] Ah, HTT Max is...
+[00:38:02.490] It's fine. I don't have to say much about HTMX. People should go and use HTMX for a bit and then I'll welcome them back when they're done.
+[00:38:10.620] Um...
+[00:38:14.220] Um...
+[00:38:17.040] Yeah.
+[00:38:17.610] But what I...
+[00:38:20.940] What I'm getting at is like,
+[00:38:24.510] The...
+[00:38:26.850] It's tricky when...
+[00:38:29.340] like
+[00:38:30.270] It's funny. When you have a new architecture, like a new technology, it's usually the early adopters that kind of jump on it first. And those people care about the stuff like the numbers and the potential of it. So when you're attacking this from an angle that's almost like...
+[00:38:46.170] -
+[00:38:47.670] almost like the incumbent, it's very hard to try to sell it the same way. I've had conversations  before with Theo, and he's talking about Sol, and he's like, "No one cares about the performance  numbers anymore, and we're talking about Qwik." And I'm like, "Yeah, no, you're right. It's  about usability. It's about that stuff."
+[00:39:02.430] But it's a whole different game
+[00:39:05.670] There's a difference between optimizing something that's already there
+[00:39:09.090] and trying to introduce a new paradigm.
+[00:39:11.220] And if you introduce a new paradigm, it does matter.  Like when someone's like, okay, well, let's compare A to B.  And it's like...
+[00:39:17.760] It's...
+[00:39:18.450] Worse?
+[00:39:19.500] Like,
+[00:39:20.580] Like...
+[00:39:21.390] It...
+[00:39:22.200] Like, you can't just, like...  Like, this is why it was funny.  I think someone...
+[00:39:27.000] Maybe it was in one of Theo's videos.  Someone along the lines was like,  Hey, um...
+[00:39:33.720] Uh...
+[00:39:36.060] What was it? Maybe I can go... Sorry, that's not what I want.
+[00:39:42.210] - Thank you.
+[00:39:42.780] God, why, mate?
+[00:39:43.800] Here, bookmarks.
+[00:39:45.270] Not that one.
+[00:39:47.460] I think it was...
+[00:39:49.620] Was it this one?
+[00:39:51.240] The scary side.
+[00:39:52.500] Cool tweets.
+[00:39:54.360] Here it is, yeah, Dan Shaper said it. "Reactant make it possible to do things they're impossible for is an insightful statement
+[00:40:00.720] by Tether in this video about RCS.  It's true, every JS framework only hamps to the platform, blah, blah, blah.  Yeah, okay.  So on one hand, you can say that...
+[00:40:10.770] what you're capable of, JavaScript.
+[00:40:13.770] Or like the bottom language.  Because you can always escape into that.  And that's what you can actually do.
+[00:40:19.350] with any can technology. It doesn't matter, you don't need RSCs. But like, when you're trying to pitch something like RSCs, you don't go, "Oh, it's just the same thing, we're not introducing any new capability, it's just, you know, a different way of doing it." No, no, no. If that's where we've gotten to, where we're not trying to pitch this as a complete architectural thing,
+[00:40:36.450] Like,
+[00:40:37.320] we're in trouble because it is.  And if you try to treat it like it's not like we're,  we're like,
+[00:40:44.010] we've kind of gone off like a very different range because like,  yes,  technically speaking,  someone could have done something that kind of acts kind of like RCs by hand  and hacked it together and react teams made it easier.  But that's,  I'm not counting that.  That's like going in the JS framework benchmark and like,
+[00:41:00.720] Writing a bunch of vanilla.js and not using the framework like that's not the thing. I
+[00:41:04.740] if we are getting to a zone where we're trying to say, you know,
+[00:41:08.760] RSCs aren't letting new things be possible, then like...
+[00:41:13.920] No wonder, if you have both numbers that aren't-- things numerically that aren't showing improvement, and this isn't enabling anything newly possible,
+[00:41:24.930] Why should anyone care?
+[00:41:30.780] I mean, like, it's kind of a conflicting message.
+[00:41:34.230] .
+[00:41:37.800] Right. So this is where it got kind of crunched down to, right? The DX story.
+[00:41:44.070] But, I mean, the DX story better be freaking amazing.  And the thing is, if the DX story is like,  we just want async components,  well, that could have done without RSCs too.  It's literally...
+[00:41:53.010] I mean, don't get me wrong, async in client side,
+[00:41:55.380] framework stuff is--
+[00:41:56.850] Difficult.
+[00:41:57.810] Like, you need to reconsider the patterns a little bit.  Maybe use a compiler to make the async, like, use the async await.  I don't think it's the right pattern in general.
+[00:42:10.530] Like, even if I can mechanically make it possible, it seems wrong to me on every level because
+[00:42:16.380] It's basically waterfall inducing like there is no way to escape that that's why as part of the reason why I did that suspense talk  I don't know. I don't think it's up anywhere yet my suspense talk and
+[00:42:27.630] But, like, the...
+[00:42:33.390] How should I put it?  At the last two conferences I did,  or at...
+[00:42:38.220] I did a talk about suspense showing that
+[00:42:42.930] How Suspense and Solo does every single...
+[00:42:46.110] Like,
+[00:42:46.920] data loading consistency thing from...
+[00:42:50.130] Not the GS nation version, but the version I did in Finland. I hope they post it up pretty soon
+[00:42:56.430] It might take a while.  I use Suspense to re-implement both optimistic updates like Remix.  I use Suspense.  I basically use Suspense to show how you can basically do everything with the right async primitives.  You can do the data fetching, streaming.  You can do the whole thing.  You don't need RSCs.  You just need...
+[00:43:12.600] a good primitive around data loading for suspense. That's all you need.
+[00:43:19.410] Okay.
+[00:43:20.400] So, yeah, the talk went pretty well in both locations.  It was a little bit more technical than I'd like, but...
+[00:43:25.890] That is more core...
+[00:43:29.370] Um,
+[00:43:30.390] mechanically, but the problem is like
+[00:43:33.540] *sigh*
+[00:43:34.530] - Yeah.
+[00:43:36.330] Yeah, see, maybe this is my short-sightedness.  I just don't see a clean solution here that everyone's hoping for.  I guess, like, the problem is when you get to a certain...
+[00:43:45.060] point you're just like yeah well if i if i've hit my main objective i'll just kind of like  say the rest is good enough right and just kind of go with it um
+[00:43:54.600] Thank you.
+[00:43:55.920] it
+[00:43:56.490] It's that kind of scenario.
+[00:43:59.430] Um,
+[00:44:01.710] But yeah, I worry about backtracking and saying things like it doesn't enable something we weren't able to do before.
+[00:44:09.720] Because that...
+[00:44:11.190] I don't know
+[00:44:13.020] It just makes me think of like,
+[00:44:15.630] It kind of cheapens it.  Like, I don't know.  Do any of you guys watch The Witcher?
+[00:44:20.490] Like the Netflix series?
+[00:44:22.650] They recently did like a funny-ish campaign thing where they're like
+[00:44:29.220] you know, Henry Cavill's still Geralt for season three.
+[00:44:33.390] you know,
+[00:44:34.170] Because I guess they're, you know, people are saying that this season hasn't had as good ratings.
+[00:44:38.010] and it's kind of like
+[00:44:42.090] What does that say about your choice of hiring the person for season four or five, Liam Hemsworth or whatever?
+[00:44:47.640] Like, I kind of, that's the kind of feeling I get when we start doubling back on the RSC message, like what's been happening.
+[00:44:58.710] *chewing*
+[00:44:59.910] I'm
+[00:45:01.530] Thank you.
+[00:45:02.220] Thank you.
+[00:45:17.910] I find all this super rendering stuff just to bow between different approaches are something  that many reactives don't need.
+[00:45:24.180] Yes.
+[00:45:25.320] That's the other...
+[00:45:27.090] thing, right? I mean...  I think this is why...
+[00:45:32.910] I keep on going back to Astro, right?  Because like...
+[00:45:36.810] Astro just picked its thing and does the thing and it doesn't really care, you know, um,
+[00:45:43.890] Here we go. Astro. Breakthrough of the year.
+[00:45:48.660] Um...
+[00:45:50.550] Thank you.
+[00:45:52.320] I...
+[00:45:54.720] This is cool for them. Solid won last year. I think VEAT won the year before and Svelte won the year before that. So they're in good company. But...
+[00:46:05.280] Yeah, I don't know.
+[00:46:07.740] Thank you.
+[00:46:08.880] We heard this repeatedly when we were in Amsterdam. Especially like when I was in that thing. Half the table was just like, "I don't care about SSR. I don't want to hear about SSR anymore."
+[00:46:20.550] And I don't blame people from that, but it's kind of like, I guess from the framework author's perspective, it's like, is there something we're missing on the client side that like,
+[00:46:28.590] like you can't do today that you're expecting like a huge improvement to.
+[00:46:32.820] But I mean, I guess there is, if you were picturing a different future, maybe one that's pitched before.  When I was at BJS, the first opening keynote by Kyle Simpson was about offline first.
+[00:46:44.790] He did a whole talk about a future where everything was offline first, essentially.
+[00:46:50.880] where you weren't communicating with databases, everything was distributed, you know, like it was kind of like
+[00:46:57.720] And I asked him, how does this work? Is it eventual consistency? He's like, no, no, the assumption is that
+[00:47:02.130] It's impossible for things to ever be consistent with.
+[00:47:06.510] So, you know, you just try and keep your own best local scope. But it's a very different
+[00:47:13.410] look at it.  Because he was thinking  all the stuff of hydration,  he just...
+[00:47:19.260] Walk by that. It was very interesting, obviously, because...
+[00:47:24.270] Myself and Mishko were there as well.  And...
+[00:47:27.720] the opening talk basically saying like, yeah, all this stuff just doesn't matter.
+[00:47:33.060] I don't know I agree with the conclusion, but there are a lot of people who really just don't have need for this server rendered stuff. Or they do it's very limited scope. So they might grab an astro site and then somewhere in their astro site be like, "Oh, I'm not going to do this."
+[00:47:50.790] "Here's all my content marketing. Now I need an app piece here. I'm just going to go client only and put an astro tag on there." And then, you know,
+[00:47:58.470] That's good.
+[00:48:00.120] Done.
+[00:48:01.560] and that's interesting like there's kind of  split there right um
+[00:48:07.530] All those people are still on CRA. They have no migration path.
+[00:48:12.330] Right? Like how do you get from react clients thing to now react is only a true thing when you using next?
+[00:48:20.190] *sigh*
+[00:48:24.150] Yeah, I don't know.
+[00:48:25.650] This whole server component thing is...
+[00:48:31.230] is kind of...
+[00:48:34.080] I think you guys in chat are already kind of sick of hearing about it, right?  I'm getting that thing here.
+[00:48:44.700] Yeah, I mean, let me-- I'm just catching chat here.
+[00:48:50.220] Yeah, what time are we?  Yeah, so I'm six minutes behind.  Okay.
+[00:48:59.580] - From people who actually didn't think there was.  I mean, do you know what the problem is?
+[00:49:04.290] Of course, it's not a big problem now. It's like everything, right?
+[00:49:07.980] It...
+[00:49:08.670] Ask someone
+[00:49:10.200] a few years before Remix if water falls in React components was a problem.
+[00:49:15.840] Like, React Router 4 wouldn't have happened...
+[00:49:20.910] They would have kept the old API if they were worried about waterfalls.  But they're just like, oh, you know, co-location, good enough, blah, blah, blah.  You know, I don't trust...
+[00:49:30.660] people that have that early thing. The problem with the waterfall stuff isn't that someone who's developing their app is going to just make app water. It's when you start going, "Oh, I'm going to use RSCs as components that I install in NPM." That's when
+[00:49:43.590] stuff starts hitting the fan, like...
+[00:49:46.350] really badly because then you start getting these dependencies that you're not even less maybe not necessarily aware of condition when you're driving the conditional logic of your app to determine when things fat like yeah there is there is some serious issues here and I
+[00:50:02.190] - Yeah.
+[00:50:02.880] Yeah.
+[00:50:07.650] Yes, I mean, there's huge irony here, because, yes, islands and RCs are basically the same thing, um...
+[00:50:17.160] except the client side routing
+[00:50:20.130] fundamentally changes what you can do with them.  We've never had been able to apply
+[00:50:25.800] MPA
+[00:50:27.300] optimizations and
+[00:50:28.680] to a client-routed app before. And it has huge implications because the state preservation  is a game changer.
+[00:50:37.260] But it also changes all the rules.
+[00:50:50.370] Yeah, we can talk about that, I guess. You know, like...
+[00:50:54.090] I watched those two Theo videos and I was just like...
+[00:50:59.490] It's challenging because, like, obviously...
+[00:51:05.820] There's like good points there.  Like about like the,  the,  the,  they're,  they're,  maybe we should just look at one of them.
+[00:51:13.800] Thank you.
+[00:51:15.810] Thank you.
+[00:51:21.810] Yeah, there's a lot of really good comments in chat.  That's what I'm doing.
+[00:51:25.410] Yeah, see, the implementation thing is the problem. I'm glad you focused on this, because, like,
+[00:51:38.790] If the numbers or something positive was coming out of it, even a tiny bit, like 10%, just something.
+[00:51:45.750] beneficial in any way, people would be like,  oh, yeah, okay, I can see where you're going. Worth it.  But the problem is, like,
+[00:51:53.310] Eat the woo.
+[00:51:54.090] When...  Incumbents have a history of not improving...
+[00:51:58.980] uh, performance over time. It's more likely the new thing improves performance and then they
+[00:52:02.880] It slips over time.  And the problem is even hooks...
+[00:52:07.080] actually improved performance. When hooks came out, performance of React apps improved, benchmarks improved, hooks were actually important. This has, this actually should reduce hydration costs, which I believe it does. I think you will see Lighthouse Speed things, but it's very hard to tangibly see the same kind of improvement. This has been, this is very, it's not the thing that's easy for people to validate themselves, which is the problem, even if there are gains here.
+[00:52:30.210] This has been the problem.  Because people do the stupid test.  They do like, how fast can I update a text node?  Like, it's that kind of thing.  It's the same reason why concurrent mode is so hard to think.  Because concurrent mode isn't a performance thing.  This one, however, should be.
+[00:52:48.900] Do RSCs give us something else in the suspense stream and do not? Yes.
+[00:52:52.080] Yes, they give you partial hydration with client-side routing. We have an experimental version of this, but yes, solid by itself cannot do what RSCs do.
+[00:53:01.380] We do streaming and we do, and like a whole bunch, like there's a bunch of stuff that you don't need RSCs to do.
+[00:53:07.470] Like a whole bunch of stuff.
+[00:53:10.230] you know, and Reacts tied it to RSCs, which, you know, for better or for worse. But the thing is, like, Remix is gonna untie those things. The problem is, like,
+[00:53:19.680] Yeah, you know what? Let's just grab Theo's video for a moment here. Let's look at Theo's  latest video for just a couple minutes and then we can...
+[00:53:30.060] We can, we can, yeah, sorry.  It's not the notifications I want, it's the bookmarks, sorry.
+[00:53:36.090] This one, right?  Okay, let's play this for a moment.
+[00:53:44.610] If you know anything about the channel, you know we love bleeding...
+[00:53:47.400] - Dude.
+[00:53:48.210] Can you hear it?
+[00:53:51.870] technologies but
+[00:53:53.730] Do we? What does bleeding edge even mean? And what makes a technology more bloody than another?  What does it mean for technology to be bleeding edge and risky? And how do we make considerations  around the bleeding edges of different technologies to make the best decisions for our teams, our  code bases, and our businesses? I want to talk a bit about this, both the definition of bleeding  edge and how we can learn from that to build better things with the tools that we have. Let's talk  about it. Bleeding edge is often the term people use to describe the stuff that's one step past
+[00:54:23.730] everyone it means something kind of different.  I'm going to propose a very specific definition here.  Bleeding Edge is technologies that we are not sure will have  meaningful adoption in the future.  The reason I think it's important to make a distinction  like this is I think there's a huge difference between tools  like React Server Components and Next versus tools like SvelteKit  or Solid Start.
+[00:54:43.860] -
+[00:54:45.990] There is a huge difference.
+[00:54:48.960] One is an architectural...
+[00:54:52.770] change that hasn't been proven. And the other ones are smaller versions of optimized things,  of things that already exist. It's kind of like choosing Preact instead of React.
+[00:55:06.450] Let's continue.
+[00:55:09.720] I'd even argue there's a granular spectrum here where certain technologies are significantly more likely to grow and maintain massive adoption.  And while I understand hesitation in trying new things like server components, I think there is a massive difference between somebody adopting the new server component patterns versus somebody adopting SvelteKit or SolidStart.  The difference...
+[00:55:30.150] Yes, okay. Yes. So far I'm agreeing with him, but I don't think the conclusion that he's going to make is that. I actually think I might be agreeing with him in the complete opposite way.  Being that these new patterns are part of something that's already the incumbent. It's already the winner.
+[00:55:45.720] Ah, I see.
+[00:55:48.930] Yeah, see, but it doesn't really work like that. See, if, I mean, if,
+[00:55:52.860] If Remix...
+[00:55:54.720] and Gatsby and others pick it up, then I can see an argument.  But there is a future where no one picks up server components and they just die out.
+[00:56:01.710] Or at least this version doesn't succeed and we go V2 and we do it again.
+[00:56:06.750] I think assuming, even within Next itself, assume that everyone is going to pick up RSCs using Next, I think is a pretty big assumption here.
+[00:56:16.530] And I think it's a riskier one because it's architectural, because it's not just the buy-in of Next, but the buy-in of the ecosystem.
+[00:56:22.980] Okay, so far, yeah.
+[00:56:27.510] Like, like, don't get me wrong.  Like salt start.
+[00:56:30.420] It says beta on it.
+[00:56:31.920] Like, obviously.  But, like...
+[00:56:35.010] Picking Svelte. See, I know, here's the thing. I know Theo. He would pick Svelte here and he put Svelte on the thumbnail very clearly because he knows this will get a reaction. You know, people will talk about it.
+[00:56:45.630] Um...
+[00:56:47.100] But like...
+[00:56:49.470] That's why I use Preact as an example here again.
+[00:56:53.280] picking something like SvelteKit
+[00:56:55.200] which is basically just another version.  It's like Remix or another version of, for the most part,  something that we already have, an existing architecture  that we understand that people use, you know,
+[00:57:05.340] That's a fairly safe bet. It's like picking Ember in 2012.
+[00:57:10.170] Don't get me wrong. You might be looking in 2023 and be like, God, Ember, it'd be horrendous if I was on Ember right now.  But if you picked Ember in 2012 or 2011 or whatever, and you were using it, you'd be like, okay.
+[00:57:21.450] Pretty cool, you know, um
+[00:57:23.790] Thank you.
+[00:57:24.390] First couple years, good alternative hot-- like, it would have been very good for a while.
+[00:57:30.270] And it's only...
+[00:57:32.400] Thank you.
+[00:57:32.910] you know,
+[00:57:33.660] I actually think
+[00:57:35.010] comparing to Ember in 2012, it's probably the worst case scenario. I think Svelte's already in a better position than that. But essentially, at the worst case scenario, eight years later or so, you might be like, yeah...
+[00:57:47.340] I probably want to move to a different technology that's a little bit more modern or whatever.  Like, you know, not everyone, not every choice ends up being a react, so to speak.  But like, that's...
+[00:57:58.230] the worst case scenario here. Whereas if you pick an architecture that
+[00:58:04.140] no one else adopts,
+[00:58:05.580] Like, like, like, like Marco.
+[00:58:07.620] Like,
+[00:58:08.550] You can end up in a place that, like...
+[00:58:12.210] Okay.
+[00:58:12.720] Like, there's just...
+[00:58:13.800] You know, it's like a forked reality.
+[00:58:17.250] Okay, let's continue on.
+[00:58:21.600] Yeah, Ember looked good in 2012. That is my point, right? Like, I'm saying Svelte looks pretty good in 2023. It looks pretty good in 2020 and 2019. Svelte's been around for like...
+[00:58:32.370] What?
+[00:58:33.030] Svelte 4's been around now, or 3's been around for 4 years, but Svelte's been around for 7. But let's ignore that. Let's say 2019 on, Svelte's been a pretty good choice. 4 years later,
+[00:58:41.430] I think it's pretty, like, don't get me wrong.
+[00:58:43.740] Job market's a different deal. What availability... I'm not telling you what to learn for this. But when you're talking about
+[00:58:53.700] Any argu...
+[00:58:54.720] argument saying that SvelteKit isn't...
+[00:58:57.570] a good choice
+[00:58:59.310] is
+[00:59:02.160] Thank you.
+[00:59:03.390] I'd be skeptical at best.  Like, if we're not...  Yeah, let's continue.  Yeah.
+[00:59:12.720] Thank you.
+[00:59:21.150] the growing solution, the big solution, and is not going anywhere. Even the new pieces that  you're betting on aren't necessarily going to be the exact shape things end up in. You're still  betting on stuff that has a backing. To put it frank, those bets are much more responsible. And  when you're betting on bleeding edge stuff, you have to be careful about what you do and don't  adopt. And you have to be really considerate about why you're making these bets. When you bet on  React and the stuff that's going on in the React community, you're not making a really risky bet.  And that's okay. If anything, it's probably a good thing. And it's incredibly frustrating to get in
+[00:59:51.150] of somebody that is treating a brand new framework someone made for fun as the same tier as server  components because oh i don't like trying all that risky new stuff
+[01:00:00.000] The risk isn't in the thing might be broke.  Yeah, okay. Yeah.  I don't even know if I need to listen to the rest of this.
+[01:00:08.460] uh
+[01:00:11.700] Yeah, I mean, I can understand why it's frustrating.
+[01:00:15.240] And honestly, I think I love people to try RSCs.  I think there's like...  I'm encouraging new technology.  I just think that the fact that we've gotten here,  and this is the dialogue that happens,  means like...
+[01:00:27.240] something is not going right or...
+[01:00:30.540] You know, like, man, I'm...
+[01:00:34.080] Make Theo should make more videos like this. I'm
+[01:00:37.710] *licks*
+[01:00:39.300] I don't know. Was there anything else in this video? Okay, and when you adopt it and now your  shit falls apart, the risk is where's that thing going to be next year? Realistically, the React  ecosystem will be here next year and will be here in 10 years and it'll be here in 20 years,  the same way we can't get rid of PHP or jQuery. There is no guarantee that SvelteKit or SolidStart  will get to the point where they are the next jQuery. As long as you bet on things that  reasonably can't go anywhere, those bets aren't that risky. Yeah, I mean, in all seriousness,
+[01:01:09.300] .
+[01:01:09.750] It's just like at a certain point,
+[01:01:13.170] You know, like when everyone was when Solid was getting a little hype and people were releasing those articles that were like, you know, the next thing has to be 10x better, you know, like and I was just like, when people feel like they have to remind you of that.
+[01:01:27.150] you know you've already won.
+[01:01:28.950] Like that or that they're already flailing.  Like things are already not where they should be.
+[01:01:35.220] um...
+[01:01:36.150] There's just no need.
+[01:01:38.520] So, like, I think, yeah, I think this is clearly going to be a difficult few months coming up ahead if we're at a point where we have to, like,
+[01:01:48.420] kind of put this out there on the table.
+[01:01:52.710] I'm excited because I said there's a lot of good stuff coming up with Solid, but as I said, like...
+[01:01:57.840] Svelte kit is...
+[01:02:00.060] a pretty, you know, sorry the pun, solid choice, you know? Um, so I don't know. I think I'm probably done with this video. I,
+[01:02:09.390] It's just, yeah...
+[01:02:12.600] - I'm sorry.
+[01:02:16.680] How's chat doing?
+[01:02:22.680] I
+[01:02:23.760] I think RC is not that...  No, I mean...
+[01:02:26.310] Probably not.  But it's one of those things...  Picture reality where Gatsby and Remix and everyone...  Just kind of drag their feet here.  Just because they're like...  Look, we're not into this.
+[01:02:38.030] Like...
+[01:02:39.390] Hm.
+[01:02:40.560] Because of Next.js and the desire there.
+[01:02:44.340] What... I... There's no alternative, but like, if there was any alternative that shone the light in a different way...
+[01:02:53.910] Like, I think anything associated with React is a fairly safe...
+[01:02:58.290] bet, but like calling out say Svelte kit, um,
+[01:03:03.450] Like...
+[01:03:04.380] being any less safe and
+[01:03:06.510] is, I don't know.
+[01:03:08.160] I...
+[01:03:08.970] I have a very hard time with that. Like, I feel like I'm relatively realistic with this stuff, and that's why I'm always so, like, careful on when I release stuff and when I say it's 1.0 or all that kind of stuff, but, like,
+[01:03:23.070] The...
+[01:03:24.780] When you think of the world that React was born into, and I know this isn't that world anymore,
+[01:03:29.070] people trusted software projects on things that were way less mature.  So I don't know.  This whole maturity thing, both working to and against RSCs,  is all just overblown as far as I'm concerned.  I don't think RSCs are necessarily unsafe.
+[01:03:47.010] But I also don't think that going the other way and calling other stuff unsafe makes any sense either.
+[01:03:52.080] We're at a point now where you can just not choose React and be perfectly fine.
+[01:03:56.100] And we're at a point where...
+[01:03:58.890] You know.
+[01:04:00.120] you can choose RSCs and also be perfectly fine.
+[01:04:03.630] No.
+[01:04:04.770] Thank you.
+[01:04:16.980] Yeah
+[01:04:25.020] Alrighty, we got how we going?
+[01:04:34.920] - -
+[01:04:36.720] Yeah, I mean...
+[01:04:38.190] Yeah.
+[01:04:39.360] Thank you.
+[01:04:39.990] *crunch*
+[01:04:41.580] I mean, there's a difference between Vercel and Next and Vercel and Svelte.
+[01:04:48.360] A little bit.
+[01:04:50.010] but
+[01:04:51.810] Generally speaking, Spout's getting good support.
+[01:04:56.370] That's the challenging thing when you're in a framework like this is...
+[01:04:59.550] It's important you need support.  Otherwise, you're just like...
+[01:05:01.950] There's just work has to go in right and it's
+[01:05:05.760] people use it.  So now you're like...  You have to support those people who use it.  So like...  It just...
+[01:05:12.930] Yeah, I mean...
+[01:05:15.060] Thank you.
+[01:05:16.980] I don't know. Maybe I'm just like too much of if there's a will there's a way.
+[01:05:31.140] Also about Svelte.
+[01:05:33.120] Let me see what that says.
+[01:05:43.440] So
+[01:05:45.570] Sorry Svelte, I could have put any new experience there but yours is the coolest. Yeah, yeah, yeah, yeah.
+[01:05:51.120] It's...
+[01:05:53.340] Don't get me wrong. If I sound like I'm a...
+[01:05:56.040] Tio's video...
+[01:05:58.620] is also
+[01:06:01.440] - Right.
+[01:06:02.160] You notice how he said Svelte, Kit, and Solid Start repeatedly in that video?  And not other frameworks that he could have chosen?  Like, this is very much a...
+[01:06:11.580] He...
+[01:06:12.960] He understands the weight of his words.  So it's not just to...
+[01:06:21.540] He's he's he's by choosing Svelte he's showing Svelte actually an amount of respect here because he he's he's actually highlighting it and drawing a bunch of attention. This is meant to be a little bit spicy. So
+[01:06:34.440] Um,
+[01:06:35.280] By doing so, he's also drawing attention to this felt and he's included solid as well. Like don't- he could have not included solid here.  So like I'm very like...
+[01:06:44.190] I'm not like...
+[01:06:45.420] They...
+[01:06:46.320] don't think that stuff that he's like looks like he's being more critical of he doesn't choose selectively as well like this is this is
+[01:06:53.910] You know what I mean?
+[01:06:55.410] It's not a bad thing to be in the video, so to speak. I was more saying that like,
+[01:07:01.320] I think the whole argument is kind of
+[01:07:04.860] Like we're getting past like,
+[01:07:06.720] Don't go wrong. Solstar is completely beta, so I can't say otherwise, but I'm just saying like we're getting past like...
+[01:07:13.950] in general, like, how many years of Svelte do you need before Svelte is, you know,
+[01:07:20.790] a real framework,  you know,  like we're,  we're getting past this.  I'm,  I,  which is why for the most part,  I've just like,  ah,  come on.  Like it's,
+[01:07:29.340] It's more interesting that we get here because I always look for indicators when people on the React camp decide that they're going to defend React.
+[01:07:38.670] like in this sort of manner, because it's always a good sign for us.
+[01:07:42.720] Right. This is this is a like it's either you can either view it as like a symptom.  So it's like a good indicator for.
+[01:07:48.990] Or you can view it as like a...
+[01:07:52.680] Something that actually has a causal effect of like actually...
+[01:07:57.480] accelerating or amplifying that so yeah
+[01:08:02.310] But it's also why I was tempted.  This video has a bunch of stuff in it, too.
+[01:08:08.760] We don't need really to go into it anymore.
+[01:08:17.160] Yeah.
+[01:08:26.100] He didn't say HTMX and Quick, yes.
+[01:08:29.280] He did not.
+[01:08:39.900] What's my opinion on Vue? I use that with their own body gradient. Vue is gonna...
+[01:08:45.030] Vue is in an interesting spot right now because I feel like Vue is picking up a lot of the slack and Nux and stuff.  I think while people are frustrated with React, it's the most obvious choice.  Because I think what people are doing right now...  Here's my gut.  And you guys can tell me if I'm completely off.  People are...
+[01:09:00.120] uh...
+[01:09:00.900] getting frustrated with React. They're going to try the really new hot stuff like Solid
+[01:09:05.610] Maybe Svelte.
+[01:09:07.380] Maybe even quick.
+[01:09:09.240] And then they're like,
+[01:09:10.920] Yeah, I'm understanding how immature these ecosystems are, and then they go back to Vue. I think that we went through this like little cycle here.
+[01:09:19.800] I know that because we do keep a lot of the new people, people doing stuff that's not terribly ambitious or they have a real reason like performance matters to them.
+[01:09:28.230] Those people stay with us.  But we've had a few people kind of dip in and then end up back at Vue.  And I think this is the pattern.  Less people probably on our side than maybe on the Svelte side, because Vue and Svelte are more like...
+[01:09:41.760] you know, kind of philosophically aligned.  But I'm getting the impression that  Vue's probably having a little,  a nuxt are probably having a nice little burst right now.  Well, but I feel...
+[01:09:53.580] I feel like a lot of the
+[01:09:55.500] people like it's a good opportunity for everyone right now, but I also feel like it's kind of unfair because like I
+[01:10:00.990] Vue's going to release Vapor, which is going to shake stuff up again.  People aren't really understanding that Vue and, say, Nuxt are...
+[01:10:10.080] Maybe not as tight as like react and nexus. Maybe that's a good thing
+[01:10:15.180] uh
+[01:10:16.590] Like...
+[01:10:18.630] I think all these changes that are coming are actually really good for everyone. I'm just saying like I think like even people moving to solid right now, you know, and they're like, look, it's because solid's so good at blah, blah, blah, and none of this RSC garbage. It's like, well, I mean, we are looking at stuff like RSCs. Like, this is definitely of interest. I mean, one of the things that I feel like right now when I'm like looking at like SSR, SSR in general, like as we know it, like the isomorphic stuff that we do.
+[01:10:40.530] is kind of one of the most brittle things in the world.  The hydration and all that is really quite brittle.  So in a sense, when we work on these partial hydration solutions, in theory,
+[01:10:48.990] We're actually reducing the...
+[01:10:52.110] surface area of the really brittle like
+[01:10:55.590] flaky stuff. So, yeah. I mean, it's interesting.
+[01:11:00.060] Okay.
+[01:11:06.060] Saying other names would be punching down. Yeah. No, exactly. So, I mean, that means that, um,
+[01:11:11.280] saying uh solid or svelte aren't punching down which means so i mean that that's that's legit  thanks theo
+[01:11:19.770] *sad*
+[01:11:21.840] This is what I'm getting at.
+[01:11:23.730] -
+[01:11:24.750] Anyway
+[01:11:26.310] Okay.
+[01:11:27.660] I'm not.
+[01:11:29.730] Um,
+[01:11:30.990] Yeah, this RSC stuff's been--
+[01:11:34.020] Um...
+[01:11:35.400] I understand why.  We haven't talked too much about the hostility there,  but I don't know...
+[01:11:43.200] This is...
+[01:11:44.790] This is, you know, I saw this, right?  And I was like, wow, this is a lot.
+[01:12:09.810] I'm curious to see how the studio would have seen if Theo was not responsible for Vrzel,  like maybe two videos a few months back.
+[01:12:16.050] Yeah, I mean, that's an interesting one.
+[01:12:19.230] - Thank you.
+[01:12:20.280] Because I've been asking myself the other question, like...
+[01:12:23.610] Yeah.
+[01:12:26.310] I wonder if Theo would have made that video, though. Just...
+[01:12:30.300] Because he's made the Bleeding Edge responsibly video before, right?  Like...
+[01:12:38.820] Yeah, I don't know. I think RCs are one place where me and him don't see eye to eye, so I can't actually speak to that.
+[01:12:45.450] Like we both actually think very positively of them, or at least of serving components in general, but it's the perspective of where things are at.  I think we aren't quite on the same page.
+[01:12:55.440] "Are you involved in creation bling?" Yes. Bling was actually just a solid start. Like, it was actually just our compiler level, and then Nikhil wanted to extract it, and Tanner wanted to use it too. And then they kind of did it. But, like, basically,
+[01:13:15.210] I'd built a proxy version of a lot of this stuff and Nikhil was like,
+[01:13:20.730] I was like, why can't we just do this?  And Nikhil's like, well, the compiler we could.  And then he built it, basically.  It was based off a conversation where I was like...
+[01:13:28.170] pitching something about like our RPC stuff, right?  So the...
+[01:13:33.390] Yeah, it ended up, it started a couple years ago in a sense, but then we finally decided to pull it out.  And then Bling actually was my bad naming.  I actually came up with the name because they weren't sure what to call it.  I'm like, I said codename Bling, you know, because all the dollar signs.
+[01:13:52.890] But yes, yeah.
+[01:13:54.240] We're still kind of figuring out exactly what to do with that.
+[01:13:58.440] My whole idea around Marco maybe was always right kind of relates into that, but I don't know if I'm going to get into that today.
+[01:14:05.280] Thank you.
+[01:14:06.240] Thank you.
+[01:14:11.850] Thank you.
+[01:14:12.810] Yeah, that's an interesting idea. The thing is, our primitive moves were roughly based off what was already found in the React ecosystem. But yeah, they chose to not do the data fetching for suspense until they figured out RSCs because they want to avoid waterfalls on the client. The funniest thing is, as I said, if you ultimately want to avoid waterfalls, you have to fetch higher. That's just...
+[01:14:35.880] math, you know, I don't know, or physics or whatever, reality.
+[01:14:47.880] Yeah, that's an interesting one, so to speak.  But like...
+[01:14:53.040] I don't feel like I'm biased by that.  And personally, I felt there was a shift in messaging around January.  I could almost pinpoint it to a week.  So I don't know.
+[01:15:04.080] Yeah, that's interesting.
+[01:15:20.550] Thank you.
+[01:15:21.600] Bye.
+[01:15:22.620] Thank you.
+[01:15:23.460] Thank you.
+[01:15:24.060] Yeah, everyone seems super angry lately.
+[01:15:30.150] Yeah, I mean, this is what I came back to, and this is what I was talking about with people being burnt out. Like, I still love programming, I'm burnt out on programming discourse, at least. Good energy, playful version of what it should look like. I think this is why Danny Romoff's on Blue Sky now, or like, changed the thing? Say, I'm feeling burnt out.
+[01:15:45.750] Everybody's burnt out.
+[01:15:47.790] uh,
+[01:15:49.200] It's funny because Svelte 4 came out like also during this time period, which is absolutely, you know,
+[01:15:56.280] you know,
+[01:15:57.780] Actually, this got really undershadowed for me.  I don't know why.  Was there anything new on Svelte 4?  No.
+[01:16:08.100] Yeah, they improved their hydration code, yeah.  But I was already about...
+[01:16:11.790] aware of them doing this
+[01:16:17.970] Did they do template cloning finally?
+[01:16:23.280] Svelte 5 is what Dominic's working on.  Actually, did this ever get...  I'm just curious.  If they did template cloning, it would show up here.
+[01:16:32.760] Did anyone actually...
+[01:16:35.790] Has no one updated Svelte 4 yet? Add Fable Solid Elmish? What is this?
+[01:16:44.580] Thank you.
+[01:16:47.040] I almost want to see what this is, sorry. It's just completely out of left field. What is...
+[01:16:53.070] AppFS.
+[01:17:00.000] Oh.
+[01:17:02.550] This is that...
+[01:17:04.980] fable
+[01:17:06.990] Solid
+[01:17:08.190] Thing. Oh, man.  Okay. I'm going to have to see how that goes.  But I guess more seriously, Salt 4 hasn't been...
+[01:17:14.700] Updated.
+[01:17:15.630] How's it?
+[01:17:17.310] I haven't actually looked...
+[01:17:19.860] in a while.
+[01:17:23.460] Svelte.
+[01:17:25.950] Probably could have just looked...
+[01:17:29.250] Oh no, it is.
+[01:17:30.180] Yeah, okay, so Svelte 4 had...
+[01:17:33.030] Yeah, basically no performance implication on JS framework bench work.  So it's not a client side consideration.  It's a hydration, not a render consideration, which means I doubt very much.  They did template cloning, but actually, you know what?  There's probably a comparison.  One thing I love about this framework is the, um,
+[01:17:49.140] Benchmark is...
+[01:17:51.570] Um...
+[01:17:53.760] uh,
+[01:17:55.860] .
+[01:17:57.240] He always does a comparison.  So you can actually see Svelte 3 versus Svelte 4 right next to each other.  Um...
+[01:18:04.020] Doom, yeah, okay.
+[01:18:06.150] Create many.
+[01:18:07.500] Yeah, it's the same. Yeah, yeah. I don't think they didn't do template cloning.
+[01:18:16.260] Yeah.
+[01:18:17.190] So yeah, performance, the client side, not really.
+[01:18:22.440] All right.
+[01:18:25.260] Yeah, so it's some hydration stuff. Yeah, they it makes sense. I mean, this is all about getting I think this is all about updating the build tooling. Actually, it's kind of like Marco five, where it was just like getting ready so that you can actually do the next big thing. Svelte five sounds like it's gonna be pretty sweet from what Dominic's been tweeting.
+[01:18:48.930] not that everyone goes from bleeding out yeah and there's also like something that's
+[01:18:53.910] Like...
+[01:18:54.900] there's Bleeding Edge and then there's just like
+[01:18:57.930] leading edge and I feel like Svelte Kid is no longer in the bleeding edge area, you know, like I think we're  Yeah
+[01:19:06.240] Half is still the only production version of Blink yet.
+[01:19:09.270] Make it sound okay.
+[01:19:11.730] It...
+[01:19:12.660] I
+[01:19:14.610] There is a need.
+[01:19:16.770] for this kind of compiler based
+[01:19:19.950] augmentation of...
+[01:19:23.280] from the bundler level.  What that looks like is still a matter of debate.  The biggest challenge we've had with bling in general is how hard do we fight  against the RSC syntax, right?  Cause I mean, there's different ways to go.  Like technically think speaking after we showed that you could use the stuff  a certain way, quick went and did almost the same stuff.  Like quick had already done the modular extraction,  but they're using it in the opposite direction.  And we had been working RPCs and stuff with bling and we'd go on the other
+[01:19:53.280] So like
+[01:19:54.630] On that side, we both kind of are aligned, but like the tricky part is like when you have...
+[01:20:00.780] I use server and use client.
+[01:20:03.390] stuff like that the challenge is that like
+[01:20:07.770] Bundlers now like bun or like
+[01:20:10.320] Right now it's just webpack. Nikhil went and made the VEAT one. Of course he did, right?
+[01:20:16.830] I think along with Fatih from vPluginSSR or Rackus or whatever,
+[01:20:23.490] They...
+[01:20:26.790] like bundlers are going to have the capability to understand those directives and you have to decide how much you want to fight.
+[01:20:35.190] that. Then again,
+[01:20:37.950] You know, again, if people aren't adopting RSCs, who cares?
+[01:20:41.790] So, like, we can do what we want.  I'm not going to be swayed just on popularity.  If there's a better...
+[01:20:49.470] Like if there's if there is a compelling reason
+[01:20:53.580] But when me and Nikhil have these conversations, we're just like, oh, we just support both  syntaxes.  Do you know what I mean?
+[01:21:01.260] It's not
+[01:21:02.610] the biggest thing is the way bling works has to change a little bit compared  to where it does today.  Right now it's doing a lot of localized compilation to kind of pull extract  stuff out.  We need a way to actually make the graph,  uh,
+[01:21:15.090] continuous and actually pull stuff out without it running at runtime in the same way.  Like, right now, if you have a lazy component and you put a...
+[01:21:23.460] server function in it?
+[01:21:25.230] It won't load until that lazy component loads on the server.
+[01:21:29.040] So like there's like these kind of awkward
+[01:21:32.070] things where we actually need to do better graph analysis and change basically how Blink works.  At which point, as I said, the difference between saying using server dollar sign and use server is basically a syntax thing that we could just make it configurable or something.
+[01:21:46.110] So yes, the work on Bling is...
+[01:21:49.020] is still happening because we need this piece.  It's just like...
+[01:21:53.250] this has all been kind of like
+[01:21:57.540] It's taking a bit to kind of generalize all the pieces we want for the purpose that we need.
+[01:22:12.330] I mean, a little bit.
+[01:22:13.830] I think.
+[01:22:14.820] Thank you.
+[01:22:16.230] *sad*
+[01:22:19.290] There's pieces of story that are missing. And the big one is like, how do I get here from my client side app, right?
+[01:22:25.320] Like...
+[01:22:26.790] The thing is, most people making client-side rendered
+[01:22:30.660] React apps were never thinking,  oh, they might have been thinking,  oh, maybe, should I do this SSR?  Maybe, maybe not.  And then you kind of dropped it.  But now React's like, no, you need to do it.  And then they're like, oh, okay, well, how do I do that?  And then they're like, no, no, don't do that.  Do RSCs.  And it's like, oh.  I think that's the gap.  I think there's also some gap  maybe around the caching story.  There's a few pieces, smooth stuff,
+[01:22:52.440] pieces, but I mean, that's okay to have when you have this experimental thing. And I mean,  it takes someone going first. It's just interesting...
+[01:22:59.100] I said this before, I don't know if you get to lead the way this way in such a radical push, like new directory, like...
+[01:23:08.880] A's over here, B's over there.  I don't think you have to make like that kind of level of like...
+[01:23:13.110] breaking change.  I know it's not breaking because it supports old components,  but like,  like you need a new architecture as the incumbent,  but,
+[01:23:19.680] without like really
+[01:23:21.360] Hand-holding everyone that's when the angular one angular two happens like that. It's those kind of situations where like you
+[01:23:28.620] It's not
+[01:23:29.700] Like, you can get away with it when you're small.  You don't get away with it when you're the biggest...
+[01:23:34.050] you know, most popular solution.
+[01:23:38.880] That's the funniest thing.  I was talking to someone the other day, and I was like,  this is what I was getting at.  If Solid released something like server components,  and...
+[01:23:50.910] and used a slightly different syntax or something, or maybe there was some kind of small win somewhere, like for DX, really small win somewhere.  Maybe we could auto-detect which components are stateful, kind of like Marco style, and then you wouldn't have to use client anywhere, it'd just work.
+[01:24:09.420] Um
+[01:24:10.320] Like...
+[01:24:11.820] people would probably be hailing that as the second coming,  even if it was identical to what React was doing.  There's a perception here of just being React  actually makes it way harder for them.
+[01:24:20.880] in enacting this kind of change.
+[01:24:23.580] It's
+[01:24:24.150] unfortunate, but it's also the reality.
+[01:24:27.120] Thank you.
+[01:24:35.550] Hey. Well, yeah. I wasn't sure you'd be around. You haven't been around recently, and I haven't been around recently, so...
+[01:24:42.780] Hmm.
+[01:24:44.850] - Right.
+[01:24:45.360] But I'm also catching up chat 10 minutes late.
+[01:24:49.230] *laughs*
+[01:24:50.250] *cough*
+[01:24:54.300] Is Blazer on this?  Yes.  Go back to the JS framework.  If you go all the way to the right, you'll find Blazer.
+[01:25:02.130] *sniff*
+[01:25:08.310] - Yeah.
+[01:25:08.910] Thank you.
+[01:25:10.080] Yeah, I mean, it's just macros, right?  It's just compiler macros.
+[01:25:14.070] Yeah.
+[01:25:15.150] There's a desire. There's a want here.  We just need to...  There's stuff to do.
+[01:25:32.730] Thank you.
+[01:25:34.050] Ryan didn't like  reacting to his closet  now he just waits  for the hooks for generality  to do his own  I mean
+[01:25:40.170] That's one way of looking at it. I mean, I'm actively thinking through this space.
+[01:25:48.450] Good.
+[01:25:49.320] I appreciate the confidence.
+[01:25:53.220] *sniff*
+[01:25:59.040] yeah no uh it's been a while hasn't it uh you're on youtube too which is unusual
+[01:26:06.480] *sniffing*
+[01:26:09.300] Uh...
+[01:26:11.280] Or maybe that's just another thing that's changed while I've been away.
+[01:26:15.120] Oh.
+[01:26:18.960] And now you're on Twitch  Haha  Uh
+[01:26:24.000] Thank you.
+[01:26:24.630] But yeah.
+[01:26:26.400] Thank you.
+[01:26:27.660] I-I-I...
+[01:26:28.740] This is all part of
+[01:26:32.340] Yeah, I mean, we're talking about Swell here, but this is all part of change that is happening, and it's good that we're seeing this change move forward.  I'm glad to hear, Theo, that you're excited about...
+[01:26:44.940] you know, this technology is keeping you pumped because I'm,
+[01:26:48.600] My perception when I was coming back into here between like, you know,
+[01:26:54.510] the types of discussions and just
+[01:26:56.640] Yeah, it's not funny.  The atmosphere is getting hostile.  I took a break and I'm glad I did  because it's so much obvious now.  The effort is...
+[01:27:01.920] Yeah, no, it is obvious. It is actually very hostile.
+[01:27:05.370] I don't need this energy in my life. Yeah.
+[01:27:09.210] Like...
+[01:27:10.560] I agree.  This is what I felt like when I...
+[01:27:19.110] -
+[01:27:19.860] Of course you're here.  Oh, man.
+[01:27:25.620] But, yeah, I mean...
+[01:27:28.140] Maybe, you know, we're past jokes. I don't know. It's tricky. I mean,
+[01:27:34.410] Obviously there's some fuel in the fire kind of situations here like
+[01:27:39.360] Yeah, I don't know.
+[01:27:43.320] It's just too easy now.
+[01:27:45.330] because it's, I think there's some legitimate frustrations on,
+[01:27:50.640] Like on
+[01:27:52.590] Though...
+[01:27:53.910] working out the kinks on how React is doing these innovative changes, which is fair. But the problem is the reception of this kind of stuff now is just kind of getting to this point where
+[01:28:09.030] Yeah, I don't know. It's...
+[01:28:11.310] I kind of...
+[01:28:13.650] I'm not going to lie, I've been back now from vacation for...
+[01:28:19.080] almost two weeks and I just haven't been on Twitter because I was just like I'm just going to kind of
+[01:28:23.850] Avoid all of this stuff. Obviously I need to kind of talk about some of this content on stream today because I you know  I did kind of
+[01:28:31.950] get caught up on, you know, a bit of what's been going on, but it's like...
+[01:28:36.810] You know, it's...
+[01:28:38.640] Thank you.
+[01:28:39.840] it's a lot of stuff, you know?  Like, you kind of go, like,  do we all need to...
+[01:28:46.410] argue about this anymore.
+[01:28:48.450] I'm kind of of the mind that I got a lot of work to do.
+[01:28:53.820] And I just got to do it. I don't know if that makes sense.
+[01:28:59.850] Thank you.
+[01:29:05.070] -
+[01:29:17.250] Yeah, the Twitter space about the Fred and your, yeah.
+[01:29:31.230] Kern Goal, five viral positivity posts a week.  I like that.
+[01:29:42.780] Yeah, I mean, I think this is a good thing because I feel like stuff was feeling kind of
+[01:29:48.870] hot for a while. I don't know. It just...
+[01:29:51.090] that the
+[01:29:52.770] I missed most of it.  So when I came back and I saw the reactions,  I was just like...
+[01:29:57.600] you know,  like,
+[01:29:58.950] -
+[01:30:00.000] -
+[01:30:01.590] Sorry, I'm just laughing because while I'm talking about that, it's like, what was I busy doing?
+[01:30:06.780] Thank you.
+[01:30:07.350] This is...
+[01:30:08.670] Yeah, I think everyone saw all that stuff.
+[01:30:19.590] Anyway, I'm sorry.
+[01:30:22.140] Thank you.
+[01:30:25.560] Thank you.
+[01:30:27.450] - Yeah.
+[01:30:29.100] Thank you.
+[01:30:30.240] I'm
+[01:30:33.540] Yeah, my theory...  Okay, okay.  Let's go.  It's like Hooks with a Happy Hour.  Yeah.
+[01:30:39.240] when they dropped.
+[01:30:40.170] Yeah.
+[01:30:42.450] Yeah, I can see that.  The interesting thing for me is like
+[01:30:49.200] Like, you know where I was, right?
+[01:30:51.390] I didn't care if hooks actually succeeded or were any good.  I just, like, the second I saw them, I'm like, okay, game on, right?  And that's really what I've got to get back to again.  It's game on, right?  So...
+[01:31:03.210] Um...
+[01:31:04.350] Sorry, it's my age again.  It's a Wayne's World reference.
+[01:31:09.190] But...
+[01:31:10.740] Yeah.
+[01:31:13.260] I think...
+[01:31:17.520] the fact that it is harder to adopt or not harder,  but like they're not in a position to adopt does make all the difference,  right?  Like it,  it does make it a very different thing.
+[01:31:27.960] So
+[01:31:28.830] Yeah.
+[01:31:38.310] - Thank you.
+[01:31:41.280] Thank you.
+[01:31:41.850] *chewing*
+[01:31:44.280] *sad*
+[01:31:46.860] I think the challenge is like when you're... I've said this before, when you're in React's position...
+[01:31:52.830] or next position,
+[01:31:55.470] You got...
+[01:31:56.520] you have to almost do more, and it's unfair, but you almost have to
+[01:32:00.750] help the people along. Like in the back of the day when React came out there, they were able to just be like, look,
+[01:32:06.480] You guys are doing it wrong.
+[01:32:07.890] And we're like, "Oh, my God,
+[01:32:10.770] No, uh, oh.
+[01:32:12.960] But now it's gonna like you they can't do that. They have to be like I
+[01:32:18.990] like really hold your hand.  And yeah, it just doesn't work the same way.  So...
+[01:32:25.950] Yeah, I mean... it's fine. I... I...
+[01:32:29.640] I think that...
+[01:32:31.500] - Thank you.
+[01:32:32.940] I think we're in for...
+[01:32:37.710] I remember, like, it's okay if this is kind of like a slow gain. I don't, I think part of it is that like,
+[01:32:44.640] people want there to be this kind of discourse happening or this kind of
+[01:32:49.500] thing. Otherwise, like, you know, it's okay. People just adopt them slowly. Like, why are we,
+[01:32:55.020] Like, why are we still worrying about that?  Like,
+[01:33:00.090] So
+[01:33:01.050] Yeah.
+[01:33:04.620] Yeah, yes.
+[01:33:06.150] Yeah, exactly. I mean, that was my big point at the React-a-thon panel. And I'm glad I've seen that now being expressed again through stuff that Dan has written as well. Like, it's an important...
+[01:33:19.740] It's an important distinction to understand.  And we've seen this before.  It's the same thing that Quick is asking of you, in a sense.
+[01:33:28.800] And it's the same reason why when we had the conversation about putting Solid and React together,  we looked at how to put Solid in React rather than vice versa because...
+[01:33:41.700] Trying to get people to replace the root is pretty hard.
+[01:33:47.910] Thank you.
+[01:33:52.650] Hmm.
+[01:33:53.940] Yeah.
+[01:33:55.020] Yeah.
+[01:33:56.670] Yeah?
+[01:34:01.830] Yeah.
+[01:34:02.670] I mean...
+[01:34:05.250] But, I mean...
+[01:34:06.570] JSX
+[01:34:07.770] Could?
+[01:34:08.910] have
+[01:34:09.750] Then...
+[01:34:11.910] Yeah, I guess it's not quite what you mean, right? Because like, JSX could have been done at the leaves. It's more of like...
+[01:34:17.970] When we had MVC...
+[01:34:20.790] The model connected the model to connect the model, the view connected the view to the view, and the view model to the view model to the view model, right? Or MVVM, which is basically the predecessor components. The big change of React was that...
+[01:34:33.450] those things actually like,
+[01:34:35.850] ignore the model. The model's sitting somewhere else in global state land, but like the view model and the view were now packaged together. So in a way that like the...
+[01:34:45.690] you put those in those. So you,
+[01:34:48.120] Actually, migrating was a little bit tricky because you had to unwind stuff a certain way to wind it back in again. And that would require a change from the root, so to speak.
+[01:35:00.390] Okay, I'm probably trying too hard.  I'm talking about something that happened back in 2012 that no one actually cares about.
+[01:35:06.450] Thank you.
+[01:35:07.740] Um...
+[01:35:10.290] Yeah, or 2013.
+[01:35:12.510] Okay.
+[01:35:14.550] Uh...
+[01:35:16.230] Anyway, sorry.  Oh, man.  We...
+[01:35:19.710] I mean, I knew this is where we'd get to on this whole side.
+[01:35:25.920] Thank you.
+[01:35:26.490] *cough*
+[01:35:27.780] Funniest thing, as I said, is I don't have a ton more to say about server components.  I've been, I mean, other than I've been like, pouring my head through...
+[01:35:34.530] trying to understand implications of different APIs.  Because it still comes down to this fundamental question.
+[01:35:40.140] And I think this is why people have an adoption trick to this whole thing is like,
+[01:35:45.240] Do people want to acknowledge
+[01:35:47.940] like a server first mentality or not, right?  People like the single page app thing  made people very comfortable, you know,  especially people, users have said like React  or Solid or Stout or any of these frameworks,  very comfortable with the client centric model.  So in a sense, when you look at stuff  that automates it like quick,  you're kind of like, oh, look,
+[01:36:05.190] I don't have to think about that. For the most part, I just write my code as one app, as I always have, and it will just do the right things.
+[01:36:12.000] And server components are like, no, no, no, you have this server component range, right?
+[01:36:16.380] And this leads to different kind of problem solved.  Because, like, obviously, if Quick doesn't want Waterfalls, you have to hoist it, like Remix or Solid or whatever, right?  And I think, like...
+[01:36:25.650] I think that like  that's where this kind of split is, right?  Because like
+[01:36:32.310] This is what I was talking about, what if Mark was always right, kind of mental experiment. Like, what if you didn't need use client? What if we could determine use client automatically?
+[01:36:44.310] What if that was your world?
+[01:36:45.570] Because, I mean, I was thinking about it.  I mean, how hard would it be?  Solid already knows...
+[01:36:49.470] roughly what reactive statements are.  So if you assume that props,  you don't have to worry about,  but you assume that any component  which defined a local state  or local something...
+[01:37:03.390] And it gets used as a function call inside
+[01:37:06.900] Thank you.
+[01:37:07.500] JSX.
+[01:37:09.300] or uses an effect or whatever.
+[01:37:13.460] React has the use prefix.  Let's pretend we're in a world now where we're just like,  okay, everything with use is...
+[01:37:19.260] is a client component.
+[01:37:21.480] Like, if you could...
+[01:37:23.310] Know that.
+[01:37:25.320] what would the repercussions be?  Like, because right off the bat,  you wouldn't have to go write used client  into a bunch of different...
+[01:37:33.270] components, right? Like you wouldn't have to go update all the existing ecosystem would just
+[01:37:37.530] basically work as client components they do today and you wouldn't have to do a single thing.  What would be the downside?
+[01:37:43.380] of doing that and how would that change implications?  Well,  I mean,  I kind of walked through that mental thing for a bit and,
+[01:37:51.810] Mm.
+[01:37:52.500] The downside would be...
+[01:37:56.220] that
+[01:38:01.440] Before the downfall, let's say the positive. The positive side is you could continue using stuff and even if React was slightly less optimal,
+[01:38:09.390] In some places?
+[01:38:10.560] or like I said,  react or whatever framework worked this way was slightly optimal,  like included stuff that wouldn't need to include,  you would never be aware of it.
+[01:38:18.990] Right.
+[01:38:21.240] I mean, the one downside is you wouldn't be able to like...
+[01:38:25.200] you know, async component in the middle of the component, so to speak, right? Like you wouldn't be able to fetch. But let's assume you're me and you think that's a terrible idea already. And you were already hoisting, like,
+[01:38:33.930] What...
+[01:38:34.770] What is the downside
+[01:38:36.930] of
+[01:38:37.800] of this automation. Well, the downside is
+[01:38:40.740] The props going into the client components need to be serializable.
+[01:38:44.280] and
+[01:38:45.360] You wouldn't necessarily know that.
+[01:38:51.750] Right like you if you you might run across a component that stateful  component that you determined and
+[01:39:00.870] you try and run it and it'll go, "Oh, sorry, you can't serialize it."  That's probably the biggest downside. You'd be like, "Why do I have to serialize this?"  There's no use client to indicate that. You're just like, "Oh, it's a stateful component."
+[01:39:11.280] Right.
+[01:39:12.000] That's probably the biggest downside.
+[01:39:14.850] Because it wouldn't be clear the other downside is like maybe it wouldn't be as optimal right and
+[01:39:19.860] Because maybe you couldn't be as precise with your intention.
+[01:39:23.880] Thank you.
+[01:39:25.200] But...
+[01:39:26.340] In this world, people would not be thinking
+[01:39:30.030] Oh, server component client component.
+[01:39:31.860] Right.
+[01:39:33.150] Well, how do you do data fetching, right?
+[01:39:36.290] Well...
+[01:39:37.410] What if you had something, what if you still had used server?
+[01:39:41.040] or server dollar sign.  But the difference is,  it's not something you pass the client.  It basically, on the server,  just executes a normal function.  And then on the client,  it was an RPC call.
+[01:39:50.310] Like what if you could just abstract that away like that?  It would basically be the identical mental model  of the single page app you have today.  Like you knew that you could fetch directly from the database  in the use server context.  You knew you were safe to do that there.
+[01:40:05.820] But the rest of it, you really had no guarantee whether it ran on the client or the server.
+[01:40:11.670] except that there's one difference. There's no dollar signs everywhere.  You're not like breaking the serialization. You're not doing resumability.  You're not doing that. You're just,
+[01:40:19.830] It's--
+[01:40:20.730] It's just a best effort.
+[01:40:23.010] where it's a heuristic on statefulness.  So it basically,  it'll make your code a bit smaller,  maybe.  As I said,  RSCs haven't shown us  it makes code significantly smaller anyway.  So like,
+[01:40:33.990] Loosen this heuristic a bit like who cares right?  like
+[01:40:39.480] But I'm just throwing this out here.  In this sort of world...
+[01:40:44.490] like,
+[01:40:46.320] What I'm trying to point out, it's not necessarily...
+[01:40:49.980] that this is better or worse.  I'm saying like some people would have preferred this to be the reality,  but there's a reason why React did not go this way.
+[01:40:58.170] I'm just trying to like...
+[01:40:59.730] paint this picture where there could be a world where the exact same code
+[01:41:07.710] could
+[01:41:08.880] Like we're basically what RSCs do is an optimization that you could turn on invisibly.
+[01:41:15.060] Isn't that Remix? No. Remix is not optimal like this at all. Like, they don't do this kind of optimization. They can't. React won't let them do this kind of optimization. I'm talking about actual partial hydration. Like, Remix is just...
+[01:41:27.360] next 11 or whatever like
+[01:41:29.880] It doesn't actually do anything optimal here.
+[01:41:36.570] But yeah, the average person in reception would have been really incredibly much better. But I think like there's
+[01:41:42.780] I think there's trade-offs here, and I think there's a mentality question.  And the reason I'm bringing this up is I think on one side, if you had a spectrum or something, on one side over here, you have Astro, right?
+[01:41:56.910] And Astro's like,
+[01:41:58.440] I've talked about this before, I talked about this in my stream where I was talking about
+[01:42:02.880] um
+[01:42:03.900] you know, I think it was the New Year's Dream. And on the other side, you have, I'm going to say Marco. Marco's intention is to like, basically never tell you and everything automatic and the compiler does everything. At this point, it's subcomponent, but even Marco today is basically...
+[01:42:22.920] like,
+[01:42:23.610] Um...
+[01:42:25.350] islands like
+[01:42:26.670] you know, RSCs, except you don't have to ever say use client, use server. It just
+[01:42:30.810] It just automatically does it.
+[01:42:38.160] Yeah, sorry. I have to remember the chat delay and the fact that I'm...
+[01:42:44.640] Kind of like, yeah.
+[01:42:46.380] What I'm getting at is like on this spectrum of things,
+[01:42:50.820] like in terms of explicitness,
+[01:42:54.090] It's like...
+[01:42:55.140] Quick is here.
+[01:42:57.660] Because they make you put dollar sign literally everywhere.
+[01:43:02.220] And then...
+[01:43:03.840] RSCs are here.
+[01:43:06.330] Right?
+[01:43:07.800] and
+[01:43:11.190] Thank you.
+[01:43:12.090] Part of me starts wondering this, right? Because you start thinking, you go, "Well, along this spectrum,
+[01:43:20.340] Like sometimes being in the middle is the worst place to be.
+[01:43:25.860] - Thank you.
+[01:43:27.150] And in a sense, Astro has a huge benefit. It's so freaking clear. Like .Astro, you're like, this is server, this is client. There's no confusion. There's no run. You know that RSCs with use client and use server.
+[01:43:41.760] have that similar kind of split and it's very on purpose.
+[01:43:45.900] Quick doesn't differentiate for you, but makes you put a dollar sign every possible place it could split it, just so that you know that it could happen, but it may not happen.
+[01:43:56.790] or could or whatnot.  And then Marco's like,  we're so smart, we know everything.
+[01:44:01.770] But like both this side of this like...
+[01:44:07.290] line here are under the opinion
+[01:44:11.700] that
+[01:44:13.800] you know
+[01:44:17.640] Think
+[01:44:19.830] One app
+[01:44:23.400] Thinking.
+[01:44:26.130] Whereas like this side
+[01:44:29.370] is like
+[01:44:34.110] server...
+[01:44:35.910] server versus client. Now, don't get me wrong, you always have to do that. But another way might be thinking of like,
+[01:44:42.450] It's so funny because I wouldn't call Marco client first, but in a sense...
+[01:44:47.880] um
+[01:44:50.370] - Okay.
+[01:44:51.180] They don't want you to...
+[01:44:54.120] to really...
+[01:44:55.560] worry about that as much. The funny thing is  it's a lot harder to pull this off
+[01:45:00.510] with, uh...
+[01:45:02.460] Well, no one's done it yet with client-side routing.
+[01:45:04.560] to be on the side with client-side routing.
+[01:45:07.050] Like...
+[01:45:08.910] Thank you.
+[01:45:11.610] But I'm just like, I think...
+[01:45:15.810] This is a funny place where actually Astro and RSCs are more...
+[01:45:18.930] in common philosophically than where Quick and Marco are.
+[01:45:25.500] I'm hoping this makes sense.  I'm familiar with all these frameworks. You may not be as familiar.  But like...
+[01:45:31.020] And Marco...
+[01:45:32.130] it does partial hydration like RSCs, like Islands type thing,  but you don't actually...
+[01:45:36.900] put a used client or anything anywhere.
+[01:45:40.170] you know
+[01:45:42.300] Is that the Spectrumers that gonna ship?
+[01:45:45.810] Thank you.
+[01:45:47.370] Yeah, I mean...
+[01:45:49.620] Thank you.
+[01:45:50.250] The funny thing about this though is technically when I'm talking about Marco over here, even  though Marco 6 is over here, I'd say Marco 4 is over here as well, which is already shipped
+[01:46:03.450] you know,
+[01:46:04.410] seven years ago or whatever. So like, uh, to be fair, Marco already has automated this and is completely doable.
+[01:46:20.880] Yeah, client-side routing is important.  I think it's more important than people giving credit to.  But I mean, on the other hand, it depends on what you're doing.  Astro is going to continue focusing on the content sites and those kind of things.  And they don't really need it.  And they will do very well.  And they're just not even going to get into this game.  So good on them.
+[01:46:40.830] .
+[01:46:42.270] Yeah, it doesn't...  Well, because doing a spawn quick would be a waste.  You have to do client-side routing the way RCs do it.  As I said, RCs is...
+[01:46:50.610] yeah it's more a routing concern
+[01:46:54.900] Abstractings are great as long as you can't see the seams. Right, which is a...
+[01:46:59.970] Which is an interesting one because...
+[01:47:02.580] It feels like...
+[01:47:05.340] Like...
+[01:47:06.930] this is where being in the middle is the really awkward place to be, right?  Because when you're Astro side, just like, look, we're not trying to abstract this way.  It's freaking server client.  We can't make this any clearer.  When you're on the Marco side, they're like, look, we're going to build into the language.  We can't even let there be scenes.  We're just going to assume that the compiler can do it.  And if there's a shortcoming, we deal with it.  And that's where.
+[01:47:36.930] that's where you start kind of being like,
+[01:47:39.810] Like...
+[01:47:40.950] In that middle ground.
+[01:47:46.950] - Thank you.
+[01:47:51.060] Thank you.
+[01:47:54.300] Have I seen this thing? I was trying to even start a bit of my Reactanza next starts. I know...
+[01:48:01.740] Uh, so I know that...
+[01:48:04.680] Theo's tried to do something like this before on...
+[01:48:08.910] on
+[01:48:09.990] stream
+[01:48:17.790] What am I looking at?
+[01:48:21.060] Thank you.
+[01:48:30.510] Okay.
+[01:48:47.760] Oh, you...
+[01:48:49.770] Yeah, is this leveraging the...
+[01:48:51.150] Well, actually, what are you doing here?
+[01:48:54.390] Okay, so that is just an async function.
+[01:48:59.300] So you are just using as an async component.
+[01:49:04.290] No, I have not seen this till now.
+[01:49:06.690] But yeah, I mean, a lot of this stuff is built corn to react and people aren't
+[01:49:12.990] Like, the intention is you don't use it directly, but interesting.  Interesting.
+[01:49:22.710] Yeah, yeah, sorry. I'm looking at it and no one else can see what I'm talking about.
+[01:49:27.270] And actually, if I really want to be good here, I should do this.
+[01:49:31.800] - Thank you.
+[01:49:38.520] This works in VEAT and Astro, but doesn't work in Next. Well, is this based on the Waku, like the work Daishi did or Nikhil did, one of those VEAT things?
+[01:49:51.660] Async components don't work in next.  Yeah, okay.
+[01:49:54.960] Yeah.
+[01:49:55.620] They're already deferring async client components. Well, async client components are a bad idea if you can't use a compiler there because they're blocking and it doesn't make sense the way state propagates.
+[01:50:04.740] Just React. I see. So it's like under-- yeah.
+[01:50:08.760] Yeah, I mean...
+[01:50:11.100] They need... Using them as is...
+[01:50:13.740] can kind of work.
+[01:50:15.960] But it's also like...
+[01:50:17.580] less than ideal in some cases.  Like your async component doesn't have state in it.  I think things get a lot more fun  when you try and put state in an async component.
+[01:50:27.030] Um...
+[01:50:28.350] I feel like I've tended a little bit, which is okay.  That's what we're here for.
+[01:50:33.360] Um...
+[01:50:34.890] But yeah, it's interesting.
+[01:50:39.300] um
+[01:50:43.830] Bye.
+[01:50:57.450] Yeah, I don't know. I think there's different ways we can...
+[01:51:00.720] Look at this kind of...
+[01:51:04.560] - Thank you.
+[01:51:05.970] I don't know. Maybe I'm just not obsessed with async components. It's not my favorite thing.
+[01:51:16.590] Like, lazy components are a reason to make something async.  It's kind of like, you know what it's also kind of like?  The desire for people to resume tracking
+[01:51:25.440] after and the wait
+[01:51:26.730] in some kind of reactive flow.  It's like the same kind of thing where it's like...  It doesn't quite...
+[01:51:32.760] fit right. Like,
+[01:51:34.530] You could do it, but then you're like,
+[01:51:38.550] Thank you.
+[01:51:39.660] -
+[01:51:40.470] any re-trigger will cause the whole thing to run again.  You know what I mean?  Like, it's just...
+[01:51:44.820] - Thank you.
+[01:51:46.260] It's not quite the right...
+[01:51:49.380] impedance match, right?  Like I came up with an idea of how I could do  async components in solid, but again, after doing that  and coming up on this, like who would use them and why?
+[01:52:03.720] And I was having a hard time finding use cases where it wouldn't have just been better to hoist it and not use that syntax.  It's just...
+[01:52:10.380] It's like really convenient for someone who wants to do something really quick and simple. Obviously it's something that's server rendered where there's no state.
+[01:52:18.180] You know, it can be useful.
+[01:52:20.160] But then it's like, okay...
+[01:52:22.020] You could also make it work in the client, but then like
+[01:52:25.050] Yeah, I don't know.
+[01:52:26.730] I'm having a hard time with the async component thing.  I always have, though.
+[01:52:36.270] Thank you.
+[01:52:37.740] But yeah, anyway, what I was getting at before, just as I was saying, is I think there is a divide right now philosophically.
+[01:52:46.560] Um...
+[01:52:49.020] And...
+[01:52:51.300] It's interesting to me because I...
+[01:52:53.010] Like, at the extreme on this side...
+[01:52:56.100] We could basically continue...
+[01:52:58.380] To... to...
+[01:52:59.910] author things the way we do today and think of...
+[01:53:03.540] partial hydration and things like server components as an individual.
+[01:53:07.530] Bull optimization.
+[01:53:09.540] then on this side
+[01:53:11.970] There's kind of almost the argument that, you know...
+[01:53:14.670] I
+[01:53:17.280] we can...
+[01:53:18.840] leverage these platforms best if we go like, "Yes, this is a server." But I mean, I guess the thing a lot of people thinking about on their app is like, how much do they actually, like, why do you want
+[01:53:29.070] stuff on the server. Why do you want to explicitly say this is on the server? Part of it is because you don't want that JavaScript to come or you don't want to ship that component. But let's pretend like you don't care about that. Like, you're just building an app.
+[01:53:39.210] You don't actually care that that stuff's on the server or the client.  Like, let's pretend like we assume that it goes the right place optimally.
+[01:53:46.560] I know that's a big ask, especially from a performance crowd, but let's pretend we don't care about that.
+[01:53:51.820] At...
+[01:53:52.500] When you're building an app...
+[01:53:55.140] Like--
+[01:53:56.190] What do you actually, actually need on the server?
+[01:54:00.420] 100%
+[01:54:01.980] You need to make sure that people know is on the server.
+[01:54:06.720] I'm actually curious, honestly, because like the- there's a very obvious answer and I'm wondering what the other non-obvious answers are.
+[01:54:14.340] It's usually data fetching, right?
+[01:54:17.610] like you gotta access the database,  so you need some kind of data source.  That is a reason to be on the server, right?  Like 100%.
+[01:54:27.450] Everything else,
+[01:54:29.370] is about optimizing execution.
+[01:54:32.580] or bandwidth.
+[01:54:36.180] Now, you could say that like...
+[01:54:39.390] Because of waterfalls and stuff, data fetching.  It's funny because I know this is full circle because before the land on server components, React was working on something like that basically stitched a whole bunch of client-side requests together into a single request and they could do the whole thing in a single flight.
+[01:54:55.020] I think it was called Flight.
+[01:54:57.180] So like I get that there's different models here. I'm just I'm just kind of like pointing out that like I
+[01:55:04.950] are certain wondering out loud...
+[01:55:09.840] I've been struggling back and forth between these two things.  I've gone very extreme.  At some point, I'm like, the only right way to do this is Astro style.  Like, we should just keep things...
+[01:55:18.270] separate so we can optimize it.  But then, you know, I've also spent time over here too,  where I can like see the benefit of people just not...
+[01:55:24.840] like thinking about it and almost all the criticism that comes to react about rcs is  the fact that they're over here not over here
+[01:55:33.150] The React audience was expecting RSCs to be over here.
+[01:55:36.270] Is what I've
+[01:55:38.220] kind of
+[01:55:38.970] come to realize
+[01:55:46.650] secrets yeah that's another place right so but again
+[01:55:51.690] Thank you.
+[01:55:52.260] In the same way, you can just be like, this is server function.  It's a database.  If you want secret dollar sign.
+[01:56:01.650] you know, I'm just throwing out there. Okay. Secret's another good one. Okay. That's perfect.  That's what I'm looking for. Anything else?
+[01:56:14.700] There was just an attempt to build relay and to react.  Yeah, pretty much.
+[01:56:18.360] Which is...
+[01:56:19.170] Extremely complicated. I'm just I'm just I'm just like kind of think though. Is there anything else?
+[01:56:24.180] that you where you're like I'm building an app and you're like I want to make sure
+[01:56:28.320] That this is not...
+[01:56:30.540] Okay.
+[01:56:32.790] making its way to the browser.
+[01:56:36.210] No one uses relay.
+[01:56:39.570] I...  This is, like...
+[01:56:42.450] - Okay.
+[01:56:43.800] Because, I mean, what I'm doing here is I'm taking that mental experience.
+[01:56:47.970] Thought experiment where let's assume, you know, where, you know, an hour ago, I was kind of like along the lines.  I'm like, no, no, I don't.
+[01:56:55.230] If RSCs don't enable something new, we're looking at them wrong. But I'm like, okay. At the other extreme, if it was an invisible optimization, let's say, and we're still viewing these as single page apps, essentially. And if I, for example, if I was sitting in Astro's seat over here, I might actually say everyone over here is a single page app.
+[01:57:15.540] you know, or I mean, Marco isn't, but I'm talking about like that future where client side routing was involved. Um,
+[01:57:21.090] - Thank you.
+[01:57:21.960] Like...
+[01:57:28.140] Yeah, it's...
+[01:57:30.750] Thank you.
+[01:57:31.680] It's an interesting...
+[01:57:35.370] *sigh*
+[01:57:39.660] Because it is all about the flexibility of scale, right?  I've talked about how you can make islands really small,  or you can make them the whole route section.  And that's the difference between a JSON API and not.
+[01:57:49.950] But that could be automated in theory.
+[01:57:54.330] User sessions, okay.
+[01:57:58.500] It's interesting because a lot of SSR apps today don't really...
+[01:58:02.430] address like
+[01:58:03.930] Obviously, you have session stuff from Remix, but it's interesting.  Classically, with Next, I wasn't sure how...
+[01:58:12.000] Like, when you're using Next12 or 11 or whatever, how would you get the session information...
+[01:58:17.910] into your components?  Was it through Git server-side data or props?  Was it through the data fetching?  How did the session stuff--
+[01:58:26.010] Like, cause you wouldn't have access to it in the client or you'd have to have like some kind of superficial representation of it.
+[01:58:31.560] I'm actually not...
+[01:58:33.030] Sure.
+[01:58:35.250] Markdown parser.
+[01:58:41.220] Thank you.
+[01:58:42.300] That could be automated though.  I think we could be smart enough to know that a Markdown parser doesn't need to go to the client.
+[01:58:51.420] Analytics.
+[01:58:52.890] Okay.
+[01:58:54.060] Like it?
+[01:59:13.200] Yeah, yeah, yeah, yeah. I mean...
+[01:59:15.990] I just don't believe that it actually works.
+[01:59:18.930] Thank you.
+[01:59:19.530] like...
+[01:59:20.520] It works, but I don't believe it actually scales.  That's my concern.
+[01:59:25.480] Like...
+[01:59:26.850] Thank you.
+[01:59:29.040] I don't think the stall is colocation.
+[01:59:32.460] I think it actually just hides it and then it will be
+[01:59:34.860] It'll be the problem we worry about in two years.
+[01:59:39.210] I like co-location, but unless you actually pull it out of the component...  And stuff like...  You basically...
+[01:59:46.920] don't actually achieve it.
+[01:59:50.130] It's like, it's like, it's kind of like micro front ends.  Like if you really need it, cause your company is so big,
+[01:59:57.690] then you'll be okay with this but you'll
+[02:00:00.000] Always be able to optimize the stuff by getting rid of the co-location, which means it's like almost always better not to do the co-location.
+[02:00:06.210] Like...
+[02:00:07.830] It's tricky.
+[02:00:30.660] Sorry, this one I was like...  Omnically, it's only comments based on actual usage.  Yeah.  That's an interesting one.  I mean...
+[02:00:40.410] It's lazy. I mean, with analytics or something.
+[02:00:43.620] One of the biggest challenges, obviously, is that like you don't actually like some components.
+[02:00:49.470] Some things that are heavy, you want to defer loading of them.  But other things, basically, even if you could lazy load them, you would eagerly load them.  So it's like...
+[02:01:01.320] Huh.
+[02:01:03.840] Thank you.
+[02:01:05.940] Thank you.
+[02:01:07.020] - Okay.
+[02:01:08.400] Yeah, and one thing is like, at least today, I haven't seen anyone do this yet.  And Mitch Gill likes bringing it up in his talks, is people don't have lazy hydrateable things.
+[02:01:19.140] Um
+[02:01:20.250] But making something lazy hydratable is completely doable.
+[02:01:25.290] um,
+[02:01:28.500] But no one's made a primitive for that.
+[02:01:44.310] Have you got the way of... Yeah, yeah, yeah. I mean...
+[02:01:48.990] Yeah, I follow that. It's more like I'm trying to get why. I mean, that's investing in the perspective, almost like Astro, as I said, where you're like, it's very clear that you have the server thing, and then...
+[02:02:03.840] You just have this-- the client stuff is this--
+[02:02:06.960] smaller piece, right?
+[02:02:09.210] You basically shrunken
+[02:02:11.250] But you do it by being very explicit versus the other side, which is basically like,
+[02:02:16.710] What if this is an optimization?
+[02:02:20.970] It's not perfect for everyone, but it's good enough for everyone. Yeah, because it's almost like a new basis of the web. Like, it's like a new type of MPA. Like, you can... What I like... Like, think about it. Like, an MPA...
+[02:02:31.740] you can build anything with on top of MPA thing.  Like you take Astro and then you go,  okay,  I'm going to put a single page app on it.
+[02:02:38.190] And in a sense, that's what RSC architecture is, because you get to basically start again from basically, I just got pages, and then again, you can basically just...
+[02:02:48.090] put a client-side rendered app on it. Like it's, it's, so from a web foundation, a fundamental position, um, that makes obviously a lot of sense. It's,
+[02:02:59.460] I'm just... it's kind of like with Remix. I'm not always convinced that the existing, um...
+[02:03:06.840] Abstractions are actually the best abstractions.
+[02:03:09.540] Like, like just because the web works a certain way, like who cares?
+[02:03:15.330] Like, there's usually a value to a certain point, but it's always, I always like questioning that a little bit. And I feel...
+[02:03:22.050] Like my gut.
+[02:03:23.940] was always on the RSC side.  They're like, yeah, that's good.  We just need that new foundation.  But Resistance...
+[02:03:30.960] has made me at least think about what the other possibilities look like.  And that's sort of why I'm asking this question on the zone.  I should actually have been keeping a list here actually.
+[02:03:41.790] just for my own things,  when we were talking here,  we were saying server...
+[02:03:46.470] We said we wanted data fetching.
+[02:03:49.470] Let me
+[02:03:50.430] Change that to...
+[02:03:54.390] See, I'll make that
+[02:03:55.920] blue.
+[02:03:58.590] Add a new one here and then make that way and go so data fetching and
+[02:04:05.190] Secrets.
+[02:04:07.830] Eh eh.
+[02:04:09.120] Analytics.
+[02:04:10.680] Um...
+[02:04:17.700] Sessions...
+[02:04:23.760] Yeah.
+[02:04:27.810] Internationalization files. I missed this earlier, but yeah, there's sometimes some stuff that is absolutely huge.
+[02:04:34.530] Um...
+[02:04:36.120] Uh...
+[02:04:39.390] *laughs*
+[02:04:41.220] I kind of put that on the data fetching side, but let's just say server-only assets...
+[02:04:45.870] translations
+[02:04:47.730] So, yeah.
+[02:04:52.170] Yeah, that's actually an interesting one, isn't it?
+[02:04:55.080] Because, yeah, this is something where...
+[02:04:58.470] slipping up would actually be costly especially depending on how the translations are set up because
+[02:05:04.500] Well, if it's granular enough, it'd be fine.  But you know what I mean?  Like, the difference between it, like...
+[02:05:09.810] It...
+[02:05:10.350] you know, being optimized and not being optimized could pull in a whole bunch of extra crap.
+[02:05:17.190] - Yeah.
+[02:05:18.090] But yeah, I...
+[02:05:19.470] I've been focusing on this split because I think this is going to be the argument.  Even if you ignore the technology, for time to come, there's going to be a split between people...
+[02:05:29.640] on this side and part of me thinks that Svelte
+[02:05:32.910] is naturally...
+[02:05:34.290] on this side of the fence and
+[02:05:37.230] They...
+[02:05:38.850] They might not get into the RSC thing or not, but they might just...
+[02:05:42.990] Mike.
+[02:05:45.180] They're looking for something over here.
+[02:05:50.370] I think...
+[02:05:51.120] Ah.
+[02:05:52.110] I've been having a very as I said this has been the debate and the thing that I've been going through a lot is
+[02:05:57.240] back and forth for like almost a year now.
+[02:06:00.600] Because it's...
+[02:06:04.260] There's something that is so pleasing.
+[02:06:07.860] Over here.
+[02:06:08.850] But I don't know if you can get away with it.
+[02:06:13.770] Yeah, anyway. Alright.
+[02:06:22.080] Yeah, yeah, I know they're not doing RSCs, but the reason I'm saying that they wouldn't do RSCs is because naturally they would want to be on this side.
+[02:06:29.010] Maybe, maybe not.  They have .server.client files.  So yeah, maybe they would be on this side.
+[02:06:39.270] I've read...
+[02:06:43.050] the argument
+[02:06:44.340] that the dollar sign is not very usable in hooks and decomposition.
+[02:06:47.430] Yeah, I mean...
+[02:06:50.010] Yeah, I mean, Svelte has its own considerations because generally speaking, the language is very contained. This is the hardest part with compilers because you like...
+[02:06:58.800] You have to decide how
+[02:07:00.780] wide the scope of the compilation analysis. If Svelte's local, then they can't retain reactivity across files, and then stuff like $ is not composable. For me, that's like a non-starter.
+[02:07:13.380] But it's a hard problem to solve. I feel like something like Dominic Ganaway would try and solve that. That's what Marco has been working on.
+[02:07:32.640] Svelte is what I just...  Yeah, I don't know much about SvelteKit's perception on people.  Because when I see SvelteKit, I just think Remix or whatever.  Like...
+[02:07:42.750] Do people use SvelteKit?  Would they feel at home in a remix?  I feel like they're almost like the same framework.  You just used React instead of Svelte.  But I guess there's probably little differences, and I'm not...
+[02:07:56.370] Yeah, definitely. And what I'm saying is this whole thing about multiple services and all that, that's in the data fetching story to me. Basically, there's a reason why you want to be able to pull all this stuff together before you respond.
+[02:08:11.310] Well, the thing is...
+[02:08:13.560] I am...
+[02:08:14.550] The...
+[02:08:15.240] This is not... This is...
+[02:08:17.490] I was saying philosophically, I feel so it was over here.  But what I was getting at is like, this is technology that ships today that does partial hydration type solutions and where their mentality philosophy is.  Solid start today is...
+[02:08:32.070] is...
+[02:08:33.300] like the experimental stuff like normal solid start is nowhere but solid start today
+[02:08:37.470] is...
+[02:08:41.130] Like...
+[02:08:42.600] here.
+[02:08:46.710] It's basically like RSCs where you have to be very explicit, but we kind of let you put all the stateful stuff in.  We don't have nearly as many rules. It's not quite as...
+[02:08:57.870] It's on this side of the line, but it's very close to the middle.
+[02:09:06.300] Um, that's where like starts experimental stuff is.
+[02:09:11.550] Um...
+[02:09:15.060] Which is being
+[02:09:17.280] Smack in the middle.
+[02:09:18.840] usually doesn't help anyone.
+[02:09:22.110] It's very easy to be there. That's like where view always lives
+[02:09:25.410] And I, you know, this is why I'm very much...
+[02:09:31.560] What I... which... maybe I just call them...
+[02:09:34.470] SSCs, solid server components, or start server components.
+[02:09:40.440] Yeah, they're here.
+[02:09:43.050] So yeah, it's tricky. I don't
+[02:09:45.960] I don't know.
+[02:09:56.760] Yeah, yeah. Svelte might actually...
+[02:09:59.580] Because of, as you said, they are probably... They really want that separation to be clear. If they ever did a solution, they might actually end up almost sitting on top of Astro, as far over as you could get.
+[02:10:24.000] When I looked at Nux's server component solution earlier, they looked like they weren't actually islands but lakes. And, yeah, I don't have much to say about that. I think that's like a short term kind of...
+[02:10:34.620] and it's not really the ultimate solution.
+[02:10:40.560] I don't like being in the middle. I hate being in the middle.
+[02:10:55.620] Thank you.
+[02:10:56.700] Yeah...
+[02:10:58.770] It's just interesting.  When you talk to the people on both sides, they have different arguments for it.
+[02:11:04.020] Like...
+[02:11:05.130] Yeah.
+[02:11:06.630] like
+[02:11:07.680] Thank you.
+[02:11:08.730] This side definitely feels like they have to be explicit and that's how you can optimize for it. You know what you know. It's much simpler in a sense. But if you talk to the guys on this side, it feels like, especially when I talk to the Marker guys, I've been at it forever, they're just like, they almost don't trust the developer to be able to make that decision. They're like, look...
+[02:11:28.590] This is too much.
+[02:11:30.030] everyone has to be an expert.  It's easier just to tell people to do stuff one way  and give them the best results out.  Both Quick and Marco are very much in alignment on that.
+[02:11:41.070] But it's also like...
+[02:11:43.260] Because they have a very-- it's their expectation of maybe the types of apps you're building with it.
+[02:11:51.330] Like they basically think that when you give people that choice, like I've talked to.
+[02:11:56.670] Yeah, you know, like...
+[02:11:58.470] You know you just keep on bringing that used client further up the hierarchy. It keeps on slipping and to be fair Marco for does a
+[02:12:06.840] that kind of islands level,  um,  you know,  use client level kind of thing.  It's automated,  but they've seen that slip happen themselves.  Right.  So like,  um,
+[02:12:16.650] This is why they're so big on subcomponent hydration and things like resumability. They just, they're like, if you leave this to the developer,
+[02:12:25.320] the
+[02:12:26.220] they will eventually get to a point where they'll mess it up.
+[02:12:30.180] And then like...
+[02:12:31.830] that's essentially the thinking  it's very odd
+[02:12:36.420] But the argument that I get on this side sounds like someone who's already been here for a long time and decides that this is better.  Not the...
+[02:12:43.530] the person who's like coming from
+[02:12:46.350] I mean, Quick has a bit of like, oh, you like React, keep using it like today, forget about RSCs.  But when you talk to people in Marco, it's like, yeah, we've been here and done that.  This is not a good idea.
+[02:12:55.500] Like, we... we...
+[02:12:57.900] Like people, you know,
+[02:13:00.150] People at eBay mess this up all the time.
+[02:13:08.490] where the mentality is coming from.
+[02:13:11.910] So it's
+[02:13:13.350] It's...
+[02:13:13.890] hard to ignore that level of experience on this specific zone of problem.
+[02:13:21.180] But,
+[02:13:21.930] Again, we don't have, you know...
+[02:13:24.870] Who's your customer?
+[02:13:30.870] Thank you.
+[02:13:42.870] Yeah, exactly, right? It's very enterprise-y, right?
+[02:13:46.770] Thank you.
+[02:13:47.760] *laughs*
+[02:13:48.840] Yeah, I could see that...
+[02:13:55.440] The funny thing is that I think that the biggest...  The funniest thing for me here is like SSR is kind of brittle  even before you add all the partial hydration stuff.  I think...
+[02:14:07.410] That's almost the biggest strike against this side is that like...
+[02:14:12.030] being explicit to be able to like shrink the size of the apps is already such a big win um but  yeah this this this this debate goes on for ages
+[02:14:24.120] Anyway.
+[02:14:25.020] I've...
+[02:14:26.340] I don't know how much I can beat that dead horse, so to speak.  I did want to put it out there because it's something that I obviously still think about a lot.
+[02:14:38.940] That's from Mercy Hillcraft.
+[02:14:42.960] Yeah, I know, exactly. And the problem is when you start making... I mean, this is a great example.
+[02:14:50.100] thinking about it here, right?  Because...
+[02:14:52.950] When you make...
+[02:14:54.150] use Memo or use callback or sorry, react.memo rather, or like you make these
+[02:14:58.950] safeguards to prevent over-execution that you actually explicitly need to
+[02:15:04.650] Like,
+[02:15:05.700] wrap things to opt out, rather than to opt in. Like,
+[02:15:11.040] You end up just using it everywhere anyway, if you think you care about it, and even where you shouldn't necessarily.  Like, that's the danger of APIs designed like this.  Like, stuff like use callback and the need for something to use callback.  Like, I can understand why React wants to forget...
+[02:15:25.050] or, you know, create, forget or whatever. It's because like, once you introduce something like that, like people are just like, Oh, when do I use this? Well, I guess I'll just use it everywhere. You know what I mean? Like, it's, it's, it's actually the real awkwardness of...
+[02:15:39.450] of...
+[02:15:40.980] of this sort of having to like
+[02:15:44.190] Opt out
+[02:15:45.840] For performance, I don't-- because you're just going to--  like, you introduce an API like that, you're just basically  signing up for everyone to use that API everywhere.  It's difficult.
+[02:15:59.610] to say the least.
+[02:16:00.630] - Yeah.
+[02:16:03.330] So, like...
+[02:16:05.640] It's funny because the framework design actually lends to that, right? Like people don't think defaults matter. Defaults matter for that reason.
+[02:16:18.810] Yeah, exactly, right?
+[02:16:22.350] And I have to admit, like, Solid's...
+[02:16:25.920] choice of when to
+[02:16:27.480] Memoize Computed is a similar kind of idea of where you're trying to like opt in for performance. It is one place we have that.
+[02:16:37.170] It's because it's a trade-off, because the more computers you add, it affects creation. It's a creation versus update.
+[02:16:43.530] calculations. So it's not like we're immune to it, it's just very obvious in React.
+[02:16:48.270] um,
+[02:16:50.820] Right.  But...
+[02:16:54.270] Yeah.
+[02:17:02.640] Thank you.
+[02:17:03.390] Yeah. I'm sorry. I'm just like looking back at it. So much happened in this last, before I actually went on vacation. We, we,
+[02:17:14.400] I'm trying to think because I'm going to,  I told everyone I was going to have a shorter stream today.  We've,  we've probably pinged RSCs to death.  We talked about milk.  Um,
+[02:17:23.880] I'm just kind of looking at if there's any other topics before we get around to wrapping up today.  Because like next week, I'm going to actually have a real guest on.  I'm going to have Aiden from Million.js.  And we're going to talk about block virtual DOMs and talk about how they impact, you know,
+[02:17:42.900] performance in virtual DOM in a way that we haven't seen a jump
+[02:17:46.500] you know,
+[02:17:47.430] for...
+[02:17:49.230] Since Inferno, really. It's funny, I'm looking at a Dominic Ganaway tweet, but the biggest jump we've seen in virtual technology since Inferno has happened in the last couple years. Million is actually not the first one to do it, but Aiden's done a great job of putting his framework out there so people know about it.
+[02:18:07.740] But...
+[02:18:10.350] So we'll be back in more regular form next week.  But I thought it was important to have a stream this week just to say hi and see how things are going, so to speak.
+[02:18:20.580] I'm not bringing the milk back. It's over.
+[02:18:22.740] Right.
+[02:18:27.230] Um...
+[02:18:29.190] I did want to mention a couple of the tweets things I highlighted when I came back.  I love this one here.  "I really like the idea of signals being an implementation detail of the framework.  If a core philosophy enable reactivity for UI, then the implementation details aren't  really that important.  Further, it allows a change to those details or breaking changes."
+[02:18:47.340] That's an argument for Svelte's approach, or even for Git. But the underlying thing is,
+[02:18:53.640] I think we're going to see these kind of component independent
+[02:18:56.910] reactive primitives permeate into many JavaScript frameworks in
+[02:19:02.790] This suggests that Svelte might be getting signals, which is...
+[02:19:06.990] pretty cool.  Um,
+[02:19:09.210] you know,
+[02:19:10.740] - Thank you.
+[02:19:14.910] Yeah, and what's this one? Oh, yeah. I don't know. Just a little news. I don't know if anyone caught this. I wasn't aware of this until literally it was announced because I was away. Apparently they're in our Discord chatting, but we finally got added to official VTemplate.
+[02:19:30.150] as well as Quick did. What had happened before, for a while, I'd been bugging them.
+[02:19:35.370] We'd be bugging them like, "Hey, can we have an official VT template?" We're actually in
+[02:19:40.350] We've been in the Discord for Veet officially for support.  We're one of the listed frameworks for over a year.
+[02:19:48.750] but we never got an official template.  And they said, well, the criteria is you need to have 1 million downloads available
+[02:19:55.440] a month, I think.
+[02:19:58.380] to get that criteria.  And as you know,  we do not have 1 million.  I think we have like 300,000 or 400,000.  And I guess...
+[02:20:05.880] They finally decided to change that. I don't know what changed it actually. I haven't looked at NPM trends for a while  Is it NPM trends?
+[02:20:18.210] Solid JS.
+[02:20:20.630] Yeah, we had a little peak there during Signal Week.  But yeah, so we're about 80,000 downloads a week, which is 3200.  So 320, 330, whatever.
+[02:20:32.460] up to 320, 350 downloads a month.  Actually, I haven't actually checked out Quick for a while.  I'm like, did they push the, was it at builderioquick?  Did they push the...
+[02:20:48.360] the envelope here
+[02:20:56.010] Thank you.
+[02:20:57.540] Is it just not showing up?
+[02:21:03.360] *laughs*
+[02:21:05.850] Okay, let's try that again.
+[02:21:11.970] Delete solid.
+[02:21:21.270] Always
+[02:21:22.380] Yeah, maybe that's not the package.  Maybe that's the...
+[02:21:26.370] That's like the...  That's like the...
+[02:21:30.090] what do you call it?  That's like the...
+[02:21:32.580] Actually, no, I'm...
+[02:21:34.440] Come NPM.
+[02:21:39.570] Okay.
+[02:21:53.310] Oh, it's...
+[02:21:55.350] There's like a period in the builder IO.
+[02:21:59.250] *clap*
+[02:22:05.040] Okay, okay.
+[02:22:09.180] Alright.
+[02:22:10.050] Okay, okay. Yeah, okay. So the... No, I guess Viet has just decided to be very generous with us now. Because like, I think the next...
+[02:22:18.750] Psss.
+[02:22:19.560] One...
+[02:22:20.310] is lit.
+[02:22:21.750] Lit has surprisingly more downloads than you'd expect.  Lit...
+[02:22:26.610] Or let's do svelte.
+[02:22:31.410] Thank you.
+[02:22:32.910] Alright, the stupid spikes.
+[02:22:35.340] But do you see that?
+[02:22:36.600] Other than the stupid spikes, Lit actually has more downloads than Svelte.
+[02:22:40.770] which is
+[02:22:41.790] Kind of crazy.
+[02:22:43.890] Um...
+[02:22:45.000] How about Preact? Where does Preact fit in here? I'm just curious.
+[02:22:49.950] Okay, so pre-acts above.  Yeah, so I guess Svelte was like the bottom bar before they added us.
+[02:22:57.090] Of course...
+[02:22:58.020] You can't look at Svelte...
+[02:23:01.530] anything now because of the freaking spikes.
+[02:23:05.520] Where were they here?
+[02:23:07.050] Yeah, so...
+[02:23:09.720] Svelte was doing about, yeah, Svelte does about 500,000 per week, so about 2 million.
+[02:23:15.210] Downloads a month. Okay.
+[02:23:17.790] Okay.
+[02:23:18.450] That makes sense.
+[02:23:25.500] Yeah, see, I should have just looked at chat.  Then I would have found the missing...
+[02:23:29.760] period there
+[02:23:34.500] Thank you.
+[02:23:36.840] Yeah, I mean, it's really sad what happened there.
+[02:23:41.220] um view view as well right
+[02:23:46.710] Like, who does this?
+[02:23:49.800] - Thank you.
+[02:23:51.330] Someone having fun.
+[02:23:53.760] Right? Because like,
+[02:23:57.570] - Thank you.
+[02:23:58.230] Yeah.
+[02:23:59.670] It just screws up our ability. React is obviously the monster here, so to speak.
+[02:24:10.890] And...
+[02:24:11.880] with this felt
+[02:24:13.560] Yeah, like it's just...
+[02:24:15.390] them.
+[02:24:16.440] and view spikes.
+[02:24:19.380] It's just...
+[02:24:20.550] It's just not even worth looking at these anymore. It's very sad.
+[02:24:28.920] See?
+[02:24:29.700] Oh, man.
+[02:24:33.630] Anyway.
+[02:24:37.710] - Thank you.
+[02:24:42.900] Someone with a CI or something. I don't know. Yeah, it was just a random thing. I remember when the Svelte one first happened. I think I was at Theo's apartment, actually, when we first noticed it. We were talking about something, and we were trying to, you know, well, how popular is Svelte?
+[02:25:01.500] opened it up and it's just like, what the hell?
+[02:25:05.460] Okay.
+[02:25:06.810] - Thank you.
+[02:25:07.500] But yeah, I think that like
+[02:25:10.890] I don't know. Someone...  I think it was pretty intentional.  The timing of when those things happened.
+[02:25:17.070] Why is lit so high is a more interesting question.
+[02:25:21.480] Um,
+[02:25:23.010] Because you wouldn't necessarily expect it from any other kind of metric.
+[02:25:30.510] Right. I have wondered...
+[02:25:33.060] that
+[02:25:34.260] had angular core.  Yep.
+[02:25:36.300] I--
+[02:25:37.350] Yeah, you know, I missed this, but let's go back here.  Because I'm pretty sure, historically, AngularCore, I want to just do this and...
+[02:25:45.690] And, uh, Angular...
+[02:25:48.900] And
+[02:25:50.880] View.
+[02:25:52.920] have been almost...
+[02:25:54.570] Neck and neck.  Yeah, yeah.  Check it out.  They've always been like almost identical to...
+[02:25:59.850] except for that stupid spike.
+[02:26:01.710] Um,
+[02:26:03.090] over the years, like it's just, it's actually, this is one year, let's go five years.
+[02:26:07.770] Like, it's uncanny...
+[02:26:11.160] It's like the packages depend on each other, like how
+[02:26:15.930] exact their curve is on top of each other. Like if you don't believe me, like let's let's let's add react and
+[02:26:22.320] Like,
+[02:26:25.200] Add some other framework. What was the other one? Preact was the...
+[02:26:28.980] The next one.
+[02:26:30.240] on the smaller side.  It's just...
+[02:26:32.280] yeah
+[02:26:37.050] Amen.
+[02:26:47.520] Blazer, don't make me look up Blazer.
+[02:26:52.710] Uh...
+[02:26:57.060] yeah  it's always been
+[02:27:00.570] I mean...
+[02:27:01.260] It's a little bit bigger gap now, but classically,
+[02:27:04.770] Not even classically, I mean, five years, is that enough? All time?
+[02:27:10.770] Yeah, it's...
+[02:27:11.640] Enfying...
+[02:27:12.570] reacts just
+[02:27:13.860] dwarfed everyone else
+[02:27:16.020] And Angular and Vue have basically been the same.
+[02:27:20.460] other than stupid Spike.
+[02:27:22.080] Thank you.
+[02:27:24.900] It's interesting though, Preact has been making really good games the last couple years.
+[02:27:29.790] And the reason I say it's interesting is because their downloads have gone from
+[02:27:34.200] roughly say 500,000
+[02:27:36.420] to you know
+[02:27:37.770] 2 million.
+[02:27:39.120] Or...
+[02:27:40.170] A week?
+[02:27:41.070] Maybe...
+[02:27:41.730] two and a half almost.  But in the same period of time,  if we were to do like star history...
+[02:27:47.460] like on GitHub.
+[02:27:49.680] Thank you.
+[02:27:56.550] Preact.
+[02:28:00.030] Thank you.
+[02:28:00.960] Was it Preact...
+[02:28:04.440] JS Preact.
+[02:28:20.130] I mean, this looks like steady climb, but I need to put something else on that's grown faster during that time period.
+[02:28:28.050] Um...
+[02:28:29.250] Let's put Svelte on.  It's easier.
+[02:28:33.150] Alright, was it Svelte?
+[02:28:37.980] *sniff*
+[02:28:51.090] Let's do...
+[02:28:53.100] - S-Solid.
+[02:28:55.020] JS...
+[02:28:56.700] Solid.
+[02:29:00.480] Thank you.
+[02:29:07.290] and
+[02:29:08.640] Yeah, it's just kind of interesting that like...
+[02:29:14.730] Um,
+[02:29:17.670] the reception on the GitHub stars versus the downloads is in a
+[02:29:23.730] Like even...
+[02:29:25.080] Let's try Lit.
+[02:29:27.570] I don't even know what...
+[02:29:29.070] They're lit.
+[02:29:37.650] GitHub.
+[02:29:38.850] What's the repo?
+[02:29:40.020] It's lit lit.  Okay.  There you go.
+[02:29:43.260] Lit, lit.
+[02:29:45.930] I ran out of free. Okay, never mind.
+[02:29:48.960] Fun is over.
+[02:29:51.480] I'm not.
+[02:29:52.590] Thank you.
+[02:29:57.060] Vue was AngularJS2 at one point.
+[02:30:00.300] Yeah.
+[02:30:02.040] It's all art. Remix, yeah.
+[02:30:08.340] comparing meta framework isn't quite the same thing um
+[02:30:12.150] But yeah, anyway.
+[02:30:13.260] Enough fun with charts. I know everyone loves charts.
+[02:30:17.040] But...
+[02:30:17.910] I mean...
+[02:30:18.630] Thank you.
+[02:30:19.560] I don't... What it...
+[02:30:21.150] Thank you.
+[02:30:28.680] How do we know what the core remix library is?
+[02:30:34.050] that serve
+[02:30:43.980] You'd think it would be React, but like...
+[02:30:51.840] Yeah, I gotta remove some of these guys.
+[02:31:00.690] Okay, so they're about 150 people.
+[02:31:04.950] Thousand
+[02:31:06.840] That's pretty good.
+[02:31:11.250] - The first question is,
+[02:31:16.260] I prefer hitting InitTools to see how many new projects are being started. Interesting.
+[02:31:21.360] Right, so look at the actual... I mean, you would too, because that's the only way you can measure something like T3, right?
+[02:31:27.300] um
+[02:31:28.440] And for the meta-framework, that's...
+[02:31:30.660] more fair than like
+[02:31:32.160] looking at like the download,  like comparing remixed to these is not really a,
+[02:31:36.930] the same apples to apples thing, right?
+[02:31:41.160] Yeah, yeah, that's what I mean.  Like, if you're gonna go to the meta frameworks, it's a different comparison than, say, to Lit.
+[02:31:50.910] Fresh. I forgot about Fresh. Although, there was some big news around Fresh, wasn't there? I knew there was big news, I just didn't see it actually announced.
+[02:31:59.400] um
+[02:32:10.080] Fresh.
+[02:32:13.770] This is not gonna give me what I'm looking for. Um
+[02:32:17.190] I mean, I found Luca, which is cool, but...
+[02:32:22.860] I knew there was big news coming...
+[02:32:25.500] For fresh
+[02:32:27.690] but I haven't, I haven't actually... I'm gonna check off screen just to make sure that
+[02:32:32.610] It's actually announced
+[02:32:34.740] before I do anything.
+[02:32:47.220] Hmm...
+[02:33:00.420] It's all like old news and you guys all know what I'm talking about, but I don't know that it was actually a thing.
+[02:33:08.730] Yeah, it's so that.
+[02:33:15.420] Just... do do do do do do. Sorry, I'm like looking off screen.
+[02:33:31.920] It's like how long do I look at old Twitter posts? Sorry. I just was...
+[02:33:41.250] I mean, it's pretty obvious. Yeah, I think this is old news. Marvin Hagmester has been working on Fresh.
+[02:33:49.770] Recently, I think
+[02:33:51.480] I think everyone knows that, though.
+[02:33:53.250] From Preact?
+[02:33:54.900] Yeah, yeah. You knew exactly what I was...
+[02:33:57.360] What I was looking for.  Yeah, that was old news, wasn't it?
+[02:34:00.480] Yeah, I was given this information before it actually happened, but then I was away to actually see that it did actually happen.
+[02:34:15.600] Yeah.
+[02:34:18.990] Yeah, June 15th, yeah.
+[02:34:21.960] -
+[02:34:23.310] Which is very cool for that project. It means
+[02:34:26.160] Now there's actually...
+[02:34:29.010] you know,
+[02:34:30.300] more effort being put into the project. It's not just dropping off.
+[02:34:36.300] Anyway.
+[02:34:37.650] All good, all good, all good.
+[02:34:45.180] .
+[02:34:49.050] Yes, it is a VDOM in a sense.  And we're going to have the CraterMillion.js on.
+[02:34:56.730] on next Friday.
+[02:35:01.590] Thank you.
+[02:35:03.060] Anyway, um...
+[02:35:09.810] Yeah.
+[02:35:10.800] Bye.
+[02:35:12.720] I think that's mostly what I wanted to do today.
+[02:35:17.190] Well,
+[02:35:18.450] Okay.
+[02:35:20.160] Eat.
+[02:35:21.840] It depends on the core of the...
+[02:35:24.870] build system like obviously  Yeah, I mean if
+[02:35:28.530] if,  if Astro works a hundred percent on Dino,  then,  you know,  there,  there's definitely potential there.  Um,
+[02:35:35.910] Thank you.
+[02:35:37.770] I know it took a while to get beat and now with Astro. So yeah, if the core of the build system can be run completely on Dino, that's definitely interesting.
+[02:35:47.430] Sure, I'll pop this one up too.
+[02:35:52.680] Thank you.
+[02:36:09.540] I don't
+[02:36:11.580] Is it because they now support node APIs?
+[02:36:14.880] 'cause like I'm pretty sure I use a bunch of node APIs in our build processes. So if they support
+[02:36:21.900] build API or node APIs in Dino, then yeah, I guess it's definitely a possibility.
+[02:36:33.180] Thank you.
+[02:36:43.350] I have not been keeping up, but I'm glad to know that there's been movement in this area.
+[02:36:50.280] Very, very cool.
+[02:36:53.550] Okay.
+[02:36:54.390] -
+[02:36:55.590] I think I'm done for today. I'm just enjoying the chat here, but I do not have any more content.  And we will have more stuff coming with announcements, I think, next week.
+[02:37:08.430] Aiden joining us to talk about millions.  So I'm very excited for that and excited next week.  You guys.  Yeah.  So let's just call the stream early.
+[02:37:17.610] Like I told you I would.  And everyone have a great...
+[02:37:20.820] weekend.
+[02:37:23.130] Alright, see ya.
