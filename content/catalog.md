@@ -1,10 +1,12 @@
 # Content catalog
 
-Updated: 2026-09-23. Canonical inventory: [catalog.json](catalog.json). Processing queue and batch status: [TODO.md](../TODO.md).
+Updated: 2026-10-26. Canonical inventory: [catalog.json](catalog.json). Processing queue and batch status: [TODO.md](../TODO.md).
 
 **189 videos:** 142 Ryan Carniato streams and 47 guest appearances. **67 HackMD references.** Asset links reflect the current filesystem.
 
 The JSON catalog retains guest classifications, source metadata, and chapter titles with timestamps and YouTube links. Paths in JSON are relative to the repository root. Keep processing status in `TODO.md`; update this index and the catalog asset lists when assets change.
+
+Episode storage preserves readable transcripts and compact native word or piece timings. Schema version 2 of the JSON catalog lists timing files under `assets.wordTimings`; their `start` and `end` values are seconds, with speaker labels where available. Large provider response payloads have been replaced by these retained transcript assets. The 2025-07-25 episode includes a separate Soniox transcript and timing file alongside its existing transcript.
 
 ## Ryan Carniato streams
 

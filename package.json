@@ -10,6 +10,7 @@
   "type": "module",
   "scripts": {
     "as": "bun cli/commander.ts",
+    "compact:transcripts": "bun --no-env-file cli/compact-transcripts.ts",
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start",

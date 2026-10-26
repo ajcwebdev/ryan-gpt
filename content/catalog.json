@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-09-23",
+  "schemaVersion": 2,
+  "updatedAt": "2026-10-26",
   "pathBase": "repository-root",
-  "description": "Unified video and HackMD inventory. Current local metadata takes precedence over historical episode lists. Processing status is maintained in TODO.md. Chapters combine local summary headings with unique archival entries; sourceChapters preserves platform chapter metadata.",
+  "description": "Unified video and HackMD inventory. Current local metadata takes precedence over historical episode lists. Processing status is maintained in TODO.md. Chapters combine local summary headings with unique archival entries; sourceChapters preserves platform chapter metadata. Episode assets retain readable transcripts and native word or piece timings in seconds with optional speaker labels; provider response payloads are discarded after preservation checks.",
   "imports": {
     "guestVideoSource": {
       "sourceKind": "url_list",
@@ -588,8 +588,7 @@
         "prompts": [
           "content/youtube/2021/2021-09-04-first-look-at-dom-expressions/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-09-04-first-look-at-dom-expressions/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-09-04-first-look-at-dom-expressions/transcription.words.json"
         ],
         "summaries": [
@@ -938,8 +937,7 @@
         "prompts": [
           "content/youtube/2021/2021-09-11-streaming-solidjs-fine-grained-reactivity/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-09-11-streaming-solidjs-fine-grained-reactivity/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-09-11-streaming-solidjs-fine-grained-reactivity/transcription.words.json"
         ],
         "summaries": [
@@ -1221,8 +1219,7 @@
         "prompts": [
           "content/youtube/2021/2021-09-18-streaming-solidjs-context-async-suspense/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-09-18-streaming-solidjs-context-async-suspense/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-09-18-streaming-solidjs-context-async-suspense/transcription.words.json"
         ],
         "summaries": [
@@ -1483,8 +1480,7 @@
         "prompts": [
           "content/youtube/2021/2021-09-25-streaming-solidjs-server-rendering/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-09-25-streaming-solidjs-server-rendering/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-09-25-streaming-solidjs-server-rendering/transcription.words.json"
         ],
         "summaries": [
@@ -1797,8 +1793,7 @@
         "prompts": [
           "content/youtube/2021/2021-10-02-streaming-solidjs-first-look-at-astro/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-10-02-streaming-solidjs-first-look-at-astro/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-10-02-streaming-solidjs-first-look-at-astro/transcription.words.json"
         ],
         "summaries": [
@@ -2091,8 +2086,7 @@
         "prompts": [
           "content/youtube/2021/2021-10-09-streaming-solidjs-routing/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-10-09-streaming-solidjs-routing/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-10-09-streaming-solidjs-routing/transcription.words.json"
         ],
         "summaries": [
@@ -2382,8 +2376,7 @@
         "prompts": [
           "content/youtube/2021/2021-10-16-islands-partial-hydration-javascript-frameworks/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-10-16-islands-partial-hydration-javascript-frameworks/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-10-16-islands-partial-hydration-javascript-frameworks/transcription.words.json"
         ],
         "summaries": [
@@ -2693,8 +2686,7 @@
         "prompts": [
           "content/youtube/2021/2021-10-23-streaming-solidjs-benchmarking-and-custom-renderers/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-10-23-streaming-solidjs-benchmarking-and-custom-renderers/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-10-23-streaming-solidjs-benchmarking-and-custom-renderers/transcription.words.json"
         ],
         "summaries": [
@@ -3241,8 +3233,7 @@
         "prompts": [
           "content/youtube/2021/2021-10-30-2-way-binding-and-repl-diving/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-10-30-2-way-binding-and-repl-diving/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-10-30-2-way-binding-and-repl-diving/transcription.words.json"
         ],
         "summaries": [
@@ -3764,8 +3755,7 @@
         "prompts": [
           "content/youtube/2021/2021-11-13-netlify-and-vercel-and-cloudflare-oh-my/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-11-13-netlify-and-vercel-and-cloudflare-oh-my/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-11-13-netlify-and-vercel-and-cloudflare-oh-my/transcription.words.json"
         ],
         "summaries": [
@@ -3962,8 +3952,7 @@
         "prompts": [
           "content/youtube/2021/2021-11-20-streaming-solidjs-concurrent-rendering-without-a-virtual-dom/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-11-20-streaming-solidjs-concurrent-rendering-without-a-virtual-dom/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-11-20-streaming-solidjs-concurrent-rendering-without-a-virtual-dom/transcription.words.json"
         ],
         "summaries": [
@@ -4380,8 +4369,8 @@
         "prompts": [
           "content/youtube/2021/2021-12-04-a-first-look-at-remix/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-12-04-a-first-look-at-remix/result.json"
+        "wordTimings": [
+          "content/youtube/2021/2021-12-04-a-first-look-at-remix/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2021/2021-12-04-a-first-look-at-remix/2021-12-04-a-first-look-at-remix-prompt.md"
@@ -5020,8 +5009,8 @@
         "prompts": [
           "content/youtube/2021/2021-12-11-compilation-in-javascript-frameworks/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-12-11-compilation-in-javascript-frameworks/result.json"
+        "wordTimings": [
+          "content/youtube/2021/2021-12-11-compilation-in-javascript-frameworks/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2021/2021-12-11-compilation-in-javascript-frameworks/2021-12-11-compilation-in-javascript-frameworks.md"
@@ -5374,8 +5363,8 @@
         "prompts": [
           "content/youtube/2021/2021-12-18-streaming-html-solid-13-and-more/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-12-18-streaming-html-solid-13-and-more/result.json"
+        "wordTimings": [
+          "content/youtube/2021/2021-12-18-streaming-html-solid-13-and-more/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2021/2021-12-18-streaming-html-solid-13-and-more/2021-12-18-streaming-html-solid-13-and-more-prompt.md"
@@ -5522,8 +5511,7 @@
         "prompts": [
           "content/youtube/2021/2021-12-29-jsconf-india-the-future-is-reactive/prompt.md"
         ],
-        "results": [
-          "content/youtube/2021/2021-12-29-jsconf-india-the-future-is-reactive/transcription.json",
+        "wordTimings": [
           "content/youtube/2021/2021-12-29-jsconf-india-the-future-is-reactive/transcription.words.json"
         ],
         "summaries": [
@@ -5805,8 +5793,8 @@
         "prompts": [
           "content/youtube/2022/2022-01-08-petite-solid-lets-build-a-micro-view-library/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-01-08-petite-solid-lets-build-a-micro-view-library/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-01-08-petite-solid-lets-build-a-micro-view-library/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-01-08-petite-solid-lets-build-a-micro-view-library/2022-01-08-petite-solid-lets-build-a-micro-view-library-part-01.md"
@@ -6077,8 +6065,8 @@
         "prompts": [
           "content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-01-15-marko-the-most-underrated-js-framework/2022-01-15-marko-the-most-underrated-js-framework-part-01.md"
@@ -6415,8 +6403,8 @@
         "prompts": [
           "content/youtube/2022/2022-01-22-react-ssr-and-react-server-components/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-01-22-react-ssr-and-react-server-components/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-01-22-react-ssr-and-react-server-components/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-01-22-react-ssr-and-react-server-components/2022-01-22-react-ssr-and-react-server-components.md"
@@ -6971,8 +6959,8 @@
         "prompts": [
           "content/youtube/2022/2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf/2022-01-29-solid-three-custom-renderers-and-solidstart-w-nikhil-saraf-part-01.md"
@@ -7758,8 +7746,8 @@
         "prompts": [
           "content/youtube/2022/2022-02-05-lets-do-an-ama/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-02-05-lets-do-an-ama/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-02-05-lets-do-an-ama/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-02-05-lets-do-an-ama/2022-02-05-lets-do-an-ama.md"
@@ -8141,8 +8129,8 @@
         "prompts": [
           "content/youtube/2022/2022-02-12-exploring-qwik-the-resumable-framework/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-02-12-exploring-qwik-the-resumable-framework/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-02-12-exploring-qwik-the-resumable-framework/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-02-12-exploring-qwik-the-resumable-framework/2022-02-12-exploring-qwik-the-resumable-framework-part-01.md"
@@ -8613,8 +8601,8 @@
         "prompts": [
           "content/youtube/2022/2022-02-19-building-qwik-w-misko-hevery/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-02-19-building-qwik-w-misko-hevery/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-02-19-building-qwik-w-misko-hevery/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-02-19-building-qwik-w-misko-hevery/2022-02-19-building-qwik-w-misko-hevery-part-01.md"
@@ -9212,8 +9200,8 @@
           "content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings/prompt.md",
           "content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings/output-prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-03-05-building-marko-6-w-dylan-piercey-and-michael-rawlings/manifest.json"
@@ -9910,8 +9898,8 @@
         "prompts": [
           "content/youtube/2022/2022-03-12-looking-at-sveltekit/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-03-12-looking-at-sveltekit/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-03-12-looking-at-sveltekit/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-03-12-looking-at-sveltekit/2022-03-12-looking-at-sveltekit.md"
@@ -10231,8 +10219,8 @@
         "prompts": [
           "content/youtube/2022/2022-03-19-solidscript-using-compilation-for-syntax/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-03-19-solidscript-using-compilation-for-syntax/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-03-19-solidscript-using-compilation-for-syntax/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-03-19-solidscript-using-compilation-for-syntax/2022-03-19-solidscript-using-compilation-for-syntax.md"
@@ -10837,8 +10825,8 @@
         "prompts": [
           "content/youtube/2022/2022-03-26-lets-look-at-web-components/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-03-26-lets-look-at-web-components/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-03-26-lets-look-at-web-components/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-03-26-lets-look-at-web-components/2022-03-26-lets-look-at-web-components.md"
@@ -11500,8 +11488,8 @@
         "prompts": [
           "content/youtube/2022/2022-04-02-a-first-look-at-solidhack-submissions/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-04-02-a-first-look-at-solidhack-submissions/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-04-02-a-first-look-at-solidhack-submissions/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-04-02-a-first-look-at-solidhack-submissions/2022-04-02-a-first-look-at-solidhack-submissions.md"
@@ -11854,8 +11842,8 @@
         "prompts": [
           "content/youtube/2022/2022-04-09-astro-ssr-w-fred-k-schott/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-04-09-astro-ssr-w-fred-k-schott/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-04-09-astro-ssr-w-fred-k-schott/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-04-09-astro-ssr-w-fred-k-schott/2022-04-09-astro-ssr-w-fred-k-schott-part-01.md"
@@ -12263,8 +12251,8 @@
         "prompts": [
           "content/youtube/2022/2022-04-16-a-first-look-at-nextjs/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-04-16-a-first-look-at-nextjs/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-04-16-a-first-look-at-nextjs/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-04-16-a-first-look-at-nextjs/2022-04-16-a-first-look-at-nextjs-part-01.md"
@@ -13321,8 +13309,8 @@
         "prompts": [
           "content/youtube/2022/2022-04-30-breaking-down-hydration-wdan-jutan/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-04-30-breaking-down-hydration-wdan-jutan/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-04-30-breaking-down-hydration-wdan-jutan/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-04-30-breaking-down-hydration-wdan-jutan/2022-04-30-breaking-down-hydration-wdan-jutan-part-01.md"
@@ -13885,8 +13873,8 @@
         "prompts": [
           "content/youtube/2022/2022-05-07-building-solidjs-14/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-05-07-building-solidjs-14/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-05-07-building-solidjs-14/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-05-07-building-solidjs-14/2022-05-07-building-solidjs-14-part-01.md"
@@ -14346,8 +14334,8 @@
         "prompts": [
           "content/youtube/2022/2022-05-27-hydrogen-react-server-components-w-bret-little/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-05-27-hydrogen-react-server-components-w-bret-little/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-05-27-hydrogen-react-server-components-w-bret-little/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-05-27-hydrogen-react-server-components-w-bret-little/2022-05-27-hydrogen-react-server-components-w-bret-little-part-01.md"
@@ -14838,8 +14826,8 @@
         "prompts": [
           "content/youtube/2022/2022-06-03-solidjs-past-present-future/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-06-03-solidjs-past-present-future/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-06-03-solidjs-past-present-future/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-06-03-solidjs-past-present-future/2022-06-03-solidjs-past-present-future-part-01.md"
@@ -15483,8 +15471,8 @@
         "prompts": [
           "content/youtube/2022/2022-07-08-a-first-look-at-fresh/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-07-08-a-first-look-at-fresh/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-07-08-a-first-look-at-fresh/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-07-08-a-first-look-at-fresh/2022-07-08-a-first-look-at-fresh.md"
@@ -16009,8 +15997,8 @@
         "prompts": [
           "content/youtube/2022/2022-07-15-nested-routing-parallelized-data-fetching-w-ryan-turnquist/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-07-15-nested-routing-parallelized-data-fetching-w-ryan-turnquist/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-07-15-nested-routing-parallelized-data-fetching-w-ryan-turnquist/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-07-15-nested-routing-parallelized-data-fetching-w-ryan-turnquist/2022-07-15-nested-routing-parallelized-data-fetching-w-ryan-turnquist-part-01.md"
@@ -16777,8 +16765,8 @@
         "prompts": [
           "content/youtube/2022/2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida/2022-07-22-exploring-qwik-city-w-adam-bradley-manu-martnez-almeida.md"
@@ -17178,8 +17166,8 @@
         "prompts": [
           "content/youtube/2022/2022-07-29-looking-at-nuxt3/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-07-29-looking-at-nuxt3/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-07-29-looking-at-nuxt3/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-07-29-looking-at-nuxt3/2022-07-29-looking-at-nuxt3.md"
@@ -17656,8 +17644,8 @@
         "prompts": [
           "content/youtube/2022/2022-08-05-introducing-solidstart-w-nikhil-saraf/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-08-05-introducing-solidstart-w-nikhil-saraf/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-08-05-introducing-solidstart-w-nikhil-saraf/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-08-05-introducing-solidstart-w-nikhil-saraf/manifest.json"
@@ -18184,8 +18172,8 @@
         "prompts": [
           "content/youtube/2022/2022-08-19-exploring-11ty-with-zach-leatherman/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-08-19-exploring-11ty-with-zach-leatherman/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-08-19-exploring-11ty-with-zach-leatherman/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-08-19-exploring-11ty-with-zach-leatherman/manifest.json"
@@ -18568,8 +18556,8 @@
         "prompts": [
           "content/youtube/2022/2022-08-26-building-solidjs-15/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-08-26-building-solidjs-15/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-08-26-building-solidjs-15/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-08-26-building-solidjs-15/2022-08-26-building-solidjs-15.md"
@@ -19077,8 +19065,8 @@
         "prompts": [
           "content/youtube/2022/2022-09-03-react-the-most-prolific-javascript-framework/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-09-03-react-the-most-prolific-javascript-framework/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-09-03-react-the-most-prolific-javascript-framework/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-09-03-react-the-most-prolific-javascript-framework/2022-09-03-react-the-most-prolific-javascript-framework.md"
@@ -19516,8 +19504,8 @@
         "prompts": [
           "content/youtube/2022/2022-09-08-components-are-pure-overhead/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-09-08-components-are-pure-overhead/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-09-08-components-are-pure-overhead/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-09-08-components-are-pure-overhead/2022-09-08-components-are-pure-overhead.md"
@@ -19979,8 +19967,8 @@
         "prompts": [
           "content/youtube/2022/2022-09-10-building-a-ui-language-w-dylan-piercey/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-09-10-building-a-ui-language-w-dylan-piercey/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-09-10-building-a-ui-language-w-dylan-piercey/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-09-10-building-a-ui-language-w-dylan-piercey/manifest.json"
@@ -20492,8 +20480,8 @@
         "prompts": [
           "content/youtube/2022/2022-09-24-making-the-worlds-fastest-website-w-taylor-hunt/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-09-24-making-the-worlds-fastest-website-w-taylor-hunt/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-09-24-making-the-worlds-fastest-website-w-taylor-hunt/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-09-24-making-the-worlds-fastest-website-w-taylor-hunt/manifest.json"
@@ -20928,8 +20916,8 @@
         "prompts": [
           "content/youtube/2022/2022-09-30-corset-w-matthew-phillips/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-09-30-corset-w-matthew-phillips/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-09-30-corset-w-matthew-phillips/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-09-30-corset-w-matthew-phillips/manifest.json"
@@ -21777,8 +21765,8 @@
         "prompts": [
           "content/youtube/2022/2022-10-22-server-components-building-solidjs-v16/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-10-22-server-components-building-solidjs-v16/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-10-22-server-components-building-solidjs-v16/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-10-22-server-components-building-solidjs-v16/2022-10-22-server-components-building-solidjs-v16.md"
@@ -22606,8 +22594,8 @@
         "prompts": [
           "content/youtube/2022/2022-10-29-creating-a-vdom-less-renderer-with-preact-signals/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-10-29-creating-a-vdom-less-renderer-with-preact-signals/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-10-29-creating-a-vdom-less-renderer-with-preact-signals/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-10-29-creating-a-vdom-less-renderer-with-preact-signals/2022-10-29-creating-a-vdom-less-renderer-with-preact-signals.md"
@@ -23439,8 +23427,8 @@
         "prompts": [
           "content/youtube/2022/2022-11-23-this-month-in-javascript/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-11-23-this-month-in-javascript/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-11-23-this-month-in-javascript/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-11-23-this-month-in-javascript/2022-11-23-this-month-in-javascript.md"
@@ -24347,8 +24335,8 @@
         "prompts": [
           "content/youtube/2022/2022-12-03-building-web-uis-in-rust-w-greg-johnston/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-12-03-building-web-uis-in-rust-w-greg-johnston/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-12-03-building-web-uis-in-rust-w-greg-johnston/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-12-03-building-web-uis-in-rust-w-greg-johnston/manifest.json"
@@ -24854,8 +24842,8 @@
         "prompts": [
           "content/youtube/2022/2022-12-10-exploring-the-app-directory-in-next-13/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-12-10-exploring-the-app-directory-in-next-13/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-12-10-exploring-the-app-directory-in-next-13/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-12-10-exploring-the-app-directory-in-next-13/2022-12-10-exploring-the-app-directory-in-next-13.md"
@@ -25747,8 +25735,8 @@
         "prompts": [
           "content/youtube/2022/2022-12-17-learning-angular-w-minko-gechev/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-12-17-learning-angular-w-minko-gechev/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-12-17-learning-angular-w-minko-gechev/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2022/2022-12-17-learning-angular-w-minko-gechev/manifest.json"
@@ -26228,8 +26216,8 @@
         "prompts": [
           "content/youtube/2022/2022-12-19-reactivity-rendering/prompt.md"
         ],
-        "results": [
-          "content/youtube/2022/2022-12-19-reactivity-rendering/result.json"
+        "wordTimings": [
+          "content/youtube/2022/2022-12-19-reactivity-rendering/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2022/2022-12-19-reactivity-rendering/2022-12-19-reactivity-rendering-part-01.md"
@@ -26887,8 +26875,8 @@
         "prompts": [
           "content/youtube/2023/2023-01-07-javascript-frameworks-in-2023/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-01-07-javascript-frameworks-in-2023/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-01-07-javascript-frameworks-in-2023/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-01-07-javascript-frameworks-in-2023/2023-01-07-javascript-frameworks-in-2023.md"
@@ -27323,8 +27311,8 @@
         "prompts": [
           "content/youtube/2023/2023-01-14-first-look-at-liveviewjs-w-donnie-flood/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-01-14-first-look-at-liveviewjs-w-donnie-flood/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-01-14-first-look-at-liveviewjs-w-donnie-flood/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-01-14-first-look-at-liveviewjs-w-donnie-flood/manifest.json"
@@ -27767,8 +27755,8 @@
         "prompts": [
           "content/youtube/2023/2023-01-21-solidjs-in-react-reconciling-disparate-worlds/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-01-21-solidjs-in-react-reconciling-disparate-worlds/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-01-21-solidjs-in-react-reconciling-disparate-worlds/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-01-21-solidjs-in-react-reconciling-disparate-worlds/2023-01-21-solidjs-in-react-reconciling-disparate-worlds.md"
@@ -28268,8 +28256,8 @@
         "prompts": [
           "content/youtube/2023/2023-01-28-demystifying-solidjs-jsx/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-01-28-demystifying-solidjs-jsx/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-01-28-demystifying-solidjs-jsx/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-01-28-demystifying-solidjs-jsx/2023-01-28-demystifying-solidjs-jsx.md"
@@ -30601,8 +30589,8 @@
         "prompts": [
           "content/youtube/2023/2023-02-25-signals-in-angular-w-pawel-and-alex/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-02-25-signals-in-angular-w-pawel-and-alex/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-02-25-signals-in-angular-w-pawel-and-alex/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-02-25-signals-in-angular-w-pawel-and-alex/manifest.json"
@@ -31400,8 +31388,8 @@
         "prompts": [
           "content/youtube/2023/2023-03-04-this-week-in-javascript-signals/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-03-04-this-week-in-javascript-signals/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-03-04-this-week-in-javascript-signals/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-03-04-this-week-in-javascript-signals/2023-03-04-this-week-in-javascript-signals.md"
@@ -31990,8 +31978,8 @@
         "prompts": [
           "content/youtube/2023/2023-03-11-into-the-depths-with-server-components-and-functions/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-03-11-into-the-depths-with-server-components-and-functions/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-03-11-into-the-depths-with-server-components-and-functions/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-03-11-into-the-depths-with-server-components-and-functions/2023-03-11-into-the-depths-with-server-components-and-functions.md"
@@ -32466,8 +32454,8 @@
         "prompts": [
           "content/youtube/2023/2023-03-18-solidjs-the-hard-parts-w-dan-jutan/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-03-18-solidjs-the-hard-parts-w-dan-jutan/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-03-18-solidjs-the-hard-parts-w-dan-jutan/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-03-18-solidjs-the-hard-parts-w-dan-jutan/manifest.json"
@@ -32981,8 +32969,8 @@
         "prompts": [
           "content/youtube/2023/2023-03-25-signals-in-typescript-the-road-to-solid-v17/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-03-25-signals-in-typescript-the-road-to-solid-v17/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-03-25-signals-in-typescript-the-road-to-solid-v17/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-03-25-signals-in-typescript-the-road-to-solid-v17/2023-03-25-signals-in-typescript-the-road-to-solid-v17.md"
@@ -33368,8 +33356,8 @@
         "prompts": [
           "content/youtube/2023/2023-04-01-strict-mode-in-solidjs/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-04-01-strict-mode-in-solidjs/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-04-01-strict-mode-in-solidjs/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-04-01-strict-mode-in-solidjs/2023-04-01-strict-mode-in-solidjs-part-01.md"
@@ -34376,8 +34364,8 @@
         "prompts": [
           "content/youtube/2023/2023-04-21-going-fully-react-w-nikhil-saraf/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-04-21-going-fully-react-w-nikhil-saraf/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-04-21-going-fully-react-w-nikhil-saraf/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-04-21-going-fully-react-w-nikhil-saraf/manifest.json"
@@ -34967,8 +34955,8 @@
         "prompts": [
           "content/youtube/2023/2023-05-19-this-week-in-javascript-conferences/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-05-19-this-week-in-javascript-conferences/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-05-19-this-week-in-javascript-conferences/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-05-19-this-week-in-javascript-conferences/2023-05-19-this-week-in-javascript-conferences-part-01.md"
@@ -35287,8 +35275,8 @@
         "prompts": [
           "content/youtube/2023/2023-07-07-this-week-in-javascript-milk/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-07-07-this-week-in-javascript-milk/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-07-07-this-week-in-javascript-milk/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-07-07-this-week-in-javascript-milk/2023-07-07-this-week-in-javascript-milk-part-01.md"
@@ -35628,8 +35616,8 @@
         "prompts": [
           "content/youtube/2023/2023-07-15-exploring-millionjs-with-aiden-bai/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-07-15-exploring-millionjs-with-aiden-bai/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-07-15-exploring-millionjs-with-aiden-bai/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-07-15-exploring-millionjs-with-aiden-bai/manifest.json"
@@ -36240,8 +36228,8 @@
         "prompts": [
           "content/youtube/2023/2023-07-22-first-look-at-analog-w-brandon-roberts/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-07-22-first-look-at-analog-w-brandon-roberts/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-07-22-first-look-at-analog-w-brandon-roberts/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-07-22-first-look-at-analog-w-brandon-roberts/manifest.json"
@@ -36659,8 +36647,8 @@
         "prompts": [
           "content/youtube/2023/2023-08-12-mpas-vs-spas/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-08-12-mpas-vs-spas/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-08-12-mpas-vs-spas/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-08-12-mpas-vs-spas/2023-08-12-mpas-vs-spas-part-01.md"
@@ -37071,8 +37059,8 @@
         "prompts": [
           "content/youtube/2023/2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-08-18-a-first-look-at-redwoodjs-w-anthony-campolo/manifest.json"
@@ -37440,8 +37428,8 @@
         "prompts": [
           "content/youtube/2023/2023-08-25-building-astro-3-w-matthew-phillips/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-08-25-building-astro-3-w-matthew-phillips/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-08-25-building-astro-3-w-matthew-phillips/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-08-25-building-astro-3-w-matthew-phillips/manifest.json"
@@ -37823,8 +37811,8 @@
         "prompts": [
           "content/youtube/2023/2023-09-09-piecing-it-together-w-pooya-parsa/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-09-09-piecing-it-together-w-pooya-parsa/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-09-09-piecing-it-together-w-pooya-parsa/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-09-09-piecing-it-together-w-pooya-parsa/manifest.json"
@@ -38490,8 +38478,8 @@
         "prompts": [
           "content/youtube/2023/2023-09-16-evolving-isomorphic-data-fetching/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-09-16-evolving-isomorphic-data-fetching/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-09-16-evolving-isomorphic-data-fetching/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-09-16-evolving-isomorphic-data-fetching/2023-09-16-evolving-isomorphic-data-fetching-part-01.md"
@@ -39001,8 +38989,8 @@
         "prompts": [
           "content/youtube/2023/2023-09-23-introducing-vinxi-w-nikhil-saraf/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-09-23-introducing-vinxi-w-nikhil-saraf/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-09-23-introducing-vinxi-w-nikhil-saraf/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-09-23-introducing-vinxi-w-nikhil-saraf/manifest.json"
@@ -39491,8 +39479,8 @@
         "prompts": [
           "content/youtube/2023/2023-10-06-building-solidjs-v18/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-10-06-building-solidjs-v18/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-10-06-building-solidjs-v18/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-10-06-building-solidjs-v18/2023-10-06-building-solidjs-v18.md"
@@ -39889,8 +39877,8 @@
         "prompts": [
           "content/youtube/2023/2023-10-14-reactivity-runes-revolution-w-dominic-gannaway/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-10-14-reactivity-runes-revolution-w-dominic-gannaway/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-10-14-reactivity-runes-revolution-w-dominic-gannaway/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-10-14-reactivity-runes-revolution-w-dominic-gannaway/manifest.json"
@@ -40518,8 +40506,8 @@
         "prompts": [
           "content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-10-21-exploring-the-world-of-marko-w-michael-rawlings/manifest.json"
@@ -41071,8 +41059,8 @@
         "prompts": [
           "content/youtube/2023/2023-10-28-dive-into-solid-tauri-watila-fassina/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-10-28-dive-into-solid-tauri-watila-fassina/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-10-28-dive-into-solid-tauri-watila-fassina/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-10-28-dive-into-solid-tauri-watila-fassina/manifest.json"
@@ -42140,8 +42128,8 @@
         "prompts": [
           "content/youtube/2023/2023-11-04-dive-into-nativescript-wnathan-walker-ammar-ahmed/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-11-04-dive-into-nativescript-wnathan-walker-ammar-ahmed/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-11-04-dive-into-nativescript-wnathan-walker-ammar-ahmed/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-11-04-dive-into-nativescript-wnathan-walker-ammar-ahmed/manifest.json"
@@ -42666,8 +42654,8 @@
         "prompts": [
           "content/youtube/2023/2023-11-18-the-future-of-routing-w-tanner-linsley/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-11-18-the-future-of-routing-w-tanner-linsley/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-11-18-the-future-of-routing-w-tanner-linsley/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2023/2023-11-18-the-future-of-routing-w-tanner-linsley/manifest.json"
@@ -43225,8 +43213,8 @@
         "prompts": [
           "content/youtube/2023/2023-12-02-server-functions-server-actions/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-12-02-server-functions-server-actions/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-12-02-server-functions-server-actions/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-12-02-server-functions-server-actions/2023-12-02-server-functions-server-actions.md"
@@ -44130,8 +44118,8 @@
         "prompts": [
           "content/youtube/2023/2023-12-16-solidstart-the-shape-of-frameworks-to-come/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-12-16-solidstart-the-shape-of-frameworks-to-come/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-12-16-solidstart-the-shape-of-frameworks-to-come/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-12-16-solidstart-the-shape-of-frameworks-to-come/2023-12-16-solidstart-the-shape-of-frameworks-to-come.md"
@@ -44900,8 +44888,8 @@
         "prompts": [
           "content/youtube/2023/2023-12-20-javascript-vs-javascript-csr-ssr/prompt.md"
         ],
-        "results": [
-          "content/youtube/2023/2023-12-20-javascript-vs-javascript-csr-ssr/result.json"
+        "wordTimings": [
+          "content/youtube/2023/2023-12-20-javascript-vs-javascript-csr-ssr/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2023/2023-12-20-javascript-vs-javascript-csr-ssr/2023-12-20-javascript-vs-javascript-csr-ssr.md"
@@ -45089,8 +45077,8 @@
         "prompts": [
           "content/youtube/2024/2024-01-09-solidjs-30k-stars/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-01-09-solidjs-30k-stars/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-01-09-solidjs-30k-stars/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-01-09-solidjs-30k-stars/2024-01-09-solidjs-30k-stars-part-01.md"
@@ -45417,8 +45405,8 @@
         "prompts": [
           "content/youtube/2024/2024-01-13-javascript-frameworks-heading-into-2024/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-01-13-javascript-frameworks-heading-into-2024/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-01-13-javascript-frameworks-heading-into-2024/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-01-13-javascript-frameworks-heading-into-2024/2024-01-13-javascript-frameworks-heading-into-2024-part-01.md"
@@ -45941,8 +45929,8 @@
         "prompts": [
           "content/youtube/2024/2024-01-20-musing-on-html-partials/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-01-20-musing-on-html-partials/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-01-20-musing-on-html-partials/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-01-20-musing-on-html-partials/2024-01-20-musing-on-html-partials-part-01.md"
@@ -46502,8 +46490,8 @@
         "prompts": [
           "content/youtube/2024/2024-01-27-front-ends-existential-crisis/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-01-27-front-ends-existential-crisis/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-01-27-front-ends-existential-crisis/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-01-27-front-ends-existential-crisis/2024-01-27-front-ends-existential-crisis-part-01.md"
@@ -46936,8 +46924,8 @@
         "prompts": [
           "content/youtube/2024/2024-02-10-what-comes-after-graphql/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-02-10-what-comes-after-graphql/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-02-10-what-comes-after-graphql/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-02-10-what-comes-after-graphql/2024-02-10-what-comes-after-graphql-part-01.md"
@@ -47245,8 +47233,8 @@
         "prompts": [
           "content/youtube/2024/2024-02-17-dont-go-chasing-waterfalls/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-02-17-dont-go-chasing-waterfalls/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-02-17-dont-go-chasing-waterfalls/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-02-17-dont-go-chasing-waterfalls/2024-02-17-dont-go-chasing-waterfalls-part-01.md"
@@ -47653,8 +47641,8 @@
         "prompts": [
           "content/youtube/2024/2024-03-16-dive-into-astrodb-w-fred-k-schott/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-03-16-dive-into-astrodb-w-fred-k-schott/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-03-16-dive-into-astrodb-w-fred-k-schott/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2024/2024-03-16-dive-into-astrodb-w-fred-k-schott/manifest.json"
@@ -48155,8 +48143,8 @@
         "prompts": [
           "content/youtube/2024/2024-03-23-designing-signals-20/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-03-23-designing-signals-20/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-03-23-designing-signals-20/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-03-23-designing-signals-20/2024-03-23-designing-signals-20-part-01.md"
@@ -48641,8 +48629,8 @@
         "prompts": [
           "content/youtube/2024/2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2024/2024-04-12-wiz-behind-the-curtain-w-jatin-ramanathan/manifest.json"
@@ -49215,8 +49203,8 @@
         "prompts": [
           "content/youtube/2024/2024-04-20-ride-the-lightningjs-w-chris-lorenzo/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-04-20-ride-the-lightningjs-w-chris-lorenzo/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-04-20-ride-the-lightningjs-w-chris-lorenzo/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2024/2024-04-20-ride-the-lightningjs-w-chris-lorenzo/manifest.json"
@@ -49781,8 +49769,8 @@
         "prompts": [
           "content/youtube/2024/2024-05-25-we-are-so-back/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-05-25-we-are-so-back/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-05-25-we-are-so-back/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-05-25-we-are-so-back/2024-05-25-we-are-so-back-part-01.md"
@@ -50432,8 +50420,8 @@
         "prompts": [
           "content/youtube/2024/2024-06-29-the-art-of-suspense/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-06-29-the-art-of-suspense/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-06-29-the-art-of-suspense/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-06-29-the-art-of-suspense/2024-06-29-the-art-of-suspense.md"
@@ -50788,8 +50776,8 @@
         "prompts": [
           "content/youtube/2024/2024-07-13-exploring-reactivity/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-07-13-exploring-reactivity/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-07-13-exploring-reactivity/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-07-13-exploring-reactivity/2024-07-13-exploring-reactivity.md"
@@ -51140,8 +51128,8 @@
         "prompts": [
           "content/youtube/2024/2024-07-26-server-islands-w-matthew-phillips/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-07-26-server-islands-w-matthew-phillips/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-07-26-server-islands-w-matthew-phillips/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2024/2024-07-26-server-islands-w-matthew-phillips/manifest.json"
@@ -51509,8 +51497,8 @@
         "prompts": [
           "content/youtube/2024/2024-08-10-the-nature-of-hydration/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-08-10-the-nature-of-hydration/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-08-10-the-nature-of-hydration/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-08-10-the-nature-of-hydration/2024-08-10-the-nature-of-hydration.md"
@@ -52420,8 +52408,8 @@
         "prompts": [
           "content/youtube/2024/2024-08-17-revisiting-solidscript-reactive-compilation/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-08-17-revisiting-solidscript-reactive-compilation/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-08-17-revisiting-solidscript-reactive-compilation/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-08-17-revisiting-solidscript-reactive-compilation/2024-08-17-revisiting-solidscript-reactive-compilation.md"
@@ -52856,8 +52844,8 @@
         "prompts": [
           "content/youtube/2024/2024-09-07-whats-up-with-those-hydration-ids/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-09-07-whats-up-with-those-hydration-ids/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-09-07-whats-up-with-those-hydration-ids/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-09-07-whats-up-with-those-hydration-ids/2024-09-07-whats-up-with-those-hydration-ids.md"
@@ -53246,8 +53234,8 @@
         "prompts": [
           "content/youtube/2024/2024-09-21-what-the-head/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-09-21-what-the-head/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-09-21-what-the-head/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-09-21-what-the-head/2024-09-21-what-the-head.md"
@@ -54222,8 +54210,8 @@
         "prompts": [
           "content/youtube/2024/2024-10-12-we-should-probably-talk-about-web-components/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-10-12-we-should-probably-talk-about-web-components/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-10-12-we-should-probably-talk-about-web-components/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-10-12-we-should-probably-talk-about-web-components/2024-10-12-we-should-probably-talk-about-web-components.md"
@@ -55196,8 +55184,8 @@
         "prompts": [
           "content/youtube/2024/2024-10-19-are-there-that-many-ways-to-build-web-apps/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-10-19-are-there-that-many-ways-to-build-web-apps/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-10-19-are-there-that-many-ways-to-build-web-apps/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-10-19-are-there-that-many-ways-to-build-web-apps/2024-10-19-are-there-that-many-ways-to-build-web-apps.md"
@@ -55860,8 +55848,8 @@
         "prompts": [
           "content/youtube/2024/2024-11-09-mutable-signals-reactivitys-missing-link/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-11-09-mutable-signals-reactivitys-missing-link/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-11-09-mutable-signals-reactivitys-missing-link/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2024/2024-11-09-mutable-signals-reactivitys-missing-link/2024-11-09-mutable-signals-reactivitys-missing-link.md"
@@ -56515,8 +56503,8 @@
         "prompts": [
           "content/youtube/2024/2024-12-14-server-signals-w-dev-agrawal/prompt.md"
         ],
-        "results": [
-          "content/youtube/2024/2024-12-14-server-signals-w-dev-agrawal/result.json"
+        "wordTimings": [
+          "content/youtube/2024/2024-12-14-server-signals-w-dev-agrawal/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2024/2024-12-14-server-signals-w-dev-agrawal/manifest.json"
@@ -57245,8 +57233,8 @@
         "prompts": [
           "content/youtube/2025/2025-01-11-javascript-frameworks-heading-into-2025/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-01-11-javascript-frameworks-heading-into-2025/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-01-11-javascript-frameworks-heading-into-2025/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-01-11-javascript-frameworks-heading-into-2025/2025-01-11-javascript-frameworks-heading-into-2025.md"
@@ -57843,8 +57831,8 @@
         "prompts": [
           "content/youtube/2025/2025-01-25-fine-grained-rendering-in-depth/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-01-25-fine-grained-rendering-in-depth/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-01-25-fine-grained-rendering-in-depth/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-01-25-fine-grained-rendering-in-depth/2025-01-25-fine-grained-rendering-in-depth.md"
@@ -58017,8 +58005,8 @@
         "prompts": [
           "content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-01-28-building-js-framework-client-performance-tier-list/2025-01-28-building-js-framework-client-performance-tier-list.md"
@@ -58525,8 +58513,8 @@
         "prompts": [
           "content/youtube/2025/2025-02-15-signals-2-the-future-of-signals/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-02-15-signals-2-the-future-of-signals/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-02-15-signals-2-the-future-of-signals/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-02-15-signals-2-the-future-of-signals/2025-02-15-signals-2-the-future-of-signals.md"
@@ -59106,8 +59094,8 @@
         "prompts": [
           "content/youtube/2025/2025-02-22-one-stack-to-rule-them-all-w-tanner-linsley/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-02-22-one-stack-to-rule-them-all-w-tanner-linsley/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-02-22-one-stack-to-rule-them-all-w-tanner-linsley/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2025/2025-02-22-one-stack-to-rule-them-all-w-tanner-linsley/manifest.json"
@@ -59534,8 +59522,8 @@
         "prompts": [
           "content/youtube/2025/2025-04-11-a-first-look-at-alien-signals/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-04-11-a-first-look-at-alien-signals/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-04-11-a-first-look-at-alien-signals/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-04-11-a-first-look-at-alien-signals/2025-04-11-a-first-look-at-alien-signals.md"
@@ -60444,8 +60432,8 @@
         "prompts": [
           "content/youtube/2025/2025-05-02-designing-reactive-ssr/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-05-02-designing-reactive-ssr/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-05-02-designing-reactive-ssr/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-05-02-designing-reactive-ssr/2025-05-02-designing-reactive-ssr.md"
@@ -60476,8 +60464,8 @@
         "prompts": [
           "content/youtube/2025/2025-05-20-introduction-to-javascript-frameworks/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-05-20-introduction-to-javascript-frameworks/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-05-20-introduction-to-javascript-frameworks/transcription.words.json"
         ]
       },
       "sourceChapters": [
@@ -60542,8 +60530,8 @@
         "prompts": [
           "content/youtube/2025/2025-05-28-the-3-ways-javascript-frameworks-render-the-dom/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-05-28-the-3-ways-javascript-frameworks-render-the-dom/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-05-28-the-3-ways-javascript-frameworks-render-the-dom/transcription.words.json"
         ]
       },
       "sourceChapters": [
@@ -60923,8 +60911,8 @@
         "prompts": [
           "content/youtube/2025/2025-05-30-so-long-silicon-valley/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-05-30-so-long-silicon-valley/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-05-30-so-long-silicon-valley/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-05-30-so-long-silicon-valley/2025-05-30-so-long-silicon-valley.md"
@@ -61102,8 +61090,8 @@
         "prompts": [
           "content/youtube/2025/2025-07-02-what-every-react-developer-should-know-about-signals/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-07-02-what-every-react-developer-should-know-about-signals/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-07-02-what-every-react-developer-should-know-about-signals/transcription.words.json"
         ]
       },
       "sourceChapters": [
@@ -61286,8 +61274,8 @@
         "prompts": [
           "content/youtube/2025/2025-07-11-this-week-in-javascript-portland/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-07-11-this-week-in-javascript-portland/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-07-11-this-week-in-javascript-portland/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-07-11-this-week-in-javascript-portland/2025-07-11-this-week-in-javascript-portland.md"
@@ -61439,8 +61427,8 @@
         "prompts": [
           "content/youtube/2025/2025-07-18-mutable-signals-pt-2-solving-derivations/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-07-18-mutable-signals-pt-2-solving-derivations/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-07-18-mutable-signals-pt-2-solving-derivations/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-07-18-mutable-signals-pt-2-solving-derivations/2025-07-18-mutable-signals-pt-2-solving-derivations.md"
@@ -61469,14 +61457,15 @@
         ],
         "transcripts": [
           "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/transcription.txt",
-          "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/output-transcription.txt"
+          "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/output-transcription.txt",
+          "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/transcription.soniox.txt"
         ],
         "prompts": [
           "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/prompt.md",
           "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/output-prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-07-25-did-ai-write-this-summary-w-anthony-campolo/transcription.soniox.words.json"
         ]
       }
     },
@@ -61597,8 +61586,8 @@
         "prompts": [
           "content/youtube/2025/2025-08-26-designing-concurrent-transitions/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-08-26-designing-concurrent-transitions/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-08-26-designing-concurrent-transitions/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-08-26-designing-concurrent-transitions/2025-08-26-designing-concurrent-transitions.md"
@@ -61631,8 +61620,8 @@
         "prompts": [
           "content/youtube/2025/2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2025/2025-09-05-marko-6-fulfilling-the-promise-of-less-javascript-w-dylan-piercey/manifest.json"
@@ -61664,8 +61653,8 @@
         "prompts": [
           "content/youtube/2025/2025-09-26-innovating-react-w-ricky-hanlon/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-09-26-innovating-react-w-ricky-hanlon/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-09-26-innovating-react-w-ricky-hanlon/transcription.words.json"
         ],
         "manifests": [
           "content/youtube/2025/2025-09-26-innovating-react-w-ricky-hanlon/manifest.json"
@@ -61991,8 +61980,8 @@
         "prompts": [
           "content/youtube/2025/2025-10-10-this-week-in-javascript-conferences/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-10-10-this-week-in-javascript-conferences/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-10-10-this-week-in-javascript-conferences/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-10-10-this-week-in-javascript-conferences/2025-10-10-this-week-in-javascript-conferences.md"
@@ -62433,8 +62422,8 @@
         "prompts": [
           "content/youtube/2025/2025-11-22-designing-async-first-signals/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-11-22-designing-async-first-signals/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-11-22-designing-async-first-signals/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-11-22-designing-async-first-signals/2025-11-22-designing-async-first-signals.md"
@@ -62882,8 +62871,8 @@
         "prompts": [
           "content/youtube/2025/2025-12-19-the-art-of-time-slicing/prompt.md"
         ],
-        "results": [
-          "content/youtube/2025/2025-12-19-the-art-of-time-slicing/result.json"
+        "wordTimings": [
+          "content/youtube/2025/2025-12-19-the-art-of-time-slicing/transcription.words.json"
         ],
         "summaries": [
           "content/youtube/2025/2025-12-19-the-art-of-time-slicing/2025-12-19-the-art-of-time-slicing.md"
@@ -62916,8 +62905,7 @@
         "prompts": [
           "content/youtube/2026/2026-01-10-javascript-frameworks-heading-into-2026/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-01-10-javascript-frameworks-heading-into-2026/transcription.json",
+        "wordTimings": [
           "content/youtube/2026/2026-01-10-javascript-frameworks-heading-into-2026/transcription.words.json"
         ]
       },
@@ -63023,8 +63011,8 @@
         "prompts": [
           "content/youtube/2026/2026-02-07-sync-to-async/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-02-07-sync-to-async/result.json"
+        "wordTimings": [
+          "content/youtube/2026/2026-02-07-sync-to-async/transcription.words.json"
         ]
       },
       "sourceChapters": [
@@ -63267,8 +63255,7 @@
         "prompts": [
           "content/youtube/2026/2026-02-28-entering-the-age-of-ai-coding/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-02-28-entering-the-age-of-ai-coding/transcription.json",
+        "wordTimings": [
           "content/youtube/2026/2026-02-28-entering-the-age-of-ai-coding/transcription.words.json"
         ]
       },
@@ -63414,8 +63401,7 @@
         "prompts": [
           "content/youtube/2026/2026-03-06-breaking-solidjs-20-beta/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-03-06-breaking-solidjs-20-beta/transcription.json",
+        "wordTimings": [
           "content/youtube/2026/2026-03-06-breaking-solidjs-20-beta/transcription.words.json"
         ]
       },
@@ -63502,8 +63488,7 @@
         "prompts": [
           "content/youtube/2026/2026-03-20-the-physics-of-solid-20/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-03-20-the-physics-of-solid-20/transcription.json",
+        "wordTimings": [
           "content/youtube/2026/2026-03-20-the-physics-of-solid-20/transcription.words.json"
         ]
       },
@@ -63801,8 +63786,8 @@
         "prompts": [
           "content/youtube/2026/2026-04-17-solid-20-beta-refined/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-04-17-solid-20-beta-refined/result.json"
+        "wordTimings": [
+          "content/youtube/2026/2026-04-17-solid-20-beta-refined/transcription.words.json"
         ]
       },
       "sourceChapters": [
@@ -64035,8 +64020,8 @@
         "prompts": [
           "content/youtube/2026/2026-07-10-composing-time-compositional-async-in-solid-20/prompt.md"
         ],
-        "results": [
-          "content/youtube/2026/2026-07-10-composing-time-compositional-async-in-solid-20/result.json"
+        "wordTimings": [
+          "content/youtube/2026/2026-07-10-composing-time-compositional-async-in-solid-20/transcription.words.json"
         ]
       },
       "sourceChapters": [
